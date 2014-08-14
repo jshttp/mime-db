@@ -1,0 +1,36 @@
+{
+  "name": "mime-db",
+  "description": "Media Type Database",
+  "version": "0.0.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": "jshttp/mime-db",
+  "devDependencies": {
+    "stream-to-array": "2",
+    "csv-parse": "0",
+    "cogent": "1",
+    "mocha": "1",
+    "co": "3"
+  },
+  "scripts": {
+    "update": "node --harmony-generators scripts/extensions; node --harmony-generators scripts/types; node scripts/build",
+    "clean": "rm src/*",
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "mime",
+    "db",
+    "type",
+    "types",
+    "database",
+    "charset",
+    "charsets"
+  ],
+  "main": "db.json",
+  "files": ["db.json"]
+}

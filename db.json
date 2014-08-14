@@ -1,0 +1,6752 @@
+{
+  "application/1d-interleaved-parityfec": {},
+  "application/3gpdash-qoe-report+xml": {
+    "compressible": true
+  },
+  "application/3gpp-ims+xml": {
+    "compressible": true
+  },
+  "application/activemessage": {},
+  "application/alto-costmap+json": {
+    "compressible": true
+  },
+  "application/alto-costmapfilter+json": {
+    "compressible": true
+  },
+  "application/alto-directory+json": {
+    "compressible": true
+  },
+  "application/alto-endpointcost+json": {
+    "compressible": true
+  },
+  "application/alto-endpointcostparams+json": {
+    "compressible": true
+  },
+  "application/alto-endpointprop+json": {
+    "compressible": true
+  },
+  "application/alto-endpointpropparams+json": {
+    "compressible": true
+  },
+  "application/alto-error+json": {
+    "compressible": true
+  },
+  "application/alto-networkmap+json": {
+    "compressible": true
+  },
+  "application/alto-networkmapfilter+json": {
+    "compressible": true
+  },
+  "application/andrew-inset": {
+    "extensions": [
+      "ez"
+    ]
+  },
+  "application/applefile": {},
+  "application/applixware": {
+    "extensions": [
+      "aw"
+    ]
+  },
+  "application/atom+xml": {
+    "extensions": [
+      "atom"
+    ],
+    "compressible": true
+  },
+  "application/atomcat+xml": {
+    "extensions": [
+      "atomcat"
+    ],
+    "compressible": true
+  },
+  "application/atomdeleted+xml": {
+    "compressible": true
+  },
+  "application/atomicmail": {},
+  "application/atomsvc+xml": {
+    "extensions": [
+      "atomsvc"
+    ],
+    "compressible": true
+  },
+  "application/auth-policy+xml": {
+    "compressible": true
+  },
+  "application/bacnet-xdd+zip": {},
+  "application/batch-smtp": {},
+  "application/beep+xml": {
+    "compressible": true
+  },
+  "application/calendar+json": {
+    "compressible": true
+  },
+  "application/calendar+xml": {
+    "compressible": true
+  },
+  "application/call-completion": {},
+  "application/cals-1840": {},
+  "application/cbor": {},
+  "application/ccmp+xml": {
+    "compressible": true
+  },
+  "application/ccxml+xml": {
+    "extensions": [
+      "ccxml"
+    ],
+    "compressible": true
+  },
+  "application/cdmi-capability": {
+    "extensions": [
+      "cdmia"
+    ]
+  },
+  "application/cdmi-container": {
+    "extensions": [
+      "cdmic"
+    ]
+  },
+  "application/cdmi-domain": {
+    "extensions": [
+      "cdmid"
+    ]
+  },
+  "application/cdmi-object": {
+    "extensions": [
+      "cdmio"
+    ]
+  },
+  "application/cdmi-queue": {
+    "extensions": [
+      "cdmiq"
+    ]
+  },
+  "application/cea-2018+xml": {
+    "compressible": true
+  },
+  "application/cellml+xml": {
+    "compressible": true
+  },
+  "application/cfw": {},
+  "application/cms": {},
+  "application/cnrp+xml": {
+    "compressible": true
+  },
+  "application/commonground": {},
+  "application/conference-info+xml": {
+    "compressible": true
+  },
+  "application/cpl+xml": {
+    "compressible": true
+  },
+  "application/csrattrs": {},
+  "application/csta+xml": {
+    "compressible": true
+  },
+  "application/cstadata+xml": {
+    "compressible": true
+  },
+  "application/cu-seeme": {
+    "extensions": [
+      "cu"
+    ]
+  },
+  "application/cybercash": {},
+  "application/dart": {
+    "compressible": true
+  },
+  "application/dash+xml": {
+    "extensions": [
+      "mdp"
+    ],
+    "compressible": true
+  },
+  "application/dashdelta": {},
+  "application/davmount+xml": {
+    "extensions": [
+      "davmount"
+    ],
+    "compressible": true
+  },
+  "application/dca-rft": {},
+  "application/dec-dx": {},
+  "application/dialog-info+xml": {
+    "compressible": true
+  },
+  "application/dicom": {},
+  "application/dns": {},
+  "application/docbook+xml": {
+    "extensions": [
+      "dbk"
+    ],
+    "compressible": true
+  },
+  "application/dskpp+xml": {
+    "compressible": true
+  },
+  "application/dssc+der": {
+    "extensions": [
+      "dssc"
+    ]
+  },
+  "application/dssc+xml": {
+    "extensions": [
+      "xdssc"
+    ],
+    "compressible": true
+  },
+  "application/dvcs": {},
+  "application/ecmascript": {
+    "extensions": [
+      "ecma"
+    ],
+    "compressible": true
+  },
+  "application/edi-consent": {},
+  "application/edi-x12": {
+    "compressible": false
+  },
+  "application/edifact": {
+    "compressible": false
+  },
+  "application/emma+xml": {
+    "extensions": [
+      "emma"
+    ],
+    "compressible": true
+  },
+  "application/emotionml+xml": {
+    "compressible": true
+  },
+  "application/encaprtp": {},
+  "application/epp+xml": {
+    "compressible": true
+  },
+  "application/epub+zip": {
+    "extensions": [
+      "epub"
+    ]
+  },
+  "application/eshop": {},
+  "application/example": {},
+  "application/exi": {
+    "extensions": [
+      "exi"
+    ]
+  },
+  "application/fastinfoset": {},
+  "application/fastsoap": {},
+  "application/fdt+xml": {
+    "compressible": true
+  },
+  "application/fits": {},
+  "application/font-sfnt": {},
+  "application/font-tdpfr": {
+    "extensions": [
+      "pfr"
+    ]
+  },
+  "application/font-woff": {
+    "extensions": [
+      "woff"
+    ],
+    "compressible": false
+  },
+  "application/framework-attributes+xml": {
+    "compressible": true
+  },
+  "application/gml+xml": {
+    "extensions": [
+      "gml"
+    ],
+    "compressible": true
+  },
+  "application/gpx+xml": {
+    "extensions": [
+      "gpx"
+    ],
+    "compressible": true
+  },
+  "application/gxf": {
+    "extensions": [
+      "gxf"
+    ]
+  },
+  "application/gzip": {
+    "compressible": false
+  },
+  "application/h224": {},
+  "application/held+xml": {
+    "compressible": true
+  },
+  "application/http": {},
+  "application/hyperstudio": {
+    "extensions": [
+      "stk"
+    ]
+  },
+  "application/ibe-key-request+xml": {
+    "compressible": true
+  },
+  "application/ibe-pkg-reply+xml": {
+    "compressible": true
+  },
+  "application/ibe-pp-data": {},
+  "application/iges": {},
+  "application/im-iscomposing+xml": {
+    "compressible": true
+  },
+  "application/index": {},
+  "application/index.cmd": {},
+  "application/index.obj": {},
+  "application/index.response": {},
+  "application/index.vnd": {},
+  "application/inkml+xml": {
+    "extensions": [
+      "ink",
+      "inkml"
+    ],
+    "compressible": true
+  },
+  "application/iotp": {},
+  "application/ipfix": {
+    "extensions": [
+      "ipfix"
+    ]
+  },
+  "application/ipp": {},
+  "application/isup": {},
+  "application/its+xml": {
+    "compressible": true
+  },
+  "application/java-archive": {
+    "extensions": [
+      "jar"
+    ],
+    "compressible": false
+  },
+  "application/java-serialized-object": {
+    "extensions": [
+      "ser"
+    ],
+    "compressible": false
+  },
+  "application/java-vm": {
+    "extensions": [
+      "class"
+    ],
+    "compressible": false
+  },
+  "application/javascript": {
+    "extensions": [
+      "js"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "application/jrd+json": {
+    "compressible": true
+  },
+  "application/json": {
+    "extensions": [
+      "json",
+      "map"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "application/json-patch+json": {
+    "compressible": true
+  },
+  "application/jsonml+json": {
+    "extensions": [
+      "jsonml"
+    ],
+    "compressible": true
+  },
+  "application/kpml-request+xml": {
+    "compressible": true
+  },
+  "application/kpml-response+xml": {
+    "compressible": true
+  },
+  "application/ld+json": {
+    "compressible": true
+  },
+  "application/link-format": {},
+  "application/load-control+xml": {
+    "compressible": true
+  },
+  "application/lost+xml": {
+    "extensions": [
+      "lostxml"
+    ],
+    "compressible": true
+  },
+  "application/lostsync+xml": {
+    "compressible": true
+  },
+  "application/mac-binhex40": {
+    "extensions": [
+      "hqx"
+    ]
+  },
+  "application/mac-compactpro": {
+    "extensions": [
+      "cpt"
+    ]
+  },
+  "application/macwriteii": {},
+  "application/mads+xml": {
+    "extensions": [
+      "mads"
+    ],
+    "compressible": true
+  },
+  "application/marc": {
+    "extensions": [
+      "mrc"
+    ]
+  },
+  "application/marcxml+xml": {
+    "extensions": [
+      "mrcx"
+    ],
+    "compressible": true
+  },
+  "application/mathematica": {
+    "extensions": [
+      "ma",
+      "nb",
+      "mb"
+    ]
+  },
+  "application/mathml+xml": {
+    "extensions": [
+      "mathml"
+    ],
+    "compressible": true
+  },
+  "application/mathml-content+xml": {
+    "compressible": true
+  },
+  "application/mathml-presentation+xml": {
+    "compressible": true
+  },
+  "application/mbms-associated-procedure-description+xml": {
+    "compressible": true
+  },
+  "application/mbms-deregister+xml": {
+    "compressible": true
+  },
+  "application/mbms-envelope+xml": {
+    "compressible": true
+  },
+  "application/mbms-msk+xml": {
+    "compressible": true
+  },
+  "application/mbms-msk-response+xml": {
+    "compressible": true
+  },
+  "application/mbms-protection-description+xml": {
+    "compressible": true
+  },
+  "application/mbms-reception-report+xml": {
+    "compressible": true
+  },
+  "application/mbms-register+xml": {
+    "compressible": true
+  },
+  "application/mbms-register-response+xml": {
+    "compressible": true
+  },
+  "application/mbms-schedule+xml": {
+    "compressible": true
+  },
+  "application/mbms-user-service-description+xml": {
+    "compressible": true
+  },
+  "application/mbox": {
+    "extensions": [
+      "mbox"
+    ]
+  },
+  "application/mbox+xml": {
+    "compressible": true
+  },
+  "application/media-policy-dataset+xml": {
+    "compressible": true
+  },
+  "application/media_control+xml": {
+    "compressible": true
+  },
+  "application/mediaservercontrol+xml": {
+    "extensions": [
+      "mscml"
+    ],
+    "compressible": true
+  },
+  "application/metalink+xml": {
+    "extensions": [
+      "metalink"
+    ],
+    "compressible": true
+  },
+  "application/metalink4+xml": {
+    "extensions": [
+      "meta4"
+    ],
+    "compressible": true
+  },
+  "application/mets+xml": {
+    "extensions": [
+      "mets"
+    ],
+    "compressible": true
+  },
+  "application/mikey": {},
+  "application/mods+xml": {
+    "extensions": [
+      "mods"
+    ],
+    "compressible": true
+  },
+  "application/moss-keys": {},
+  "application/moss-signature": {},
+  "application/mosskey-data": {},
+  "application/mosskey-request": {},
+  "application/mp21": {
+    "extensions": [
+      "m21",
+      "mp21"
+    ]
+  },
+  "application/mp4": {
+    "extensions": [
+      "mp4s",
+      "m4p"
+    ]
+  },
+  "application/mpeg4-generic": {},
+  "application/mpeg4-iod": {},
+  "application/mpeg4-iod-xmt": {},
+  "application/mrb-consumer+xml": {
+    "compressible": true
+  },
+  "application/mrb-publish+xml": {
+    "compressible": true
+  },
+  "application/msc-ivr+xml": {
+    "compressible": true
+  },
+  "application/msc-mixer+xml": {
+    "compressible": true
+  },
+  "application/msword": {
+    "extensions": [
+      "doc",
+      "dot"
+    ],
+    "compressible": false
+  },
+  "application/mxf": {
+    "extensions": [
+      "mxf"
+    ]
+  },
+  "application/nasdata": {},
+  "application/news-checkgroups": {},
+  "application/news-groupinfo": {},
+  "application/news-transmission": {},
+  "application/nlsml+xml": {
+    "compressible": true
+  },
+  "application/nss": {},
+  "application/ocsp-request": {},
+  "application/ocsp-response": {},
+  "application/octet-stream": {
+    "extensions": [
+      "bin",
+      "dms",
+      "lrf",
+      "mar",
+      "so",
+      "dist",
+      "distz",
+      "pkg",
+      "bpk",
+      "dump",
+      "elc",
+      "deploy",
+      "buffer"
+    ],
+    "compressible": false
+  },
+  "application/oda": {
+    "extensions": [
+      "oda"
+    ]
+  },
+  "application/odx": {},
+  "application/oebps-package+xml": {
+    "extensions": [
+      "opf"
+    ],
+    "compressible": true
+  },
+  "application/ogg": {
+    "extensions": [
+      "ogx"
+    ],
+    "compressible": false
+  },
+  "application/omdoc+xml": {
+    "extensions": [
+      "omdoc"
+    ],
+    "compressible": true
+  },
+  "application/onenote": {
+    "extensions": [
+      "onetoc",
+      "onetoc2",
+      "onetmp",
+      "onepkg"
+    ]
+  },
+  "application/oscp-response": {},
+  "application/oxps": {
+    "extensions": [
+      "oxps"
+    ]
+  },
+  "application/p2p-overlay+xml": {
+    "compressible": true
+  },
+  "application/parityfec": {},
+  "application/patch-ops-error+xml": {
+    "extensions": [
+      "xer"
+    ],
+    "compressible": true
+  },
+  "application/pdf": {
+    "extensions": [
+      "pdf"
+    ],
+    "compressible": false
+  },
+  "application/pdx": {},
+  "application/pgp-encrypted": {
+    "extensions": [
+      "pgp"
+    ],
+    "compressible": false
+  },
+  "application/pgp-keys": {},
+  "application/pgp-signature": {
+    "extensions": [
+      "asc",
+      "sig"
+    ]
+  },
+  "application/pics-rules": {
+    "extensions": [
+      "prf"
+    ]
+  },
+  "application/pidf+xml": {
+    "compressible": true
+  },
+  "application/pidf-diff+xml": {
+    "compressible": true
+  },
+  "application/pkcs10": {
+    "extensions": [
+      "p10"
+    ]
+  },
+  "application/pkcs7-mime": {
+    "extensions": [
+      "p7m",
+      "p7c"
+    ]
+  },
+  "application/pkcs7-signature": {
+    "extensions": [
+      "p7s"
+    ]
+  },
+  "application/pkcs8": {
+    "extensions": [
+      "p8"
+    ]
+  },
+  "application/pkix-attr-cert": {
+    "extensions": [
+      "ac"
+    ]
+  },
+  "application/pkix-cert": {
+    "extensions": [
+      "cer"
+    ]
+  },
+  "application/pkix-crl": {
+    "extensions": [
+      "crl"
+    ]
+  },
+  "application/pkix-pkipath": {
+    "extensions": [
+      "pkipath"
+    ]
+  },
+  "application/pkixcmp": {
+    "extensions": [
+      "pki"
+    ]
+  },
+  "application/pls+xml": {
+    "extensions": [
+      "pls"
+    ],
+    "compressible": true
+  },
+  "application/poc-settings+xml": {
+    "compressible": true
+  },
+  "application/postscript": {
+    "extensions": [
+      "ai",
+      "eps",
+      "ps"
+    ],
+    "compressible": true
+  },
+  "application/provenance+xml": {
+    "compressible": true
+  },
+  "application/prs.alvestrand.titrax-sheet": {},
+  "application/prs.cww": {
+    "extensions": [
+      "cww"
+    ]
+  },
+  "application/prs.hpub+zip": {},
+  "application/prs.nprend": {},
+  "application/prs.plucker": {},
+  "application/prs.rdf-xml-crypt": {
+    "compressible": true
+  },
+  "application/prs.xsf+xml": {
+    "compressible": true
+  },
+  "application/pskc+xml": {
+    "extensions": [
+      "pskcxml"
+    ],
+    "compressible": true
+  },
+  "application/qsig": {},
+  "application/raptorfec": {},
+  "application/rdf+xml": {
+    "extensions": [
+      "rdf"
+    ],
+    "compressible": true
+  },
+  "application/reginfo+xml": {
+    "extensions": [
+      "rif"
+    ],
+    "compressible": true
+  },
+  "application/relax-ng-compact-syntax": {
+    "extensions": [
+      "rnc"
+    ]
+  },
+  "application/remote-printing": {},
+  "application/reputon+json": {
+    "compressible": true
+  },
+  "application/resource-lists+xml": {
+    "extensions": [
+      "rl"
+    ],
+    "compressible": true
+  },
+  "application/resource-lists-diff+xml": {
+    "extensions": [
+      "rld"
+    ],
+    "compressible": true
+  },
+  "application/riscos": {},
+  "application/rlmi+xml": {
+    "compressible": true
+  },
+  "application/rls-services+xml": {
+    "extensions": [
+      "rs"
+    ],
+    "compressible": true
+  },
+  "application/rpki-ghostbusters": {
+    "extensions": [
+      "gbr"
+    ]
+  },
+  "application/rpki-manifest": {
+    "extensions": [
+      "mft"
+    ]
+  },
+  "application/rpki-roa": {
+    "extensions": [
+      "roa"
+    ]
+  },
+  "application/rpki-updown": {},
+  "application/rsd+xml": {
+    "extensions": [
+      "rsd"
+    ],
+    "compressible": true
+  },
+  "application/rss+xml": {
+    "extensions": [
+      "rss"
+    ],
+    "compressible": true
+  },
+  "application/rtf": {
+    "extensions": [
+      "rtf"
+    ],
+    "compressible": true
+  },
+  "application/rtploopback": {},
+  "application/rtx": {},
+  "application/samlassertion+xml": {
+    "compressible": true
+  },
+  "application/samlmetadata+xml": {
+    "compressible": true
+  },
+  "application/sbml+xml": {
+    "extensions": [
+      "sbml"
+    ],
+    "compressible": true
+  },
+  "application/scaip+xml": {
+    "compressible": true
+  },
+  "application/scvp-cv-request": {
+    "extensions": [
+      "scq"
+    ]
+  },
+  "application/scvp-cv-response": {
+    "extensions": [
+      "scs"
+    ]
+  },
+  "application/scvp-vp-request": {
+    "extensions": [
+      "spq"
+    ]
+  },
+  "application/scvp-vp-response": {
+    "extensions": [
+      "spp"
+    ]
+  },
+  "application/sdp": {
+    "extensions": [
+      "sdp"
+    ]
+  },
+  "application/sep+xml": {
+    "compressible": true
+  },
+  "application/sep-exi": {},
+  "application/session-info": {},
+  "application/set-payment": {},
+  "application/set-payment-initiation": {
+    "extensions": [
+      "setpay"
+    ]
+  },
+  "application/set-registration": {},
+  "application/set-registration-initiation": {
+    "extensions": [
+      "setreg"
+    ]
+  },
+  "application/sgml": {},
+  "application/sgml-open-catalog": {},
+  "application/shf+xml": {
+    "extensions": [
+      "shf"
+    ],
+    "compressible": true
+  },
+  "application/sieve": {},
+  "application/simple-filter+xml": {
+    "compressible": true
+  },
+  "application/simple-message-summary": {},
+  "application/simplesymbolcontainer": {},
+  "application/slate": {},
+  "application/smil": {},
+  "application/smil+xml": {
+    "extensions": [
+      "smi",
+      "smil"
+    ],
+    "compressible": true
+  },
+  "application/smpte336m": {},
+  "application/soap+fastinfoset": {},
+  "application/soap+xml": {
+    "compressible": true
+  },
+  "application/sparql-query": {
+    "extensions": [
+      "rq"
+    ]
+  },
+  "application/sparql-results+xml": {
+    "extensions": [
+      "srx"
+    ],
+    "compressible": true
+  },
+  "application/spirits-event+xml": {
+    "compressible": true
+  },
+  "application/sql": {},
+  "application/srgs": {
+    "extensions": [
+      "gram"
+    ]
+  },
+  "application/srgs+xml": {
+    "extensions": [
+      "grxml"
+    ],
+    "compressible": true
+  },
+  "application/sru+xml": {
+    "extensions": [
+      "sru"
+    ],
+    "compressible": true
+  },
+  "application/ssdl+xml": {
+    "extensions": [
+      "ssdl"
+    ],
+    "compressible": true
+  },
+  "application/ssml+xml": {
+    "extensions": [
+      "ssml"
+    ],
+    "compressible": true
+  },
+  "application/tamp-apex-update": {},
+  "application/tamp-apex-update-confirm": {},
+  "application/tamp-community-update": {},
+  "application/tamp-community-update-confirm": {},
+  "application/tamp-error": {},
+  "application/tamp-sequence-adjust": {},
+  "application/tamp-sequence-adjust-confirm": {},
+  "application/tamp-status-query": {},
+  "application/tamp-status-response": {},
+  "application/tamp-update": {},
+  "application/tamp-update-confirm": {},
+  "application/tar": {
+    "compressible": true
+  },
+  "application/tei+xml": {
+    "extensions": [
+      "tei",
+      "teicorpus"
+    ],
+    "compressible": true
+  },
+  "application/thraud+xml": {
+    "extensions": [
+      "tfi"
+    ],
+    "compressible": true
+  },
+  "application/timestamp-query": {},
+  "application/timestamp-reply": {},
+  "application/timestamped-data": {
+    "extensions": [
+      "tsd"
+    ]
+  },
+  "application/ttml+xml": {
+    "compressible": true
+  },
+  "application/tve-trigger": {},
+  "application/ulpfec": {},
+  "application/urc-grpsheet+xml": {
+    "compressible": true
+  },
+  "application/urc-ressheet+xml": {
+    "compressible": true
+  },
+  "application/urc-targetdesc+xml": {
+    "compressible": true
+  },
+  "application/urc-uisocketdesc+xml": {
+    "compressible": true
+  },
+  "application/vcard+json": {
+    "compressible": true
+  },
+  "application/vcard+xml": {
+    "compressible": true
+  },
+  "application/vemmi": {},
+  "application/vividence.scriptfile": {},
+  "application/vnd-acucobol": {},
+  "application/vnd-curl": {},
+  "application/vnd-dart": {},
+  "application/vnd-dxr": {},
+  "application/vnd-fdf": {},
+  "application/vnd-mif": {},
+  "application/vnd-sema": {},
+  "application/vnd-wap-wmlc": {},
+  "application/vnd.3gpp.bsf+xml": {
+    "compressible": true
+  },
+  "application/vnd.3gpp.pic-bw-large": {
+    "extensions": [
+      "plb"
+    ]
+  },
+  "application/vnd.3gpp.pic-bw-small": {
+    "extensions": [
+      "psb"
+    ]
+  },
+  "application/vnd.3gpp.pic-bw-var": {
+    "extensions": [
+      "pvb"
+    ]
+  },
+  "application/vnd.3gpp.sms": {},
+  "application/vnd.3gpp2.bcmcsinfo+xml": {
+    "compressible": true
+  },
+  "application/vnd.3gpp2.sms": {},
+  "application/vnd.3gpp2.tcap": {
+    "extensions": [
+      "tcap"
+    ]
+  },
+  "application/vnd.3m.post-it-notes": {
+    "extensions": [
+      "pwn"
+    ]
+  },
+  "application/vnd.accpac.simply.aso": {
+    "extensions": [
+      "aso"
+    ]
+  },
+  "application/vnd.accpac.simply.imp": {
+    "extensions": [
+      "imp"
+    ]
+  },
+  "application/vnd.acucobol": {
+    "extensions": [
+      "acu"
+    ]
+  },
+  "application/vnd.acucorp": {
+    "extensions": [
+      "atc",
+      "acutc"
+    ]
+  },
+  "application/vnd.adobe.air-application-installer-package+zip": {
+    "extensions": [
+      "air"
+    ]
+  },
+  "application/vnd.adobe.flash-movie": {},
+  "application/vnd.adobe.formscentral.fcdt": {
+    "extensions": [
+      "fcdt"
+    ]
+  },
+  "application/vnd.adobe.fxp": {
+    "extensions": [
+      "fxp",
+      "fxpl"
+    ]
+  },
+  "application/vnd.adobe.partial-upload": {},
+  "application/vnd.adobe.xdp+xml": {
+    "extensions": [
+      "xdp"
+    ],
+    "compressible": true
+  },
+  "application/vnd.adobe.xfdf": {
+    "extensions": [
+      "xfdf"
+    ]
+  },
+  "application/vnd.aether.imp": {},
+  "application/vnd.ah-barcode": {},
+  "application/vnd.ahead.space": {
+    "extensions": [
+      "ahead"
+    ]
+  },
+  "application/vnd.airzip.filesecure.azf": {
+    "extensions": [
+      "azf"
+    ]
+  },
+  "application/vnd.airzip.filesecure.azs": {
+    "extensions": [
+      "azs"
+    ]
+  },
+  "application/vnd.amazon.ebook": {
+    "extensions": [
+      "azw"
+    ]
+  },
+  "application/vnd.americandynamics.acc": {
+    "extensions": [
+      "acc"
+    ]
+  },
+  "application/vnd.amiga.ami": {
+    "extensions": [
+      "ami"
+    ]
+  },
+  "application/vnd.amundsen.maze+xml": {
+    "compressible": true
+  },
+  "application/vnd.android.package-archive": {
+    "extensions": [
+      "apk"
+    ],
+    "compressible": false
+  },
+  "application/vnd.anser-web-certificate-issue-initiation": {
+    "extensions": [
+      "cii"
+    ]
+  },
+  "application/vnd.anser-web-funds-transfer-initiation": {
+    "extensions": [
+      "fti"
+    ]
+  },
+  "application/vnd.antix.game-component": {
+    "extensions": [
+      "atx"
+    ]
+  },
+  "application/vnd.api+json": {
+    "compressible": true
+  },
+  "application/vnd.apple.installer+xml": {
+    "extensions": [
+      "mpkg"
+    ],
+    "compressible": true
+  },
+  "application/vnd.apple.mpegurl": {
+    "extensions": [
+      "m3u8"
+    ]
+  },
+  "application/vnd.arastra.swi": {},
+  "application/vnd.aristanetworks.swi": {
+    "extensions": [
+      "swi"
+    ]
+  },
+  "application/vnd.artsquare": {},
+  "application/vnd.astraea-software.iota": {
+    "extensions": [
+      "iota"
+    ]
+  },
+  "application/vnd.audiograph": {
+    "extensions": [
+      "aep"
+    ]
+  },
+  "application/vnd.autopackage": {},
+  "application/vnd.avistar+xml": {
+    "compressible": true
+  },
+  "application/vnd.balsamiq.bmml+xml": {
+    "compressible": true
+  },
+  "application/vnd.bekitzur-stech+json": {
+    "compressible": true
+  },
+  "application/vnd.blueice.multipass": {
+    "extensions": [
+      "mpm"
+    ]
+  },
+  "application/vnd.bluetooth.ep.oob": {},
+  "application/vnd.bluetooth.le.oob": {},
+  "application/vnd.bmi": {
+    "extensions": [
+      "bmi"
+    ]
+  },
+  "application/vnd.businessobjects": {
+    "extensions": [
+      "rep"
+    ]
+  },
+  "application/vnd.cab-jscript": {},
+  "application/vnd.canon-cpdl": {},
+  "application/vnd.canon-lips": {},
+  "application/vnd.cendio.thinlinc.clientconf": {},
+  "application/vnd.century-systems.tcp_stream": {},
+  "application/vnd.chemdraw+xml": {
+    "extensions": [
+      "cdxml"
+    ],
+    "compressible": true
+  },
+  "application/vnd.chipnuts.karaoke-mmd": {
+    "extensions": [
+      "mmd"
+    ]
+  },
+  "application/vnd.cinderella": {
+    "extensions": [
+      "cdy"
+    ]
+  },
+  "application/vnd.cirpack.isdn-ext": {},
+  "application/vnd.claymore": {
+    "extensions": [
+      "cla"
+    ]
+  },
+  "application/vnd.cloanto.rp9": {
+    "extensions": [
+      "rp9"
+    ]
+  },
+  "application/vnd.clonk.c4group": {
+    "extensions": [
+      "c4g",
+      "c4d",
+      "c4f",
+      "c4p",
+      "c4u"
+    ]
+  },
+  "application/vnd.cluetrust.cartomobile-config": {
+    "extensions": [
+      "c11amc"
+    ]
+  },
+  "application/vnd.cluetrust.cartomobile-config-pkg": {
+    "extensions": [
+      "c11amz"
+    ]
+  },
+  "application/vnd.collection+json": {
+    "compressible": true
+  },
+  "application/vnd.collection.doc+json": {
+    "compressible": true
+  },
+  "application/vnd.collection.next+json": {
+    "compressible": true
+  },
+  "application/vnd.commerce-battelle": {},
+  "application/vnd.commonspace": {
+    "extensions": [
+      "csp"
+    ]
+  },
+  "application/vnd.contact.cmsg": {
+    "extensions": [
+      "cdbcmsg"
+    ]
+  },
+  "application/vnd.cosmocaller": {
+    "extensions": [
+      "cmc"
+    ]
+  },
+  "application/vnd.crick.clicker": {
+    "extensions": [
+      "clkx"
+    ]
+  },
+  "application/vnd.crick.clicker.keyboard": {
+    "extensions": [
+      "clkk"
+    ]
+  },
+  "application/vnd.crick.clicker.palette": {
+    "extensions": [
+      "clkp"
+    ]
+  },
+  "application/vnd.crick.clicker.template": {
+    "extensions": [
+      "clkt"
+    ]
+  },
+  "application/vnd.crick.clicker.wordbank": {
+    "extensions": [
+      "clkw"
+    ]
+  },
+  "application/vnd.criticaltools.wbs+xml": {
+    "extensions": [
+      "wbs"
+    ],
+    "compressible": true
+  },
+  "application/vnd.ctc-posml": {
+    "extensions": [
+      "pml"
+    ]
+  },
+  "application/vnd.ctct.ws+xml": {
+    "compressible": true
+  },
+  "application/vnd.cups-pdf": {},
+  "application/vnd.cups-postscript": {},
+  "application/vnd.cups-ppd": {
+    "extensions": [
+      "ppd"
+    ]
+  },
+  "application/vnd.cups-raster": {},
+  "application/vnd.cups-raw": {},
+  "application/vnd.curl": {},
+  "application/vnd.curl.car": {
+    "extensions": [
+      "car"
+    ]
+  },
+  "application/vnd.curl.pcurl": {
+    "extensions": [
+      "pcurl"
+    ]
+  },
+  "application/vnd.cyan.dean.root+xml": {
+    "compressible": true
+  },
+  "application/vnd.cybank": {},
+  "application/vnd.dart": {
+    "extensions": [
+      "dart"
+    ],
+    "compressible": true
+  },
+  "application/vnd.data-vision.rdz": {
+    "extensions": [
+      "rdz"
+    ]
+  },
+  "application/vnd.debian.binary-package": {},
+  "application/vnd.dece-zip": {},
+  "application/vnd.dece.data": {
+    "extensions": [
+      "uvf",
+      "uvvf",
+      "uvd",
+      "uvvd"
+    ]
+  },
+  "application/vnd.dece.ttml+xml": {
+    "extensions": [
+      "uvt",
+      "uvvt"
+    ],
+    "compressible": true
+  },
+  "application/vnd.dece.unspecified": {
+    "extensions": [
+      "uvx",
+      "uvvx"
+    ]
+  },
+  "application/vnd.dece.zip": {
+    "extensions": [
+      "uvz",
+      "uvvz"
+    ]
+  },
+  "application/vnd.denovo.fcselayout-link": {
+    "extensions": [
+      "fe_launch"
+    ]
+  },
+  "application/vnd.desmume-movie": {},
+  "application/vnd.dir-bi.plate-dl-nosuffix": {},
+  "application/vnd.dm.delegation+xml": {
+    "compressible": true
+  },
+  "application/vnd.dna": {
+    "extensions": [
+      "dna"
+    ]
+  },
+  "application/vnd.document+json": {
+    "compressible": true
+  },
+  "application/vnd.dolby.mlp": {
+    "extensions": [
+      "mlp"
+    ]
+  },
+  "application/vnd.dolby.mobile.1": {},
+  "application/vnd.dolby.mobile.2": {},
+  "application/vnd.doremir.scorecloud-binary-document": {},
+  "application/vnd.dpgraph": {
+    "extensions": [
+      "dpg"
+    ]
+  },
+  "application/vnd.dreamfactory": {
+    "extensions": [
+      "dfac"
+    ]
+  },
+  "application/vnd.ds-keypoint": {
+    "extensions": [
+      "kpxx"
+    ]
+  },
+  "application/vnd.dtg.local": {},
+  "application/vnd.dtg.local.flash": {},
+  "application/vnd.dtg.local.html": {},
+  "application/vnd.dvb.ait": {
+    "extensions": [
+      "ait"
+    ]
+  },
+  "application/vnd.dvb.dvbj": {},
+  "application/vnd.dvb.esgcontainer": {},
+  "application/vnd.dvb.ipdcdftnotifaccess": {},
+  "application/vnd.dvb.ipdcesgaccess": {},
+  "application/vnd.dvb.ipdcesgaccess2": {},
+  "application/vnd.dvb.ipdcesgpdd": {},
+  "application/vnd.dvb.ipdcroaming": {},
+  "application/vnd.dvb.iptv.alfec-base": {},
+  "application/vnd.dvb.iptv.alfec-enhancement": {},
+  "application/vnd.dvb.notif-aggregate-root+xml": {
+    "compressible": true
+  },
+  "application/vnd.dvb.notif-container+xml": {
+    "compressible": true
+  },
+  "application/vnd.dvb.notif-generic+xml": {
+    "compressible": true
+  },
+  "application/vnd.dvb.notif-ia-msglist+xml": {
+    "compressible": true
+  },
+  "application/vnd.dvb.notif-ia-registration-request+xml": {
+    "compressible": true
+  },
+  "application/vnd.dvb.notif-ia-registration-response+xml": {
+    "compressible": true
+  },
+  "application/vnd.dvb.notif-init+xml": {
+    "compressible": true
+  },
+  "application/vnd.dvb.pfr": {},
+  "application/vnd.dvb.service": {
+    "extensions": [
+      "svc"
+    ]
+  },
+  "application/vnd.dvb_service": {},
+  "application/vnd.dxr": {},
+  "application/vnd.dynageo": {
+    "extensions": [
+      "geo"
+    ]
+  },
+  "application/vnd.dzr": {},
+  "application/vnd.easykaraoke.cdgdownload": {},
+  "application/vnd.ecdis-update": {},
+  "application/vnd.ecowin.chart": {
+    "extensions": [
+      "mag"
+    ]
+  },
+  "application/vnd.ecowin.filerequest": {},
+  "application/vnd.ecowin.fileupdate": {},
+  "application/vnd.ecowin.series": {},
+  "application/vnd.ecowin.seriesrequest": {},
+  "application/vnd.ecowin.seriesupdate": {},
+  "application/vnd.emclient.accessrequest+xml": {
+    "compressible": true
+  },
+  "application/vnd.enliven": {
+    "extensions": [
+      "nml"
+    ]
+  },
+  "application/vnd.eprints.data+xml": {
+    "compressible": true
+  },
+  "application/vnd.epson.esf": {
+    "extensions": [
+      "esf"
+    ]
+  },
+  "application/vnd.epson.msf": {
+    "extensions": [
+      "msf"
+    ]
+  },
+  "application/vnd.epson.quickanime": {
+    "extensions": [
+      "qam"
+    ]
+  },
+  "application/vnd.epson.salt": {
+    "extensions": [
+      "slt"
+    ]
+  },
+  "application/vnd.epson.ssf": {
+    "extensions": [
+      "ssf"
+    ]
+  },
+  "application/vnd.ericsson.quickcall": {},
+  "application/vnd.eszigno3+xml": {
+    "extensions": [
+      "es3",
+      "et3"
+    ],
+    "compressible": true
+  },
+  "application/vnd.etsi.aoc+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.asic-e+zip": {},
+  "application/vnd.etsi.asic-s+zip": {},
+  "application/vnd.etsi.cug+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.iptvcommand+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.iptvdiscovery+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.iptvprofile+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.iptvsad-bc+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.iptvsad-cod+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.iptvsad-npvr+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.iptvservice+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.iptvsync+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.iptvueprofile+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.mcid+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.mheg5": {},
+  "application/vnd.etsi.overload-control-policy-dataset+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.pstn+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.sci+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.simservs+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.timestamp-token": {},
+  "application/vnd.etsi.tsl+xml": {
+    "compressible": true
+  },
+  "application/vnd.etsi.tsl.der": {},
+  "application/vnd.eudora.data": {},
+  "application/vnd.ezpix-album": {
+    "extensions": [
+      "ez2"
+    ]
+  },
+  "application/vnd.ezpix-package": {
+    "extensions": [
+      "ez3"
+    ]
+  },
+  "application/vnd.f-secure.mobile": {},
+  "application/vnd.fdf": {
+    "extensions": [
+      "fdf"
+    ]
+  },
+  "application/vnd.fdsn.mseed": {
+    "extensions": [
+      "mseed"
+    ]
+  },
+  "application/vnd.fdsn.seed": {
+    "extensions": [
+      "seed",
+      "dataless"
+    ]
+  },
+  "application/vnd.ffsns": {},
+  "application/vnd.fints": {},
+  "application/vnd.flographit": {
+    "extensions": [
+      "gph"
+    ]
+  },
+  "application/vnd.fluxtime.clip": {
+    "extensions": [
+      "ftc"
+    ]
+  },
+  "application/vnd.font-fontforge-sfd": {},
+  "application/vnd.framemaker": {
+    "extensions": [
+      "fm",
+      "frame",
+      "maker",
+      "book"
+    ]
+  },
+  "application/vnd.frogans.fnc": {
+    "extensions": [
+      "fnc"
+    ]
+  },
+  "application/vnd.frogans.ltf": {
+    "extensions": [
+      "ltf"
+    ]
+  },
+  "application/vnd.fsc.weblaunch": {
+    "extensions": [
+      "fsc"
+    ]
+  },
+  "application/vnd.fujitsu.oasys": {
+    "extensions": [
+      "oas"
+    ]
+  },
+  "application/vnd.fujitsu.oasys2": {
+    "extensions": [
+      "oa2"
+    ]
+  },
+  "application/vnd.fujitsu.oasys3": {
+    "extensions": [
+      "oa3"
+    ]
+  },
+  "application/vnd.fujitsu.oasysgp": {
+    "extensions": [
+      "fg5"
+    ]
+  },
+  "application/vnd.fujitsu.oasysprs": {
+    "extensions": [
+      "bh2"
+    ]
+  },
+  "application/vnd.fujixerox.art-ex": {},
+  "application/vnd.fujixerox.art4": {},
+  "application/vnd.fujixerox.ddd": {
+    "extensions": [
+      "ddd"
+    ]
+  },
+  "application/vnd.fujixerox.docuworks": {
+    "extensions": [
+      "xdw"
+    ]
+  },
+  "application/vnd.fujixerox.docuworks.binder": {
+    "extensions": [
+      "xbd"
+    ]
+  },
+  "application/vnd.fujixerox.docuworks.container": {},
+  "application/vnd.fujixerox.hbpl": {},
+  "application/vnd.fut-misnet": {},
+  "application/vnd.fuzzysheet": {
+    "extensions": [
+      "fzs"
+    ]
+  },
+  "application/vnd.genomatix.tuxedo": {
+    "extensions": [
+      "txd"
+    ]
+  },
+  "application/vnd.geo+json": {
+    "compressible": true
+  },
+  "application/vnd.geocube+xml": {
+    "compressible": true
+  },
+  "application/vnd.geogebra.file": {
+    "extensions": [
+      "ggb"
+    ]
+  },
+  "application/vnd.geogebra.tool": {
+    "extensions": [
+      "ggt"
+    ]
+  },
+  "application/vnd.geometry-explorer": {
+    "extensions": [
+      "gex",
+      "gre"
+    ]
+  },
+  "application/vnd.geonext": {
+    "extensions": [
+      "gxt"
+    ]
+  },
+  "application/vnd.geoplan": {
+    "extensions": [
+      "g2w"
+    ]
+  },
+  "application/vnd.geospace": {
+    "extensions": [
+      "g3w"
+    ]
+  },
+  "application/vnd.globalplatform.card-content-mgt": {},
+  "application/vnd.globalplatform.card-content-mgt-response": {},
+  "application/vnd.gmx": {
+    "extensions": [
+      "gmx"
+    ]
+  },
+  "application/vnd.google-earth.kml+xml": {
+    "extensions": [
+      "kml"
+    ],
+    "compressible": true
+  },
+  "application/vnd.google-earth.kmz": {
+    "extensions": [
+      "kmz"
+    ],
+    "compressible": false
+  },
+  "application/vnd.grafeq": {
+    "extensions": [
+      "gqf",
+      "gqs"
+    ]
+  },
+  "application/vnd.gridmp": {},
+  "application/vnd.groove-account": {
+    "extensions": [
+      "gac"
+    ]
+  },
+  "application/vnd.groove-help": {
+    "extensions": [
+      "ghf"
+    ]
+  },
+  "application/vnd.groove-identity-message": {
+    "extensions": [
+      "gim"
+    ]
+  },
+  "application/vnd.groove-injector": {
+    "extensions": [
+      "grv"
+    ]
+  },
+  "application/vnd.groove-tool-message": {
+    "extensions": [
+      "gtm"
+    ]
+  },
+  "application/vnd.groove-tool-template": {
+    "extensions": [
+      "tpl"
+    ]
+  },
+  "application/vnd.groove-vcard": {
+    "extensions": [
+      "vcg"
+    ]
+  },
+  "application/vnd.hal+json": {
+    "compressible": true
+  },
+  "application/vnd.hal+xml": {
+    "extensions": [
+      "hal"
+    ],
+    "compressible": true
+  },
+  "application/vnd.handheld-entertainment+xml": {
+    "extensions": [
+      "zmm"
+    ],
+    "compressible": true
+  },
+  "application/vnd.hbci": {
+    "extensions": [
+      "hbci"
+    ]
+  },
+  "application/vnd.hcl-bireports": {},
+  "application/vnd.heroku+json": {
+    "compressible": true
+  },
+  "application/vnd.hhe.lesson-player": {
+    "extensions": [
+      "les"
+    ]
+  },
+  "application/vnd.hp-hpgl": {
+    "extensions": [
+      "hpgl"
+    ]
+  },
+  "application/vnd.hp-hpid": {
+    "extensions": [
+      "hpid"
+    ]
+  },
+  "application/vnd.hp-hps": {
+    "extensions": [
+      "hps"
+    ]
+  },
+  "application/vnd.hp-jlyt": {
+    "extensions": [
+      "jlt"
+    ]
+  },
+  "application/vnd.hp-pcl": {
+    "extensions": [
+      "pcl"
+    ]
+  },
+  "application/vnd.hp-pclxl": {
+    "extensions": [
+      "pclxl"
+    ]
+  },
+  "application/vnd.httphone": {},
+  "application/vnd.hydrostatix.sof-data": {},
+  "application/vnd.hzn-3d-crossword": {},
+  "application/vnd.ibm.afplinedata": {},
+  "application/vnd.ibm.electronic-media": {},
+  "application/vnd.ibm.minipay": {
+    "extensions": [
+      "mpy"
+    ]
+  },
+  "application/vnd.ibm.modcap": {
+    "extensions": [
+      "afp",
+      "listafp",
+      "list3820"
+    ]
+  },
+  "application/vnd.ibm.rights-management": {
+    "extensions": [
+      "irm"
+    ]
+  },
+  "application/vnd.ibm.secure-container": {
+    "extensions": [
+      "sc"
+    ]
+  },
+  "application/vnd.iccprofile": {
+    "extensions": [
+      "icc",
+      "icm"
+    ]
+  },
+  "application/vnd.ieee.1905": {},
+  "application/vnd.igloader": {
+    "extensions": [
+      "igl"
+    ]
+  },
+  "application/vnd.immervision-ivp": {
+    "extensions": [
+      "ivp"
+    ]
+  },
+  "application/vnd.immervision-ivu": {
+    "extensions": [
+      "ivu"
+    ]
+  },
+  "application/vnd.ims.lis.v2.result+json": {
+    "compressible": true
+  },
+  "application/vnd.ims.lti.v2.toolconsumerprofile+json": {
+    "compressible": true
+  },
+  "application/vnd.ims.lti.v2.toolproxy+json": {
+    "compressible": true
+  },
+  "application/vnd.ims.lti.v2.toolproxy.id+json": {
+    "compressible": true
+  },
+  "application/vnd.ims.lti.v2.toolsettings+json": {
+    "compressible": true
+  },
+  "application/vnd.ims.lti.v2.toolsettings.simple+json": {
+    "compressible": true
+  },
+  "application/vnd.informedcontrol.rms+xml": {
+    "compressible": true
+  },
+  "application/vnd.informix-visionary": {},
+  "application/vnd.infotech.project": {},
+  "application/vnd.infotech.project+xml": {
+    "compressible": true
+  },
+  "application/vnd.innopath.wamp.notification": {},
+  "application/vnd.insors.igm": {
+    "extensions": [
+      "igm"
+    ]
+  },
+  "application/vnd.intercon.formnet": {
+    "extensions": [
+      "xpw",
+      "xpx"
+    ]
+  },
+  "application/vnd.intergeo": {
+    "extensions": [
+      "i2g"
+    ]
+  },
+  "application/vnd.intertrust.digibox": {},
+  "application/vnd.intertrust.nncp": {},
+  "application/vnd.intu.qbo": {
+    "extensions": [
+      "qbo"
+    ]
+  },
+  "application/vnd.intu.qfx": {
+    "extensions": [
+      "qfx"
+    ]
+  },
+  "application/vnd.iptc.g2.catalogitem+xml": {
+    "compressible": true
+  },
+  "application/vnd.iptc.g2.conceptitem+xml": {
+    "compressible": true
+  },
+  "application/vnd.iptc.g2.knowledgeitem+xml": {
+    "compressible": true
+  },
+  "application/vnd.iptc.g2.newsitem+xml": {
+    "compressible": true
+  },
+  "application/vnd.iptc.g2.newsmessage+xml": {
+    "compressible": true
+  },
+  "application/vnd.iptc.g2.packageitem+xml": {
+    "compressible": true
+  },
+  "application/vnd.iptc.g2.planningitem+xml": {
+    "compressible": true
+  },
+  "application/vnd.ipunplugged.rcprofile": {
+    "extensions": [
+      "rcprofile"
+    ]
+  },
+  "application/vnd.irepository.package+xml": {
+    "extensions": [
+      "irp"
+    ],
+    "compressible": true
+  },
+  "application/vnd.is-xpr": {
+    "extensions": [
+      "xpr"
+    ]
+  },
+  "application/vnd.isac.fcs": {
+    "extensions": [
+      "fcs"
+    ]
+  },
+  "application/vnd.jam": {
+    "extensions": [
+      "jam"
+    ]
+  },
+  "application/vnd.japannet-directory-service": {},
+  "application/vnd.japannet-jpnstore-wakeup": {},
+  "application/vnd.japannet-payment-wakeup": {},
+  "application/vnd.japannet-registration": {},
+  "application/vnd.japannet-registration-wakeup": {},
+  "application/vnd.japannet-setstore-wakeup": {},
+  "application/vnd.japannet-verification": {},
+  "application/vnd.japannet-verification-wakeup": {},
+  "application/vnd.jcp.javame.midlet-rms": {
+    "extensions": [
+      "rms"
+    ]
+  },
+  "application/vnd.jisp": {
+    "extensions": [
+      "jisp"
+    ]
+  },
+  "application/vnd.joost.joda-archive": {
+    "extensions": [
+      "joda"
+    ]
+  },
+  "application/vnd.jsk.isdn-ngn": {},
+  "application/vnd.kahootz": {
+    "extensions": [
+      "ktz",
+      "ktr"
+    ]
+  },
+  "application/vnd.kde.karbon": {
+    "extensions": [
+      "karbon"
+    ]
+  },
+  "application/vnd.kde.kchart": {
+    "extensions": [
+      "chrt"
+    ]
+  },
+  "application/vnd.kde.kformula": {
+    "extensions": [
+      "kfo"
+    ]
+  },
+  "application/vnd.kde.kivio": {
+    "extensions": [
+      "flw"
+    ]
+  },
+  "application/vnd.kde.kontour": {
+    "extensions": [
+      "kon"
+    ]
+  },
+  "application/vnd.kde.kpresenter": {
+    "extensions": [
+      "kpr",
+      "kpt"
+    ]
+  },
+  "application/vnd.kde.kspread": {
+    "extensions": [
+      "ksp"
+    ]
+  },
+  "application/vnd.kde.kword": {
+    "extensions": [
+      "kwd",
+      "kwt"
+    ]
+  },
+  "application/vnd.kenameaapp": {
+    "extensions": [
+      "htke"
+    ]
+  },
+  "application/vnd.kidspiration": {
+    "extensions": [
+      "kia"
+    ]
+  },
+  "application/vnd.kinar": {
+    "extensions": [
+      "kne",
+      "knp"
+    ]
+  },
+  "application/vnd.koan": {
+    "extensions": [
+      "skp",
+      "skd",
+      "skt",
+      "skm"
+    ]
+  },
+  "application/vnd.kodak-descriptor": {
+    "extensions": [
+      "sse"
+    ]
+  },
+  "application/vnd.las.las+xml": {
+    "extensions": [
+      "lasxml"
+    ],
+    "compressible": true
+  },
+  "application/vnd.liberty-request+xml": {
+    "compressible": true
+  },
+  "application/vnd.llamagraphics.life-balance.desktop": {
+    "extensions": [
+      "lbd"
+    ]
+  },
+  "application/vnd.llamagraphics.life-balance.exchange+xml": {
+    "extensions": [
+      "lbe"
+    ],
+    "compressible": true
+  },
+  "application/vnd.lotus-1-2-3": {
+    "extensions": [
+      "123"
+    ]
+  },
+  "application/vnd.lotus-approach": {
+    "extensions": [
+      "apr"
+    ]
+  },
+  "application/vnd.lotus-freelance": {
+    "extensions": [
+      "pre"
+    ]
+  },
+  "application/vnd.lotus-notes": {
+    "extensions": [
+      "nsf"
+    ]
+  },
+  "application/vnd.lotus-organizer": {
+    "extensions": [
+      "org"
+    ]
+  },
+  "application/vnd.lotus-screencam": {
+    "extensions": [
+      "scm"
+    ]
+  },
+  "application/vnd.lotus-wordpro": {
+    "extensions": [
+      "lwp"
+    ]
+  },
+  "application/vnd.macports.portpkg": {
+    "extensions": [
+      "portpkg"
+    ]
+  },
+  "application/vnd.marlin.drm.actiontoken+xml": {
+    "compressible": true
+  },
+  "application/vnd.marlin.drm.conftoken+xml": {
+    "compressible": true
+  },
+  "application/vnd.marlin.drm.license+xml": {
+    "compressible": true
+  },
+  "application/vnd.marlin.drm.mdcf": {},
+  "application/vnd.mason+json": {
+    "compressible": true
+  },
+  "application/vnd.maxmind.maxmind-db": {},
+  "application/vnd.mcd": {
+    "extensions": [
+      "mcd"
+    ]
+  },
+  "application/vnd.medcalcdata": {
+    "extensions": [
+      "mc1"
+    ]
+  },
+  "application/vnd.mediastation.cdkey": {
+    "extensions": [
+      "cdkey"
+    ]
+  },
+  "application/vnd.meridian-slingshot": {},
+  "application/vnd.mfer": {
+    "extensions": [
+      "mwf"
+    ]
+  },
+  "application/vnd.mfmp": {
+    "extensions": [
+      "mfm"
+    ]
+  },
+  "application/vnd.micrografx-igx": {},
+  "application/vnd.micrografx.flo": {
+    "extensions": [
+      "flo"
+    ]
+  },
+  "application/vnd.micrografx.igx": {
+    "extensions": [
+      "igx"
+    ]
+  },
+  "application/vnd.miele+json": {
+    "compressible": true
+  },
+  "application/vnd.mif": {
+    "extensions": [
+      "mif"
+    ]
+  },
+  "application/vnd.minisoft-hp3000-save": {},
+  "application/vnd.mitsubishi.misty-guard.trustweb": {},
+  "application/vnd.mobius.daf": {
+    "extensions": [
+      "daf"
+    ]
+  },
+  "application/vnd.mobius.dis": {
+    "extensions": [
+      "dis"
+    ]
+  },
+  "application/vnd.mobius.mbk": {
+    "extensions": [
+      "mbk"
+    ]
+  },
+  "application/vnd.mobius.mqy": {
+    "extensions": [
+      "mqy"
+    ]
+  },
+  "application/vnd.mobius.msl": {
+    "extensions": [
+      "msl"
+    ]
+  },
+  "application/vnd.mobius.plc": {
+    "extensions": [
+      "plc"
+    ]
+  },
+  "application/vnd.mobius.txf": {
+    "extensions": [
+      "txf"
+    ]
+  },
+  "application/vnd.mophun.application": {
+    "extensions": [
+      "mpn"
+    ]
+  },
+  "application/vnd.mophun.certificate": {
+    "extensions": [
+      "mpc"
+    ]
+  },
+  "application/vnd.motorola.flexsuite": {},
+  "application/vnd.motorola.flexsuite.adsi": {},
+  "application/vnd.motorola.flexsuite.fis": {},
+  "application/vnd.motorola.flexsuite.gotap": {},
+  "application/vnd.motorola.flexsuite.kmr": {},
+  "application/vnd.motorola.flexsuite.ttc": {},
+  "application/vnd.motorola.flexsuite.wem": {},
+  "application/vnd.motorola.iprm": {},
+  "application/vnd.mozilla.xul+xml": {
+    "extensions": [
+      "xul"
+    ],
+    "compressible": true
+  },
+  "application/vnd.ms-3mfdocument": {},
+  "application/vnd.ms-artgalry": {
+    "extensions": [
+      "cil"
+    ]
+  },
+  "application/vnd.ms-asf": {},
+  "application/vnd.ms-cab-compressed": {
+    "extensions": [
+      "cab"
+    ]
+  },
+  "application/vnd.ms-color.iccprofile": {},
+  "application/vnd.ms-excel": {
+    "extensions": [
+      "xls",
+      "xlm",
+      "xla",
+      "xlc",
+      "xlt",
+      "xlw"
+    ],
+    "compressible": false
+  },
+  "application/vnd.ms-excel.addin.macroenabled.12": {
+    "extensions": [
+      "xlam"
+    ]
+  },
+  "application/vnd.ms-excel.sheet.binary.macroenabled.12": {
+    "extensions": [
+      "xlsb"
+    ]
+  },
+  "application/vnd.ms-excel.sheet.macroenabled.12": {
+    "extensions": [
+      "xlsm"
+    ]
+  },
+  "application/vnd.ms-excel.template.macroenabled.12": {
+    "extensions": [
+      "xltm"
+    ]
+  },
+  "application/vnd.ms-fontobject": {
+    "extensions": [
+      "eot"
+    ],
+    "compressible": true
+  },
+  "application/vnd.ms-htmlhelp": {
+    "extensions": [
+      "chm"
+    ]
+  },
+  "application/vnd.ms-ims": {
+    "extensions": [
+      "ims"
+    ]
+  },
+  "application/vnd.ms-lrm": {
+    "extensions": [
+      "lrm"
+    ]
+  },
+  "application/vnd.ms-office.activex+xml": {
+    "compressible": true
+  },
+  "application/vnd.ms-officetheme": {
+    "extensions": [
+      "thmx"
+    ]
+  },
+  "application/vnd.ms-opentype": {
+    "compressible": true
+  },
+  "application/vnd.ms-package.obfuscated-opentype": {},
+  "application/vnd.ms-pki.seccat": {
+    "extensions": [
+      "cat"
+    ]
+  },
+  "application/vnd.ms-pki.stl": {
+    "extensions": [
+      "stl"
+    ]
+  },
+  "application/vnd.ms-playready.initiator+xml": {
+    "compressible": true
+  },
+  "application/vnd.ms-powerpoint": {
+    "extensions": [
+      "ppt",
+      "pps",
+      "pot"
+    ],
+    "compressible": false
+  },
+  "application/vnd.ms-powerpoint.addin.macroenabled.12": {
+    "extensions": [
+      "ppam"
+    ]
+  },
+  "application/vnd.ms-powerpoint.presentation.macroenabled.12": {
+    "extensions": [
+      "pptm"
+    ]
+  },
+  "application/vnd.ms-powerpoint.slide.macroenabled.12": {
+    "extensions": [
+      "sldm"
+    ]
+  },
+  "application/vnd.ms-powerpoint.slideshow.macroenabled.12": {
+    "extensions": [
+      "ppsm"
+    ]
+  },
+  "application/vnd.ms-powerpoint.template.macroenabled.12": {
+    "extensions": [
+      "potm"
+    ]
+  },
+  "application/vnd.ms-printing.printticket+xml": {
+    "compressible": true
+  },
+  "application/vnd.ms-project": {
+    "extensions": [
+      "mpp",
+      "mpt"
+    ]
+  },
+  "application/vnd.ms-tnef": {},
+  "application/vnd.ms-windows.printerpairing": {},
+  "application/vnd.ms-wmdrm.lic-chlg-req": {},
+  "application/vnd.ms-wmdrm.lic-resp": {},
+  "application/vnd.ms-wmdrm.meter-chlg-req": {},
+  "application/vnd.ms-wmdrm.meter-resp": {},
+  "application/vnd.ms-word.document.macroenabled.12": {
+    "extensions": [
+      "docm"
+    ]
+  },
+  "application/vnd.ms-word.template.macroenabled.12": {
+    "extensions": [
+      "dotm"
+    ]
+  },
+  "application/vnd.ms-works": {
+    "extensions": [
+      "wps",
+      "wks",
+      "wcm",
+      "wdb"
+    ]
+  },
+  "application/vnd.ms-wpl": {
+    "extensions": [
+      "wpl"
+    ]
+  },
+  "application/vnd.ms-xpsdocument": {
+    "extensions": [
+      "xps"
+    ],
+    "compressible": false
+  },
+  "application/vnd.mseq": {
+    "extensions": [
+      "mseq"
+    ]
+  },
+  "application/vnd.msign": {},
+  "application/vnd.multiad.creator": {},
+  "application/vnd.multiad.creator.cif": {},
+  "application/vnd.music-niff": {},
+  "application/vnd.musician": {
+    "extensions": [
+      "mus"
+    ]
+  },
+  "application/vnd.muvee.style": {
+    "extensions": [
+      "msty"
+    ]
+  },
+  "application/vnd.mynfc": {
+    "extensions": [
+      "taglet"
+    ]
+  },
+  "application/vnd.ncd.control": {},
+  "application/vnd.ncd.reference": {},
+  "application/vnd.nervana": {},
+  "application/vnd.netfpx": {},
+  "application/vnd.neurolanguage.nlu": {
+    "extensions": [
+      "nlu"
+    ]
+  },
+  "application/vnd.nintendo.nitro.rom": {},
+  "application/vnd.nintendo.snes.rom": {},
+  "application/vnd.nitf": {
+    "extensions": [
+      "ntf",
+      "nitf"
+    ]
+  },
+  "application/vnd.noblenet-directory": {
+    "extensions": [
+      "nnd"
+    ]
+  },
+  "application/vnd.noblenet-sealer": {
+    "extensions": [
+      "nns"
+    ]
+  },
+  "application/vnd.noblenet-web": {
+    "extensions": [
+      "nnw"
+    ]
+  },
+  "application/vnd.nokia.catalogs": {},
+  "application/vnd.nokia.conml+wbxml": {},
+  "application/vnd.nokia.conml+xml": {
+    "compressible": true
+  },
+  "application/vnd.nokia.iptv.config+xml": {
+    "compressible": true
+  },
+  "application/vnd.nokia.isds-radio-presets": {},
+  "application/vnd.nokia.landmark+wbxml": {},
+  "application/vnd.nokia.landmark+xml": {
+    "compressible": true
+  },
+  "application/vnd.nokia.landmarkcollection+xml": {
+    "compressible": true
+  },
+  "application/vnd.nokia.n-gage.ac+xml": {
+    "compressible": true
+  },
+  "application/vnd.nokia.n-gage.data": {
+    "extensions": [
+      "ngdat"
+    ]
+  },
+  "application/vnd.nokia.n-gage.symbian.install": {},
+  "application/vnd.nokia.ncd": {},
+  "application/vnd.nokia.pcd+wbxml": {},
+  "application/vnd.nokia.pcd+xml": {
+    "compressible": true
+  },
+  "application/vnd.nokia.radio-preset": {
+    "extensions": [
+      "rpst"
+    ]
+  },
+  "application/vnd.nokia.radio-presets": {
+    "extensions": [
+      "rpss"
+    ]
+  },
+  "application/vnd.novadigm.edm": {
+    "extensions": [
+      "edm"
+    ]
+  },
+  "application/vnd.novadigm.edx": {
+    "extensions": [
+      "edx"
+    ]
+  },
+  "application/vnd.novadigm.ext": {
+    "extensions": [
+      "ext"
+    ]
+  },
+  "application/vnd.ntt-local.content-share": {},
+  "application/vnd.ntt-local.file-transfer": {},
+  "application/vnd.ntt-local.ogw_remote-access": {},
+  "application/vnd.ntt-local.sip-ta_remote": {},
+  "application/vnd.ntt-local.sip-ta_tcp_stream": {},
+  "application/vnd.oasis.opendocument.chart": {
+    "extensions": [
+      "odc"
+    ]
+  },
+  "application/vnd.oasis.opendocument.chart-template": {
+    "extensions": [
+      "otc"
+    ]
+  },
+  "application/vnd.oasis.opendocument.database": {
+    "extensions": [
+      "odb"
+    ]
+  },
+  "application/vnd.oasis.opendocument.formula": {
+    "extensions": [
+      "odf"
+    ]
+  },
+  "application/vnd.oasis.opendocument.formula-template": {
+    "extensions": [
+      "odft"
+    ]
+  },
+  "application/vnd.oasis.opendocument.graphics": {
+    "extensions": [
+      "odg"
+    ],
+    "compressible": false
+  },
+  "application/vnd.oasis.opendocument.graphics-template": {
+    "extensions": [
+      "otg"
+    ]
+  },
+  "application/vnd.oasis.opendocument.image": {
+    "extensions": [
+      "odi"
+    ]
+  },
+  "application/vnd.oasis.opendocument.image-template": {
+    "extensions": [
+      "oti"
+    ]
+  },
+  "application/vnd.oasis.opendocument.presentation": {
+    "extensions": [
+      "odp"
+    ],
+    "compressible": false
+  },
+  "application/vnd.oasis.opendocument.presentation-template": {
+    "extensions": [
+      "otp"
+    ]
+  },
+  "application/vnd.oasis.opendocument.spreadsheet": {
+    "extensions": [
+      "ods"
+    ],
+    "compressible": false
+  },
+  "application/vnd.oasis.opendocument.spreadsheet-template": {
+    "extensions": [
+      "ots"
+    ]
+  },
+  "application/vnd.oasis.opendocument.text": {
+    "extensions": [
+      "odt"
+    ],
+    "compressible": false,
+    "charset": "UTF-8"
+  },
+  "application/vnd.oasis.opendocument.text-master": {
+    "extensions": [
+      "odm"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "application/vnd.oasis.opendocument.text-template": {
+    "extensions": [
+      "ott"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "application/vnd.oasis.opendocument.text-web": {
+    "extensions": [
+      "oth"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "application/vnd.obn": {},
+  "application/vnd.oftn.l10n+json": {
+    "compressible": true
+  },
+  "application/vnd.oipf.contentaccessdownload+xml": {
+    "compressible": true
+  },
+  "application/vnd.oipf.contentaccessstreaming+xml": {
+    "compressible": true
+  },
+  "application/vnd.oipf.cspg-hexbinary": {},
+  "application/vnd.oipf.dae.svg+xml": {
+    "compressible": true
+  },
+  "application/vnd.oipf.dae.xhtml+xml": {
+    "compressible": true
+  },
+  "application/vnd.oipf.mippvcontrolmessage+xml": {
+    "compressible": true
+  },
+  "application/vnd.oipf.pae.gem": {},
+  "application/vnd.oipf.spdiscovery+xml": {
+    "compressible": true
+  },
+  "application/vnd.oipf.spdlist+xml": {
+    "compressible": true
+  },
+  "application/vnd.oipf.ueprofile+xml": {
+    "compressible": true
+  },
+  "application/vnd.oipf.userprofile+xml": {
+    "compressible": true
+  },
+  "application/vnd.olpc-sugar": {
+    "extensions": [
+      "xo"
+    ]
+  },
+  "application/vnd.oma-scws-config": {},
+  "application/vnd.oma-scws-http-request": {},
+  "application/vnd.oma-scws-http-response": {},
+  "application/vnd.oma.bcast.associated-procedure-parameter+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.bcast.drm-trigger+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.bcast.imd+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.bcast.ltkm": {},
+  "application/vnd.oma.bcast.notification+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.bcast.provisioningtrigger": {},
+  "application/vnd.oma.bcast.sgboot": {},
+  "application/vnd.oma.bcast.sgdd+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.bcast.sgdu": {},
+  "application/vnd.oma.bcast.simple-symbol-container": {},
+  "application/vnd.oma.bcast.smartcard-trigger+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.bcast.sprov+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.bcast.stkm": {},
+  "application/vnd.oma.cab-address-book+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.cab-feature-handler+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.cab-pcc+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.cab-subs-invite+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.cab-user-prefs+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.dcd": {},
+  "application/vnd.oma.dcdc": {},
+  "application/vnd.oma.dd2+xml": {
+    "extensions": [
+      "dd2"
+    ],
+    "compressible": true
+  },
+  "application/vnd.oma.drm.risd+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.group-usage-list+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.pal+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.poc.detailed-progress-report+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.poc.final-report+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.poc.groups+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.poc.invocation-descriptor+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.poc.optimized-progress-report+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.push": {},
+  "application/vnd.oma.scidm.messages+xml": {
+    "compressible": true
+  },
+  "application/vnd.oma.xcap-directory+xml": {
+    "compressible": true
+  },
+  "application/vnd.omads-email+xml": {
+    "compressible": true
+  },
+  "application/vnd.omads-file+xml": {
+    "compressible": true
+  },
+  "application/vnd.omads-folder+xml": {
+    "compressible": true
+  },
+  "application/vnd.omaloc-supl-init": {},
+  "application/vnd.openeye.oeb": {},
+  "application/vnd.openofficeorg.extension": {
+    "extensions": [
+      "oxt"
+    ]
+  },
+  "application/vnd.openxmlformats-officedocument.custom-properties+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.customxmlproperties+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.drawing+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.drawingml.chart+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.drawingml.diagramcolors+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.drawingml.diagramdata+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.drawingml.diagramlayout+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.drawingml.diagramstyle+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.extended-properties+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml-template": {},
+  "application/vnd.openxmlformats-officedocument.presentationml.commentauthors+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.comments+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.handoutmaster+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.notesmaster+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.notesslide+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.presentation": {
+    "extensions": [
+      "pptx"
+    ],
+    "compressible": false
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.presprops+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slide": {
+    "extensions": [
+      "sldx"
+    ]
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slide+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slidelayout+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slidemaster+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slideshow": {
+    "extensions": [
+      "ppsx"
+    ]
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slideupdateinfo+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.tablestyles+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.tags+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.template": {
+    "extensions": [
+      "potx"
+    ]
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.template.main+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.viewprops+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml-template": {},
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.calcchain+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.externallink+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcachedefinition+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcacherecords+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.pivottable+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.querytable+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.revisionheaders+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.revisionlog+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.sharedstrings+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
+    "extensions": [
+      "xlsx"
+    ],
+    "compressible": false
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheetmetadata+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.tablesinglecells+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.template": {
+    "extensions": [
+      "xltx"
+    ]
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.usernames+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.volatiledependencies+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.theme+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.themeoverride+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.vmldrawing": {},
+  "application/vnd.openxmlformats-officedocument.wordprocessingml-template": {},
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {
+    "extensions": [
+      "docx"
+    ],
+    "compressible": false
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.fonttable+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.template": {
+    "extensions": [
+      "dotx"
+    ]
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.websettings+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-package.core-properties+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml": {
+    "compressible": true
+  },
+  "application/vnd.openxmlformats-package.relationships+xml": {
+    "compressible": true
+  },
+  "application/vnd.orange.indata": {},
+  "application/vnd.osa.netdeploy": {},
+  "application/vnd.osgeo.mapguide.package": {
+    "extensions": [
+      "mgp"
+    ]
+  },
+  "application/vnd.osgi.bundle": {},
+  "application/vnd.osgi.dp": {
+    "extensions": [
+      "dp"
+    ]
+  },
+  "application/vnd.osgi.subsystem": {
+    "extensions": [
+      "esa"
+    ]
+  },
+  "application/vnd.otps.ct-kip+xml": {
+    "compressible": true
+  },
+  "application/vnd.palm": {
+    "extensions": [
+      "pdb",
+      "pqa",
+      "oprc"
+    ]
+  },
+  "application/vnd.panoply": {},
+  "application/vnd.paos+xml": {
+    "compressible": true
+  },
+  "application/vnd.paos.xml": {
+    "compressible": true
+  },
+  "application/vnd.pawaafile": {
+    "extensions": [
+      "paw"
+    ]
+  },
+  "application/vnd.pcos": {},
+  "application/vnd.pg.format": {
+    "extensions": [
+      "str"
+    ]
+  },
+  "application/vnd.pg.osasli": {
+    "extensions": [
+      "ei6"
+    ]
+  },
+  "application/vnd.piaccess.application-licence": {},
+  "application/vnd.picsel": {
+    "extensions": [
+      "efif"
+    ]
+  },
+  "application/vnd.pmi.widget": {
+    "extensions": [
+      "wg"
+    ]
+  },
+  "application/vnd.poc.group-advertisement+xml": {
+    "compressible": true
+  },
+  "application/vnd.pocketlearn": {
+    "extensions": [
+      "plf"
+    ]
+  },
+  "application/vnd.powerbuilder6": {
+    "extensions": [
+      "pbd"
+    ]
+  },
+  "application/vnd.powerbuilder6-s": {},
+  "application/vnd.powerbuilder7": {},
+  "application/vnd.powerbuilder7-s": {},
+  "application/vnd.powerbuilder75": {},
+  "application/vnd.powerbuilder75-s": {},
+  "application/vnd.preminet": {},
+  "application/vnd.previewsystems.box": {
+    "extensions": [
+      "box"
+    ]
+  },
+  "application/vnd.proteus.magazine": {
+    "extensions": [
+      "mgz"
+    ]
+  },
+  "application/vnd.publishare-delta-tree": {
+    "extensions": [
+      "qps"
+    ]
+  },
+  "application/vnd.pvi.ptid1": {
+    "extensions": [
+      "ptid"
+    ]
+  },
+  "application/vnd.pwg-multiplexed": {},
+  "application/vnd.pwg-xhtml-print+xml": {
+    "compressible": true
+  },
+  "application/vnd.qualcomm.brew-app-res": {},
+  "application/vnd.quark.quarkxpress": {
+    "extensions": [
+      "qxd",
+      "qxt",
+      "qwd",
+      "qwt",
+      "qxl",
+      "qxb"
+    ]
+  },
+  "application/vnd.quobject-quoxdocument": {},
+  "application/vnd.radisys.moml+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-audit+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-audit-conf+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-audit-conn+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-audit-dialog+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-audit-stream+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-conf+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-dialog+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-dialog-base+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-dialog-fax-detect+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-dialog-fax-sendrecv+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-dialog-group+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-dialog-speech+xml": {
+    "compressible": true
+  },
+  "application/vnd.radisys.msml-dialog-transform+xml": {
+    "compressible": true
+  },
+  "application/vnd.rainstor.data": {},
+  "application/vnd.rapid": {},
+  "application/vnd.realvnc.bed": {
+    "extensions": [
+      "bed"
+    ]
+  },
+  "application/vnd.recordare.musicxml": {
+    "extensions": [
+      "mxl"
+    ]
+  },
+  "application/vnd.recordare.musicxml+xml": {
+    "extensions": [
+      "musicxml"
+    ],
+    "compressible": true
+  },
+  "application/vnd.renlearn.rlprint": {},
+  "application/vnd.rig.cryptonote": {
+    "extensions": [
+      "cryptonote"
+    ]
+  },
+  "application/vnd.rim.cod": {
+    "extensions": [
+      "cod"
+    ]
+  },
+  "application/vnd.rn-realmedia": {
+    "extensions": [
+      "rm"
+    ]
+  },
+  "application/vnd.rn-realmedia-vbr": {
+    "extensions": [
+      "rmvb"
+    ]
+  },
+  "application/vnd.route66.link66+xml": {
+    "extensions": [
+      "link66"
+    ],
+    "compressible": true
+  },
+  "application/vnd.rs-274x": {},
+  "application/vnd.ruckus.download": {},
+  "application/vnd.s3sms": {},
+  "application/vnd.sailingtracker.track": {
+    "extensions": [
+      "st"
+    ]
+  },
+  "application/vnd.sbm.cid": {},
+  "application/vnd.sbm.mid2": {},
+  "application/vnd.scribus": {},
+  "application/vnd.sealed-doc": {},
+  "application/vnd.sealed-eml": {},
+  "application/vnd.sealed-mht": {},
+  "application/vnd.sealed-ppt": {},
+  "application/vnd.sealed-tiff": {},
+  "application/vnd.sealed-xls": {},
+  "application/vnd.sealed.3df": {},
+  "application/vnd.sealed.csf": {},
+  "application/vnd.sealed.doc": {},
+  "application/vnd.sealed.eml": {},
+  "application/vnd.sealed.mht": {},
+  "application/vnd.sealed.net": {},
+  "application/vnd.sealed.ppt": {},
+  "application/vnd.sealed.tiff": {},
+  "application/vnd.sealed.xls": {},
+  "application/vnd.sealedmedia.softseal-html": {},
+  "application/vnd.sealedmedia.softseal-pdf": {},
+  "application/vnd.sealedmedia.softseal.html": {},
+  "application/vnd.sealedmedia.softseal.pdf": {},
+  "application/vnd.seemail": {
+    "extensions": [
+      "see"
+    ]
+  },
+  "application/vnd.sema": {
+    "extensions": [
+      "sema"
+    ]
+  },
+  "application/vnd.semd": {
+    "extensions": [
+      "semd"
+    ]
+  },
+  "application/vnd.semf": {
+    "extensions": [
+      "semf"
+    ]
+  },
+  "application/vnd.shana.informed.formdata": {
+    "extensions": [
+      "ifm"
+    ]
+  },
+  "application/vnd.shana.informed.formtemplate": {
+    "extensions": [
+      "itp"
+    ]
+  },
+  "application/vnd.shana.informed.interchange": {
+    "extensions": [
+      "iif"
+    ]
+  },
+  "application/vnd.shana.informed.package": {
+    "extensions": [
+      "ipk"
+    ]
+  },
+  "application/vnd.simtech-mindmapper": {
+    "extensions": [
+      "twd",
+      "twds"
+    ]
+  },
+  "application/vnd.siren+json": {
+    "compressible": true
+  },
+  "application/vnd.smaf": {
+    "extensions": [
+      "mmf"
+    ]
+  },
+  "application/vnd.smart.notebook": {},
+  "application/vnd.smart.teacher": {
+    "extensions": [
+      "teacher"
+    ]
+  },
+  "application/vnd.software602.filler.form+xml": {
+    "compressible": true
+  },
+  "application/vnd.software602.filler.form-xml-zip": {
+    "compressible": true
+  },
+  "application/vnd.solent.sdkm+xml": {
+    "extensions": [
+      "sdkm",
+      "sdkd"
+    ],
+    "compressible": true
+  },
+  "application/vnd.spotfire.dxp": {
+    "extensions": [
+      "dxp"
+    ]
+  },
+  "application/vnd.spotfire.sfs": {
+    "extensions": [
+      "sfs"
+    ]
+  },
+  "application/vnd.sss-cod": {},
+  "application/vnd.sss-dtf": {},
+  "application/vnd.sss-ntf": {},
+  "application/vnd.stardivision.calc": {
+    "extensions": [
+      "sdc"
+    ]
+  },
+  "application/vnd.stardivision.draw": {
+    "extensions": [
+      "sda"
+    ]
+  },
+  "application/vnd.stardivision.impress": {
+    "extensions": [
+      "sdd"
+    ]
+  },
+  "application/vnd.stardivision.math": {
+    "extensions": [
+      "smf"
+    ]
+  },
+  "application/vnd.stardivision.writer": {
+    "extensions": [
+      "sdw",
+      "vor"
+    ]
+  },
+  "application/vnd.stardivision.writer-global": {
+    "extensions": [
+      "sgl"
+    ]
+  },
+  "application/vnd.stepmania.package": {
+    "extensions": [
+      "smzip"
+    ]
+  },
+  "application/vnd.stepmania.stepchart": {
+    "extensions": [
+      "sm"
+    ]
+  },
+  "application/vnd.street-stream": {},
+  "application/vnd.sun.wadl+xml": {
+    "compressible": true
+  },
+  "application/vnd.sun.xml.calc": {
+    "extensions": [
+      "sxc"
+    ],
+    "compressible": true
+  },
+  "application/vnd.sun.xml.calc.template": {
+    "extensions": [
+      "stc"
+    ],
+    "compressible": true
+  },
+  "application/vnd.sun.xml.draw": {
+    "extensions": [
+      "sxd"
+    ],
+    "compressible": true
+  },
+  "application/vnd.sun.xml.draw.template": {
+    "extensions": [
+      "std"
+    ],
+    "compressible": true
+  },
+  "application/vnd.sun.xml.impress": {
+    "extensions": [
+      "sxi"
+    ],
+    "compressible": true
+  },
+  "application/vnd.sun.xml.impress.template": {
+    "extensions": [
+      "sti"
+    ],
+    "compressible": true
+  },
+  "application/vnd.sun.xml.math": {
+    "extensions": [
+      "sxm"
+    ],
+    "compressible": true
+  },
+  "application/vnd.sun.xml.writer": {
+    "extensions": [
+      "sxw"
+    ],
+    "compressible": true
+  },
+  "application/vnd.sun.xml.writer.global": {
+    "extensions": [
+      "sxg"
+    ],
+    "compressible": true
+  },
+  "application/vnd.sun.xml.writer.template": {
+    "extensions": [
+      "stw"
+    ],
+    "compressible": true
+  },
+  "application/vnd.sus-calendar": {
+    "extensions": [
+      "sus",
+      "susp"
+    ]
+  },
+  "application/vnd.svd": {
+    "extensions": [
+      "svd"
+    ]
+  },
+  "application/vnd.swiftview-ics": {},
+  "application/vnd.symbian.install": {
+    "extensions": [
+      "sis",
+      "sisx"
+    ]
+  },
+  "application/vnd.syncml+xml": {
+    "extensions": [
+      "xsm"
+    ],
+    "compressible": true
+  },
+  "application/vnd.syncml.dm+wbxml": {
+    "extensions": [
+      "bdm"
+    ]
+  },
+  "application/vnd.syncml.dm+xml": {
+    "extensions": [
+      "xdm"
+    ],
+    "compressible": true
+  },
+  "application/vnd.syncml.dm.notification": {},
+  "application/vnd.syncml.dmddf+wbxml": {},
+  "application/vnd.syncml.dmddf+xml": {
+    "compressible": true
+  },
+  "application/vnd.syncml.dmtnds+wbxml": {},
+  "application/vnd.syncml.dmtnds+xml": {
+    "compressible": true
+  },
+  "application/vnd.syncml.ds.notification": {},
+  "application/vnd.tao.intent-module-archive": {
+    "extensions": [
+      "tao"
+    ]
+  },
+  "application/vnd.tcpdump.pcap": {
+    "extensions": [
+      "pcap",
+      "cap",
+      "dmp"
+    ]
+  },
+  "application/vnd.tmobile-livetv": {
+    "extensions": [
+      "tmo"
+    ]
+  },
+  "application/vnd.trid.tpt": {
+    "extensions": [
+      "tpt"
+    ]
+  },
+  "application/vnd.triscape.mxs": {
+    "extensions": [
+      "mxs"
+    ]
+  },
+  "application/vnd.trueapp": {
+    "extensions": [
+      "tra"
+    ]
+  },
+  "application/vnd.truedoc": {},
+  "application/vnd.ubisoft.webplayer": {},
+  "application/vnd.ufdl": {
+    "extensions": [
+      "ufd",
+      "ufdl"
+    ]
+  },
+  "application/vnd.uiq.theme": {
+    "extensions": [
+      "utz"
+    ]
+  },
+  "application/vnd.umajin": {
+    "extensions": [
+      "umj"
+    ]
+  },
+  "application/vnd.unity": {
+    "extensions": [
+      "unityweb"
+    ]
+  },
+  "application/vnd.uoml+xml": {
+    "extensions": [
+      "uoml"
+    ],
+    "compressible": true
+  },
+  "application/vnd.uplanet.alert": {},
+  "application/vnd.uplanet.alert-wbxml": {},
+  "application/vnd.uplanet.bearer-choice": {},
+  "application/vnd.uplanet.bearer-choice-wbxml": {},
+  "application/vnd.uplanet.cacheop": {},
+  "application/vnd.uplanet.cacheop-wbxml": {},
+  "application/vnd.uplanet.channel": {},
+  "application/vnd.uplanet.channel-wbxml": {},
+  "application/vnd.uplanet.list": {},
+  "application/vnd.uplanet.list-wbxml": {},
+  "application/vnd.uplanet.listcmd": {},
+  "application/vnd.uplanet.listcmd-wbxml": {},
+  "application/vnd.uplanet.signal": {},
+  "application/vnd.valve.source.material": {},
+  "application/vnd.vcx": {
+    "extensions": [
+      "vcx"
+    ]
+  },
+  "application/vnd.vd-study": {},
+  "application/vnd.vectorworks": {},
+  "application/vnd.verimatrix.vcas": {},
+  "application/vnd.vidsoft.vidconference": {},
+  "application/vnd.visio": {
+    "extensions": [
+      "vsd",
+      "vst",
+      "vss",
+      "vsw"
+    ]
+  },
+  "application/vnd.visionary": {
+    "extensions": [
+      "vis"
+    ]
+  },
+  "application/vnd.vividence.scriptfile": {},
+  "application/vnd.vsf": {
+    "extensions": [
+      "vsf"
+    ]
+  },
+  "application/vnd.wap-slc": {},
+  "application/vnd.wap-wbxml": {},
+  "application/vnd.wap.sic": {},
+  "application/vnd.wap.slc": {},
+  "application/vnd.wap.wbxml": {
+    "extensions": [
+      "wbxml"
+    ]
+  },
+  "application/vnd.wap.wmlc": {
+    "extensions": [
+      "wmlc"
+    ]
+  },
+  "application/vnd.wap.wmlscriptc": {
+    "extensions": [
+      "wmlsc"
+    ]
+  },
+  "application/vnd.webturbo": {
+    "extensions": [
+      "wtb"
+    ]
+  },
+  "application/vnd.wfa.p2p": {},
+  "application/vnd.wfa.wsc": {},
+  "application/vnd.windows.devicepairing": {},
+  "application/vnd.wmc": {},
+  "application/vnd.wmf.bootstrap": {},
+  "application/vnd.wolfram.mathematica": {},
+  "application/vnd.wolfram.mathematica.package": {},
+  "application/vnd.wolfram.player": {
+    "extensions": [
+      "nbp"
+    ]
+  },
+  "application/vnd.wordperfect": {
+    "extensions": [
+      "wpd"
+    ]
+  },
+  "application/vnd.wqd": {
+    "extensions": [
+      "wqd"
+    ]
+  },
+  "application/vnd.wrq-hp3000-labelled": {},
+  "application/vnd.wt.stf": {
+    "extensions": [
+      "stf"
+    ]
+  },
+  "application/vnd.wv.csp+wbxml": {},
+  "application/vnd.wv.csp+xml": {
+    "compressible": true
+  },
+  "application/vnd.wv.ssp+xml": {
+    "compressible": true
+  },
+  "application/vnd.xacml+json": {
+    "compressible": true
+  },
+  "application/vnd.xara": {
+    "extensions": [
+      "xar"
+    ]
+  },
+  "application/vnd.xfdl": {
+    "extensions": [
+      "xfdl"
+    ]
+  },
+  "application/vnd.xfdl.webform": {},
+  "application/vnd.xmi+xml": {
+    "compressible": true
+  },
+  "application/vnd.xmpie.cpkg": {},
+  "application/vnd.xmpie.dpkg": {},
+  "application/vnd.xmpie.plan": {},
+  "application/vnd.xmpie.ppkg": {},
+  "application/vnd.xmpie.xlim": {},
+  "application/vnd.yamaha.hv-dic": {
+    "extensions": [
+      "hvd"
+    ]
+  },
+  "application/vnd.yamaha.hv-script": {
+    "extensions": [
+      "hvs"
+    ]
+  },
+  "application/vnd.yamaha.hv-voice": {
+    "extensions": [
+      "hvp"
+    ]
+  },
+  "application/vnd.yamaha.openscoreformat": {
+    "extensions": [
+      "osf"
+    ]
+  },
+  "application/vnd.yamaha.openscoreformat.osfpvg+xml": {
+    "extensions": [
+      "osfpvg"
+    ],
+    "compressible": true
+  },
+  "application/vnd.yamaha.remote-setup": {},
+  "application/vnd.yamaha.smaf-audio": {
+    "extensions": [
+      "saf"
+    ]
+  },
+  "application/vnd.yamaha.smaf-phrase": {
+    "extensions": [
+      "spf"
+    ]
+  },
+  "application/vnd.yamaha.through-ngn": {},
+  "application/vnd.yamaha.tunnel-udpencap": {},
+  "application/vnd.yaoweme": {},
+  "application/vnd.yellowriver-custom-menu": {
+    "extensions": [
+      "cmp"
+    ]
+  },
+  "application/vnd.zul": {
+    "extensions": [
+      "zir",
+      "zirz"
+    ]
+  },
+  "application/vnd.zzazz.deck+xml": {
+    "extensions": [
+      "zaz"
+    ],
+    "compressible": true
+  },
+  "application/voicexml+xml": {
+    "extensions": [
+      "vxml"
+    ],
+    "compressible": true
+  },
+  "application/vq-rtcpxr": {},
+  "application/vwg-multiplexed": {},
+  "application/watcherinfo+xml": {
+    "compressible": true
+  },
+  "application/whoispp-query": {},
+  "application/whoispp-response": {},
+  "application/widget": {
+    "extensions": [
+      "wgt"
+    ]
+  },
+  "application/winhlp": {
+    "extensions": [
+      "hlp"
+    ]
+  },
+  "application/wita": {},
+  "application/wordperfect5.1": {},
+  "application/wsdl+xml": {
+    "extensions": [
+      "wsdl"
+    ],
+    "compressible": true
+  },
+  "application/wspolicy+xml": {
+    "extensions": [
+      "wspolicy"
+    ],
+    "compressible": true
+  },
+  "application/x-7z-compressed": {
+    "extensions": [
+      "7z"
+    ],
+    "compressible": false
+  },
+  "application/x-abiword": {
+    "extensions": [
+      "abw"
+    ]
+  },
+  "application/x-ace-compressed": {
+    "extensions": [
+      "ace"
+    ]
+  },
+  "application/x-amf": {},
+  "application/x-apple-diskimage": {
+    "extensions": [
+      "dmg"
+    ]
+  },
+  "application/x-authorware-bin": {
+    "extensions": [
+      "aab",
+      "x32",
+      "u32",
+      "vox"
+    ]
+  },
+  "application/x-authorware-map": {
+    "extensions": [
+      "aam"
+    ]
+  },
+  "application/x-authorware-seg": {
+    "extensions": [
+      "aas"
+    ]
+  },
+  "application/x-bcpio": {
+    "extensions": [
+      "bcpio"
+    ]
+  },
+  "application/x-bittorrent": {
+    "extensions": [
+      "torrent"
+    ]
+  },
+  "application/x-blorb": {
+    "extensions": [
+      "blb",
+      "blorb"
+    ]
+  },
+  "application/x-bzip": {
+    "extensions": [
+      "bz"
+    ],
+    "compressible": false
+  },
+  "application/x-bzip2": {
+    "extensions": [
+      "bz2",
+      "boz"
+    ],
+    "compressible": false
+  },
+  "application/x-cbr": {
+    "extensions": [
+      "cbr",
+      "cba",
+      "cbt",
+      "cbz",
+      "cb7"
+    ]
+  },
+  "application/x-cdlink": {
+    "extensions": [
+      "vcd"
+    ]
+  },
+  "application/x-cfs-compressed": {
+    "extensions": [
+      "cfs"
+    ]
+  },
+  "application/x-chat": {
+    "extensions": [
+      "chat"
+    ]
+  },
+  "application/x-chess-pgn": {
+    "extensions": [
+      "pgn"
+    ]
+  },
+  "application/x-chrome-extension": {
+    "extensions": [
+      "crx"
+    ]
+  },
+  "application/x-compress": {},
+  "application/x-conference": {
+    "extensions": [
+      "nsc"
+    ]
+  },
+  "application/x-cpio": {
+    "extensions": [
+      "cpio"
+    ]
+  },
+  "application/x-csh": {
+    "extensions": [
+      "csh"
+    ]
+  },
+  "application/x-deb": {
+    "compressible": false
+  },
+  "application/x-debian-package": {
+    "extensions": [
+      "deb",
+      "udeb"
+    ]
+  },
+  "application/x-dgc-compressed": {
+    "extensions": [
+      "dgc"
+    ]
+  },
+  "application/x-director": {
+    "extensions": [
+      "dir",
+      "dcr",
+      "dxr",
+      "cst",
+      "cct",
+      "cxt",
+      "w3d",
+      "fgd",
+      "swa"
+    ]
+  },
+  "application/x-doom": {
+    "extensions": [
+      "wad"
+    ]
+  },
+  "application/x-dtbncx+xml": {
+    "extensions": [
+      "ncx"
+    ],
+    "compressible": true
+  },
+  "application/x-dtbook+xml": {
+    "extensions": [
+      "dtb"
+    ],
+    "compressible": true
+  },
+  "application/x-dtbresource+xml": {
+    "extensions": [
+      "res"
+    ],
+    "compressible": true
+  },
+  "application/x-dvi": {
+    "extensions": [
+      "dvi"
+    ],
+    "compressible": false
+  },
+  "application/x-envoy": {
+    "extensions": [
+      "evy"
+    ]
+  },
+  "application/x-eva": {
+    "extensions": [
+      "eva"
+    ]
+  },
+  "application/x-font-bdf": {
+    "extensions": [
+      "bdf"
+    ]
+  },
+  "application/x-font-dos": {},
+  "application/x-font-framemaker": {},
+  "application/x-font-ghostscript": {
+    "extensions": [
+      "gsf"
+    ]
+  },
+  "application/x-font-libgrx": {},
+  "application/x-font-linux-psf": {
+    "extensions": [
+      "psf"
+    ]
+  },
+  "application/x-font-otf": {
+    "extensions": [
+      "otf"
+    ],
+    "compressible": true
+  },
+  "application/x-font-pcf": {
+    "extensions": [
+      "pcf"
+    ]
+  },
+  "application/x-font-snf": {
+    "extensions": [
+      "snf"
+    ]
+  },
+  "application/x-font-speedo": {},
+  "application/x-font-sunos-news": {},
+  "application/x-font-ttf": {
+    "extensions": [
+      "ttf",
+      "ttc"
+    ],
+    "compressible": true
+  },
+  "application/x-font-type1": {
+    "extensions": [
+      "pfa",
+      "pfb",
+      "pfm",
+      "afm"
+    ]
+  },
+  "application/x-font-vfont": {},
+  "application/x-freearc": {
+    "extensions": [
+      "arc"
+    ]
+  },
+  "application/x-futuresplash": {
+    "extensions": [
+      "spl"
+    ]
+  },
+  "application/x-gca-compressed": {
+    "extensions": [
+      "gca"
+    ]
+  },
+  "application/x-glulx": {
+    "extensions": [
+      "ulx"
+    ]
+  },
+  "application/x-gnumeric": {
+    "extensions": [
+      "gnumeric"
+    ]
+  },
+  "application/x-gramps-xml": {
+    "extensions": [
+      "gramps"
+    ],
+    "compressible": true
+  },
+  "application/x-gtar": {
+    "extensions": [
+      "gtar"
+    ]
+  },
+  "application/x-gzip": {},
+  "application/x-hdf": {
+    "extensions": [
+      "hdf"
+    ]
+  },
+  "application/x-install-instructions": {
+    "extensions": [
+      "install"
+    ]
+  },
+  "application/x-iso9660-image": {
+    "extensions": [
+      "iso"
+    ]
+  },
+  "application/x-java-jnlp-file": {
+    "extensions": [
+      "jnlp"
+    ],
+    "compressible": false
+  },
+  "application/x-javascript": {
+    "compressible": true
+  },
+  "application/x-latex": {
+    "extensions": [
+      "latex"
+    ],
+    "compressible": false
+  },
+  "application/x-lua-bytecode": {
+    "extensions": [
+      "luac"
+    ]
+  },
+  "application/x-lzh-compressed": {
+    "extensions": [
+      "lzh",
+      "lha"
+    ]
+  },
+  "application/x-mie": {
+    "extensions": [
+      "mie"
+    ]
+  },
+  "application/x-mobipocket-ebook": {
+    "extensions": [
+      "prc",
+      "mobi"
+    ]
+  },
+  "application/x-mpegurl": {
+    "compressible": false
+  },
+  "application/x-ms-application": {
+    "extensions": [
+      "application"
+    ]
+  },
+  "application/x-ms-shortcut": {
+    "extensions": [
+      "lnk"
+    ]
+  },
+  "application/x-ms-wmd": {
+    "extensions": [
+      "wmd"
+    ]
+  },
+  "application/x-ms-wmz": {
+    "extensions": [
+      "wmz"
+    ]
+  },
+  "application/x-ms-xbap": {
+    "extensions": [
+      "xbap"
+    ]
+  },
+  "application/x-msaccess": {
+    "extensions": [
+      "mdb"
+    ]
+  },
+  "application/x-msbinder": {
+    "extensions": [
+      "obd"
+    ]
+  },
+  "application/x-mscardfile": {
+    "extensions": [
+      "crd"
+    ]
+  },
+  "application/x-msclip": {
+    "extensions": [
+      "clp"
+    ]
+  },
+  "application/x-msdownload": {
+    "extensions": [
+      "exe",
+      "dll",
+      "com",
+      "bat",
+      "msi"
+    ]
+  },
+  "application/x-msmediaview": {
+    "extensions": [
+      "mvb",
+      "m13",
+      "m14"
+    ]
+  },
+  "application/x-msmetafile": {
+    "extensions": [
+      "wmf",
+      "wmz",
+      "emf",
+      "emz"
+    ]
+  },
+  "application/x-msmoney": {
+    "extensions": [
+      "mny"
+    ]
+  },
+  "application/x-mspublisher": {
+    "extensions": [
+      "pub"
+    ]
+  },
+  "application/x-msschedule": {
+    "extensions": [
+      "scd"
+    ]
+  },
+  "application/x-msterminal": {
+    "extensions": [
+      "trm"
+    ]
+  },
+  "application/x-mswrite": {
+    "extensions": [
+      "wri"
+    ]
+  },
+  "application/x-netcdf": {
+    "extensions": [
+      "nc",
+      "cdf"
+    ]
+  },
+  "application/x-nzb": {
+    "extensions": [
+      "nzb"
+    ]
+  },
+  "application/x-pkcs12": {
+    "extensions": [
+      "p12",
+      "pfx"
+    ],
+    "compressible": false
+  },
+  "application/x-pkcs7-certificates": {
+    "extensions": [
+      "p7b",
+      "spc"
+    ]
+  },
+  "application/x-pkcs7-certreqresp": {
+    "extensions": [
+      "p7r"
+    ]
+  },
+  "application/x-rar-compressed": {
+    "extensions": [
+      "rar"
+    ],
+    "compressible": false
+  },
+  "application/x-research-info-systems": {
+    "extensions": [
+      "ris"
+    ]
+  },
+  "application/x-sh": {
+    "extensions": [
+      "sh"
+    ],
+    "compressible": true
+  },
+  "application/x-shar": {
+    "extensions": [
+      "shar"
+    ]
+  },
+  "application/x-shockwave-flash": {
+    "extensions": [
+      "swf"
+    ],
+    "compressible": false
+  },
+  "application/x-silverlight-app": {
+    "extensions": [
+      "xap"
+    ]
+  },
+  "application/x-sql": {
+    "extensions": [
+      "sql"
+    ]
+  },
+  "application/x-stuffit": {
+    "extensions": [
+      "sit"
+    ],
+    "compressible": false
+  },
+  "application/x-stuffitx": {
+    "extensions": [
+      "sitx"
+    ]
+  },
+  "application/x-subrip": {
+    "extensions": [
+      "srt"
+    ]
+  },
+  "application/x-sv4cpio": {
+    "extensions": [
+      "sv4cpio"
+    ]
+  },
+  "application/x-sv4crc": {
+    "extensions": [
+      "sv4crc"
+    ]
+  },
+  "application/x-t3vm-image": {
+    "extensions": [
+      "t3"
+    ]
+  },
+  "application/x-tads": {
+    "extensions": [
+      "gam"
+    ]
+  },
+  "application/x-tar": {
+    "extensions": [
+      "tar"
+    ],
+    "compressible": true
+  },
+  "application/x-tcl": {
+    "extensions": [
+      "tcl"
+    ]
+  },
+  "application/x-tex": {
+    "extensions": [
+      "tex"
+    ]
+  },
+  "application/x-tex-tfm": {
+    "extensions": [
+      "tfm"
+    ]
+  },
+  "application/x-texinfo": {
+    "extensions": [
+      "texinfo",
+      "texi"
+    ]
+  },
+  "application/x-tgif": {
+    "extensions": [
+      "obj"
+    ]
+  },
+  "application/x-ustar": {
+    "extensions": [
+      "ustar"
+    ]
+  },
+  "application/x-wais-source": {
+    "extensions": [
+      "src"
+    ]
+  },
+  "application/x-web-app-manifest+json": {
+    "extensions": [
+      "webapp"
+    ],
+    "compressible": true
+  },
+  "application/x-www-form-urlencode": {
+    "compressible": false
+  },
+  "application/x-www-form-urlencoded": {},
+  "application/x-x509-ca-cert": {
+    "extensions": [
+      "der",
+      "crt"
+    ]
+  },
+  "application/x-xfig": {
+    "extensions": [
+      "fig"
+    ]
+  },
+  "application/x-xliff+xml": {
+    "extensions": [
+      "xlf"
+    ],
+    "compressible": true
+  },
+  "application/x-xpinstall": {
+    "extensions": [
+      "xpi"
+    ],
+    "compressible": false
+  },
+  "application/x-xz": {
+    "extensions": [
+      "xz"
+    ]
+  },
+  "application/x-zmachine": {
+    "extensions": [
+      "z1",
+      "z2",
+      "z3",
+      "z4",
+      "z5",
+      "z6",
+      "z7",
+      "z8"
+    ]
+  },
+  "application/x400-bp": {},
+  "application/xacml+xml": {
+    "compressible": true
+  },
+  "application/xaml+xml": {
+    "extensions": [
+      "xaml"
+    ],
+    "compressible": true
+  },
+  "application/xcap-att+xml": {
+    "compressible": true
+  },
+  "application/xcap-caps+xml": {
+    "compressible": true
+  },
+  "application/xcap-diff+xml": {
+    "extensions": [
+      "xdf"
+    ],
+    "compressible": true
+  },
+  "application/xcap-el+xml": {
+    "compressible": true
+  },
+  "application/xcap-error+xml": {
+    "compressible": true
+  },
+  "application/xcap-ns+xml": {
+    "compressible": true
+  },
+  "application/xcon-conference-info+xml": {
+    "compressible": true
+  },
+  "application/xcon-conference-info-diff+xml": {
+    "compressible": true
+  },
+  "application/xenc+xml": {
+    "extensions": [
+      "xenc"
+    ],
+    "compressible": true
+  },
+  "application/xhtml+xml": {
+    "extensions": [
+      "xhtml",
+      "xht"
+    ],
+    "compressible": true
+  },
+  "application/xhtml-voice+xml": {
+    "compressible": true
+  },
+  "application/xml": {
+    "extensions": [
+      "xml",
+      "xsl",
+      "xsd"
+    ],
+    "compressible": true
+  },
+  "application/xml-dtd": {
+    "extensions": [
+      "dtd"
+    ],
+    "compressible": true
+  },
+  "application/xml-external-parsed-entity": {
+    "compressible": true
+  },
+  "application/xml-patch+xml": {
+    "compressible": true
+  },
+  "application/xmpp+xml": {
+    "compressible": true
+  },
+  "application/xop+xml": {
+    "extensions": [
+      "xop"
+    ],
+    "compressible": true
+  },
+  "application/xproc+xml": {
+    "extensions": [
+      "xpl"
+    ],
+    "compressible": true
+  },
+  "application/xslt+xml": {
+    "extensions": [
+      "xslt"
+    ],
+    "compressible": true
+  },
+  "application/xspf+xml": {
+    "extensions": [
+      "xspf"
+    ],
+    "compressible": true
+  },
+  "application/xv+xml": {
+    "extensions": [
+      "mxml",
+      "xhvml",
+      "xvml",
+      "xvm"
+    ],
+    "compressible": true
+  },
+  "application/yang": {
+    "extensions": [
+      "yang"
+    ]
+  },
+  "application/yin+xml": {
+    "extensions": [
+      "yin"
+    ],
+    "compressible": true
+  },
+  "application/zip": {
+    "extensions": [
+      "zip"
+    ],
+    "compressible": false
+  },
+  "application/zlib": {},
+  "audio/1d-interleaved-parityfec": {
+    "compressible": false
+  },
+  "audio/32kadpcm": {
+    "compressible": false
+  },
+  "audio/3gpp": {
+    "compressible": false
+  },
+  "audio/3gpp2": {
+    "compressible": false
+  },
+  "audio/ac3": {
+    "compressible": false
+  },
+  "audio/adpcm": {
+    "extensions": [
+      "adp"
+    ],
+    "compressible": false
+  },
+  "audio/amr": {
+    "compressible": false
+  },
+  "audio/amr-wb": {
+    "compressible": false
+  },
+  "audio/amr-wb+": {
+    "compressible": false
+  },
+  "audio/aptx": {
+    "compressible": false
+  },
+  "audio/asc": {
+    "compressible": false
+  },
+  "audio/atrac-advanced-lossless": {
+    "compressible": false
+  },
+  "audio/atrac-x": {
+    "compressible": false
+  },
+  "audio/atrac3": {
+    "compressible": false
+  },
+  "audio/basic": {
+    "extensions": [
+      "au",
+      "snd"
+    ],
+    "compressible": false
+  },
+  "audio/bv16": {
+    "compressible": false
+  },
+  "audio/bv32": {
+    "compressible": false
+  },
+  "audio/clearmode": {
+    "compressible": false
+  },
+  "audio/cn": {
+    "compressible": false
+  },
+  "audio/dat12": {
+    "compressible": false
+  },
+  "audio/dls": {
+    "compressible": false
+  },
+  "audio/dsr-es201108": {
+    "compressible": false
+  },
+  "audio/dsr-es202050": {
+    "compressible": false
+  },
+  "audio/dsr-es202211": {
+    "compressible": false
+  },
+  "audio/dsr-es202212": {
+    "compressible": false
+  },
+  "audio/dv": {
+    "compressible": false
+  },
+  "audio/dvi4": {
+    "compressible": false
+  },
+  "audio/eac3": {
+    "compressible": false
+  },
+  "audio/encaprtp": {
+    "compressible": false
+  },
+  "audio/evrc": {
+    "compressible": false
+  },
+  "audio/evrc-qcp": {
+    "compressible": false
+  },
+  "audio/evrc0": {
+    "compressible": false
+  },
+  "audio/evrc1": {
+    "compressible": false
+  },
+  "audio/evrcb": {
+    "compressible": false
+  },
+  "audio/evrcb0": {
+    "compressible": false
+  },
+  "audio/evrcb1": {
+    "compressible": false
+  },
+  "audio/evrcnw": {
+    "compressible": false
+  },
+  "audio/evrcnw0": {
+    "compressible": false
+  },
+  "audio/evrcnw1": {
+    "compressible": false
+  },
+  "audio/evrcwb": {
+    "compressible": false
+  },
+  "audio/evrcwb0": {
+    "compressible": false
+  },
+  "audio/evrcwb1": {
+    "compressible": false
+  },
+  "audio/example": {
+    "compressible": false
+  },
+  "audio/fwdred": {
+    "compressible": false
+  },
+  "audio/g719": {
+    "compressible": false
+  },
+  "audio/g721": {
+    "compressible": false
+  },
+  "audio/g722": {
+    "compressible": false
+  },
+  "audio/g7221": {
+    "compressible": false
+  },
+  "audio/g723": {
+    "compressible": false
+  },
+  "audio/g726-16": {
+    "compressible": false
+  },
+  "audio/g726-24": {
+    "compressible": false
+  },
+  "audio/g726-32": {
+    "compressible": false
+  },
+  "audio/g726-40": {
+    "compressible": false
+  },
+  "audio/g728": {
+    "compressible": false
+  },
+  "audio/g729": {
+    "compressible": false
+  },
+  "audio/g7291": {
+    "compressible": false
+  },
+  "audio/g729d": {
+    "compressible": false
+  },
+  "audio/g729e": {
+    "compressible": false
+  },
+  "audio/gsm": {
+    "compressible": false
+  },
+  "audio/gsm-efr": {
+    "compressible": false
+  },
+  "audio/gsm-hr-08": {
+    "compressible": false
+  },
+  "audio/ilbc": {
+    "compressible": false
+  },
+  "audio/ip-mr_v2.5": {
+    "compressible": false
+  },
+  "audio/isac": {
+    "compressible": false
+  },
+  "audio/l16": {
+    "compressible": false
+  },
+  "audio/l20": {
+    "compressible": false
+  },
+  "audio/l24": {
+    "compressible": false
+  },
+  "audio/l8": {
+    "compressible": false
+  },
+  "audio/lpc": {
+    "compressible": false
+  },
+  "audio/midi": {
+    "extensions": [
+      "mid",
+      "midi",
+      "kar",
+      "rmi"
+    ],
+    "compressible": false
+  },
+  "audio/mobile-xmf": {
+    "compressible": false
+  },
+  "audio/mp4": {
+    "extensions": [
+      "mp4a",
+      "m4a"
+    ],
+    "compressible": false
+  },
+  "audio/mp4a-latm": {
+    "compressible": false
+  },
+  "audio/mpa": {
+    "compressible": false
+  },
+  "audio/mpa-robust": {
+    "compressible": false
+  },
+  "audio/mpeg": {
+    "extensions": [
+      "mpga",
+      "mp2",
+      "mp2a",
+      "mp3",
+      "m2a",
+      "m3a"
+    ],
+    "compressible": false
+  },
+  "audio/mpeg4-generic": {
+    "compressible": false
+  },
+  "audio/musepack": {
+    "compressible": false
+  },
+  "audio/ogg": {
+    "extensions": [
+      "oga",
+      "ogg",
+      "spx"
+    ],
+    "compressible": false
+  },
+  "audio/opus": {
+    "compressible": false
+  },
+  "audio/parityfec": {
+    "compressible": false
+  },
+  "audio/pcma": {
+    "compressible": false
+  },
+  "audio/pcma-wb": {
+    "compressible": false
+  },
+  "audio/pcmu": {
+    "compressible": false
+  },
+  "audio/pcmu-wb": {
+    "compressible": false
+  },
+  "audio/prs.sid": {
+    "compressible": false
+  },
+  "audio/qcelp": {
+    "compressible": false
+  },
+  "audio/raptorfec": {
+    "compressible": false
+  },
+  "audio/red": {
+    "compressible": false
+  },
+  "audio/rtp-enc-aescm128": {
+    "compressible": false
+  },
+  "audio/rtp-midi": {
+    "compressible": false
+  },
+  "audio/rtploopback": {
+    "compressible": false
+  },
+  "audio/rtx": {
+    "compressible": false
+  },
+  "audio/s3m": {
+    "extensions": [
+      "s3m"
+    ],
+    "compressible": false
+  },
+  "audio/silk": {
+    "extensions": [
+      "sil"
+    ],
+    "compressible": false
+  },
+  "audio/smv": {
+    "compressible": false
+  },
+  "audio/smv-qcp": {
+    "compressible": false
+  },
+  "audio/smv0": {
+    "compressible": false
+  },
+  "audio/sp-midi": {
+    "compressible": false
+  },
+  "audio/speex": {
+    "compressible": false
+  },
+  "audio/t140c": {
+    "compressible": false
+  },
+  "audio/t38": {
+    "compressible": false
+  },
+  "audio/telephone-event": {
+    "compressible": false
+  },
+  "audio/tone": {
+    "compressible": false
+  },
+  "audio/uemclip": {
+    "compressible": false
+  },
+  "audio/ulpfec": {
+    "compressible": false
+  },
+  "audio/vdvi": {
+    "compressible": false
+  },
+  "audio/vmr-wb": {
+    "compressible": false
+  },
+  "audio/vnd.3gpp.iufp": {
+    "compressible": false
+  },
+  "audio/vnd.4sb": {
+    "compressible": false
+  },
+  "audio/vnd.audiokoz": {
+    "compressible": false
+  },
+  "audio/vnd.celp": {
+    "compressible": false
+  },
+  "audio/vnd.cisco.nse": {
+    "compressible": false
+  },
+  "audio/vnd.cmles.radio-events": {
+    "compressible": false
+  },
+  "audio/vnd.cns.anp1": {
+    "compressible": false
+  },
+  "audio/vnd.cns.inf1": {
+    "compressible": false
+  },
+  "audio/vnd.dece.audio": {
+    "extensions": [
+      "uva",
+      "uvva"
+    ],
+    "compressible": false
+  },
+  "audio/vnd.digital-winds": {
+    "extensions": [
+      "eol"
+    ],
+    "compressible": false
+  },
+  "audio/vnd.dlna.adts": {
+    "compressible": false
+  },
+  "audio/vnd.dolby.heaac.1": {
+    "compressible": false
+  },
+  "audio/vnd.dolby.heaac.2": {
+    "compressible": false
+  },
+  "audio/vnd.dolby.mlp": {
+    "compressible": false
+  },
+  "audio/vnd.dolby.mps": {
+    "compressible": false
+  },
+  "audio/vnd.dolby.pl2": {
+    "compressible": false
+  },
+  "audio/vnd.dolby.pl2x": {
+    "compressible": false
+  },
+  "audio/vnd.dolby.pl2z": {
+    "compressible": false
+  },
+  "audio/vnd.dolby.pulse.1": {
+    "compressible": false
+  },
+  "audio/vnd.dra": {
+    "extensions": [
+      "dra"
+    ],
+    "compressible": false
+  },
+  "audio/vnd.dts": {
+    "extensions": [
+      "dts"
+    ],
+    "compressible": false
+  },
+  "audio/vnd.dts.hd": {
+    "extensions": [
+      "dtshd"
+    ],
+    "compressible": false
+  },
+  "audio/vnd.dvb.file": {
+    "compressible": false
+  },
+  "audio/vnd.everad.plj": {
+    "compressible": false
+  },
+  "audio/vnd.hns.audio": {
+    "compressible": false
+  },
+  "audio/vnd.lucent.voice": {
+    "extensions": [
+      "lvp"
+    ],
+    "compressible": false
+  },
+  "audio/vnd.ms-playready.media.pya": {
+    "extensions": [
+      "pya"
+    ],
+    "compressible": false
+  },
+  "audio/vnd.nokia.mobile-xmf": {
+    "compressible": false
+  },
+  "audio/vnd.nortel.vbk": {
+    "compressible": false
+  },
+  "audio/vnd.nuera.ecelp4800": {
+    "extensions": [
+      "ecelp4800"
+    ],
+    "compressible": false
+  },
+  "audio/vnd.nuera.ecelp7470": {
+    "extensions": [
+      "ecelp7470"
+    ],
+    "compressible": false
+  },
+  "audio/vnd.nuera.ecelp9600": {
+    "extensions": [
+      "ecelp9600"
+    ],
+    "compressible": false
+  },
+  "audio/vnd.octel.sbc": {
+    "compressible": false
+  },
+  "audio/vnd.qcelp": {
+    "compressible": false
+  },
+  "audio/vnd.rhetorex.32kadpcm": {
+    "compressible": false
+  },
+  "audio/vnd.rip": {
+    "extensions": [
+      "rip"
+    ],
+    "compressible": false
+  },
+  "audio/vnd.rn-realaudio": {
+    "compressible": false
+  },
+  "audio/vnd.sealedmedia.softseal-mpeg": {
+    "compressible": false
+  },
+  "audio/vnd.sealedmedia.softseal.mpeg": {
+    "compressible": false
+  },
+  "audio/vnd.vmx.cvsd": {
+    "compressible": false
+  },
+  "audio/vnd.wave": {
+    "compressible": false
+  },
+  "audio/vorbis": {
+    "compressible": false
+  },
+  "audio/vorbis-config": {
+    "compressible": false
+  },
+  "audio/webm": {
+    "extensions": [
+      "weba"
+    ],
+    "compressible": false
+  },
+  "audio/x-aac": {
+    "extensions": [
+      "aac"
+    ],
+    "compressible": false
+  },
+  "audio/x-aiff": {
+    "extensions": [
+      "aif",
+      "aiff",
+      "aifc"
+    ],
+    "compressible": false
+  },
+  "audio/x-caf": {
+    "extensions": [
+      "caf"
+    ],
+    "compressible": false
+  },
+  "audio/x-flac": {
+    "extensions": [
+      "flac"
+    ],
+    "compressible": false
+  },
+  "audio/x-matroska": {
+    "extensions": [
+      "mka"
+    ],
+    "compressible": false
+  },
+  "audio/x-mpegurl": {
+    "extensions": [
+      "m3u"
+    ],
+    "compressible": false
+  },
+  "audio/x-ms-wax": {
+    "extensions": [
+      "wax"
+    ],
+    "compressible": false
+  },
+  "audio/x-ms-wma": {
+    "extensions": [
+      "wma"
+    ],
+    "compressible": false
+  },
+  "audio/x-pn-realaudio": {
+    "extensions": [
+      "ram",
+      "ra"
+    ],
+    "compressible": false
+  },
+  "audio/x-pn-realaudio-plugin": {
+    "extensions": [
+      "rmp"
+    ],
+    "compressible": false
+  },
+  "audio/x-tta": {
+    "compressible": false
+  },
+  "audio/x-wav": {
+    "extensions": [
+      "wav"
+    ],
+    "compressible": false
+  },
+  "audio/xm": {
+    "extensions": [
+      "xm"
+    ],
+    "compressible": false
+  },
+  "chemical/x-cdx": {
+    "extensions": [
+      "cdx"
+    ]
+  },
+  "chemical/x-cif": {
+    "extensions": [
+      "cif"
+    ]
+  },
+  "chemical/x-cmdf": {
+    "extensions": [
+      "cmdf"
+    ]
+  },
+  "chemical/x-cml": {
+    "extensions": [
+      "cml"
+    ]
+  },
+  "chemical/x-csml": {
+    "extensions": [
+      "csml"
+    ]
+  },
+  "chemical/x-pdb": {},
+  "chemical/x-xyz": {
+    "extensions": [
+      "xyz"
+    ]
+  },
+  "font/opentype": {
+    "extensions": [
+      "otf"
+    ],
+    "compressible": true
+  },
+  "image/bmp": {
+    "extensions": [
+      "bmp"
+    ],
+    "compressible": true
+  },
+  "image/cgm": {
+    "extensions": [
+      "cgm"
+    ],
+    "compressible": false
+  },
+  "image/example": {
+    "compressible": false
+  },
+  "image/fits": {
+    "compressible": false
+  },
+  "image/g3fax": {
+    "extensions": [
+      "g3"
+    ],
+    "compressible": false
+  },
+  "image/gif": {
+    "extensions": [
+      "gif"
+    ],
+    "compressible": false
+  },
+  "image/ief": {
+    "extensions": [
+      "ief"
+    ],
+    "compressible": false
+  },
+  "image/jp2": {
+    "compressible": false
+  },
+  "image/jpeg": {
+    "extensions": [
+      "jpeg",
+      "jpg",
+      "jpe"
+    ],
+    "compressible": false
+  },
+  "image/jpm": {
+    "compressible": false
+  },
+  "image/jpx": {
+    "compressible": false
+  },
+  "image/ktx": {
+    "extensions": [
+      "ktx"
+    ],
+    "compressible": false
+  },
+  "image/naplps": {
+    "compressible": false
+  },
+  "image/pjpeg": {
+    "compressible": false
+  },
+  "image/png": {
+    "extensions": [
+      "png"
+    ],
+    "compressible": false
+  },
+  "image/prs.btif": {
+    "extensions": [
+      "btif"
+    ],
+    "compressible": false
+  },
+  "image/prs.pti": {
+    "compressible": false
+  },
+  "image/pwg-raster": {
+    "compressible": false
+  },
+  "image/sgi": {
+    "extensions": [
+      "sgi"
+    ],
+    "compressible": false
+  },
+  "image/svg+xml": {
+    "extensions": [
+      "svg",
+      "svgz"
+    ],
+    "compressible": true
+  },
+  "image/t38": {
+    "compressible": false
+  },
+  "image/tiff": {
+    "extensions": [
+      "tiff",
+      "tif"
+    ],
+    "compressible": false
+  },
+  "image/tiff-fx": {
+    "compressible": false
+  },
+  "image/vnd-djvu": {
+    "compressible": false
+  },
+  "image/vnd-svf": {
+    "compressible": false
+  },
+  "image/vnd-wap-wbmp": {
+    "compressible": false
+  },
+  "image/vnd.adobe.photoshop": {
+    "extensions": [
+      "psd"
+    ],
+    "compressible": true
+  },
+  "image/vnd.airzip.accelerator.azv": {
+    "compressible": false
+  },
+  "image/vnd.cns.inf2": {
+    "compressible": false
+  },
+  "image/vnd.dece.graphic": {
+    "extensions": [
+      "uvi",
+      "uvvi",
+      "uvg",
+      "uvvg"
+    ],
+    "compressible": false
+  },
+  "image/vnd.djvu": {
+    "extensions": [
+      "djvu",
+      "djv"
+    ],
+    "compressible": false
+  },
+  "image/vnd.dvb.subtitle": {
+    "extensions": [
+      "sub"
+    ],
+    "compressible": false
+  },
+  "image/vnd.dwg": {
+    "extensions": [
+      "dwg"
+    ],
+    "compressible": false
+  },
+  "image/vnd.dxf": {
+    "extensions": [
+      "dxf"
+    ],
+    "compressible": false
+  },
+  "image/vnd.fastbidsheet": {
+    "extensions": [
+      "fbs"
+    ],
+    "compressible": false
+  },
+  "image/vnd.fpx": {
+    "extensions": [
+      "fpx"
+    ],
+    "compressible": false
+  },
+  "image/vnd.fst": {
+    "extensions": [
+      "fst"
+    ],
+    "compressible": false
+  },
+  "image/vnd.fujixerox.edmics-mmr": {
+    "extensions": [
+      "mmr"
+    ],
+    "compressible": false
+  },
+  "image/vnd.fujixerox.edmics-rlc": {
+    "extensions": [
+      "rlc"
+    ],
+    "compressible": false
+  },
+  "image/vnd.globalgraphics.pgb": {
+    "compressible": false
+  },
+  "image/vnd.microsoft.icon": {
+    "compressible": false
+  },
+  "image/vnd.mix": {
+    "compressible": false
+  },
+  "image/vnd.ms-modi": {
+    "extensions": [
+      "mdi"
+    ],
+    "compressible": false
+  },
+  "image/vnd.ms-photo": {
+    "extensions": [
+      "wdp"
+    ],
+    "compressible": false
+  },
+  "image/vnd.net-fpx": {
+    "extensions": [
+      "npx"
+    ],
+    "compressible": false
+  },
+  "image/vnd.radiance": {
+    "compressible": false
+  },
+  "image/vnd.sealed-png": {
+    "compressible": false
+  },
+  "image/vnd.sealed.png": {
+    "compressible": false
+  },
+  "image/vnd.sealedmedia.softseal-gif": {
+    "compressible": false
+  },
+  "image/vnd.sealedmedia.softseal-jpg": {
+    "compressible": false
+  },
+  "image/vnd.sealedmedia.softseal.gif": {
+    "compressible": false
+  },
+  "image/vnd.sealedmedia.softseal.jpg": {
+    "compressible": false
+  },
+  "image/vnd.svf": {
+    "compressible": false
+  },
+  "image/vnd.valve.source.texture": {
+    "compressible": false
+  },
+  "image/vnd.wap.wbmp": {
+    "extensions": [
+      "wbmp"
+    ],
+    "compressible": false
+  },
+  "image/vnd.xiff": {
+    "extensions": [
+      "xif"
+    ],
+    "compressible": false
+  },
+  "image/webp": {
+    "extensions": [
+      "webp"
+    ],
+    "compressible": false
+  },
+  "image/x-3ds": {
+    "extensions": [
+      "3ds"
+    ],
+    "compressible": false
+  },
+  "image/x-cmu-raster": {
+    "extensions": [
+      "ras"
+    ],
+    "compressible": false
+  },
+  "image/x-cmx": {
+    "extensions": [
+      "cmx"
+    ],
+    "compressible": false
+  },
+  "image/x-freehand": {
+    "extensions": [
+      "fh",
+      "fhc",
+      "fh4",
+      "fh5",
+      "fh7"
+    ],
+    "compressible": false
+  },
+  "image/x-icon": {
+    "extensions": [
+      "ico"
+    ],
+    "compressible": true
+  },
+  "image/x-mrsid-image": {
+    "extensions": [
+      "sid"
+    ],
+    "compressible": false
+  },
+  "image/x-pcx": {
+    "extensions": [
+      "pcx"
+    ],
+    "compressible": false
+  },
+  "image/x-pict": {
+    "extensions": [
+      "pic",
+      "pct"
+    ],
+    "compressible": false
+  },
+  "image/x-portable-anymap": {
+    "extensions": [
+      "pnm"
+    ],
+    "compressible": false
+  },
+  "image/x-portable-bitmap": {
+    "extensions": [
+      "pbm"
+    ],
+    "compressible": false
+  },
+  "image/x-portable-graymap": {
+    "extensions": [
+      "pgm"
+    ],
+    "compressible": false
+  },
+  "image/x-portable-pixmap": {
+    "extensions": [
+      "ppm"
+    ],
+    "compressible": false
+  },
+  "image/x-rgb": {
+    "extensions": [
+      "rgb"
+    ],
+    "compressible": false
+  },
+  "image/x-tga": {
+    "extensions": [
+      "tga"
+    ],
+    "compressible": false
+  },
+  "image/x-xbitmap": {
+    "extensions": [
+      "xbm"
+    ],
+    "compressible": false
+  },
+  "image/x-xcf": {
+    "compressible": false
+  },
+  "image/x-xpixmap": {
+    "extensions": [
+      "xpm"
+    ],
+    "compressible": false
+  },
+  "image/x-xwindowdump": {
+    "extensions": [
+      "xwd"
+    ],
+    "compressible": false
+  },
+  "message/cpim": {},
+  "message/delivery-status": {},
+  "message/disposition-notification": {},
+  "message/example": {},
+  "message/external-body": {},
+  "message/feedback-report": {},
+  "message/global": {},
+  "message/global-delivery-status": {},
+  "message/global-disposition-notification": {},
+  "message/global-headers": {},
+  "message/http": {
+    "compressible": false
+  },
+  "message/imdn+xml": {
+    "compressible": true
+  },
+  "message/news": {},
+  "message/partial": {
+    "compressible": false
+  },
+  "message/rfc822": {
+    "extensions": [
+      "eml",
+      "mime"
+    ],
+    "compressible": true
+  },
+  "message/s-http": {},
+  "message/sip": {},
+  "message/sipfrag": {},
+  "message/tracking-status": {},
+  "message/vnd.si.simp": {},
+  "message/vnd.wfa.wsc": {},
+  "model/example": {
+    "compressible": false
+  },
+  "model/iges": {
+    "extensions": [
+      "igs",
+      "iges"
+    ],
+    "compressible": false
+  },
+  "model/mesh": {
+    "extensions": [
+      "msh",
+      "mesh",
+      "silo"
+    ],
+    "compressible": false
+  },
+  "model/vnd-dwf": {},
+  "model/vnd.collada+xml": {
+    "extensions": [
+      "dae"
+    ],
+    "compressible": true
+  },
+  "model/vnd.dwf": {
+    "extensions": [
+      "dwf"
+    ]
+  },
+  "model/vnd.flatland.3dml": {},
+  "model/vnd.gdl": {
+    "extensions": [
+      "gdl"
+    ]
+  },
+  "model/vnd.gs-gdl": {},
+  "model/vnd.gs.gdl": {},
+  "model/vnd.gtw": {
+    "extensions": [
+      "gtw"
+    ]
+  },
+  "model/vnd.moml+xml": {
+    "compressible": true
+  },
+  "model/vnd.mts": {
+    "extensions": [
+      "mts"
+    ]
+  },
+  "model/vnd.opengex": {},
+  "model/vnd.parasolid.transmit-binary": {},
+  "model/vnd.parasolid.transmit-text": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "model/vnd.parasolid.transmit.binary": {},
+  "model/vnd.parasolid.transmit.text": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "model/vnd.valve.source.compiled-map": {},
+  "model/vnd.vtu": {
+    "extensions": [
+      "vtu"
+    ]
+  },
+  "model/vrml": {
+    "extensions": [
+      "wrl",
+      "vrml"
+    ],
+    "compressible": false
+  },
+  "model/x3d+binary": {
+    "extensions": [
+      "x3db",
+      "x3dbz"
+    ],
+    "compressible": false
+  },
+  "model/x3d+fastinfoset": {},
+  "model/x3d+vrml": {
+    "extensions": [
+      "x3dv",
+      "x3dvz"
+    ],
+    "compressible": false
+  },
+  "model/x3d+xml": {
+    "extensions": [
+      "x3d",
+      "x3dz"
+    ],
+    "compressible": true
+  },
+  "model/x3d-vrml": {},
+  "multipart/alternative": {
+    "compressible": false
+  },
+  "multipart/appledouble": {},
+  "multipart/byteranges": {},
+  "multipart/digest": {},
+  "multipart/encrypted": {
+    "compressible": false
+  },
+  "multipart/example": {},
+  "multipart/form-data": {
+    "compressible": false
+  },
+  "multipart/header-set": {},
+  "multipart/mixed": {
+    "compressible": false
+  },
+  "multipart/parallel": {},
+  "multipart/related": {
+    "compressible": false
+  },
+  "multipart/report": {},
+  "multipart/signed": {
+    "compressible": false
+  },
+  "multipart/voice-message": {},
+  "text/1d-interleaved-parityfec": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/cache-manifest": {
+    "extensions": [
+      "appcache",
+      "manifest"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/calendar": {
+    "extensions": [
+      "ics",
+      "ifb"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/calender": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/cmd": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/coffeescript": {
+    "extensions": [
+      "coffee"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/css": {
+    "extensions": [
+      "css"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/csv": {
+    "extensions": [
+      "csv"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/directory": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/dns": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/ecmascript": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/encaprtp": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/enriched": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/example": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/fwdred": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/grammar-ref-list": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/html": {
+    "extensions": [
+      "html",
+      "htm"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/jade": {
+    "extensions": [
+      "jade"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/javascript": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/jcr-cnd": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/jsx": {
+    "extensions": [
+      "jsx"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/less": {
+    "extensions": [
+      "less"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/mizar": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/n3": {
+    "extensions": [
+      "n3"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/parameters": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/parityfec": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/plain": {
+    "extensions": [
+      "txt",
+      "text",
+      "conf",
+      "def",
+      "list",
+      "log",
+      "in",
+      "ini"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/provenance-notation": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/prs.fallenstein.rst": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/prs.lines.tag": {
+    "extensions": [
+      "dsc"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/raptorfec": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/red": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/rfc822-headers": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/richtext": {
+    "extensions": [
+      "rtx"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/rtf": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/rtp-enc-aescm128": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/rtploopback": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/rtx": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/sgml": {
+    "extensions": [
+      "sgml",
+      "sgm"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/stylus": {
+    "extensions": [
+      "stylus",
+      "styl"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/t140": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/tab-separated-values": {
+    "extensions": [
+      "tsv"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/troff": {
+    "extensions": [
+      "t",
+      "tr",
+      "roff",
+      "man",
+      "me",
+      "ms"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/turtle": {
+    "extensions": [
+      "ttl"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/ulpfec": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/uri-list": {
+    "extensions": [
+      "uri",
+      "uris",
+      "urls"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vcard": {
+    "extensions": [
+      "vcard"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd-a": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd-curl": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.abc": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.curl": {
+    "extensions": [
+      "curl"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.curl.dcurl": {
+    "extensions": [
+      "dcurl"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.curl.mcurl": {
+    "extensions": [
+      "mcurl"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.curl.scurl": {
+    "extensions": [
+      "scurl"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.debian.copyright": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.dmclientscript": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.dvb.subtitle": {
+    "extensions": [
+      "sub"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.esmertec.theme-descriptor": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.fly": {
+    "extensions": [
+      "fly"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.fmi.flexstor": {
+    "extensions": [
+      "flx"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.graphviz": {
+    "extensions": [
+      "gv"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.in3d.3dml": {
+    "extensions": [
+      "3dml"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.in3d.spot": {
+    "extensions": [
+      "spot"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.iptc.newsml": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.iptc.nitf": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.latex-z": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.motorola.reflex": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.ms-mediapackage": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.net2phone.commcenter.command": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.radisys.msml-basic-layout": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.si.uricatalogue": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.sun.j2me.app-descriptor": {
+    "extensions": [
+      "jad"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.trolltech.linguist": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.wap-wml": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.wap.si": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.wap.sl": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.wap.wml": {
+    "extensions": [
+      "wml"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vnd.wap.wmlscript": {
+    "extensions": [
+      "wmls"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/vtt": {
+    "extensions": [
+      "vtt"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-asm": {
+    "extensions": [
+      "s",
+      "asm"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-c": {
+    "extensions": [
+      "c",
+      "cc",
+      "cxx",
+      "cpp",
+      "h",
+      "hh",
+      "dic"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-component": {
+    "extensions": [
+      "htc"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-fortran": {
+    "extensions": [
+      "f",
+      "for",
+      "f77",
+      "f90"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-gwt-rpc": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-handlebars-template": {
+    "extensions": [
+      "hbs"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-java-source": {
+    "extensions": [
+      "java"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-jquery-tmpl": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-lua": {
+    "extensions": [
+      "lua"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-markdown": {
+    "extensions": [
+      "markdown",
+      "md",
+      "mkd"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-nfo": {
+    "extensions": [
+      "nfo"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-opml": {
+    "extensions": [
+      "opml"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-pascal": {
+    "extensions": [
+      "p",
+      "pas"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-sass": {
+    "extensions": [
+      "sass"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-scss": {
+    "extensions": [
+      "scss"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-setext": {
+    "extensions": [
+      "etx"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-sfv": {
+    "extensions": [
+      "sfv"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-uuencode": {
+    "extensions": [
+      "uu"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-vcalendar": {
+    "extensions": [
+      "vcs"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/x-vcard": {
+    "extensions": [
+      "vcf"
+    ],
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/xml": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "text/xml-external-parsed-entity": {
+    "compressible": true,
+    "charset": "UTF-8"
+  },
+  "video/1d-interleaved-parityfec": {
+    "compressible": false
+  },
+  "video/3gpp": {
+    "extensions": [
+      "3gp"
+    ],
+    "compressible": false
+  },
+  "video/3gpp-tt": {
+    "compressible": false
+  },
+  "video/3gpp2": {
+    "extensions": [
+      "3g2"
+    ],
+    "compressible": false
+  },
+  "video/bmpeg": {
+    "compressible": false
+  },
+  "video/bt656": {
+    "compressible": false
+  },
+  "video/celb": {
+    "compressible": false
+  },
+  "video/dv": {
+    "compressible": false
+  },
+  "video/example": {
+    "compressible": false
+  },
+  "video/h261": {
+    "extensions": [
+      "h261"
+    ],
+    "compressible": false
+  },
+  "video/h263": {
+    "extensions": [
+      "h263"
+    ],
+    "compressible": false
+  },
+  "video/h263-1998": {
+    "compressible": false
+  },
+  "video/h263-2000": {
+    "compressible": false
+  },
+  "video/h264": {
+    "extensions": [
+      "h264"
+    ],
+    "compressible": false
+  },
+  "video/h264-rcdo": {
+    "compressible": false
+  },
+  "video/h264-svc": {
+    "compressible": false
+  },
+  "video/jpeg": {
+    "extensions": [
+      "jpgv"
+    ],
+    "compressible": false
+  },
+  "video/jpeg2000": {
+    "compressible": false
+  },
+  "video/jpm": {
+    "extensions": [
+      "jpm",
+      "jpgm"
+    ],
+    "compressible": false
+  },
+  "video/mj2": {
+    "extensions": [
+      "mj2",
+      "mjp2"
+    ],
+    "compressible": false
+  },
+  "video/mp1s": {
+    "compressible": false
+  },
+  "video/mp2p": {
+    "compressible": false
+  },
+  "video/mp2t": {
+    "extensions": [
+      "ts"
+    ],
+    "compressible": false
+  },
+  "video/mp4": {
+    "extensions": [
+      "mp4",
+      "mp4v",
+      "mpg4"
+    ],
+    "compressible": false
+  },
+  "video/mp4v-es": {
+    "compressible": false
+  },
+  "video/mpeg": {
+    "extensions": [
+      "mpeg",
+      "mpg",
+      "mpe",
+      "m1v",
+      "m2v"
+    ],
+    "compressible": false
+  },
+  "video/mpeg4-generic": {
+    "compressible": false
+  },
+  "video/mpv": {
+    "compressible": false
+  },
+  "video/nv": {
+    "compressible": false
+  },
+  "video/ogg": {
+    "extensions": [
+      "ogv"
+    ],
+    "compressible": false
+  },
+  "video/parityfec": {
+    "compressible": false
+  },
+  "video/pointer": {
+    "compressible": false
+  },
+  "video/quicktime": {
+    "extensions": [
+      "qt",
+      "mov"
+    ],
+    "compressible": false
+  },
+  "video/raw": {
+    "compressible": false
+  },
+  "video/rtp-enc-aescm128": {
+    "compressible": false
+  },
+  "video/rtx": {
+    "compressible": false
+  },
+  "video/smpte292m": {
+    "compressible": false
+  },
+  "video/ulpfec": {
+    "compressible": false
+  },
+  "video/vc1": {
+    "compressible": false
+  },
+  "video/vnd.cctv": {
+    "compressible": false
+  },
+  "video/vnd.dece.hd": {
+    "extensions": [
+      "uvh",
+      "uvvh"
+    ],
+    "compressible": false
+  },
+  "video/vnd.dece.mobile": {
+    "extensions": [
+      "uvm",
+      "uvvm"
+    ],
+    "compressible": false
+  },
+  "video/vnd.dece.mp4": {
+    "compressible": false
+  },
+  "video/vnd.dece.pd": {
+    "extensions": [
+      "uvp",
+      "uvvp"
+    ],
+    "compressible": false
+  },
+  "video/vnd.dece.sd": {
+    "extensions": [
+      "uvs",
+      "uvvs"
+    ],
+    "compressible": false
+  },
+  "video/vnd.dece.video": {
+    "extensions": [
+      "uvv",
+      "uvvv"
+    ],
+    "compressible": false
+  },
+  "video/vnd.directv.mpeg": {
+    "compressible": false
+  },
+  "video/vnd.directv.mpeg-tts": {
+    "compressible": false
+  },
+  "video/vnd.dlna.mpeg-tts": {
+    "compressible": false
+  },
+  "video/vnd.dvb.file": {
+    "extensions": [
+      "dvb"
+    ],
+    "compressible": false
+  },
+  "video/vnd.fvt": {
+    "extensions": [
+      "fvt"
+    ],
+    "compressible": false
+  },
+  "video/vnd.hns.video": {
+    "compressible": false
+  },
+  "video/vnd.iptvforum.1dparityfec-1010": {
+    "compressible": false
+  },
+  "video/vnd.iptvforum.1dparityfec-2005": {
+    "compressible": false
+  },
+  "video/vnd.iptvforum.2dparityfec-1010": {
+    "compressible": false
+  },
+  "video/vnd.iptvforum.2dparityfec-2005": {
+    "compressible": false
+  },
+  "video/vnd.iptvforum.ttsavc": {
+    "compressible": false
+  },
+  "video/vnd.iptvforum.ttsmpeg2": {
+    "compressible": false
+  },
+  "video/vnd.motorola.video": {
+    "compressible": false
+  },
+  "video/vnd.motorola.videop": {
+    "compressible": false
+  },
+  "video/vnd.mpegurl": {
+    "extensions": [
+      "mxu",
+      "m4u"
+    ],
+    "compressible": false
+  },
+  "video/vnd.ms-playready.media.pyv": {
+    "extensions": [
+      "pyv"
+    ],
+    "compressible": false
+  },
+  "video/vnd.nokia.interleaved-multimedia": {
+    "compressible": false
+  },
+  "video/vnd.nokia.videovoip": {
+    "compressible": false
+  },
+  "video/vnd.objectvideo": {
+    "compressible": false
+  },
+  "video/vnd.sealed.mpeg1": {
+    "compressible": false
+  },
+  "video/vnd.sealed.mpeg4": {
+    "compressible": false
+  },
+  "video/vnd.sealed.swf": {
+    "compressible": false
+  },
+  "video/vnd.sealedmedia.softseal.mov": {
+    "compressible": false
+  },
+  "video/vnd.uvvu.mp4": {
+    "extensions": [
+      "uvu",
+      "uvvu"
+    ],
+    "compressible": false
+  },
+  "video/vnd.vivo": {
+    "extensions": [
+      "viv"
+    ],
+    "compressible": false
+  },
+  "video/webm": {
+    "extensions": [
+      "webm"
+    ],
+    "compressible": false
+  },
+  "video/x-f4v": {
+    "extensions": [
+      "f4v"
+    ],
+    "compressible": false
+  },
+  "video/x-fli": {
+    "extensions": [
+      "fli"
+    ],
+    "compressible": false
+  },
+  "video/x-flv": {
+    "extensions": [
+      "flv"
+    ],
+    "compressible": false
+  },
+  "video/x-m4v": {
+    "extensions": [
+      "m4v"
+    ],
+    "compressible": false
+  },
+  "video/x-matroska": {
+    "extensions": [
+      "mkv",
+      "mk3d",
+      "mks"
+    ],
+    "compressible": false
+  },
+  "video/x-mng": {
+    "extensions": [
+      "mng"
+    ],
+    "compressible": false
+  },
+  "video/x-ms-asf": {
+    "extensions": [
+      "asf",
+      "asx"
+    ],
+    "compressible": false
+  },
+  "video/x-ms-vob": {
+    "extensions": [
+      "vob"
+    ],
+    "compressible": false
+  },
+  "video/x-ms-wm": {
+    "extensions": [
+      "wm"
+    ],
+    "compressible": false
+  },
+  "video/x-ms-wmv": {
+    "extensions": [
+      "wmv"
+    ],
+    "compressible": false
+  },
+  "video/x-ms-wmx": {
+    "extensions": [
+      "wmx"
+    ],
+    "compressible": false
+  },
+  "video/x-ms-wvx": {
+    "extensions": [
+      "wvx"
+    ],
+    "compressible": false
+  },
+  "video/x-msvideo": {
+    "extensions": [
+      "avi"
+    ],
+    "compressible": false
+  },
+  "video/x-sgi-movie": {
+    "extensions": [
+      "movie"
+    ],
+    "compressible": false
+  },
+  "video/x-smv": {
+    "extensions": [
+      "smv"
+    ],
+    "compressible": false
+  },
+  "x-conference/x-cooltalk": {
+    "extensions": [
+      "ice"
+    ]
+  },
+  "x-shader/x-fragment": {
+    "compressible": true
+  },
+  "x-shader/x-vertex": {
+    "compressible": true
+  }
+}
