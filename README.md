@@ -62,5 +62,5 @@ To update the build, run `npm run update` with node `v0.11.13+` (sorry).
 [travis-url]: https://travis-ci.org/jshttp/mime-db
 [coveralls-image]: https://img.shields.io/coveralls/jshttp/mime-db.svg?style=flat
 [coveralls-url]: https://coveralls.io/r/jshttp/mime-db?branch=master
-[node-image]: http://img.shields.io/badge/node.js->=_0.6-blue.svg?style=flat
+[node-image]: http://img.shields.io/badge/node.js->=_0.6-brightgreen.svg?style=flat
 [node-url]: http://nodejs.org/download/
