@@ -11,19 +11,27 @@
   "license": "MIT",
   "repository": "jshttp/mime-db",
   "devDependencies": {
-    "stream-to-array": "2",
-    "csv-parse": "0",
+    "co": "3",
     "cogent": "1",
+    "csv-parse": "0",
+    "istanbul": "0.3.0",
     "mocha": "1",
-    "co": "3"
+    "stream-to-array": "2"
   },
   "engine": {
     "node": ">= 0.6.0"
   },
+  "files": [
+    "LICENSE",
+    "db.json",
+    "index.js"
+  ],
   "scripts": {
     "update": "node --harmony-generators scripts/extensions; node --harmony-generators scripts/types; node scripts/build",
     "clean": "rm src/*",
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
   },
   "keywords": [
     "mime",
@@ -33,7 +41,5 @@
     "database",
     "charset",
     "charsets"
-  ],
-  "main": "db.json",
-  "files": ["db.json"]
+  ]
 }

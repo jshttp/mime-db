@@ -1,7 +1,7 @@
 
 var assert = require('assert')
 
-var db = require('../db')
+var db = require('..')
 
 describe('mime-db', function () {
   it('should all be mime types', function () {
