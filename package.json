@@ -17,6 +17,9 @@
     "mocha": "1",
     "co": "3"
   },
+  "engine": {
+    "node": ">= 0.6.0"
+  },
   "scripts": {
     "update": "node --harmony-generators scripts/extensions; node --harmony-generators scripts/types; node scripts/build",
     "clean": "rm src/*",

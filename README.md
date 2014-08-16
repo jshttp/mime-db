@@ -1,11 +1,9 @@
-
 # mime-db
 
 [![NPM version][npm-image]][npm-url]
-[![Build status][travis-image]][travis-url]
-[![License][license-image]][license-url]
-[![Downloads][downloads-image]][downloads-url]
-[![Gittip][gittip-image]][gittip-url]
+[![Node.js Version][node-image]][node-url]
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
 
 This is a database of all mime types.
 It consistents of a single, public JSON file and does not include any logic,
@@ -58,19 +56,11 @@ If unknown, every property could be `undefined`.
 To edit the database, only make PRs against files in the `lib/` folder.
 To update the build, run `npm run update` with node `v0.11.13+` (sorry).
 
-[npm-image]: https://img.shields.io/npm/v/mime-db.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/mime-db.svg?style=flat
 [npm-url]: https://npmjs.org/package/mime-db
-[github-tag]: http://img.shields.io/github/tag/jshttp/mime-db.svg?style=flat-square
-[github-url]: https://github.com/jshttp/mime-db/tags
-[travis-image]: https://img.shields.io/travis/jshttp/mime-db.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/jshttp/mime-db.svg?style=flat
 [travis-url]: https://travis-ci.org/jshttp/mime-db
-[coveralls-image]: https://img.shields.io/coveralls/jshttp/mime-db.svg?style=flat-square
+[coveralls-image]: https://img.shields.io/coveralls/jshttp/mime-db.svg?style=flat
 [coveralls-url]: https://coveralls.io/r/jshttp/mime-db?branch=master
-[david-image]: http://img.shields.io/david/jshttp/mime-db.svg?style=flat-square
-[david-url]: https://david-dm.org/jshttp/mime-db
-[license-image]: http://img.shields.io/npm/l/mime-db.svg?style=flat-square
-[license-url]: LICENSE.md
-[downloads-image]: http://img.shields.io/npm/dm/mime-db.svg?style=flat-square
-[downloads-url]: https://npmjs.org/package/mime-db
-[gittip-image]: https://img.shields.io/gittip/jonathanong.svg?style=flat-square
-[gittip-url]: https://www.gittip.com/jonathanong/
+[node-image]: http://img.shields.io/badge/node.js->=_0.6-blue.svg?style=flat
+[node-url]: http://nodejs.org/download/
