@@ -30,10 +30,6 @@ describe('mime-db', function () {
     assert(db['application/mathml+xml'])
   })
 
-  it('should have guessed text/plain with charset=UTF-8', function () {
-    assert.equal('UTF-8', db['text/plain'].charset)
-  })
-
   it('should not have an empty .extensions', function () {
     assert(Object.keys(db).every(function (name) {
       var mime = db[name]

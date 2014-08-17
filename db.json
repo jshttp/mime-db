@@ -3427,29 +3427,25 @@
     "extensions": [
       "odt"
     ],
-    "compressible": false,
-    "charset": "UTF-8"
+    "compressible": false
   },
   "application/vnd.oasis.opendocument.text-master": {
     "source": "iana",
     "extensions": [
       "odm"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "application/vnd.oasis.opendocument.text-template": {
     "source": "iana",
     "extensions": [
       "ott"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "application/vnd.oasis.opendocument.text-web": {
     "source": "iana",
     "extensions": [
       "oth"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "application/vnd.obn": {
     "source": "iana"
@@ -6738,13 +6734,10 @@
     "source": "iana"
   },
   "model/vnd.parasolid.transmit-text": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "model/vnd.parasolid.transmit.binary": {},
-  "model/vnd.parasolid.transmit.text": {
-    "charset": "UTF-8"
-  },
+  "model/vnd.parasolid.transmit.text": {},
   "model/vnd.valve.source.compiled-map": {
     "source": "iana"
   },
@@ -6839,8 +6832,7 @@
     "source": "iana"
   },
   "text/1d-interleaved-parityfec": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/cache-manifest": {
     "source": "iana",
@@ -6848,78 +6840,63 @@
       "appcache",
       "manifest"
     ],
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/calendar": {
     "source": "iana",
     "extensions": [
       "ics",
       "ifb"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/calender": {
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/cmd": {
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/coffeescript": {
     "extensions": [
       "coffee"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/css": {
     "source": "iana",
     "extensions": [
       "css"
     ],
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/csv": {
     "source": "iana",
     "extensions": [
       "csv"
     ],
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/directory": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/dns": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/ecmascript": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/encaprtp": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/enriched": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/example": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/fwdred": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/grammar-ref-list": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/html": {
     "source": "iana",
@@ -6927,56 +6904,46 @@
       "html",
       "htm"
     ],
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/jade": {
     "extensions": [
       "jade"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/javascript": {
     "source": "iana",
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/jcr-cnd": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/jsx": {
     "extensions": [
       "jsx"
     ],
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/less": {
     "extensions": [
       "less"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/mizar": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/n3": {
     "source": "iana",
     "extensions": [
       "n3"
     ],
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/parameters": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/parityfec": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/plain": {
     "source": "iana",
@@ -6990,86 +6957,70 @@
       "in",
       "ini"
     ],
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/provenance-notation": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/prs.fallenstein.rst": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/prs.lines.tag": {
     "source": "iana",
     "extensions": [
       "dsc"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/raptorfec": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/red": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/rfc822-headers": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/richtext": {
     "source": "iana",
     "extensions": [
       "rtx"
     ],
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/rtf": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/rtp-enc-aescm128": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/rtploopback": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/rtx": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/sgml": {
     "source": "iana",
     "extensions": [
       "sgml",
       "sgm"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/stylus": {
     "extensions": [
       "stylus",
       "styl"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/t140": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/tab-separated-values": {
     "source": "iana",
     "extensions": [
       "tsv"
     ],
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/troff": {
     "source": "iana",
@@ -7080,19 +7031,16 @@
       "man",
       "me",
       "ms"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/turtle": {
     "source": "iana",
     "extensions": [
       "ttl"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/ulpfec": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/uri-list": {
     "source": "iana",
@@ -7101,187 +7049,152 @@
       "uris",
       "urls"
     ],
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/vcard": {
     "source": "iana",
     "extensions": [
       "vcard"
     ],
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/vnd-a": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd-curl": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.abc": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.curl": {
     "extensions": [
       "curl"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vnd.curl.dcurl": {
     "extensions": [
       "dcurl"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vnd.curl.mcurl": {
     "extensions": [
       "mcurl"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vnd.curl.scurl": {
     "extensions": [
       "scurl"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vnd.debian.copyright": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.dmclientscript": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.dvb.subtitle": {
     "source": "iana",
     "extensions": [
       "sub"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vnd.esmertec.theme-descriptor": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.fly": {
     "source": "iana",
     "extensions": [
       "fly"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vnd.fmi.flexstor": {
     "source": "iana",
     "extensions": [
       "flx"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vnd.graphviz": {
     "source": "iana",
     "extensions": [
       "gv"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vnd.in3d.3dml": {
     "source": "iana",
     "extensions": [
       "3dml"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vnd.in3d.spot": {
     "source": "iana",
     "extensions": [
       "spot"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vnd.iptc.newsml": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.iptc.nitf": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.latex-z": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.motorola.reflex": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.ms-mediapackage": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.net2phone.commcenter.command": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.radisys.msml-basic-layout": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.si.uricatalogue": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.sun.j2me.app-descriptor": {
     "source": "iana",
     "extensions": [
       "jad"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vnd.trolltech.linguist": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.wap-wml": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.wap.si": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.wap.sl": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "text/vnd.wap.wml": {
     "extensions": [
       "wml"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vnd.wap.wmlscript": {
     "source": "iana",
     "extensions": [
       "wmls"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/vtt": {
     "extensions": [
       "vtt"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-asm": {
     "extensions": [
       "s",
       "asm"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-c": {
     "extensions": [
@@ -7292,14 +7205,12 @@
       "h",
       "hh",
       "dic"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-component": {
     "extensions": [
       "htc"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-fortran": {
     "extensions": [
@@ -7307,34 +7218,28 @@
       "for",
       "f77",
       "f90"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-gwt-rpc": {
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/x-handlebars-template": {
     "extensions": [
       "hbs"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-java-source": {
     "extensions": [
       "java"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-jquery-tmpl": {
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/x-lua": {
     "extensions": [
       "lua"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-markdown": {
     "extensions": [
@@ -7342,78 +7247,65 @@
       "md",
       "mkd"
     ],
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/x-nfo": {
     "extensions": [
       "nfo"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-opml": {
     "extensions": [
       "opml"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-pascal": {
     "extensions": [
       "p",
       "pas"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-sass": {
     "extensions": [
       "sass"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-scss": {
     "extensions": [
       "scss"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-setext": {
     "extensions": [
       "etx"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-sfv": {
     "extensions": [
       "sfv"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-uuencode": {
     "extensions": [
       "uu"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-vcalendar": {
     "extensions": [
       "vcs"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/x-vcard": {
     "extensions": [
       "vcf"
-    ],
-    "charset": "UTF-8"
+    ]
   },
   "text/xml": {
     "source": "iana",
-    "compressible": true,
-    "charset": "UTF-8"
+    "compressible": true
   },
   "text/xml-external-parsed-entity": {
-    "source": "iana",
-    "charset": "UTF-8"
+    "source": "iana"
   },
   "video/1d-interleaved-parityfec": {},
   "video/3gpp": {

@@ -65,13 +65,6 @@ Object.keys(charsets).forEach(function (name) {
   db[name].charset = charsets[name]
 })
 
-// guess the charsets
-Object.keys(db).forEach(function (name) {
-  var mime = db[name]
-  if ('charset' in mime) return
-  if (/\b(text)\b/.test(name)) mime.charset = 'UTF-8'
-})
-
 // remove any empty .extensions
 // not sure where the empty extensions are coming from
 Object.keys(db).forEach(function (name) {
