@@ -25,7 +25,9 @@ require('../src/iana.json').forEach(function (mime) {
     template = type + '/' + template
   }
 
-  db[template.toLowerCase()] = {}
+  db[template.toLowerCase()] = {
+    source: 'iana'
+  }
 })
 
 // add the mime extensions from Apache

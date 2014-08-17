@@ -38,6 +38,9 @@ https://cdn.rawgit.com/jshttp/mime-db/master/db.json
 The JSON file is a map lookup for lowercased mime types.
 Each mime type has the following properties:
 
+- `.source` - where the mime type is defined.
+    If not set, it's probably a custom media type.
+    - `iana` - [IANA-defined media types](http://www.iana.org/assignments/media-types/media-types.xhtml)
 - `.extensions[]` - known extensions associated with this mime type.
 - `.compressible` - whether a file of this type is can be gzipped.
 - `.charset` - the default charset associated with this type, if any.
