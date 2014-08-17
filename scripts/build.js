@@ -59,17 +59,6 @@ Object.keys(mime).forEach(function (type) {
   o.compressible = mime[type].compressible
 })
 
-// guess the mime types for the rest of the types
-Object.keys(db).forEach(function (name) {
-  var mime = db[name]
-  if ('compressible' in mime) return
-  // text is compressible
-  if (/\b(json|text|xml)\b/.test(name)) return mime.compressible = true
-  // most media are already compressed
-  // or cannot be compressed via gzip
-  if (/^(audio|image|video)\//.test(name)) return mime.compressible = false
-})
-
 // set the default charsets
 var charsets = require('../lib/charsets')
 Object.keys(charsets).forEach(function (name) {
@@ -81,6 +70,14 @@ Object.keys(db).forEach(function (name) {
   var mime = db[name]
   if ('charset' in mime) return
   if (/\b(text)\b/.test(name)) mime.charset = 'UTF-8'
+})
+
+// remove any empty .extensions
+// not sure where the empty extensions are coming from
+Object.keys(db).forEach(function (name) {
+  var mime = db[name]
+  if (!mime.extensions) return
+  if (!mime.extensions.length) delete mime.extensions
 })
 
 // alphabetize

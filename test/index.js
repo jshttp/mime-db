@@ -21,10 +21,6 @@ describe('mime-db', function () {
     assert.equal('UTF-8', db['application/javascript'].charset)
   })
 
-  it('should set audio/x-flac as compressible=false', function () {
-    assert(!db['audio/x-flac'].compressible)
-  })
-
   it('should set audio/x-flac with extension=flac', function () {
     assert.equal('flac', db['audio/x-flac'].extensions[0])
   })
