@@ -1,6 +1,7 @@
 # mime-db
 
-[![NPM version][npm-image]][npm-url]
+[![NPM Version][npm-version-image]][npm-url]
+[![NPM Downloads][npm-downloads-image]][npm-url]
 [![Node.js Version][node-image]][node-url]
 [![Build Status][travis-image]][travis-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
@@ -59,7 +60,8 @@ If unknown, every property could be `undefined`.
 To edit the database, only make PRs against files in the `lib/` folder.
 To update the build, run `npm run update` with node `v0.11.13+` (sorry).
 
-[npm-image]: https://img.shields.io/npm/v/mime-db.svg?style=flat
+[npm-version-image]: https://img.shields.io/npm/v/mime-db.svg?style=flat
+[npm-downloads-image]: https://img.shields.io/npm/dm/mime-db.svg?style=flat
 [npm-url]: https://npmjs.org/package/mime-db
 [travis-image]: https://img.shields.io/travis/jshttp/mime-db.svg?style=flat
 [travis-url]: https://travis-ci.org/jshttp/mime-db
