@@ -41,6 +41,7 @@ Each mime type has the following properties:
 
 - `.source` - where the mime type is defined.
     If not set, it's probably a custom media type.
+    - `apache` - [Apache common media types](http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types)
     - `iana` - [IANA-defined media types](http://www.iana.org/assignments/media-types/media-types.xhtml)
 - `.extensions[]` - known extensions associated with this mime type.
 - `.compressible` - whether a file of this type is can be gzipped.

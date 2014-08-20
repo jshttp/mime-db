@@ -33,7 +33,8 @@ require('../src/iana.json').forEach(function (mime) {
 // add the mime extensions from Apache
 var mime = require('../src/mime.json')
 Object.keys(mime).forEach(function (type) {
-  var o = db[type.toLowerCase()] = db[type.toLowerCase()] || {}
+  var t = type.toLowerCase()
+  var o = db[t] = db[t] || {source: 'apache'}
   o.extensions = (o.extensions || []).concat(mime[type])
 })
 
@@ -41,14 +42,16 @@ Object.keys(mime).forEach(function (type) {
 // though i think we should just put this in `types.json`
 var mime = require('../src/node.json')
 Object.keys(mime).forEach(function (type) {
-  var o = db[type.toLowerCase()] = db[type.toLowerCase()] || {}
+  var t = type.toLowerCase()
+  var o = db[t] = db[t] || {}
   o.extensions = (o.extensions || []).concat(mime[type])
 })
 
 // now add all our custom extensions
 var mime = require('../lib/extensions.json')
 Object.keys(mime).forEach(function (type) {
-  var o = db[type.toLowerCase()] = db[type.toLowerCase()] || {}
+  var t = type.toLowerCase()
+  var o = db[t] = db[t] || {}
   o.extensions = (o.extensions || []).concat(mime[type])
 })
 
