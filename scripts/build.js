@@ -33,26 +33,29 @@ require('../src/iana.json').forEach(function (mime) {
 // add the mime extensions from Apache
 var mime = require('../src/mime.json')
 Object.keys(mime).forEach(function (type) {
+  var e = mime[type]
   var t = type.toLowerCase()
   var o = db[t] = db[t] || {source: 'apache'}
-  o.extensions = (o.extensions || []).concat(mime[type])
+  if (e.length) o.extensions = (o.extensions || []).concat(e)
 })
 
 // add all of node mime's mime extensions
 // though i think we should just put this in `types.json`
 var mime = require('../src/node.json')
 Object.keys(mime).forEach(function (type) {
+  var e = mime[type]
   var t = type.toLowerCase()
   var o = db[t] = db[t] || {}
-  o.extensions = (o.extensions || []).concat(mime[type])
+  if (e.length) o.extensions = (o.extensions || []).concat(e)
 })
 
 // now add all our custom extensions
 var mime = require('../lib/extensions.json')
 Object.keys(mime).forEach(function (type) {
+  var e = mime[type]
   var t = type.toLowerCase()
   var o = db[t] = db[t] || {}
-  o.extensions = (o.extensions || []).concat(mime[type])
+  if (e.length) o.extensions = (o.extensions || []).concat(e)
 })
 
 // add all the compressible metadata
@@ -66,14 +69,6 @@ Object.keys(mime).forEach(function (type) {
 var charsets = require('../lib/charsets')
 Object.keys(charsets).forEach(function (name) {
   db[name].charset = charsets[name]
-})
-
-// remove any empty .extensions
-// not sure where the empty extensions are coming from
-Object.keys(db).forEach(function (name) {
-  var mime = db[name]
-  if (!mime.extensions) return
-  if (!mime.extensions.length) delete mime.extensions
 })
 
 // alphabetize
