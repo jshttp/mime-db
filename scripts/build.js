@@ -71,10 +71,5 @@ Object.keys(charsets).forEach(function (name) {
   db[name].charset = charsets[name]
 })
 
-// alphabetize
-var out = {}
-Object.keys(db).sort().forEach(function (type) {
-  out[type] = db[type]
-})
-
-require('fs').writeFileSync('db.json', JSON.stringify(out, null, 2) + '\n')
+// write db
+require('./lib/write-db')('db.json', db)
