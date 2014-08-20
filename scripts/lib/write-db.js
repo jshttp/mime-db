@@ -16,7 +16,9 @@ module.exports = function writeDatabaseSync(fileName, obj) {
 
     keys.forEach(function (key, i, arr) {
       var end = endLine.apply(this, arguments)
-      var val = data[key]
+      var val = key === 'extensions'
+        ? data[key].slice().sort()
+        : data[key]
       fs.writeSync(fd, '    ' + JSON.stringify(key) + ': ' + JSON.stringify(val) + end);
     })
 
