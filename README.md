@@ -58,7 +58,7 @@ If unknown, every property could be `undefined`.
 ## Contributing
 
 To edit the database, only make PRs against files in the `lib/` folder.
-To update the build, run `npm run update` with node `v0.11.13+` (sorry).
+To update the build, run `npm run update`.
 
 [npm-version-image]: https://img.shields.io/npm/v/mime-db.svg?style=flat
 [npm-downloads-image]: https://img.shields.io/npm/dm/mime-db.svg?style=flat
