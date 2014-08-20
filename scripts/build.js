@@ -1,17 +1,18 @@
 
 var db = {}
+var ext = {}
 
 // initialize with all the IANA types
-addData(db, require('../src/iana-types.json'), 'iana')
+addData(db, ext, require('../src/iana-types.json'), 'iana')
 
 // add the mime extensions from Apache
-addData(db, require('../src/apache-types.json'), 'apache')
+addData(db, ext, require('../src/apache-types.json'), 'apache')
 
 // add the mime extensions from nginx
-addData(db, require('../src/nginx-types.json'), 'nginx')
+addData(db, ext, require('../src/nginx-types.json'), 'nginx')
 
 // now add all our custom data
-addData(db, require('../src/custom-types.json'))
+addData(db, ext, require('../src/custom-types.json'))
 
 // finally, all custom suffix defaults
 var mime = require('../src/custom-suffix.json')
@@ -30,11 +31,12 @@ Object.keys(mime).forEach(function (suffix) {
 
 // write db
 require('./lib/write-db')('db.json', db)
+require('./lib/write-db-ext')('db-ext.json', ext)
 
 /**
  * Add mime data to the db, marked as a given source.
  */
-function addData (db, mime, source) {
+function addData (db, ext, mime, source) {
   Object.keys(mime).forEach(function (key) {
     var data = mime[key]
     var type = key.toLowerCase()
@@ -44,9 +46,29 @@ function addData (db, mime, source) {
     setValue(obj, 'charset', data.charset)
     setValue(obj, 'compressible', data.compressible)
 
-    // append new extensions
-    appendExtensions(obj, data.extensions)
+    if (data.extensions) {
+      // append new extensions
+      appendExtensions(obj, data.extensions)
+
+      // add extensions to extension lookup
+      addExtensionData(ext, type, data.extensions)
+    }
   })
+}
+
+/**
+ * Add extension data to the extension db.
+ */
+function addExtensionData (db, type, extensions) {
+  for (var i = 0; i < extensions.length; i++) {
+    var extension = extensions[i]
+    var list = ext[extension] || (ext[extension] = [])
+
+    // add type to the extension entry
+    if (list.indexOf(type) === -1) {
+      list.push(type)
+    }
+  }
 }
 
 /**
@@ -66,10 +88,6 @@ function appendExtension (obj, extension) {
  * Append extensions to an object.
  */
 function appendExtensions (obj, extensions) {
-  if (!extensions) {
-    return
-  }
-
   for (var i = 0; i < extensions.length; i++) {
     var extension = extensions[i]
 

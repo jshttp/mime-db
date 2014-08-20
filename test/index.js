@@ -59,4 +59,17 @@ describe('mime-db', function () {
     assert.equal(db['text/plain'].extensions[0], 'txt')
     assert.equal(db['video/x-matroska'].extensions[0], 'mkv')
   })
+
+  describe('.extension', function () {
+    it('should have json and js entries', function () {
+      assert.deepEqual(['application/json'], db.extension.json)
+      assert.deepEqual(['application/javascript'], db.extension.js)
+    })
+
+    it('should not have empty entries', function () {
+      assert(Object.keys(db.extension).every(function (ext) {
+        return Array.isArray(db.extension[ext])
+      }))
+    })
+  })
 })
