@@ -52,6 +52,9 @@
     "source": "apache",
     "extensions": ["aw"]
   },
+  "application/atf": {
+    "source": "iana"
+  },
   "application/atom+xml": {
     "source": "iana",
     "compressible": true,
@@ -506,6 +509,9 @@
   "application/mediaservercontrol+xml": {
     "source": "iana",
     "extensions": ["mscml"]
+  },
+  "application/merge-patch+json": {
+    "source": "iana"
   },
   "application/metalink+xml": {
     "source": "apache",
@@ -5579,6 +5585,9 @@
     "compressible": false
   },
   "multipart/voice-message": {
+    "source": "iana"
+  },
+  "multipart/x-mixed-replace": {
     "source": "iana"
   },
   "text/1d-interleaved-parityfec": {
