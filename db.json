@@ -448,7 +448,7 @@
   },
   "application/mathematica": {
     "source": "iana",
-    "extensions": ["ma","mb","nb"]
+    "extensions": ["ma","nb","mb"]
   },
   "application/mathml+xml": {
     "source": "iana",
@@ -550,7 +550,7 @@
   },
   "application/mp4": {
     "source": "iana",
-    "extensions": ["m4p","mp4s"]
+    "extensions": ["mp4s","m4p"]
   },
   "application/mpeg4-generic": {
     "source": "iana"
@@ -609,7 +609,7 @@
   "application/octet-stream": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["bin","bpk","buffer","deploy","dist","distz","dms","dump","elc","lrf","mar","pkg","so"]
+    "extensions": ["bin","dms","lrf","mar","so","dist","distz","pkg","bpk","dump","elc","deploy","buffer"]
   },
   "application/oda": {
     "source": "iana",
@@ -633,7 +633,7 @@
   },
   "application/onenote": {
     "source": "apache",
-    "extensions": ["onepkg","onetmp","onetoc","onetoc2"]
+    "extensions": ["onetoc","onetoc2","onetmp","onepkg"]
   },
   "application/oscp-response": {
     "source": "iana"
@@ -688,7 +688,7 @@
   },
   "application/pkcs7-mime": {
     "source": "iana",
-    "extensions": ["p7c","p7m"]
+    "extensions": ["p7m","p7c"]
   },
   "application/pkcs7-signature": {
     "source": "iana",
@@ -1126,7 +1126,7 @@
   },
   "application/vnd.acucorp": {
     "source": "iana",
-    "extensions": ["acutc","atc"]
+    "extensions": ["atc","acutc"]
   },
   "application/vnd.adobe.air-application-installer-package+zip": {
     "source": "apache",
@@ -1303,7 +1303,7 @@
   },
   "application/vnd.clonk.c4group": {
     "source": "iana",
-    "extensions": ["c4d","c4f","c4g","c4p","c4u"]
+    "extensions": ["c4g","c4d","c4f","c4p","c4u"]
   },
   "application/vnd.cluetrust.cartomobile-config": {
     "source": "iana",
@@ -1418,7 +1418,7 @@
   },
   "application/vnd.dece.data": {
     "source": "iana",
-    "extensions": ["uvd","uvf","uvvd","uvvf"]
+    "extensions": ["uvf","uvvf","uvd","uvvd"]
   },
   "application/vnd.dece.ttml+xml": {
     "source": "iana",
@@ -1426,11 +1426,11 @@
   },
   "application/vnd.dece.unspecified": {
     "source": "iana",
-    "extensions": ["uvvx","uvx"]
+    "extensions": ["uvx","uvvx"]
   },
   "application/vnd.dece.zip": {
     "source": "apache",
-    "extensions": ["uvvz","uvz"]
+    "extensions": ["uvz","uvvz"]
   },
   "application/vnd.denovo.fcselayout-link": {
     "source": "iana",
@@ -1710,7 +1710,7 @@
   },
   "application/vnd.fdsn.seed": {
     "source": "iana",
-    "extensions": ["dataless","seed"]
+    "extensions": ["seed","dataless"]
   },
   "application/vnd.ffsns": {
     "source": "iana"
@@ -1731,7 +1731,7 @@
   },
   "application/vnd.framemaker": {
     "source": "iana",
-    "extensions": ["book","fm","frame","maker"]
+    "extensions": ["fm","frame","maker","book"]
   },
   "application/vnd.frogans.fnc": {
     "source": "iana",
@@ -1955,7 +1955,7 @@
   },
   "application/vnd.ibm.modcap": {
     "source": "iana",
-    "extensions": ["afp","list3820","listafp"]
+    "extensions": ["afp","listafp","list3820"]
   },
   "application/vnd.ibm.rights-management": {
     "source": "iana",
@@ -2125,7 +2125,7 @@
   },
   "application/vnd.kahootz": {
     "source": "iana",
-    "extensions": ["ktr","ktz"]
+    "extensions": ["ktz","ktr"]
   },
   "application/vnd.kde.karbon": {
     "source": "iana",
@@ -2173,7 +2173,7 @@
   },
   "application/vnd.koan": {
     "source": "iana",
-    "extensions": ["skd","skm","skp","skt"]
+    "extensions": ["skp","skd","skt","skm"]
   },
   "application/vnd.kodak-descriptor": {
     "source": "iana",
@@ -2376,7 +2376,7 @@
   "application/vnd.ms-excel": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["xla","xlc","xlm","xls","xlt","xlw"]
+    "extensions": ["xls","xlm","xla","xlc","xlt","xlw"]
   },
   "application/vnd.ms-excel.addin.macroenabled.12": {
     "source": "iana",
@@ -2439,7 +2439,7 @@
   "application/vnd.ms-powerpoint": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["pot","pps","ppt"]
+    "extensions": ["ppt","pps","pot"]
   },
   "application/vnd.ms-powerpoint.addin.macroenabled.12": {
     "source": "iana",
@@ -2496,7 +2496,7 @@
   },
   "application/vnd.ms-works": {
     "source": "iana",
-    "extensions": ["wcm","wdb","wks","wps"]
+    "extensions": ["wps","wks","wcm","wdb"]
   },
   "application/vnd.ms-wpl": {
     "source": "iana",
@@ -2559,7 +2559,7 @@
   },
   "application/vnd.nitf": {
     "source": "iana",
-    "extensions": ["nitf","ntf"]
+    "extensions": ["ntf","nitf"]
   },
   "application/vnd.noblenet-directory": {
     "source": "iana",
@@ -3159,7 +3159,7 @@
   },
   "application/vnd.palm": {
     "source": "iana",
-    "extensions": ["oprc","pdb","pqa"]
+    "extensions": ["pdb","pqa","oprc"]
   },
   "application/vnd.panoply": {
     "source": "iana"
@@ -3252,7 +3252,7 @@
   },
   "application/vnd.quark.quarkxpress": {
     "source": "iana",
-    "extensions": ["qwd","qwt","qxb","qxd","qxl","qxt"]
+    "extensions": ["qxd","qxt","qwd","qwt","qxl","qxb"]
   },
   "application/vnd.quobject-quoxdocument": {
     "source": "iana"
@@ -3480,7 +3480,7 @@
   },
   "application/vnd.solent.sdkm+xml": {
     "source": "iana",
-    "extensions": ["sdkd","sdkm"]
+    "extensions": ["sdkm","sdkd"]
   },
   "application/vnd.spotfire.dxp": {
     "source": "iana",
@@ -3628,7 +3628,7 @@
   },
   "application/vnd.tcpdump.pcap": {
     "source": "iana",
-    "extensions": ["cap","dmp","pcap"]
+    "extensions": ["pcap","cap","dmp"]
   },
   "application/vnd.tmobile-livetv": {
     "source": "iana",
@@ -3732,7 +3732,7 @@
   },
   "application/vnd.visio": {
     "source": "iana",
-    "extensions": ["vsd","vss","vst","vsw"]
+    "extensions": ["vsd","vst","vss","vsw"]
   },
   "application/vnd.visionary": {
     "source": "iana",
@@ -3969,7 +3969,7 @@
   },
   "application/x-authorware-bin": {
     "source": "apache",
-    "extensions": ["aab","u32","vox","x32"]
+    "extensions": ["aab","x32","u32","vox"]
   },
   "application/x-authorware-map": {
     "source": "apache",
@@ -3999,11 +3999,11 @@
   "application/x-bzip2": {
     "source": "apache",
     "compressible": false,
-    "extensions": ["boz","bz2"]
+    "extensions": ["bz2","boz"]
   },
   "application/x-cbr": {
     "source": "apache",
-    "extensions": ["cb7","cba","cbr","cbt","cbz"]
+    "extensions": ["cbr","cba","cbt","cbz","cb7"]
   },
   "application/x-cdlink": {
     "source": "apache",
@@ -4052,7 +4052,7 @@
   },
   "application/x-director": {
     "source": "apache",
-    "extensions": ["cct","cst","cxt","dcr","dir","dxr","fgd","swa","w3d"]
+    "extensions": ["dir","dcr","dxr","cst","cct","cxt","w3d","fgd","swa"]
   },
   "application/x-doom": {
     "source": "apache",
@@ -4126,11 +4126,11 @@
   "application/x-font-ttf": {
     "source": "apache",
     "compressible": true,
-    "extensions": ["ttc","ttf"]
+    "extensions": ["ttf","ttc"]
   },
   "application/x-font-type1": {
     "source": "apache",
-    "extensions": ["afm","pfa","pfb","pfm"]
+    "extensions": ["pfa","pfb","pfm","afm"]
   },
   "application/x-font-vfont": {
     "source": "apache"
@@ -4196,7 +4196,7 @@
   },
   "application/x-lzh-compressed": {
     "source": "apache",
-    "extensions": ["lha","lzh"]
+    "extensions": ["lzh","lha"]
   },
   "application/x-mie": {
     "source": "apache",
@@ -4204,7 +4204,7 @@
   },
   "application/x-mobipocket-ebook": {
     "source": "apache",
-    "extensions": ["mobi","prc"]
+    "extensions": ["prc","mobi"]
   },
   "application/x-mpegurl": {
     "compressible": false
@@ -4247,15 +4247,15 @@
   },
   "application/x-msdownload": {
     "source": "apache",
-    "extensions": ["bat","com","dll","exe","msi"]
+    "extensions": ["exe","dll","com","bat","msi"]
   },
   "application/x-msmediaview": {
     "source": "apache",
-    "extensions": ["m13","m14","mvb"]
+    "extensions": ["mvb","m13","m14"]
   },
   "application/x-msmetafile": {
     "source": "apache",
-    "extensions": ["emf","emz","wmf","wmz"]
+    "extensions": ["wmf","wmz","emf","emz"]
   },
   "application/x-msmoney": {
     "source": "apache",
@@ -4279,7 +4279,7 @@
   },
   "application/x-netcdf": {
     "source": "apache",
-    "extensions": ["cdf","nc"]
+    "extensions": ["nc","cdf"]
   },
   "application/x-nzb": {
     "source": "apache",
@@ -4377,7 +4377,7 @@
   },
   "application/x-texinfo": {
     "source": "apache",
-    "extensions": ["texi","texinfo"]
+    "extensions": ["texinfo","texi"]
   },
   "application/x-tgif": {
     "source": "apache",
@@ -4402,7 +4402,7 @@
   },
   "application/x-x509-ca-cert": {
     "source": "apache",
-    "extensions": ["crt","der"]
+    "extensions": ["der","crt"]
   },
   "application/x-xfig": {
     "source": "apache",
@@ -4467,7 +4467,7 @@
   "application/xhtml+xml": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["xht","xhtml"]
+    "extensions": ["xhtml","xht"]
   },
   "application/xhtml-voice+xml": {
     "source": "iana"
@@ -4475,7 +4475,7 @@
   "application/xml": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["xml","xsd","xsl"]
+    "extensions": ["xml","xsl","xsd"]
   },
   "application/xml-dtd": {
     "source": "iana",
@@ -4510,7 +4510,7 @@
   },
   "application/xv+xml": {
     "source": "iana",
-    "extensions": ["mxml","xhvml","xvm","xvml"]
+    "extensions": ["mxml","xhvml","xvml","xvm"]
   },
   "application/yang": {
     "source": "iana",
@@ -4741,7 +4741,7 @@
   },
   "audio/midi": {
     "source": "apache",
-    "extensions": ["kar","mid","midi","rmi"]
+    "extensions": ["mid","midi","kar","rmi"]
   },
   "audio/mobile-xmf": {
     "source": "iana"
@@ -4749,7 +4749,7 @@
   "audio/mp4": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["m4a","mp4a"]
+    "extensions": ["mp4a","m4a"]
   },
   "audio/mp4a-latm": {
     "source": "iana"
@@ -4763,7 +4763,7 @@
   "audio/mpeg": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["m2a","m3a","mp2","mp2a","mp3","mpga"]
+    "extensions": ["mpga","mp2","mp2a","mp3","m2a","m3a"]
   },
   "audio/mpeg4-generic": {
     "source": "iana"
@@ -5018,7 +5018,7 @@
   },
   "audio/x-aiff": {
     "source": "apache",
-    "extensions": ["aif","aifc","aiff"]
+    "extensions": ["aif","aiff","aifc"]
   },
   "audio/x-caf": {
     "source": "apache",
@@ -5047,7 +5047,7 @@
   },
   "audio/x-pn-realaudio": {
     "source": "apache",
-    "extensions": ["ra","ram"]
+    "extensions": ["ram","ra"]
   },
   "audio/x-pn-realaudio-plugin": {
     "source": "apache",
@@ -5129,7 +5129,7 @@
   "image/jpeg": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["jpe","jpeg","jpg"]
+    "extensions": ["jpeg","jpg","jpe"]
   },
   "image/jpm": {
     "source": "iana"
@@ -5177,7 +5177,7 @@
   "image/tiff": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["tif","tiff"]
+    "extensions": ["tiff","tif"]
   },
   "image/tiff-fx": {
     "source": "iana"
@@ -5204,11 +5204,11 @@
   },
   "image/vnd.dece.graphic": {
     "source": "iana",
-    "extensions": ["uvg","uvi","uvvg","uvvi"]
+    "extensions": ["uvi","uvvi","uvg","uvvg"]
   },
   "image/vnd.djvu": {
     "source": "apache",
-    "extensions": ["djv","djvu"]
+    "extensions": ["djvu","djv"]
   },
   "image/vnd.dvb.subtitle": {
     "source": "iana",
@@ -5316,7 +5316,7 @@
   },
   "image/x-freehand": {
     "source": "apache",
-    "extensions": ["fh","fh4","fh5","fh7","fhc"]
+    "extensions": ["fh","fhc","fh4","fh5","fh7"]
   },
   "image/x-icon": {
     "source": "apache",
@@ -5333,7 +5333,7 @@
   },
   "image/x-pict": {
     "source": "apache",
-    "extensions": ["pct","pic"]
+    "extensions": ["pic","pct"]
   },
   "image/x-portable-anymap": {
     "source": "apache",
@@ -5449,12 +5449,12 @@
   "model/iges": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["iges","igs"]
+    "extensions": ["igs","iges"]
   },
   "model/mesh": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["mesh","msh","silo"]
+    "extensions": ["msh","mesh","silo"]
   },
   "model/vnd-dwf": {
     "source": "iana"
@@ -5516,7 +5516,7 @@
   "model/vrml": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["vrml","wrl"]
+    "extensions": ["wrl","vrml"]
   },
   "model/x3d+binary": {
     "source": "apache",
@@ -5648,7 +5648,7 @@
   "text/html": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["htm","html"]
+    "extensions": ["html","htm"]
   },
   "text/jade": {
     "extensions": ["jade"]
@@ -5684,7 +5684,7 @@
   "text/plain": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["conf","def","in","ini","list","log","text","txt"]
+    "extensions": ["txt","text","conf","def","list","log","in","ini"]
   },
   "text/provenance-notation": {
     "source": "iana"
@@ -5724,10 +5724,10 @@
   },
   "text/sgml": {
     "source": "iana",
-    "extensions": ["sgm","sgml"]
+    "extensions": ["sgml","sgm"]
   },
   "text/stylus": {
-    "extensions": ["styl","stylus"]
+    "extensions": ["stylus","styl"]
   },
   "text/t140": {
     "source": "iana"
@@ -5739,7 +5739,7 @@
   },
   "text/troff": {
     "source": "iana",
-    "extensions": ["man","me","ms","roff","t","tr"]
+    "extensions": ["t","tr","roff","man","me","ms"]
   },
   "text/turtle": {
     "source": "iana",
@@ -5869,18 +5869,18 @@
   },
   "text/x-asm": {
     "source": "apache",
-    "extensions": ["asm","s"]
+    "extensions": ["s","asm"]
   },
   "text/x-c": {
     "source": "apache",
-    "extensions": ["c","cc","cpp","cxx","dic","h","hh"]
+    "extensions": ["c","cc","cxx","cpp","h","hh","dic"]
   },
   "text/x-component": {
     "extensions": ["htc"]
   },
   "text/x-fortran": {
     "source": "apache",
-    "extensions": ["f","f77","f90","for"]
+    "extensions": ["f","for","f77","f90"]
   },
   "text/x-gwt-rpc": {
     "compressible": true
@@ -6009,7 +6009,7 @@
   },
   "video/jpm": {
     "source": "apache",
-    "extensions": ["jpgm","jpm"]
+    "extensions": ["jpm","jpgm"]
   },
   "video/mj2": {
     "source": "apache",
@@ -6036,7 +6036,7 @@
   "video/mpeg": {
     "source": "apache",
     "compressible": false,
-    "extensions": ["m1v","m2v","mpe","mpeg","mpg"]
+    "extensions": ["mpeg","mpg","mpe","m1v","m2v"]
   },
   "video/mpeg4-generic": {
     "source": "apache"
@@ -6061,7 +6061,7 @@
   "video/quicktime": {
     "source": "apache",
     "compressible": false,
-    "extensions": ["mov","qt"]
+    "extensions": ["qt","mov"]
   },
   "video/raw": {
     "source": "apache"
@@ -6153,7 +6153,7 @@
   },
   "video/vnd.mpegurl": {
     "source": "apache",
-    "extensions": ["m4u","mxu"]
+    "extensions": ["mxu","m4u"]
   },
   "video/vnd.ms-playready.media.pyv": {
     "source": "apache",
@@ -6213,7 +6213,7 @@
   "video/x-matroska": {
     "source": "apache",
     "compressible": false,
-    "extensions": ["mk3d","mks","mkv"]
+    "extensions": ["mkv","mk3d","mks"]
   },
   "video/x-mng": {
     "source": "apache",
