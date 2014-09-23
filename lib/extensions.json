@@ -1,4 +1,7 @@
 {
+  "application/font-woff2": [
+    "woff2"
+  ],
   "text/jade": [
     "jade"
   ],

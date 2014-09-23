@@ -18,6 +18,13 @@
     "compressible": true
   },
   "application/font-woff": {
+    "compressible": false,
+    "sources": [
+      "https://github.com/h5bp/server-configs-apache/issues/42"
+    ],
+    "notes": "Insignificant gains in the majority of cases."
+  },
+  "application/font-woff2": {
     "compressible": false
   },
   "application/gzip": {
@@ -36,6 +43,9 @@
     "compressible": true
   },
   "application/json": {
+    "compressible": true
+  },
+  "application/ld+json": {
     "compressible": true
   },
   "application/msword": {
@@ -426,6 +436,12 @@
   },
   "text/vcard": {
     "compressible": true
+  },
+  "text/vtt": {
+    "compressible": true,
+    "sources": [
+       "http://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
+    ]
   },
   "text/x-gwt-rpc": {
     "compressible": true

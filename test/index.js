@@ -16,10 +16,16 @@ describe('mime-db', function () {
     }))
   })
 
-  it('should have .json and .js as having UTF-8 charsets', function () {
+  it('should have .json, .js, .jsonld and .vtt as having UTF-8 charsets', function () {
     assert.equal('UTF-8', db['application/json'].charset)
     assert.equal('UTF-8', db['application/javascript'].charset)
+    assert.equal('UTF-8', db['application/ld+json'].charset)
+    assert.equal('UTF-8', db['text/vtt'].charset)
   })
+
+  it('should set application/font-woff2 with extension=woff2', function () {
+    assert.equal('woff2', db['application/font-woff2'].extensions[0]);
+  });
 
   it('should set audio/x-flac with extension=flac', function () {
     assert.equal('flac', db['audio/x-flac'].extensions[0])

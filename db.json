@@ -143,6 +143,9 @@
   "application/cnrp+xml": {
     "source": "iana"
   },
+  "application/coap-group+json": {
+    "source": "iana"
+  },
   "application/commonground": {
     "source": "iana"
   },
@@ -183,6 +186,9 @@
     "extensions": ["davmount"]
   },
   "application/dca-rft": {
+    "source": "iana"
+  },
+  "application/dcd": {
     "source": "iana"
   },
   "application/dec-dx": {
@@ -281,6 +287,10 @@
     "source": "iana",
     "compressible": false,
     "extensions": ["woff"]
+  },
+  "application/font-woff2": {
+    "compressible": false,
+    "extensions": ["woff2"]
   },
   "application/framework-attributes+xml": {
     "source": "iana"
@@ -408,7 +418,9 @@
     "source": "iana"
   },
   "application/ld+json": {
-    "source": "iana"
+    "source": "iana",
+    "charset": "UTF-8",
+    "compressible": true
   },
   "application/link-format": {
     "source": "iana"
@@ -1203,6 +1215,9 @@
   "application/vnd.antix.game-component": {
     "source": "iana",
     "extensions": ["atx"]
+  },
+  "application/vnd.apache.thrift.binary": {
+    "source": "iana"
   },
   "application/vnd.api+json": {
     "source": "iana"
@@ -5287,6 +5302,9 @@
   "image/vnd.svf": {
     "source": "apache"
   },
+  "image/vnd.tencent.tap": {
+    "source": "iana"
+  },
   "image/vnd.valve.source.texture": {
     "source": "iana"
   },
@@ -5865,6 +5883,8 @@
     "extensions": ["wmls"]
   },
   "text/vtt": {
+    "charset": "UTF-8",
+    "compressible": true,
     "extensions": ["vtt"]
   },
   "text/x-asm": {
