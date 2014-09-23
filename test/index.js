@@ -21,6 +21,10 @@ describe('mime-db', function () {
     assert.equal('UTF-8', db['application/javascript'].charset)
   })
 
+  it('should set application/font-woff2 with extension=woff2', function () {
+    assert.equal('woff2', db['application/font-woff2'].extensions[0]);
+  });
+
   it('should set audio/x-flac with extension=flac', function () {
     assert.equal('flac', db['audio/x-flac'].extensions[0])
   })

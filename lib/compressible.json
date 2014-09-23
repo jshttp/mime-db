@@ -24,6 +24,9 @@
     ],
     "notes": "Insignificant gains in the majority of cases."
   },
+  "application/font-woff2": {
+    "compressible": false
+  },
   "application/gzip": {
     "compressible": false
   },
