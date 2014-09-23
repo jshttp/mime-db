@@ -16,7 +16,7 @@
     "csv-parse": "0",
     "gnode": "0.1.0",
     "istanbul": "0.3.2",
-    "mocha": "1",
+    "mocha": "~1.21.4",
     "stream-to-array": "2"
   },
   "engine": {
