@@ -143,6 +143,9 @@
   "application/cnrp+xml": {
     "source": "iana"
   },
+  "application/coap-group+json": {
+    "source": "iana"
+  },
   "application/commonground": {
     "source": "iana"
   },
@@ -183,6 +186,9 @@
     "extensions": ["davmount"]
   },
   "application/dca-rft": {
+    "source": "iana"
+  },
+  "application/dcd": {
     "source": "iana"
   },
   "application/dec-dx": {
@@ -1203,6 +1209,9 @@
   "application/vnd.antix.game-component": {
     "source": "iana",
     "extensions": ["atx"]
+  },
+  "application/vnd.apache.thrift.binary": {
+    "source": "iana"
   },
   "application/vnd.api+json": {
     "source": "iana"
@@ -5286,6 +5295,9 @@
   },
   "image/vnd.svf": {
     "source": "apache"
+  },
+  "image/vnd.tencent.tap": {
+    "source": "iana"
   },
   "image/vnd.valve.source.texture": {
     "source": "iana"
