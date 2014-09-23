@@ -16,9 +16,10 @@ describe('mime-db', function () {
     }))
   })
 
-  it('should have .json, .js and .vtt as having UTF-8 charsets', function () {
+  it('should have .json, .js, .jsonld and .vtt as having UTF-8 charsets', function () {
     assert.equal('UTF-8', db['application/json'].charset)
     assert.equal('UTF-8', db['application/javascript'].charset)
+    assert.equal('UTF-8', db['application/ld+json'].charset)
     assert.equal('UTF-8', db['text/vtt'].charset)
   })
 

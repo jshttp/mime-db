@@ -45,6 +45,9 @@
   "application/json": {
     "compressible": true
   },
+  "application/ld+json": {
+    "compressible": true
+  },
   "application/msword": {
     "compressible": false
   },

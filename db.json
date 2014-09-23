@@ -418,7 +418,9 @@
     "source": "iana"
   },
   "application/ld+json": {
-    "source": "iana"
+    "source": "iana",
+    "charset": "UTF-8",
+    "compressible": true
   },
   "application/link-format": {
     "source": "iana"
