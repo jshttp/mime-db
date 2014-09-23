@@ -28,6 +28,13 @@
     ],
     "notes": "File type is already compressed."
   },
+  "application/font-woff2": {
+    "compressible": false,
+    "sources": [
+      "http://dev.w3.org/webfonts/WOFF2/spec/#IMT"
+    ],
+    "notes": "File type is already compressed."
+  },
   "application/gzip": {
     "compressible": false
   },
