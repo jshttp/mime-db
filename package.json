@@ -15,7 +15,7 @@
     "cogent": "1",
     "csv-parse": "0",
     "gnode": "0.0.8",
-    "istanbul": "0.3.0",
+    "istanbul": "0.3.2",
     "mocha": "1",
     "stream-to-array": "2"
   },
