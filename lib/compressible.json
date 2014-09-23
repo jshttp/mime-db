@@ -434,6 +434,12 @@
   "text/vcard": {
     "compressible": true
   },
+  "text/vtt": {
+    "compressible": true,
+    "sources": [
+       "http://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
+    ]
+  },
   "text/x-gwt-rpc": {
     "compressible": true
   },

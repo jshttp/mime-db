@@ -5881,6 +5881,8 @@
     "extensions": ["wmls"]
   },
   "text/vtt": {
+    "charset": "UTF-8",
+    "compressible": true,
     "extensions": ["vtt"]
   },
   "text/x-asm": {
