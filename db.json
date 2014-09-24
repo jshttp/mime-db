@@ -12,34 +12,44 @@
     "source": "iana"
   },
   "application/alto-costmap+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/alto-costmapfilter+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/alto-directory+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/alto-endpointcost+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/alto-endpointcostparams+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/alto-endpointprop+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/alto-endpointpropparams+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/alto-error+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/alto-networkmap+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/alto-networkmapfilter+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/andrew-inset": {
     "source": "iana",
@@ -87,7 +97,8 @@
     "source": "iana"
   },
   "application/calendar+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/calendar+xml": {
     "source": "iana"
@@ -144,7 +155,8 @@
     "source": "iana"
   },
   "application/coap-group+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/commonground": {
     "source": "iana"
@@ -392,7 +404,8 @@
     "extensions": ["js"]
   },
   "application/jrd+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/json": {
     "source": "iana",
@@ -401,10 +414,12 @@
     "extensions": ["json","map"]
   },
   "application/json-patch+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/jsonml+json": {
     "source": "apache",
+    "compressible": true,
     "extensions": ["jsonml"]
   },
   "application/kpml-request+xml": {
@@ -414,7 +429,8 @@
     "source": "iana"
   },
   "application/ld+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/link-format": {
     "source": "iana"
@@ -517,7 +533,8 @@
     "extensions": ["mscml"]
   },
   "application/merge-patch+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/metalink+xml": {
     "source": "apache",
@@ -788,7 +805,8 @@
     "source": "iana"
   },
   "application/reputon+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/resource-lists+xml": {
     "source": "iana",
@@ -1051,7 +1069,8 @@
     "source": "iana"
   },
   "application/vcard+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vcard+xml": {
     "source": "iana"
@@ -1214,7 +1233,8 @@
     "source": "iana"
   },
   "application/vnd.api+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.apple.installer+xml": {
     "source": "iana",
@@ -1252,7 +1272,8 @@
     "source": "iana"
   },
   "application/vnd.bekitzur-stech+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.blueice.multipass": {
     "source": "iana",
@@ -1323,13 +1344,16 @@
     "extensions": ["c11amz"]
   },
   "application/vnd.collection+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.collection.doc+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.collection.next+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.commerce-battelle": {
     "source": "iana"
@@ -1459,7 +1483,8 @@
     "extensions": ["dna"]
   },
   "application/vnd.document+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.dolby.mlp": {
     "source": "apache",
@@ -1810,7 +1835,8 @@
     "extensions": ["txd"]
   },
   "application/vnd.geo+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.geocube+xml": {
     "source": "iana"
@@ -1895,7 +1921,8 @@
     "extensions": ["vcg"]
   },
   "application/vnd.hal+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.hal+xml": {
     "source": "iana",
@@ -1913,7 +1940,8 @@
     "source": "iana"
   },
   "application/vnd.heroku+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.hhe.lesson-player": {
     "source": "iana",
@@ -1994,22 +2022,28 @@
     "extensions": ["ivu"]
   },
   "application/vnd.ims.lis.v2.result+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.ims.lti.v2.toolconsumerprofile+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.ims.lti.v2.toolproxy+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.ims.lti.v2.toolproxy.id+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.ims.lti.v2.toolsettings+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.ims.lti.v2.toolsettings.simple+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.informedcontrol.rms+xml": {
     "source": "iana"
@@ -2248,7 +2282,8 @@
     "source": "iana"
   },
   "application/vnd.mason+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.maxmind.maxmind-db": {
     "source": "iana"
@@ -2288,7 +2323,8 @@
     "extensions": ["igx"]
   },
   "application/vnd.miele+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.mif": {
     "source": "apache",
@@ -2736,7 +2772,8 @@
     "source": "iana"
   },
   "application/vnd.oftn.l10n+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.oipf.contentaccessdownload+xml": {
     "source": "iana"
@@ -3468,7 +3505,8 @@
     "extensions": ["twd","twds"]
   },
   "application/vnd.siren+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.smaf": {
     "source": "iana",
@@ -3832,7 +3870,8 @@
     "source": "iana"
   },
   "application/vnd.xacml+json": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.xara": {
     "source": "iana",
@@ -4401,6 +4440,7 @@
     "extensions": ["src"]
   },
   "application/x-web-app-manifest+json": {
+    "compressible": true,
     "extensions": ["webapp"]
   },
   "application/x-www-form-urlencode": {

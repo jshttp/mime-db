@@ -1,4 +1,8 @@
 {
+  "+json": {
+    "compressible": true,
+    "notes": "+json means it is JSON, which is compressible."
+  },
   "application/atom+xml": {
     "compressible": true,
     "sources": [

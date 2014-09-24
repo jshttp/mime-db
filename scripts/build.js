@@ -60,9 +60,21 @@ Object.keys(mime).forEach(function (type) {
 
 // add all the compressible metadata
 var mime = require('../lib/compressible.json')
-Object.keys(mime).forEach(function (type) {
-  var o = db[type.toLowerCase()] = db[type.toLowerCase()] || {}
-  o.compressible = mime[type].compressible
+Object.keys(mime).sort().forEach(function (type) {
+  var e = mime[type]
+  var t = type.toLowerCase()
+
+  if (type[0] === '+') {
+    // suffix handling
+    Object.keys(db).forEach(function (type) {
+      if (type.substr(0 - t.length) !== t) return
+      db[type].compressible = e.compressible
+    })
+    return
+  }
+
+  var o = db[t] = db[t] || {}
+  o.compressible = e.compressible
 })
 
 // set the default charsets
