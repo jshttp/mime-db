@@ -20,7 +20,7 @@
     "stream-to-array": "2"
   },
   "engine": {
-    "node": ">= 0.6.0"
+    "node": ">= 0.6"
   },
   "files": [
     "LICENSE",
