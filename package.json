@@ -1,7 +1,7 @@
 {
   "name": "mime-db",
   "description": "Media Type Database",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
