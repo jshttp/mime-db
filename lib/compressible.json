@@ -219,7 +219,7 @@
     "compressible": true
   },
   "application/x-www-form-urlencoded": {
-    "compressible": false
+    "compressible": true
   },
   "application/x-xpinstall": {
     "compressible": false
