@@ -218,7 +218,7 @@
   "application/x-tar": {
     "compressible": true
   },
-  "application/x-www-form-urlencode": {
+  "application/x-www-form-urlencoded": {
     "compressible": false
   },
   "application/x-xpinstall": {
