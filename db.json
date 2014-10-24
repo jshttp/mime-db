@@ -4447,11 +4447,9 @@
     "compressible": true,
     "extensions": ["webapp"]
   },
-  "application/x-www-form-urlencode": {
-    "compressible": false
-  },
   "application/x-www-form-urlencoded": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/x-x509-ca-cert": {
     "source": "apache",
