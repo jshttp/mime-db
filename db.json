@@ -139,6 +139,9 @@
     "source": "iana",
     "extensions": ["cdmiq"]
   },
+  "application/cea": {
+    "source": "iana"
+  },
   "application/cea-2018+xml": {
     "source": "iana"
   },
@@ -210,6 +213,9 @@
     "source": "iana"
   },
   "application/dicom": {
+    "source": "iana"
+  },
+  "application/dit": {
     "source": "iana"
   },
   "application/dns": {

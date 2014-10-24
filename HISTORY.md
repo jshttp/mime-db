@@ -1,3 +1,9 @@
+unreleased
+==========
+
+  * Add `application/cea`
+  * Add `application/dit`
+
 1.1.2 / 2014-10-23
 ==================
 
