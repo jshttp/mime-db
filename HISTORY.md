@@ -1,5 +1,5 @@
-unreleased
-==========
+1.1.2 / 2014-10-23
+==================
 
   * Rebuild database for `application/x-www-form-urlencoded` change
 
