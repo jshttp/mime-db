@@ -269,7 +269,7 @@
     "source": "iana"
   },
   "application/epub+zip": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["epub"]
   },
   "application/eshop": {
@@ -1894,6 +1894,9 @@
     "source": "iana",
     "compressible": false,
     "extensions": ["kmz"]
+  },
+  "application/vnd.gov.sk.e-form+zip": {
+    "source": "iana"
   },
   "application/vnd.grafeq": {
     "source": "iana",
@@ -3686,6 +3689,9 @@
   "application/vnd.tcpdump.pcap": {
     "source": "iana",
     "extensions": ["pcap","cap","dmp"]
+  },
+  "application/vnd.tmd.mediaflex.api+xml": {
+    "source": "iana"
   },
   "application/vnd.tmobile-livetv": {
     "source": "iana",

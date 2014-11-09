@@ -3,6 +3,9 @@ unreleased
 
   * Add `application/cea`
   * Add `application/dit`
+  * Add `application/vnd.gov.sk.e-form+zip`
+  * Add `application/vnd.tmd.mediaflex.api+xml`
+  * Type `application/epub+zip` is now IANA-registered
 
 1.1.2 / 2014-10-23
 ==================
