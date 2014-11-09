@@ -1,5 +1,5 @@
-unreleased
-==========
+1.2.0 / 2014-11-09
+==================
 
   * Add `application/cea`
   * Add `application/dit`
