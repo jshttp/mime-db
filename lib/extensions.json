@@ -2,6 +2,9 @@
   "application/font-woff2": [
     "woff2"
   ],
+  "text/hjson": [
+    "hjson"
+  ],
   "text/jade": [
     "jade"
   ],
