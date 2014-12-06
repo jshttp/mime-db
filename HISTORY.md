@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `application/json5`
   * Add `text/hjson`
 
 1.2.0 / 2014-11-09
