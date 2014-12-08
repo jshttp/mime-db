@@ -8,6 +8,9 @@
   "application/3gpp-ims+xml": {
     "source": "iana"
   },
+  "application/a2l": {
+    "source": "iana"
+  },
   "application/activemessage": {
     "source": "iana"
   },
@@ -51,6 +54,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/aml": {
+    "source": "iana"
+  },
   "application/andrew-inset": {
     "source": "iana",
     "extensions": ["ez"]
@@ -63,6 +69,9 @@
     "extensions": ["aw"]
   },
   "application/atf": {
+    "source": "iana"
+  },
+  "application/atfx": {
     "source": "iana"
   },
   "application/atom+xml": {
@@ -83,6 +92,9 @@
   "application/atomsvc+xml": {
     "source": "iana",
     "extensions": ["atomsvc"]
+  },
+  "application/atxml": {
+    "source": "iana"
   },
   "application/auth-policy+xml": {
     "source": "iana"
@@ -118,6 +130,9 @@
   "application/ccxml+xml": {
     "source": "iana",
     "extensions": ["ccxml"]
+  },
+  "application/cdfx+xml": {
+    "source": "iana"
   },
   "application/cdmi-capability": {
     "source": "iana",
@@ -213,6 +228,9 @@
     "source": "iana"
   },
   "application/dicom": {
+    "source": "iana"
+  },
+  "application/dii": {
     "source": "iana"
   },
   "application/dit": {
@@ -455,6 +473,9 @@
   "application/lostsync+xml": {
     "source": "iana"
   },
+  "application/lxf": {
+    "source": "iana"
+  },
   "application/mac-binhex40": {
     "source": "iana",
     "extensions": ["hqx"]
@@ -557,6 +578,9 @@
   "application/mets+xml": {
     "source": "iana",
     "extensions": ["mets"]
+  },
+  "application/mf4": {
+    "source": "iana"
   },
   "application/mikey": {
     "source": "iana"
@@ -1242,6 +1266,12 @@
   "application/vnd.apache.thrift.binary": {
     "source": "iana"
   },
+  "application/vnd.apache.thrift.compact": {
+    "source": "iana"
+  },
+  "application/vnd.apache.thrift.json": {
+    "source": "iana"
+  },
   "application/vnd.api+json": {
     "source": "iana",
     "compressible": true
@@ -1352,6 +1382,9 @@
   "application/vnd.cluetrust.cartomobile-config-pkg": {
     "source": "iana",
     "extensions": ["c11amz"]
+  },
+  "application/vnd.coffeescript": {
+    "source": "iana"
   },
   "application/vnd.collection+json": {
     "source": "iana",
@@ -1633,6 +1666,9 @@
   "application/vnd.enliven": {
     "source": "iana",
     "extensions": ["nml"]
+  },
+  "application/vnd.enphase.envoy": {
+    "source": "iana"
   },
   "application/vnd.eprints.data+xml": {
     "source": "iana"
@@ -2033,6 +2069,9 @@
   "application/vnd.immervision-ivu": {
     "source": "iana",
     "extensions": ["ivu"]
+  },
+  "application/vnd.ims.imsccv1p1": {
+    "source": "iana"
   },
   "application/vnd.ims.lis.v2.result+json": {
     "source": "iana",
@@ -5687,6 +5726,9 @@
     "compressible": true,
     "extensions": ["csv"]
   },
+  "text/csv-schema": {
+    "source": "iana"
+  },
   "text/directory": {
     "source": "iana"
   },
@@ -5732,6 +5774,9 @@
   },
   "text/less": {
     "extensions": ["less"]
+  },
+  "text/markdown": {
+    "source": "iana"
   },
   "text/mizar": {
     "source": "iana"
@@ -6014,6 +6059,9 @@
   },
   "text/xml-external-parsed-entity": {
     "source": "iana"
+  },
+  "text/yaml": {
+    "extensions": ["yaml","yml"]
   },
   "video/1d-interleaved-parityfec": {
     "source": "apache"

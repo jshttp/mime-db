@@ -1,8 +1,24 @@
 unreleased
 ==========
 
+  * Add `application/a2l`
+  * Add `application/aml`
+  * Add `application/atfx`
+  * Add `application/atxml`
+  * Add `application/cdfx+xml`
+  * Add `application/dii`
   * Add `application/json5`
+  * Add `application/lxf`
+  * Add `application/mf4`
+  * Add `application/vnd.apache.thrift.compact`
+  * Add `application/vnd.apache.thrift.json`
+  * Add `application/vnd.coffeescript`
+  * Add `application/vnd.enphase.envoy`
+  * Add `application/vnd.ims.imsccv1p1`
+  * Add `text/csv-schema`
   * Add `text/hjson`
+  * Add `text/markdown`
+  * Add `text/yaml`
 
 1.2.0 / 2014-11-09
 ==================
