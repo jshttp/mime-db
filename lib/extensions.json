@@ -29,5 +29,11 @@
   ],
   "text/jsx": [
     "jsx"
+  ],
+  "text/hjson": [
+    "hjson"
+  ],
+  "application/json5": [
+    "json5"
   ]
 }
