@@ -1,5 +1,5 @@
-unreleased
-==========
+1.3.0 / 2014-12-07
+==================
 
   * Add `application/a2l`
   * Add `application/aml`
