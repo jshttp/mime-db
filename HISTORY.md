@@ -1,5 +1,5 @@
-unreleased
-==========
+1.3.1 / 2014-12-16
+==================
 
   * Fix missing extensions
     - `application/json5`
