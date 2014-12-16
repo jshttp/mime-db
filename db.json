@@ -445,6 +445,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/json5": {
+    "extensions": ["json5"]
+  },
   "application/jsonml+json": {
     "source": "apache",
     "compressible": true,
@@ -5752,6 +5755,9 @@
   },
   "text/grammar-ref-list": {
     "source": "iana"
+  },
+  "text/hjson": {
+    "extensions": ["hjson"]
   },
   "text/html": {
     "source": "iana",
