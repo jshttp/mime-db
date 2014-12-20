@@ -39,7 +39,7 @@ describe('mime-db', function () {
   })
 
   it('should have the default .extension as the first', function () {
-assert.equal(db['text/plain'].extensions[0], 'txt')
-assert.equal(db['video/x-matroska'].extensions[0], 'mkv')
+    assert.equal(db['text/plain'].extensions[0], 'txt')
+    assert.equal(db['video/x-matroska'].extensions[0], 'mkv')
   })
 })
