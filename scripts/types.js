@@ -80,7 +80,7 @@ function addTemplateData(data) {
       throw new Error('got status code ' + res.statusCode + ' from template ' + data.template)
 
     var body = yield getTemplateBody(res)
-    var mime = extractTemplateMime(body, ref)
+    var mime = extractTemplateMime(body)
 
     // use extracted mime if it's almost the same
     if (mime && mime.replace(symbolRegExp, '-') === data.mime.replace(symbolRegExp, '-')) {
@@ -91,7 +91,7 @@ function addTemplateData(data) {
   }
 }
 
-function extractTemplateMime(body, ref) {
+function extractTemplateMime(body) {
   var type = mimeTypeLineRegExp.exec(body)
   var subtype = mimeSubtypeLineRegExp.exec(body)
 
@@ -100,7 +100,6 @@ function extractTemplateMime(body, ref) {
   }
 
   if (!type || !subtype) {
-    //console.dir([ref, type&&type[1], subtype&&subtype[1]])
     return
   }
 
