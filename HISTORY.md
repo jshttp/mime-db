@@ -1,5 +1,5 @@
-unreleased
-==========
+1.4.0 / 2014-12-21
+==================
 
   * Add `application/vnd.ims.imsccv1p2`
   * Fix various invalid MIME type entries
