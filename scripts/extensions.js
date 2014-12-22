@@ -5,18 +5,17 @@
 
 var co = require('co')
 var fs = require('fs')
-var path = require('path')
 var cogent = require('cogent')
 var writedb = require('./lib/write-db')
 
 co(function* () {
   yield [
-    get('http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types'),
-    get('https://raw.githubusercontent.com/broofa/node-mime/master/types/node.types')
+    get('apache', 'http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types'),
+    get('node', 'https://raw.githubusercontent.com/broofa/node-mime/master/types/node.types')
   ]
 })()
 
-function* get(url) {
+function* get(name, url) {
   var res = yield* cogent(url, {
     string: true
   })
@@ -54,5 +53,5 @@ function* get(url) {
     var o = json[mime] = {}
     if (extensions.length) o.extensions = extensions
   })
-  writedb('src/' + path.basename(url).split('.')[0] + '.json', json)
+  writedb('src/' + name + '.json', json)
 }

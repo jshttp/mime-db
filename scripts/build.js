@@ -10,7 +10,7 @@ Object.keys(mime).forEach(function (type) {
 })
 
 // add the mime extensions from Apache
-var mime = require('../src/mime.json')
+var mime = require('../src/apache.json')
 Object.keys(mime).forEach(function (type) {
   var d = mime[type]
   var t = type.toLowerCase()
