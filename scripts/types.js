@@ -9,6 +9,7 @@ var getRawBody = require('raw-body')
 var cogent = require('cogent')
 var parser = require('csv-parse')
 var toArray = require('stream-to-array')
+var writedb = require('./lib/write-db')
 
 var leadingSpacesRegExp = /^\s+/
 var listColonRegExp = /:(?:\s|$)/m
@@ -53,7 +54,7 @@ co(function* () {
     json[mime] = result
   })
 
-  fs.writeFileSync('src/iana.json', JSON.stringify(json))
+  writedb('src/iana.json', json)
 })()
 
 function addTemplateData(data) {

@@ -7,6 +7,7 @@ var co = require('co')
 var fs = require('fs')
 var path = require('path')
 var cogent = require('cogent')
+var writedb = require('./lib/write-db')
 
 co(function* () {
   yield [
@@ -47,9 +48,11 @@ function* get(url) {
     var mime = match[1]
     if (mime.substr(-8) === '/example') return
     // remove the leading # and <type> and return all the <ext>s
-    json[mime] = line.replace(/^(?:# )?([\w-]+\/[\w\+\.-]+)/, '')
+    var extensions = line.replace(/^(?:# )?([\w-]+\/[\w\+\.-]+)/, '')
       .split(/\s+/)
       .filter(Boolean)
+    var o = json[mime] = {}
+    if (extensions.length) o.extensions = extensions
   })
-  fs.writeFileSync('src/' + path.basename(url).split('.')[0] + '.json', JSON.stringify(json))
+  writedb('src/' + path.basename(url).split('.')[0] + '.json', json)
 }

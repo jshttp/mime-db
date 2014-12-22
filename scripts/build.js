@@ -12,20 +12,20 @@ Object.keys(mime).forEach(function (type) {
 // add the mime extensions from Apache
 var mime = require('../src/mime.json')
 Object.keys(mime).forEach(function (type) {
-  var e = mime[type]
+  var d = mime[type]
   var t = type.toLowerCase()
   var o = db[t] = db[t] || {source: 'apache'}
-  if (e.length) o.extensions = (o.extensions || []).concat(e)
+  if (d.extensions && d.extensions.length) o.extensions = (o.extensions || []).concat(d.extensions)
 })
 
 // add all of node mime's mime extensions
 // though i think we should just put this in `types.json`
 var mime = require('../src/node.json')
 Object.keys(mime).forEach(function (type) {
-  var e = mime[type]
+  var d = mime[type]
   var t = type.toLowerCase()
   var o = db[t] = db[t] || {}
-  if (e.length) o.extensions = (o.extensions || []).concat(e)
+  if (d.extensions && d.extensions.length) o.extensions = (o.extensions || []).concat(d.extensions)
 })
 
 // now add all our custom extensions

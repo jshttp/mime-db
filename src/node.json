@@ -1,1 +1,59 @@
-{"text/vtt":["vtt"],"application/x-chrome-extension":["crx"],"text/x-component":["htc"],"text/cache-manifest":["manifest"],"application/octet-stream":["buffer"],"application/mp4":["m4p"],"audio/mp4":["m4a"],"video/MP2T":["ts"],"application/x-web-app-manifest+json":["webapp"],"text/x-lua":["lua"],"application/x-lua-bytecode":["luac"],"text/x-markdown":["markdown","md","mkd"],"text/plain":["ini"],"application/dash+xml":["mdp"],"font/opentype":["otf"],"application/json":["map"],"application/xml":["xsd"],"application/font-woff2":["woff2"],"text/yaml":["yaml","yml"]}
+{
+  "application/dash+xml": {
+    "extensions": ["mdp"]
+  },
+  "application/font-woff2": {
+    "extensions": ["woff2"]
+  },
+  "application/json": {
+    "extensions": ["map"]
+  },
+  "application/mp4": {
+    "extensions": ["m4p"]
+  },
+  "application/octet-stream": {
+    "extensions": ["buffer"]
+  },
+  "application/x-chrome-extension": {
+    "extensions": ["crx"]
+  },
+  "application/x-lua-bytecode": {
+    "extensions": ["luac"]
+  },
+  "application/x-web-app-manifest+json": {
+    "extensions": ["webapp"]
+  },
+  "application/xml": {
+    "extensions": ["xsd"]
+  },
+  "audio/mp4": {
+    "extensions": ["m4a"]
+  },
+  "font/opentype": {
+    "extensions": ["otf"]
+  },
+  "text/cache-manifest": {
+    "extensions": ["manifest"]
+  },
+  "text/plain": {
+    "extensions": ["ini"]
+  },
+  "text/vtt": {
+    "extensions": ["vtt"]
+  },
+  "text/x-component": {
+    "extensions": ["htc"]
+  },
+  "text/x-lua": {
+    "extensions": ["lua"]
+  },
+  "text/x-markdown": {
+    "extensions": ["markdown","md","mkd"]
+  },
+  "text/yaml": {
+    "extensions": ["yaml","yml"]
+  },
+  "video/MP2T": {
+    "extensions": ["ts"]
+  }
+}
