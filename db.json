@@ -2076,6 +2076,9 @@
   "application/vnd.ims.imsccv1p1": {
     "source": "iana"
   },
+  "application/vnd.ims.imsccv1p2": {
+    "source": "iana"
+  },
   "application/vnd.ims.lis.v2.result+json": {
     "source": "iana",
     "compressible": true
