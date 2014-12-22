@@ -20,7 +20,22 @@ co(function* () {
     get('text'),
   ]
 
-  fs.writeFileSync('src/iana.json', JSON.stringify(results.reduce(concat, [])))
+  // flatten results
+  results = results.reduce(concat, [])
+
+  var json = {}
+  results.forEach(function (result) {
+    var mime = result.mime
+
+    if (mime in json && result.template !== json[mime].template) {
+      throw new Error('duplicate entry for ' + mime)
+    }
+
+    delete result.mime
+    json[mime] = result
+  })
+
+  fs.writeFileSync('src/iana.json', JSON.stringify(json))
 })()
 
 function* get(type) {
@@ -34,7 +49,15 @@ function* get(type) {
 
   return mimes.map(function (row) {
     var data = row.reduce(reduceRows, {type: type})
-    if (data.template !== type + '/example') return data
+
+    if (data.template === type + '/example') {
+      return
+    }
+
+    // guess mime type
+    data.mime = (data.template || (type + '/' + data.name)).toLowerCase()
+
+    return data
   })
 }
 

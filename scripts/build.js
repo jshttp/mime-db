@@ -2,29 +2,11 @@
 var db = {}
 
 // initialize with all the IANA types
-require('../src/iana.json').forEach(function (mime) {
-  // i don't think the name is useful,
-  // and i don't think we need to bother with the "Reference"
-  // just look at the site yourself!
-
-  var template = mime.template
-
-  if (!template) {
-    // some types don't have a template, so we guess it
-    console.log('guessing: %s/%s', mime.type, mime.name)
-    template = mime.type + '/' + mime.name
-  }
-
-  if (!~template.indexOf('/')) {
-    // i don't know what templates exactly are,
-    // but some aren't valid mime types.
-    console.log('prefixing: %s/%s', mime.type, template)
-    template = mime.type + '/' + template
-  }
-
-  db[template.toLowerCase()] = {
-    source: 'iana'
-  }
+var mime = require('../src/iana.json')
+Object.keys(mime).forEach(function (type) {
+  var d = mime[type]
+  var t = type.toLowerCase()
+  var o = db[t] = db[t] || {source: 'iana'}
 })
 
 // add the mime extensions from Apache
