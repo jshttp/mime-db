@@ -863,7 +863,7 @@
     "template": "application/mbms-user-service-description+xml",
     "type": "application"
   },
-  "application/mbox+xml": {
+  "application/mbox": {
     "name": "mbox",
     "reference": "[RFC4155]",
     "template": "application/mbox",
@@ -1055,6 +1055,12 @@
     "template": "application/ocsp-request",
     "type": "application"
   },
+  "application/ocsp-response": {
+    "name": "ocsp-response",
+    "reference": "[RFC6960]",
+    "template": "application/ocsp-response",
+    "type": "application"
+  },
   "application/octet-stream": {
     "name": "octet-stream",
     "reference": "[RFC2045][RFC2046]",
@@ -1083,12 +1089,6 @@
     "name": "ogg",
     "reference": "[RFC5334]",
     "template": "application/ogg",
-    "type": "application"
-  },
-  "application/oscp-response": {
-    "name": "ocsp-response",
-    "reference": "[RFC6960]",
-    "template": "application/ocsp-response",
     "type": "application"
   },
   "application/oxps": {
@@ -5435,6 +5435,12 @@
     "template": "application/vnd.pvi.ptid1",
     "type": "application"
   },
+  "application/vnd.pwg-multiplexed": {
+    "name": "vnd.pwg-multiplexed",
+    "reference": "[RFC3391]",
+    "template": "application/vnd.pwg-multiplexed",
+    "type": "application"
+  },
   "application/vnd.pwg-xhtml-print+xml": {
     "name": "vnd.pwg-xhtml-print+xml",
     "reference": "[Don_Wright]",
@@ -6431,12 +6437,6 @@
     "template": "application/vq-rtcpxr",
     "type": "application"
   },
-  "application/vwg-multiplexed": {
-    "name": "vnd.pwg-multiplexed",
-    "reference": "[RFC3391]",
-    "template": "application/vnd.pwg-multiplexed",
-    "type": "application"
-  },
   "application/watcherinfo+xml": {
     "name": "watcherinfo+xml",
     "reference": "[RFC3858]",
@@ -6663,6 +6663,12 @@
     "name": "3gpp2",
     "reference": "[RFC4393][RFC6381]",
     "template": "audio/3gpp2",
+    "type": "audio"
+  },
+  "audio/G7221": {
+    "name": "G7221",
+    "reference": "[RFC5577]",
+    "template": "audio/G7221",
     "type": "audio"
   },
   "audio/ac3": {
@@ -6897,12 +6903,6 @@
     "name": "G719",
     "reference": "[RFC5404][RFC Errata \n          3245]",
     "template": "audio/G719",
-    "type": "audio"
-  },
-  "audio/g721": {
-    "name": "G7221",
-    "reference": "[RFC5577]",
-    "template": "audio/G7221",
     "type": "audio"
   },
   "audio/g722": {

@@ -1,3 +1,12 @@
+unreleased
+==========
+
+  * Fix various invalid MIME type entries
+    - `application/mbox+xml`
+    - `application/oscp-response`
+    - `application/vwg-multiplexed`
+    - `audio/g721`
+
 1.4.0 / 2014-12-21
 ==================
 

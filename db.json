@@ -547,11 +547,8 @@
     "source": "iana"
   },
   "application/mbox": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["mbox"]
-  },
-  "application/mbox+xml": {
-    "source": "iana"
   },
   "application/media-policy-dataset+xml": {
     "source": "iana"
@@ -661,7 +658,7 @@
     "source": "iana"
   },
   "application/ocsp-response": {
-    "source": "apache"
+    "source": "iana"
   },
   "application/octet-stream": {
     "source": "iana",
@@ -691,9 +688,6 @@
   "application/onenote": {
     "source": "apache",
     "extensions": ["onetoc","onetoc2","onetmp","onepkg"]
-  },
-  "application/oscp-response": {
-    "source": "iana"
   },
   "application/oxps": {
     "source": "iana",
@@ -3310,7 +3304,7 @@
     "extensions": ["ptid"]
   },
   "application/vnd.pwg-multiplexed": {
-    "source": "apache"
+    "source": "iana"
   },
   "application/vnd.pwg-xhtml-print+xml": {
     "source": "iana"
@@ -3954,9 +3948,6 @@
     "extensions": ["vxml"]
   },
   "application/vq-rtcpxr": {
-    "source": "iana"
-  },
-  "application/vwg-multiplexed": {
     "source": "iana"
   },
   "application/watcherinfo+xml": {
@@ -4705,14 +4696,11 @@
   "audio/g719": {
     "source": "iana"
   },
-  "audio/g721": {
-    "source": "iana"
-  },
   "audio/g722": {
     "source": "iana"
   },
   "audio/g7221": {
-    "source": "apache"
+    "source": "iana"
   },
   "audio/g723": {
     "source": "iana"

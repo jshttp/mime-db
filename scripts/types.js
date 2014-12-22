@@ -70,6 +70,11 @@ function addTemplateData(data) {
       console.log('template ' + data.template + ' not found')
       data.template = ref
       res = yield* cogent('http://www.iana.org/assignments/media-types/' + ref)
+
+      // replace the guessed mime
+      if (res.statusCode === 200) {
+        data.mime = data.template
+      }
     }
 
     if (res.statusCode === 404) {
