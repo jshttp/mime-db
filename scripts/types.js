@@ -33,12 +33,13 @@ function* get(type) {
   var reduceRows = generateRowMapper(headers)
 
   return mimes.map(function (row) {
-    return row.reduce(reduceRows, {type: type})
+    var data = row.reduce(reduceRows, {type: type})
+    if (data.template !== type + '/example') return data
   })
 }
 
 function concat(a, b) {
-  return a.concat(b)
+  return a.concat(b.filter(Boolean))
 }
 
 function generateRowMapper(headers) {

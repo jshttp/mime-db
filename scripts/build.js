@@ -7,11 +7,6 @@ require('../src/iana.json').forEach(function (mime) {
   // and i don't think we need to bother with the "Reference"
   // just look at the site yourself!
 
-  if (mime.template.substr(-8) === '/example') {
-    // ignore example templates
-    return
-  }
-
   var template = mime.template
 
   if (!template) {
