@@ -1115,30 +1115,6 @@
   "application/vividence.scriptfile": {
     "source": "apache"
   },
-  "application/vnd-acucobol": {
-    "source": "iana"
-  },
-  "application/vnd-curl": {
-    "source": "iana"
-  },
-  "application/vnd-dart": {
-    "source": "iana"
-  },
-  "application/vnd-dxr": {
-    "source": "iana"
-  },
-  "application/vnd-fdf": {
-    "source": "iana"
-  },
-  "application/vnd-mif": {
-    "source": "iana"
-  },
-  "application/vnd-sema": {
-    "source": "iana"
-  },
-  "application/vnd-wap-wmlc": {
-    "source": "iana"
-  },
   "application/vnd.3gpp.bsf+xml": {
     "source": "iana"
   },
@@ -1180,7 +1156,7 @@
     "extensions": ["imp"]
   },
   "application/vnd.acucobol": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["acu"]
   },
   "application/vnd.acucorp": {
@@ -1191,7 +1167,7 @@
     "source": "apache",
     "extensions": ["air"]
   },
-  "application/vnd.adobe.flash-movie": {
+  "application/vnd.adobe.flash.movie": {
     "source": "iana"
   },
   "application/vnd.adobe.formscentral.fcdt": {
@@ -1461,7 +1437,7 @@
     "source": "iana"
   },
   "application/vnd.curl": {
-    "source": "apache"
+    "source": "iana"
   },
   "application/vnd.curl.car": {
     "source": "apache",
@@ -1478,7 +1454,7 @@
     "source": "iana"
   },
   "application/vnd.dart": {
-    "source": "apache",
+    "source": "iana",
     "compressible": true,
     "extensions": ["dart"]
   },
@@ -1487,9 +1463,6 @@
     "extensions": ["rdz"]
   },
   "application/vnd.debian.binary-package": {
-    "source": "iana"
-  },
-  "application/vnd.dece-zip": {
     "source": "iana"
   },
   "application/vnd.dece.data": {
@@ -1505,7 +1478,7 @@
     "extensions": ["uvx","uvvx"]
   },
   "application/vnd.dece.zip": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["uvz","uvvz"]
   },
   "application/vnd.denovo.fcselayout-link": {
@@ -1619,14 +1592,11 @@
     "source": "iana"
   },
   "application/vnd.dvb.service": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["svc"]
   },
-  "application/vnd.dvb_service": {
-    "source": "iana"
-  },
   "application/vnd.dxr": {
-    "source": "apache"
+    "source": "iana"
   },
   "application/vnd.dynageo": {
     "source": "iana",
@@ -1781,7 +1751,7 @@
     "source": "iana"
   },
   "application/vnd.fdf": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["fdf"]
   },
   "application/vnd.fdsn.mseed": {
@@ -2366,15 +2336,12 @@
     "source": "iana",
     "extensions": ["mfm"]
   },
-  "application/vnd.micrografx-igx": {
-    "source": "iana"
-  },
   "application/vnd.micrografx.flo": {
     "source": "iana",
     "extensions": ["flo"]
   },
   "application/vnd.micrografx.igx": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["igx"]
   },
   "application/vnd.miele+json": {
@@ -2382,7 +2349,7 @@
     "compressible": true
   },
   "application/vnd.mif": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["mif"]
   },
   "application/vnd.minisoft-hp3000-save": {
@@ -3466,24 +3433,6 @@
   "application/vnd.scribus": {
     "source": "iana"
   },
-  "application/vnd.sealed-doc": {
-    "source": "iana"
-  },
-  "application/vnd.sealed-eml": {
-    "source": "iana"
-  },
-  "application/vnd.sealed-mht": {
-    "source": "iana"
-  },
-  "application/vnd.sealed-ppt": {
-    "source": "iana"
-  },
-  "application/vnd.sealed-tiff": {
-    "source": "iana"
-  },
-  "application/vnd.sealed-xls": {
-    "source": "iana"
-  },
   "application/vnd.sealed.3df": {
     "source": "iana"
   },
@@ -3491,44 +3440,38 @@
     "source": "iana"
   },
   "application/vnd.sealed.doc": {
-    "source": "apache"
+    "source": "iana"
   },
   "application/vnd.sealed.eml": {
-    "source": "apache"
+    "source": "iana"
   },
   "application/vnd.sealed.mht": {
-    "source": "apache"
+    "source": "iana"
   },
   "application/vnd.sealed.net": {
     "source": "iana"
   },
   "application/vnd.sealed.ppt": {
-    "source": "apache"
-  },
-  "application/vnd.sealed.tiff": {
-    "source": "apache"
-  },
-  "application/vnd.sealed.xls": {
-    "source": "apache"
-  },
-  "application/vnd.sealedmedia.softseal-html": {
     "source": "iana"
   },
-  "application/vnd.sealedmedia.softseal-pdf": {
+  "application/vnd.sealed.tiff": {
+    "source": "iana"
+  },
+  "application/vnd.sealed.xls": {
     "source": "iana"
   },
   "application/vnd.sealedmedia.softseal.html": {
-    "source": "apache"
+    "source": "iana"
   },
   "application/vnd.sealedmedia.softseal.pdf": {
-    "source": "apache"
+    "source": "iana"
   },
   "application/vnd.seemail": {
     "source": "iana",
     "extensions": ["see"]
   },
   "application/vnd.sema": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["sema"]
   },
   "application/vnd.semd": {
@@ -3850,24 +3793,18 @@
     "source": "iana",
     "extensions": ["vsf"]
   },
-  "application/vnd.wap-slc": {
-    "source": "iana"
-  },
-  "application/vnd.wap-wbxml": {
-    "source": "iana"
-  },
   "application/vnd.wap.sic": {
     "source": "iana"
   },
   "application/vnd.wap.slc": {
-    "source": "apache"
+    "source": "iana"
   },
   "application/vnd.wap.wbxml": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["wbxml"]
   },
   "application/vnd.wap.wmlc": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["wmlc"]
   },
   "application/vnd.wap.wmlscriptc": {
@@ -5089,11 +5026,8 @@
   "audio/vnd.rn-realaudio": {
     "compressible": false
   },
-  "audio/vnd.sealedmedia.softseal-mpeg": {
-    "source": "iana"
-  },
   "audio/vnd.sealedmedia.softseal.mpeg": {
-    "source": "apache"
+    "source": "iana"
   },
   "audio/vnd.vmx.cvsd": {
     "source": "iana"
@@ -5281,15 +5215,6 @@
   "image/tiff-fx": {
     "source": "iana"
   },
-  "image/vnd-djvu": {
-    "source": "iana"
-  },
-  "image/vnd-svf": {
-    "source": "iana"
-  },
-  "image/vnd-wap-wbmp": {
-    "source": "iana"
-  },
   "image/vnd.adobe.photoshop": {
     "source": "iana",
     "compressible": true,
@@ -5306,7 +5231,7 @@
     "extensions": ["uvi","uvvi","uvg","uvvg"]
   },
   "image/vnd.djvu": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["djvu","djv"]
   },
   "image/vnd.dvb.subtitle": {
@@ -5365,26 +5290,17 @@
   "image/vnd.radiance": {
     "source": "iana"
   },
-  "image/vnd.sealed-png": {
-    "source": "iana"
-  },
   "image/vnd.sealed.png": {
-    "source": "apache"
-  },
-  "image/vnd.sealedmedia.softseal-gif": {
-    "source": "iana"
-  },
-  "image/vnd.sealedmedia.softseal-jpg": {
     "source": "iana"
   },
   "image/vnd.sealedmedia.softseal.gif": {
-    "source": "apache"
+    "source": "iana"
   },
   "image/vnd.sealedmedia.softseal.jpg": {
-    "source": "apache"
+    "source": "iana"
   },
   "image/vnd.svf": {
-    "source": "apache"
+    "source": "iana"
   },
   "image/vnd.tencent.tap": {
     "source": "iana"
@@ -5393,7 +5309,7 @@
     "source": "iana"
   },
   "image/vnd.wap.wbmp": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["wbmp"]
   },
   "image/vnd.xiff": {
@@ -5551,15 +5467,12 @@
     "compressible": false,
     "extensions": ["msh","mesh","silo"]
   },
-  "model/vnd-dwf": {
-    "source": "iana"
-  },
   "model/vnd.collada+xml": {
     "source": "iana",
     "extensions": ["dae"]
   },
   "model/vnd.dwf": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["dwf"]
   },
   "model/vnd.flatland.3dml": {
@@ -5570,10 +5483,10 @@
     "extensions": ["gdl"]
   },
   "model/vnd.gs-gdl": {
-    "source": "iana"
+    "source": "apache"
   },
   "model/vnd.gs.gdl": {
-    "source": "apache"
+    "source": "iana"
   },
   "model/vnd.gtw": {
     "source": "iana",
@@ -5589,17 +5502,11 @@
   "model/vnd.opengex": {
     "source": "iana"
   },
-  "model/vnd.parasolid.transmit-binary": {
-    "source": "iana"
-  },
-  "model/vnd.parasolid.transmit-text": {
-    "source": "iana"
-  },
   "model/vnd.parasolid.transmit.binary": {
-    "source": "apache"
+    "source": "iana"
   },
   "model/vnd.parasolid.transmit.text": {
-    "source": "apache"
+    "source": "iana"
   },
   "model/vnd.valve.source.compiled-map": {
     "source": "iana"
@@ -5856,17 +5763,14 @@
     "compressible": true,
     "extensions": ["vcard"]
   },
-  "text/vnd-a": {
-    "source": "iana"
-  },
-  "text/vnd-curl": {
+  "text/vnd.a": {
     "source": "iana"
   },
   "text/vnd.abc": {
     "source": "iana"
   },
   "text/vnd.curl": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["curl"]
   },
   "text/vnd.curl.dcurl": {
@@ -5945,9 +5849,6 @@
   "text/vnd.trolltech.linguist": {
     "source": "iana"
   },
-  "text/vnd.wap-wml": {
-    "source": "iana"
-  },
   "text/vnd.wap.si": {
     "source": "iana"
   },
@@ -5955,7 +5856,7 @@
     "source": "iana"
   },
   "text/vnd.wap.wml": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["wml"]
   },
   "text/vnd.wap.wmlscript": {

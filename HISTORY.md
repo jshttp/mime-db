@@ -2,6 +2,42 @@ unreleased
 ==========
 
   * Add `application/vnd.ims.imsccv1p2`
+  * Fix various invalid MIME type entries
+    - `application/vnd-acucobol`
+    - `application/vnd-curl`
+    - `application/vnd-dart`
+    - `application/vnd-dxr`
+    - `application/vnd-fdf`
+    - `application/vnd-mif`
+    - `application/vnd-sema`
+    - `application/vnd-wap-wmlc`
+    - `application/vnd.adobe.flash-movie`
+    - `application/vnd.dece-zip`
+    - `application/vnd.dvb_service`
+    - `application/vnd.micrografx-igx`
+    - `application/vnd.sealed-doc`
+    - `application/vnd.sealed-eml`
+    - `application/vnd.sealed-mht`
+    - `application/vnd.sealed-ppt`
+    - `application/vnd.sealed-tiff`
+    - `application/vnd.sealed-xls`
+    - `application/vnd.sealedmedia.softseal-html`
+    - `application/vnd.sealedmedia.softseal-pdf`
+    - `application/vnd.wap-slc`
+    - `application/vnd.wap-wbxml`
+    - `audio/vnd.sealedmedia.softseal-mpeg`
+    - `image/vnd-djvu`
+    - `image/vnd-svf`
+    - `image/vnd-wap-wbmp`
+    - `image/vnd.sealed-png`
+    - `image/vnd.sealedmedia.softseal-gif`
+    - `image/vnd.sealedmedia.softseal-jpg`
+    - `model/vnd-dwf`
+    - `model/vnd.parasolid.transmit-binary`
+    - `model/vnd.parasolid.transmit-text`
+    - `text/vnd-a`
+    - `text/vnd-curl`
+    - `text/vnd.wap-wml`
   * Remove example template MIME types
     - `application/example`
     - `audio/example`
