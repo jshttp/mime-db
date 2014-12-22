@@ -25,18 +25,32 @@ co(function* () {
 })()
 
 function* get(type) {
-  var res = yield* cogent('http://www.iana.org/assignments/media-types/' + type + '.csv')
+  var res = yield* cogent('http://www.iana.org/assignments/media-types/' + encodeURIComponent(type) + '.csv')
   if (res.statusCode !== 200)
     throw new Error('got status code ' + res.statusCode + ' from ' + type)
 
   var mimes = yield toArray(res.pipe(parser()))
-  mimes.shift() // remove the header
-  return mimes.map(function (mime) {
-    mime.push(type)
-    return mime
+  var headers = mimes.shift().map(normalizeHeader)
+  var reduceRows = generateRowMapper(headers)
+
+  return mimes.map(function (row) {
+    return row.reduce(reduceRows, {type: type})
   })
 }
 
 function concat(a, b) {
   return a.concat(b)
+}
+
+function generateRowMapper(headers) {
+  return function reduceRows(obj, val, index) {
+    obj[headers[index]] = val
+    return obj
+  }
+}
+
+function normalizeHeader(val) {
+  return val.substr(0, 1).toLowerCase() + val.substr(1).replace(/ (.)/, function (s, c) {
+    return c.toUpperCase()
+  })
 }

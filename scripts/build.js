@@ -7,22 +7,19 @@ require('../src/iana.json').forEach(function (mime) {
   // and i don't think we need to bother with the "Reference"
   // just look at the site yourself!
 
-  var name = mime[0]
-  var template = mime[1]
-  // for some reason, references are split into multiple values...
-  var type = mime[mime.length - 1]
+  var template = mime.template
 
   if (!template) {
     // some types don't have a template, so we guess it
-    console.log('guessing: %s/%s', type, name)
-    template = type + '/' + name
+    console.log('guessing: %s/%s', mime.type, mime.name)
+    template = mime.type + '/' + mime.name
   }
 
   if (!~template.indexOf('/')) {
     // i don't know what templates exactly are,
     // but some aren't valid mime types.
-    console.log('prefixing: %s/%s', type, template)
-    template = type + '/' + template
+    console.log('prefixing: %s/%s', mime.type, template)
+    template = mime.type + '/' + template
   }
 
   db[template.toLowerCase()] = {
