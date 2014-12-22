@@ -44,8 +44,10 @@ function* get(url) {
     if (!line) return
     var match = re.exec(line)
     if (!match) return
+    var mime = match[1]
+    if (mime.substr(-8) === '/example') return
     // remove the leading # and <type> and return all the <ext>s
-    json[match[1]] = line.replace(/^(?:# )?([\w-]+\/[\w\+\.-]+)/, '')
+    json[mime] = line.replace(/^(?:# )?([\w-]+\/[\w\+\.-]+)/, '')
       .split(/\s+/)
       .filter(Boolean)
   })

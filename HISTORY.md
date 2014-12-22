@@ -2,6 +2,15 @@ unreleased
 ==========
 
   * Add `application/vnd.ims.imsccv1p2`
+  * Remove example template MIME types
+    - `application/example`
+    - `audio/example`
+    - `image/example`
+    - `message/example`
+    - `model/example`
+    - `multipart/example`
+    - `text/example`
+    - `video/example`
 
 1.3.1 / 2014-12-16
 ==================

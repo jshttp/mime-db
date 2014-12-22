@@ -344,9 +344,6 @@
       "http://en.wikipedia.org/wiki/MIME#Multipart_subtypes"
     ]
   },
-  "model/example": {
-    "compressible": false
-  },
   "model/iges": {
     "compressible": false
   },

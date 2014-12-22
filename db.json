@@ -293,9 +293,6 @@
   "application/eshop": {
     "source": "iana"
   },
-  "application/example": {
-    "source": "iana"
-  },
   "application/exi": {
     "source": "iana",
     "extensions": ["exi"]
@@ -4765,9 +4762,6 @@
   "audio/evrcwb1": {
     "source": "iana"
   },
-  "audio/example": {
-    "source": "iana"
-  },
   "audio/fwdred": {
     "source": "iana"
   },
@@ -5212,9 +5206,6 @@
     "source": "iana",
     "extensions": ["cgm"]
   },
-  "image/example": {
-    "source": "iana"
-  },
   "image/fits": {
     "source": "iana"
   },
@@ -5494,9 +5485,6 @@
   "message/disposition-notification": {
     "source": "iana"
   },
-  "message/example": {
-    "source": "iana"
-  },
   "message/external-body": {
     "source": "iana"
   },
@@ -5552,10 +5540,6 @@
   },
   "message/vnd.wfa.wsc": {
     "source": "iana"
-  },
-  "model/example": {
-    "source": "iana",
-    "compressible": false
   },
   "model/iges": {
     "source": "iana",
@@ -5667,9 +5651,6 @@
     "source": "iana",
     "compressible": false
   },
-  "multipart/example": {
-    "source": "iana"
-  },
   "multipart/form-data": {
     "source": "iana",
     "compressible": false
@@ -5748,9 +5729,6 @@
     "source": "iana"
   },
   "text/enriched": {
-    "source": "iana"
-  },
-  "text/example": {
     "source": "iana"
   },
   "text/fwdred": {
@@ -6096,9 +6074,6 @@
     "source": "apache"
   },
   "video/dv": {
-    "source": "apache"
-  },
-  "video/example": {
     "source": "apache"
   },
   "video/h261": {
