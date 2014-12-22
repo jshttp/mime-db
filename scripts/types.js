@@ -18,7 +18,6 @@ co(function* () {
     get('model'),
     get('multipart'),
     get('text'),
-    get('audio'),
   ]
 
   fs.writeFileSync('src/iana.json', JSON.stringify(results.reduce(concat, [])))
