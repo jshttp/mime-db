@@ -16,7 +16,11 @@ module.exports = function writeDatabaseSync(fileName, obj) {
 
     keys.forEach(function (key, i, arr) {
       var end = endLine.apply(this, arguments)
-      fs.writeSync(fd, '    ' + JSON.stringify(key) + ': ' + JSON.stringify(data[key]) + end);
+      var val = data[key]
+
+      if (val !== undefined) {
+        fs.writeSync(fd, '    ' + JSON.stringify(key) + ': ' + JSON.stringify(val) + end);
+      }
     })
 
     fs.writeSync(fd, '  }' + end);
