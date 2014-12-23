@@ -16,6 +16,7 @@ var listColonRegExp = /:(?:\s|$)/m
 var mimeTypeLineRegExp = /^(?:\s*|[^:\s-]*\s+)(?:MIME type(?: name)?|MIME media type(?: name)?|Media type(?: name)?|Type name)\s?:\s+(.*)$/im
 var mimeSubtypeLineRegExp = /^[^:\s-]*\s*(?:MIME |Media )?subtype(?: name)?\s?:\s+(?:[a-z]+ Tree (?:\- ?)?|(?:[a-z]+ )+\- )?([^\(\[\r\n]*).*$/im
 var mimeSubtypesLineRegExp = /^[^:\s-]*\s*(?:MIME |Media )?subtype(?: names)?\s?:\s+(?:[a-z]+ Tree (?:\- ?)?)?(.*)$/im
+var slurpModeRegExp = /^[a-z]{4,} [a-z]{4,}(?:s|\(s\))?\s*:\s*/i
 var symbolRegExp = /[\._-]/g
 var trimQuotesRegExp = /^"|"$/gm
 
@@ -150,19 +151,43 @@ function* get(type) {
 function* getTemplateBody(res) {
   var body = yield getRawBody(res, {encoding: 'ascii'})
   var lines = body.split(/\r?\n/)
+  var slurp = false
 
   return lines.reduce(function (lines, line) {
-    var prev = (lines[lines.length - 1] || '').trim()
+    line = line.replace(/=20$/, ' ')
+
+    var prev = (lines[lines.length - 1] || '')
     var match = leadingSpacesRegExp.exec(line)
 
-    if (match && match[0].length >= 3 && match[0].trim() !== 0 && prev.length !== 0 && !listColonRegExp.test(line)) {
-      lines[lines.length - 1] += ' ' + line.trimLeft()
+    if (slurp && line.trim().length === 0 && !/:\s*$/.test(prev)) {
+      slurp = false
+      return lines
+    }
+
+    if (slurpModeRegExp.test(line)) {
+      slurp = false
+      lines.push(line)
+    } else if (slurp) {
+      lines[lines.length - 1] = appendToLine(prev, line)
+    } else if (match && match[0].length >= 3 && match[0].trim() !== 0 && prev.trim().length !== 0 && !listColonRegExp.test(line)) {
+      lines[lines.length - 1] = appendToLine(prev, line)
     } else {
       lines.push(line)
     }
 
+    // turn on slurp mode
+    slurp = slurp || slurpModeRegExp.test(line)
+
     return lines
   }, []).slice(1).join('\n')
+}
+
+function appendToLine(line, str) {
+  var trimmed = line.trimRight()
+  var append = trimmed.substr(-1) === '-'
+    ? str.trimLeft()
+    : ' ' + str.trimLeft()
+  return trimmed + append
 }
 
 function concat(a, b) {
