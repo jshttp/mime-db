@@ -1,5 +1,6 @@
 {
   "application/1d-interleaved-parityfec": {
+    "encoding": "binary",
     "name": "1d-interleaved-parityfec",
     "reference": "[RFC6015]",
     "template": "application/1d-interleaved-parityfec",
@@ -162,6 +163,7 @@
     "type": "application"
   },
   "application/bacnet-xdd+zip": {
+    "encoding": "binary",
     "name": "bacnet-xdd+zip",
     "reference": "[ASHRAE][Dave_Robin]",
     "template": "application/bacnet-xdd+zip",
@@ -174,6 +176,7 @@
     "type": "application"
   },
   "application/beep+xml": {
+    "encoding": "binary",
     "name": "beep+xml",
     "reference": "[RFC3080]",
     "template": "application/beep+xml",
@@ -204,6 +207,7 @@
     "type": "application"
   },
   "application/cbor": {
+    "encoding": "binary",
     "name": "cbor",
     "reference": "[RFC7049]",
     "template": "application/cbor",
@@ -258,6 +262,7 @@
     "type": "application"
   },
   "application/cea": {
+    "encoding": "binary",
     "name": "CEA",
     "reference": "[ASAM][Thomas_Thomsen]",
     "template": "application/CEA",
@@ -276,12 +281,14 @@
     "type": "application"
   },
   "application/cfw": {
+    "encoding": "binary",
     "name": "cfw",
     "reference": "[RFC6230]",
     "template": "application/cfw",
     "type": "application"
   },
   "application/cms": {
+    "encoding": "binary",
     "name": "cms",
     "reference": "[RFC7193]",
     "template": "application/cms",
@@ -300,6 +307,7 @@
     "type": "application"
   },
   "application/commonground": {
+    "encoding": "binary",
     "name": "commonground",
     "reference": "[David_Glazer]",
     "template": "application/commonground",
@@ -318,6 +326,7 @@
     "type": "application"
   },
   "application/csrattrs": {
+    "encoding": "binary",
     "name": "csrattrs",
     "reference": "[RFC7030]",
     "template": "application/csrattrs",
@@ -360,6 +369,7 @@
     "type": "application"
   },
   "application/dca-rft": {
+    "encoding": "binary",
     "name": "dca-rft",
     "reference": "[Larry_Campbell]",
     "template": "application/dca-rft",
@@ -372,6 +382,7 @@
     "type": "application"
   },
   "application/dec-dx": {
+    "encoding": "binary",
     "name": "dec-dx",
     "reference": "[Larry_Campbell]",
     "template": "application/dec-dx",
@@ -402,6 +413,7 @@
     "type": "application"
   },
   "application/dns": {
+    "encoding": "binary",
     "name": "dns",
     "reference": "[RFC4027]",
     "template": "application/dns",
@@ -414,6 +426,7 @@
     "type": "application"
   },
   "application/dssc+der": {
+    "encoding": "binary",
     "name": "dssc+der",
     "reference": "[RFC5698]",
     "template": "application/dssc+der",
@@ -426,6 +439,7 @@
     "type": "application"
   },
   "application/dvcs": {
+    "encoding": "binary",
     "name": "dvcs",
     "reference": "[RFC3029]",
     "template": "application/dvcs",
@@ -480,6 +494,7 @@
     "type": "application"
   },
   "application/epub+zip": {
+    "encoding": "binary",
     "name": "epub+zip",
     "reference": "[International_Digital_Publishing_Forum][William_McCoy]",
     "template": "application/epub+zip",
@@ -516,24 +531,28 @@
     "type": "application"
   },
   "application/fits": {
+    "encoding": "binary",
     "name": "fits",
     "reference": "[RFC4047]",
     "template": "application/fits",
     "type": "application"
   },
   "application/font-sfnt": {
+    "encoding": "binary",
     "name": "font-sfnt",
     "reference": "[Levantovsky][ISO-IEC JTC1]",
     "template": "application/font-sfnt",
     "type": "application"
   },
   "application/font-tdpfr": {
+    "encoding": "binary",
     "name": "font-tdpfr",
     "reference": "[RFC3073]",
     "template": "application/font-tdpfr",
     "type": "application"
   },
   "application/font-woff": {
+    "encoding": "binary",
     "name": "font-woff",
     "reference": "[W3C]",
     "template": "application/font-woff",
@@ -546,12 +565,14 @@
     "type": "application"
   },
   "application/gzip": {
+    "encoding": "binary",
     "name": "gzip",
     "reference": "[RFC6713]",
     "template": "application/gzip",
     "type": "application"
   },
   "application/h224": {
+    "encoding": "binary",
     "name": "H224",
     "reference": "[RFC4573]",
     "template": "application/H224",
@@ -570,6 +591,7 @@
     "type": "application"
   },
   "application/hyperstudio": {
+    "encoding": "binary",
     "name": "hyperstudio",
     "reference": "[Michael_Domino]",
     "template": "application/hyperstudio",
@@ -648,18 +670,21 @@
     "type": "application"
   },
   "application/ipfix": {
+    "encoding": "binary",
     "name": "ipfix",
     "reference": "[RFC5655]",
     "template": "application/ipfix",
     "type": "application"
   },
   "application/ipp": {
+    "encoding": "binary",
     "name": "ipp",
     "reference": "[RFC2910]",
     "template": "application/ipp",
     "type": "application"
   },
   "application/isup": {
+    "encoding": "binary",
     "name": "isup",
     "reference": "[RFC3204]",
     "template": "application/ISUP",
@@ -684,12 +709,14 @@
     "type": "application"
   },
   "application/json": {
+    "encoding": "binary",
     "name": "json",
     "reference": "[RFC7158]",
     "template": "application/json",
     "type": "application"
   },
   "application/json-patch+json": {
+    "encoding": "binary",
     "name": "json-patch+json",
     "reference": "[RFC6902]",
     "template": "application/json-patch+json",
@@ -750,6 +777,7 @@
     "type": "application"
   },
   "application/macwriteii": {
+    "encoding": "binary",
     "name": "macwriteii",
     "reference": "[Paul_Lindner]",
     "template": "application/macwriteii",
@@ -906,6 +934,7 @@
     "type": "application"
   },
   "application/mf4": {
+    "encoding": "binary",
     "name": "MF4",
     "reference": "[ASAM][Thomas_Thomsen]",
     "template": "application/MF4",
@@ -948,12 +977,14 @@
     "type": "application"
   },
   "application/mp21": {
+    "encoding": "binary",
     "name": "mp21",
     "reference": "[RFC6381][David_Singer]",
     "template": "application/mp21",
     "type": "application"
   },
   "application/mp4": {
+    "encoding": "binary",
     "name": "mp4",
     "reference": "[RFC4337][RFC6381]",
     "template": "application/mp4",
@@ -966,6 +997,7 @@
     "type": "application"
   },
   "application/mpeg4-iod": {
+    "encoding": "binary",
     "name": "mpeg4-iod",
     "reference": "[RFC4337]",
     "template": "application/mpeg4-iod",
@@ -1002,12 +1034,14 @@
     "type": "application"
   },
   "application/msword": {
+    "encoding": "binary",
     "name": "msword",
     "reference": "[Paul_Lindner]",
     "template": "application/msword",
     "type": "application"
   },
   "application/mxf": {
+    "encoding": "binary",
     "name": "mxf",
     "reference": "[RFC4539]",
     "template": "application/mxf",
@@ -1050,12 +1084,14 @@
     "type": "application"
   },
   "application/ocsp-request": {
+    "encoding": "binary",
     "name": "ocsp-request",
     "reference": "[RFC6960]",
     "template": "application/ocsp-request",
     "type": "application"
   },
   "application/ocsp-response": {
+    "encoding": "binary",
     "name": "ocsp-response",
     "reference": "[RFC6960]",
     "template": "application/ocsp-response",
@@ -1092,6 +1128,7 @@
     "type": "application"
   },
   "application/oxps": {
+    "encoding": "binary",
     "name": "oxps",
     "reference": "[Ecma_International_Helpdesk]",
     "template": "application/oxps",
@@ -1116,12 +1153,14 @@
     "type": "application"
   },
   "application/pdf": {
+    "encoding": "binary",
     "name": "pdf",
     "reference": "[RFC3778]",
     "template": "application/pdf",
     "type": "application"
   },
   "application/pdx": {
+    "encoding": "binary",
     "name": "PDX",
     "reference": "[ASAM][Thomas_Thomsen]",
     "template": "application/PDX",
@@ -1158,6 +1197,7 @@
     "type": "application"
   },
   "application/pkcs10": {
+    "encoding": "binary",
     "name": "pkcs10",
     "reference": "[RFC5967]",
     "template": "application/pkcs10",
@@ -1176,12 +1216,14 @@
     "type": "application"
   },
   "application/pkcs8": {
+    "encoding": "binary",
     "name": "pkcs8",
     "reference": "[RFC5958]",
     "template": "application/pkcs8",
     "type": "application"
   },
   "application/pkix-attr-cert": {
+    "encoding": "binary",
     "name": "pkix-attr-cert",
     "reference": "[RFC5877]",
     "template": "application/pkix-attr-cert",
@@ -1200,6 +1242,7 @@
     "type": "application"
   },
   "application/pkix-pkipath": {
+    "encoding": "binary",
     "name": "pkix-pkipath",
     "reference": "[RFC6066]",
     "template": "application/pkix-pkipath",
@@ -1248,18 +1291,21 @@
     "type": "application"
   },
   "application/prs.hpub+zip": {
+    "encoding": "binary",
     "name": "prs.hpub+zip",
     "reference": "[Giulio_Zambon]",
     "template": "application/prs.hpub+zip",
     "type": "application"
   },
   "application/prs.nprend": {
+    "encoding": "binary",
     "name": "prs.nprend",
     "reference": "[Jay_Doggett]",
     "template": "application/prs.nprend",
     "type": "application"
   },
   "application/prs.plucker": {
+    "encoding": "binary",
     "name": "prs.plucker",
     "reference": "[Bill_Janssen]",
     "template": "application/prs.plucker",
@@ -1272,6 +1318,7 @@
     "type": "application"
   },
   "application/prs.xsf+xml": {
+    "encoding": "binary",
     "name": "prs.xsf+xml",
     "reference": "[Maik_Stührenberg]",
     "template": "application/prs.xsf+xml",
@@ -1284,12 +1331,14 @@
     "type": "application"
   },
   "application/qsig": {
+    "encoding": "binary",
     "name": "qsig",
     "reference": "[RFC3204]",
     "template": "application/QSIG",
     "type": "application"
   },
   "application/raptorfec": {
+    "encoding": "binary",
     "name": "raptorfec",
     "reference": "[RFC6682]",
     "template": "application/raptorfec",
@@ -1338,6 +1387,7 @@
     "type": "application"
   },
   "application/riscos": {
+    "encoding": "binary",
     "name": "riscos",
     "reference": "[Nick_Smith]",
     "template": "application/riscos",
@@ -1356,30 +1406,35 @@
     "type": "application"
   },
   "application/rpki-ghostbusters": {
+    "encoding": "binary",
     "name": "rpki-ghostbusters",
     "reference": "[RFC6493]",
     "template": "application/rpki-ghostbusters",
     "type": "application"
   },
   "application/rpki-manifest": {
+    "encoding": "binary",
     "name": "rpki-manifest",
     "reference": "[RFC6481]",
     "template": "application/rpki-manifest",
     "type": "application"
   },
   "application/rpki-roa": {
+    "encoding": "binary",
     "name": "rpki-roa",
     "reference": "[RFC6481]",
     "template": "application/rpki-roa",
     "type": "application"
   },
   "application/rpki-updown": {
+    "encoding": "binary",
     "name": "rpki-updown",
     "reference": "[RFC6492]",
     "template": "application/rpki-updown",
     "type": "application"
   },
   "application/rtf": {
+    "encoding": "binary",
     "name": "rtf",
     "reference": "[Paul_Lindner]",
     "template": "application/rtf",
@@ -1416,30 +1471,35 @@
     "type": "application"
   },
   "application/scaip+xml": {
+    "encoding": "binary",
     "name": "scaip+xml",
     "reference": "[SIS][Oskar_Jonsson]",
     "template": "application/scaip+xml",
     "type": "application"
   },
   "application/scvp-cv-request": {
+    "encoding": "binary",
     "name": "scvp-cv-request",
     "reference": "[RFC5055]",
     "template": "application/scvp-cv-request",
     "type": "application"
   },
   "application/scvp-cv-response": {
+    "encoding": "binary",
     "name": "scvp-cv-response",
     "reference": "[RFC5055]",
     "template": "application/scvp-cv-response",
     "type": "application"
   },
   "application/scvp-vp-request": {
+    "encoding": "binary",
     "name": "scvp-vp-request",
     "reference": "[RFC5055]",
     "template": "application/scvp-vp-request",
     "type": "application"
   },
   "application/scvp-vp-response": {
+    "encoding": "binary",
     "name": "scvp-vp-response",
     "reference": "[RFC5055]",
     "template": "application/scvp-vp-response",
@@ -1452,42 +1512,49 @@
     "type": "application"
   },
   "application/sep+xml": {
+    "encoding": "binary",
     "name": "sep+xml",
     "reference": "[Robby_Simpson][ZigBee]",
     "template": "application/sep+xml",
     "type": "application"
   },
   "application/sep-exi": {
+    "encoding": "binary",
     "name": "sep-exi",
     "reference": "[Robby_Simpson][ZigBee]",
     "template": "application/sep-exi",
     "type": "application"
   },
   "application/session-info": {
+    "encoding": "binary",
     "name": "session-info",
     "reference": "[ThreeGPP][Frederic_Firmin]",
     "template": "application/session-info",
     "type": "application"
   },
   "application/set-payment": {
+    "encoding": "binary",
     "name": "set-payment",
     "reference": "[Brian_Korver]",
     "template": "application/set-payment",
     "type": "application"
   },
   "application/set-payment-initiation": {
+    "encoding": "binary",
     "name": "set-payment-initiation",
     "reference": "[Brian_Korver]",
     "template": "application/set-payment-initiation",
     "type": "application"
   },
   "application/set-registration": {
+    "encoding": "binary",
     "name": "set-registration",
     "reference": "[Brian_Korver]",
     "template": "application/set-registration",
     "type": "application"
   },
   "application/set-registration-initiation": {
+    "encoding": "binary",
     "name": "set-registration-initiation",
     "reference": "[Brian_Korver]",
     "template": "application/set-registration-initiation",
@@ -1506,6 +1573,7 @@
     "type": "application"
   },
   "application/shf+xml": {
+    "encoding": "binary",
     "name": "shf+xml",
     "reference": "[RFC4194]",
     "template": "application/shf+xml",
@@ -1530,12 +1598,14 @@
     "type": "application"
   },
   "application/simplesymbolcontainer": {
+    "encoding": "binary",
     "name": "simpleSymbolContainer",
     "reference": "[ThreeGPP]",
     "template": "application/simpleSymbolContainer",
     "type": "application"
   },
   "application/slate": {
+    "encoding": "binary",
     "name": "slate",
     "reference": "[Terry_Crowley]",
     "template": "application/slate",
@@ -1554,12 +1624,14 @@
     "type": "application"
   },
   "application/smpte336m": {
+    "encoding": "binary",
     "name": "smpte336m",
     "reference": "[RFC6597]",
     "template": "application/smpte336m",
     "type": "application"
   },
   "application/soap+fastinfoset": {
+    "encoding": "binary",
     "name": "soap+fastinfoset",
     "reference": "[ITU-T_ASN.1_Rapporteur]",
     "template": "application/soap+fastinfoset",
@@ -1620,66 +1692,77 @@
     "type": "application"
   },
   "application/tamp-apex-update": {
+    "encoding": "binary",
     "name": "tamp-apex-update",
     "reference": "[RFC5934]",
     "template": "application/tamp-apex-update",
     "type": "application"
   },
   "application/tamp-apex-update-confirm": {
+    "encoding": "binary",
     "name": "tamp-apex-update-confirm",
     "reference": "[RFC5934]",
     "template": "application/tamp-apex-update-confirm",
     "type": "application"
   },
   "application/tamp-community-update": {
+    "encoding": "binary",
     "name": "tamp-community-update",
     "reference": "[RFC5934]",
     "template": "application/tamp-community-update",
     "type": "application"
   },
   "application/tamp-community-update-confirm": {
+    "encoding": "binary",
     "name": "tamp-community-update-confirm",
     "reference": "[RFC5934]",
     "template": "application/tamp-community-update-confirm",
     "type": "application"
   },
   "application/tamp-error": {
+    "encoding": "binary",
     "name": "tamp-error",
     "reference": "[RFC5934]",
     "template": "application/tamp-error",
     "type": "application"
   },
   "application/tamp-sequence-adjust": {
+    "encoding": "binary",
     "name": "tamp-sequence-adjust",
     "reference": "[RFC5934]",
     "template": "application/tamp-sequence-adjust",
     "type": "application"
   },
   "application/tamp-sequence-adjust-confirm": {
+    "encoding": "binary",
     "name": "tamp-sequence-adjust-confirm",
     "reference": "[RFC5934]",
     "template": "application/tamp-sequence-adjust-confirm",
     "type": "application"
   },
   "application/tamp-status-query": {
+    "encoding": "binary",
     "name": "tamp-status-query",
     "reference": "[RFC5934]",
     "template": "application/tamp-status-query",
     "type": "application"
   },
   "application/tamp-status-response": {
+    "encoding": "binary",
     "name": "tamp-status-response",
     "reference": "[RFC5934]",
     "template": "application/tamp-status-response",
     "type": "application"
   },
   "application/tamp-update": {
+    "encoding": "binary",
     "name": "tamp-update",
     "reference": "[RFC5934]",
     "template": "application/tamp-update",
     "type": "application"
   },
   "application/tamp-update-confirm": {
+    "encoding": "binary",
     "name": "tamp-update-confirm",
     "reference": "[RFC5934]",
     "template": "application/tamp-update-confirm",
@@ -1710,12 +1793,14 @@
     "type": "application"
   },
   "application/timestamped-data": {
+    "encoding": "binary",
     "name": "timestamped-data",
     "reference": "[RFC5955]",
     "template": "application/timestamped-data",
     "type": "application"
   },
   "application/ttml+xml": {
+    "encoding": "binary",
     "name": "ttml+xml",
     "reference": "[W3C][W3C_Timed_Text_Working_Group]",
     "template": "application/ttml+xml",
@@ -1728,30 +1813,35 @@
     "type": "application"
   },
   "application/ulpfec": {
+    "encoding": "binary",
     "name": "ulpfec",
     "reference": "[RFC5109]",
     "template": "application/ulpfec",
     "type": "application"
   },
   "application/urc-grpsheet+xml": {
+    "encoding": "binary",
     "name": "urc-grpsheet+xml",
     "reference": "[Gottfried_Zimmermann][ISO-IEC JTC1]",
     "template": "application/urc-grpsheet+xml",
     "type": "application"
   },
   "application/urc-ressheet+xml": {
+    "encoding": "binary",
     "name": "urc-ressheet+xml",
     "reference": "[Gottfried_Zimmermann][ISO-IEC JTC1]",
     "template": "application/urc-ressheet+xml",
     "type": "application"
   },
   "application/urc-targetdesc+xml": {
+    "encoding": "binary",
     "name": "urc-targetdesc+xml",
     "reference": "[Gottfried_Zimmermann][ISO-IEC JTC1]",
     "template": "application/urc-targetdesc+xml",
     "type": "application"
   },
   "application/urc-uisocketdesc+xml": {
+    "encoding": "binary",
     "name": "urc-uisocketdesc+xml",
     "reference": "[Gottfried_Zimmermann]",
     "template": "application/urc-uisocketdesc+xml",
@@ -1770,6 +1860,7 @@
     "type": "application"
   },
   "application/vemmi": {
+    "encoding": "binary",
     "name": "vemmi",
     "reference": "[RFC2122]",
     "template": "application/vemmi",
@@ -1782,24 +1873,28 @@
     "type": "application"
   },
   "application/vnd.3gpp.pic-bw-large": {
+    "encoding": "binary",
     "name": "vnd.3gpp.pic-bw-large",
     "reference": "[John_M_Meredith]",
     "template": "application/vnd.3gpp.pic-bw-large",
     "type": "application"
   },
   "application/vnd.3gpp.pic-bw-small": {
+    "encoding": "binary",
     "name": "vnd.3gpp.pic-bw-small",
     "reference": "[John_M_Meredith]",
     "template": "application/vnd.3gpp.pic-bw-small",
     "type": "application"
   },
   "application/vnd.3gpp.pic-bw-var": {
+    "encoding": "binary",
     "name": "vnd.3gpp.pic-bw-var",
     "reference": "[John_M_Meredith]",
     "template": "application/vnd.3gpp.pic-bw-var",
     "type": "application"
   },
   "application/vnd.3gpp.sms": {
+    "encoding": "binary",
     "name": "vnd.3gpp.sms",
     "reference": "[John_M_Meredith]",
     "template": "application/vnd.3gpp.sms",
@@ -1812,12 +1907,14 @@
     "type": "application"
   },
   "application/vnd.3gpp2.sms": {
+    "encoding": "binary",
     "name": "vnd.3gpp2.sms",
     "reference": "[AC_Mahendran]",
     "template": "application/vnd.3gpp2.sms",
     "type": "application"
   },
   "application/vnd.3gpp2.tcap": {
+    "encoding": "binary",
     "name": "vnd.3gpp2.tcap",
     "reference": "[AC_Mahendran]",
     "template": "application/vnd.3gpp2.tcap",
@@ -1842,6 +1939,7 @@
     "type": "application"
   },
   "application/vnd.acucobol": {
+    "encoding": "binary",
     "name": "vnd.acucobol",
     "reference": "[Dovid_Lubin]",
     "template": "application/vnd-acucobol",
@@ -1854,30 +1952,35 @@
     "type": "application"
   },
   "application/vnd.adobe.flash.movie": {
+    "encoding": "binary",
     "name": "vnd.adobe.flash.movie",
     "reference": "[Henrik_Andersson]",
     "template": "application/vnd.adobe.flash-movie",
     "type": "application"
   },
   "application/vnd.adobe.formscentral.fcdt": {
+    "encoding": "binary",
     "name": "vnd.adobe.formscentral.fcdt",
     "reference": "[Chris_Solc]",
     "template": "application/vnd.adobe.formscentral.fcdt",
     "type": "application"
   },
   "application/vnd.adobe.fxp": {
+    "encoding": "binary",
     "name": "vnd.adobe.fxp",
     "reference": "[Robert_Brambley][Steven_Heintz]",
     "template": "application/vnd.adobe.fxp",
     "type": "application"
   },
   "application/vnd.adobe.partial-upload": {
+    "encoding": "binary",
     "name": "vnd.adobe.partial-upload",
     "reference": "[Tapani_Otala]",
     "template": "application/vnd.adobe.partial-upload",
     "type": "application"
   },
   "application/vnd.adobe.xdp+xml": {
+    "encoding": "binary",
     "name": "vnd.adobe.xdp+xml",
     "reference": "[John_Brinkman]",
     "template": "application/vnd.adobe.xdp+xml",
@@ -1890,6 +1993,7 @@
     "type": "application"
   },
   "application/vnd.aether.imp": {
+    "encoding": "binary",
     "name": "vnd.aether.imp",
     "reference": "[Jay_Moskowitz]",
     "template": "application/vnd.aether.imp",
@@ -1902,30 +2006,35 @@
     "type": "application"
   },
   "application/vnd.ahead.space": {
+    "encoding": "binary",
     "name": "vnd.ahead.space",
     "reference": "[Tor_Kristensen]",
     "template": "application/vnd.ahead.space",
     "type": "application"
   },
   "application/vnd.airzip.filesecure.azf": {
+    "encoding": "binary",
     "name": "vnd.airzip.filesecure.azf",
     "reference": "[Daniel_Mould][Gary_Clueit]",
     "template": "application/vnd.airzip.filesecure.azf",
     "type": "application"
   },
   "application/vnd.airzip.filesecure.azs": {
+    "encoding": "binary",
     "name": "vnd.airzip.filesecure.azs",
     "reference": "[Daniel_Mould][Gary_Clueit]",
     "template": "application/vnd.airzip.filesecure.azs",
     "type": "application"
   },
   "application/vnd.americandynamics.acc": {
+    "encoding": "binary",
     "name": "vnd.americandynamics.acc",
     "reference": "[Gary_Sands]",
     "template": "application/vnd.americandynamics.acc",
     "type": "application"
   },
   "application/vnd.amiga.ami": {
+    "encoding": "binary",
     "name": "vnd.amiga.ami",
     "reference": "[Kevin_Blumberg]",
     "template": "application/vnd.amiga.ami",
@@ -1938,24 +2047,28 @@
     "type": "application"
   },
   "application/vnd.anser-web-certificate-issue-initiation": {
+    "encoding": "binary",
     "name": "vnd.anser-web-certificate-issue-initiation",
     "reference": "[Hiroyoshi_Mori]",
     "template": "application/vnd.anser-web-certificate-issue-initiation",
     "type": "application"
   },
   "application/vnd.antix.game-component": {
+    "encoding": "binary",
     "name": "vnd.antix.game-component",
     "reference": "[Daniel_Shelton]",
     "template": "application/vnd.antix.game-component",
     "type": "application"
   },
   "application/vnd.apache.thrift.binary": {
+    "encoding": "binary",
     "name": "vnd.apache.thrift.binary",
     "reference": "[Roger_Meier]",
     "template": "application/vnd.apache.thrift.binary",
     "type": "application"
   },
   "application/vnd.apache.thrift.compact": {
+    "encoding": "binary",
     "name": "vnd.apache.thrift.compact",
     "reference": "[Roger_Meier]",
     "template": "application/vnd.apache.thrift.compact",
@@ -1986,12 +2099,14 @@
     "type": "application"
   },
   "application/vnd.arastra.swi": {
+    "encoding": "binary",
     "name": "vnd.arastra.swi - OBSOLETED in favor of application/vnd.aristanetworks.swi",
     "reference": "[Bill_Fenner]",
     "template": "application/vnd.arastra.swi",
     "type": "application"
   },
   "application/vnd.aristanetworks.swi": {
+    "encoding": "binary",
     "name": "vnd.aristanetworks.swi",
     "reference": "[Bill_Fenner]",
     "template": "application/vnd.aristanetworks.swi",
@@ -2004,24 +2119,28 @@
     "type": "application"
   },
   "application/vnd.astraea-software.iota": {
+    "encoding": "binary",
     "name": "vnd.astraea-software.iota",
     "reference": "[Christopher_Snazell]",
     "template": "application/vnd.astraea-software.iota",
     "type": "application"
   },
   "application/vnd.audiograph": {
+    "encoding": "binary",
     "name": "vnd.audiograph",
     "reference": "[Horia_Cristian_Slusanschi]",
     "template": "application/vnd.audiograph",
     "type": "application"
   },
   "application/vnd.autopackage": {
+    "encoding": "binary",
     "name": "vnd.autopackage",
     "reference": "[Mike_Hearn]",
     "template": "application/vnd.autopackage",
     "type": "application"
   },
   "application/vnd.avistar+xml": {
+    "encoding": "binary",
     "name": "vnd.avistar+xml",
     "reference": "[Vladimir_Vysotsky]",
     "template": "application/vnd.avistar+xml",
@@ -2040,18 +2159,21 @@
     "type": "application"
   },
   "application/vnd.blueice.multipass": {
+    "encoding": "binary",
     "name": "vnd.blueice.multipass",
     "reference": "[Thomas_Holmstrom]",
     "template": "application/vnd.blueice.multipass",
     "type": "application"
   },
   "application/vnd.bluetooth.ep.oob": {
+    "encoding": "binary",
     "name": "vnd.bluetooth.ep.oob",
     "reference": "[Mike_Foley]",
     "template": "application/vnd.bluetooth.ep.oob",
     "type": "application"
   },
   "application/vnd.bluetooth.le.oob": {
+    "encoding": "binary",
     "name": "vnd.bluetooth.le.oob",
     "reference": "[Mark_Powell]",
     "template": "application/vnd.bluetooth.le.oob",
@@ -2070,6 +2192,7 @@
     "type": "application"
   },
   "application/vnd.cab-jscript": {
+    "encoding": "binary",
     "name": "vnd.cab-jscript",
     "reference": "[Joerg_Falkenberg]",
     "template": "application/vnd.cab-jscript",
@@ -2094,30 +2217,35 @@
     "type": "application"
   },
   "application/vnd.century-systems.tcp_stream": {
+    "encoding": "binary",
     "name": "vnd.century-systems.tcp_stream",
     "reference": "[Shuji_Fujii]",
     "template": "application/vnd.century-systems.tcp_stream",
     "type": "application"
   },
   "application/vnd.chemdraw+xml": {
+    "encoding": "binary",
     "name": "vnd.chemdraw+xml",
     "reference": "[Glenn_Howes]",
     "template": "application/vnd.chemdraw+xml",
     "type": "application"
   },
   "application/vnd.chipnuts.karaoke-mmd": {
+    "encoding": "binary",
     "name": "vnd.chipnuts.karaoke-mmd",
     "reference": "[Chunyun_Xiong]",
     "template": "application/vnd.chipnuts.karaoke-mmd",
     "type": "application"
   },
   "application/vnd.cinderella": {
+    "encoding": "binary",
     "name": "vnd.cinderella",
     "reference": "[Ulrich_Kortenkamp]",
     "template": "application/vnd.cinderella",
     "type": "application"
   },
   "application/vnd.cirpack.isdn-ext": {
+    "encoding": "binary",
     "name": "vnd.cirpack.isdn-ext",
     "reference": "[Pascal_Mayeux]",
     "template": "application/vnd.cirpack.isdn-ext",
@@ -2130,12 +2258,14 @@
     "type": "application"
   },
   "application/vnd.cloanto.rp9": {
+    "encoding": "binary",
     "name": "vnd.cloanto.rp9",
     "reference": "[Mike_Labatt]",
     "template": "application/vnd.cloanto.rp9",
     "type": "application"
   },
   "application/vnd.clonk.c4group": {
+    "encoding": "binary",
     "name": "vnd.clonk.c4group",
     "reference": "[Guenther_Brammer]",
     "template": "application/vnd.clonk.c4group",
@@ -2148,30 +2278,35 @@
     "type": "application"
   },
   "application/vnd.cluetrust.cartomobile-config-pkg": {
+    "encoding": "binary",
     "name": "vnd.cluetrust.cartomobile-config-pkg",
     "reference": "[Gaige_Paulsen]",
     "template": "application/vnd.cluetrust.cartomobile-config-pkg",
     "type": "application"
   },
   "application/vnd.coffeescript": {
+    "encoding": "binary",
     "name": "vnd.coffeescript",
     "reference": "[Devyn_Collier_Johnson]",
     "template": "application/vnd.coffeescript",
     "type": "application"
   },
   "application/vnd.collection+json": {
+    "encoding": "binary",
     "name": "vnd.collection+json",
     "reference": "[Mike_Amundsen]",
     "template": "application/vnd.collection+json",
     "type": "application"
   },
   "application/vnd.collection.doc+json": {
+    "encoding": "binary",
     "name": "vnd.collection.doc+json",
     "reference": "[Irakli_Nadareishvili]",
     "template": "application/vnd.collection.doc+json",
     "type": "application"
   },
   "application/vnd.collection.next+json": {
+    "encoding": "binary",
     "name": "vnd.collection.next+json",
     "reference": "[Ioseb_Dzmanashvili]",
     "template": "application/vnd.collection.next+json",
@@ -2184,6 +2319,7 @@
     "type": "application"
   },
   "application/vnd.commonspace": {
+    "encoding": "binary",
     "name": "vnd.commonspace",
     "reference": "[Ravinder_Chandhok]",
     "template": "application/vnd.commonspace",
@@ -2202,42 +2338,49 @@
     "type": "application"
   },
   "application/vnd.crick.clicker": {
+    "encoding": "binary",
     "name": "vnd.crick.clicker",
     "reference": "[Andrew_Burt]",
     "template": "application/vnd.crick.clicker",
     "type": "application"
   },
   "application/vnd.crick.clicker.keyboard": {
+    "encoding": "binary",
     "name": "vnd.crick.clicker.keyboard",
     "reference": "[Andrew_Burt]",
     "template": "application/vnd.crick.clicker.keyboard",
     "type": "application"
   },
   "application/vnd.crick.clicker.palette": {
+    "encoding": "binary",
     "name": "vnd.crick.clicker.palette",
     "reference": "[Andrew_Burt]",
     "template": "application/vnd.crick.clicker.palette",
     "type": "application"
   },
   "application/vnd.crick.clicker.template": {
+    "encoding": "binary",
     "name": "vnd.crick.clicker.template",
     "reference": "[Andrew_Burt]",
     "template": "application/vnd.crick.clicker.template",
     "type": "application"
   },
   "application/vnd.crick.clicker.wordbank": {
+    "encoding": "binary",
     "name": "vnd.crick.clicker.wordbank",
     "reference": "[Andrew_Burt]",
     "template": "application/vnd.crick.clicker.wordbank",
     "type": "application"
   },
   "application/vnd.criticaltools.wbs+xml": {
+    "encoding": "binary",
     "name": "vnd.criticaltools.wbs+xml",
     "reference": "[Jim_Spiller]",
     "template": "application/vnd.criticaltools.wbs+xml",
     "type": "application"
   },
   "application/vnd.ctc-posml": {
+    "encoding": "binary",
     "name": "vnd.ctc-posml",
     "reference": "[Bayard_Kohlhepp]",
     "template": "application/vnd.ctc-posml",
@@ -2250,6 +2393,7 @@
     "type": "application"
   },
   "application/vnd.cups-pdf": {
+    "encoding": "binary",
     "name": "vnd.cups-pdf",
     "reference": "[Michael_Sweet]",
     "template": "application/vnd.cups-pdf",
@@ -2268,6 +2412,7 @@
     "type": "application"
   },
   "application/vnd.cups-raster": {
+    "encoding": "binary",
     "name": "vnd.cups-raster",
     "reference": "[Michael_Sweet]",
     "template": "application/vnd.cups-raster",
@@ -2292,6 +2437,7 @@
     "type": "application"
   },
   "application/vnd.cybank": {
+    "encoding": "binary",
     "name": "vnd.cybank",
     "reference": "[Nor_Helmee]",
     "template": "application/vnd.cybank",
@@ -2304,54 +2450,63 @@
     "type": "application"
   },
   "application/vnd.data-vision.rdz": {
+    "encoding": "binary",
     "name": "vnd.data-vision.rdz",
     "reference": "[James_Fields]",
     "template": "application/vnd.data-vision.rdz",
     "type": "application"
   },
   "application/vnd.debian.binary-package": {
+    "encoding": "binary",
     "name": "vnd.debian.binary-package",
     "reference": "[Charles_Plessy]",
     "template": "application/vnd.debian.binary-package",
     "type": "application"
   },
   "application/vnd.dece.data": {
+    "encoding": "binary",
     "name": "vnd.dece.data",
     "reference": "[Michael_A_Dolan]",
     "template": "application/vnd.dece.data",
     "type": "application"
   },
   "application/vnd.dece.ttml+xml": {
+    "encoding": "binary",
     "name": "vnd.dece.ttml+xml",
     "reference": "[Michael_A_Dolan]",
     "template": "application/vnd.dece.ttml+xml",
     "type": "application"
   },
   "application/vnd.dece.unspecified": {
+    "encoding": "binary",
     "name": "vnd.dece.unspecified",
     "reference": "[Michael_A_Dolan]",
     "template": "application/vnd.dece.unspecified",
     "type": "application"
   },
   "application/vnd.dece.zip": {
+    "encoding": "binary",
     "name": "vnd.dece.zip",
     "reference": "[Michael_A_Dolan]",
     "template": "application/vnd.dece-zip",
     "type": "application"
   },
   "application/vnd.denovo.fcselayout-link": {
+    "encoding": "binary",
     "name": "vnd.denovo.fcselayout-link",
     "reference": "[Michael_Dixon]",
     "template": "application/vnd.denovo.fcselayout-link",
     "type": "application"
   },
   "application/vnd.desmume-movie": {
+    "encoding": "binary",
     "name": "vnd.desmume.movie",
     "reference": "[Henrik_Andersson]",
     "template": "application/vnd.desmume-movie",
     "type": "application"
   },
   "application/vnd.dir-bi.plate-dl-nosuffix": {
+    "encoding": "binary",
     "name": "vnd.dir-bi.plate-dl-nosuffix",
     "reference": "[Yamanaka]",
     "template": "application/vnd.dir-bi.plate-dl-nosuffix",
@@ -2376,18 +2531,21 @@
     "type": "application"
   },
   "application/vnd.dolby.mobile.1": {
+    "encoding": "binary",
     "name": "vnd.dolby.mobile.1",
     "reference": "[Steve_Hattersley]",
     "template": "application/vnd.dolby.mobile.1",
     "type": "application"
   },
   "application/vnd.dolby.mobile.2": {
+    "encoding": "binary",
     "name": "vnd.dolby.mobile.2",
     "reference": "[Steve_Hattersley]",
     "template": "application/vnd.dolby.mobile.2",
     "type": "application"
   },
   "application/vnd.doremir.scorecloud-binary-document": {
+    "encoding": "binary",
     "name": "vnd.doremir.scorecloud-binary-document",
     "reference": "[Erik_Ronström]",
     "template": "application/vnd.doremir.scorecloud-binary-document",
@@ -2400,150 +2558,175 @@
     "type": "application"
   },
   "application/vnd.dreamfactory": {
+    "encoding": "binary",
     "name": "vnd.dreamfactory",
     "reference": "[William_C._Appleton]",
     "template": "application/vnd.dreamfactory",
     "type": "application"
   },
   "application/vnd.dtg.local": {
+    "encoding": "binary",
     "name": "vnd.dtg.local",
     "reference": "[Ali_Teffahi]",
     "template": "application/vnd.dtg.local",
     "type": "application"
   },
   "application/vnd.dtg.local.flash": {
+    "encoding": "binary",
     "name": "vnd.dtg.local.flash",
     "reference": "[Ali_Teffahi]",
     "template": "application/vnd.dtg.local.flash",
     "type": "application"
   },
   "application/vnd.dtg.local.html": {
+    "encoding": "binary",
     "name": "vnd.dtg.local.html",
     "reference": "[Ali_Teffahi]",
     "template": "application/vnd.dtg.local.html",
     "type": "application"
   },
   "application/vnd.dvb.ait": {
+    "encoding": "binary",
     "name": "vnd.dvb.ait",
     "reference": "[Peter_Siebert][Michael_Lagally]",
     "template": "application/vnd.dvb.ait",
     "type": "application"
   },
   "application/vnd.dvb.dvbj": {
+    "encoding": "binary",
     "name": "vnd.dvb.dvbj",
     "reference": "[Peter_Siebert][Michael_Lagally]",
     "template": "application/vnd.dvb.dvbj",
     "type": "application"
   },
   "application/vnd.dvb.esgcontainer": {
+    "encoding": "binary",
     "name": "vnd.dvb.esgcontainer",
     "reference": "[Joerg_Heuer]",
     "template": "application/vnd.dvb.esgcontainer",
     "type": "application"
   },
   "application/vnd.dvb.ipdcdftnotifaccess": {
+    "encoding": "binary",
     "name": "vnd.dvb.ipdcdftnotifaccess",
     "reference": "[Roy_Yue]",
     "template": "application/vnd.dvb.ipdcdftnotifaccess",
     "type": "application"
   },
   "application/vnd.dvb.ipdcesgaccess": {
+    "encoding": "binary",
     "name": "vnd.dvb.ipdcesgaccess",
     "reference": "[Joerg_Heuer]",
     "template": "application/vnd.dvb.ipdcesgaccess",
     "type": "application"
   },
   "application/vnd.dvb.ipdcesgaccess2": {
+    "encoding": "binary",
     "name": "vnd.dvb.ipdcesgaccess2",
     "reference": "[Jerome_Marcon]",
     "template": "application/vnd.dvb.ipdcesgaccess2",
     "type": "application"
   },
   "application/vnd.dvb.ipdcesgpdd": {
+    "encoding": "binary",
     "name": "vnd.dvb.ipdcesgpdd",
     "reference": "[Jerome_Marcon]",
     "template": "application/vnd.dvb.ipdcesgpdd",
     "type": "application"
   },
   "application/vnd.dvb.ipdcroaming": {
+    "encoding": "binary",
     "name": "vnd.dvb.ipdcroaming",
     "reference": "[Yiling_Xu]",
     "template": "application/vnd.dvb.ipdcroaming",
     "type": "application"
   },
   "application/vnd.dvb.iptv.alfec-base": {
+    "encoding": "binary",
     "name": "vnd.dvb.iptv.alfec-base",
     "reference": "[Jean-Baptiste_Henry]",
     "template": "application/vnd.dvb.iptv.alfec-base",
     "type": "application"
   },
   "application/vnd.dvb.iptv.alfec-enhancement": {
+    "encoding": "binary",
     "name": "vnd.dvb.iptv.alfec-enhancement",
     "reference": "[Jean-Baptiste_Henry]",
     "template": "application/vnd.dvb.iptv.alfec-enhancement",
     "type": "application"
   },
   "application/vnd.dvb.notif-aggregate-root+xml": {
+    "encoding": "binary",
     "name": "vnd.dvb.notif-aggregate-root+xml",
     "reference": "[Roy_Yue]",
     "template": "application/vnd.dvb.notif-aggregate-root+xml",
     "type": "application"
   },
   "application/vnd.dvb.notif-container+xml": {
+    "encoding": "binary",
     "name": "vnd.dvb.notif-container+xml",
     "reference": "[Roy_Yue]",
     "template": "application/vnd.dvb.notif-container+xml",
     "type": "application"
   },
   "application/vnd.dvb.notif-generic+xml": {
+    "encoding": "binary",
     "name": "vnd.dvb.notif-generic+xml",
     "reference": "[Roy_Yue]",
     "template": "application/vnd.dvb.notif-generic+xml",
     "type": "application"
   },
   "application/vnd.dvb.notif-ia-msglist+xml": {
+    "encoding": "binary",
     "name": "vnd.dvb.notif-ia-msglist+xml",
     "reference": "[Roy_Yue]",
     "template": "application/vnd.dvb.notif-ia-msglist+xml",
     "type": "application"
   },
   "application/vnd.dvb.notif-ia-registration-request+xml": {
+    "encoding": "binary",
     "name": "vnd.dvb.notif-ia-registration-request+xml",
     "reference": "[Roy_Yue]",
     "template": "application/vnd.dvb.notif-ia-registration-request+xml",
     "type": "application"
   },
   "application/vnd.dvb.notif-ia-registration-response+xml": {
+    "encoding": "binary",
     "name": "vnd.dvb.notif-ia-registration-response+xml",
     "reference": "[Roy_Yue]",
     "template": "application/vnd.dvb.notif-ia-registration-response+xml",
     "type": "application"
   },
   "application/vnd.dvb.notif-init+xml": {
+    "encoding": "binary",
     "name": "vnd.dvb.notif-init+xml",
     "reference": "[Roy_Yue]",
     "template": "application/vnd.dvb.notif-init+xml",
     "type": "application"
   },
   "application/vnd.dvb.pfr": {
+    "encoding": "binary",
     "name": "vnd.dvb.pfr",
     "reference": "[Peter_Siebert][Michael_Lagally]",
     "template": "application/vnd.dvb.pfr",
     "type": "application"
   },
   "application/vnd.dvb.service": {
+    "encoding": "binary",
     "name": "vnd.dvb.service",
     "reference": "[Peter_Siebert][Michael_Lagally]",
     "template": "application/vnd.dvb_service",
     "type": "application"
   },
   "application/vnd.dxr": {
+    "encoding": "binary",
     "name": "vnd.dxr",
     "reference": "[Michael_Duffy]",
     "template": "application/vnd-dxr",
     "type": "application"
   },
   "application/vnd.dynageo": {
+    "encoding": "binary",
     "name": "vnd.dynageo",
     "reference": "[Roland_Mechling]",
     "template": "application/vnd.dynageo",
@@ -2568,36 +2751,42 @@
     "type": "application"
   },
   "application/vnd.ecowin.chart": {
+    "encoding": "binary",
     "name": "vnd.ecowin.chart",
     "reference": "[Thomas_Olsson]",
     "template": "application/vnd.ecowin.chart",
     "type": "application"
   },
   "application/vnd.ecowin.filerequest": {
+    "encoding": "binary",
     "name": "vnd.ecowin.filerequest",
     "reference": "[Thomas_Olsson]",
     "template": "application/vnd.ecowin.filerequest",
     "type": "application"
   },
   "application/vnd.ecowin.fileupdate": {
+    "encoding": "binary",
     "name": "vnd.ecowin.fileupdate",
     "reference": "[Thomas_Olsson]",
     "template": "application/vnd.ecowin.fileupdate",
     "type": "application"
   },
   "application/vnd.ecowin.series": {
+    "encoding": "binary",
     "name": "vnd.ecowin.series",
     "reference": "[Thomas_Olsson]",
     "template": "application/vnd.ecowin.series",
     "type": "application"
   },
   "application/vnd.ecowin.seriesrequest": {
+    "encoding": "binary",
     "name": "vnd.ecowin.seriesrequest",
     "reference": "[Thomas_Olsson]",
     "template": "application/vnd.ecowin.seriesrequest",
     "type": "application"
   },
   "application/vnd.ecowin.seriesupdate": {
+    "encoding": "binary",
     "name": "vnd.ecowin.seriesupdate",
     "reference": "[Thomas_Olsson]",
     "template": "application/vnd.ecowin.seriesupdate",
@@ -2616,18 +2805,21 @@
     "type": "application"
   },
   "application/vnd.enphase.envoy": {
+    "encoding": "binary",
     "name": "vnd.enphase.envoy",
     "reference": "[Chris_Eich]",
     "template": "application/vnd.enphase.envoy",
     "type": "application"
   },
   "application/vnd.eprints.data+xml": {
+    "encoding": "binary",
     "name": "vnd.eprints.data+xml",
     "reference": "[Tim_Brody]",
     "template": "application/vnd.eprints.data+xml",
     "type": "application"
   },
   "application/vnd.epson.esf": {
+    "encoding": "binary",
     "name": "vnd.epson.esf",
     "reference": "[Shoji_Hoshina]",
     "template": "application/vnd.epson.esf",
@@ -2640,18 +2832,21 @@
     "type": "application"
   },
   "application/vnd.epson.quickanime": {
+    "encoding": "binary",
     "name": "vnd.epson.quickanime",
     "reference": "[Yu_Gu]",
     "template": "application/vnd.epson.quickanime",
     "type": "application"
   },
   "application/vnd.epson.salt": {
+    "encoding": "binary",
     "name": "vnd.epson.salt",
     "reference": "[Yasuhito_Nagatomo]",
     "template": "application/vnd.epson.salt",
     "type": "application"
   },
   "application/vnd.epson.ssf": {
+    "encoding": "binary",
     "name": "vnd.epson.ssf",
     "reference": "[Shoji_Hoshina]",
     "template": "application/vnd.epson.ssf",
@@ -2676,12 +2871,14 @@
     "type": "application"
   },
   "application/vnd.etsi.asic-e+zip": {
+    "encoding": "binary",
     "name": "vnd.etsi.asic-e+zip",
     "reference": "[Miguel_Angel_Reina_Ortega]",
     "template": "application/vnd.etsi.asic-e+zip",
     "type": "application"
   },
   "application/vnd.etsi.asic-s+zip": {
+    "encoding": "binary",
     "name": "vnd.etsi.asic-s+zip",
     "reference": "[Miguel_Angel_Reina_Ortega]",
     "template": "application/vnd.etsi.asic-s+zip",
@@ -2754,6 +2951,7 @@
     "type": "application"
   },
   "application/vnd.etsi.mheg5": {
+    "encoding": "binary",
     "name": "vnd.etsi.mheg5",
     "reference": "[Miguel_Angel_Reina_Ortega][Ian_Medland]",
     "template": "application/vnd.etsi.mheg5",
@@ -2766,6 +2964,7 @@
     "type": "application"
   },
   "application/vnd.etsi.pstn+xml": {
+    "encoding": "binary",
     "name": "vnd.etsi.pstn+xml",
     "reference": "[Jiwan_Han][Thomas_Belling]",
     "template": "application/vnd.etsi.pstn+xml",
@@ -2784,18 +2983,21 @@
     "type": "application"
   },
   "application/vnd.etsi.timestamp-token": {
+    "encoding": "binary",
     "name": "vnd.etsi.timestamp-token",
     "reference": "[Miguel_Angel_Reina_Ortega]",
     "template": "application/vnd.etsi.timestamp-token",
     "type": "application"
   },
   "application/vnd.etsi.tsl+xml": {
+    "encoding": "binary",
     "name": "vnd.etsi.tsl+xml",
     "reference": "[Shicheng_Hu]",
     "template": "application/vnd.etsi.tsl+xml",
     "type": "application"
   },
   "application/vnd.etsi.tsl.der": {
+    "encoding": "binary",
     "name": "vnd.etsi.tsl.der",
     "reference": "[Shicheng_Hu]",
     "template": "application/vnd.etsi.tsl.der",
@@ -2808,36 +3010,42 @@
     "type": "application"
   },
   "application/vnd.ezpix-album": {
+    "encoding": "binary",
     "name": "vnd.ezpix-album",
     "reference": "[ElectronicZombieCorp]",
     "template": "application/vnd.ezpix-album",
     "type": "application"
   },
   "application/vnd.ezpix-package": {
+    "encoding": "binary",
     "name": "vnd.ezpix-package",
     "reference": "[ElectronicZombieCorp]",
     "template": "application/vnd.ezpix-package",
     "type": "application"
   },
   "application/vnd.f-secure.mobile": {
+    "encoding": "binary",
     "name": "vnd.f-secure.mobile",
     "reference": "[Samu_Sarivaara]",
     "template": "application/vnd.f-secure.mobile",
     "type": "application"
   },
   "application/vnd.fdf": {
+    "encoding": "binary",
     "name": "vnd.fdf",
     "reference": "[Steve_Zilles]",
     "template": "application/vnd-fdf",
     "type": "application"
   },
   "application/vnd.fdsn.mseed": {
+    "encoding": "binary",
     "name": "vnd.fdsn.mseed",
     "reference": "[Chad_Trabant]",
     "template": "application/vnd.fdsn.mseed",
     "type": "application"
   },
   "application/vnd.fdsn.seed": {
+    "encoding": "binary",
     "name": "vnd.fdsn.seed",
     "reference": "[Chad_Trabant]",
     "template": "application/vnd.fdsn.seed",
@@ -2862,6 +3070,7 @@
     "type": "application"
   },
   "application/vnd.fluxtime.clip": {
+    "encoding": "binary",
     "name": "vnd.fluxtime.clip",
     "reference": "[Marc_Winter]",
     "template": "application/vnd.fluxtime.clip",
@@ -2874,6 +3083,7 @@
     "type": "application"
   },
   "application/vnd.framemaker": {
+    "encoding": "binary",
     "name": "vnd.framemaker",
     "reference": "[Mike_Wexler]",
     "template": "application/vnd.framemaker",
@@ -2898,96 +3108,112 @@
     "type": "application"
   },
   "application/vnd.fujitsu.oasys": {
+    "encoding": "binary",
     "name": "vnd.fujitsu.oasys",
     "reference": "[Nobukazu_Togashi]",
     "template": "application/vnd.fujitsu.oasys",
     "type": "application"
   },
   "application/vnd.fujitsu.oasys2": {
+    "encoding": "binary",
     "name": "vnd.fujitsu.oasys2",
     "reference": "[Nobukazu_Togashi]",
     "template": "application/vnd.fujitsu.oasys2",
     "type": "application"
   },
   "application/vnd.fujitsu.oasys3": {
+    "encoding": "binary",
     "name": "vnd.fujitsu.oasys3",
     "reference": "[Seiji_Okudaira]",
     "template": "application/vnd.fujitsu.oasys3",
     "type": "application"
   },
   "application/vnd.fujitsu.oasysgp": {
+    "encoding": "binary",
     "name": "vnd.fujitsu.oasysgp",
     "reference": "[Masahiko_Sugimoto]",
     "template": "application/vnd.fujitsu.oasysgp",
     "type": "application"
   },
   "application/vnd.fujitsu.oasysprs": {
+    "encoding": "binary",
     "name": "vnd.fujitsu.oasysprs",
     "reference": "[Masumi_Ogita]",
     "template": "application/vnd.fujitsu.oasysprs",
     "type": "application"
   },
   "application/vnd.fujixerox.art-ex": {
+    "encoding": "binary",
     "name": "vnd.fujixerox.ART-EX",
     "reference": "[Fumio_Tanabe]",
     "template": "application/vnd.fujixerox.ART-EX",
     "type": "application"
   },
   "application/vnd.fujixerox.art4": {
+    "encoding": "binary",
     "name": "vnd.fujixerox.ART4",
     "reference": "[Fumio_Tanabe]",
     "template": "application/vnd.fujixerox.ART4",
     "type": "application"
   },
   "application/vnd.fujixerox.ddd": {
+    "encoding": "binary",
     "name": "vnd.fujixerox.ddd",
     "reference": "[Masanori_Onda]",
     "template": "application/vnd.fujixerox.ddd",
     "type": "application"
   },
   "application/vnd.fujixerox.docuworks": {
+    "encoding": "binary",
     "name": "vnd.fujixerox.docuworks",
     "reference": "[Yasuo_Taguchi]",
     "template": "application/vnd.fujixerox.docuworks",
     "type": "application"
   },
   "application/vnd.fujixerox.docuworks.binder": {
+    "encoding": "binary",
     "name": "vnd.fujixerox.docuworks.binder",
     "reference": "[Takashi_Matsumoto]",
     "template": "application/vnd.fujixerox.docuworks.binder",
     "type": "application"
   },
   "application/vnd.fujixerox.docuworks.container": {
+    "encoding": "binary",
     "name": "vnd.fujixerox.docuworks.container",
     "reference": "[Kiyoshi_Tashiro]",
     "template": "application/vnd.fujixerox.docuworks.container",
     "type": "application"
   },
   "application/vnd.fujixerox.hbpl": {
+    "encoding": "binary",
     "name": "vnd.fujixerox.HBPL",
     "reference": "[Fumio_Tanabe]",
     "template": "application/vnd.fujixerox.HBPL",
     "type": "application"
   },
   "application/vnd.fut-misnet": {
+    "encoding": "binary",
     "name": "vnd.fut-misnet",
     "reference": "[Jann_Pruulman]",
     "template": "application/vnd.fut-misnet",
     "type": "application"
   },
   "application/vnd.fuzzysheet": {
+    "encoding": "binary",
     "name": "vnd.fuzzysheet",
     "reference": "[Simon_Birtwistle]",
     "template": "application/vnd.fuzzysheet",
     "type": "application"
   },
   "application/vnd.genomatix.tuxedo": {
+    "encoding": "binary",
     "name": "vnd.genomatix.tuxedo",
     "reference": "[Torben_Frey]",
     "template": "application/vnd.genomatix.tuxedo",
     "type": "application"
   },
   "application/vnd.geo+json": {
+    "encoding": "binary",
     "name": "vnd.geo+json",
     "reference": "[Sean_Gillies]",
     "template": "application/vnd.geo+json",
@@ -3000,12 +3226,14 @@
     "type": "application"
   },
   "application/vnd.geogebra.file": {
+    "encoding": "binary",
     "name": "vnd.geogebra.file",
     "reference": "[GeoGebra][Yves_Kreis]",
     "template": "application/vnd.geogebra.file",
     "type": "application"
   },
   "application/vnd.geogebra.tool": {
+    "encoding": "binary",
     "name": "vnd.geogebra.tool",
     "reference": "[GeoGebra][Yves_Kreis]",
     "template": "application/vnd.geogebra.tool",
@@ -3018,6 +3246,7 @@
     "type": "application"
   },
   "application/vnd.geonext": {
+    "encoding": "binary",
     "name": "vnd.geonext",
     "reference": "[Matthias_Ehmann]",
     "template": "application/vnd.geonext",
@@ -3036,18 +3265,21 @@
     "type": "application"
   },
   "application/vnd.globalplatform.card-content-mgt": {
+    "encoding": "binary",
     "name": "vnd.globalplatform.card-content-mgt",
     "reference": "[Gil_Bernabeu]",
     "template": "application/vnd.globalplatform.card-content-mgt",
     "type": "application"
   },
   "application/vnd.globalplatform.card-content-mgt-response": {
+    "encoding": "binary",
     "name": "vnd.globalplatform.card-content-mgt-response",
     "reference": "[Gil_Bernabeu]",
     "template": "application/vnd.globalplatform.card-content-mgt-response",
     "type": "application"
   },
   "application/vnd.gmx": {
+    "encoding": "binary",
     "name": "vnd.gmx - DEPRECATED",
     "reference": "[Christian_V._Sciberras]",
     "template": "application/vnd.gmx",
@@ -3060,24 +3292,28 @@
     "type": "application"
   },
   "application/vnd.google-earth.kmz": {
+    "encoding": "binary",
     "name": "vnd.google-earth.kmz",
     "reference": "[Michael_Ashbridge]",
     "template": "application/vnd.google-earth.kmz",
     "type": "application"
   },
   "application/vnd.gov.sk.e-form+zip": {
+    "encoding": "binary",
     "name": "vnd.gov.sk.e-form+zip",
     "reference": "[Peter_Biro][Stefan_Szilva]",
     "template": "application/vnd.gov.sk.e-form+zip",
     "type": "application"
   },
   "application/vnd.grafeq": {
+    "encoding": "binary",
     "name": "vnd.grafeq",
     "reference": "[Jeff_Tupper]",
     "template": "application/vnd.grafeq",
     "type": "application"
   },
   "application/vnd.gridmp": {
+    "encoding": "binary",
     "name": "vnd.gridmp",
     "reference": "[Jeff_Lawson]",
     "template": "application/vnd.gridmp",
@@ -3126,6 +3362,7 @@
     "type": "application"
   },
   "application/vnd.hal+json": {
+    "encoding": "binary",
     "name": "vnd.hal+json",
     "reference": "[Mike_Kelly]",
     "template": "application/vnd.hal+json",
@@ -3150,6 +3387,7 @@
     "type": "application"
   },
   "application/vnd.hcl-bireports": {
+    "encoding": "binary",
     "name": "vnd.hcl-bireports",
     "reference": "[Doug_R._Serres]",
     "template": "application/vnd.hcl-bireports",
@@ -3162,12 +3400,14 @@
     "type": "application"
   },
   "application/vnd.hhe.lesson-player": {
+    "encoding": "binary",
     "name": "vnd.hhe.lesson-player",
     "reference": "[Randy_Jones]",
     "template": "application/vnd.hhe.lesson-player",
     "type": "application"
   },
   "application/vnd.hp-hpgl": {
+    "encoding": "binary",
     "name": "vnd.hp-HPGL",
     "reference": "[Bob_Pentecost]",
     "template": "application/vnd.hp-HPGL",
@@ -3180,30 +3420,35 @@
     "type": "application"
   },
   "application/vnd.hp-hps": {
+    "encoding": "binary",
     "name": "vnd.hp-hps",
     "reference": "[Steve_Aubrey]",
     "template": "application/vnd.hp-hps",
     "type": "application"
   },
   "application/vnd.hp-jlyt": {
+    "encoding": "binary",
     "name": "vnd.hp-jlyt",
     "reference": "[Amir_Gaash]",
     "template": "application/vnd.hp-jlyt",
     "type": "application"
   },
   "application/vnd.hp-pcl": {
+    "encoding": "binary",
     "name": "vnd.hp-PCL",
     "reference": "[Bob_Pentecost]",
     "template": "application/vnd.hp-PCL",
     "type": "application"
   },
   "application/vnd.hp-pclxl": {
+    "encoding": "binary",
     "name": "vnd.hp-PCLXL",
     "reference": "[Bob_Pentecost]",
     "template": "application/vnd.hp-PCLXL",
     "type": "application"
   },
   "application/vnd.httphone": {
+    "encoding": "binary",
     "name": "vnd.httphone",
     "reference": "[Franck_Lefevre]",
     "template": "application/vnd.httphone",
@@ -3228,12 +3473,14 @@
     "type": "application"
   },
   "application/vnd.ibm.electronic-media": {
+    "encoding": "binary",
     "name": "vnd.ibm.electronic-media",
     "reference": "[Bruce_Tantlinger]",
     "template": "application/vnd.ibm.electronic-media",
     "type": "application"
   },
   "application/vnd.ibm.minipay": {
+    "encoding": "binary",
     "name": "vnd.ibm.MiniPay",
     "reference": "[Amir_Herzberg]",
     "template": "application/vnd.ibm.MiniPay",
@@ -3246,54 +3493,63 @@
     "type": "application"
   },
   "application/vnd.ibm.rights-management": {
+    "encoding": "binary",
     "name": "vnd.ibm.rights-management",
     "reference": "[Bruce_Tantlinger]",
     "template": "application/vnd.ibm.rights-management",
     "type": "application"
   },
   "application/vnd.ibm.secure-container": {
+    "encoding": "binary",
     "name": "vnd.ibm.secure-container",
     "reference": "[Bruce_Tantlinger]",
     "template": "application/vnd.ibm.secure-container",
     "type": "application"
   },
   "application/vnd.iccprofile": {
+    "encoding": "binary",
     "name": "vnd.iccprofile",
     "reference": "[Phil_Green]",
     "template": "application/vnd.iccprofile",
     "type": "application"
   },
   "application/vnd.ieee.1905": {
+    "encoding": "binary",
     "name": "vnd.ieee.1905",
     "reference": "[Purva_R_Rajkotia]",
     "template": "application/vnd.ieee.1905",
     "type": "application"
   },
   "application/vnd.igloader": {
+    "encoding": "binary",
     "name": "vnd.igloader",
     "reference": "[Tim_Fisher]",
     "template": "application/vnd.igloader",
     "type": "application"
   },
   "application/vnd.immervision-ivp": {
+    "encoding": "binary",
     "name": "vnd.immervision-ivp",
     "reference": "[Mathieu_Villegas]",
     "template": "application/vnd.immervision-ivp",
     "type": "application"
   },
   "application/vnd.immervision-ivu": {
+    "encoding": "binary",
     "name": "vnd.immervision-ivu",
     "reference": "[Mathieu_Villegas]",
     "template": "application/vnd.immervision-ivu",
     "type": "application"
   },
   "application/vnd.ims.imsccv1p1": {
+    "encoding": "binary",
     "name": "vnd.ims.imsccv1p1",
     "reference": "[Lisa_Mattson]",
     "template": "application/vnd.ims.imsccv1p1",
     "type": "application"
   },
   "application/vnd.ims.imsccv1p2": {
+    "encoding": "binary",
     "name": "vnd.ims.imsccv1p2",
     "reference": "[Lisa_Mattson]",
     "template": "application/vnd.ims.imsccv1p2",
@@ -3342,24 +3598,28 @@
     "type": "application"
   },
   "application/vnd.informix-visionary": {
+    "encoding": "binary",
     "name": "vnd.informix-visionary - OBSOLETED in favor of application/vnd.visionary",
     "reference": "[Christopher_Gales]",
     "template": "application/vnd.informix-visionary",
     "type": "application"
   },
   "application/vnd.infotech.project": {
+    "encoding": "binary",
     "name": "vnd.infotech.project",
     "reference": "[Charles_Engelke]",
     "template": "application/vnd.infotech.project",
     "type": "application"
   },
   "application/vnd.infotech.project+xml": {
+    "encoding": "binary",
     "name": "vnd.infotech.project+xml",
     "reference": "[Charles_Engelke]",
     "template": "application/vnd.infotech.project+xml",
     "type": "application"
   },
   "application/vnd.innopath.wamp.notification": {
+    "encoding": "binary",
     "name": "vnd.innopath.wamp.notification",
     "reference": "[Takanori_Sudo]",
     "template": "application/vnd.innopath.wamp.notification",
@@ -3372,24 +3632,28 @@
     "type": "application"
   },
   "application/vnd.intercon.formnet": {
+    "encoding": "binary",
     "name": "vnd.intercon.formnet",
     "reference": "[Tom_Gurak]",
     "template": "application/vnd.intercon.formnet",
     "type": "application"
   },
   "application/vnd.intergeo": {
+    "encoding": "binary",
     "name": "vnd.intergeo",
     "reference": "[Yves_Kreis_2]",
     "template": "application/vnd.intergeo",
     "type": "application"
   },
   "application/vnd.intertrust.digibox": {
+    "encoding": "binary",
     "name": "vnd.intertrust.digibox",
     "reference": "[Luke_Tomasello]",
     "template": "application/vnd.intertrust.digibox",
     "type": "application"
   },
   "application/vnd.intertrust.nncp": {
+    "encoding": "binary",
     "name": "vnd.intertrust.nncp",
     "reference": "[Luke_Tomasello]",
     "template": "application/vnd.intertrust.nncp",
@@ -3450,6 +3714,7 @@
     "type": "application"
   },
   "application/vnd.ipunplugged.rcprofile": {
+    "encoding": "binary",
     "name": "vnd.ipunplugged.rcprofile",
     "reference": "[Per_Ersson]",
     "template": "application/vnd.ipunplugged.rcprofile",
@@ -3468,6 +3733,7 @@
     "type": "application"
   },
   "application/vnd.isac.fcs": {
+    "encoding": "binary",
     "name": "vnd.isac.fcs",
     "reference": "[Ryan_Brinkman]",
     "template": "application/vnd.isac.fcs",
@@ -3528,78 +3794,91 @@
     "type": "application"
   },
   "application/vnd.jcp.javame.midlet-rms": {
+    "encoding": "binary",
     "name": "vnd.jcp.javame.midlet-rms",
     "reference": "[Mikhail_Gorshenev]",
     "template": "application/vnd.jcp.javame.midlet-rms",
     "type": "application"
   },
   "application/vnd.jisp": {
+    "encoding": "binary",
     "name": "vnd.jisp",
     "reference": "[Sebastiaan_Deckers]",
     "template": "application/vnd.jisp",
     "type": "application"
   },
   "application/vnd.joost.joda-archive": {
+    "encoding": "binary",
     "name": "vnd.joost.joda-archive",
     "reference": "[Joost]",
     "template": "application/vnd.joost.joda-archive",
     "type": "application"
   },
   "application/vnd.jsk.isdn-ngn": {
+    "encoding": "binary",
     "name": "vnd.jsk.isdn-ngn",
     "reference": "[Yokoyama_Kiyonobu]",
     "template": "application/vnd.jsk.isdn-ngn",
     "type": "application"
   },
   "application/vnd.kahootz": {
+    "encoding": "binary",
     "name": "vnd.kahootz",
     "reference": "[Tim_Macdonald]",
     "template": "application/vnd.kahootz",
     "type": "application"
   },
   "application/vnd.kde.karbon": {
+    "encoding": "binary",
     "name": "vnd.kde.karbon",
     "reference": "[David_Faure]",
     "template": "application/vnd.kde.karbon",
     "type": "application"
   },
   "application/vnd.kde.kchart": {
+    "encoding": "binary",
     "name": "vnd.kde.kchart",
     "reference": "[David_Faure]",
     "template": "application/vnd.kde.kchart",
     "type": "application"
   },
   "application/vnd.kde.kformula": {
+    "encoding": "binary",
     "name": "vnd.kde.kformula",
     "reference": "[David_Faure]",
     "template": "application/vnd.kde.kformula",
     "type": "application"
   },
   "application/vnd.kde.kivio": {
+    "encoding": "binary",
     "name": "vnd.kde.kivio",
     "reference": "[David_Faure]",
     "template": "application/vnd.kde.kivio",
     "type": "application"
   },
   "application/vnd.kde.kontour": {
+    "encoding": "binary",
     "name": "vnd.kde.kontour",
     "reference": "[David_Faure]",
     "template": "application/vnd.kde.kontour",
     "type": "application"
   },
   "application/vnd.kde.kpresenter": {
+    "encoding": "binary",
     "name": "vnd.kde.kpresenter",
     "reference": "[David_Faure]",
     "template": "application/vnd.kde.kpresenter",
     "type": "application"
   },
   "application/vnd.kde.kspread": {
+    "encoding": "binary",
     "name": "vnd.kde.kspread",
     "reference": "[David_Faure]",
     "template": "application/vnd.kde.kspread",
     "type": "application"
   },
   "application/vnd.kde.kword": {
+    "encoding": "binary",
     "name": "vnd.kde.kword",
     "reference": "[David_Faure]",
     "template": "application/vnd.kde.kword",
@@ -3612,12 +3891,14 @@
     "type": "application"
   },
   "application/vnd.kidspiration": {
+    "encoding": "binary",
     "name": "vnd.kidspiration",
     "reference": "[Jack_Bennett]",
     "template": "application/vnd.kidspiration",
     "type": "application"
   },
   "application/vnd.kinar": {
+    "encoding": "binary",
     "name": "vnd.Kinar",
     "reference": "[Hemant_Thakkar]",
     "template": "application/vnd.Kinar",
@@ -3636,6 +3917,7 @@
     "type": "application"
   },
   "application/vnd.las.las+xml": {
+    "encoding": "binary",
     "name": "vnd.las.las+xml",
     "reference": "[Rob_Bailey]",
     "template": "application/vnd.las.las+xml",
@@ -3648,6 +3930,7 @@
     "type": "application"
   },
   "application/vnd.llamagraphics.life-balance.desktop": {
+    "encoding": "binary",
     "name": "vnd.llamagraphics.life-balance.desktop",
     "reference": "[Catherine_E._White]",
     "template": "application/vnd.llamagraphics.life-balance.desktop",
@@ -3678,6 +3961,7 @@
     "type": "application"
   },
   "application/vnd.lotus-notes": {
+    "encoding": "binary",
     "name": "vnd.lotus-notes",
     "reference": "[Michael_Laramie]",
     "template": "application/vnd.lotus-notes",
@@ -3702,6 +3986,7 @@
     "type": "application"
   },
   "application/vnd.macports.portpkg": {
+    "encoding": "binary",
     "name": "vnd.macports.portpkg",
     "reference": "[James_Berry]",
     "template": "application/vnd.macports.portpkg",
@@ -3720,36 +4005,42 @@
     "type": "application"
   },
   "application/vnd.marlin.drm.license+xml": {
+    "encoding": "binary",
     "name": "vnd.marlin.drm.license+xml",
     "reference": "[Gary_Ellison]",
     "template": "application/vnd.marlin.drm.license+xml",
     "type": "application"
   },
   "application/vnd.marlin.drm.mdcf": {
+    "encoding": "binary",
     "name": "vnd.marlin.drm.mdcf",
     "reference": "[Gary_Ellison]",
     "template": "application/vnd.marlin.drm.mdcf",
     "type": "application"
   },
   "application/vnd.mason+json": {
+    "encoding": "binary",
     "name": "vnd.mason+json",
     "reference": "[Jorn_Wildt]",
     "template": "application/vnd.mason+json",
     "type": "application"
   },
   "application/vnd.maxmind.maxmind-db": {
+    "encoding": "binary",
     "name": "vnd.maxmind.maxmind-db",
     "reference": "[William_Stevenson]",
     "template": "application/vnd.maxmind.maxmind-db",
     "type": "application"
   },
   "application/vnd.mcd": {
+    "encoding": "binary",
     "name": "vnd.mcd",
     "reference": "[Tadashi_Gotoh]",
     "template": "application/vnd.mcd",
     "type": "application"
   },
   "application/vnd.medcalcdata": {
+    "encoding": "binary",
     "name": "vnd.medcalcdata",
     "reference": "[Frank_Schoonjans]",
     "template": "application/vnd.medcalcdata",
@@ -3762,6 +4053,7 @@
     "type": "application"
   },
   "application/vnd.meridian-slingshot": {
+    "encoding": "binary",
     "name": "vnd.meridian-slingshot",
     "reference": "[Eric_Wedel]",
     "template": "application/vnd.meridian-slingshot",
@@ -3774,18 +4066,21 @@
     "type": "application"
   },
   "application/vnd.mfmp": {
+    "encoding": "binary",
     "name": "vnd.mfmp",
     "reference": "[Yukari_Ikeda]",
     "template": "application/vnd.mfmp",
     "type": "application"
   },
   "application/vnd.micrografx.flo": {
+    "encoding": "binary",
     "name": "vnd.micrografx.flo",
     "reference": "[Joe_Prevo]",
     "template": "application/vnd.micrografx.flo",
     "type": "application"
   },
   "application/vnd.micrografx.igx": {
+    "encoding": "binary",
     "name": "vnd.micrografx.igx",
     "reference": "[Joe_Prevo]",
     "template": "application/vnd.micrografx-igx",
@@ -3804,24 +4099,28 @@
     "type": "application"
   },
   "application/vnd.minisoft-hp3000-save": {
+    "encoding": "binary",
     "name": "vnd.minisoft-hp3000-save",
     "reference": "[Chris_Bartram]",
     "template": "application/vnd.minisoft-hp3000-save",
     "type": "application"
   },
   "application/vnd.mitsubishi.misty-guard.trustweb": {
+    "encoding": "binary",
     "name": "vnd.mitsubishi.misty-guard.trustweb",
     "reference": "[Tanaka]",
     "template": "application/vnd.mitsubishi.misty-guard.trustweb",
     "type": "application"
   },
   "application/vnd.mobius.daf": {
+    "encoding": "binary",
     "name": "vnd.Mobius.DAF",
     "reference": "[Allen_K._Kabayama]",
     "template": "application/vnd.Mobius.DAF",
     "type": "application"
   },
   "application/vnd.mobius.dis": {
+    "encoding": "binary",
     "name": "vnd.Mobius.DIS",
     "reference": "[Allen_K._Kabayama]",
     "template": "application/vnd.Mobius.DIS",
@@ -3852,66 +4151,77 @@
     "type": "application"
   },
   "application/vnd.mobius.txf": {
+    "encoding": "binary",
     "name": "vnd.Mobius.TXF",
     "reference": "[Allen_K._Kabayama]",
     "template": "application/vnd.Mobius.TXF",
     "type": "application"
   },
   "application/vnd.mophun.application": {
+    "encoding": "binary",
     "name": "vnd.mophun.application",
     "reference": "[Bjorn_Wennerstrom]",
     "template": "application/vnd.mophun.application",
     "type": "application"
   },
   "application/vnd.mophun.certificate": {
+    "encoding": "binary",
     "name": "vnd.mophun.certificate",
     "reference": "[Bjorn_Wennerstrom]",
     "template": "application/vnd.mophun.certificate",
     "type": "application"
   },
   "application/vnd.motorola.flexsuite": {
+    "encoding": "binary",
     "name": "vnd.motorola.flexsuite",
     "reference": "[Mark_Patton]",
     "template": "application/vnd.motorola.flexsuite",
     "type": "application"
   },
   "application/vnd.motorola.flexsuite.adsi": {
+    "encoding": "binary",
     "name": "vnd.motorola.flexsuite.adsi",
     "reference": "[Mark_Patton]",
     "template": "application/vnd.motorola.flexsuite.adsi",
     "type": "application"
   },
   "application/vnd.motorola.flexsuite.fis": {
+    "encoding": "binary",
     "name": "vnd.motorola.flexsuite.fis",
     "reference": "[Mark_Patton]",
     "template": "application/vnd.motorola.flexsuite.fis",
     "type": "application"
   },
   "application/vnd.motorola.flexsuite.gotap": {
+    "encoding": "binary",
     "name": "vnd.motorola.flexsuite.gotap",
     "reference": "[Mark_Patton]",
     "template": "application/vnd.motorola.flexsuite.gotap",
     "type": "application"
   },
   "application/vnd.motorola.flexsuite.kmr": {
+    "encoding": "binary",
     "name": "vnd.motorola.flexsuite.kmr",
     "reference": "[Mark_Patton]",
     "template": "application/vnd.motorola.flexsuite.kmr",
     "type": "application"
   },
   "application/vnd.motorola.flexsuite.ttc": {
+    "encoding": "binary",
     "name": "vnd.motorola.flexsuite.ttc",
     "reference": "[Mark_Patton]",
     "template": "application/vnd.motorola.flexsuite.ttc",
     "type": "application"
   },
   "application/vnd.motorola.flexsuite.wem": {
+    "encoding": "binary",
     "name": "vnd.motorola.flexsuite.wem",
     "reference": "[Mark_Patton]",
     "template": "application/vnd.motorola.flexsuite.wem",
     "type": "application"
   },
   "application/vnd.motorola.iprm": {
+    "encoding": "binary",
     "name": "vnd.motorola.iprm",
     "reference": "[Rafie_Shamsaasef]",
     "template": "application/vnd.motorola.iprm",
@@ -3924,6 +4234,7 @@
     "type": "application"
   },
   "application/vnd.ms-3mfdocument": {
+    "encoding": "binary",
     "name": "vnd.ms-3mfdocument",
     "reference": "[Shawn_Maloney]",
     "template": "application/vnd.ms-3mfdocument",
@@ -3936,12 +4247,14 @@
     "type": "application"
   },
   "application/vnd.ms-asf": {
+    "encoding": "binary",
     "name": "vnd.ms-asf",
     "reference": "[Eric_Fleischman]",
     "template": "application/vnd.ms-asf",
     "type": "application"
   },
   "application/vnd.ms-cab-compressed": {
+    "encoding": "binary",
     "name": "vnd.ms-cab-compressed",
     "reference": "[Kim_Scarborough]",
     "template": "application/vnd.ms-cab-compressed",
@@ -3960,6 +4273,7 @@
     "type": "application"
   },
   "application/vnd.ms-excel.sheet.binary.macroenabled.12": {
+    "encoding": "binary",
     "name": "vnd.ms-excel.sheet.binary.macroEnabled.12",
     "reference": "[Chris_Rae]",
     "template": "application/vnd.ms-excel.sheet.binary.macroEnabled.12",
@@ -3984,12 +4298,14 @@
     "type": "application"
   },
   "application/vnd.ms-htmlhelp": {
+    "encoding": "binary",
     "name": "vnd.ms-htmlhelp",
     "reference": "[Anatoly_Techtonik]",
     "template": "application/vnd.ms-htmlhelp",
     "type": "application"
   },
   "application/vnd.ms-ims": {
+    "encoding": "binary",
     "name": "vnd.ms-ims",
     "reference": "[Eric_Ledoux]",
     "template": "application/vnd.ms-ims",
@@ -4002,6 +4318,7 @@
     "type": "application"
   },
   "application/vnd.ms-office.activex+xml": {
+    "encoding": "binary",
     "name": "vnd.ms-office.activeX+xml",
     "reference": "[Chris_Rae]",
     "template": "application/vnd.ms-office.activeX+xml",
@@ -4014,6 +4331,7 @@
     "type": "application"
   },
   "application/vnd.ms-playready.initiator+xml": {
+    "encoding": "binary",
     "name": "vnd.ms-playready.initiator+xml",
     "reference": "[Daniel_Schneider]",
     "template": "application/vnd.ms-playready.initiator+xml",
@@ -4068,30 +4386,35 @@
     "type": "application"
   },
   "application/vnd.ms-windows.printerpairing": {
+    "encoding": "binary",
     "name": "vnd.ms-windows.printerpairing",
     "reference": "[Justin_Hutchings]",
     "template": "application/vnd.ms-windows.printerpairing",
     "type": "application"
   },
   "application/vnd.ms-wmdrm.lic-chlg-req": {
+    "encoding": "binary",
     "name": "vnd.ms-wmdrm.lic-chlg-req",
     "reference": "[Kevin_Lau]",
     "template": "application/vnd.ms-wmdrm.lic-chlg-req",
     "type": "application"
   },
   "application/vnd.ms-wmdrm.lic-resp": {
+    "encoding": "binary",
     "name": "vnd.ms-wmdrm.lic-resp",
     "reference": "[Kevin_Lau]",
     "template": "application/vnd.ms-wmdrm.lic-resp",
     "type": "application"
   },
   "application/vnd.ms-wmdrm.meter-chlg-req": {
+    "encoding": "binary",
     "name": "vnd.ms-wmdrm.meter-chlg-req",
     "reference": "[Kevin_Lau]",
     "template": "application/vnd.ms-wmdrm.meter-chlg-req",
     "type": "application"
   },
   "application/vnd.ms-wmdrm.meter-resp": {
+    "encoding": "binary",
     "name": "vnd.ms-wmdrm.meter-resp",
     "reference": "[Kevin_Lau]",
     "template": "application/vnd.ms-wmdrm.meter-resp",
@@ -4140,36 +4463,42 @@
     "type": "application"
   },
   "application/vnd.multiad.creator": {
+    "encoding": "binary",
     "name": "vnd.multiad.creator",
     "reference": "[Steve_Mills]",
     "template": "application/vnd.multiad.creator",
     "type": "application"
   },
   "application/vnd.multiad.creator.cif": {
+    "encoding": "binary",
     "name": "vnd.multiad.creator.cif",
     "reference": "[Steve_Mills]",
     "template": "application/vnd.multiad.creator.cif",
     "type": "application"
   },
   "application/vnd.music-niff": {
+    "encoding": "binary",
     "name": "vnd.music-niff",
     "reference": "[Tim_Butler]",
     "template": "application/vnd.music-niff",
     "type": "application"
   },
   "application/vnd.musician": {
+    "encoding": "binary",
     "name": "vnd.musician",
     "reference": "[Greg_Adams]",
     "template": "application/vnd.musician",
     "type": "application"
   },
   "application/vnd.muvee.style": {
+    "encoding": "binary",
     "name": "vnd.muvee.style",
     "reference": "[Chandrashekhara_Anantharamu]",
     "template": "application/vnd.muvee.style",
     "type": "application"
   },
   "application/vnd.mynfc": {
+    "encoding": "binary",
     "name": "vnd.mynfc",
     "reference": "[Franck_Lefevre]",
     "template": "application/vnd.mynfc",
@@ -4188,6 +4517,7 @@
     "type": "application"
   },
   "application/vnd.nervana": {
+    "encoding": "binary",
     "name": "vnd.nervana",
     "reference": "[Steve_Judkins]",
     "template": "application/vnd.nervana",
@@ -4206,48 +4536,56 @@
     "type": "application"
   },
   "application/vnd.nintendo.nitro.rom": {
+    "encoding": "binary",
     "name": "vnd.nintendo.nitro.rom",
     "reference": "[Henrik_Andersson]",
     "template": "application/vnd.nintendo.nitro.rom",
     "type": "application"
   },
   "application/vnd.nintendo.snes.rom": {
+    "encoding": "binary",
     "name": "vnd.nintendo.snes.rom",
     "reference": "[Henrik_Andersson]",
     "template": "application/vnd.nintendo.snes.rom",
     "type": "application"
   },
   "application/vnd.nitf": {
+    "encoding": "binary",
     "name": "vnd.nitf",
     "reference": "[Steve_Rogan]",
     "template": "application/vnd.nitf",
     "type": "application"
   },
   "application/vnd.noblenet-directory": {
+    "encoding": "binary",
     "name": "vnd.noblenet-directory",
     "reference": "[Monty_Solomon]",
     "template": "application/vnd.noblenet-directory",
     "type": "application"
   },
   "application/vnd.noblenet-sealer": {
+    "encoding": "binary",
     "name": "vnd.noblenet-sealer",
     "reference": "[Monty_Solomon]",
     "template": "application/vnd.noblenet-sealer",
     "type": "application"
   },
   "application/vnd.noblenet-web": {
+    "encoding": "binary",
     "name": "vnd.noblenet-web",
     "reference": "[Monty_Solomon]",
     "template": "application/vnd.noblenet-web",
     "type": "application"
   },
   "application/vnd.nokia.catalogs": {
+    "encoding": "binary",
     "name": "vnd.nokia.catalogs",
     "reference": "[Nokia]",
     "template": "application/vnd.nokia.catalogs",
     "type": "application"
   },
   "application/vnd.nokia.conml+wbxml": {
+    "encoding": "binary",
     "name": "vnd.nokia.conml+wbxml",
     "reference": "[Nokia]",
     "template": "application/vnd.nokia.conml+wbxml",
@@ -4272,6 +4610,7 @@
     "type": "application"
   },
   "application/vnd.nokia.landmark+wbxml": {
+    "encoding": "binary",
     "name": "vnd.nokia.landmark+wbxml",
     "reference": "[Nokia]",
     "template": "application/vnd.nokia.landmark+wbxml",
@@ -4290,30 +4629,35 @@
     "type": "application"
   },
   "application/vnd.nokia.n-gage.ac+xml": {
+    "encoding": "binary",
     "name": "vnd.nokia.n-gage.ac+xml",
     "reference": "[Nokia]",
     "template": "application/vnd.nokia.n-gage.ac+xml",
     "type": "application"
   },
   "application/vnd.nokia.n-gage.data": {
+    "encoding": "binary",
     "name": "vnd.nokia.n-gage.data",
     "reference": "[Nokia]",
     "template": "application/vnd.nokia.n-gage.data",
     "type": "application"
   },
   "application/vnd.nokia.n-gage.symbian.install": {
+    "encoding": "binary",
     "name": "vnd.nokia.n-gage.symbian.install - OBSOLETE; no replacement given",
     "reference": "[Nokia]",
     "template": "application/vnd.nokia.n-gage.symbian.install",
     "type": "application"
   },
   "application/vnd.nokia.ncd": {
+    "encoding": "binary",
     "name": "vnd.nokia.ncd",
     "reference": "[Nokia]",
     "template": "application/vnd.nokia.ncd",
     "type": "application"
   },
   "application/vnd.nokia.pcd+wbxml": {
+    "encoding": "binary",
     "name": "vnd.nokia.pcd+wbxml",
     "reference": "[Nokia]",
     "template": "application/vnd.nokia.pcd+wbxml",
@@ -4356,156 +4700,182 @@
     "type": "application"
   },
   "application/vnd.ntt-local.content-share": {
+    "encoding": "binary",
     "name": "vnd.ntt-local.content-share",
     "reference": "[Akinori_Taya]",
     "template": "application/vnd.ntt-local.content-share",
     "type": "application"
   },
   "application/vnd.ntt-local.file-transfer": {
+    "encoding": "binary",
     "name": "vnd.ntt-local.file-transfer",
     "reference": "[NTT-local]",
     "template": "application/vnd.ntt-local.file-transfer",
     "type": "application"
   },
   "application/vnd.ntt-local.ogw_remote-access": {
+    "encoding": "binary",
     "name": "vnd.ntt-local.ogw_remote-access",
     "reference": "[NTT-local]",
     "template": "application/vnd.ntt-local.ogw_remote-access",
     "type": "application"
   },
   "application/vnd.ntt-local.sip-ta_remote": {
+    "encoding": "binary",
     "name": "vnd.ntt-local.sip-ta_remote",
     "reference": "[NTT-local]",
     "template": "application/vnd.ntt-local.sip-ta_remote",
     "type": "application"
   },
   "application/vnd.ntt-local.sip-ta_tcp_stream": {
+    "encoding": "binary",
     "name": "vnd.ntt-local.sip-ta_tcp_stream",
     "reference": "[NTT-local]",
     "template": "application/vnd.ntt-local.sip-ta_tcp_stream",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.chart": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.chart",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.chart",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.chart-template": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.chart-template",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.chart-template",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.database": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.database",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.database",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.formula": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.formula",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.formula",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.formula-template": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.formula-template",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.formula-template",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.graphics": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.graphics",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.graphics",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.graphics-template": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.graphics-template",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.graphics-template",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.image": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.image",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.image",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.image-template": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.image-template",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.image-template",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.presentation": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.presentation",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.presentation",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.presentation-template": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.presentation-template",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.presentation-template",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.spreadsheet": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.spreadsheet",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.spreadsheet",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.spreadsheet-template": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.spreadsheet-template",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.spreadsheet-template",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.text": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.text",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.text",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.text-master": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.text-master",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.text-master",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.text-template": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.text-template",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.text-template",
     "type": "application"
   },
   "application/vnd.oasis.opendocument.text-web": {
+    "encoding": "binary",
     "name": "vnd.oasis.opendocument.text-web",
     "reference": "[Svante_Schubert][OASIS]",
     "template": "application/vnd.oasis.opendocument.text-web",
     "type": "application"
   },
   "application/vnd.obn": {
+    "encoding": "binary",
     "name": "vnd.obn",
     "reference": "[Matthias_Hessling]",
     "template": "application/vnd.obn",
     "type": "application"
   },
   "application/vnd.oftn.l10n+json": {
+    "encoding": "binary",
     "name": "vnd.oftn.l10n+json",
     "reference": "[Eli_Grey]",
     "template": "application/vnd.oftn.l10n+json",
     "type": "application"
   },
   "application/vnd.oipf.contentaccessdownload+xml": {
+    "encoding": "binary",
     "name": "vnd.oipf.contentaccessdownload+xml",
     "reference": "[Claire_DEsclercs]",
     "template": "application/vnd.oipf.contentaccessdownload+xml",
     "type": "application"
   },
   "application/vnd.oipf.contentaccessstreaming+xml": {
+    "encoding": "binary",
     "name": "vnd.oipf.contentaccessstreaming+xml",
     "reference": "[Claire_DEsclercs]",
     "template": "application/vnd.oipf.contentaccessstreaming+xml",
@@ -4518,150 +4888,175 @@
     "type": "application"
   },
   "application/vnd.oipf.dae.svg+xml": {
+    "encoding": "binary",
     "name": "vnd.oipf.dae.svg+xml",
     "reference": "[Claire_DEsclercs]",
     "template": "application/vnd.oipf.dae.svg+xml",
     "type": "application"
   },
   "application/vnd.oipf.dae.xhtml+xml": {
+    "encoding": "binary",
     "name": "vnd.oipf.dae.xhtml+xml",
     "reference": "[Claire_DEsclercs]",
     "template": "application/vnd.oipf.dae.xhtml+xml",
     "type": "application"
   },
   "application/vnd.oipf.mippvcontrolmessage+xml": {
+    "encoding": "binary",
     "name": "vnd.oipf.mippvcontrolmessage+xml",
     "reference": "[Claire_DEsclercs]",
     "template": "application/vnd.oipf.mippvcontrolmessage+xml",
     "type": "application"
   },
   "application/vnd.oipf.pae.gem": {
+    "encoding": "binary",
     "name": "vnd.oipf.pae.gem",
     "reference": "[Claire_DEsclercs]",
     "template": "application/vnd.oipf.pae.gem",
     "type": "application"
   },
   "application/vnd.oipf.spdiscovery+xml": {
+    "encoding": "binary",
     "name": "vnd.oipf.spdiscovery+xml",
     "reference": "[Claire_DEsclercs]",
     "template": "application/vnd.oipf.spdiscovery+xml",
     "type": "application"
   },
   "application/vnd.oipf.spdlist+xml": {
+    "encoding": "binary",
     "name": "vnd.oipf.spdlist+xml",
     "reference": "[Claire_DEsclercs]",
     "template": "application/vnd.oipf.spdlist+xml",
     "type": "application"
   },
   "application/vnd.oipf.ueprofile+xml": {
+    "encoding": "binary",
     "name": "vnd.oipf.ueprofile+xml",
     "reference": "[Claire_DEsclercs]",
     "template": "application/vnd.oipf.ueprofile+xml",
     "type": "application"
   },
   "application/vnd.oipf.userprofile+xml": {
+    "encoding": "binary",
     "name": "vnd.oipf.userprofile+xml",
     "reference": "[Claire_DEsclercs]",
     "template": "application/vnd.oipf.userprofile+xml",
     "type": "application"
   },
   "application/vnd.olpc-sugar": {
+    "encoding": "binary",
     "name": "vnd.olpc-sugar",
     "reference": "[John_Palmieri]",
     "template": "application/vnd.olpc-sugar",
     "type": "application"
   },
   "application/vnd.oma-scws-config": {
+    "encoding": "binary",
     "name": "vnd.oma-scws-config",
     "reference": "[Ilan_Mahalal]",
     "template": "application/vnd.oma-scws-config",
     "type": "application"
   },
   "application/vnd.oma-scws-http-request": {
+    "encoding": "binary",
     "name": "vnd.oma-scws-http-request",
     "reference": "[Ilan_Mahalal]",
     "template": "application/vnd.oma-scws-http-request",
     "type": "application"
   },
   "application/vnd.oma-scws-http-response": {
+    "encoding": "binary",
     "name": "vnd.oma-scws-http-response",
     "reference": "[Ilan_Mahalal]",
     "template": "application/vnd.oma-scws-http-response",
     "type": "application"
   },
   "application/vnd.oma.bcast.associated-procedure-parameter+xml": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.associated-procedure-parameter+xml",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.associated-procedure-parameter+xml",
     "type": "application"
   },
   "application/vnd.oma.bcast.drm-trigger+xml": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.drm-trigger+xml",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.drm-trigger+xml",
     "type": "application"
   },
   "application/vnd.oma.bcast.imd+xml": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.imd+xml",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.imd+xml",
     "type": "application"
   },
   "application/vnd.oma.bcast.ltkm": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.ltkm",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.ltkm",
     "type": "application"
   },
   "application/vnd.oma.bcast.notification+xml": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.notification+xml",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.notification+xml",
     "type": "application"
   },
   "application/vnd.oma.bcast.provisioningtrigger": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.provisioningtrigger",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.provisioningtrigger",
     "type": "application"
   },
   "application/vnd.oma.bcast.sgboot": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.sgboot",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.sgboot",
     "type": "application"
   },
   "application/vnd.oma.bcast.sgdd+xml": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.sgdd+xml",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.sgdd+xml",
     "type": "application"
   },
   "application/vnd.oma.bcast.sgdu": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.sgdu",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.sgdu",
     "type": "application"
   },
   "application/vnd.oma.bcast.simple-symbol-container": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.simple-symbol-container",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.simple-symbol-container",
     "type": "application"
   },
   "application/vnd.oma.bcast.smartcard-trigger+xml": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.smartcard-trigger+xml",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.smartcard-trigger+xml",
     "type": "application"
   },
   "application/vnd.oma.bcast.sprov+xml": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.sprov+xml",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.sprov+xml",
     "type": "application"
   },
   "application/vnd.oma.bcast.stkm": {
+    "encoding": "binary",
     "name": "vnd.oma.bcast.stkm",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.bcast.stkm",
@@ -4698,24 +5093,28 @@
     "type": "application"
   },
   "application/vnd.oma.dcd": {
+    "encoding": "binary",
     "name": "vnd.oma.dcd",
     "reference": "[Avi_Primo][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.dcd",
     "type": "application"
   },
   "application/vnd.oma.dcdc": {
+    "encoding": "binary",
     "name": "vnd.oma.dcdc",
     "reference": "[Avi_Primo][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.dcdc",
     "type": "application"
   },
   "application/vnd.oma.dd2+xml": {
+    "encoding": "binary",
     "name": "vnd.oma.dd2+xml",
     "reference": "[Jun_Sato][Open_Mobile_Alliance_BAC_DLDRM_Working_Group]",
     "template": "application/vnd.oma.dd2+xml",
     "type": "application"
   },
   "application/vnd.oma.drm.risd+xml": {
+    "encoding": "binary",
     "name": "vnd.oma.drm.risd+xml",
     "reference": "[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.drm.risd+xml",
@@ -4728,6 +5127,7 @@
     "type": "application"
   },
   "application/vnd.oma.pal+xml": {
+    "encoding": "binary",
     "name": "vnd.oma.pal+xml",
     "reference": "[Brian_McColgan][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.pal+xml",
@@ -4764,12 +5164,14 @@
     "type": "application"
   },
   "application/vnd.oma.push": {
+    "encoding": "binary",
     "name": "vnd.oma.push",
     "reference": "[Bryan_Sullivan][OMA]",
     "template": "application/vnd.oma.push",
     "type": "application"
   },
   "application/vnd.oma.scidm.messages+xml": {
+    "encoding": "binary",
     "name": "vnd.oma.scidm.messages+xml",
     "reference": "[Wenjun_Zeng][OMNA-Open_Mobile_Naming_Authority]",
     "template": "application/vnd.oma.scidm.messages+xml",
@@ -4800,492 +5202,574 @@
     "type": "application"
   },
   "application/vnd.omaloc-supl-init": {
+    "encoding": "binary",
     "name": "vnd.omaloc-supl-init",
     "reference": "[Julien_Grange]",
     "template": "application/vnd.omaloc-supl-init",
     "type": "application"
   },
   "application/vnd.openeye.oeb": {
+    "encoding": "binary",
     "name": "vnd.openeye.oeb",
     "reference": "[Craig_Bruce]",
     "template": "application/vnd.openeye.oeb",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.custom-properties+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.custom-properties+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.custom-properties+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.customxmlproperties+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.customXmlProperties+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.customXmlProperties+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.drawing+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.drawing+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.drawing+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.drawingml.chart+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.drawingml.chart+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.drawingml.chart+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.drawingml.chartshapes+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.drawingml.diagramcolors+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.drawingml.diagramColors+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.drawingml.diagramColors+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.drawingml.diagramdata+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.drawingml.diagramData+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.drawingml.diagramData+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.drawingml.diagramlayout+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.drawingml.diagramLayout+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.drawingml.diagramLayout+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.drawingml.diagramstyle+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.drawingml.diagramStyle+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.drawingml.diagramStyle+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.extended-properties+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.extended-properties+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.extended-properties+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml-template": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.template",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml-template",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.commentauthors+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.commentAuthors+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.commentAuthors+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.comments+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.comments+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.comments+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.handoutmaster+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.handoutMaster+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.handoutMaster+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.notesmaster+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.notesMaster+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.notesMaster+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.notesslide+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.notesSlide+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.notesSlide+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.presentation": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.presentation",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.presentation.main+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.presprops+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.presProps+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.presProps+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.slide": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.slide",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.slide",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.slide+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.slide+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.slide+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.slidelayout+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.slideLayout+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.slidemaster+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.slideMaster+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.slideshow": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.slideshow",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.slideshow",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.slideupdateinfo+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.slideUpdateInfo+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.slideUpdateInfo+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.tablestyles+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.tableStyles+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.tableStyles+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.tags+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.tags+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.tags+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.template.main+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.template.main+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.template.main+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.presentationml.viewprops+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.presentationml.viewProps+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.presentationml.viewProps+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml-template": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.template",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml-template",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.calcchain+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.calcChain+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.calcChain+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.comments+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.connections+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.externallink+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.externalLink+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.externalLink+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcachedefinition+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheDefinition+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheDefinition+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcacherecords+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheRecords+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheRecords+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.pivottable+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.pivotTable+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.pivotTable+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.querytable+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.queryTable+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.queryTable+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.revisionheaders+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.revisionlog+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.sharedstrings+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.sheetmetadata+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.sheetMetadata+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheetMetadata+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.styles+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.table+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.tablesinglecells+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.tableSingleCells+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.tableSingleCells+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.usernames+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.userNames+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.userNames+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.volatiledependencies+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.volatileDependencies+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.volatileDependencies+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.theme+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.theme+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.theme+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.themeoverride+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.themeOverride+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.themeOverride+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.vmldrawing": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.vmlDrawing",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.vmlDrawing",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml-template": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.template",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml-template",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.comments+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.document",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.fonttable+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.footer+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.websettings+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-package.core-properties+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-package.core-properties+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-package.core-properties+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-package.digital-signature-xmlsignature+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml",
     "type": "application"
   },
   "application/vnd.openxmlformats-package.relationships+xml": {
+    "encoding": "binary",
     "name": "vnd.openxmlformats-package.relationships+xml",
     "reference": "[Makoto_Murata]",
     "template": "application/vnd.openxmlformats-package.relationships+xml",
     "type": "application"
   },
   "application/vnd.orange.indata": {
+    "encoding": "binary",
     "name": "vnd.orange.indata",
     "reference": "[CHATRAS_Bruno]",
     "template": "application/vnd.orange.indata",
     "type": "application"
   },
   "application/vnd.osa.netdeploy": {
+    "encoding": "binary",
     "name": "vnd.osa.netdeploy",
     "reference": "[Steven_Klos]",
     "template": "application/vnd.osa.netdeploy",
     "type": "application"
   },
   "application/vnd.osgeo.mapguide.package": {
+    "encoding": "binary",
     "name": "vnd.osgeo.mapguide.package",
     "reference": "[Jason_Birch]",
     "template": "application/vnd.osgeo.mapguide.package",
     "type": "application"
   },
   "application/vnd.osgi.bundle": {
+    "encoding": "binary",
     "name": "vnd.osgi.bundle",
     "reference": "[Peter_Kriens]",
     "template": "application/vnd.osgi.bundle",
     "type": "application"
   },
   "application/vnd.osgi.dp": {
+    "encoding": "binary",
     "name": "vnd.osgi.dp",
     "reference": "[Peter_Kriens]",
     "template": "application/vnd.osgi.dp",
     "type": "application"
   },
   "application/vnd.osgi.subsystem": {
+    "encoding": "binary",
     "name": "vnd.osgi.subsystem",
     "reference": "[Peter_Kriens]",
     "template": "application/vnd.osgi.subsystem",
@@ -5298,12 +5782,14 @@
     "type": "application"
   },
   "application/vnd.palm": {
+    "encoding": "binary",
     "name": "vnd.palm",
     "reference": "[Gavin_Peacock]",
     "template": "application/vnd.palm",
     "type": "application"
   },
   "application/vnd.panoply": {
+    "encoding": "binary",
     "name": "vnd.panoply",
     "reference": "[Natarajan_Balasundara]",
     "template": "application/vnd.panoply",
@@ -5316,12 +5802,14 @@
     "type": "application"
   },
   "application/vnd.pawaafile": {
+    "encoding": "binary",
     "name": "vnd.pawaafile",
     "reference": "[Prakash_Baskaran]",
     "template": "application/vnd.pawaafile",
     "type": "application"
   },
   "application/vnd.pcos": {
+    "encoding": "binary",
     "name": "vnd.pcos",
     "reference": "[Slawomir_Lisznianski]",
     "template": "application/vnd.pcos",
@@ -5346,12 +5834,14 @@
     "type": "application"
   },
   "application/vnd.picsel": {
+    "encoding": "binary",
     "name": "vnd.picsel",
     "reference": "[Giuseppe_Naccarato]",
     "template": "application/vnd.picsel",
     "type": "application"
   },
   "application/vnd.pmi.widget": {
+    "encoding": "binary",
     "name": "vnd.pmi.widget",
     "reference": "[Rhys_Lewis]",
     "template": "application/vnd.pmi.widget",
@@ -5364,48 +5854,56 @@
     "type": "application"
   },
   "application/vnd.pocketlearn": {
+    "encoding": "binary",
     "name": "vnd.pocketlearn",
     "reference": "[Jorge_Pando]",
     "template": "application/vnd.pocketlearn",
     "type": "application"
   },
   "application/vnd.powerbuilder6": {
+    "encoding": "binary",
     "name": "vnd.powerbuilder6",
     "reference": "[David_Guy]",
     "template": "application/vnd.powerbuilder6",
     "type": "application"
   },
   "application/vnd.powerbuilder6-s": {
+    "encoding": "binary",
     "name": "vnd.powerbuilder6-s",
     "reference": "[David_Guy]",
     "template": "application/vnd.powerbuilder6-s",
     "type": "application"
   },
   "application/vnd.powerbuilder7": {
+    "encoding": "binary",
     "name": "vnd.powerbuilder7",
     "reference": "[Reed_Shilts]",
     "template": "application/vnd.powerbuilder7",
     "type": "application"
   },
   "application/vnd.powerbuilder7-s": {
+    "encoding": "binary",
     "name": "vnd.powerbuilder7-s",
     "reference": "[Reed_Shilts]",
     "template": "application/vnd.powerbuilder7-s",
     "type": "application"
   },
   "application/vnd.powerbuilder75": {
+    "encoding": "binary",
     "name": "vnd.powerbuilder75",
     "reference": "[Reed_Shilts]",
     "template": "application/vnd.powerbuilder75",
     "type": "application"
   },
   "application/vnd.powerbuilder75-s": {
+    "encoding": "binary",
     "name": "vnd.powerbuilder75-s",
     "reference": "[Reed_Shilts]",
     "template": "application/vnd.powerbuilder75-s",
     "type": "application"
   },
   "application/vnd.preminet": {
+    "encoding": "binary",
     "name": "vnd.preminet",
     "reference": "[Juoko_Tenhunen]",
     "template": "application/vnd.preminet",
@@ -5418,18 +5916,21 @@
     "type": "application"
   },
   "application/vnd.proteus.magazine": {
+    "encoding": "binary",
     "name": "vnd.proteus.magazine",
     "reference": "[Pete_Hoch]",
     "template": "application/vnd.proteus.magazine",
     "type": "application"
   },
   "application/vnd.publishare-delta-tree": {
+    "encoding": "binary",
     "name": "vnd.publishare-delta-tree",
     "reference": "[Oren_Ben-Kiki]",
     "template": "application/vnd.publishare-delta-tree",
     "type": "application"
   },
   "application/vnd.pvi.ptid1": {
+    "encoding": "binary",
     "name": "vnd.pvi.ptid1",
     "reference": "[Charles_P._Lamb]",
     "template": "application/vnd.pvi.ptid1",
@@ -5448,6 +5949,7 @@
     "type": "application"
   },
   "application/vnd.qualcomm.brew-app-res": {
+    "encoding": "binary",
     "name": "vnd.qualcomm.brew-app-res",
     "reference": "[Glenn_Forrester]",
     "template": "application/vnd.qualcomm.brew-app-res",
@@ -5460,6 +5962,7 @@
     "type": "application"
   },
   "application/vnd.quobject-quoxdocument": {
+    "encoding": "binary",
     "name": "vnd.quobject-quoxdocument",
     "reference": "[Matthias_Ludwig]",
     "template": "application/vnd.quobject-quoxdocument",
@@ -5556,6 +6059,7 @@
     "type": "application"
   },
   "application/vnd.rainstor.data": {
+    "encoding": "binary",
     "name": "vnd.rainstor.data",
     "reference": "[Kevin_Crook]",
     "template": "application/vnd.rainstor.data",
@@ -5568,12 +6072,14 @@
     "type": "application"
   },
   "application/vnd.realvnc.bed": {
+    "encoding": "binary",
     "name": "vnd.realvnc.bed",
     "reference": "[Nick_Reeves]",
     "template": "application/vnd.realvnc.bed",
     "type": "application"
   },
   "application/vnd.recordare.musicxml": {
+    "encoding": "binary",
     "name": "vnd.recordare.musicxml",
     "reference": "[Michael_Good]",
     "template": "application/vnd.recordare.musicxml",
@@ -5586,12 +6092,14 @@
     "type": "application"
   },
   "application/vnd.renlearn.rlprint": {
+    "encoding": "binary",
     "name": "vnd.RenLearn.rlprint",
     "reference": "[James_Wick]",
     "template": "application/vnd.renlearn.rlprint",
     "type": "application"
   },
   "application/vnd.rig.cryptonote": {
+    "encoding": "binary",
     "name": "vnd.rig.cryptonote",
     "reference": "[Ken_Jibiki]",
     "template": "application/vnd.rig.cryptonote",
@@ -5622,12 +6130,14 @@
     "type": "application"
   },
   "application/vnd.sailingtracker.track": {
+    "encoding": "binary",
     "name": "vnd.sailingtracker.track",
     "reference": "[Heikki_Vesalainen]",
     "template": "application/vnd.sailingtracker.track",
     "type": "application"
   },
   "application/vnd.sbm.cid": {
+    "encoding": "binary",
     "name": "vnd.sbm.cid",
     "reference": "[Shinji_Kusakari]",
     "template": "application/vnd.sbm.cid",
@@ -5658,30 +6168,35 @@
     "type": "application"
   },
   "application/vnd.sealed.doc": {
+    "encoding": "binary",
     "name": "vnd.sealed.doc",
     "reference": "[David_Petersen]",
     "template": "application/vnd.sealed-doc",
     "type": "application"
   },
   "application/vnd.sealed.eml": {
+    "encoding": "binary",
     "name": "vnd.sealed.eml",
     "reference": "[David_Petersen]",
     "template": "application/vnd.sealed-eml",
     "type": "application"
   },
   "application/vnd.sealed.mht": {
+    "encoding": "binary",
     "name": "vnd.sealed.mht",
     "reference": "[David_Petersen]",
     "template": "application/vnd.sealed-mht",
     "type": "application"
   },
   "application/vnd.sealed.net": {
+    "encoding": "binary",
     "name": "vnd.sealed.net",
     "reference": "[Martin_Lambert]",
     "template": "application/vnd.sealed.net",
     "type": "application"
   },
   "application/vnd.sealed.ppt": {
+    "encoding": "binary",
     "name": "vnd.sealed.ppt",
     "reference": "[David_Petersen]",
     "template": "application/vnd.sealed-ppt",
@@ -5694,96 +6209,112 @@
     "type": "application"
   },
   "application/vnd.sealed.xls": {
+    "encoding": "binary",
     "name": "vnd.sealed.xls",
     "reference": "[David_Petersen]",
     "template": "application/vnd.sealed-xls",
     "type": "application"
   },
   "application/vnd.sealedmedia.softseal.html": {
+    "encoding": "binary",
     "name": "vnd.sealedmedia.softseal.html",
     "reference": "[David_Petersen]",
     "template": "application/vnd.sealedmedia.softseal-html",
     "type": "application"
   },
   "application/vnd.sealedmedia.softseal.pdf": {
+    "encoding": "binary",
     "name": "vnd.sealedmedia.softseal.pdf",
     "reference": "[David_Petersen]",
     "template": "application/vnd.sealedmedia.softseal-pdf",
     "type": "application"
   },
   "application/vnd.seemail": {
+    "encoding": "binary",
     "name": "vnd.seemail",
     "reference": "[Steve_Webb]",
     "template": "application/vnd.seemail",
     "type": "application"
   },
   "application/vnd.sema": {
+    "encoding": "binary",
     "name": "vnd.sema",
     "reference": "[Anders_Hansson]",
     "template": "application/vnd-sema",
     "type": "application"
   },
   "application/vnd.semd": {
+    "encoding": "binary",
     "name": "vnd.semd",
     "reference": "[Anders_Hansson]",
     "template": "application/vnd.semd",
     "type": "application"
   },
   "application/vnd.semf": {
+    "encoding": "binary",
     "name": "vnd.semf",
     "reference": "[Anders_Hansson]",
     "template": "application/vnd.semf",
     "type": "application"
   },
   "application/vnd.shana.informed.formdata": {
+    "encoding": "binary",
     "name": "vnd.shana.informed.formdata",
     "reference": "[Guy_Selzler]",
     "template": "application/vnd.shana.informed.formdata",
     "type": "application"
   },
   "application/vnd.shana.informed.formtemplate": {
+    "encoding": "binary",
     "name": "vnd.shana.informed.formtemplate",
     "reference": "[Guy_Selzler]",
     "template": "application/vnd.shana.informed.formtemplate",
     "type": "application"
   },
   "application/vnd.shana.informed.interchange": {
+    "encoding": "binary",
     "name": "vnd.shana.informed.interchange",
     "reference": "[Guy_Selzler]",
     "template": "application/vnd.shana.informed.interchange",
     "type": "application"
   },
   "application/vnd.shana.informed.package": {
+    "encoding": "binary",
     "name": "vnd.shana.informed.package",
     "reference": "[Guy_Selzler]",
     "template": "application/vnd.shana.informed.package",
     "type": "application"
   },
   "application/vnd.simtech-mindmapper": {
+    "encoding": "binary",
     "name": "vnd.SimTech-MindMapper",
     "reference": "[Patrick_Koh]",
     "template": "application/vnd.SimTech-MindMapper",
     "type": "application"
   },
   "application/vnd.siren+json": {
+    "encoding": "binary",
     "name": "vnd.siren+json",
     "reference": "[Kevin_Swiber]",
     "template": "application/vnd.siren+json",
     "type": "application"
   },
   "application/vnd.smaf": {
+    "encoding": "binary",
     "name": "vnd.smaf",
     "reference": "[Hiroaki_Takahashi]",
     "template": "application/vnd.smaf",
     "type": "application"
   },
   "application/vnd.smart.notebook": {
+    "encoding": "binary",
     "name": "vnd.smart.notebook",
     "reference": "[Jonathan_Neitz]",
     "template": "application/vnd.smart.notebook",
     "type": "application"
   },
   "application/vnd.smart.teacher": {
+    "encoding": "binary",
     "name": "vnd.smart.teacher",
     "reference": "[Michael_Boyle]",
     "template": "application/vnd.smart.teacher",
@@ -5796,6 +6327,7 @@
     "type": "application"
   },
   "application/vnd.software602.filler.form-xml-zip": {
+    "encoding": "binary",
     "name": "vnd.software602.filler.form-xml-zip",
     "reference": "[Jakub_Hytka][Martin_Vondrous]",
     "template": "application/vnd.software602.filler.form-xml-zip",
@@ -5808,36 +6340,42 @@
     "type": "application"
   },
   "application/vnd.spotfire.dxp": {
+    "encoding": "binary",
     "name": "vnd.spotfire.dxp",
     "reference": "[Stefan_Jernberg]",
     "template": "application/vnd.spotfire.dxp",
     "type": "application"
   },
   "application/vnd.spotfire.sfs": {
+    "encoding": "binary",
     "name": "vnd.spotfire.sfs",
     "reference": "[Stefan_Jernberg]",
     "template": "application/vnd.spotfire.sfs",
     "type": "application"
   },
   "application/vnd.sss-cod": {
+    "encoding": "binary",
     "name": "vnd.sss-cod",
     "reference": "[Asang_Dani]",
     "template": "application/vnd.sss-cod",
     "type": "application"
   },
   "application/vnd.sss-dtf": {
+    "encoding": "binary",
     "name": "vnd.sss-dtf",
     "reference": "[Eric_Bruno]",
     "template": "application/vnd.sss-dtf",
     "type": "application"
   },
   "application/vnd.sss-ntf": {
+    "encoding": "binary",
     "name": "vnd.sss-ntf",
     "reference": "[Eric_Bruno]",
     "template": "application/vnd.sss-ntf",
     "type": "application"
   },
   "application/vnd.stepmania.package": {
+    "encoding": "binary",
     "name": "vnd.stepmania.package",
     "reference": "[Henrik_Andersson]",
     "template": "application/vnd.stepmania.package",
@@ -5850,6 +6388,7 @@
     "type": "application"
   },
   "application/vnd.street-stream": {
+    "encoding": "binary",
     "name": "vnd.street-stream",
     "reference": "[Glenn_Levitt]",
     "template": "application/vnd.street-stream",
@@ -5868,6 +6407,7 @@
     "type": "application"
   },
   "application/vnd.svd": {
+    "encoding": "binary",
     "name": "vnd.svd",
     "reference": "[Scott_Becker]",
     "template": "application/vnd.svd",
@@ -5898,12 +6438,14 @@
     "type": "application"
   },
   "application/vnd.syncml.dm.notification": {
+    "encoding": "binary",
     "name": "vnd.syncml.dm.notification",
     "reference": "[Peter_Thompson][OMA-DM_Work_Group]",
     "template": "application/vnd.syncml.dm.notification",
     "type": "application"
   },
   "application/vnd.syncml.dmddf+wbxml": {
+    "encoding": "binary",
     "name": "vnd.syncml.dmddf+wbxml",
     "reference": "[OMA-DM_Work_Group]",
     "template": "application/vnd.syncml.dmddf+wbxml",
@@ -5916,6 +6458,7 @@
     "type": "application"
   },
   "application/vnd.syncml.dmtnds+wbxml": {
+    "encoding": "binary",
     "name": "vnd.syncml.dmtnds+wbxml",
     "reference": "[OMA-DM_Work_Group]",
     "template": "application/vnd.syncml.dmtnds+wbxml",
@@ -5928,30 +6471,35 @@
     "type": "application"
   },
   "application/vnd.syncml.ds.notification": {
+    "encoding": "binary",
     "name": "vnd.syncml.ds.notification",
     "reference": "[OMA_Data_Synchronization_Working_Group]",
     "template": "application/vnd.syncml.ds.notification",
     "type": "application"
   },
   "application/vnd.tao.intent-module-archive": {
+    "encoding": "binary",
     "name": "vnd.tao.intent-module-archive",
     "reference": "[Daniel_Shelton]",
     "template": "application/vnd.tao.intent-module-archive",
     "type": "application"
   },
   "application/vnd.tcpdump.pcap": {
+    "encoding": "binary",
     "name": "vnd.tcpdump.pcap",
     "reference": "[Guy_Harris][Glen_Turner]",
     "template": "application/vnd.tcpdump.pcap",
     "type": "application"
   },
   "application/vnd.tmd.mediaflex.api+xml": {
+    "encoding": "binary",
     "name": "vnd.tmd.mediaflex.api+xml",
     "reference": "[Alex_Sibilev]",
     "template": "application/vnd.tmd.mediaflex.api+xml",
     "type": "application"
   },
   "application/vnd.tmobile-livetv": {
+    "encoding": "binary",
     "name": "vnd.tmobile-livetv",
     "reference": "[Nicolas_Helin]",
     "template": "application/vnd.tmobile-livetv",
@@ -5964,24 +6512,28 @@
     "type": "application"
   },
   "application/vnd.triscape.mxs": {
+    "encoding": "binary",
     "name": "vnd.triscape.mxs",
     "reference": "[Steven_Simonoff]",
     "template": "application/vnd.triscape.mxs",
     "type": "application"
   },
   "application/vnd.trueapp": {
+    "encoding": "binary",
     "name": "vnd.trueapp",
     "reference": "[J._Scott_Hepler]",
     "template": "application/vnd.trueapp",
     "type": "application"
   },
   "application/vnd.truedoc": {
+    "encoding": "binary",
     "name": "vnd.truedoc",
     "reference": "[Brad_Chase]",
     "template": "application/vnd.truedoc",
     "type": "application"
   },
   "application/vnd.ubisoft.webplayer": {
+    "encoding": "binary",
     "name": "vnd.ubisoft.webplayer",
     "reference": "[Martin_Talbot]",
     "template": "application/vnd.ubisoft.webplayer",
@@ -5994,18 +6546,21 @@
     "type": "application"
   },
   "application/vnd.uiq.theme": {
+    "encoding": "binary",
     "name": "vnd.uiq.theme",
     "reference": "[Tim_Ocock]",
     "template": "application/vnd.uiq.theme",
     "type": "application"
   },
   "application/vnd.umajin": {
+    "encoding": "binary",
     "name": "vnd.umajin",
     "reference": "[Jamie_Riden]",
     "template": "application/vnd.umajin",
     "type": "application"
   },
   "application/vnd.unity": {
+    "encoding": "binary",
     "name": "vnd.unity",
     "reference": "[Unity3d]",
     "template": "application/vnd.unity",
@@ -6090,6 +6645,7 @@
     "type": "application"
   },
   "application/vnd.uplanet.signal": {
+    "encoding": "binary",
     "name": "vnd.uplanet.signal",
     "reference": "[Bruce_Martin]",
     "template": "application/vnd.uplanet.signal",
@@ -6108,18 +6664,21 @@
     "type": "application"
   },
   "application/vnd.vd-study": {
+    "encoding": "binary",
     "name": "vnd.vd-study",
     "reference": "[Luc_Rogge]",
     "template": "application/vnd.vd-study",
     "type": "application"
   },
   "application/vnd.vectorworks": {
+    "encoding": "binary",
     "name": "vnd.vectorworks",
     "reference": "[Lyndsey_Ferguson][Biplab_Sarkar]",
     "template": "application/vnd.vectorworks",
     "type": "application"
   },
   "application/vnd.verimatrix.vcas": {
+    "encoding": "binary",
     "name": "vnd.verimatrix.vcas",
     "reference": "[Petr_Peterka]",
     "template": "application/vnd.verimatrix.vcas",
@@ -6132,12 +6691,14 @@
     "type": "application"
   },
   "application/vnd.visio": {
+    "encoding": "binary",
     "name": "vnd.visio",
     "reference": "[Troy_Sandal]",
     "template": "application/vnd.visio",
     "type": "application"
   },
   "application/vnd.visionary": {
+    "encoding": "binary",
     "name": "vnd.visionary",
     "reference": "[Gayatri_Aravindakumar]",
     "template": "application/vnd.visionary",
@@ -6150,6 +6711,7 @@
     "type": "application"
   },
   "application/vnd.vsf": {
+    "encoding": "binary",
     "name": "vnd.vsf",
     "reference": "[Delton_Rowe]",
     "template": "application/vnd.vsf",
@@ -6186,24 +6748,28 @@
     "type": "application"
   },
   "application/vnd.webturbo": {
+    "encoding": "binary",
     "name": "vnd.webturbo",
     "reference": "[Yaser_Rehem]",
     "template": "application/vnd.webturbo",
     "type": "application"
   },
   "application/vnd.wfa.p2p": {
+    "encoding": "binary",
     "name": "vnd.wfa.p2p",
     "reference": "[Mick_Conley]",
     "template": "application/vnd.wfa.p2p",
     "type": "application"
   },
   "application/vnd.wfa.wsc": {
+    "encoding": "binary",
     "name": "vnd.wfa.wsc",
     "reference": "[Wi-Fi_Alliance]",
     "template": "application/vnd.wfa.wsc",
     "type": "application"
   },
   "application/vnd.windows.devicepairing": {
+    "encoding": "binary",
     "name": "vnd.windows.devicepairing",
     "reference": "[Priya_Dandawate]",
     "template": "application/vnd.windows.devicepairing",
@@ -6216,6 +6782,7 @@
     "type": "application"
   },
   "application/vnd.wmf.bootstrap": {
+    "encoding": "binary",
     "name": "vnd.wmf.bootstrap",
     "reference": "[Thinh_Nguyenphu][Prakash_Iyer]",
     "template": "application/vnd.wmf.bootstrap",
@@ -6240,30 +6807,35 @@
     "type": "application"
   },
   "application/vnd.wordperfect": {
+    "encoding": "binary",
     "name": "vnd.wordperfect",
     "reference": "[Kim_Scarborough]",
     "template": "application/vnd.wordperfect",
     "type": "application"
   },
   "application/vnd.wqd": {
+    "encoding": "binary",
     "name": "vnd.wqd",
     "reference": "[Jan_Bostrom]",
     "template": "application/vnd.wqd",
     "type": "application"
   },
   "application/vnd.wrq-hp3000-labelled": {
+    "encoding": "binary",
     "name": "vnd.wrq-hp3000-labelled",
     "reference": "[Chris_Bartram]",
     "template": "application/vnd.wrq-hp3000-labelled",
     "type": "application"
   },
   "application/vnd.wt.stf": {
+    "encoding": "binary",
     "name": "vnd.wt.stf",
     "reference": "[Bill_Wohler]",
     "template": "application/vnd.wt.stf",
     "type": "application"
   },
   "application/vnd.wv.csp+wbxml": {
+    "encoding": "binary",
     "name": "vnd.wv.csp+wbxml",
     "reference": "[Matti_Salmi]",
     "template": "application/vnd.wv.csp+wbxml",
@@ -6300,6 +6872,7 @@
     "type": "application"
   },
   "application/vnd.xfdl.webform": {
+    "encoding": "binary",
     "name": "vnd.xfdl.webform",
     "reference": "[Michael_Mansell]",
     "template": "application/vnd.xfdl.webform",
@@ -6312,54 +6885,63 @@
     "type": "application"
   },
   "application/vnd.xmpie.cpkg": {
+    "encoding": "binary",
     "name": "vnd.xmpie.cpkg",
     "reference": "[Reuven_Sherwin]",
     "template": "application/vnd.xmpie.cpkg",
     "type": "application"
   },
   "application/vnd.xmpie.dpkg": {
+    "encoding": "binary",
     "name": "vnd.xmpie.dpkg",
     "reference": "[Reuven_Sherwin]",
     "template": "application/vnd.xmpie.dpkg",
     "type": "application"
   },
   "application/vnd.xmpie.plan": {
+    "encoding": "binary",
     "name": "vnd.xmpie.plan",
     "reference": "[Reuven_Sherwin]",
     "template": "application/vnd.xmpie.plan",
     "type": "application"
   },
   "application/vnd.xmpie.ppkg": {
+    "encoding": "binary",
     "name": "vnd.xmpie.ppkg",
     "reference": "[Reuven_Sherwin]",
     "template": "application/vnd.xmpie.ppkg",
     "type": "application"
   },
   "application/vnd.xmpie.xlim": {
+    "encoding": "binary",
     "name": "vnd.xmpie.xlim",
     "reference": "[Reuven_Sherwin]",
     "template": "application/vnd.xmpie.xlim",
     "type": "application"
   },
   "application/vnd.yamaha.hv-dic": {
+    "encoding": "binary",
     "name": "vnd.yamaha.hv-dic",
     "reference": "[Tomohiro_Yamamoto]",
     "template": "application/vnd.yamaha.hv-dic",
     "type": "application"
   },
   "application/vnd.yamaha.hv-script": {
+    "encoding": "binary",
     "name": "vnd.yamaha.hv-script",
     "reference": "[Tomohiro_Yamamoto]",
     "template": "application/vnd.yamaha.hv-script",
     "type": "application"
   },
   "application/vnd.yamaha.hv-voice": {
+    "encoding": "binary",
     "name": "vnd.yamaha.hv-voice",
     "reference": "[Tomohiro_Yamamoto]",
     "template": "application/vnd.yamaha.hv-voice",
     "type": "application"
   },
   "application/vnd.yamaha.openscoreformat": {
+    "encoding": "binary",
     "name": "vnd.yamaha.openscoreformat",
     "reference": "[Mark_Olleson]",
     "template": "application/vnd.yamaha.openscoreformat",
@@ -6378,30 +6960,35 @@
     "type": "application"
   },
   "application/vnd.yamaha.smaf-audio": {
+    "encoding": "binary",
     "name": "vnd.yamaha.smaf-audio",
     "reference": "[Keiichi_Shinoda]",
     "template": "application/vnd.yamaha.smaf-audio",
     "type": "application"
   },
   "application/vnd.yamaha.smaf-phrase": {
+    "encoding": "binary",
     "name": "vnd.yamaha.smaf-phrase",
     "reference": "[Keiichi_Shinoda]",
     "template": "application/vnd.yamaha.smaf-phrase",
     "type": "application"
   },
   "application/vnd.yamaha.through-ngn": {
+    "encoding": "binary",
     "name": "vnd.yamaha.through-ngn",
     "reference": "[Takehiro_Sukizaki]",
     "template": "application/vnd.yamaha.through-ngn",
     "type": "application"
   },
   "application/vnd.yamaha.tunnel-udpencap": {
+    "encoding": "binary",
     "name": "vnd.yamaha.tunnel-udpencap",
     "reference": "[Takehiro_Sukizaki]",
     "template": "application/vnd.yamaha.tunnel-udpencap",
     "type": "application"
   },
   "application/vnd.yaoweme": {
+    "encoding": "binary",
     "name": "vnd.yaoweme",
     "reference": "[Jens_Jorgensen]",
     "template": "application/vnd.yaoweme",
@@ -6414,6 +7001,7 @@
     "type": "application"
   },
   "application/vnd.zul": {
+    "encoding": "binary",
     "name": "vnd.zul",
     "reference": "[Rene_Grothmann]",
     "template": "application/vnd.zul",
@@ -6462,12 +7050,14 @@
     "type": "application"
   },
   "application/wita": {
+    "encoding": "binary",
     "name": "wita",
     "reference": "[Larry_Campbell]",
     "template": "application/wita",
     "type": "application"
   },
   "application/wordperfect5.1": {
+    "encoding": "binary",
     "name": "wordperfect5.1",
     "reference": "[Paul_Lindner]",
     "template": "application/wordperfect5.1",
@@ -6558,6 +7148,7 @@
     "type": "application"
   },
   "application/xhtml+xml": {
+    "encoding": "binary",
     "name": "xhtml+xml",
     "reference": "[W3C][Robin_Berjon]",
     "template": "application/xhtml+xml",
@@ -6630,42 +7221,49 @@
     "type": "application"
   },
   "application/zip": {
+    "encoding": "binary",
     "name": "zip",
     "reference": "[Paul_Lindner]",
     "template": "application/zip",
     "type": "application"
   },
   "application/zlib": {
+    "encoding": "binary",
     "name": "zlib",
     "reference": "[RFC6713]",
     "template": "application/zlib",
     "type": "application"
   },
   "audio/1d-interleaved-parityfec": {
+    "encoding": "binary",
     "name": "1d-interleaved-parityfec",
     "reference": "[RFC6015]",
     "template": "audio/1d-interleaved-parityfec",
     "type": "audio"
   },
   "audio/32kadpcm": {
+    "encoding": "binary",
     "name": "32kadpcm",
     "reference": "[RFC3802][RFC2421]",
     "template": "audio/32kadpcm",
     "type": "audio"
   },
   "audio/3gpp": {
+    "encoding": "binary",
     "name": "3gpp",
     "reference": "[RFC3839][RFC6381]",
     "template": "audio/3gpp",
     "type": "audio"
   },
   "audio/3gpp2": {
+    "encoding": "binary",
     "name": "3gpp2",
     "reference": "[RFC4393][RFC6381]",
     "template": "audio/3gpp2",
     "type": "audio"
   },
   "audio/G7221": {
+    "encoding": "binary",
     "name": "G7221",
     "reference": "[RFC5577]",
     "template": "audio/G7221",
@@ -6678,48 +7276,56 @@
     "type": "audio"
   },
   "audio/amr": {
+    "encoding": "binary",
     "name": "AMR",
     "reference": "[RFC4867]",
     "template": "audio/AMR",
     "type": "audio"
   },
   "audio/amr-wb": {
+    "encoding": "binary",
     "name": "AMR-WB",
     "reference": "[RFC4867]",
     "template": "audio/AMR-WB",
     "type": "audio"
   },
   "audio/amr-wb+": {
+    "encoding": "binary",
     "name": "amr-wb+",
     "reference": "[RFC4352]",
     "template": "audio/amr-wb+",
     "type": "audio"
   },
   "audio/aptx": {
+    "encoding": "binary",
     "name": "aptx",
     "reference": "[RFC7310]",
     "template": "audio/aptx",
     "type": "audio"
   },
   "audio/asc": {
+    "encoding": "binary",
     "name": "asc",
     "reference": "[RFC6295]",
     "template": "audio/asc",
     "type": "audio"
   },
   "audio/atrac-advanced-lossless": {
+    "encoding": "binary",
     "name": "ATRAC-ADVANCED-LOSSLESS",
     "reference": "[RFC5584]",
     "template": "audio/ATRAC-ADVANCED-LOSSLESS",
     "type": "audio"
   },
   "audio/atrac-x": {
+    "encoding": "binary",
     "name": "ATRAC-X",
     "reference": "[RFC5584]",
     "template": "audio/ATRAC-X",
     "type": "audio"
   },
   "audio/atrac3": {
+    "encoding": "binary",
     "name": "ATRAC3",
     "reference": "[RFC5584]",
     "template": "audio/ATRAC3",
@@ -6732,12 +7338,14 @@
     "type": "audio"
   },
   "audio/bv16": {
+    "encoding": "binary",
     "name": "BV16",
     "reference": "[RFC4298]",
     "template": "audio/BV16",
     "type": "audio"
   },
   "audio/bv32": {
+    "encoding": "binary",
     "name": "BV32",
     "reference": "[RFC4298]",
     "template": "audio/BV32",
@@ -6762,6 +7370,7 @@
     "type": "audio"
   },
   "audio/dls": {
+    "encoding": "binary",
     "name": "dls",
     "reference": "[RFC4613]",
     "template": "audio/dls",
@@ -6798,12 +7407,14 @@
     "type": "audio"
   },
   "audio/dvi4": {
+    "encoding": "binary",
     "name": "DVI4",
     "reference": "[RFC4856]",
     "template": "audio/DVI4",
     "type": "audio"
   },
   "audio/eac3": {
+    "encoding": "binary",
     "name": "eac3",
     "reference": "[RFC4598]",
     "template": "audio/eac3",
@@ -6816,6 +7427,7 @@
     "type": "audio"
   },
   "audio/evrc": {
+    "encoding": "binary",
     "name": "EVRC",
     "reference": "[RFC4788]",
     "template": "audio/EVRC",
@@ -6828,126 +7440,147 @@
     "type": "audio"
   },
   "audio/evrc0": {
+    "encoding": "binary",
     "name": "EVRC0",
     "reference": "[RFC4788]",
     "template": "audio/EVRC0",
     "type": "audio"
   },
   "audio/evrc1": {
+    "encoding": "binary",
     "name": "EVRC1",
     "reference": "[RFC4788]",
     "template": "audio/EVRC1",
     "type": "audio"
   },
   "audio/evrcb": {
+    "encoding": "binary",
     "name": "EVRCB",
     "reference": "[RFC5188]",
     "template": "audio/EVRCB",
     "type": "audio"
   },
   "audio/evrcb0": {
+    "encoding": "binary",
     "name": "EVRCB0",
     "reference": "[RFC5188]",
     "template": "audio/EVRCB0",
     "type": "audio"
   },
   "audio/evrcb1": {
+    "encoding": "binary",
     "name": "EVRCB1",
     "reference": "[RFC4788]",
     "template": "audio/EVRCB1",
     "type": "audio"
   },
   "audio/evrcnw": {
+    "encoding": "binary",
     "name": "EVRCNW",
     "reference": "[RFC6884]",
     "template": "audio/EVRCNW",
     "type": "audio"
   },
   "audio/evrcnw0": {
+    "encoding": "binary",
     "name": "EVRCNW0",
     "reference": "[RFC6884]",
     "template": "audio/EVRCNW0",
     "type": "audio"
   },
   "audio/evrcnw1": {
+    "encoding": "binary",
     "name": "EVRCNW1",
     "reference": "[RFC6884]",
     "template": "audio/EVRCNW1",
     "type": "audio"
   },
   "audio/evrcwb": {
+    "encoding": "binary",
     "name": "EVRCWB",
     "reference": "[RFC5188]",
     "template": "audio/EVRCWB",
     "type": "audio"
   },
   "audio/evrcwb0": {
+    "encoding": "binary",
     "name": "EVRCWB0",
     "reference": "[RFC5188]",
     "template": "audio/EVRCWB0",
     "type": "audio"
   },
   "audio/evrcwb1": {
+    "encoding": "binary",
     "name": "EVRCWB1",
     "reference": "[RFC5188]",
     "template": "audio/EVRCWB1",
     "type": "audio"
   },
   "audio/fwdred": {
+    "encoding": "binary",
     "name": "fwdred",
     "reference": "[RFC6354]",
     "template": "audio/fwdred",
     "type": "audio"
   },
   "audio/g719": {
+    "encoding": "binary",
     "name": "G719",
     "reference": "[RFC5404][RFC Errata \n          3245]",
     "template": "audio/G719",
     "type": "audio"
   },
   "audio/g722": {
+    "encoding": "binary",
     "name": "G722",
     "reference": "[RFC4856]",
     "template": "audio/G722",
     "type": "audio"
   },
   "audio/g723": {
+    "encoding": "binary",
     "name": "G723",
     "reference": "[RFC4856]",
     "template": "audio/G723",
     "type": "audio"
   },
   "audio/g726-16": {
+    "encoding": "binary",
     "name": "G726-16",
     "reference": "[RFC4856]",
     "template": "audio/G726-16",
     "type": "audio"
   },
   "audio/g726-24": {
+    "encoding": "binary",
     "name": "G726-24",
     "reference": "[RFC4856]",
     "template": "audio/G726-24",
     "type": "audio"
   },
   "audio/g726-32": {
+    "encoding": "binary",
     "name": "G726-32",
     "reference": "[RFC4856]",
     "template": "audio/G726-32",
     "type": "audio"
   },
   "audio/g726-40": {
+    "encoding": "binary",
     "name": "G726-40",
     "reference": "[RFC4856]",
     "template": "audio/G726-40",
     "type": "audio"
   },
   "audio/g728": {
+    "encoding": "binary",
     "name": "G728",
     "reference": "[RFC4856]",
     "template": "audio/G728",
     "type": "audio"
   },
   "audio/g729": {
+    "encoding": "binary",
     "name": "G729",
     "reference": "[RFC4856]",
     "template": "audio/G729",
@@ -6960,48 +7593,56 @@
     "type": "audio"
   },
   "audio/g729d": {
+    "encoding": "binary",
     "name": "G729D",
     "reference": "[RFC4856]",
     "template": "audio/G729D",
     "type": "audio"
   },
   "audio/g729e": {
+    "encoding": "binary",
     "name": "G729E",
     "reference": "[RFC4856]",
     "template": "audio/G729E",
     "type": "audio"
   },
   "audio/gsm": {
+    "encoding": "binary",
     "name": "GSM",
     "reference": "[RFC4856]",
     "template": "audio/GSM",
     "type": "audio"
   },
   "audio/gsm-efr": {
+    "encoding": "binary",
     "name": "GSM-EFR",
     "reference": "[RFC4856]",
     "template": "audio/GSM-EFR",
     "type": "audio"
   },
   "audio/gsm-hr-08": {
+    "encoding": "binary",
     "name": "GSM-HR-08",
     "reference": "[RFC5993]",
     "template": "audio/GSM-HR-08",
     "type": "audio"
   },
   "audio/ilbc": {
+    "encoding": "binary",
     "name": "iLBC",
     "reference": "[RFC3952]",
     "template": "audio/iLBC",
     "type": "audio"
   },
   "audio/ip-mr_v2.5": {
+    "encoding": "binary",
     "name": "ip-mr_v2.5",
     "reference": "[RFC6262]",
     "template": "audio/ip-mr_v2.5",
     "type": "audio"
   },
   "audio/l16": {
+    "encoding": "binary",
     "name": "L16",
     "reference": "[RFC4856]",
     "template": "audio/L16",
@@ -7020,24 +7661,28 @@
     "type": "audio"
   },
   "audio/l8": {
+    "encoding": "binary",
     "name": "L8",
     "reference": "[RFC4856]",
     "template": "audio/L8",
     "type": "audio"
   },
   "audio/lpc": {
+    "encoding": "binary",
     "name": "LPC",
     "reference": "[RFC4856]",
     "template": "audio/LPC",
     "type": "audio"
   },
   "audio/mobile-xmf": {
+    "encoding": "binary",
     "name": "mobile-xmf",
     "reference": "[RFC4723]",
     "template": "audio/mobile-xmf",
     "type": "audio"
   },
   "audio/mp4": {
+    "encoding": "binary",
     "name": "mp4",
     "reference": "[RFC4337][RFC6381]",
     "template": "audio/mp4",
@@ -7062,12 +7707,14 @@
     "type": "audio"
   },
   "audio/mpeg": {
+    "encoding": "binary",
     "name": "mpeg",
     "reference": "[RFC3003]",
     "template": "audio/mpeg",
     "type": "audio"
   },
   "audio/mpeg4-generic": {
+    "encoding": "binary",
     "name": "mpeg4-generic",
     "reference": "[RFC3640][RFC5691][RFC6295]",
     "template": "audio/mpeg4-generic",
@@ -7086,30 +7733,35 @@
     "type": "audio"
   },
   "audio/pcma": {
+    "encoding": "binary",
     "name": "PCMA",
     "reference": "[RFC4856]",
     "template": "audio/PCMA",
     "type": "audio"
   },
   "audio/pcma-wb": {
+    "encoding": "binary",
     "name": "PCMA-WB",
     "reference": "[RFC5391]",
     "template": "audio/PCMA-WB",
     "type": "audio"
   },
   "audio/pcmu": {
+    "encoding": "binary",
     "name": "PCMU",
     "reference": "[RFC4856]",
     "template": "audio/PCMU",
     "type": "audio"
   },
   "audio/pcmu-wb": {
+    "encoding": "binary",
     "name": "PCMU-WB",
     "reference": "[RFC5391]",
     "template": "audio/PCMU-WB",
     "type": "audio"
   },
   "audio/prs.sid": {
+    "encoding": "binary",
     "name": "prs.sid",
     "reference": "[Linus_Walleij]",
     "template": "audio/prs.sid",
@@ -7122,6 +7774,7 @@
     "type": "audio"
   },
   "audio/raptorfec": {
+    "encoding": "binary",
     "name": "raptorfec",
     "reference": "[RFC6682]",
     "template": "audio/raptorfec",
@@ -7134,12 +7787,14 @@
     "type": "audio"
   },
   "audio/rtp-enc-aescm128": {
+    "encoding": "binary",
     "name": "rtp-enc-aescm128",
     "reference": "[ThreeGPP]",
     "template": "audio/rtp-enc-aescm128",
     "type": "audio"
   },
   "audio/rtp-midi": {
+    "encoding": "binary",
     "name": "rtp-midi",
     "reference": "[RFC6295]",
     "template": "audio/rtp-midi",
@@ -7176,12 +7831,14 @@
     "type": "audio"
   },
   "audio/sp-midi": {
+    "encoding": "binary",
     "name": "sp-midi",
     "reference": "[Timo_Kosonen][Tom_White]",
     "template": "audio/sp-midi",
     "type": "audio"
   },
   "audio/speex": {
+    "encoding": "binary",
     "name": "speex",
     "reference": "[RFC5574]",
     "template": "audio/speex",
@@ -7200,30 +7857,35 @@
     "type": "audio"
   },
   "audio/telephone-event": {
+    "encoding": "binary",
     "name": "telephone-event",
     "reference": "[RFC4733]",
     "template": "audio/telephone-event",
     "type": "audio"
   },
   "audio/tone": {
+    "encoding": "binary",
     "name": "tone",
     "reference": "[RFC4733]",
     "template": "audio/tone",
     "type": "audio"
   },
   "audio/uemclip": {
+    "encoding": "binary",
     "name": "UEMCLIP",
     "reference": "[RFC5686]",
     "template": "audio/UEMCLIP",
     "type": "audio"
   },
   "audio/ulpfec": {
+    "encoding": "binary",
     "name": "ulpfec",
     "reference": "[RFC5109]",
     "template": "audio/ulpfec",
     "type": "audio"
   },
   "audio/vdvi": {
+    "encoding": "binary",
     "name": "VDVI",
     "reference": "[RFC4856]",
     "template": "audio/VDVI",
@@ -7236,24 +7898,28 @@
     "type": "audio"
   },
   "audio/vnd.3gpp.iufp": {
+    "encoding": "binary",
     "name": "vnd.3gpp.iufp",
     "reference": "[Thomas_Belling]",
     "template": "audio/vnd.3gpp.iufp",
     "type": "audio"
   },
   "audio/vnd.4sb": {
+    "encoding": "binary",
     "name": "vnd.4SB",
     "reference": "[Serge_De_Jaham]",
     "template": "audio/vnd.4SB",
     "type": "audio"
   },
   "audio/vnd.audiokoz": {
+    "encoding": "binary",
     "name": "vnd.audiokoz",
     "reference": "[Vicki_DeBarros]",
     "template": "audio/vnd.audiokoz",
     "type": "audio"
   },
   "audio/vnd.celp": {
+    "encoding": "binary",
     "name": "vnd.CELP",
     "reference": "[Serge_De_Jaham]",
     "template": "audio/vnd.CELP",
@@ -7266,24 +7932,28 @@
     "type": "audio"
   },
   "audio/vnd.cmles.radio-events": {
+    "encoding": "binary",
     "name": "vnd.cmles.radio-events",
     "reference": "[Jean-Philippe_Goulet]",
     "template": "audio/vnd.cmles.radio-events",
     "type": "audio"
   },
   "audio/vnd.cns.anp1": {
+    "encoding": "binary",
     "name": "vnd.cns.anp1",
     "reference": "[Ann_McLaughlin]",
     "template": "audio/vnd.cns.anp1",
     "type": "audio"
   },
   "audio/vnd.cns.inf1": {
+    "encoding": "binary",
     "name": "vnd.cns.inf1",
     "reference": "[Ann_McLaughlin]",
     "template": "audio/vnd.cns.inf1",
     "type": "audio"
   },
   "audio/vnd.dece.audio": {
+    "encoding": "binary",
     "name": "vnd.dece.audio",
     "reference": "[Michael_A_Dolan]",
     "template": "audio/vnd.dece.audio",
@@ -7296,72 +7966,84 @@
     "type": "audio"
   },
   "audio/vnd.dlna.adts": {
+    "encoding": "binary",
     "name": "vnd.dlna.adts",
     "reference": "[Edwin_Heredia]",
     "template": "audio/vnd.dlna.adts",
     "type": "audio"
   },
   "audio/vnd.dolby.heaac.1": {
+    "encoding": "binary",
     "name": "vnd.dolby.heaac.1",
     "reference": "[Steve_Hattersley]",
     "template": "audio/vnd.dolby.heaac.1",
     "type": "audio"
   },
   "audio/vnd.dolby.heaac.2": {
+    "encoding": "binary",
     "name": "vnd.dolby.heaac.2",
     "reference": "[Steve_Hattersley]",
     "template": "audio/vnd.dolby.heaac.2",
     "type": "audio"
   },
   "audio/vnd.dolby.mlp": {
+    "encoding": "binary",
     "name": "vnd.dolby.mlp",
     "reference": "[Mike_Ward]",
     "template": "audio/vnd.dolby.mlp",
     "type": "audio"
   },
   "audio/vnd.dolby.mps": {
+    "encoding": "binary",
     "name": "vnd.dolby.mps",
     "reference": "[Steve_Hattersley]",
     "template": "audio/vnd.dolby.mps",
     "type": "audio"
   },
   "audio/vnd.dolby.pl2": {
+    "encoding": "binary",
     "name": "vnd.dolby.pl2",
     "reference": "[Steve_Hattersley]",
     "template": "audio/vnd.dolby.pl2",
     "type": "audio"
   },
   "audio/vnd.dolby.pl2x": {
+    "encoding": "binary",
     "name": "vnd.dolby.pl2x",
     "reference": "[Steve_Hattersley]",
     "template": "audio/vnd.dolby.pl2x",
     "type": "audio"
   },
   "audio/vnd.dolby.pl2z": {
+    "encoding": "binary",
     "name": "vnd.dolby.pl2z",
     "reference": "[Steve_Hattersley]",
     "template": "audio/vnd.dolby.pl2z",
     "type": "audio"
   },
   "audio/vnd.dolby.pulse.1": {
+    "encoding": "binary",
     "name": "vnd.dolby.pulse.1",
     "reference": "[Steve_Hattersley]",
     "template": "audio/vnd.dolby.pulse.1",
     "type": "audio"
   },
   "audio/vnd.dra": {
+    "encoding": "binary",
     "name": "vnd.dra",
     "reference": "[Jiang_Tian]",
     "template": "audio/vnd.dra",
     "type": "audio"
   },
   "audio/vnd.dts": {
+    "encoding": "binary",
     "name": "vnd.dts",
     "reference": "[William_Zou]",
     "template": "audio/vnd.dts",
     "type": "audio"
   },
   "audio/vnd.dts.hd": {
+    "encoding": "binary",
     "name": "vnd.dts.hd",
     "reference": "[William_Zou]",
     "template": "audio/vnd.dts.hd",
@@ -7374,102 +8056,119 @@
     "type": "audio"
   },
   "audio/vnd.everad.plj": {
+    "encoding": "binary",
     "name": "vnd.everad.plj",
     "reference": "[Shay_Cicelsky]",
     "template": "audio/vnd.everad.plj",
     "type": "audio"
   },
   "audio/vnd.hns.audio": {
+    "encoding": "binary",
     "name": "vnd.hns.audio",
     "reference": "[Swaminathan]",
     "template": "audio/vnd.hns.audio",
     "type": "audio"
   },
   "audio/vnd.lucent.voice": {
+    "encoding": "binary",
     "name": "vnd.lucent.voice",
     "reference": "[Greg_Vaudreuil]",
     "template": "audio/vnd.lucent.voice",
     "type": "audio"
   },
   "audio/vnd.ms-playready.media.pya": {
+    "encoding": "binary",
     "name": "vnd.ms-playready.media.pya",
     "reference": "[Steve_DiAcetis]",
     "template": "audio/vnd.ms-playready.media.pya",
     "type": "audio"
   },
   "audio/vnd.nokia.mobile-xmf": {
+    "encoding": "binary",
     "name": "vnd.nokia.mobile-xmf",
     "reference": "[Nokia]",
     "template": "audio/vnd.nokia.mobile-xmf",
     "type": "audio"
   },
   "audio/vnd.nortel.vbk": {
+    "encoding": "binary",
     "name": "vnd.nortel.vbk",
     "reference": "[Glenn_Parsons]",
     "template": "audio/vnd.nortel.vbk",
     "type": "audio"
   },
   "audio/vnd.nuera.ecelp4800": {
+    "encoding": "binary",
     "name": "vnd.nuera.ecelp4800",
     "reference": "[Michael_Fox]",
     "template": "audio/vnd.nuera.ecelp4800",
     "type": "audio"
   },
   "audio/vnd.nuera.ecelp7470": {
+    "encoding": "binary",
     "name": "vnd.nuera.ecelp7470",
     "reference": "[Michael_Fox]",
     "template": "audio/vnd.nuera.ecelp7470",
     "type": "audio"
   },
   "audio/vnd.nuera.ecelp9600": {
+    "encoding": "binary",
     "name": "vnd.nuera.ecelp9600",
     "reference": "[Michael_Fox]",
     "template": "audio/vnd.nuera.ecelp9600",
     "type": "audio"
   },
   "audio/vnd.octel.sbc": {
+    "encoding": "binary",
     "name": "vnd.octel.sbc",
     "reference": "[Greg_Vaudreuil]",
     "template": "audio/vnd.octel.sbc",
     "type": "audio"
   },
   "audio/vnd.qcelp": {
+    "encoding": "binary",
     "name": "vnd.qcelp - DEPRECATED in favor of audio/qcelp",
     "reference": "[RFC3625]",
     "template": "audio/vnd.qcelp",
     "type": "audio"
   },
   "audio/vnd.rhetorex.32kadpcm": {
+    "encoding": "binary",
     "name": "vnd.rhetorex.32kadpcm",
     "reference": "[Greg_Vaudreuil]",
     "template": "audio/vnd.rhetorex.32kadpcm",
     "type": "audio"
   },
   "audio/vnd.rip": {
+    "encoding": "binary",
     "name": "vnd.rip",
     "reference": "[Martin_Dawe]",
     "template": "audio/vnd.rip",
     "type": "audio"
   },
   "audio/vnd.sealedmedia.softseal.mpeg": {
+    "encoding": "binary",
     "name": "vnd.sealedmedia.softseal.mpeg",
     "reference": "[David_Petersen]",
     "template": "audio/vnd.sealedmedia.softseal-mpeg",
     "type": "audio"
   },
   "audio/vnd.vmx.cvsd": {
+    "encoding": "binary",
     "name": "vnd.vmx.cvsd",
     "reference": "[Greg_Vaudreuil]",
     "template": "audio/vnd.vmx.cvsd",
     "type": "audio"
   },
   "audio/vorbis": {
+    "encoding": "binary",
     "name": "vorbis",
     "reference": "[RFC5215]",
     "template": "audio/vorbis",
     "type": "audio"
   },
   "audio/vorbis-config": {
+    "encoding": "binary",
     "name": "vorbis-config",
     "reference": "[RFC5215]",
     "template": "audio/vorbis-config",
@@ -7484,6 +8183,7 @@
   },
   "image/fits": {
     "description": "",
+    "encoding": "binary",
     "name": "fits",
     "reference": "[RFC4047]",
     "template": "image/fits",
@@ -7512,6 +8212,7 @@
   },
   "image/jp2": {
     "description": "",
+    "encoding": "binary",
     "name": "jp2",
     "reference": "[RFC3745]",
     "template": "image/jp2",
@@ -7526,6 +8227,7 @@
   },
   "image/jpm": {
     "description": "",
+    "encoding": "binary",
     "name": "jpm",
     "reference": "[RFC3745]",
     "template": "image/jpm",
@@ -7533,6 +8235,7 @@
   },
   "image/jpx": {
     "description": "",
+    "encoding": "binary",
     "name": "jpx",
     "reference": "[RFC3745]",
     "template": "image/jpx",
@@ -7561,6 +8264,7 @@
   },
   "image/prs.btif": {
     "description": "",
+    "encoding": "binary",
     "name": "prs.btif",
     "reference": "[Ben_Simon]",
     "template": "image/prs.btif",
@@ -7568,6 +8272,7 @@
   },
   "image/prs.pti": {
     "description": "",
+    "encoding": "binary",
     "name": "prs.pti",
     "reference": "[Juern_Laun]",
     "template": "image/prs.pti",
@@ -7575,6 +8280,7 @@
   },
   "image/pwg-raster": {
     "description": "",
+    "encoding": "binary",
     "name": "pwg-raster",
     "reference": "[Michael_Sweet]",
     "template": "image/pwg-raster",
@@ -7589,6 +8295,7 @@
   },
   "image/t38": {
     "description": "",
+    "encoding": "binary",
     "name": "t38",
     "reference": "[RFC3362]",
     "template": "image/t38",
@@ -7596,6 +8303,7 @@
   },
   "image/tiff": {
     "description": "Tag Image File Format",
+    "encoding": "binary",
     "name": "tiff",
     "reference": "[RFC3302]",
     "template": "image/tiff",
@@ -7603,6 +8311,7 @@
   },
   "image/tiff-fx": {
     "description": "Tag Image File Format Fax eXtended",
+    "encoding": "binary",
     "name": "tiff-fx",
     "reference": "[RFC3950]",
     "template": "image/tiff-fx",
@@ -7610,6 +8319,7 @@
   },
   "image/vnd.adobe.photoshop": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.adobe.photoshop",
     "reference": "[Kim_Scarborough]",
     "template": "image/vnd.adobe.photoshop",
@@ -7617,6 +8327,7 @@
   },
   "image/vnd.airzip.accelerator.azv": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.airzip.accelerator.azv",
     "reference": "[Gary_Clueit]",
     "template": "image/vnd.airzip.accelerator.azv",
@@ -7624,6 +8335,7 @@
   },
   "image/vnd.cns.inf2": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.cns.inf2",
     "reference": "[Ann_McLaughlin]",
     "template": "image/vnd.cns.inf2",
@@ -7631,6 +8343,7 @@
   },
   "image/vnd.dece.graphic": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.dece.graphic",
     "reference": "[Michael_A_Dolan]",
     "template": "image/vnd.dece.graphic",
@@ -7638,6 +8351,7 @@
   },
   "image/vnd.djvu": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.djvu",
     "reference": "[Leon_Bottou]",
     "template": "image/vnd-djvu",
@@ -7645,6 +8359,7 @@
   },
   "image/vnd.dvb.subtitle": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.dvb.subtitle",
     "reference": "[Peter_Siebert][Michael_Lagally]",
     "template": "image/vnd.dvb.subtitle",
@@ -7666,6 +8381,7 @@
   },
   "image/vnd.fastbidsheet": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.fastbidsheet",
     "reference": "[Scott_Becker]",
     "template": "image/vnd.fastbidsheet",
@@ -7673,6 +8389,7 @@
   },
   "image/vnd.fpx": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.fpx",
     "reference": "[Marc_Douglas_Spencer]",
     "template": "image/vnd.fpx",
@@ -7680,6 +8397,7 @@
   },
   "image/vnd.fst": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.fst",
     "reference": "[Arild_Fuldseth]",
     "template": "image/vnd.fst",
@@ -7687,6 +8405,7 @@
   },
   "image/vnd.fujixerox.edmics-mmr": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.fujixerox.edmics-mmr",
     "reference": "[Masanori_Onda]",
     "template": "image/vnd.fujixerox.edmics-mmr",
@@ -7694,6 +8413,7 @@
   },
   "image/vnd.fujixerox.edmics-rlc": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.fujixerox.edmics-rlc",
     "reference": "[Masanori_Onda]",
     "template": "image/vnd.fujixerox.edmics-rlc",
@@ -7701,6 +8421,7 @@
   },
   "image/vnd.globalgraphics.pgb": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.globalgraphics.pgb",
     "reference": "[Martin_Bailey]",
     "template": "image/vnd.globalgraphics.pgb",
@@ -7708,6 +8429,7 @@
   },
   "image/vnd.microsoft.icon": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.microsoft.icon",
     "reference": "[Simon_Butcher]",
     "template": "image/vnd.microsoft.icon",
@@ -7715,6 +8437,7 @@
   },
   "image/vnd.mix": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.mix",
     "reference": "[Saveen_Reddy]",
     "template": "image/vnd.mix",
@@ -7722,6 +8445,7 @@
   },
   "image/vnd.ms-modi": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.ms-modi",
     "reference": "[Gregory_Vaughan]",
     "template": "image/vnd.ms-modi",
@@ -7729,6 +8453,7 @@
   },
   "image/vnd.net-fpx": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.net-fpx",
     "reference": "[Marc_Douglas_Spencer]",
     "template": "image/vnd.net-fpx",
@@ -7736,6 +8461,7 @@
   },
   "image/vnd.radiance": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.radiance",
     "reference": "[Randolph_Fritz][Greg_Ward]",
     "template": "image/vnd.radiance",
@@ -7743,6 +8469,7 @@
   },
   "image/vnd.sealed.png": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.sealed.png",
     "reference": "[David_Petersen]",
     "template": "image/vnd.sealed-png",
@@ -7750,6 +8477,7 @@
   },
   "image/vnd.sealedmedia.softseal.gif": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.sealedmedia.softseal.gif",
     "reference": "[David_Petersen]",
     "template": "image/vnd.sealedmedia.softseal-gif",
@@ -7757,6 +8485,7 @@
   },
   "image/vnd.sealedmedia.softseal.jpg": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.sealedmedia.softseal.jpg",
     "reference": "[David_Petersen]",
     "template": "image/vnd.sealedmedia.softseal-jpg",
@@ -7771,6 +8500,7 @@
   },
   "image/vnd.tencent.tap": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.tencent.tap",
     "reference": "[Ni_Hui]",
     "template": "image/vnd.tencent.tap",
@@ -7778,6 +8508,7 @@
   },
   "image/vnd.valve.source.texture": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.valve.source.texture",
     "reference": "[Henrik_Andersson]",
     "template": "image/vnd.valve.source.texture",
@@ -7792,6 +8523,7 @@
   },
   "image/vnd.xiff": {
     "description": "",
+    "encoding": "binary",
     "name": "vnd.xiff",
     "reference": "[Steven_Martin]",
     "template": "image/vnd.xiff",
@@ -7912,6 +8644,7 @@
     "type": "message"
   },
   "message/vnd.wfa.wsc": {
+    "encoding": "binary",
     "name": "vnd.wfa.wsc",
     "reference": "[Mick_Conley]",
     "template": "message/vnd.wfa.wsc",
@@ -7948,12 +8681,14 @@
     "type": "model"
   },
   "model/vnd.gdl": {
+    "encoding": "binary",
     "name": "vnd.gdl",
     "reference": "[Attila_Babits]",
     "template": "model/vnd.gdl",
     "type": "model"
   },
   "model/vnd.gs.gdl": {
+    "encoding": "binary",
     "name": "vnd.gs-gdl",
     "reference": "[Attila_Babits]",
     "template": "model/vnd.gs-gdl",
@@ -7972,6 +8707,7 @@
     "type": "model"
   },
   "model/vnd.mts": {
+    "encoding": "binary",
     "name": "vnd.mts",
     "reference": "[Boris_Rabinovitch]",
     "template": "model/vnd.mts",
@@ -7984,6 +8720,7 @@
     "type": "model"
   },
   "model/vnd.parasolid.transmit.binary": {
+    "encoding": "binary",
     "name": "vnd.parasolid.transmit.binary",
     "reference": "[Parasolid]",
     "template": "model/vnd.parasolid.transmit-binary",
@@ -7996,12 +8733,14 @@
     "type": "model"
   },
   "model/vnd.valve.source.compiled-map": {
+    "encoding": "binary",
     "name": "vnd.valve.source.compiled-map",
     "reference": "[Henrik_Andersson]",
     "template": "model/vnd.valve.source.compiled-map",
     "type": "model"
   },
   "model/vnd.vtu": {
+    "encoding": "binary",
     "name": "vnd.vtu",
     "reference": "[Boris_Rabinovitch]",
     "template": "model/vnd.vtu",
@@ -8014,12 +8753,14 @@
     "type": "model"
   },
   "model/x3d+fastinfoset": {
+    "encoding": "binary",
     "name": "x3d+fastinfoset",
     "reference": "[Web3D_X3D]",
     "template": "model/x3d+fastinfoset",
     "type": "model"
   },
   "model/x3d+xml": {
+    "encoding": "binary",
     "name": "x3d+xml",
     "reference": "[Web3D][Web3D_X3D]",
     "template": "model/x3d+xml",
@@ -8110,12 +8851,14 @@
     "type": "multipart"
   },
   "multipart/x-mixed-replace": {
+    "encoding": "binary",
     "name": "x-mixed-replace",
     "reference": "[W3C][Robin_Berjon]",
     "template": "multipart/x-mixed-replace",
     "type": "multipart"
   },
   "text/1d-interleaved-parityfec": {
+    "encoding": "binary",
     "name": "1d-interleaved-parityfec",
     "reference": "[RFC6015]",
     "template": "text/1d-interleaved-parityfec",
@@ -8182,6 +8925,7 @@
     "type": "text"
   },
   "text/fwdred": {
+    "encoding": "binary",
     "name": "fwdred",
     "reference": "[RFC6354]",
     "template": "text/fwdred",
@@ -8266,6 +9010,7 @@
     "type": "text"
   },
   "text/raptorfec": {
+    "encoding": "binary",
     "name": "raptorfec",
     "reference": "[RFC6682]",
     "template": "text/raptorfec",
@@ -8344,6 +9089,7 @@
     "type": "text"
   },
   "text/ulpfec": {
+    "encoding": "binary",
     "name": "ulpfec",
     "reference": "[RFC5109]",
     "template": "text/ulpfec",
@@ -8392,6 +9138,7 @@
     "type": "text"
   },
   "text/vnd.dvb.subtitle": {
+    "encoding": "binary",
     "name": "vnd.dvb.subtitle",
     "reference": "[Peter_Siebert][Michael_Lagally]",
     "template": "text/vnd.dvb.subtitle",

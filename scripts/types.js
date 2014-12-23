@@ -11,6 +11,8 @@ var parser = require('csv-parse')
 var toArray = require('stream-to-array')
 var writedb = require('./lib/write-db')
 
+var isBinaryRegExp = /^binary(?: or base[ -]?64)?(?: data| (?:generally |is )?preferred| encoding| required)?(?:$| and see|\.|;|\s+\(?This media[ -]type may requii?re encoding)|^This is  ?binary data\.|(?:The )?(?:content|data) (?:format |of this media type )?is(?: in(?:herently)?)? binary|8[ -]?bit (?:raw |\(raw\) )?binary|encoded (?:as|in) binary|encoding is binary|using "binary"|are in (?:a )?binary format|(?:(?:[a-z]+ ){2}|files )(?:are|is a) binary|may contain(?: long lines or)? binary|(?:contains?|consists of|[a-z]+ is(?: a)? ?) (?:compressed )?binary (?:content|data|(?:file )?format|media type)|framed (?:and )?binary/i
+var encodingLineRegExp = /^(?:\s*|[^:\s-]*\s+)Encoding (?:considerations|scheme)\s*:\s*(.*)$/im
 var leadingSpacesRegExp = /^\s+/
 var listColonRegExp = /:(?:\s|$)/m
 var mimeTypeLineRegExp = /^(?:\s*|[^:\s-]*\s+)(?:MIME type(?: name)?|MIME media type(?: name)?|Media type(?: name)?|Type name)\s?:\s+(.*)$/im
@@ -87,7 +89,11 @@ function addTemplateData(data) {
       throw new Error('got status code ' + res.statusCode + ' from template ' + data.template)
 
     var body = yield getTemplateBody(res)
+    var encoding = extractTemplateEncoding(body)
     var mime = extractTemplateMime(body)
+
+    // add template values
+    data.encoding = encoding
 
     // use extracted mime if it's almost the same
     if (mime && mime.replace(symbolRegExp, '-') === data.mime.replace(symbolRegExp, '-')) {
@@ -95,6 +101,20 @@ function addTemplateData(data) {
     }
 
     return data
+  }
+}
+
+function extractTemplateEncoding(body) {
+  var encoding = encodingLineRegExp.exec(body)
+
+  if (!encoding) {
+    return
+  }
+
+  encoding = encoding[1].trim()
+
+  if (isBinaryRegExp.test(encoding)) {
+    return 'binary'
   }
 }
 
