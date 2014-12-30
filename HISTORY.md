@@ -1,5 +1,5 @@
-unreleased
-==========
+1.5.0 / 2014-12-30
+==================
 
   * Add `application/vnd.oracle.resource+json`
   * Fix various invalid MIME type entries
