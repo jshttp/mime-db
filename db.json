@@ -3195,6 +3195,10 @@
   "application/vnd.openxmlformats-package.relationships+xml": {
     "source": "iana"
   },
+  "application/vnd.oracle.resource+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.orange.indata": {
     "source": "iana"
   },

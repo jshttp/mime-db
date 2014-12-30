@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `application/vnd.oracle.resource+json`
   * Fix various invalid MIME type entries
     - `application/mbox+xml`
     - `application/oscp-response`

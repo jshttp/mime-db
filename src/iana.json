@@ -5255,6 +5255,12 @@
     "template": "application/vnd.openxmlformats-package.relationships+xml",
     "type": "application"
   },
+  "application/vnd.oracle.resource+json": {
+    "name": "vnd.oracle.resource+json",
+    "reference": "[Ning_Dong]",
+    "template": "application/vnd.oracle.resource+json",
+    "type": "application"
+  },
   "application/vnd.orange.indata": {
     "name": "vnd.orange.indata",
     "reference": "[CHATRAS_Bruno]",
