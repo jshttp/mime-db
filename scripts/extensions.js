@@ -13,7 +13,7 @@ co(function* () {
     get('apache', 'http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types'),
     get('node', 'https://raw.githubusercontent.com/broofa/node-mime/master/types/node.types')
   ]
-})()
+}).then()
 
 function* get(name, url) {
   var res = yield* cogent(url, {

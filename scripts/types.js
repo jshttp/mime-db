@@ -56,7 +56,7 @@ co(function* () {
   })
 
   writedb('src/iana.json', json)
-})()
+}).then()
 
 function addTemplateData(data) {
   if (!data.template) {
