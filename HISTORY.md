@@ -1,3 +1,11 @@
+unreleased
+==========
+
+  * Add `application/json-seq`
+  * Add `application/rdap+json`
+  * Add `application/vnd.gov.sk.e-form+xml`
+  * Add `application/vnd.ims.imsccv1p3`
+
 1.5.0 / 2014-12-30
 ==================
 

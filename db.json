@@ -442,6 +442,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/json-seq": {
+    "source": "iana"
+  },
   "application/json5": {
     "extensions": ["json5"]
   },
@@ -815,6 +818,10 @@
   },
   "application/raptorfec": {
     "source": "iana"
+  },
+  "application/rdap+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/rdf+xml": {
     "source": "iana",
@@ -1895,6 +1902,9 @@
     "compressible": false,
     "extensions": ["kmz"]
   },
+  "application/vnd.gov.sk.e-form+xml": {
+    "source": "iana"
+  },
   "application/vnd.gov.sk.e-form+zip": {
     "source": "iana"
   },
@@ -2038,6 +2048,9 @@
     "source": "iana"
   },
   "application/vnd.ims.imsccv1p2": {
+    "source": "iana"
+  },
+  "application/vnd.ims.imsccv1p3": {
     "source": "iana"
   },
   "application/vnd.ims.lis.v2.result+json": {

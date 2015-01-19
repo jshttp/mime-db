@@ -695,6 +695,12 @@
     "template": "application/json-patch+json",
     "type": "application"
   },
+  "application/json-seq": {
+    "name": "json-seq",
+    "reference": "[RFC-ietf-json-text-sequence-13]",
+    "template": "application/json-seq",
+    "type": "application"
+  },
   "application/kpml-request+xml": {
     "name": "kpml-request+xml",
     "reference": "[RFC4730]",
@@ -1293,6 +1299,12 @@
     "name": "raptorfec",
     "reference": "[RFC6682]",
     "template": "application/raptorfec",
+    "type": "application"
+  },
+  "application/rdap+json": {
+    "name": "rdap+json",
+    "reference": "[RFC-ietf-weirds-json-response-14]",
+    "template": "application/rdap+json",
     "type": "application"
   },
   "application/rdf+xml": {
@@ -3065,6 +3077,12 @@
     "template": "application/vnd.google-earth.kmz",
     "type": "application"
   },
+  "application/vnd.gov.sk.e-form+xml": {
+    "name": "vnd.gov.sk.e-form+xml",
+    "reference": "[Peter_Biro][Stefan_Szilva]",
+    "template": "application/vnd.gov.sk.e-form+xml",
+    "type": "application"
+  },
   "application/vnd.gov.sk.e-form+zip": {
     "name": "vnd.gov.sk.e-form+zip",
     "reference": "[Peter_Biro][Stefan_Szilva]",
@@ -3297,6 +3315,12 @@
     "name": "vnd.ims.imsccv1p2",
     "reference": "[Lisa_Mattson]",
     "template": "application/vnd.ims.imsccv1p2",
+    "type": "application"
+  },
+  "application/vnd.ims.imsccv1p3": {
+    "name": "vnd.ims.imsccv1p3",
+    "reference": "[Lisa_Mattson]",
+    "template": "application/vnd.ims.imsccv1p3",
     "type": "application"
   },
   "application/vnd.ims.lis.v2.result+json": {
