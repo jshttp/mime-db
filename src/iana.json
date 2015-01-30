@@ -677,6 +677,18 @@
     "template": "application/javascript",
     "type": "application"
   },
+  "application/jose": {
+    "name": "jose",
+    "reference": "[RFC-ietf-jose-json-web-signature-41]",
+    "template": "application/jose",
+    "type": "application"
+  },
+  "application/jose+json": {
+    "name": "jose+json",
+    "reference": "[RFC-ietf-jose-json-web-signature-41]",
+    "template": "application/jose+json",
+    "type": "application"
+  },
   "application/jrd+json": {
     "name": "jrd+json",
     "reference": "[RFC7033]",
@@ -699,6 +711,24 @@
     "name": "json-seq",
     "reference": "[RFC-ietf-json-text-sequence-13]",
     "template": "application/json-seq",
+    "type": "application"
+  },
+  "application/jwk+json": {
+    "name": "jwk+json",
+    "reference": "[RFC-ietf-jose-json-web-key-41]",
+    "template": "application/jwk+json",
+    "type": "application"
+  },
+  "application/jwk-set+json": {
+    "name": "jwk-set+json",
+    "reference": "[RFC-ietf-jose-json-web-key-41]",
+    "template": "application/jwk-set+json",
+    "type": "application"
+  },
+  "application/jwt": {
+    "name": "jwt",
+    "reference": "[RFC-ietf-oauth-json-web-token-32]",
+    "template": "application/jwt",
     "type": "application"
   },
   "application/kpml-request+xml": {

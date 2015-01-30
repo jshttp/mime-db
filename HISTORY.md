@@ -1,7 +1,12 @@
 unreleased
 ==========
 
+  * Add `application/jose`
+  * Add `application/jose+json`
   * Add `application/json-seq`
+  * Add `application/jwk+json`
+  * Add `application/jwk-set+json`
+  * Add `application/jwt`
   * Add `application/rdap+json`
   * Add `application/vnd.gov.sk.e-form+xml`
   * Add `application/vnd.ims.imsccv1p3`

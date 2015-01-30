@@ -428,6 +428,13 @@
     "compressible": true,
     "extensions": ["js"]
   },
+  "application/jose": {
+    "source": "iana"
+  },
+  "application/jose+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/jrd+json": {
     "source": "iana",
     "compressible": true
@@ -452,6 +459,17 @@
     "source": "apache",
     "compressible": true,
     "extensions": ["jsonml"]
+  },
+  "application/jwk+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/jwk-set+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/jwt": {
+    "source": "iana"
   },
   "application/kpml-request+xml": {
     "source": "iana"
