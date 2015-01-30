@@ -1,5 +1,5 @@
-unreleased
-==========
+1.6.0 / 2015-01-29
+==================
 
   * Add `application/jose`
   * Add `application/jose+json`
