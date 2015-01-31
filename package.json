@@ -27,7 +27,7 @@
     "istanbul": "0.4.2",
     "mocha": "1.21.5",
     "raw-body": "2.1.5",
-    "stream-to-array": "2.2.0"
+    "stream-to-array": "2.2.1"
   },
   "files": [
     "HISTORY.md",
