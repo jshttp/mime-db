@@ -18,16 +18,6 @@ Object.keys(mime).forEach(function (type) {
   if (d.extensions && d.extensions.length) o.extensions = (o.extensions || []).concat(d.extensions)
 })
 
-// add all of node mime's mime extensions
-// though i think we should just put this in `types.json`
-var mime = require('../src/node.json')
-Object.keys(mime).forEach(function (type) {
-  var d = mime[type]
-  var t = type.toLowerCase()
-  var o = db[t] = db[t] || {}
-  if (d.extensions && d.extensions.length) o.extensions = (o.extensions || []).concat(d.extensions)
-})
-
 // now add all our custom extensions
 var mime = require('../lib/extensions.json')
 Object.keys(mime).forEach(function (type) {
