@@ -10,8 +10,7 @@ var writedb = require('./lib/write-db')
 
 co(function* () {
   yield [
-    get('apache', 'http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types'),
-    get('node', 'https://raw.githubusercontent.com/broofa/node-mime/master/types/node.types')
+    get('apache', 'http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types')
   ]
 }).then()
 

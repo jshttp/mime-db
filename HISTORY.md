@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Community extensions ownership transferred from `node-mime`
+
 1.6.0 / 2015-01-29
 ==================
 
