@@ -2599,6 +2599,9 @@
     "compressible": false,
     "extensions": ["xps"]
   },
+  "application/vnd.msa-disk-image": {
+    "source": "iana"
+  },
   "application/vnd.mseq": {
     "source": "iana",
     "extensions": ["mseq"]

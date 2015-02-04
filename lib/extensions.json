@@ -1,6 +1,45 @@
 {
+  "application/dash+xml": [
+    "mdp"
+  ],
+  "application/font-woff2": [
+    "woff2"
+  ],
+  "application/json": [
+    "map"
+  ],
   "application/json5": [
     "json5"
+  ],
+  "application/mp4": [
+    "m4p"
+  ],
+  "application/octet-stream": [
+    "buffer"
+  ],
+  "application/x-chrome-extension": [
+    "crx"
+  ],
+  "application/x-lua-bytecode": [
+    "luac"
+  ],
+  "application/x-web-app-manifest+json": [
+    "webapp"
+  ],
+  "application/xml": [
+    "xsd"
+  ],
+  "audio/mp4": [
+    "m4a"
+  ],
+  "font/opentype": [
+    "otf"
+  ],
+  "text/cache-manifest": [
+    "manifest"
+  ],
+  "text/coffeescript": [
+    "coffee"
   ],
   "text/hjson": [
     "hjson"
@@ -8,12 +47,35 @@
   "text/jade": [
     "jade"
   ],
+  "text/jsx": [
+    "jsx"
+  ],
+  "text/less": [
+    "less"
+  ],
+  "text/plain": [
+    "ini"
+  ],
   "text/stylus": [
     "stylus",
     "styl"
   ],
-  "text/less": [
-    "less"
+  "text/vtt": [
+    "vtt"
+  ],
+  "text/x-component": [
+    "htc"
+  ],
+  "text/x-handlebars-template": [
+    "hbs"
+  ],
+  "text/x-lua": [
+    "lua"
+  ],
+  "text/x-markdown": [
+    "markdown",
+    "md",
+    "mkd"
   ],
   "text/x-sass": [
     "sass"
@@ -21,13 +83,11 @@
   "text/x-scss": [
     "scss"
   ],
-  "text/coffeescript": [
-    "coffee"
+  "text/yaml": [
+    "yaml",
+    "yml"
   ],
-  "text/x-handlebars-template": [
-    "hbs"
-  ],
-  "text/jsx": [
-    "jsx"
+  "video/mp2t": [
+    "ts"
   ]
 }

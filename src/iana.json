@@ -4181,6 +4181,12 @@
     "template": "application/vnd.ms-xpsdocument",
     "type": "application"
   },
+  "application/vnd.msa-disk-image": {
+    "name": "vnd.msa-disk-image",
+    "reference": "[Thomas_Huth]",
+    "template": "application/vnd.msa-disk-image",
+    "type": "application"
+  },
   "application/vnd.mseq": {
     "name": "vnd.mseq",
     "reference": "[Gwenael_Le_Bodic]",
