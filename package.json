@@ -4,7 +4,8 @@
   "version": "1.6.0",
   "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
   "contributors": [
-    "Douglas Christopher Wilson <doug@somethingdoug.com>"
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "Robert Kieffer <robert@broofa.com> (http://github.com/broofa)"
   ],
   "license": "MIT",
   "keywords": [
