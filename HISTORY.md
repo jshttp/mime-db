@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add `application/vnd.msa-disk-image`
+
 1.6.0 / 2015-01-29
 ==================
 
