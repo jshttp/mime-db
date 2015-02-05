@@ -7,24 +7,17 @@
 [![Coverage Status][coveralls-image]][coveralls-url]
 
 This is a database of all mime types.
-It consistents of a single, public JSON file and does not include any logic,
-allowing it to remain as unopinionated as possible with an API.
+It consists of a single, public JSON file and does not include any logic,
+allowing it to remain as un-opinionated as possible with an API.
 It aggregates data from the following sources:
 
 - http://www.iana.org/assignments/media-types/media-types.xhtml
 - http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
 
-## Usage
+## Installation
 
 ```bash
-npm i mime-db
-```
-
-```js
-var db = require('mime-db');
-
-// grab data on .js files
-var data = db['application/javascript'];
+npm install mime-db
 ```
 
 If you're crazy enough to use this in the browser,
@@ -32,6 +25,15 @@ you can just grab the JSON file:
 
 ```
 https://cdn.rawgit.com/jshttp/mime-db/master/db.json
+```
+
+## Usage
+
+```js
+var db = require('mime-db');
+
+// grab data on .js files
+var data = db['application/javascript'];
 ```
 
 ## Data Structure
