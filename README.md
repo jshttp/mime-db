@@ -63,6 +63,13 @@ If unknown, every property could be `undefined`.
 To edit the database, only make PRs against files in the `lib/` folder.
 To update the build, run `npm run update`.
 
+## Adding Custom Media Types
+
+The best way to get new media types included in this library is to register
+them with the IANA. The community registration procedure is outlined in
+[RFC 6838 section 5](http://tools.ietf.org/html/rfc6838#section-5). Types
+registered with the IANA are automatically pulled into this library.
+
 [npm-version-image]: https://img.shields.io/npm/v/mime-db.svg?style=flat
 [npm-downloads-image]: https://img.shields.io/npm/dm/mime-db.svg?style=flat
 [npm-url]: https://npmjs.org/package/mime-db
