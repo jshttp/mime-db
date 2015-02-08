@@ -3077,6 +3077,12 @@
     "template": "application/vnd.geospace",
     "type": "application"
   },
+  "application/vnd.gerber": {
+    "name": "vnd.gerber",
+    "reference": "[Thomas_Weyn]",
+    "template": "application/vnd.gerber",
+    "type": "application"
+  },
   "application/vnd.globalplatform.card-content-mgt": {
     "name": "vnd.globalplatform.card-content-mgt",
     "reference": "[Gil_Bernabeu]",
@@ -4179,6 +4185,12 @@
     "name": "vnd.ms-xpsdocument",
     "reference": "[Jesse_McGatha]",
     "template": "application/vnd.ms-xpsdocument",
+    "type": "application"
+  },
+  "application/vnd.msa-disk-image": {
+    "name": "vnd.msa-disk-image",
+    "reference": "[Thomas_Huth]",
+    "template": "application/vnd.msa-disk-image",
     "type": "application"
   },
   "application/vnd.mseq": {
