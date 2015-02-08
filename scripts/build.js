@@ -2,32 +2,13 @@
 var db = {}
 
 // initialize with all the IANA types
-var mime = require('../src/iana.json')
-Object.keys(mime).forEach(function (type) {
-  var d = mime[type]
-  var t = type.toLowerCase()
-  var o = db[t] = db[t] || {source: 'iana'}
-})
+addData(db, require('../src/iana.json'), 'iana')
 
 // add the mime extensions from Apache
-var mime = require('../src/apache.json')
-Object.keys(mime).forEach(function (type) {
-  var d = mime[type]
-  var t = type.toLowerCase()
-  var o = db[t] = db[t] || {source: 'apache'}
-  if (d.extensions && d.extensions.length) o.extensions = (o.extensions || []).concat(d.extensions)
-})
+addData(db, require('../src/apache.json'), 'apache')
 
 // now add all our custom data
-var mime = require('../src/custom.json')
-Object.keys(mime).forEach(function (type) {
-  var d = mime[type]
-  var t = type.toLowerCase()
-  var o = db[t] = db[t] || {}
-  if (d.charset !== undefined) o.charset = d.charset
-  if (d.compressible !== undefined) o.compressible = d.compressible
-  if (d.extensions && d.extensions.length) o.extensions = (o.extensions || []).concat(d.extensions)
-})
+addData(db, require('../src/custom.json'))
 
 // finally, all custom suffix defaults
 var mime = require('../src/custom-suffix.json')
@@ -46,3 +27,72 @@ Object.keys(mime).forEach(function (suffix) {
 
 // write db
 require('./lib/write-db')('db.json', db)
+
+/**
+ * Add mime data to the db, marked as a given source.
+ */
+function addData(db, mime, source) {
+  Object.keys(mime).forEach(function (key) {
+    var data = mime[key]
+    var type = key.toLowerCase()
+    var obj = db[type] = db[type] || createTypeEntry(source)
+
+    // add missing data
+    setValue(obj, 'charset', data.charset)
+    setValue(obj, 'compressible', data.compressible)
+
+    // append new extensions
+    appendExtensions(obj, data.extensions)
+  })
+}
+
+/**
+ * Append an extension to an object.
+ */
+function appendExtension(obj, extension) {
+  if (!obj.extensions) {
+    obj.extensions = []
+  }
+
+  if (obj.extensions.indexOf(extension) === -1) {
+    obj.extensions.push(extension)
+  }
+}
+
+/**
+ * Append extensions to an object.
+ */
+function appendExtensions(obj, extensions) {
+  if (!extensions) {
+    return
+  }
+
+  for (var i = 0; i < extensions.length; i++) {
+    var extension = extensions[i]
+
+    // add extension to the type entry
+    appendExtension(obj, extension)
+  }
+}
+
+/**
+ * Create a new type entry, optionally marked from a source.
+ */
+function createTypeEntry(source) {
+  var obj = {}
+
+  if (source !== undefined) {
+    obj.source = source
+  }
+
+  return obj
+}
+
+/**
+ * Set a value on an object, if not already set.
+ */
+function setValue(obj, prop, value) {
+  if (value !== undefined && obj[prop] === undefined) {
+    obj[prop] = value
+  }
+}
