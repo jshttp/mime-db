@@ -18,38 +18,30 @@ Object.keys(mime).forEach(function (type) {
   if (d.extensions && d.extensions.length) o.extensions = (o.extensions || []).concat(d.extensions)
 })
 
-// now add all our custom extensions
-var mime = require('../lib/extensions.json')
+// now add all our custom data
+var mime = require('../src/custom.json')
 Object.keys(mime).forEach(function (type) {
-  var e = mime[type]
+  var d = mime[type]
   var t = type.toLowerCase()
   var o = db[t] = db[t] || {}
-  if (e.length) o.extensions = (o.extensions || []).concat(e)
+  if (d.charset !== undefined) o.charset = d.charset
+  if (d.compressible !== undefined) o.compressible = d.compressible
+  if (d.extensions && d.extensions.length) o.extensions = (o.extensions || []).concat(d.extensions)
 })
 
-// add all the compressible metadata
-var mime = require('../lib/compressible.json')
-Object.keys(mime).sort().forEach(function (type) {
-  var e = mime[type]
-  var t = type.toLowerCase()
+// finally, all custom suffix defaults
+var mime = require('../src/custom-suffix.json')
+Object.keys(mime).forEach(function (suffix) {
+  var s = mime[suffix]
 
-  if (type[0] === '+') {
-    // suffix handling
-    Object.keys(db).forEach(function (type) {
-      if (type.substr(0 - t.length) !== t) return
-      db[type].compressible = e.compressible
-    })
-    return
-  }
+  Object.keys(db).forEach(function (type) {
+    if (type.substr(0 - suffix.length) !== suffix) {
+      return
+    }
 
-  var o = db[t] = db[t] || {}
-  o.compressible = e.compressible
-})
-
-// set the default charsets
-var charsets = require('../lib/charsets')
-Object.keys(charsets).forEach(function (name) {
-  db[name].charset = charsets[name]
+    var d = db[type]
+    if (d.compressible === undefined) d.compressible = s.compressible
+  })
 })
 
 // write db

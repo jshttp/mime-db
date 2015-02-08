@@ -1,8 +1,4 @@
 {
-  "+json": {
-    "compressible": true,
-    "notes": "+json means it is JSON, which is compressible."
-  },
   "application/atom+xml": {
     "compressible": true,
     "sources": [
@@ -12,28 +8,32 @@
   "application/dart": {
     "compressible": true
   },
+  "application/dash+xml": {
+    "extensions": ["mdp"]
+  },
+  "application/ecmascript": {
+    "compressible": true
+  },
   "application/edi-x12": {
     "compressible": false
   },
   "application/edifact": {
     "compressible": false
   },
-  "application/ecmascript": {
-    "compressible": true
-  },
   "application/font-woff": {
     "compressible": false,
     "sources": [
       "https://github.com/h5bp/server-configs-apache/issues/42"
     ],
-    "notes": "File type is already compressed."
+    "notes": "File type is already a binary compressed format."
   },
   "application/font-woff2": {
     "compressible": false,
+    "extensions": ["woff2"],
     "sources": [
       "http://dev.w3.org/webfonts/WOFF2/spec/#IMT"
     ],
-    "notes": "File type is already compressed."
+    "notes": "File type is already a binary compressed format."
   },
   "application/gzip": {
     "compressible": false
@@ -48,18 +48,28 @@
     "compressible": false
   },
   "application/javascript": {
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/json": {
-    "compressible": true
+    "charset": "UTF-8",
+    "compressible": true,
+    "extensions": ["map"]
+  },
+  "application/json5": {
+    "extensions": ["json5"]
+  },
+  "application/mp4": {
+    "extensions": ["m4p"]
   },
   "application/msword": {
     "compressible": false
   },
   "application/octet-stream": {
     "compressible": false,
+    "extensions": ["buffer"],
     "sources": [
-      "https://github.com/broofa/node-mime/blob/master/types/mime.types#L154"
+      "https://github.com/broofa/node-mime/blob/v1.2.11/types/mime.types#L154"
     ]
   },
   "application/ogg": {
@@ -170,6 +180,9 @@
   "application/x-bzip2": {
     "compressible": false
   },
+  "application/x-chrome-extension": {
+    "extensions": ["crx"]
+  },
   "application/x-deb": {
     "compressible": false
   },
@@ -197,6 +210,9 @@
   "application/x-latex": {
     "compressible": false
   },
+  "application/x-lua-bytecode": {
+    "extensions": ["luac"]
+  },
   "application/x-mpegurl": {
     "compressible": false
   },
@@ -218,6 +234,9 @@
   "application/x-tar": {
     "compressible": true
   },
+  "application/x-web-app-manifest+json": {
+    "extensions": ["webapp"]
+  },
   "application/x-www-form-urlencoded": {
     "compressible": true
   },
@@ -228,7 +247,8 @@
     "compressible": true
   },
   "application/xml": {
-    "compressible": true
+    "compressible": true,
+    "extensions": ["xsd"]
   },
   "application/xml-dtd": {
     "compressible": true,
@@ -249,7 +269,8 @@
     "compressible": false
   },
   "audio/mp4": {
-    "compressible": false
+    "compressible": false,
+    "extensions": ["m4a"]
   },
   "audio/mpeg": {
     "compressible": false
@@ -277,6 +298,7 @@
   },
   "font/opentype": {
     "compressible": true,
+    "extensions": ["otf"],
     "sources": [
       "http://www.phpied.com/gzip-your-font-face-files/"
     ]
@@ -385,6 +407,7 @@
   },
   "text/cache-manifest": {
     "compressible": true,
+    "extensions": ["manifest"],
     "sources": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=715191#c2"
     ],
@@ -400,23 +423,36 @@
   "text/cmd": {
     "compressible": true
   },
+  "text/coffeescript": {
+    "extensions": ["coffee"]
+  },
   "text/css": {
     "compressible": true
   },
   "text/csv": {
     "compressible": true
   },
+  "text/hjson": {
+    "extensions": ["hjson"]
+  },
   "text/html": {
     "compressible": true
+  },
+  "text/jade": {
+    "extensions": ["jade"]
   },
   "text/javascript": {
     "compressible": true
   },
   "text/jsx": {
     "compressible": true,
+    "extensions": ["jsx"],
     "sources": [
       "http://facebook.github.io/react/docs/getting-started.html"
     ]
+  },
+  "text/less": {
+    "extensions": ["less"]
   },
   "text/n3": {
     "compressible": true,
@@ -425,10 +461,14 @@
     ]
   },
   "text/plain": {
-    "compressible": true
+    "compressible": true,
+    "extensions": ["ini"]
   },
   "text/richtext": {
     "compressible": true
+  },
+  "text/stylus": {
+    "extensions": ["stylus","styl"]
   },
   "text/tab-separated-values": {
     "compressible": true
@@ -440,22 +480,46 @@
     "compressible": true
   },
   "text/vtt": {
+    "charset": "UTF-8",
     "compressible": true,
+    "extensions": ["vtt"],
     "sources": [
        "http://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
     ]
   },
+  "text/x-component": {
+    "extensions": ["htc"]
+  },
   "text/x-gwt-rpc": {
     "compressible": true
+  },
+  "text/x-handlebars-template": {
+    "extensions": ["hbs"]
   },
   "text/x-jquery-tmpl": {
     "compressible": true
   },
+  "text/x-lua": {
+    "extensions": ["lua"]
+  },
   "text/x-markdown": {
-    "compressible": true
+    "compressible": true,
+    "extensions": ["markdown","md","mkd"]
+  },
+  "text/x-sass": {
+    "extensions": ["sass"]
+  },
+  "text/x-scss": {
+    "extensions": ["scss"]
   },
   "text/xml": {
     "compressible": true
+  },
+  "text/yaml": {
+    "extensions": ["yaml","yml"]
+  },
+  "video/mp2t": {
+    "extensions": ["ts"]
   },
   "video/mp4": {
     "compressible": false

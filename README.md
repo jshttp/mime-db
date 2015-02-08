@@ -53,7 +53,9 @@ If unknown, every property could be `undefined`.
 
 ## Contributing
 
-To edit the database, only make PRs against files in the `lib/` folder.
+To edit the database, only make PRs against `src/custom.json` or
+`src/custom-suffix.json`.
+
 To update the build, run `npm run update`.
 
 ## Adding Custom Media Types
