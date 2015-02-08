@@ -51,13 +51,6 @@ Each mime type has the following properties:
 
 If unknown, every property could be `undefined`.
 
-## Repository Structure
-
-- `scripts` - these are scripts to run to build the database
-- `src/` - this is a folder of files created from remote sources like Apache and IANA
-- `lib/` - this is a folder of our own custom sources and db, which will be merged into `db.json`
-- `db.json` - the final built JSON file for end-user usage
-
 ## Contributing
 
 To edit the database, only make PRs against files in the `lib/` folder.
