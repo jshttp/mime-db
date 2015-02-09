@@ -1,5 +1,5 @@
-unreleased
-==========
+1.7.0 / 2015-02-08
+==================
 
   * Add `application/vnd.gerber`
   * Add `application/vnd.msa-disk-image`
