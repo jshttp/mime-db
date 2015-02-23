@@ -59,6 +59,9 @@
   "application/json5": {
     "extensions": ["json5"]
   },
+  "application/ld+json": {
+    "extensions": ["jsonld"]
+  },
   "application/mp4": {
     "extensions": ["m4p"]
   },
