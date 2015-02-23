@@ -479,7 +479,8 @@
   },
   "application/ld+json": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["jsonld"]
   },
   "application/link-format": {
     "source": "iana"
