@@ -2165,6 +2165,12 @@
     "template": "application/vnd.cirpack.isdn-ext",
     "type": "application"
   },
+  "application/vnd.citationstyles.style+xml": {
+    "name": "vnd.citationstyles.style+xml",
+    "reference": "[Rintze_M._Zelle]",
+    "template": "application/vnd.citationstyles.style+xml",
+    "type": "application"
+  },
   "application/vnd.claymore": {
     "name": "vnd.claymore",
     "reference": "[Ray_Simpson]",
@@ -3123,6 +3129,12 @@
     "name": "vnd.gov.sk.e-form+zip",
     "reference": "[Peter_Biro][Stefan_Szilva]",
     "template": "application/vnd.gov.sk.e-form+zip",
+    "type": "application"
+  },
+  "application/vnd.gov.sk.xmldatacontainer+xml": {
+    "name": "vnd.gov.sk.xmldatacontainer+xml",
+    "reference": "[Peter_Biro][Stefan_Szilva]",
+    "template": "application/vnd.gov.sk.xmldatacontainer+xml",
     "type": "application"
   },
   "application/vnd.grafeq": {

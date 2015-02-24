@@ -1358,6 +1358,9 @@
   "application/vnd.cirpack.isdn-ext": {
     "source": "iana"
   },
+  "application/vnd.citationstyles.style+xml": {
+    "source": "iana"
+  },
   "application/vnd.claymore": {
     "source": "iana",
     "extensions": ["cla"]
@@ -1927,6 +1930,9 @@
     "source": "iana"
   },
   "application/vnd.gov.sk.e-form+zip": {
+    "source": "iana"
+  },
+  "application/vnd.gov.sk.xmldatacontainer+xml": {
     "source": "iana"
   },
   "application/vnd.grafeq": {

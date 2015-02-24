@@ -1,3 +1,9 @@
+unreleased
+==========
+
+  * Add `application/vnd.citationstyles.style+xml`
+  * Add `application/vnd.gov.sk.xmldatacontainer+xml`
+
 1.7.0 / 2015-02-08
 ==================
 
