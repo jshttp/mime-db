@@ -709,7 +709,7 @@
   },
   "application/json-seq": {
     "name": "json-seq",
-    "reference": "[RFC-ietf-json-text-sequence-13]",
+    "reference": "[RFC7464]",
     "template": "application/json-seq",
     "type": "application"
   },
