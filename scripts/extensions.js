@@ -3,6 +3,8 @@
  * Convert these text files to JSON for browser usage.
  */
 
+global.Promise = global.Promise || require('bluebird')
+
 var co = require('co')
 var fs = require('fs')
 var cogent = require('cogent')

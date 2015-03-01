@@ -7,6 +7,7 @@ node_js:
 sudo: false
 before_install:
   # Remove all non-test dependencies
+  - npm rm --save-dev bluebird
   - npm rm --save-dev co
   - npm rm --save-dev cogent
   - npm rm --save-dev csv-parse

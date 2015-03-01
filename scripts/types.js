@@ -3,6 +3,8 @@
  * Convert the IANA definitions from CSV to local.
  */
 
+global.Promise = global.Promise || require('bluebird')
+
 var co = require('co')
 var fs = require('fs')
 var getRawBody = require('raw-body')
