@@ -19,7 +19,7 @@
   ],
   "repository": "jshttp/mime-db",
   "devDependencies": {
-    "co": "4",
+    "co": "~4.4.0",
     "cogent": "1",
     "csv-parse": "0.0.9",
     "gnode": "0.1.0",
