@@ -21,7 +21,7 @@
   "devDependencies": {
     "co": "4",
     "cogent": "1",
-    "csv-parse": "0",
+    "csv-parse": "0.0.9",
     "gnode": "0.1.0",
     "istanbul": "0.3.6",
     "mocha": "~1.21.4",
