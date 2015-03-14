@@ -1,5 +1,5 @@
-unreleased
-==========
+1.8.0 / 2015-03-13
+==================
 
   * Add `application/vnd.citationstyles.style+xml`
   * Add `application/vnd.fastcopy-disk-image`
