@@ -1773,6 +1773,9 @@
   "application/vnd.f-secure.mobile": {
     "source": "iana"
   },
+  "application/vnd.fastcopy-disk-image": {
+    "source": "iana"
+  },
   "application/vnd.fdf": {
     "source": "iana",
     "extensions": ["fdf"]

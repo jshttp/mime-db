@@ -2873,6 +2873,12 @@
     "template": "application/vnd.f-secure.mobile",
     "type": "application"
   },
+  "application/vnd.fastcopy-disk-image": {
+    "name": "vnd.fastcopy-disk-image",
+    "reference": "[Thomas_Huth]",
+    "template": "application/vnd.fastcopy-disk-image",
+    "type": "application"
+  },
   "application/vnd.fdf": {
     "name": "vnd.fdf",
     "reference": "[Steve_Zilles]",

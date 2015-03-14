@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Add `application/vnd.citationstyles.style+xml`
+  * Add `application/vnd.fastcopy-disk-image`
   * Add `application/vnd.gov.sk.xmldatacontainer+xml`
   * Add extension `.jsonld` to `application/ld+json`
 
