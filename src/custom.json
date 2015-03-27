@@ -344,6 +344,10 @@
     ],
     "notes": "Usually a wrapper for .bmp formated images."
   },
+  "image/x-ms-bmp": {
+    "compressible": true,
+    "extensions": ["bmp"]
+  },
   "image/x-xcf": {
     "compressible": false
   },
