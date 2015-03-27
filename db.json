@@ -5388,6 +5388,10 @@
     "source": "apache",
     "extensions": ["sid"]
   },
+  "image/x-ms-bmp": {
+    "compressible": true,
+    "extensions": ["bmp"]
+  },
   "image/x-pcx": {
     "source": "apache",
     "extensions": ["pcx"]

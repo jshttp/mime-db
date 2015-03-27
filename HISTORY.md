@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Add `application/vnd.micro+json`
+  * Add `image/x-ms-bmp`
 
 1.8.0 / 2015-03-13
 ==================
