@@ -1333,7 +1333,7 @@
   },
   "application/rdap+json": {
     "name": "rdap+json",
-    "reference": "[RFC-ietf-weirds-json-response-14]",
+    "reference": "[RFC7483]",
     "template": "application/rdap+json",
     "type": "application"
   },
@@ -3855,6 +3855,12 @@
     "name": "vnd.mfmp",
     "reference": "[Yukari_Ikeda]",
     "template": "application/vnd.mfmp",
+    "type": "application"
+  },
+  "application/vnd.micro+json": {
+    "name": "vnd.micro+json",
+    "reference": "[Dali_Zheng]",
+    "template": "application/vnd.micro+json",
     "type": "application"
   },
   "application/vnd.micrografx.flo": {

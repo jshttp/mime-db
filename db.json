@@ -2374,6 +2374,10 @@
     "source": "iana",
     "extensions": ["mfm"]
   },
+  "application/vnd.micro+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.micrografx.flo": {
     "source": "iana",
     "extensions": ["flo"]

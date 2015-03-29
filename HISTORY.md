@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add `application/vnd.micro+json`
+
 1.8.0 / 2015-03-13
 ==================
 
