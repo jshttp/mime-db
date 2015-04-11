@@ -513,6 +513,11 @@
     "source": "iana",
     "extensions": ["mads"]
   },
+  "application/manifest+json": {
+    "charset": "UTF-8",
+    "compressible": true,
+    "extensions": ["webmanifest","json"]
+  },
   "application/marc": {
     "source": "iana",
     "extensions": ["mrc"]
