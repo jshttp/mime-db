@@ -7893,6 +7893,13 @@
     "template": "image/vnd.xiff",
     "type": "image"
   },
+  "image/vnd.zbrush.pcx": {
+    "description": "",
+    "name": "vnd.zbrush.pcx",
+    "reference": "[Chris_Charabaruk]",
+    "template": "image/vnd.zbrush.pcx",
+    "type": "image"
+  },
   "message/cpim": {
     "name": "CPIM",
     "reference": "[RFC3862]",

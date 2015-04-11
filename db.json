@@ -5364,6 +5364,9 @@
     "source": "iana",
     "extensions": ["xif"]
   },
+  "image/vnd.zbrush.pcx": {
+    "source": "iana"
+  },
   "image/webp": {
     "source": "apache",
     "extensions": ["webp"]
