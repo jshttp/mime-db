@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `application/manifest+json`
   * Add `application/vnd.micro+json`
   * Add `image/x-ms-bmp`
 
