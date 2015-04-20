@@ -1,5 +1,5 @@
-unreleased
-==========
+1.9.0 / 2015-04-19
+==================
 
   * Add `application/manifest+json`
   * Add `application/vnd.micro+json`
