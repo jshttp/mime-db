@@ -62,6 +62,14 @@
   "application/ld+json": {
     "extensions": ["jsonld"]
   },
+  "application/manifest+json": {
+    "charset": "UTF-8",
+    "compressible": true,
+    "extensions": ["webmanifest","json"],
+    "sources": [
+      "http://w3c.github.io/manifest/#h-media-type-registration"
+    ]
+  },
   "application/mp4": {
     "extensions": ["m4p"]
   },
