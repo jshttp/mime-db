@@ -516,7 +516,7 @@
   "application/manifest+json": {
     "charset": "UTF-8",
     "compressible": true,
-    "extensions": ["webmanifest","json"]
+    "extensions": ["webmanifest"]
   },
   "application/marc": {
     "source": "iana",

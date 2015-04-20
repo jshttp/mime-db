@@ -1,3 +1,9 @@
+unreleased
+==========
+
+  * Remove `.json` extension from `application/manifest+json`
+    - This is causing bugs downstream
+
 1.9.0 / 2015-04-19
 ==================
 
