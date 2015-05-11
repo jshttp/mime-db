@@ -2075,6 +2075,12 @@
     "template": "application/vnd.balsamiq.bmml+xml",
     "type": "application"
   },
+  "application/vnd.balsamiq.bmpr": {
+    "name": "vnd.balsamiq.bmpr",
+    "reference": "[Giacomo_Guilizzoni]",
+    "template": "application/vnd.balsamiq.bmpr",
+    "type": "application"
+  },
   "application/vnd.bekitzur-stech+json": {
     "name": "vnd.bekitzur-stech+json",
     "reference": "[Jegulsky]",
@@ -3873,6 +3879,12 @@
     "name": "vnd.micrografx.igx",
     "reference": "[Joe_Prevo]",
     "template": "application/vnd.micrografx-igx",
+    "type": "application"
+  },
+  "application/vnd.microsoft.portable-executable": {
+    "name": "vnd.microsoft.portable-executable",
+    "reference": "[Henrik_Andersson]",
+    "template": "application/vnd.microsoft.portable-executable",
     "type": "application"
   },
   "application/vnd.miele+json": {
@@ -7173,6 +7185,12 @@
     "name": "ogg",
     "reference": "[RFC5334]",
     "template": "audio/ogg",
+    "type": "audio"
+  },
+  "audio/opus": {
+    "name": "opus",
+    "reference": "[RFC-ietf-payload-rtp-opus-11]",
+    "template": "audio/opus",
     "type": "audio"
   },
   "audio/parityfec": {

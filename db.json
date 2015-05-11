@@ -1312,6 +1312,9 @@
   "application/vnd.balsamiq.bmml+xml": {
     "source": "iana"
   },
+  "application/vnd.balsamiq.bmpr": {
+    "source": "iana"
+  },
   "application/vnd.bekitzur-stech+json": {
     "source": "iana",
     "compressible": true
@@ -2390,6 +2393,9 @@
   "application/vnd.micrografx.igx": {
     "source": "iana",
     "extensions": ["igx"]
+  },
+  "application/vnd.microsoft.portable-executable": {
+    "source": "iana"
   },
   "application/vnd.miele+json": {
     "source": "iana",
@@ -4864,7 +4870,7 @@
     "extensions": ["oga","ogg","spx"]
   },
   "audio/opus": {
-    "source": "apache"
+    "source": "iana"
   },
   "audio/parityfec": {
     "source": "iana"
