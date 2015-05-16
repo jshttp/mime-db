@@ -6671,12 +6671,6 @@
     "template": "application/xhtml+xml",
     "type": "application"
   },
-  "application/xhtml-voice+xml": {
-    "name": "xhtml-voice+xml - OBSOLETE; no replacement given",
-    "reference": "[draft-mccobb-xplusv-media-type]",
-    "template": "application/xhtml-voice+xml",
-    "type": "application"
-  },
   "application/xml": {
     "name": "xml",
     "reference": "[RFC7303]",
