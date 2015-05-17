@@ -227,6 +227,9 @@
   "application/x-mpegurl": {
     "compressible": false
   },
+  "application/x-ns-proxy-autoconfig": {
+    "extensions": ["pac"]
+  },
   "application/x-pkcs12": {
     "compressible": false
   },
