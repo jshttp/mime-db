@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `application/x-ns-proxy-autoconfig`
   * Add `application/vnd.balsamiq.bmpr`
   * Add `application/vnd.microsoft.portable-executable`
 
