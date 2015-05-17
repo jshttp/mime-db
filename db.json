@@ -4381,6 +4381,10 @@
     "source": "apache",
     "extensions": ["nc","cdf"]
   },
+  "application/x-ns-proxy-autoconfig": {
+    "compressible": true,
+    "extensions": ["pac"]
+  },
   "application/x-nzb": {
     "source": "apache",
     "extensions": ["nzb"]

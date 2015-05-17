@@ -227,6 +227,14 @@
   "application/x-mpegurl": {
     "compressible": false
   },
+  "application/x-ns-proxy-autoconfig": {
+    "compressible": true,
+    "extensions": ["pac"],
+    "sources": [
+      "https://web.archive.org/web/20070602031929/http://wp.netscape.com/eng/mozilla/2.0/relnotes/demo/proxy-live.html",
+      "https://en.wikipedia.org/wiki/Proxy_auto-config#The_PAC_File"
+    ]
+  },
   "application/x-pkcs12": {
     "compressible": false
   },
