@@ -1,5 +1,5 @@
-unreleased
-==========
+1.10.0 / 2015-05-19
+===================
 
   * Add `application/vnd.balsamiq.bmpr`
   * Add `application/vnd.microsoft.portable-executable`
