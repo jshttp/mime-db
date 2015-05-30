@@ -1577,7 +1577,8 @@
     "type": "application"
   },
   "application/smil": {
-    "name": "smil - OBSOLETED in favor of application/smil+xml",
+    "name": "smil",
+    "notes": "OBSOLETED in favor of application/smil+xml",
     "reference": "[RFC4536]",
     "template": "application/smil",
     "type": "application"
@@ -2019,7 +2020,8 @@
     "type": "application"
   },
   "application/vnd.arastra.swi": {
-    "name": "vnd.arastra.swi - OBSOLETED in favor of application/vnd.aristanetworks.swi",
+    "name": "vnd.arastra.swi",
+    "notes": "OBSOLETED in favor of application/vnd.aristanetworks.swi",
     "reference": "[Bill_Fenner]",
     "template": "application/vnd.arastra.swi",
     "type": "application"
@@ -3045,7 +3047,8 @@
     "type": "application"
   },
   "application/vnd.geocube+xml": {
-    "name": "vnd.geocube+xml - OBSOLETED by request",
+    "name": "vnd.geocube+xml",
+    "notes": "OBSOLETED by request",
     "reference": "[Francois_Pirsch]",
     "template": "application/vnd.geocube+xml",
     "type": "application"
@@ -3105,7 +3108,8 @@
     "type": "application"
   },
   "application/vnd.gmx": {
-    "name": "vnd.gmx - DEPRECATED",
+    "name": "vnd.gmx",
+    "notes": "DEPRECATED",
     "reference": "[Christian_V._Sciberras]",
     "template": "application/vnd.gmx",
     "type": "application"
@@ -3417,7 +3421,8 @@
     "type": "application"
   },
   "application/vnd.informix-visionary": {
-    "name": "vnd.informix-visionary - OBSOLETED in favor of application/vnd.visionary",
+    "name": "vnd.informix-visionary",
+    "notes": "OBSOLETED in favor of application/vnd.visionary",
     "reference": "[Christopher_Gales]",
     "template": "application/vnd.informix-visionary",
     "type": "application"
@@ -4395,7 +4400,8 @@
     "type": "application"
   },
   "application/vnd.nokia.n-gage.symbian.install": {
-    "name": "vnd.nokia.n-gage.symbian.install - OBSOLETE; no replacement given",
+    "name": "vnd.nokia.n-gage.symbian.install",
+    "notes": "OBSOLETE; no replacement given",
     "reference": "[Nokia]",
     "template": "application/vnd.nokia.n-gage.symbian.install",
     "type": "application"
@@ -7528,7 +7534,8 @@
     "type": "audio"
   },
   "audio/vnd.qcelp": {
-    "name": "vnd.qcelp - DEPRECATED in favor of audio/qcelp",
+    "name": "vnd.qcelp",
+    "notes": "DEPRECATED in favor of audio/qcelp",
     "reference": "[RFC3625]",
     "template": "audio/vnd.qcelp",
     "type": "audio"
@@ -7916,7 +7923,8 @@
     "type": "message"
   },
   "message/news": {
-    "name": "news - OBSOLETED by RFC5537",
+    "name": "news",
+    "notes": "OBSOLETED by RFC5537",
     "reference": "[RFC5537][Henry_Spencer]",
     "template": "message/news",
     "type": "message"
@@ -7956,7 +7964,8 @@
     "type": "message"
   },
   "message/vnd.si.simp": {
-    "name": "vnd.si.simp - OBSOLETED by request",
+    "name": "vnd.si.simp",
+    "notes": "OBSOLETED by request",
     "reference": "[Nicholas_Parks_Young]",
     "template": "message/vnd.si.simp",
     "type": "message"
@@ -8196,7 +8205,8 @@
     "type": "text"
   },
   "text/directory": {
-    "name": "directory - DEPRECATED by RFC6350",
+    "name": "directory",
+    "notes": "DEPRECATED by RFC6350",
     "reference": "[RFC2425][RFC6350]",
     "template": "text/directory",
     "type": "text"
@@ -8208,7 +8218,8 @@
     "type": "text"
   },
   "text/ecmascript": {
-    "name": "ecmascript - OBSOLETED in favor of application/ecmascript",
+    "name": "ecmascript",
+    "notes": "OBSOLETED in favor of application/ecmascript",
     "reference": "[RFC4329]",
     "template": "text/ecmascript",
     "type": "text"
@@ -8243,7 +8254,8 @@
     "type": "text"
   },
   "text/javascript": {
-    "name": "javascript - OBSOLETED in favor of application/javascript",
+    "name": "javascript",
+    "notes": "OBSOLETED in favor of application/javascript",
     "reference": "[RFC4329]",
     "template": "text/javascript",
     "type": "text"
@@ -8255,7 +8267,8 @@
     "type": "text"
   },
   "text/markdown": {
-    "name": "markdown (TEMPORARY - registered 2014-11-11, expires 2015-11-11)",
+    "name": "markdown",
+    "notes": "TEMPORARY - registered 2014-11-11, expires 2015-11-11",
     "reference": "[draft-ietf-appsawg-text-markdown]",
     "template": "text/markdown",
     "type": "text"
@@ -8516,7 +8529,8 @@
     "type": "text"
   },
   "text/vnd.si.uricatalogue": {
-    "name": "vnd.si.uricatalogue - OBSOLETED by request",
+    "name": "vnd.si.uricatalogue",
+    "notes": "OBSOLETED by request",
     "reference": "[Nicholas_Parks_Young]",
     "template": "text/vnd.si.uricatalogue",
     "type": "text"

@@ -15,6 +15,7 @@ var writedb = require('./lib/write-db')
 
 var leadingSpacesRegExp = /^\s+/
 var listColonRegExp = /:(?:\s|$)/m
+var nameWithNotesRegExp = /^(\S+)(?: - (.*)$| \((.*)\)$|)/
 var mimeTypeLineRegExp = /^(?:\s*|[^:\s-]*\s+)(?:MIME type(?: name)?|MIME media type(?: name)?|Media type(?: name)?|Type name)\s?:\s+(.*)$/im
 var mimeSubtypeLineRegExp = /^[^:\s-]*\s*(?:MIME |Media )?subtype(?: name)?\s?:\s+(?:[a-z]+ Tree (?:\- ?)?|(?:[a-z]+ )+\- )?([^\(\[\r\n]*).*$/im
 var mimeSubtypesLineRegExp = /^[^:\s-]*\s*(?:MIME |Media )?subtype(?: names)?\s?:\s+(?:[a-z]+ Tree (?:\- ?)?)?(.*)$/im
@@ -69,7 +70,7 @@ function addTemplateData(data) {
   return function* get() {
     var rfc = (rfcReferenceRegExp.exec(data.reference) || [])[1]
     var res = yield* cogent('http://www.iana.org/assignments/media-types/' + data.template)
-    var ref = data.type + '/' + data.name.replace(/ .*/, '')
+    var ref = data.type + '/' + data.name
 
     if (res.statusCode === 404 && data.template !== ref) {
       console.log('template ' + data.template + ' not found, retry as ' + ref)
@@ -136,8 +137,10 @@ function extractTemplateMime(body) {
 
 function* get(type) {
   var res = yield* cogent('http://www.iana.org/assignments/media-types/' + encodeURIComponent(type) + '.csv')
-  if (res.statusCode !== 200)
+
+  if (res.statusCode !== 200) {
     throw new Error('got status code ' + res.statusCode + ' from ' + type)
+  }
 
   var mimes = yield toArray(res.pipe(parser()))
   var headers = mimes.shift().map(normalizeHeader)
@@ -152,6 +155,11 @@ function* get(type) {
 
     // guess mime type
     data.mime = (data.template || (type + '/' + data.name)).toLowerCase()
+
+    // extract notes from name
+    var nameMatch = nameWithNotesRegExp.exec(data.name)
+    data.name = nameMatch[1]
+    data.notes = nameMatch[2] || nameMatch[3]
 
     return addTemplateData(data)
   })
