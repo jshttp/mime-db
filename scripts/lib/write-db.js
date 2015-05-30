@@ -25,7 +25,11 @@ module.exports = function writeDatabaseSync(fileName, obj) {
       var val = data[key]
 
       if (val !== undefined) {
-        fs.writeSync(fd, '    ' + JSON.stringify(key) + ': ' + JSON.stringify(val) + end);
+        var str = Array.isArray(val) && val.some(function (v) { return String(v).length > 15 })
+          ? JSON.stringify(val, null, 2).split('\n').join('\n    ')
+          : JSON.stringify(val)
+
+        fs.writeSync(fd, '    ' + JSON.stringify(key) + ': ' + str + end);
       }
     })
 

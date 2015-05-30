@@ -19,10 +19,11 @@ var nameWithNotesRegExp = /^(\S+)(?: - (.*)$| \((.*)\)$|)/
 var mimeTypeLineRegExp = /^(?:\s*|[^:\s-]*\s+)(?:MIME type(?: name)?|MIME media type(?: name)?|Media type(?: name)?|Type name)\s?:\s+(.*)$/im
 var mimeSubtypeLineRegExp = /^[^:\s-]*\s*(?:MIME |Media )?subtype(?: name)?\s?:\s+(?:[a-z]+ Tree (?:\- ?)?|(?:[a-z]+ )+\- )?([^\(\[\r\n]*).*$/im
 var mimeSubtypesLineRegExp = /^[^:\s-]*\s*(?:MIME |Media )?subtype(?: names)?\s?:\s+(?:[a-z]+ Tree (?:\- ?)?)?(.*)$/im
-var rfcReferenceRegExp = /\[(RFC[0-9]{4})\]/i
+var rfcReferenceRegExp = /\[(RFC[0-9]{4})\]/gi
 var slurpModeRegExp = /^[a-z]{4,} [a-z]{4,}(?:s|\(s\))?\s*:\s*/i
 var symbolRegExp = /[\._-]/g
 var trimQuotesRegExp = /^"|"$/gm
+var urlReferenceRegExp = /\[(https?:\/\/[^\]]+)\]/gi
 
 co(function* () {
   var gens = yield [
@@ -68,9 +69,9 @@ function addTemplateData(data) {
   }
 
   return function* get() {
-    var rfc = (rfcReferenceRegExp.exec(data.reference) || [])[1]
     var res = yield* cogent('http://www.iana.org/assignments/media-types/' + data.template)
     var ref = data.type + '/' + data.name
+    var rfc = getRfcReferences(data.reference)[0]
 
     if (res.statusCode === 404 && data.template !== ref) {
       console.log('template ' + data.template + ' not found, retry as ' + ref)
@@ -93,11 +94,16 @@ function addTemplateData(data) {
       return data
     }
 
-    if (res.statusCode !== 200)
+    if (res.statusCode !== 200) {
       throw new Error('got status code ' + res.statusCode + ' from template ' + data.template)
+    }
 
     var body = yield getTemplateBody(res)
+    var href = res.urls[0].href
     var mime = extractTemplateMime(body)
+
+    // add the template as a source
+    addSource(data, href)
 
     // use extracted mime if it's almost the same
     if (mime && mime.replace(symbolRegExp, '-') === data.mime.replace(symbolRegExp, '-')) {
@@ -161,6 +167,11 @@ function* get(type) {
     data.name = nameMatch[1]
     data.notes = nameMatch[2] || nameMatch[3]
 
+    // add reference sources
+    parseReferences(data.reference).forEach(function (url) {
+      addSource(data, url)
+    })
+
     return addTemplateData(data)
   })
 }
@@ -199,6 +210,14 @@ function* getTemplateBody(res) {
   }, []).slice(1).join('\n')
 }
 
+function addSource(data, url) {
+  var sources = data.sources || (data.sources = [])
+
+  if (sources.indexOf(url) === -1) {
+    sources.push(url)
+  }
+}
+
 function appendToLine(line, str) {
   var trimmed = line.trimRight()
   var append = trimmed.substr(-1) === '-'
@@ -221,8 +240,40 @@ function generateRowMapper(headers) {
   }
 }
 
+function getRfcReferences(reference) {
+  var match = null
+  var rfcs = []
+
+  rfcReferenceRegExp.index = 0
+
+  while (match = rfcReferenceRegExp.exec(reference)) {
+    rfcs.push(match[1].toUpperCase())
+  }
+
+  return rfcs
+}
+
+function getUrlReferences(reference) {
+  var match = null
+  var urls = []
+
+  urlReferenceRegExp.index = 0
+
+  while (match = urlReferenceRegExp.exec(reference)) {
+    urls.push(match[1])
+  }
+
+  return urls
+}
+
 function normalizeHeader(val) {
   return val.substr(0, 1).toLowerCase() + val.substr(1).replace(/ (.)/, function (s, c) {
     return c.toUpperCase()
   })
+}
+
+function parseReferences(reference) {
+  return getUrlReferences(reference).concat(getRfcReferences(reference).map(function (rfc) {
+    return 'http://tools.ietf.org/rfc/' + rfc.toLowerCase() + '.txt'
+  }))
 }
