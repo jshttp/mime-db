@@ -18,6 +18,7 @@ var listColonRegExp = /:(?:\s|$)/m
 var mimeTypeLineRegExp = /^(?:\s*|[^:\s-]*\s+)(?:MIME type(?: name)?|MIME media type(?: name)?|Media type(?: name)?|Type name)\s?:\s+(.*)$/im
 var mimeSubtypeLineRegExp = /^[^:\s-]*\s*(?:MIME |Media )?subtype(?: name)?\s?:\s+(?:[a-z]+ Tree (?:\- ?)?|(?:[a-z]+ )+\- )?([^\(\[\r\n]*).*$/im
 var mimeSubtypesLineRegExp = /^[^:\s-]*\s*(?:MIME |Media )?subtype(?: names)?\s?:\s+(?:[a-z]+ Tree (?:\- ?)?)?(.*)$/im
+var rfcReferenceRegExp = /\[(RFC[0-9]{4})\]/i
 var slurpModeRegExp = /^[a-z]{4,} [a-z]{4,}(?:s|\(s\))?\s*:\s*/i
 var symbolRegExp = /[\._-]/g
 var trimQuotesRegExp = /^"|"$/gm
@@ -66,11 +67,12 @@ function addTemplateData(data) {
   }
 
   return function* get() {
+    var rfc = (rfcReferenceRegExp.exec(data.reference) || [])[1]
     var res = yield* cogent('http://www.iana.org/assignments/media-types/' + data.template)
     var ref = data.type + '/' + data.name.replace(/ .*/, '')
 
     if (res.statusCode === 404 && data.template !== ref) {
-      console.log('template ' + data.template + ' not found')
+      console.log('template ' + data.template + ' not found, retry as ' + ref)
       data.template = ref
       res = yield* cogent('http://www.iana.org/assignments/media-types/' + ref)
 
@@ -78,6 +80,11 @@ function addTemplateData(data) {
       if (res.statusCode === 200) {
         data.mime = data.template
       }
+    }
+
+    if (res.statusCode === 404 && rfc !== undefined) {
+      console.log('template ' + data.template + ' not found, fetch ' + rfc)
+      res = yield* cogent('http://tools.ietf.org/rfc/' + rfc.toLowerCase() + '.txt')
     }
 
     if (res.statusCode === 404) {
