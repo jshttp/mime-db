@@ -22,7 +22,7 @@
     "bluebird": "2.9.26",
     "co": "4.5.4",
     "cogent": "1.0.1",
-    "csv-parse": "0.1.1",
+    "csv-parse": "0.1.2",
     "gnode": "0.1.1",
     "istanbul": "0.3.9",
     "mocha": "1.21.5",
