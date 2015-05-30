@@ -458,7 +458,6 @@
   "application/emma+xml": {
     "name": "emma+xml",
     "reference": "[W3C][http://www.w3.org/TR/2007/CR-emma-20071211/#media-type-registration][ISO-IEC JTC1]",
-    "template": "",
     "type": "application"
   },
   "application/emotionml+xml": {
@@ -494,7 +493,6 @@
   "application/exi": {
     "name": "exi",
     "reference": "[W3C][http://www.w3.org/TR/2009/CR-exi-20091208/#mediaTypeRegistration]",
-    "template": "",
     "type": "application"
   },
   "application/fastinfoset": {
@@ -818,19 +816,16 @@
   "application/mathml+xml": {
     "name": "mathml+xml",
     "reference": "[W3C][http://www.w3.org/TR/MathML3/appendixb.html]",
-    "template": "",
     "type": "application"
   },
   "application/mathml-content+xml": {
     "name": "mathml-content+xml",
     "reference": "[W3C][http://www.w3.org/TR/MathML3/appendixb.html]",
-    "template": "",
     "type": "application"
   },
   "application/mathml-presentation+xml": {
     "name": "mathml-presentation+xml",
     "reference": "[W3C][http://www.w3.org/TR/MathML3/appendixb.html]",
-    "template": "",
     "type": "application"
   },
   "application/mbms-associated-procedure-description+xml": {
@@ -1142,7 +1137,6 @@
   "application/parityfec": {
     "name": "parityfec",
     "reference": "[RFC5109]",
-    "template": "",
     "type": "application"
   },
   "application/patch-ops-error+xml": {
@@ -1172,7 +1166,6 @@
   "application/pgp-keys": {
     "name": "pgp-keys",
     "reference": "[RFC3156]",
-    "template": "",
     "type": "application"
   },
   "application/pgp-signature": {
@@ -1616,13 +1609,11 @@
   "application/sparql-query": {
     "name": "sparql-query",
     "reference": "[W3C][http://www.w3.org/TR/2007/CR-rdf-sparql-query-20070614/#mediaType]",
-    "template": "",
     "type": "application"
   },
   "application/sparql-results+xml": {
     "name": "sparql-results+xml",
     "reference": "[W3C][http://www.w3.org/TR/2007/CR-rdf-sparql-XMLres-20070925/#mime]",
-    "template": "",
     "type": "application"
   },
   "application/spirits-event+xml": {
@@ -6566,7 +6557,6 @@
   "application/widget": {
     "name": "widget",
     "reference": "[W3C][Steven_Pemberton][ISO/IEC 19757-2:2003/FDAM-1]",
-    "template": "",
     "type": "application"
   },
   "application/wita": {
@@ -6710,7 +6700,6 @@
   "application/xslt+xml": {
     "name": "xslt+xml",
     "reference": "[W3C][http://www.w3.org/TR/2007/REC-xslt20-20070123/#media-type-registration]",
-    "template": "",
     "type": "application"
   },
   "application/xv+xml": {
@@ -7058,7 +7047,6 @@
   "audio/g7291": {
     "name": "G7291",
     "reference": "[RFC4749][RFC5459]",
-    "template": "",
     "type": "audio"
   },
   "audio/g729d": {
@@ -7190,7 +7178,6 @@
   "audio/parityfec": {
     "name": "parityfec",
     "reference": "[RFC5109]",
-    "template": "",
     "type": "audio"
   },
   "audio/pcma": {
@@ -7226,7 +7213,6 @@
   "audio/qcelp": {
     "name": "QCELP",
     "reference": "[RFC3555][RFC3625]",
-    "template": "",
     "type": "audio"
   },
   "audio/raptorfec": {
@@ -7591,112 +7577,92 @@
     "type": "image"
   },
   "image/fits": {
-    "description": "",
     "name": "fits",
     "reference": "[RFC4047]",
     "template": "image/fits",
     "type": "image"
   },
   "image/g3fax": {
-    "description": "",
     "name": "g3fax",
     "reference": "[RFC1494]",
     "template": "image/g3fax",
     "type": "image"
   },
   "image/gif": {
-    "description": "",
     "name": "gif",
     "reference": "[RFC2045][RFC2046]",
-    "template": "",
     "type": "image"
   },
   "image/ief": {
     "description": "Image Exchange Format",
     "name": "ief",
     "reference": "[RFC1314]",
-    "template": "",
     "type": "image"
   },
   "image/jp2": {
-    "description": "",
     "name": "jp2",
     "reference": "[RFC3745]",
     "template": "image/jp2",
     "type": "image"
   },
   "image/jpeg": {
-    "description": "",
     "name": "jpeg",
     "reference": "[RFC2045][RFC2046]",
-    "template": "",
     "type": "image"
   },
   "image/jpm": {
-    "description": "",
     "name": "jpm",
     "reference": "[RFC3745]",
     "template": "image/jpm",
     "type": "image"
   },
   "image/jpx": {
-    "description": "",
     "name": "jpx",
     "reference": "[RFC3745]",
     "template": "image/jpx",
     "type": "image"
   },
   "image/ktx": {
-    "description": "",
     "name": "ktx",
     "reference": "[Mark_Callow][Khronos][http://www.khronos.org/opengles/sdk/tools/KTX/file_format_spec/#mimeregistration]",
-    "template": "",
     "type": "image"
   },
   "image/naplps": {
-    "description": "",
     "name": "naplps",
     "reference": "[Ilya_Ferber]",
     "template": "image/naplps",
     "type": "image"
   },
   "image/png": {
-    "description": "",
     "name": "png",
     "reference": "[Glenn_Randers-Pehrson]",
     "template": "image/png",
     "type": "image"
   },
   "image/prs.btif": {
-    "description": "",
     "name": "prs.btif",
     "reference": "[Ben_Simon]",
     "template": "image/prs.btif",
     "type": "image"
   },
   "image/prs.pti": {
-    "description": "",
     "name": "prs.pti",
     "reference": "[Juern_Laun]",
     "template": "image/prs.pti",
     "type": "image"
   },
   "image/pwg-raster": {
-    "description": "",
     "name": "pwg-raster",
     "reference": "[Michael_Sweet]",
     "template": "image/pwg-raster",
     "type": "image"
   },
   "image/svg+xml": {
-    "description": "",
     "name": "svg+xml",
     "reference": "[W3C][http://www.w3.org/TR/SVG/mimereg.html]",
-    "template": "",
     "type": "image"
   },
   "image/t38": {
-    "description": "",
     "name": "t38",
     "reference": "[RFC3362]",
     "template": "image/t38",
@@ -7717,196 +7683,168 @@
     "type": "image"
   },
   "image/vnd.adobe.photoshop": {
-    "description": "",
     "name": "vnd.adobe.photoshop",
     "reference": "[Kim_Scarborough]",
     "template": "image/vnd.adobe.photoshop",
     "type": "image"
   },
   "image/vnd.airzip.accelerator.azv": {
-    "description": "",
     "name": "vnd.airzip.accelerator.azv",
     "reference": "[Gary_Clueit]",
     "template": "image/vnd.airzip.accelerator.azv",
     "type": "image"
   },
   "image/vnd.cns.inf2": {
-    "description": "",
     "name": "vnd.cns.inf2",
     "reference": "[Ann_McLaughlin]",
     "template": "image/vnd.cns.inf2",
     "type": "image"
   },
   "image/vnd.dece.graphic": {
-    "description": "",
     "name": "vnd.dece.graphic",
     "reference": "[Michael_A_Dolan]",
     "template": "image/vnd.dece.graphic",
     "type": "image"
   },
   "image/vnd.djvu": {
-    "description": "",
     "name": "vnd.djvu",
     "reference": "[Leon_Bottou]",
     "template": "image/vnd-djvu",
     "type": "image"
   },
   "image/vnd.dvb.subtitle": {
-    "description": "",
     "name": "vnd.dvb.subtitle",
     "reference": "[Peter_Siebert][Michael_Lagally]",
     "template": "image/vnd.dvb.subtitle",
     "type": "image"
   },
   "image/vnd.dwg": {
-    "description": "",
     "name": "vnd.dwg",
     "reference": "[Jodi_Moline]",
     "template": "image/vnd.dwg",
     "type": "image"
   },
   "image/vnd.dxf": {
-    "description": "",
     "name": "vnd.dxf",
     "reference": "[Jodi_Moline]",
     "template": "image/vnd.dxf",
     "type": "image"
   },
   "image/vnd.fastbidsheet": {
-    "description": "",
     "name": "vnd.fastbidsheet",
     "reference": "[Scott_Becker]",
     "template": "image/vnd.fastbidsheet",
     "type": "image"
   },
   "image/vnd.fpx": {
-    "description": "",
     "name": "vnd.fpx",
     "reference": "[Marc_Douglas_Spencer]",
     "template": "image/vnd.fpx",
     "type": "image"
   },
   "image/vnd.fst": {
-    "description": "",
     "name": "vnd.fst",
     "reference": "[Arild_Fuldseth]",
     "template": "image/vnd.fst",
     "type": "image"
   },
   "image/vnd.fujixerox.edmics-mmr": {
-    "description": "",
     "name": "vnd.fujixerox.edmics-mmr",
     "reference": "[Masanori_Onda]",
     "template": "image/vnd.fujixerox.edmics-mmr",
     "type": "image"
   },
   "image/vnd.fujixerox.edmics-rlc": {
-    "description": "",
     "name": "vnd.fujixerox.edmics-rlc",
     "reference": "[Masanori_Onda]",
     "template": "image/vnd.fujixerox.edmics-rlc",
     "type": "image"
   },
   "image/vnd.globalgraphics.pgb": {
-    "description": "",
     "name": "vnd.globalgraphics.pgb",
     "reference": "[Martin_Bailey]",
     "template": "image/vnd.globalgraphics.pgb",
     "type": "image"
   },
   "image/vnd.microsoft.icon": {
-    "description": "",
     "name": "vnd.microsoft.icon",
     "reference": "[Simon_Butcher]",
     "template": "image/vnd.microsoft.icon",
     "type": "image"
   },
   "image/vnd.mix": {
-    "description": "",
     "name": "vnd.mix",
     "reference": "[Saveen_Reddy]",
     "template": "image/vnd.mix",
     "type": "image"
   },
   "image/vnd.ms-modi": {
-    "description": "",
     "name": "vnd.ms-modi",
     "reference": "[Gregory_Vaughan]",
     "template": "image/vnd.ms-modi",
     "type": "image"
   },
   "image/vnd.net-fpx": {
-    "description": "",
     "name": "vnd.net-fpx",
     "reference": "[Marc_Douglas_Spencer]",
     "template": "image/vnd.net-fpx",
     "type": "image"
   },
   "image/vnd.radiance": {
-    "description": "",
     "name": "vnd.radiance",
     "reference": "[Randolph_Fritz][Greg_Ward]",
     "template": "image/vnd.radiance",
     "type": "image"
   },
   "image/vnd.sealed.png": {
-    "description": "",
     "name": "vnd.sealed.png",
     "reference": "[David_Petersen]",
     "template": "image/vnd.sealed-png",
     "type": "image"
   },
   "image/vnd.sealedmedia.softseal.gif": {
-    "description": "",
     "name": "vnd.sealedmedia.softseal.gif",
     "reference": "[David_Petersen]",
     "template": "image/vnd.sealedmedia.softseal-gif",
     "type": "image"
   },
   "image/vnd.sealedmedia.softseal.jpg": {
-    "description": "",
     "name": "vnd.sealedmedia.softseal.jpg",
     "reference": "[David_Petersen]",
     "template": "image/vnd.sealedmedia.softseal-jpg",
     "type": "image"
   },
   "image/vnd.svf": {
-    "description": "",
     "name": "vnd.svf",
     "reference": "[Jodi_Moline]",
     "template": "image/vnd-svf",
     "type": "image"
   },
   "image/vnd.tencent.tap": {
-    "description": "",
     "name": "vnd.tencent.tap",
     "reference": "[Ni_Hui]",
     "template": "image/vnd.tencent.tap",
     "type": "image"
   },
   "image/vnd.valve.source.texture": {
-    "description": "",
     "name": "vnd.valve.source.texture",
     "reference": "[Henrik_Andersson]",
     "template": "image/vnd.valve.source.texture",
     "type": "image"
   },
   "image/vnd.wap.wbmp": {
-    "description": "",
     "name": "vnd.wap.wbmp",
     "reference": "[Peter_Stark]",
     "template": "image/vnd-wap-wbmp",
     "type": "image"
   },
   "image/vnd.xiff": {
-    "description": "",
     "name": "vnd.xiff",
     "reference": "[Steven_Martin]",
     "template": "image/vnd.xiff",
     "type": "image"
   },
   "image/vnd.zbrush.pcx": {
-    "description": "",
     "name": "vnd.zbrush.pcx",
     "reference": "[Chris_Charabaruk]",
     "template": "image/vnd.zbrush.pcx",
@@ -7933,7 +7871,6 @@
   "message/external-body": {
     "name": "external-body",
     "reference": "[RFC2045][RFC2046]",
-    "template": "",
     "type": "message"
   },
   "message/feedback-report": {
@@ -7987,13 +7924,11 @@
   "message/partial": {
     "name": "partial",
     "reference": "[RFC2045][RFC2046]",
-    "template": "",
     "type": "message"
   },
   "message/rfc822": {
     "name": "rfc822",
     "reference": "[RFC2045][RFC2046]",
-    "template": "",
     "type": "message"
   },
   "message/s-http": {
@@ -8041,7 +7976,6 @@
   "model/mesh": {
     "name": "mesh",
     "reference": "[RFC2077]",
-    "template": "",
     "type": "model"
   },
   "model/vnd.collada+xml": {
@@ -8125,7 +8059,6 @@
   "model/vrml": {
     "name": "vrml",
     "reference": "[RFC2077]",
-    "template": "",
     "type": "model"
   },
   "model/x3d+fastinfoset": {
@@ -8149,7 +8082,6 @@
   "multipart/alternative": {
     "name": "alternative",
     "reference": "[RFC2046][RFC2045]",
-    "template": "",
     "type": "multipart"
   },
   "multipart/appledouble": {
@@ -8167,7 +8099,6 @@
   "multipart/digest": {
     "name": "digest",
     "reference": "[RFC2046][RFC2045]",
-    "template": "",
     "type": "multipart"
   },
   "multipart/encrypted": {
@@ -8191,13 +8122,11 @@
   "multipart/mixed": {
     "name": "mixed",
     "reference": "[RFC2046][RFC2045]",
-    "template": "",
     "type": "multipart"
   },
   "multipart/parallel": {
     "name": "parallel",
     "reference": "[RFC2046][RFC2045]",
-    "template": "",
     "type": "multipart"
   },
   "multipart/related": {
@@ -8293,7 +8222,6 @@
   "text/enriched": {
     "name": "enriched",
     "reference": "[RFC1896]",
-    "template": "",
     "type": "text"
   },
   "text/fwdred": {
@@ -8353,13 +8281,11 @@
   "text/parityfec": {
     "name": "parityfec",
     "reference": "[RFC5109]",
-    "template": "",
     "type": "text"
   },
   "text/plain": {
     "name": "plain",
     "reference": "[RFC2046][RFC3676][RFC5147]",
-    "template": "",
     "type": "text"
   },
   "text/provenance-notation": {
@@ -8401,7 +8327,6 @@
   "text/richtext": {
     "name": "richtext",
     "reference": "[RFC2045][RFC2046]",
-    "template": "",
     "type": "text"
   },
   "text/rtf": {

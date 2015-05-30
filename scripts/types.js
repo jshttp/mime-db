@@ -205,7 +205,10 @@ function concat(a, b) {
 
 function generateRowMapper(headers) {
   return function reduceRows(obj, val, index) {
-    obj[headers[index]] = val
+    if (val !== '') {
+      obj[headers[index]] = val
+    }
+
     return obj
   }
 }
