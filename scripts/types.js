@@ -48,16 +48,18 @@ co(function* () {
   // flatten results
   results = results.reduce(concat, [])
 
-  var json = {}
+  var json = Object.create(null)
   results.forEach(function (result) {
     var mime = result.mime
 
-    if (mime in json && result.template !== json[mime].template) {
+    if (mime in json) {
       throw new Error('duplicate entry for ' + mime)
     }
 
-    delete result.mime
-    json[mime] = result
+    json[mime] = {
+      notes: result.notes,
+      sources: result.sources
+    }
   })
 
   writedb('src/iana.json', json)
@@ -151,12 +153,22 @@ function* get(type) {
   var mimes = yield toArray(res.pipe(parser()))
   var headers = mimes.shift().map(normalizeHeader)
   var reduceRows = generateRowMapper(headers)
+  var templates = Object.create(null)
 
   return mimes.map(function (row) {
     var data = row.reduce(reduceRows, {type: type})
 
-    if (data.template === type + '/example') {
-      return
+    if (data.template) {
+      if (data.template === type + '/example') {
+        return
+      }
+
+      if (templates[data.template]) {
+        // duplicate entry
+        return
+      }
+
+      templates[data.template] = true
     }
 
     // guess mime type
