@@ -5102,6 +5102,10 @@
   "audio/vorbis-config": {
     "source": "iana"
   },
+  "audio/wav": {
+    "compressible": false,
+    "extensions": ["wav"]
+  },
   "audio/webm": {
     "source": "apache",
     "compressible": false,

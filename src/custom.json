@@ -297,6 +297,10 @@
   "audio/ogg": {
     "compressible": false
   },
+  "audio/wav": {
+    "compressible": false,
+    "extensions": ["wav"]
+  },
   "audio/vnd.rn-realaudio": {
     "compressible": false
   },
