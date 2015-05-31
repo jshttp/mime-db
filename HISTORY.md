@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Add `audio/wav`
+  * Add `audio/wave`
   * Add extension `.sfd-hdstx` to `application/vnd.hydrostatix.sof-data`
   * Add extension `.n-gage` to `application/vnd.nokia.n-gage.symbian.install`
 

@@ -301,6 +301,10 @@
     "compressible": false,
     "extensions": ["wav"]
   },
+  "audio/wave": {
+    "compressible": false,
+    "extensions": ["wav"]
+  },
   "audio/vnd.rn-realaudio": {
     "compressible": false
   },

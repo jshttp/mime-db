@@ -5106,6 +5106,10 @@
     "compressible": false,
     "extensions": ["wav"]
   },
+  "audio/wave": {
+    "compressible": false,
+    "extensions": ["wav"]
+  },
   "audio/webm": {
     "source": "apache",
     "compressible": false,
