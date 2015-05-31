@@ -1,3 +1,9 @@
+unreleased
+==========
+
+  * Add extension `.sfd-hdstx` to `application/vnd.hydrostatix.sof-data`
+  * Add extension `.n-gage` to `application/vnd.nokia.n-gage.symbian.install`
+
 1.10.0 / 2015-05-19
 ===================
 

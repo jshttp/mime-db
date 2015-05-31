@@ -923,6 +923,9 @@
     "extensions": ["pclxl"]
   },
   "application/vnd.httphone": {},
+  "application/vnd.hydrostatix.sof-data": {
+    "extensions": ["sfd-hdstx"]
+  },
   "application/vnd.hzn-3d-crossword": {},
   "application/vnd.ibm.afplinedata": {},
   "application/vnd.ibm.electronic-media": {},
@@ -1291,6 +1294,9 @@
   "application/vnd.nokia.n-gage.ac+xml": {},
   "application/vnd.nokia.n-gage.data": {
     "extensions": ["ngdat"]
+  },
+  "application/vnd.nokia.n-gage.symbian.install": {
+    "extensions": ["n-gage"]
   },
   "application/vnd.nokia.ncd": {},
   "application/vnd.nokia.pcd+wbxml": {},

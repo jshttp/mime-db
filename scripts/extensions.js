@@ -37,7 +37,7 @@ function* get(name, url) {
    * We could also just remove all lines that start with `#` if we want to make the JSON files smaller
    * and ignore all mime types without associated extensions.
    */
-  var re = /^(?:# )?([\w-]+\/[\w\+\.-]+)(?:\s+\w+)*$/
+  var re = /^(?:# )?([\w-]+\/[\w\+\.-]+)(?:\s+[\w-]+)*$/
   text = text.split('\n')
   .filter(Boolean)
   .forEach(function (line) {

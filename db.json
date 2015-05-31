@@ -2037,7 +2037,8 @@
     "source": "iana"
   },
   "application/vnd.hydrostatix.sof-data": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["sfd-hdstx"]
   },
   "application/vnd.hzn-3d-crossword": {
     "source": "iana"
@@ -2728,7 +2729,8 @@
     "extensions": ["ngdat"]
   },
   "application/vnd.nokia.n-gage.symbian.install": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["n-gage"]
   },
   "application/vnd.nokia.ncd": {
     "source": "iana"
