@@ -455,7 +455,7 @@
     "compressible": true
   },
   "text/coffeescript": {
-    "extensions": ["coffee"]
+    "extensions": ["coffee", "litcoffee"]
   },
   "text/css": {
     "compressible": true
