@@ -1,6 +1,8 @@
 # MIME sources
 
-This directory contains various sources for building the database.
+This directory contains various sources for building the database. There
+are two types of files: type data files (`*-types.json`) and extension
+mapping files (`*-extensions.json`).
 
 ## Type data files
 
@@ -47,6 +49,15 @@ Data built from the IANA database.
 ### nginx-types.json
 
 Data built from the nginx database.
+
+## Extension mapping files
+
+Extension mapping files are those in the format `*-extensions.json` and
+contain a mapping of file extension to MIME type. The JSON consists of a
+single object with keys being the normalized file extension (all lower-case)
+and the value being an array of corresponding MIME types (normalized, all
+lower-case). The order of MIME types is significant, with the most-preferred
+at index 0.
 
 ## custom-suffix.json
 
