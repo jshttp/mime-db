@@ -1,5 +1,5 @@
-unreleased
-==========
+1.11.0 / 2015-05-31
+===================
 
   * Add `audio/wav`
   * Add `audio/wave`
