@@ -1,7 +1,9 @@
 unreleased
 ==========
 
+  * Add `application/bdoc`
   * Add `application/vnd.hyperdrive+json`
+  * Add `application/x-bdoc`
 
 1.11.0 / 2015-05-31
 ===================
