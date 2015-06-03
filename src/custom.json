@@ -5,6 +5,22 @@
       "http://en.wikipedia.org/wiki/Atom_(standard)"
     ]
   },
+  "application/bdoc":{
+    "compressible": false,
+    "sources":[
+      "http://wpki.eu/wiki/upload/4/4f/BDoc-1.02.pdf",
+      "http://www.id.ee/public/bdoc-spec21.pdf"
+    ],
+    "notes": "Digital signature container"
+  },
+  "application/x-bdoc":{
+    "compressible": false,
+    "sources":[
+      "http://wpki.eu/wiki/upload/4/4f/BDoc-1.02.pdf",
+      "http://www.id.ee/public/bdoc-spec21.pdf"
+    ],
+    "notes": "Digital signature container"
+  },
   "application/dart": {
     "compressible": true
   },
