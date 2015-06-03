@@ -5,27 +5,35 @@
       "http://en.wikipedia.org/wiki/Atom_(standard)"
     ]
   },
-  "application/bdoc":{
+  "application/bdoc": {
     "compressible": false,
-    "sources":[
+    "sources": [
       "http://wpki.eu/wiki/upload/4/4f/BDoc-1.02.pdf",
       "http://www.id.ee/public/bdoc-spec21.pdf"
     ],
-    "notes": "Digital signature container"
+    "notes": "Digital signature container",
+    "extensions": [
+      "bdoc"
+    ]
   },
-  "application/x-bdoc":{
+  "application/x-bdoc": {
     "compressible": false,
-    "sources":[
+    "sources": [
       "http://wpki.eu/wiki/upload/4/4f/BDoc-1.02.pdf",
       "http://www.id.ee/public/bdoc-spec21.pdf"
     ],
-    "notes": "Digital signature container"
+    "notes": "Digital signature container",
+    "extensions": [
+      "bdoc"
+    ]
   },
   "application/dart": {
     "compressible": true
   },
   "application/dash+xml": {
-    "extensions": ["mdp"]
+    "extensions": [
+      "mdp"
+    ]
   },
   "application/ecmascript": {
     "compressible": true
@@ -45,7 +53,9 @@
   },
   "application/font-woff2": {
     "compressible": false,
-    "extensions": ["woff2"],
+    "extensions": [
+      "woff2"
+    ],
     "sources": [
       "http://dev.w3.org/webfonts/WOFF2/spec/#IMT"
     ],
@@ -70,31 +80,43 @@
   "application/json": {
     "charset": "UTF-8",
     "compressible": true,
-    "extensions": ["map"]
+    "extensions": [
+      "map"
+    ]
   },
   "application/json5": {
-    "extensions": ["json5"]
+    "extensions": [
+      "json5"
+    ]
   },
   "application/ld+json": {
-    "extensions": ["jsonld"]
+    "extensions": [
+      "jsonld"
+    ]
   },
   "application/manifest+json": {
     "charset": "UTF-8",
     "compressible": true,
-    "extensions": ["webmanifest"],
+    "extensions": [
+      "webmanifest"
+    ],
     "sources": [
       "http://w3c.github.io/manifest/#h-media-type-registration"
     ]
   },
   "application/mp4": {
-    "extensions": ["m4p"]
+    "extensions": [
+      "m4p"
+    ]
   },
   "application/msword": {
     "compressible": false
   },
   "application/octet-stream": {
     "compressible": false,
-    "extensions": ["buffer"],
+    "extensions": [
+      "buffer"
+    ],
     "sources": [
       "https://github.com/broofa/node-mime/blob/v1.2.11/types/mime.types#L154"
     ]
@@ -208,7 +230,9 @@
     "compressible": false
   },
   "application/x-chrome-extension": {
-    "extensions": ["crx"]
+    "extensions": [
+      "crx"
+    ]
   },
   "application/x-deb": {
     "compressible": false
@@ -238,14 +262,18 @@
     "compressible": false
   },
   "application/x-lua-bytecode": {
-    "extensions": ["luac"]
+    "extensions": [
+      "luac"
+    ]
   },
   "application/x-mpegurl": {
     "compressible": false
   },
   "application/x-ns-proxy-autoconfig": {
     "compressible": true,
-    "extensions": ["pac"],
+    "extensions": [
+      "pac"
+    ],
     "sources": [
       "https://web.archive.org/web/20070602031929/http://wp.netscape.com/eng/mozilla/2.0/relnotes/demo/proxy-live.html",
       "https://en.wikipedia.org/wiki/Proxy_auto-config#The_PAC_File"
@@ -270,7 +298,9 @@
     "compressible": true
   },
   "application/x-web-app-manifest+json": {
-    "extensions": ["webapp"]
+    "extensions": [
+      "webapp"
+    ]
   },
   "application/x-www-form-urlencoded": {
     "compressible": true
@@ -283,7 +313,9 @@
   },
   "application/xml": {
     "compressible": true,
-    "extensions": ["xsd"]
+    "extensions": [
+      "xsd"
+    ]
   },
   "application/xml-dtd": {
     "compressible": true,
@@ -305,7 +337,9 @@
   },
   "audio/mp4": {
     "compressible": false,
-    "extensions": ["m4a"]
+    "extensions": [
+      "m4a"
+    ]
   },
   "audio/mpeg": {
     "compressible": false
@@ -315,11 +349,15 @@
   },
   "audio/wav": {
     "compressible": false,
-    "extensions": ["wav"]
+    "extensions": [
+      "wav"
+    ]
   },
   "audio/wave": {
     "compressible": false,
-    "extensions": ["wav"]
+    "extensions": [
+      "wav"
+    ]
   },
   "audio/vnd.rn-realaudio": {
     "compressible": false
@@ -341,7 +379,9 @@
   },
   "font/opentype": {
     "compressible": true,
-    "extensions": ["otf"],
+    "extensions": [
+      "otf"
+    ],
     "sources": [
       "http://www.phpied.com/gzip-your-font-face-files/"
     ]
@@ -386,7 +426,9 @@
   },
   "image/x-ms-bmp": {
     "compressible": true,
-    "extensions": ["bmp"]
+    "extensions": [
+      "bmp"
+    ]
   },
   "image/x-xcf": {
     "compressible": false
@@ -454,7 +496,9 @@
   },
   "text/cache-manifest": {
     "compressible": true,
-    "extensions": ["manifest"],
+    "extensions": [
+      "manifest"
+    ],
     "sources": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=715191#c2"
     ],
@@ -471,7 +515,10 @@
     "compressible": true
   },
   "text/coffeescript": {
-    "extensions": ["coffee", "litcoffee"]
+    "extensions": [
+      "coffee",
+      "litcoffee"
+    ]
   },
   "text/css": {
     "compressible": true
@@ -480,26 +527,34 @@
     "compressible": true
   },
   "text/hjson": {
-    "extensions": ["hjson"]
+    "extensions": [
+      "hjson"
+    ]
   },
   "text/html": {
     "compressible": true
   },
   "text/jade": {
-    "extensions": ["jade"]
+    "extensions": [
+      "jade"
+    ]
   },
   "text/javascript": {
     "compressible": true
   },
   "text/jsx": {
     "compressible": true,
-    "extensions": ["jsx"],
+    "extensions": [
+      "jsx"
+    ],
     "sources": [
       "http://facebook.github.io/react/docs/getting-started.html"
     ]
   },
   "text/less": {
-    "extensions": ["less"]
+    "extensions": [
+      "less"
+    ]
   },
   "text/n3": {
     "compressible": true,
@@ -509,13 +564,18 @@
   },
   "text/plain": {
     "compressible": true,
-    "extensions": ["ini"]
+    "extensions": [
+      "ini"
+    ]
   },
   "text/richtext": {
     "compressible": true
   },
   "text/stylus": {
-    "extensions": ["stylus","styl"]
+    "extensions": [
+      "stylus",
+      "styl"
+    ]
   },
   "text/tab-separated-values": {
     "compressible": true
@@ -529,44 +589,65 @@
   "text/vtt": {
     "charset": "UTF-8",
     "compressible": true,
-    "extensions": ["vtt"],
+    "extensions": [
+      "vtt"
+    ],
     "sources": [
-       "http://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
+      "http://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
     ]
   },
   "text/x-component": {
-    "extensions": ["htc"]
+    "extensions": [
+      "htc"
+    ]
   },
   "text/x-gwt-rpc": {
     "compressible": true
   },
   "text/x-handlebars-template": {
-    "extensions": ["hbs"]
+    "extensions": [
+      "hbs"
+    ]
   },
   "text/x-jquery-tmpl": {
     "compressible": true
   },
   "text/x-lua": {
-    "extensions": ["lua"]
+    "extensions": [
+      "lua"
+    ]
   },
   "text/x-markdown": {
     "compressible": true,
-    "extensions": ["markdown","md","mkd"]
+    "extensions": [
+      "markdown",
+      "md",
+      "mkd"
+    ]
   },
   "text/x-sass": {
-    "extensions": ["sass"]
+    "extensions": [
+      "sass"
+    ]
   },
   "text/x-scss": {
-    "extensions": ["scss"]
+    "extensions": [
+      "scss"
+    ]
   },
   "text/xml": {
     "compressible": true
   },
   "text/yaml": {
-    "extensions": ["yaml","yml"]
+    "extensions": [
+      "yaml",
+      "yml"
+    ]
   },
   "video/mp2t": {
-    "extensions": ["ts"]
+    "extensions": [
+      "ts"
+    ]
   },
   "video/mp4": {
     "compressible": false

@@ -2,9 +2,5 @@
   "+json": {
     "compressible": true,
     "notes": "+json means it is JSON, which is compressible."
-  },
-  "bdoc": {
-    "compressible": false,
-    "notes": "Digidoc (digital Signature container)."
   }
 }
