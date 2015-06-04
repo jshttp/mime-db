@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add `application/vnd.hyperdrive+json`
+
 1.11.0 / 2015-05-31
 ===================
 

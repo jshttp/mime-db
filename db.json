@@ -2040,6 +2040,10 @@
     "source": "iana",
     "extensions": ["sfd-hdstx"]
   },
+  "application/vnd.hyperdrive+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.hzn-3d-crossword": {
     "source": "iana"
   },

@@ -2958,6 +2958,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.hydrostatix.sof-data"
     ]
   },
+  "application/vnd.hyperdrive+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.hyperdrive+json"
+    ]
+  },
   "application/vnd.hzn-3d-crossword": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.hzn-3d-crossword"
