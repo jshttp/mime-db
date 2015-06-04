@@ -4,6 +4,7 @@ unreleased
   * Add `application/bdoc`
   * Add `application/vnd.hyperdrive+json`
   * Add `application/x-bdoc`
+  * Add extension `.rtf` to `text/rtf`
 
 1.11.0 / 2015-05-31
 ===================

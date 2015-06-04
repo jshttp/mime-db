@@ -516,6 +516,10 @@
   "text/richtext": {
     "compressible": true
   },
+  "text/rtf": {
+    "compressible": true,
+    "extensions": ["rtf"]
+  },
   "text/stylus": {
     "extensions": ["stylus","styl"]
   },

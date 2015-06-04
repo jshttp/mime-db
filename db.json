@@ -5803,7 +5803,9 @@
     "extensions": ["rtx"]
   },
   "text/rtf": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["rtf"]
   },
   "text/rtp-enc-aescm128": {
     "source": "iana"
