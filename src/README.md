@@ -18,3 +18,7 @@ to all types with a given suffix.
 ## iana.json
 
 Data built from the IANA database.
+
+## nginx.json
+
+Data built from the nginx project.
