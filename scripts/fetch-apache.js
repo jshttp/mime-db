@@ -54,7 +54,7 @@ co(function* () {
     appendExtensions(data, extensions)
   }
 
-  writedb('src/apache.json', json)
+  writedb('src/apache-types.json', json)
 }).then()
 
 /**

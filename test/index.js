@@ -11,7 +11,7 @@ describe('mime-db', function () {
 
     // collect all source types
     fs.readdirSync(path).forEach(function (file) {
-      if (!/^\w+\.json$/.test(file)) return
+      if (!/-types\.json$/.test(file)) return
       types.push.apply(types, Object.keys(require(path + '/' + file)))
     })
 

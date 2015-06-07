@@ -2,16 +2,16 @@
 var db = {}
 
 // initialize with all the IANA types
-addData(db, require('../src/iana.json'), 'iana')
+addData(db, require('../src/iana-types.json'), 'iana')
 
 // add the mime extensions from Apache
-addData(db, require('../src/apache.json'), 'apache')
+addData(db, require('../src/apache-types.json'), 'apache')
 
 // add the mime extensions from nginx
-addData(db, require('../src/nginx.json'), 'nginx')
+addData(db, require('../src/nginx-types.json'), 'nginx')
 
 // now add all our custom data
-addData(db, require('../src/custom.json'))
+addData(db, require('../src/custom-types.json'))
 
 // finally, all custom suffix defaults
 var mime = require('../src/custom-suffix.json')

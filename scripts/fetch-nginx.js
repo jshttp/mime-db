@@ -45,7 +45,7 @@ co(function* () {
     appendExtensions(data, extensions)
   }
 
-  writedb('src/nginx.json', json)
+  writedb('src/nginx-types.json', json)
 }).then()
 
 /**

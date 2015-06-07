@@ -62,7 +62,7 @@ co(function* () {
     }
   })
 
-  writedb('src/iana.json', json)
+  writedb('src/iana-types.json', json)
 }).then()
 
 function addTemplateData(data) {
