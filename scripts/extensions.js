@@ -12,7 +12,8 @@ var writedb = require('./lib/write-db')
 
 co(function* () {
   yield [
-    get('apache', 'http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types')
+    get('apache', 'http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types'),
+    get('nginx', 'http://hg.nginx.org/nginx/raw-file/default/conf/mime.types')
   ]
 }).then()
 
@@ -32,12 +33,16 @@ function* get(name, url) {
    *
    *   <type> <ext> <ext> <ext>
    *
+   * or
+   *
+   *   <type> <ext> <ext> <ext>;
+   *
    * And some are commented out with a leading `#` because they have no associated extensions.
    * This regexp checks whether a single line matches this format, ignoring lines that are just comments.
    * We could also just remove all lines that start with `#` if we want to make the JSON files smaller
    * and ignore all mime types without associated extensions.
    */
-  var re = /^(?:# )?([\w-]+\/[\w\+\.-]+)(?:\s+[\w-]+)*$/
+  var re = /^(?:# )?([\w-]+\/[\w\+\.-]+)((?:\s+[\w-]+)*);?$/
   text = text.split('\n')
   .filter(Boolean)
   .forEach(function (line) {
@@ -48,7 +53,7 @@ function* get(name, url) {
     var mime = match[1]
     if (mime.substr(-8) === '/example') return
     // remove the leading # and <type> and return all the <ext>s
-    var extensions = line.replace(/^(?:# )?([\w-]+\/[\w\+\.-]+)/, '')
+    var extensions = match[2]
       .split(/\s+/)
       .filter(Boolean)
     var o = json[mime] = {}

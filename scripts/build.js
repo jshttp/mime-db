@@ -7,6 +7,9 @@ addData(db, require('../src/iana.json'), 'iana')
 // add the mime extensions from Apache
 addData(db, require('../src/apache.json'), 'apache')
 
+// add the mime extensions from nginx
+addData(db, require('../src/nginx.json'), 'nginx')
+
 // now add all our custom data
 addData(db, require('../src/custom.json'))
 

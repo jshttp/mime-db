@@ -388,7 +388,9 @@
   },
   "image/x-ms-bmp": {
     "compressible": true,
-    "extensions": ["bmp"]
+    "sources": [
+      "http://stackoverflow.com/a/12770116"
+    ]
   },
   "image/x-xcf": {
     "compressible": false
@@ -539,9 +541,6 @@
     "sources": [
        "http://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
     ]
-  },
-  "text/x-component": {
-    "extensions": ["htc"]
   },
   "text/x-gwt-rpc": {
     "compressible": true

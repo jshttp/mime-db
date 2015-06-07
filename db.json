@@ -414,7 +414,7 @@
   "application/java-archive": {
     "source": "apache",
     "compressible": false,
-    "extensions": ["jar"]
+    "extensions": ["jar","war","ear"]
   },
   "application/java-serialized-object": {
     "source": "apache",
@@ -694,7 +694,7 @@
   "application/octet-stream": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["bin","dms","lrf","mar","so","dist","distz","pkg","bpk","dump","elc","deploy","buffer"]
+    "extensions": ["bin","dms","lrf","mar","so","dist","distz","pkg","bpk","dump","elc","deploy","msi","msp","msm","buffer"]
   },
   "application/oda": {
     "source": "iana",
@@ -4138,6 +4138,10 @@
   "application/x-chrome-extension": {
     "extensions": ["crx"]
   },
+  "application/x-cocoa": {
+    "source": "nginx",
+    "extensions": ["cco"]
+  },
   "application/x-compress": {
     "source": "apache"
   },
@@ -4292,6 +4296,10 @@
     "source": "apache",
     "extensions": ["iso"]
   },
+  "application/x-java-archive-diff": {
+    "source": "nginx",
+    "extensions": ["jardiff"]
+  },
   "application/x-java-jnlp-file": {
     "source": "apache",
     "compressible": false,
@@ -4311,6 +4319,10 @@
   "application/x-lzh-compressed": {
     "source": "apache",
     "extensions": ["lzh","lha"]
+  },
+  "application/x-makeself": {
+    "source": "nginx",
+    "extensions": ["run"]
   },
   "application/x-mie": {
     "source": "apache",
@@ -4403,6 +4415,14 @@
     "source": "apache",
     "extensions": ["nzb"]
   },
+  "application/x-perl": {
+    "source": "nginx",
+    "extensions": ["pl","pm"]
+  },
+  "application/x-pilot": {
+    "source": "nginx",
+    "extensions": ["prc","pdb"]
+  },
   "application/x-pkcs12": {
     "source": "apache",
     "compressible": false,
@@ -4421,9 +4441,17 @@
     "compressible": false,
     "extensions": ["rar"]
   },
+  "application/x-redhat-package-manager": {
+    "source": "nginx",
+    "extensions": ["rpm"]
+  },
   "application/x-research-info-systems": {
     "source": "apache",
     "extensions": ["ris"]
+  },
+  "application/x-sea": {
+    "source": "nginx",
+    "extensions": ["sea"]
   },
   "application/x-sh": {
     "source": "apache",
@@ -4483,7 +4511,7 @@
   },
   "application/x-tcl": {
     "source": "apache",
-    "extensions": ["tcl"]
+    "extensions": ["tcl","tk"]
   },
   "application/x-tex": {
     "source": "apache",
@@ -4519,7 +4547,7 @@
   },
   "application/x-x509-ca-cert": {
     "source": "apache",
-    "extensions": ["der","crt"]
+    "extensions": ["der","crt","pem"]
   },
   "application/x-xfig": {
     "source": "apache",
@@ -5145,6 +5173,10 @@
     "source": "apache",
     "extensions": ["flac"]
   },
+  "audio/x-m4a": {
+    "source": "nginx",
+    "extensions": ["m4a"]
+  },
   "audio/x-matroska": {
     "source": "apache",
     "extensions": ["mka"]
@@ -5168,6 +5200,10 @@
   "audio/x-pn-realaudio-plugin": {
     "source": "apache",
     "extensions": ["rmp"]
+  },
+  "audio/x-realaudio": {
+    "source": "nginx",
+    "extensions": ["ra"]
   },
   "audio/x-tta": {
     "source": "apache"
@@ -5424,11 +5460,16 @@
     "compressible": true,
     "extensions": ["ico"]
   },
+  "image/x-jng": {
+    "source": "nginx",
+    "extensions": ["jng"]
+  },
   "image/x-mrsid-image": {
     "source": "apache",
     "extensions": ["sid"]
   },
   "image/x-ms-bmp": {
+    "source": "nginx",
     "compressible": true,
     "extensions": ["bmp"]
   },
@@ -5737,7 +5778,7 @@
   "text/html": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["html","htm"]
+    "extensions": ["html","htm","shtml"]
   },
   "text/jade": {
     "extensions": ["jade"]
@@ -5758,6 +5799,10 @@
   },
   "text/markdown": {
     "source": "iana"
+  },
+  "text/mathml": {
+    "source": "nginx",
+    "extensions": ["mml"]
   },
   "text/mizar": {
     "source": "iana"
@@ -5966,6 +6011,7 @@
     "extensions": ["c","cc","cxx","cpp","h","hh","dic"]
   },
   "text/x-component": {
+    "source": "nginx",
     "extensions": ["htc"]
   },
   "text/x-fortran": {
@@ -6032,7 +6078,8 @@
   },
   "text/xml": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["xml"]
   },
   "text/xml-external-parsed-entity": {
     "source": "iana"
@@ -6045,7 +6092,7 @@
   },
   "video/3gpp": {
     "source": "apache",
-    "extensions": ["3gp"]
+    "extensions": ["3gp","3gpp"]
   },
   "video/3gpp-tt": {
     "source": "apache"

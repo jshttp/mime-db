@@ -13,6 +13,7 @@ It aggregates data from the following sources:
 
 - http://www.iana.org/assignments/media-types/media-types.xhtml
 - http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
+- http://hg.nginx.org/nginx/raw-file/default/conf/mime.types
 
 ## Installation
 
@@ -45,6 +46,7 @@ Each mime type has the following properties:
     If not set, it's probably a custom media type.
     - `apache` - [Apache common media types](http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types)
     - `iana` - [IANA-defined media types](http://www.iana.org/assignments/media-types/media-types.xhtml)
+    - `nginx` - [nginx media types](http://hg.nginx.org/nginx/raw-file/default/conf/mime.types)
 - `.extensions[]` - known extensions associated with this mime type.
 - `.compressible` - whether a file of this type is can be gzipped.
 - `.charset` - the default charset associated with this type, if any.

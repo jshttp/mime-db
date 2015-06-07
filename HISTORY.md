@@ -1,3 +1,19 @@
+unreleased
+==========
+
+  * Add nginx as a source
+  * Add `application/x-cocoa`
+  * Add `application/x-java-archive-diff`
+  * Add `application/x-makeself`
+  * Add `application/x-perl`
+  * Add `application/x-pilot`
+  * Add `application/x-redhat-package-manager`
+  * Add `application/x-sea`
+  * Add `audio/x-m4a`
+  * Add `audio/x-realaudio`
+  * Add `image/x-jng`
+  * Add `text/mathml`
+
 1.12.0 / 2015-06-05
 ===================
 
