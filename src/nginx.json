@@ -21,7 +21,7 @@
     "extensions": ["doc"]
   },
   "application/octet-stream": {
-    "extensions": ["msi","msp","msm"]
+    "extensions": ["bin","exe","dll","deb","dmg","iso","img","msi","msp","msm"]
   },
   "application/pdf": {
     "extensions": ["pdf"]

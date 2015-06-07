@@ -39,12 +39,40 @@ co(function* () {
     var extensions = (match[2] || '')
       .split(/\s+/)
       .filter(Boolean)
-    var data = json[mime] = {}
+    var data = json[mime] || (json[mime] = {})
 
-    if (extensions.length) {
-      data.extensions = extensions
-    }
+    // append the extensions
+    appendExtensions(data, extensions)
   }
 
   writedb('src/nginx.json', json)
 }).then()
+
+/**
+ * Append an extension to an object.
+ */
+function appendExtension(obj, extension) {
+  if (!obj.extensions) {
+    obj.extensions = []
+  }
+
+  if (obj.extensions.indexOf(extension) === -1) {
+    obj.extensions.push(extension)
+  }
+}
+
+/**
+ * Append extensions to an object.
+ */
+function appendExtensions(obj, extensions) {
+  if (extensions.length === 0) {
+    return
+  }
+
+  for (var i = 0; i < extensions.length; i++) {
+    var extension = extensions[i]
+
+    // add extension to the type entry
+    appendExtension(obj, extension)
+  }
+}
