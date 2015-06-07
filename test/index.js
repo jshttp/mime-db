@@ -1,9 +1,25 @@
 
 var assert = require('assert')
+var fs = require('fs')
 
 var db = require('..')
 
 describe('mime-db', function () {
+  it('should not contain types not in src/', function () {
+    var path = __dirname + '/../src'
+    var types = []
+
+    // collect all source types
+    fs.readdirSync(path).forEach(function (file) {
+      if (!/^\w+\.json$/.test(file)) return
+      types.push.apply(types, Object.keys(require(path + '/' + file)))
+    })
+
+    Object.keys(db).forEach(function (name) {
+      assert.ok(types.indexOf(name) !== -1, 'type "' + name + '" should be in src/')
+    })
+  })
+
   it('should all be mime types', function () {
     assert(Object.keys(db).every(function (name) {
       return ~name.indexOf('/') || console.log(name)
