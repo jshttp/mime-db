@@ -27,9 +27,9 @@ describe('mime-db', function () {
   })
 
   it('should not have any uppercased letters in names', function () {
-    assert(Object.keys(db).every(function (name) {
-      return name === name.toLowerCase()
-    }))
+    Object.keys(db).forEach(function (name) {
+      assert.equal(name, name.toLowerCase(), 'type "' + name + '" should be lowercase')
+    })
   })
 
   it('should have .json and .js as having UTF-8 charsets', function () {
