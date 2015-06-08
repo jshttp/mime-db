@@ -1,5 +1,5 @@
-unreleased
-==========
+1.13.0 / 2015-06-07
+===================
 
   * Add nginx as a source
   * Add `application/x-cocoa`
