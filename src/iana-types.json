@@ -1389,6 +1389,11 @@
       "http://www.iana.org/assignments/media-types/application/scaip+xml"
     ]
   },
+  "application/scim+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/scim+json"
+    ]
+  },
   "application/scvp-cv-request": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc5055.txt",
@@ -1750,6 +1755,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.sms"
     ]
   },
+  "application/vnd.3gpp.ussd+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.ussd+xml"
+    ]
+  },
   "application/vnd.3gpp2.bcmcsinfo+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp2.bcmcsinfo+xml"
@@ -1949,6 +1959,11 @@
   "application/vnd.bekitzur-stech+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.bekitzur-stech+json"
+    ]
+  },
+  "application/vnd.biopax.rdf+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.biopax.rdf+xml"
     ]
   },
   "application/vnd.blueice.multipass": {

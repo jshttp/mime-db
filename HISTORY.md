@@ -1,3 +1,10 @@
+unreleased
+==========
+
+  * Add `application/scim+json`
+  * Add `application/vnd.3gpp.ussd+xml`
+  * Add `application/vnd.biopax.rdf+xml`
+
 1.13.0 / 2015-06-07
 ===================
 
