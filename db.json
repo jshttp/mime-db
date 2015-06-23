@@ -6060,6 +6060,10 @@
     "source": "apache",
     "extensions": ["p","pas"]
   },
+  "text/x-processing": {
+    "compressible": true,
+    "extensions": ["pde"]
+  },
   "text/x-sass": {
     "extensions": ["sass"]
   },

@@ -558,6 +558,13 @@
     "compressible": true,
     "extensions": ["markdown","md","mkd"]
   },
+  "text/x-processing": {
+    "compressible": true,
+    "extensions": ["pde"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Processing_(programming_language)"
+    ]
+  },
   "text/x-sass": {
     "extensions": ["sass"]
   },
