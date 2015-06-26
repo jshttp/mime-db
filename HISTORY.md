@@ -1,5 +1,5 @@
-unreleased
-==========
+1.14.0 / 2015-06-25
+===================
 
   * Add `application/scim+json`
   * Add `application/vnd.3gpp.ussd+xml`
