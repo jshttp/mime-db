@@ -230,6 +230,10 @@
       "http://www.phpied.com/gzip-your-font-face-files/"
     ]
   },
+  "application/x-httpd-php": {
+    "compressible": true,
+    "extensions": ["php"]
+  },
   "application/x-java-jnlp-file": {
     "compressible": false
   },
@@ -493,7 +497,8 @@
     "extensions": ["jade"]
   },
   "text/javascript": {
-    "compressible": true
+    "compressible": true,
+    "extensions": ["js"]
   },
   "text/jsx": {
     "compressible": true,
@@ -510,6 +515,10 @@
     "sources": [
       "http://en.wikipedia.org/wiki/Notation3"
     ]
+  },
+  "text/php": {
+    "compressible": true,
+    "extensions": ["php"]
   },
   "text/plain": {
     "compressible": true,
@@ -557,6 +566,10 @@
   "text/x-markdown": {
     "compressible": true,
     "extensions": ["markdown","md","mkd"]
+  },
+  "text/x-php": {
+    "compressible": true,
+    "extensions": ["php"]
   },
   "text/x-processing": {
     "compressible": true,
