@@ -230,6 +230,13 @@
       "http://www.phpied.com/gzip-your-font-face-files/"
     ]
   },
+  "application/x-httpd-php": {
+    "compressible": true,
+    "extensions": ["php"],
+    "sources": [
+      "http://php.net/manual/en/faq.installation.php"
+    ]
+  },
   "application/x-java-jnlp-file": {
     "compressible": false
   },

@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add `application/x-httpd-php`
+
 1.14.0 / 2015-06-25
 ===================
 
