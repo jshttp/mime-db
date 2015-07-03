@@ -188,7 +188,8 @@
   },
   "application/cals-1840": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc1895.txt"
+      "http://tools.ietf.org/rfc/rfc1895.txt",
+      "http://www.iana.org/assignments/media-types/application/CALS-1840"
     ]
   },
   "application/cbor": {
@@ -6339,6 +6340,7 @@
   },
   "audio/opus": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7587.txt",
       "http://www.iana.org/assignments/media-types/audio/opus"
     ]
   },
