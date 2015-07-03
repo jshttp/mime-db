@@ -4298,6 +4298,10 @@
     "source": "apache",
     "extensions": ["hdf"]
   },
+  "application/x-httpd-php": {
+    "compressible": true,
+    "extensions": ["php"]
+  },
   "application/x-install-instructions": {
     "source": "apache",
     "extensions": ["install"]
@@ -5795,7 +5799,8 @@
   },
   "text/javascript": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["js"]
   },
   "text/jcr-cnd": {
     "source": "iana"
@@ -5827,6 +5832,10 @@
   },
   "text/parityfec": {
     "source": "iana"
+  },
+  "text/php": {
+    "compressible": true,
+    "extensions": ["php"]
   },
   "text/plain": {
     "source": "iana",
@@ -6059,6 +6068,10 @@
   "text/x-pascal": {
     "source": "apache",
     "extensions": ["p","pas"]
+  },
+  "text/x-php": {
+    "compressible": true,
+    "extensions": ["php"]
   },
   "text/x-processing": {
     "compressible": true,
