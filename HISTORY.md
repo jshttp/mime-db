@@ -1,5 +1,5 @@
-unreleased
-==========
+1.16.0 / 2015-07-29
+===================
 
   * Add `application/vnd.uri-map`
 
