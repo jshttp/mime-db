@@ -584,7 +584,7 @@
   "application/index.obj": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc2652.txt",
-      "http://www.iana.org/assignments/media-types/application/index.obj"
+      "http://www.iana.org/assignments/media-types/application/index-obj"
     ]
   },
   "application/index.response": {
@@ -2289,7 +2289,7 @@
   },
   "application/vnd.dtg.local.html": {
     "sources": [
-      "http://www.iana.org/assignments/media-types/application/vnd.dtg.local.html"
+      "http://www.iana.org/assignments/media-types/application/vnd.dtg.local-html"
     ]
   },
   "application/vnd.dvb.ait": {
@@ -5422,6 +5422,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.uplanet.signal"
     ]
   },
+  "application/vnd.uri-map": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.uri-map"
+    ]
+  },
   "application/vnd.valve.source.material": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.valve.source.material"
@@ -5920,12 +5925,6 @@
       "http://www.iana.org/assignments/media-types/audio/3gpp2"
     ]
   },
-  "audio/G7221": {
-    "sources": [
-      "http://tools.ietf.org/rfc/rfc5577.txt",
-      "http://www.iana.org/assignments/media-types/audio/G7221"
-    ]
-  },
   "audio/ac3": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc4184.txt",
@@ -6165,6 +6164,12 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc4856.txt",
       "http://www.iana.org/assignments/media-types/audio/G722"
+    ]
+  },
+  "audio/g7221": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc5577.txt",
+      "http://www.iana.org/assignments/media-types/audio/G7221"
     ]
   },
   "audio/g723": {
