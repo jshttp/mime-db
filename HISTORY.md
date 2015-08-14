@@ -1,3 +1,9 @@
+unreleased
+==========
+
+  * Add `audio/g711-0`
+  * Add `image/vnd.mozilla.apng`
+
 1.16.0 / 2015-07-29
 ===================
 

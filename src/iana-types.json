@@ -6154,6 +6154,11 @@
       "http://www.iana.org/assignments/media-types/audio/fwdred"
     ]
   },
+  "audio/g711-0": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/G711-0"
+    ]
+  },
   "audio/g719": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc5404.txt",
@@ -6889,6 +6894,11 @@
   "image/vnd.mix": {
     "sources": [
       "http://www.iana.org/assignments/media-types/image/vnd.mix"
+    ]
+  },
+  "image/vnd.mozilla.apng": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/vnd.mozilla.apng"
     ]
   },
   "image/vnd.ms-modi": {

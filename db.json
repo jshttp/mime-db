@@ -4822,6 +4822,9 @@
   "audio/fwdred": {
     "source": "iana"
   },
+  "audio/g711-0": {
+    "source": "iana"
+  },
   "audio/g719": {
     "source": "iana"
   },
@@ -5406,6 +5409,9 @@
     "source": "iana"
   },
   "image/vnd.mix": {
+    "source": "iana"
+  },
+  "image/vnd.mozilla.apng": {
     "source": "iana"
   },
   "image/vnd.ms-modi": {
