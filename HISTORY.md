@@ -1,5 +1,5 @@
-unreleased
-==========
+1.17.0 / 2015-08-13
+===================
 
   * Add `application/x-msdos-program`
   * Add `audio/g711-0`
