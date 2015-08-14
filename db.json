@@ -4388,6 +4388,9 @@
     "source": "apache",
     "extensions": ["clp"]
   },
+  "application/x-msdos-program": {
+    "extensions": ["exe"]
+  },
   "application/x-msdownload": {
     "source": "apache",
     "extensions": ["exe","dll","com","bat","msi"]

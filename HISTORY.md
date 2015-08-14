@@ -1,8 +1,10 @@
 unreleased
 ==========
 
+  * Add `application/x-msdos-program`
   * Add `audio/g711-0`
   * Add `image/vnd.mozilla.apng`
+  * Add extension `.exe` to `application/x-msdos-program`
 
 1.16.0 / 2015-07-29
 ===================

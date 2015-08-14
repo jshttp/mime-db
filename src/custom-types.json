@@ -252,6 +252,12 @@
   "application/x-mpegurl": {
     "compressible": false
   },
+  "application/x-msdos-program": {
+    "extensions": ["exe"],
+    "sources": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=250938"
+    ]
+  },
   "application/x-ns-proxy-autoconfig": {
     "compressible": true,
     "extensions": ["pac"],
