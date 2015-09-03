@@ -1,5 +1,5 @@
-unreleased
-==========
+1.18.0 / 2015-09-03
+===================
 
   * Add `application/pkcs12`
   * Add `application/vnd.3gpp-prose+xml`
