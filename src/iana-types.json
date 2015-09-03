@@ -1137,6 +1137,11 @@
       "http://www.iana.org/assignments/media-types/application/pkcs10"
     ]
   },
+  "application/pkcs12": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/pkcs12"
+    ]
+  },
   "application/pkcs7-mime": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc5751.txt",
@@ -1731,9 +1736,19 @@
       "http://www.iana.org/assignments/media-types/application/vemmi"
     ]
   },
+  "application/vnd.3gpp-prose+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp-prose+xml"
+    ]
+  },
   "application/vnd.3gpp.bsf+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.bsf+xml"
+    ]
+  },
+  "application/vnd.3gpp.mid-call+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mid-call+xml"
     ]
   },
   "application/vnd.3gpp.pic-bw-large": {
@@ -1754,6 +1769,11 @@
   "application/vnd.3gpp.sms": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.sms"
+    ]
+  },
+  "application/vnd.3gpp.state-and-event-info+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.state-and-event-info+xml"
     ]
   },
   "application/vnd.3gpp.ussd+xml": {
@@ -1869,6 +1889,11 @@
   "application/vnd.amundsen.maze+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.amundsen.maze+xml"
+    ]
+  },
+  "application/vnd.anki": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.anki"
     ]
   },
   "application/vnd.anser-web-certificate-issue-initiation": {
@@ -2655,6 +2680,11 @@
   "application/vnd.fints": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.fints"
+    ]
+  },
+  "application/vnd.firemonkeys.cloudcell": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.firemonkeys.cloudcell"
     ]
   },
   "application/vnd.flographit": {
@@ -4324,6 +4354,16 @@
   "application/vnd.omaloc-supl-init": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.omaloc-supl-init"
+    ]
+  },
+  "application/vnd.openblox.game+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.openblox.game+xml"
+    ]
+  },
+  "application/vnd.openblox.game-binary": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.openblox.game-binary"
     ]
   },
   "application/vnd.openeye.oeb": {
