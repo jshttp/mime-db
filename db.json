@@ -1311,6 +1311,10 @@
     "source": "iana",
     "extensions": ["m3u8"]
   },
+  "application/vnd.apple.pkpass": {
+    "compressible": false,
+    "extensions": ["pkpass"]
+  },
   "application/vnd.arastra.swi": {
     "source": "iana"
   },

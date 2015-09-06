@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add `application/vnd.apple.pkpass`
+
 1.18.0 / 2015-09-03
 ===================
 
