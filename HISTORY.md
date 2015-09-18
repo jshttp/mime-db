@@ -1,7 +1,10 @@
 unreleased
 ==========
 
+  * Add `application/vnd.3gpp-prose-pc3ch+xml`
+  * Add `application/vnd.3gpp.srvcc-info+xml`
   * Add `application/vnd.apple.pkpass`
+  * Add `application/vnd.drive+json`
 
 1.18.0 / 2015-09-03
 ===================

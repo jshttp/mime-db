@@ -1741,6 +1741,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp-prose+xml"
     ]
   },
+  "application/vnd.3gpp-prose-pc3ch+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp-prose-pc3ch+xml"
+    ]
+  },
   "application/vnd.3gpp.bsf+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.bsf+xml"
@@ -1769,6 +1774,11 @@
   "application/vnd.3gpp.sms": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.sms"
+    ]
+  },
+  "application/vnd.3gpp.srvcc-info+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.SRVCC-info+xml"
     ]
   },
   "application/vnd.3gpp.state-and-event-info+xml": {
@@ -2300,6 +2310,11 @@
   "application/vnd.dreamfactory": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.dreamfactory"
+    ]
+  },
+  "application/vnd.drive+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.drive+json"
     ]
   },
   "application/vnd.dtg.local": {
@@ -7395,7 +7410,6 @@
     ]
   },
   "text/markdown": {
-    "notes": "TEMPORARY - registered 2014-11-11, expires 2015-11-11",
     "sources": [
       "http://www.iana.org/assignments/media-types/text/markdown"
     ]
