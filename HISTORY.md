@@ -1,5 +1,5 @@
-unreleased
-==========
+1.19.0 / 2015-09-17
+===================
 
   * Add `application/vnd.3gpp-prose-pc3ch+xml`
   * Add `application/vnd.3gpp.srvcc-info+xml`
