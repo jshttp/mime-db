@@ -19,7 +19,7 @@
   ],
   "repository": "jshttp/mime-db",
   "devDependencies": {
-    "bluebird": "2.9.34",
+    "bluebird": "2.10.0",
     "co": "4.6.0",
     "cogent": "1.0.1",
     "csv-parse": "1.0.0",
