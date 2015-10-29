@@ -9,6 +9,7 @@ unreleased
   * Add `application/vnd.ms-windows.wsd.oob`
   * Add `application/vnd.oxli.countgraph`
   * Add `application/vnd.pagerduty+json`
+  * Add `text/x-suse-ymp`
 
 1.19.0 / 2015-09-17
 ===================

@@ -591,6 +591,14 @@
   "text/x-scss": {
     "extensions": ["scss"]
   },
+  "text/x-suse-ymp": {
+    "compressible": true,
+    "extensions": ["ymp"],
+    "sources": [
+      "https://en.opensuse.org/openSUSE:One_Click_Install",
+      "https://news.opensuse.org/2007/08/01/benjis-one-click-install-gets-supported-by-opensuse-build-service/"
+    ]
+  },
   "text/xml": {
     "compressible": true
   },

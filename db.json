@@ -6158,6 +6158,10 @@
     "source": "apache",
     "extensions": ["sfv"]
   },
+  "text/x-suse-ymp": {
+    "compressible": true,
+    "extensions": ["ymp"]
+  },
   "text/x-uuencode": {
     "source": "apache",
     "extensions": ["uu"]
