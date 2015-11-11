@@ -1,3 +1,15 @@
+unreleased
+==========
+
+  * Add `application/cdni`
+  * Add `application/csvm+json`
+  * Add `application/rfc+xml`
+  * Add `application/vnd.3gpp.access-transfer-events+xml`
+  * Add `application/vnd.3gpp.srvcc-ext+xml`
+  * Add `application/vnd.ms-windows.wsd.oob`
+  * Add `application/vnd.oxli.countgraph`
+  * Add `application/vnd.pagerduty+json`
+
 1.19.0 / 2015-09-17
 ===================
 
