@@ -591,6 +591,10 @@
   "text/x-scss": {
     "extensions": ["scss"]
   },
+  "text/x-suse-ymp": {
+    "compressible": true,
+    "extensions": ["ymp"]
+  },
   "text/xml": {
     "compressible": true
   },
