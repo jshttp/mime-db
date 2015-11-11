@@ -1,5 +1,5 @@
-unreleased
-==========
+1.20.0 / 2015-11-10
+===================
 
   * Add `application/cdni`
   * Add `application/csvm+json`
