@@ -2658,6 +2658,9 @@
   "application/vnd.ms-tnef": {
     "source": "iana"
   },
+  "application/vnd.ms-windows.devicepairing": {
+    "source": "iana"
+  },
   "application/vnd.ms-windows.printerpairing": {
     "source": "iana"
   },

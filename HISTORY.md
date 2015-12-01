@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add `application/vnd.ms-windows.devicepairing`
+
 1.20.0 / 2015-11-10
 ===================
 

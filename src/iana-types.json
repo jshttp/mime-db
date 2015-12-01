@@ -3776,6 +3776,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.ms-tnef"
     ]
   },
+  "application/vnd.ms-windows.devicepairing": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.ms-windows.devicepairing"
+    ]
+  },
   "application/vnd.ms-windows.printerpairing": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ms-windows.printerpairing"
