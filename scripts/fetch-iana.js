@@ -3,7 +3,7 @@
  * Convert the IANA definitions from CSV to local.
  */
 
-global.Promise = global.Promise || require('bluebird')
+global.Promise = global.Promise || loadBluebird()
 
 var co = require('co')
 var fs = require('fs')
@@ -276,6 +276,17 @@ function getUrlReferences(reference) {
   }
 
   return urls
+}
+
+function loadBluebird() {
+  var Promise = require('bluebird')
+
+  // Silence all warnings
+  Promise.config({
+    warnings: false
+  })
+
+  return Promise
 }
 
 function normalizeHeader(val) {

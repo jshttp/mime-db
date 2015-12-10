@@ -3,7 +3,7 @@
  * Convert these text files to JSON for browser usage.
  */
 
-global.Promise = global.Promise || require('bluebird')
+global.Promise = global.Promise || loadBluebird()
 
 var co = require('co')
 var fs = require('fs')
@@ -84,4 +84,18 @@ function appendExtensions(obj, extensions) {
     // add extension to the type entry
     appendExtension(obj, extension)
   }
+}
+
+/**
+ * Load the Bluebird promise.
+ */
+function loadBluebird() {
+  var Promise = require('bluebird')
+
+  // Silence all warnings
+  Promise.config({
+    warnings: false
+  })
+
+  return Promise
 }
