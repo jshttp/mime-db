@@ -1990,6 +1990,18 @@
     "source": "iana",
     "extensions": ["gmx"]
   },
+  "application/vnd.google-apps.document": {
+    "compressible": false,
+    "extensions": ["gdoc"]
+  },
+  "application/vnd.google-apps.presentation": {
+    "compressible": false,
+    "extensions": ["gslides"]
+  },
+  "application/vnd.google-apps.spreadsheet": {
+    "compressible": false,
+    "extensions": ["gsheet"]
+  },
   "application/vnd.google-earth.kml+xml": {
     "source": "iana",
     "compressible": true,

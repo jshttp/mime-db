@@ -138,6 +138,14 @@
   "application/vnd.dart": {
     "compressible": true
   },
+  "application/vnd.google-apps.document": {
+    "compressible": false,
+    "extensions": ["gdoc"],
+    "sources": [
+      "https://developers.google.com/drive/v2/web/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
   "application/vnd.google-earth.kml+xml": {
     "compressible": true,
     "sources": [
@@ -146,6 +154,22 @@
   },
   "application/vnd.google-earth.kmz": {
     "compressible": false
+  },
+  "application/vnd.google-apps.presentation": {
+    "compressible": false,
+    "extensions": ["gslides"],
+    "sources": [
+      "https://developers.google.com/drive/v2/web/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.spreadsheet": {
+    "compressible": false,
+    "extensions": ["gsheet"],
+    "sources": [
+      "https://developers.google.com/drive/v2/web/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
   },
   "application/vnd.mozilla.xul+xml": {
     "compressible": true,

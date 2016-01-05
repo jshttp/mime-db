@@ -1,6 +1,9 @@
 unreleased
 ==========
 
+  * Add `application/vnd.google-apps.document`
+  * Add `application/vnd.google-apps.presentation`
+  * Add `application/vnd.google-apps.spreadsheet`
   * Add `application/vnd.ms-windows.devicepairing`
 
 1.20.0 / 2015-11-10
