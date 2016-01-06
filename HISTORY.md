@@ -1,5 +1,5 @@
-unreleased
-==========
+1.21.0 / 2016-01-06
+===================
 
   * Add `application/emergencycalldata.comment+xml`
   * Add `application/emergencycalldata.deviceinfo+xml`
