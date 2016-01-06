@@ -247,6 +247,7 @@
   },
   "application/cdni": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7736.txt",
       "http://www.iana.org/assignments/media-types/application/cdni"
     ]
   },
@@ -438,6 +439,31 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc1767.txt",
       "http://www.iana.org/assignments/media-types/application/EDIFACT"
+    ]
+  },
+  "application/emergencycalldata.comment+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/EmergencyCallData.Comment+xml"
+    ]
+  },
+  "application/emergencycalldata.deviceinfo+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/EmergencyCallData.DeviceInfo+xml"
+    ]
+  },
+  "application/emergencycalldata.providerinfo+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/EmergencyCallData.ProviderInfo+xml"
+    ]
+  },
+  "application/emergencycalldata.serviceinfo+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/EmergencyCallData.ServiceInfo+xml"
+    ]
+  },
+  "application/emergencycalldata.subscriberinfo+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/EmergencyCallData.SubscriberInfo+xml"
     ]
   },
   "application/emma+xml": {
@@ -2718,6 +2744,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.ffsns"
     ]
   },
+  "application/vnd.filmit.zfc": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.filmit.zfc"
+    ]
+  },
   "application/vnd.fints": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.fints"
@@ -3466,6 +3497,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.macports.portpkg"
     ]
   },
+  "application/vnd.mapbox-vector-tile": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.mapbox-vector-tile"
+    ]
+  },
   "application/vnd.marlin.drm.actiontoken+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.marlin.drm.actiontoken+xml"
@@ -3766,6 +3802,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.ms-powerpoint.template.macroEnabled.12"
     ]
   },
+  "application/vnd.ms-printdevicecapabilities+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.ms-PrintDeviceCapabilities+xml"
+    ]
+  },
   "application/vnd.ms-project": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ms-project"
@@ -3779,6 +3820,11 @@
   "application/vnd.ms-windows.devicepairing": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ms-windows.devicepairing"
+    ]
+  },
+  "application/vnd.ms-windows.nwprinting.oob": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.ms-windows.nwprinting.oob"
     ]
   },
   "application/vnd.ms-windows.printerpairing": {
@@ -5403,6 +5449,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.tmd.mediaflex.api+xml"
     ]
   },
+  "application/vnd.tml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.tml"
+    ]
+  },
   "application/vnd.tmobile-livetv": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.tmobile-livetv"
@@ -6247,6 +6298,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc5188.txt",
       "http://www.iana.org/assignments/media-types/audio/EVRCWB1"
+    ]
+  },
+  "audio/evs": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/EVS"
     ]
   },
   "audio/fwdred": {
