@@ -5413,7 +5413,7 @@
   "image/jpeg": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["jpeg","jpg","jpe"]
+    "extensions": ["jpg","jpeg","jpe"]
   },
   "image/jpm": {
     "source": "iana"
