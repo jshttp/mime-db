@@ -122,6 +122,14 @@
       "http://en.wikipedia.org/wiki/SOAP"
     ]
   },
+  "application/symwriter-document": {
+    "compressible": false,
+    "extensions": ["swdoc"],
+  },
+  "application/symwriter-environment": {
+    "compressible": false,
+    "extensions": ["swe"],
+  },
   "application/tar": {
     "compressible": true
   },
