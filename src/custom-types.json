@@ -124,11 +124,11 @@
   },
   "application/symwriter-document": {
     "compressible": false,
-    "extensions": ["swdoc"],
+    "extensions": ["swdoc"]
   },
   "application/symwriter-environment": {
     "compressible": false,
-    "extensions": ["swe"],
+    "extensions": ["swe"]
   },
   "application/tar": {
     "compressible": true
