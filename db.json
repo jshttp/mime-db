@@ -4766,7 +4766,7 @@
   "application/xml": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["xml","xsl","xsd"]
+    "extensions": ["xml","xsl","xsd","rng"]
   },
   "application/xml-dtd": {
     "source": "iana",
