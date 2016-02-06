@@ -329,7 +329,10 @@
   },
   "application/xml": {
     "compressible": true,
-    "extensions": ["xsd"]
+    "extensions": ["xsd", "rng"],
+    "sources": [
+      "http://en.wikipedia.org/wiki/RELAX_NG"
+    ]
   },
   "application/xml-dtd": {
     "compressible": true,
