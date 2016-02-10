@@ -566,6 +566,9 @@
     "compressible": true,
     "extensions": ["rtf"]
   },
+  "text/slim": {
+    "extensions": ["slim","slm"]
+  },
   "text/stylus": {
     "extensions": ["stylus","styl"]
   },
