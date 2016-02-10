@@ -568,6 +568,12 @@
     "compressible": true,
     "extensions": ["rtf"]
   },
+  "text/slim": {
+    "extensions": ["slim","slm"],
+    "sources": [
+       "http://slim-lang.com/"
+    ]
+  },
   "text/stylus": {
     "extensions": ["stylus","styl"]
   },

@@ -6023,6 +6023,9 @@
     "source": "iana",
     "extensions": ["sgml","sgm"]
   },
+  "text/slim": {
+    "extensions": ["slim","slm"]
+  },
   "text/stylus": {
     "extensions": ["stylus","styl"]
   },
