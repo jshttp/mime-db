@@ -217,7 +217,7 @@
   },
   "application/dash+xml": {
     "source": "iana",
-    "extensions": ["mdp"]
+    "extensions": ["mpd"]
   },
   "application/dashdelta": {
     "source": "iana"

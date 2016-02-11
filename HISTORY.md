@@ -7,6 +7,7 @@ unreleased
   * Add `application/vnd.hdt`
   * Add `application/vnd.ms-printschematicket+xml`
   * Add `model/vnd.rosette.annotated-data-model`
+  * Fix extension of `application/dash+xml` to be `.mpd`
   * Update primary extension to `.m4a` for `audio/mp4`
 
 1.21.0 / 2016-01-06

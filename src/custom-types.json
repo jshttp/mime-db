@@ -18,7 +18,10 @@
     "compressible": true
   },
   "application/dash+xml": {
-    "extensions": ["mdp"]
+    "extensions": ["mpd"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/dash+xml"
+    ]
   },
   "application/ecmascript": {
     "compressible": true
