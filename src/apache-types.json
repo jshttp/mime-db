@@ -2379,7 +2379,7 @@
   },
   "audio/mobile-xmf": {},
   "audio/mp4": {
-    "extensions": ["mp4a"]
+    "extensions": ["m4a","mp4a"]
   },
   "audio/mp4a-latm": {},
   "audio/mpa": {},

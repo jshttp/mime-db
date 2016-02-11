@@ -1246,6 +1246,21 @@
       "http://www.iana.org/assignments/media-types/application/postscript"
     ]
   },
+  "application/ppsp-tracker+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/ppsp-tracker+json"
+    ]
+  },
+  "application/problem+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/problem+json"
+    ]
+  },
+  "application/problem+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/problem+xml"
+    ]
+  },
   "application/provenance+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/provenance+xml"
@@ -1354,6 +1369,7 @@
   },
   "application/rfc+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7749.txt",
       "http://www.iana.org/assignments/media-types/application/rfc+xml"
     ]
   },
@@ -3026,6 +3042,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.hcl-bireports"
     ]
   },
+  "application/vnd.hdt": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.hdt"
+    ]
+  },
   "application/vnd.heroku+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.heroku+json"
@@ -3805,6 +3826,11 @@
   "application/vnd.ms-printdevicecapabilities+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ms-PrintDeviceCapabilities+xml"
+    ]
+  },
+  "application/vnd.ms-printschematicket+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.ms-PrintSchemaTicket+xml"
     ]
   },
   "application/vnd.ms-project": {
@@ -7302,6 +7328,11 @@
   "model/vnd.parasolid.transmit.text": {
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.parasolid.transmit-text"
+    ]
+  },
+  "model/vnd.rosette.annotated-data-model": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/vnd.rosette.annotated-data-model"
     ]
   },
   "model/vnd.valve.source.compiled-map": {

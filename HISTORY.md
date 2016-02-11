@@ -1,3 +1,14 @@
+unreleased
+==========
+
+  * Add `application/ppsp-tracker+json`
+  * Add `application/problem+json`
+  * Add `application/problem+xml`
+  * Add `application/vnd.hdt`
+  * Add `application/vnd.ms-printschematicket+xml`
+  * Add `model/vnd.rosette.annotated-data-model`
+  * Update primary extension to `.m4a` for `audio/mp4`
+
 1.21.0 / 2016-01-06
 ===================
 
