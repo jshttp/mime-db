@@ -350,8 +350,7 @@
     "compressible": false
   },
   "audio/mp4": {
-    "compressible": false,
-    "extensions": ["m4a"]
+    "compressible": false
   },
   "audio/mpeg": {
     "compressible": false
