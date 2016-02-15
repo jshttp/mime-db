@@ -1,5 +1,5 @@
-unreleased
-==========
+1.22.0 / 2016-02-15
+===================
 
   * Add `application/ppsp-tracker+json`
   * Add `application/problem+json`
