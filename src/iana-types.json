@@ -1874,6 +1874,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp2.tcap"
     ]
   },
+  "application/vnd.3lightssoftware.imagescal": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3lightssoftware.imagescal"
+    ]
+  },
   "application/vnd.3m.post-it-notes": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3M.Post-it-Notes"

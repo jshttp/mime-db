@@ -1,3 +1,17 @@
+unreleased
+==========
+
+  * Add `application/vnd.3lightssoftware.imagescal`
+  * Add `application/vnd.desmume.movie`
+  * Add `video/encaprtp`
+  * Add `video/h265`
+  * Add `video/iso.segment`
+  * Add `video/raptorfec`
+  * Add `video/rtploopback`
+  * Add `video/vnd.radgamettools.bink`
+  * Add `video/vnd.radgamettools.smacker`
+  * Add `video/vp8`
+
 1.22.0 / 2016-02-15
 ===================
 

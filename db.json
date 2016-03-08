@@ -1239,6 +1239,9 @@
     "source": "iana",
     "extensions": ["tcap"]
   },
+  "application/vnd.3lightssoftware.imagescal": {
+    "source": "iana"
+  },
   "application/vnd.3m.post-it-notes": {
     "source": "iana",
     "extensions": ["pwn"]
@@ -1599,6 +1602,9 @@
   },
   "application/vnd.desmume-movie": {
     "source": "iana"
+  },
+  "application/vnd.desmume.movie": {
+    "source": "apache"
   },
   "application/vnd.dir-bi.plate-dl-nosuffix": {
     "source": "iana"
@@ -6282,6 +6288,9 @@
   "video/dv": {
     "source": "apache"
   },
+  "video/encaprtp": {
+    "source": "apache"
+  },
   "video/h261": {
     "source": "apache",
     "extensions": ["h261"]
@@ -6304,6 +6313,12 @@
     "source": "apache"
   },
   "video/h264-svc": {
+    "source": "apache"
+  },
+  "video/h265": {
+    "source": "apache"
+  },
+  "video/iso.segment": {
     "source": "apache"
   },
   "video/jpeg": {
@@ -6369,10 +6384,16 @@
     "compressible": false,
     "extensions": ["qt","mov"]
   },
+  "video/raptorfec": {
+    "source": "apache"
+  },
   "video/raw": {
     "source": "apache"
   },
   "video/rtp-enc-aescm128": {
+    "source": "apache"
+  },
+  "video/rtploopback": {
     "source": "apache"
   },
   "video/rtx": {
@@ -6474,6 +6495,12 @@
   "video/vnd.objectvideo": {
     "source": "apache"
   },
+  "video/vnd.radgamettools.bink": {
+    "source": "apache"
+  },
+  "video/vnd.radgamettools.smacker": {
+    "source": "apache"
+  },
   "video/vnd.sealed.mpeg1": {
     "source": "apache"
   },
@@ -6493,6 +6520,9 @@
   "video/vnd.vivo": {
     "source": "apache",
     "extensions": ["viv"]
+  },
+  "video/vp8": {
+    "source": "apache"
   },
   "video/webm": {
     "source": "apache",
