@@ -11,6 +11,7 @@ unreleased
   * Add `video/vnd.radgamettools.bink`
   * Add `video/vnd.radgamettools.smacker`
   * Add `video/vp8`
+  * Add extension `.3gpp` to `audio/3gpp`
 
 1.22.0 / 2016-02-15
 ===================

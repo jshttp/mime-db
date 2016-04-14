@@ -4832,7 +4832,9 @@
     "source": "iana"
   },
   "audio/3gpp": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false,
+    "extensions": ["3gpp"]
   },
   "audio/3gpp2": {
     "source": "iana"
