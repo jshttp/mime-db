@@ -352,6 +352,10 @@
   "audio/l24": {
     "compressible": false
   },
+  "audio/3gpp": {
+    "compressible": false,
+    "extensions": ["3gpp"]
+  },
   "audio/basic": {
     "compressible": false
   },
