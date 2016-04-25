@@ -539,7 +539,7 @@
     "compressible": true
   },
   "text/jade": {
-    "extensions": ["jade"]
+    "extensions": ["jade", "pug"]
   },
   "text/javascript": {
     "compressible": true
