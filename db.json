@@ -284,6 +284,9 @@
     "source": "iana",
     "compressible": false
   },
+  "application/efi": {
+    "source": "iana"
+  },
   "application/emergencycalldata.comment+xml": {
     "source": "iana"
   },
@@ -1217,6 +1220,9 @@
   "application/vnd.3gpp.sms": {
     "source": "iana"
   },
+  "application/vnd.3gpp.sms+xml": {
+    "source": "iana"
+  },
   "application/vnd.3gpp.srvcc-ext+xml": {
     "source": "iana"
   },
@@ -1499,6 +1505,10 @@
   "application/vnd.contact.cmsg": {
     "source": "iana",
     "extensions": ["cdbcmsg"]
+  },
+  "application/vnd.coreos.ignition+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.cosmocaller": {
     "source": "iana",
@@ -3144,6 +3154,9 @@
   "application/vnd.omaloc-supl-init": {
     "source": "iana"
   },
+  "application/vnd.onepager": {
+    "source": "iana"
+  },
   "application/vnd.openblox.game+xml": {
     "source": "iana"
   },
@@ -3986,6 +3999,10 @@
   },
   "application/vnd.vectorworks": {
     "source": "iana"
+  },
+  "application/vnd.vel+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.verimatrix.vcas": {
     "source": "iana"
@@ -5998,6 +6015,9 @@
   "text/prs.lines.tag": {
     "source": "iana",
     "extensions": ["dsc"]
+  },
+  "text/prs.prop.logic": {
+    "source": "iana"
   },
   "text/raptorfec": {
     "source": "iana"

@@ -441,6 +441,11 @@
       "http://www.iana.org/assignments/media-types/application/EDIFACT"
     ]
   },
+  "application/efi": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/efi"
+    ]
+  },
   "application/emergencycalldata.comment+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.Comment+xml"
@@ -1253,11 +1258,13 @@
   },
   "application/problem+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7807.txt",
       "http://www.iana.org/assignments/media-types/application/problem+json"
     ]
   },
   "application/problem+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7807.txt",
       "http://www.iana.org/assignments/media-types/application/problem+xml"
     ]
   },
@@ -1839,6 +1846,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.sms"
     ]
   },
+  "application/vnd.3gpp.sms+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.sms+xml"
+    ]
+  },
   "application/vnd.3gpp.srvcc-ext+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.srvcc-ext+xml"
@@ -2208,6 +2220,11 @@
   "application/vnd.contact.cmsg": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.contact.cmsg"
+    ]
+  },
+  "application/vnd.coreos.ignition+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.coreos.ignition+json"
     ]
   },
   "application/vnd.cosmocaller": {
@@ -4484,6 +4501,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.omaloc-supl-init"
     ]
   },
+  "application/vnd.onepager": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.onepager"
+    ]
+  },
   "application/vnd.openblox.game+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.openblox.game+xml"
@@ -5628,6 +5650,11 @@
   "application/vnd.vectorworks": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.vectorworks"
+    ]
+  },
+  "application/vnd.vel+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.vel+json"
     ]
   },
   "application/vnd.verimatrix.vcas": {
@@ -7550,6 +7577,7 @@
   },
   "text/markdown": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7763.txt",
       "http://www.iana.org/assignments/media-types/text/markdown"
     ]
   },
@@ -7593,6 +7621,11 @@
   "text/prs.lines.tag": {
     "sources": [
       "http://www.iana.org/assignments/media-types/text/prs.lines.tag"
+    ]
+  },
+  "text/prs.prop.logic": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/prs.prop.logic"
     ]
   },
   "text/raptorfec": {

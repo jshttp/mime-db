@@ -1,8 +1,14 @@
 unreleased
 ==========
 
+  * Add `application/efi`
+  * Add `application/vnd.3gpp.sms+xml`
   * Add `application/vnd.3lightssoftware.imagescal`
+  * Add `application/vnd.coreos.ignition+json`
   * Add `application/vnd.desmume.movie`
+  * Add `application/vnd.onepager`
+  * Add `application/vnd.vel+json`
+  * Add `text/prs.prop.logic`
   * Add `video/encaprtp`
   * Add `video/h265`
   * Add `video/iso.segment`
