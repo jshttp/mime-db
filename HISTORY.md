@@ -1,5 +1,5 @@
-unreleased
-==========
+1.23.0 / 2016-05-01
+===================
 
   * Add `application/efi`
   * Add `application/vnd.3gpp.sms+xml`
