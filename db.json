@@ -5104,6 +5104,10 @@
   "audio/mobile-xmf": {
     "source": "iana"
   },
+  "audio/mp3": {
+    "compressible": false,
+    "extensions": ["mp3"]
+  },
   "audio/mp4": {
     "source": "iana",
     "compressible": false,

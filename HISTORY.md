@@ -14,6 +14,7 @@ unreleased
   * Add `application/vnd.oma.lwm2m+tlv`
   * Add `application/vnd.quarantainenet`
   * Add `application/vnd.rar`
+  * Add `audio/mp3`
   * Add `image/dicom-rle`
   * Add `image/emf`
   * Add `image/jls`
