@@ -359,6 +359,14 @@
   "audio/basic": {
     "compressible": false
   },
+  "audio/mp3": {
+    "compressible": false,
+    "extensions": ["mp3"],
+    "notes": "Chromium sends this mimetype instead of audio/mpeg for mp3 files",
+    "sources": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=227004"
+    ]
+  },
   "audio/mp4": {
     "compressible": false
   },
