@@ -9,7 +9,7 @@ node_js:
   - "3.3"
   - "4.5"
   - "5.12"
-  - "6.0"
+  - "6.6"
 sudo: false
 before_install:
   # Remove all non-test dependencies
