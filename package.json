@@ -24,7 +24,7 @@
     "cogent": "1.0.1",
     "csv-parse": "1.1.7",
     "gnode": "0.1.2",
-    "istanbul": "0.4.3",
+    "istanbul": "0.4.5",
     "mocha": "1.21.5",
     "raw-body": "2.1.7",
     "stream-to-array": "2.3.0"
