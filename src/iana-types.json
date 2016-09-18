@@ -273,6 +273,11 @@
       "http://www.iana.org/assignments/media-types/application/cfw"
     ]
   },
+  "application/clue_info+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/clue_info+xml"
+    ]
+  },
   "application/cms": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc7193.txt",
@@ -448,26 +453,31 @@
   },
   "application/emergencycalldata.comment+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7852.txt",
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.Comment+xml"
     ]
   },
   "application/emergencycalldata.deviceinfo+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7852.txt",
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.DeviceInfo+xml"
     ]
   },
   "application/emergencycalldata.providerinfo+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7852.txt",
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.ProviderInfo+xml"
     ]
   },
   "application/emergencycalldata.serviceinfo+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7852.txt",
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.ServiceInfo+xml"
     ]
   },
   "application/emergencycalldata.subscriberinfo+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7852.txt",
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.SubscriberInfo+xml"
     ]
   },
@@ -550,6 +560,12 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc6230.txt",
       "http://www.iana.org/assignments/media-types/application/framework-attributes+xml"
+    ]
+  },
+  "application/geo+json": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc7946.txt",
+      "http://www.iana.org/assignments/media-types/application/geo+json"
     ]
   },
   "application/gzip": {
@@ -659,7 +675,6 @@
   },
   "application/ipp": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc2910.txt",
       "http://www.iana.org/assignments/media-types/application/ipp"
     ]
   },
@@ -700,7 +715,7 @@
   },
   "application/json": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc7158.txt",
+      "http://tools.ietf.org/rfc/rfc7159.txt",
       "http://www.iana.org/assignments/media-types/application/json"
     ]
   },
@@ -749,6 +764,12 @@
   "application/ld+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/ld+json"
+    ]
+  },
+  "application/lgr+xml": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc7940.txt",
+      "http://www.iana.org/assignments/media-types/application/lgr+xml"
     ]
   },
   "application/link-format": {
@@ -1107,6 +1128,7 @@
   "application/ogg": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc5334.txt",
+      "http://tools.ietf.org/rfc/rfc7845.txt",
       "http://www.iana.org/assignments/media-types/application/ogg"
     ]
   },
@@ -1253,6 +1275,7 @@
   },
   "application/ppsp-tracker+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7846.txt",
       "http://www.iana.org/assignments/media-types/application/ppsp-tracker+json"
     ]
   },
@@ -1376,7 +1399,6 @@
   },
   "application/rfc+xml": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc7749.txt",
       "http://www.iana.org/assignments/media-types/application/rfc+xml"
     ]
   },
@@ -1971,6 +1993,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.airzip.filesecure.azs"
     ]
   },
+  "application/vnd.amazon.mobi8-ebook": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.amazon.mobi8-ebook"
+    ]
+  },
   "application/vnd.americandynamics.acc": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.americandynamics.acc"
@@ -2142,6 +2169,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.chemdraw+xml"
     ]
   },
+  "application/vnd.chess-pgn": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.chess-pgn"
+    ]
+  },
   "application/vnd.chipnuts.karaoke-mmd": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.chipnuts.karaoke-mmd"
@@ -2205,6 +2237,11 @@
   "application/vnd.collection.next+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.collection.next+json"
+    ]
+  },
+  "application/vnd.comicbook+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.comicbook+zip"
     ]
   },
   "application/vnd.commerce-battelle": {
@@ -2310,6 +2347,11 @@
   "application/vnd.cybank": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.cybank"
+    ]
+  },
+  "application/vnd.d2l.coursepackage1p0+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.d2l.coursepackage1p0+zip"
     ]
   },
   "application/vnd.dart": {
@@ -2622,6 +2664,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.ericsson.quickcall"
     ]
   },
+  "application/vnd.espass-espass+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.espass-espass+zip"
+    ]
+  },
   "application/vnd.eszigno3+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.eszigno3+xml"
@@ -2908,6 +2955,7 @@
     ]
   },
   "application/vnd.geo+json": {
+    "notes": "OBSOLETED by [RFC7946] in favor of application/geo+json",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.geo+json"
     ]
@@ -3985,6 +4033,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.ncd.reference"
     ]
   },
+  "application/vnd.nearst.inv+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.nearst.inv+json"
+    ]
+  },
   "application/vnd.nervana": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.nervana"
@@ -4434,6 +4487,16 @@
   "application/vnd.oma.group-usage-list+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.oma.group-usage-list+xml"
+    ]
+  },
+  "application/vnd.oma.lwm2m+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.oma.lwm2m+json"
+    ]
+  },
+  "application/vnd.oma.lwm2m+tlv": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.oma.lwm2m+tlv"
     ]
   },
   "application/vnd.oma.pal+xml": {
@@ -5072,6 +5135,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.qualcomm.brew-app-res"
     ]
   },
+  "application/vnd.quarantainenet": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.quarantainenet"
+    ]
+  },
   "application/vnd.quark.quarkxpress": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.Quark.QuarkXPress"
@@ -5180,6 +5248,11 @@
   "application/vnd.rapid": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.rapid"
+    ]
+  },
+  "application/vnd.rar": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.rar"
     ]
   },
   "application/vnd.realvnc.bed": {
@@ -6561,6 +6634,7 @@
   "audio/ogg": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc5334.txt",
+      "http://tools.ietf.org/rfc/rfc7845.txt",
       "http://www.iana.org/assignments/media-types/audio/ogg"
     ]
   },
@@ -6927,9 +7001,24 @@
       "http://www.iana.org/assignments/media-types/audio/vorbis-config"
     ]
   },
+  "image/bmp": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/bmp"
+    ]
+  },
   "image/cgm": {
     "sources": [
       "http://www.iana.org/assignments/media-types/image/cgm"
+    ]
+  },
+  "image/dicom-rle": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/dicom-rle"
+    ]
+  },
+  "image/emf": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/emf"
     ]
   },
   "image/fits": {
@@ -6953,6 +7042,11 @@
   "image/ief": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc1314.txt"
+    ]
+  },
+  "image/jls": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/jls"
     ]
   },
   "image/jp2": {
@@ -7177,6 +7271,11 @@
       "http://www.iana.org/assignments/media-types/image/vnd.zbrush.pcx"
     ]
   },
+  "image/wmf": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/wmf"
+    ]
+  },
   "message/cpim": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc3862.txt",
@@ -7295,6 +7394,11 @@
   "message/vnd.wfa.wsc": {
     "sources": [
       "http://www.iana.org/assignments/media-types/message/vnd.wfa.wsc"
+    ]
+  },
+  "model/gltf+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/gltf+json"
     ]
   },
   "model/iges": {
@@ -7469,8 +7573,7 @@
   },
   "multipart/voice-message": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc2421.txt",
-      "http://tools.ietf.org/rfc/rfc2423.txt",
+      "http://tools.ietf.org/rfc/rfc3801.txt",
       "http://www.iana.org/assignments/media-types/multipart/voice-message"
     ]
   },
@@ -7728,6 +7831,11 @@
   "text/vnd.abc": {
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.abc"
+    ]
+  },
+  "text/vnd.ascii-art": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/vnd.ascii-art"
     ]
   },
   "text/vnd.curl": {

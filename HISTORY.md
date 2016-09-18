@@ -1,3 +1,26 @@
+unreleased
+==========
+
+  * Add `application/clue_info+xml`
+  * Add `application/geo+json`
+  * Add `application/lgr+xml`
+  * Add `application/vnd.amazon.mobi8-ebook`
+  * Add `application/vnd.chess-pgn`
+  * Add `application/vnd.comicbook+zip`
+  * Add `application/vnd.d2l.coursepackage1p0+zip`
+  * Add `application/vnd.espass-espass+zip`
+  * Add `application/vnd.nearst.inv+json`
+  * Add `application/vnd.oma.lwm2m+json`
+  * Add `application/vnd.oma.lwm2m+tlv`
+  * Add `application/vnd.quarantainenet`
+  * Add `application/vnd.rar`
+  * Add `image/dicom-rle`
+  * Add `image/emf`
+  * Add `image/jls`
+  * Add `image/wmf`
+  * Add `model/gltf+json`
+  * Add `text/vnd.ascii-art`
+
 1.23.0 / 2016-05-01
 ===================
 
