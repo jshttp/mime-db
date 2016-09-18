@@ -1,5 +1,5 @@
-unreleased
-==========
+1.24.0 / 2016-09-18
+===================
 
   * Add `application/clue_info+xml`
   * Add `application/geo+json`
