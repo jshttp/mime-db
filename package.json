@@ -26,7 +26,7 @@
     "gnode": "0.1.2",
     "istanbul": "0.4.3",
     "mocha": "1.21.5",
-    "raw-body": "2.1.6",
+    "raw-body": "2.1.7",
     "stream-to-array": "2.3.0"
   },
   "files": [
