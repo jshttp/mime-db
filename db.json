@@ -5365,11 +5365,11 @@
   "audio/vorbis-config": {
     "source": "iana"
   },
-  "audio/wav": {
+  "audio/wave": {
     "compressible": false,
     "extensions": ["wav"]
   },
-  "audio/wave": {
+  "audio/wav": {
     "compressible": false,
     "extensions": ["wav"]
   },
