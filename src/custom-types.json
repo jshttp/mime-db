@@ -356,6 +356,16 @@
     "compressible": false,
     "extensions": ["3gpp"]
   },
+  "audio/amr": {
+    "compressible": false,
+    "extensions": ["amr"],
+    "notes": "Adaptive Multi-Rate ACELP Codec",
+    "sources": [
+      "http://filext.com/file-extension/AMR",
+	  "https://www.filesuffix.com/en/extension/amr",
+	  "http://dotwhat.net/file/extension/amr/8623"
+    ]
+  },
   "audio/basic": {
     "compressible": false
   },
