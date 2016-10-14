@@ -356,6 +356,16 @@
     "compressible": false,
     "extensions": ["3gpp"]
   },
+  "audio/ac3": {
+    "compressible": false,
+    "extensions": ["ac3"],
+    "notes": "The AC3 file type is primarily associated with 'AC3 Audio File Format' by Dolby Laboratories.",
+    "sources": [
+      "http://filext.com/file-extension/AC3",
+	  "http://fileextensionexplorer.com/ac3",
+	  "https://www.filesuffix.com/en/extension/ac3"
+    ]
+  },
   "audio/basic": {
     "compressible": false
   },
