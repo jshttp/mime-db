@@ -382,6 +382,16 @@
       "http://www.iana.org/assignments/media-types/application/dicom"
     ]
   },
+  "application/dicom+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/dicom+json"
+    ]
+  },
+  "application/dicom+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/dicom+xml"
+    ]
+  },
   "application/dii": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/DII"
@@ -4584,6 +4594,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.openeye.oeb"
     ]
   },
+  "application/vnd.openstreetmap.data+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.openstreetmap.data+xml"
+    ]
+  },
   "application/vnd.openxmlformats-officedocument.custom-properties+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.custom-properties+xml"
@@ -5583,6 +5598,11 @@
   "application/vnd.tmobile-livetv": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.tmobile-livetv"
+    ]
+  },
+  "application/vnd.tri.onesource": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.tri.onesource"
     ]
   },
   "application/vnd.trid.tpt": {

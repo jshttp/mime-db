@@ -1,3 +1,11 @@
+unreleased
+==========
+
+  * Add `application/dicom+json`
+  * Add `application/dicom+xml`
+  * Add `application/vnd.openstreetmap.data+xml`
+  * Add `application/vnd.tri.onesource`
+
 1.24.0 / 2016-09-18
 ===================
 
