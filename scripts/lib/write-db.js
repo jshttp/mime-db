@@ -1,11 +1,11 @@
 
 var fs = require('fs')
 
-module.exports = function writeDatabaseSync(fileName, obj) {
+module.exports = function writeDatabaseSync (fileName, obj) {
   var fd = fs.openSync(fileName, 'w')
   var keys = Object.keys(obj).sort()
 
-  fs.writeSync(fd, '{\n');
+  fs.writeSync(fd, '{\n')
 
   keys.forEach(function (key, i, arr) {
     fs.writeSync(fd, '  ' + JSON.stringify(key) + ': {')
@@ -29,26 +29,26 @@ module.exports = function writeDatabaseSync(fileName, obj) {
           ? JSON.stringify(val, null, 2).split('\n').join('\n    ')
           : JSON.stringify(val)
 
-        fs.writeSync(fd, '    ' + JSON.stringify(key) + ': ' + str + end);
+        fs.writeSync(fd, '    ' + JSON.stringify(key) + ': ' + str + end)
       }
     })
 
-    fs.writeSync(fd, '  }' + end);
+    fs.writeSync(fd, '  }' + end)
   })
 
-  fs.writeSync(fd, '}\n');
+  fs.writeSync(fd, '}\n')
 
-  fs.closeSync(fd);
-};
+  fs.closeSync(fd)
+}
 
-function endLine(key, i, arr) {
+function endLine (key, i, arr) {
   var comma = i + 1 === arr.length
     ? ''
     : ','
   return comma + '\n'
 }
 
-function sortDataKeys(a, b) {
+function sortDataKeys (a, b) {
   var cmp = a.localeCompare(b)
 
   return a !== 'source' || !cmp

@@ -6,7 +6,6 @@
 global.Promise = global.Promise || loadBluebird()
 
 var co = require('co')
-var fs = require('fs')
 var cogent = require('cogent')
 var writedb = require('./lib/write-db')
 
@@ -20,11 +19,11 @@ var writedb = require('./lib/write-db')
  * We could also just remove all lines that start with `#` if we want to make the JSON files smaller
  * and ignore all mime types without associated extensions.
  */
-var typeLineRegExp = /^(?:# )?([\w-]+\/[\w\+\.-]+)((?:\s+[\w-]+)*)$/gm
+var typeLineRegExp = /^(?:# )?([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*)$/gm
 
 co(function* () {
   var url = 'http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types'
-  var res = yield* cogent(url, {
+  var res = yield * cogent(url, {
     string: true
   })
 
@@ -37,7 +36,7 @@ co(function* () {
 
   typeLineRegExp.index = 0
 
-  while (match = typeLineRegExp.exec(res.text)) {
+  while ((match = typeLineRegExp.exec(res.text))) {
     var mime = match[1]
 
     if (mime.substr(-8) === '/example') {
@@ -60,7 +59,7 @@ co(function* () {
 /**
  * Append an extension to an object.
  */
-function appendExtension(obj, extension) {
+function appendExtension (obj, extension) {
   if (!obj.extensions) {
     obj.extensions = []
   }
@@ -73,7 +72,7 @@ function appendExtension(obj, extension) {
 /**
  * Append extensions to an object.
  */
-function appendExtensions(obj, extensions) {
+function appendExtensions (obj, extensions) {
   if (extensions.length === 0) {
     return
   }
@@ -89,7 +88,7 @@ function appendExtensions(obj, extensions) {
 /**
  * Load the Bluebird promise.
  */
-function loadBluebird() {
+function loadBluebird () {
   var Promise = require('bluebird')
 
   // Silence all warnings

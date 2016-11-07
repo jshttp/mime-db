@@ -1,12 +1,13 @@
 
 var assert = require('assert')
 var fs = require('fs')
+var join = require('path').join
 
 var db = require('..')
 
 describe('mime-db', function () {
   it('should not contain types not in src/', function () {
-    var path = __dirname + '/../src'
+    var path = join(__dirname, '..', 'src')
     var types = []
 
     // collect all source types

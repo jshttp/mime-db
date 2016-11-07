@@ -34,7 +34,7 @@ require('./lib/write-db')('db.json', db)
 /**
  * Add mime data to the db, marked as a given source.
  */
-function addData(db, mime, source) {
+function addData (db, mime, source) {
   Object.keys(mime).forEach(function (key) {
     var data = mime[key]
     var type = key.toLowerCase()
@@ -52,7 +52,7 @@ function addData(db, mime, source) {
 /**
  * Append an extension to an object.
  */
-function appendExtension(obj, extension) {
+function appendExtension (obj, extension) {
   if (!obj.extensions) {
     obj.extensions = []
   }
@@ -65,7 +65,7 @@ function appendExtension(obj, extension) {
 /**
  * Append extensions to an object.
  */
-function appendExtensions(obj, extensions) {
+function appendExtensions (obj, extensions) {
   if (!extensions) {
     return
   }
@@ -81,7 +81,7 @@ function appendExtensions(obj, extensions) {
 /**
  * Create a new type entry, optionally marked from a source.
  */
-function createTypeEntry(source) {
+function createTypeEntry (source) {
   var obj = {}
 
   if (source !== undefined) {
@@ -94,7 +94,7 @@ function createTypeEntry(source) {
 /**
  * Set a value on an object, if not already set.
  */
-function setValue(obj, prop, value) {
+function setValue (obj, prop, value) {
   if (value !== undefined && obj[prop] === undefined) {
     obj[prop] = value
   }
