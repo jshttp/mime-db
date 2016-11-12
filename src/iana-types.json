@@ -6184,6 +6184,16 @@
       "http://www.iana.org/assignments/media-types/application/yang"
     ]
   },
+  "application/yang-data+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/yang-data+json"
+    ]
+  },
+  "application/yang-data+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/yang-data+xml"
+    ]
+  },
   "application/yin+xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc6020.txt",

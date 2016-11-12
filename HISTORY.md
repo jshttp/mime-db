@@ -5,6 +5,8 @@ unreleased
   * Add `application/dicom+xml`
   * Add `application/vnd.openstreetmap.data+xml`
   * Add `application/vnd.tri.onesource`
+  * Add `application/yang-data+json`
+  * Add `application/yang-data+xml`
 
 1.24.0 / 2016-09-18
 ===================

@@ -4885,6 +4885,13 @@
     "source": "iana",
     "extensions": ["yang"]
   },
+  "application/yang-data+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/yang-data+xml": {
+    "source": "iana"
+  },
   "application/yin+xml": {
     "source": "iana",
     "extensions": ["yin"]
