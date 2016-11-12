@@ -1,5 +1,5 @@
-unreleased
-==========
+1.25.0 / 2016-11-11
+===================
 
   * Add `application/dicom+json`
   * Add `application/dicom+xml`
