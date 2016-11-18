@@ -1918,7 +1918,9 @@
     "extensions": ["sm"]
   },
   "application/vnd.street-stream": {},
-  "application/vnd.sun.wadl+xml": {},
+  "application/vnd.sun.wadl+xml": {
+    "extensions": ["wadl"]
+  },
   "application/vnd.sun.xml.calc": {
     "extensions": ["sxc"]
   },
