@@ -47,6 +47,10 @@
     ],
     "notes": "File type is already a binary compressed format."
   },
+  "application/geo+json": {
+    "compressible": false,
+    "extensions": ["json", "geojson"]
+  },
   "application/gzip": {
     "compressible": false
   },
