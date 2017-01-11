@@ -369,7 +369,8 @@
   },
   "application/geo+json": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["json","geojson"]
   },
   "application/gml+xml": {
     "source": "apache",
