@@ -48,8 +48,12 @@
     "notes": "File type is already a binary compressed format."
   },
   "application/geo+json": {
-    "compressible": false,
-    "extensions": ["json", "geojson"]
+    "compressible": true,
+    "extensions": ["json", "geojson"],
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc7946.txt",
+      "http://www.iana.org/assignments/media-types/application/geo+json"
+    ]
   },
   "application/gzip": {
     "compressible": false
