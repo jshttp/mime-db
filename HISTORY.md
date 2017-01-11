@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add extension `.geojson` to `application/geo+json`
+
 1.25.0 / 2016-11-11
 ===================
 
