@@ -22,7 +22,7 @@
     "bluebird": "3.4.7",
     "co": "4.6.0",
     "cogent": "1.0.1",
-    "csv-parse": "1.1.7",
+    "csv-parse": "1.1.9",
     "eslint": "3.11.1",
     "eslint-config-standard": "6.2.1",
     "eslint-plugin-promise": "3.3.0",
