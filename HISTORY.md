@@ -1,5 +1,5 @@
-unreleased
-==========
+1.26.0 / 2017-01-14
+===================
 
   * Add `application/coap-payload`
   * Add `application/cose`
