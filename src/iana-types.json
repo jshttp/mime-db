@@ -296,6 +296,11 @@
       "http://www.iana.org/assignments/media-types/application/coap-group+json"
     ]
   },
+  "application/coap-payload": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/coap-payload"
+    ]
+  },
   "application/commonground": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/commonground"
@@ -305,6 +310,21 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc4575.txt",
       "http://www.iana.org/assignments/media-types/application/conference-info+xml"
+    ]
+  },
+  "application/cose": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/cose"
+    ]
+  },
+  "application/cose-key": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/cose-key"
+    ]
+  },
+  "application/cose-key-set": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/cose-key-set"
     ]
   },
   "application/cpl+xml": {
@@ -551,6 +571,7 @@
     ]
   },
   "application/font-sfnt": {
+    "notes": "DEPRECATED in favor of font/sfnt",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/font-sfnt"
     ]
@@ -562,6 +583,7 @@
     ]
   },
   "application/font-woff": {
+    "notes": "DEPRECATED in favor of font/woff",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/font-woff"
     ]
@@ -576,6 +598,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc7946.txt",
       "http://www.iana.org/assignments/media-types/application/geo+json"
+    ]
+  },
+  "application/gml+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/gml+xml"
     ]
   },
   "application/gzip": {
@@ -1057,6 +1084,12 @@
       "http://www.iana.org/assignments/media-types/application/msword"
     ]
   },
+  "application/mud+json": {
+    "notes": "TEMPORARY - registered 2016-11-17, expires 2017-11-17",
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/mud+json"
+    ]
+  },
   "application/mxf": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc4539.txt",
@@ -1409,6 +1442,7 @@
   },
   "application/rfc+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7991.txt",
       "http://www.iana.org/assignments/media-types/application/rfc+xml"
     ]
   },
@@ -1777,6 +1811,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc5955.txt",
       "http://www.iana.org/assignments/media-types/application/timestamped-data"
+    ]
+  },
+  "application/trig": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/trig"
     ]
   },
   "application/ttml+xml": {
@@ -2372,6 +2411,11 @@
   "application/vnd.data-vision.rdz": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.data-vision.rdz"
+    ]
+  },
+  "application/vnd.dataresource+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.dataresource+json"
     ]
   },
   "application/vnd.debian.binary-package": {
@@ -3115,6 +3159,11 @@
   "application/vnd.hbci": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.hbci"
+    ]
+  },
+  "application/vnd.hc+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.hc+json"
     ]
   },
   "application/vnd.hcl-bireports": {
@@ -5575,6 +5624,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.syncml.ds.notification"
     ]
   },
+  "application/vnd.tableschema+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.tableschema+json"
+    ]
+  },
   "application/vnd.tao.intent-module-archive": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.tao.intent-module-archive"
@@ -6192,6 +6246,16 @@
   "application/yang-data+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/yang-data+xml"
+    ]
+  },
+  "application/yang-patch+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/yang-patch+json"
+    ]
+  },
+  "application/yang-patch+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/yang-patch+xml"
     ]
   },
   "application/yin+xml": {
@@ -7033,6 +7097,7 @@
   },
   "image/bmp": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7903.txt",
       "http://www.iana.org/assignments/media-types/image/bmp"
     ]
   },
@@ -7048,6 +7113,7 @@
   },
   "image/emf": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7903.txt",
       "http://www.iana.org/assignments/media-types/image/emf"
     ]
   },
@@ -7303,6 +7369,7 @@
   },
   "image/wmf": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7903.txt",
       "http://www.iana.org/assignments/media-types/image/wmf"
     ]
   },
@@ -7320,7 +7387,6 @@
   },
   "message/disposition-notification": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc3798.txt",
       "http://www.iana.org/assignments/media-types/message/disposition-notification"
     ]
   },
@@ -7726,6 +7792,7 @@
   },
   "text/parameters": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc7826.txt",
       "http://www.iana.org/assignments/media-types/text/parameters"
     ]
   },
