@@ -699,5 +699,17 @@
     "sources": [
       "https://developer.mozilla.org/en-US/docs/Web/WebGL/Adding_2D_content_to_a_WebGL_context"
     ]
+  },
+  "application/x-iwork-keynote-sffkey": {
+    "compressible": false,
+    "extensions": ["key"]
+  },
+  "application/x-iwork-pages-sffpages": {
+    "compressible": false,
+    "extensions": ["pages"]
+  },
+  "application/x-iwork-keynote-sffnumbers": {
+    "compressible": false,
+    "extensions": ["numbers"]
   }
 }
