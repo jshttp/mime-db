@@ -21,7 +21,7 @@ var writedb = require('./lib/write-db')
  */
 var typeLineRegExp = /^(?:# )?([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*)$/gm
 
-co(function* () {
+co(function * () {
   var url = 'http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types'
   var res = yield * cogent(url, {
     string: true

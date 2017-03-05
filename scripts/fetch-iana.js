@@ -24,7 +24,7 @@ var symbolRegExp = /[._-]/g
 var trimQuotesRegExp = /^"|"$/gm
 var urlReferenceRegExp = /\[(https?:\/\/[^\]]+)]/gi
 
-co(function* () {
+co(function * () {
   var gens = yield [
     get('application'),
     get('audio'),
@@ -69,7 +69,7 @@ function addTemplateData (data) {
     return data
   }
 
-  return function* get () {
+  return function * get () {
     var res = yield * cogent('http://www.iana.org/assignments/media-types/' + data.template)
     var ref = data.type + '/' + data.name
     var rfc = getRfcReferences(data.reference)[0]
@@ -142,7 +142,7 @@ function extractTemplateMime (body) {
   return (type + '/' + subtype).toLowerCase()
 }
 
-function* get (type) {
+function * get (type) {
   var res = yield * cogent('http://www.iana.org/assignments/media-types/' + encodeURIComponent(type) + '.csv')
 
   if (res.statusCode !== 200) {
@@ -187,7 +187,7 @@ function* get (type) {
   })
 }
 
-function* getTemplateBody (res) {
+function * getTemplateBody (res) {
   var body = yield getRawBody(res, {encoding: 'ascii'})
   var lines = body.split(/\r?\n/)
   var slurp = false

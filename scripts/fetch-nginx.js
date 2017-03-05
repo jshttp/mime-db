@@ -16,7 +16,7 @@ var writedb = require('./lib/write-db')
  */
 var typeLineRegExp = /^\s*([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*);\s*$/gm
 
-co(function* () {
+co(function * () {
   var url = 'http://hg.nginx.org/nginx/raw-file/default/conf/mime.types'
   var res = yield * cogent(url, {
     string: true
