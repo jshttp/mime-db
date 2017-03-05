@@ -298,6 +298,7 @@
   },
   "application/coap-payload": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8075.txt",
       "http://www.iana.org/assignments/media-types/application/coap-payload"
     ]
   },
@@ -487,10 +488,20 @@
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.Comment+xml"
     ]
   },
+  "application/emergencycalldata.control+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/EmergencyCallData.Control+xml"
+    ]
+  },
   "application/emergencycalldata.deviceinfo+xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc7852.txt",
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.DeviceInfo+xml"
+    ]
+  },
+  "application/emergencycalldata.ecall.msd": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/EmergencyCallData.eCall.MSD"
     ]
   },
   "application/emergencycalldata.providerinfo+xml": {
@@ -509,6 +520,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc7852.txt",
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.SubscriberInfo+xml"
+    ]
+  },
+  "application/emergencycalldata.veds+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/EmergencyCallData.VEDS+xml"
     ]
   },
   "application/emma+xml": {
@@ -573,6 +589,7 @@
   "application/font-sfnt": {
     "notes": "DEPRECATED in favor of font/sfnt",
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8081.txt",
       "http://www.iana.org/assignments/media-types/application/font-sfnt"
     ]
   },
@@ -598,6 +615,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc7946.txt",
       "http://www.iana.org/assignments/media-types/application/geo+json"
+    ]
+  },
+  "application/geo+json-seq": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/geo+json-seq"
     ]
   },
   "application/gml+xml": {
@@ -712,6 +734,7 @@
   },
   "application/ipp": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8010.txt",
       "http://www.iana.org/assignments/media-types/application/ipp"
     ]
   },
@@ -1096,6 +1119,11 @@
       "http://www.iana.org/assignments/media-types/application/mxf"
     ]
   },
+  "application/n-triples": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/n-triples"
+    ]
+  },
   "application/nasdata": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc4707.txt",
@@ -1199,7 +1227,6 @@
   },
   "application/pdf": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc3778.txt",
       "http://www.iana.org/assignments/media-types/application/pdf"
     ]
   },
@@ -2097,6 +2124,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.api+json"
     ]
   },
+  "application/vnd.apothekende.reservation+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.apothekende.reservation+json"
+    ]
+  },
   "application/vnd.apple.installer+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.apple.installer+xml"
@@ -2666,6 +2698,16 @@
   "application/vnd.ecowin.seriesupdate": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ecowin.seriesupdate"
+    ]
+  },
+  "application/vnd.efi.img": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.efi-img"
+    ]
+  },
+  "application/vnd.efi.iso": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.efi-iso"
     ]
   },
   "application/vnd.emclient.accessrequest+xml": {
@@ -4351,6 +4393,11 @@
   "application/vnd.obn": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.obn"
+    ]
+  },
+  "application/vnd.ocf+cbor": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.ocf+cbor"
     ]
   },
   "application/vnd.oftn.l10n+json": {
@@ -6240,21 +6287,25 @@
   },
   "application/yang-data+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8040.txt",
       "http://www.iana.org/assignments/media-types/application/yang-data+json"
     ]
   },
   "application/yang-data+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8040.txt",
       "http://www.iana.org/assignments/media-types/application/yang-data+xml"
     ]
   },
   "application/yang-patch+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8072.txt",
       "http://www.iana.org/assignments/media-types/application/yang-patch+json"
     ]
   },
   "application/yang-patch+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8072.txt",
       "http://www.iana.org/assignments/media-types/application/yang-patch+xml"
     ]
   },
@@ -6678,6 +6729,26 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc4856.txt",
       "http://www.iana.org/assignments/media-types/audio/LPC"
+    ]
+  },
+  "audio/melp": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/MELP"
+    ]
+  },
+  "audio/melp1200": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/MELP1200"
+    ]
+  },
+  "audio/melp2400": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/MELP2400"
+    ]
+  },
+  "audio/melp600": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/MELP600"
     ]
   },
   "audio/mobile-xmf": {
@@ -7387,6 +7458,7 @@
   },
   "message/disposition-notification": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8098.txt",
       "http://www.iana.org/assignments/media-types/message/disposition-notification"
     ]
   },

@@ -1,3 +1,20 @@
+unreleased
+==========
+
+  * Add `application/emergencycalldata.control+xml`
+  * Add `application/emergencycalldata.ecall.msd`
+  * Add `application/emergencycalldata.veds+xml`
+  * Add `application/geo+json-seq`
+  * Add `application/n-triples`
+  * Add `application/vnd.apothekende.reservation+json`
+  * Add `application/vnd.efi.img`
+  * Add `application/vnd.efi.iso`
+  * Add `application/vnd.ocf+cbor`
+  * Add `audio/melp`
+  * Add `audio/melp1200`
+  * Add `audio/melp2400`
+  * Add `audio/melp600`
+
 1.26.0 / 2017-01-14
 ===================
 
