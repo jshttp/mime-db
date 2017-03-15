@@ -14,6 +14,7 @@ unreleased
   * Add `audio/melp1200`
   * Add `audio/melp2400`
   * Add `audio/melp600`
+  * Add `image/apng` with extension `.apng`
 
 1.26.0 / 2017-01-14
 ===================
