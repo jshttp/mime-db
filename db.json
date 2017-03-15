@@ -5569,6 +5569,10 @@
     "compressible": true,
     "extensions": ["otf"]
   },
+  "image/apng": {
+    "compressible": false,
+    "extensions": ["apng"]
+  },
   "image/bmp": {
     "source": "iana",
     "compressible": true,

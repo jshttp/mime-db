@@ -417,6 +417,14 @@
       "http://www.phpied.com/gzip-your-font-face-files/"
     ]
   },
+  "image/apng": {
+    "compressible": false,
+    "extensions": ["apng"],
+    "sources": [
+      "https://wiki.mozilla.org/APNG_Specification",
+      "https://en.wikipedia.org/wiki/APNG"
+    ]
+  },
   "image/bmp": {
     "compressible": true,
     "sources": [
