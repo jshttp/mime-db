@@ -5,10 +5,13 @@ unreleased
   * Add `application/emergencycalldata.ecall.msd`
   * Add `application/emergencycalldata.veds+xml`
   * Add `application/geo+json-seq`
+  * Add `application/n-quads`
   * Add `application/n-triples`
   * Add `application/vnd.apothekende.reservation+json`
   * Add `application/vnd.efi.img`
   * Add `application/vnd.efi.iso`
+  * Add `application/vnd.imagemeter.image+zip`
+  * Add `application/vnd.las.las+json`
   * Add `application/vnd.ocf+cbor`
   * Add `audio/melp`
   * Add `audio/melp1200`

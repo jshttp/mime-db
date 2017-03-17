@@ -602,6 +602,7 @@
   "application/font-woff": {
     "notes": "DEPRECATED in favor of font/woff",
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8081.txt",
       "http://www.iana.org/assignments/media-types/application/font-woff"
     ]
   },
@@ -1117,6 +1118,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc4539.txt",
       "http://www.iana.org/assignments/media-types/application/mxf"
+    ]
+  },
+  "application/n-quads": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/n-quads"
     ]
   },
   "application/n-triples": {
@@ -3323,6 +3329,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.igloader"
     ]
   },
+  "application/vnd.imagemeter.image+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.imagemeter.image+zip"
+    ]
+  },
   "application/vnd.immervision-ivp": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.immervision-ivp"
@@ -3627,6 +3638,11 @@
   "application/vnd.kodak-descriptor": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.kodak-descriptor"
+    ]
+  },
+  "application/vnd.las.las+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.las.las+json"
     ]
   },
   "application/vnd.las.las+xml": {
@@ -6137,6 +6153,9 @@
     ]
   },
   "application/widget": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/widget"
+    ]
   },
   "application/wita": {
     "sources": [

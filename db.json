@@ -738,6 +738,9 @@
     "source": "iana",
     "extensions": ["mxf"]
   },
+  "application/n-quads": {
+    "source": "iana"
+  },
   "application/n-triples": {
     "source": "iana"
   },
@@ -2287,6 +2290,9 @@
     "source": "iana",
     "extensions": ["igl"]
   },
+  "application/vnd.imagemeter.image+zip": {
+    "source": "iana"
+  },
   "application/vnd.immervision-ivp": {
     "source": "iana",
     "extensions": ["ivp"]
@@ -2504,6 +2510,10 @@
   "application/vnd.kodak-descriptor": {
     "source": "iana",
     "extensions": ["sse"]
+  },
+  "application/vnd.las.las+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.las.las+xml": {
     "source": "iana",
