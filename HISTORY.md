@@ -1,5 +1,5 @@
-unreleased
-==========
+1.27.0 / 2017-03-16
+===================
 
   * Add `application/emergencycalldata.control+xml`
   * Add `application/emergencycalldata.ecall.msd`
