@@ -592,6 +592,13 @@
     "compressible": true,
     "extensions": ["ini"]
   },
+  "text/x-processing": {
+    "compressible": true,
+    "extensions": ["pde"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Processing_(programming_language)"
+    ]
+  },
   "text/richtext": {
     "compressible": true
   },
