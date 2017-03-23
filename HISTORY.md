@@ -7,6 +7,7 @@ unreleased
   * Add glTF types and extensions
   * Add new upstream MIME types
   * Add `text/x-org`
+  * Add VirtualBox MIME types
   * Fix `source` records for `video/*` types that are IANA
   * Update `font/opentype` to registered `font/otf`
 
