@@ -330,6 +330,78 @@
   "application/x-tar": {
     "compressible": true
   },
+  "application/x-virtualbox-hdd": {
+    "extensions": ["hdd"],
+    "compressible": true,
+    "notes": "Parallels Hard Disk Image",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-ova": {
+    "extensions": ["ova"],
+    "compressible": true,
+    "notes": "Open Virtualization Format (OVF) Archive",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-ovf": {
+    "extensions": ["ovf"],
+    "compressible": true,
+    "notes": "Open Virtualization Format (OVF) Image",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-vbox": {
+    "extensions": ["vbox"],
+    "compressible": true,
+    "notes": "VirtualBox Settings File",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-vbox-extpack": {
+    "extensions": ["vbox-extpack"],
+    "compressible": false,
+    "notes": "VirtualBox Extension Pack",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-vdi": {
+    "extensions": ["vdi"],
+    "compressible": true,
+    "notes": "VirtualBox Disk Image",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-vhd": {
+    "extensions": ["vhd"],
+    "compressible": true,
+    "notes": "Microsoft Virtual Hard Disk",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-vmdk": {
+    "extensions": ["vmdk"],
+    "compressible": true,
+    "notes": "VMWare Virtual Machine Disk",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
   "application/x-web-app-manifest+json": {
     "extensions": ["webapp"]
   },
