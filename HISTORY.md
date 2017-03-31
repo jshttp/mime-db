@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Update extensions `.md` and `.markdown` to be `text/markdown`
+
 1.27.0 / 2017-03-16
 ===================
 

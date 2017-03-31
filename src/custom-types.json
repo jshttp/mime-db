@@ -582,6 +582,13 @@
   "text/less": {
     "extensions": ["less"]
   },
+  "text/markdown": {
+    "compressible": true,
+    "extensions": ["markdown","md"],
+    "sources": [
+      "https://tools.ietf.org/html/rfc7763"
+    ]
+  },
   "text/n3": {
     "compressible": true,
     "sources": [
@@ -639,7 +646,7 @@
   },
   "text/x-markdown": {
     "compressible": true,
-    "extensions": ["markdown","md","mkd"]
+    "extensions": ["mkd"]
   },
   "text/x-processing": {
     "compressible": true,

@@ -6156,7 +6156,9 @@
     "extensions": ["less"]
   },
   "text/markdown": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["markdown","md"]
   },
   "text/mathml": {
     "source": "nginx",
@@ -6403,7 +6405,7 @@
   },
   "text/x-markdown": {
     "compressible": true,
-    "extensions": ["markdown","md","mkd"]
+    "extensions": ["mkd"]
   },
   "text/x-nfo": {
     "source": "apache",
