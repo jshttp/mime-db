@@ -582,6 +582,10 @@
   "text/less": {
     "extensions": ["less"]
   },
+  "text/markdown": {
+    "compressible": true,
+    "extensions": ["markdown","md"]
+  },
   "text/n3": {
     "compressible": true,
     "sources": [
