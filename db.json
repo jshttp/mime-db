@@ -5731,7 +5731,9 @@
     "source": "iana"
   },
   "image/vnd.microsoft.icon": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["ico"]
   },
   "image/vnd.mix": {
     "source": "iana"
@@ -5807,9 +5809,7 @@
     "extensions": ["fh","fhc","fh4","fh5","fh7"]
   },
   "image/x-icon": {
-    "source": "apache",
-    "compressible": true,
-    "extensions": ["ico"]
+    "source": "apache"
   },
   "image/x-jng": {
     "source": "nginx",
