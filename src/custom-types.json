@@ -56,7 +56,11 @@
     ]
   },
   "application/gzip": {
-    "compressible": false
+    "compressible": false,
+    "extensions": ["gz"],
+    "sources": [
+      "https://tools.ietf.org/html/rfc6713#section-3"
+    ]
   },
   "application/java-archive": {
     "compressible": false

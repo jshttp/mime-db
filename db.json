@@ -410,7 +410,8 @@
   },
   "application/gzip": {
     "source": "iana",
-    "compressible": false
+    "compressible": false,
+    "extensions": ["gz"]
   },
   "application/h224": {
     "source": "iana"
