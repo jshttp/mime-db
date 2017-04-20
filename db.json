@@ -2826,6 +2826,10 @@
     "source": "apache",
     "compressible": true
   },
+  "application/vnd.ms-outlook": {
+    "compressible": false,
+    "extensions": ["msg"]
+  },
   "application/vnd.ms-package.obfuscated-opentype": {
     "source": "apache"
   },

@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `application/vnd.ms-outlook`
   * Add glTF types and extensions
   * Add new upstream MIME types
   * Add `text/x-org`

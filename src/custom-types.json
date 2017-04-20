@@ -212,6 +212,10 @@
       "http://www.phpied.com/gzip-your-font-face-files/"
     ]
   },
+  "application/vnd.ms-outlook": {
+    "compressible": false,
+    "extensions": ["msg"]
+  },
   "application/vnd.ms-powerpoint": {
     "compressible": false
   },
