@@ -4613,6 +4613,7 @@
   },
   "application/x-lzh-compressed": {
     "source": "apache",
+    "compressible": false,
     "extensions": ["lzh","lha"]
   },
   "application/x-makeself": {

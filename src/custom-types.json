@@ -654,6 +654,15 @@
   "text/x-lua": {
     "extensions": ["lua"]
   },
+  "application/x-lzh-compressed": {
+    "compressible": false,
+    "extensions": ["lzh","lha"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/LHA_(file_format)",
+      "https://www.backblaze.com/b2/docs/content-types.html",
+      "http://www.help.websiteos.com/mime_types.phtml"
+    ]
+  },
   "text/x-markdown": {
     "compressible": true,
     "extensions": ["markdown","md","mkd"]
