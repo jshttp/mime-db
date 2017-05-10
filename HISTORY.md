@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Add `application/vnd.ms-outlook`
+  * Add `application/x-arj`
   * Add extension `.mjs` to `application/javascript`
   * Add glTF types and extensions
   * Add new upstream MIME types

@@ -4465,6 +4465,10 @@
     "source": "apache",
     "extensions": ["dmg"]
   },
+  "application/x-arj": {
+    "compressible": false,
+    "extensions": ["arj"]
+  },
   "application/x-authorware-bin": {
     "source": "apache",
     "extensions": ["aab","x32","u32","vox"]

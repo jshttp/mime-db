@@ -260,6 +260,14 @@
   "application/x-7z-compressed": {
     "compressible": false
   },
+  "application/x-arj": {
+    "compressible": false,
+    "extensions": ["arj"],
+    "notes": "No registered type, so using type from Linux file(1)",
+    "sources": [
+      "https://github.com/file/file/blob/daaf6d44768677aca17af780bba0a451fbb69ac8/magic/Magdir/archive"
+    ]
+  },
   "application/x-bdoc": {
     "compressible": false,
     "extensions": ["bdoc"],
