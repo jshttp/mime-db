@@ -25,7 +25,10 @@
   },
   "application/dxf": {
     "compressible": false,
-    "extensions": ["dxf"]
+    "extensions": ["dxf"],
+	"sources": [
+      "http://filext.com/file-extension/DXF"
+    ]
   },
   "application/ecmascript": {
     "compressible": true
