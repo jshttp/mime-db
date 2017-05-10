@@ -633,6 +633,15 @@
        "http://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
     ]
   },
+  "text/x-ansi": {
+    "compressible": true,
+    "extensions": ["ans"],
+    "notes": "ANSI art",
+    "sources": [
+      "https://lists.freedesktop.org/archives/xdg/2006-March/006214.html",
+      "https://de.wikipedia.org/wiki/ANSI-Art"
+    ]
+  },
   "text/x-gwt-rpc": {
     "compressible": true
   },
