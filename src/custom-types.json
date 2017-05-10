@@ -23,6 +23,10 @@
       "https://www.iana.org/assignments/media-types/application/dash+xml"
     ]
   },
+  "application/dxf": {
+    "compressible": false,
+	"extensions": ["dxf"]
+  },
   "application/ecmascript": {
     "compressible": true
   },
