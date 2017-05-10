@@ -236,6 +236,14 @@
   "application/x-7z-compressed": {
     "compressible": false
   },
+  "application/x-arj": {
+    "compressible": false,
+    "extensions": ["arj"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_archive_formats",
+      "http://www.wussu.com/various/mimetype.htm"
+    ]
+  },
   "application/x-bdoc": {
     "compressible": false,
     "extensions": ["bdoc"],
