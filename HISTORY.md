@@ -1,5 +1,5 @@
-unreleased
-==========
+1.28.0 / 2017-05-14
+===================
 
   * Add `application/rpki-publication`
   * Add `application/vnd.bint.med-content`
