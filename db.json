@@ -992,6 +992,9 @@
     "source": "iana",
     "extensions": ["mft"]
   },
+  "application/rpki-publication": {
+    "source": "iana"
+  },
   "application/rpki-roa": {
     "source": "iana",
     "extensions": ["roa"]
@@ -1469,6 +1472,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.bint.med-content": {
+    "source": "iana"
+  },
   "application/vnd.biopax.rdf+xml": {
     "source": "iana"
   },
@@ -1498,6 +1504,10 @@
   },
   "application/vnd.canon-lips": {
     "source": "iana"
+  },
+  "application/vnd.capasystems-pg+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.cendio.thinlinc.clientconf": {
     "source": "iana"
@@ -1658,6 +1668,10 @@
   "application/vnd.data-vision.rdz": {
     "source": "iana",
     "extensions": ["rdz"]
+  },
+  "application/vnd.datapackage+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.dataresource+json": {
     "source": "iana",
@@ -2251,6 +2265,10 @@
     "source": "iana",
     "extensions": ["sfd-hdstx"]
   },
+  "application/vnd.hyper-item+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.hyperdrive+json": {
     "source": "iana",
     "compressible": true
@@ -2290,6 +2308,9 @@
   "application/vnd.igloader": {
     "source": "iana",
     "extensions": ["igl"]
+  },
+  "application/vnd.imagemeter.folder+zip": {
+    "source": "iana"
   },
   "application/vnd.imagemeter.image+zip": {
     "source": "iana"
@@ -2621,6 +2642,9 @@
     "extensions": ["igx"]
   },
   "application/vnd.microsoft.portable-executable": {
+    "source": "iana"
+  },
+  "application/vnd.microsoft.windows.thumbnail-cache": {
     "source": "iana"
   },
   "application/vnd.miele+json": {
@@ -3265,6 +3289,21 @@
     "source": "iana"
   },
   "application/vnd.onepager": {
+    "source": "iana"
+  },
+  "application/vnd.onepagertamp": {
+    "source": "iana"
+  },
+  "application/vnd.onepagertamx": {
+    "source": "iana"
+  },
+  "application/vnd.onepagertat": {
+    "source": "iana"
+  },
+  "application/vnd.onepagertatp": {
+    "source": "iana"
+  },
+  "application/vnd.onepagertatx": {
     "source": "iana"
   },
   "application/vnd.openblox.game+xml": {
@@ -5937,6 +5976,9 @@
   "message/vnd.wfa.wsc": {
     "source": "iana"
   },
+  "model/3mf": {
+    "source": "iana"
+  },
   "model/gltf+json": {
     "source": "iana",
     "compressible": true
@@ -6069,6 +6111,9 @@
   "multipart/signed": {
     "source": "iana",
     "compressible": false
+  },
+  "multipart/vnd.bint.med-plus": {
+    "source": "iana"
   },
   "multipart/voice-message": {
     "source": "iana"
@@ -6231,6 +6276,9 @@
   },
   "text/slim": {
     "extensions": ["slim","slm"]
+  },
+  "text/strings": {
+    "source": "iana"
   },
   "text/stylus": {
     "extensions": ["stylus","styl"]

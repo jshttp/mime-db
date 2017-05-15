@@ -1,6 +1,21 @@
 unreleased
 ==========
 
+  * Add `application/rpki-publication`
+  * Add `application/vnd.bint.med-content`
+  * Add `application/vnd.capasystems-pg+json`
+  * Add `application/vnd.datapackage+json`
+  * Add `application/vnd.hyper-item+json`
+  * Add `application/vnd.imagemeter.folder+zip`
+  * Add `application/vnd.microsoft.windows.thumbnail-cache`
+  * Add `application/vnd.onepagertamp`
+  * Add `application/vnd.onepagertamx`
+  * Add `application/vnd.onepagertat`
+  * Add `application/vnd.onepagertatp`
+  * Add `application/vnd.onepagertatx`
+  * Add `model/3mf`
+  * Add `multipart/vnd.bint.med-plus`
+  * Add `text/strings`
   * Add extension `.gz` to `application/gzip`
   * Update extensions `.md` and `.markdown` to be `text/markdown`
 

@@ -620,6 +620,7 @@
   },
   "application/geo+json-seq": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8142.txt",
       "http://www.iana.org/assignments/media-types/application/geo+json-seq"
     ]
   },
@@ -1508,6 +1509,11 @@
       "http://www.iana.org/assignments/media-types/application/rpki-manifest"
     ]
   },
+  "application/rpki-publication": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/rpki-publication"
+    ]
+  },
   "application/rpki-roa": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc6481.txt",
@@ -2196,6 +2202,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.bekitzur-stech+json"
     ]
   },
+  "application/vnd.bint.med-content": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.bint.med-content"
+    ]
+  },
   "application/vnd.biopax.rdf+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.biopax.rdf+xml"
@@ -2239,6 +2250,11 @@
   "application/vnd.canon-lips": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.canon-lips"
+    ]
+  },
+  "application/vnd.capasystems-pg+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.capasystems-pg+json"
     ]
   },
   "application/vnd.cendio.thinlinc.clientconf": {
@@ -2449,6 +2465,11 @@
   "application/vnd.data-vision.rdz": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.data-vision.rdz"
+    ]
+  },
+  "application/vnd.datapackage+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.datapackage+json"
     ]
   },
   "application/vnd.dataresource+json": {
@@ -3274,6 +3295,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.hydrostatix.sof-data"
     ]
   },
+  "application/vnd.hyper-item+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.hyper-item+json"
+    ]
+  },
   "application/vnd.hyperdrive+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.hyperdrive+json"
@@ -3327,6 +3353,11 @@
   "application/vnd.igloader": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.igloader"
+    ]
+  },
+  "application/vnd.imagemeter.folder+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.imagemeter.folder+zip"
     ]
   },
   "application/vnd.imagemeter.image+zip": {
@@ -3788,6 +3819,11 @@
   "application/vnd.microsoft.portable-executable": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.microsoft.portable-executable"
+    ]
+  },
+  "application/vnd.microsoft.windows.thumbnail-cache": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.microsoft.windows.thumbnail-cache"
     ]
   },
   "application/vnd.miele+json": {
@@ -4689,6 +4725,31 @@
   "application/vnd.onepager": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.onepager"
+    ]
+  },
+  "application/vnd.onepagertamp": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.onepagertamp"
+    ]
+  },
+  "application/vnd.onepagertamx": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.onepagertamx"
+    ]
+  },
+  "application/vnd.onepagertat": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.onepagertat"
+    ]
+  },
+  "application/vnd.onepagertatp": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.onepagertatp"
+    ]
+  },
+  "application/vnd.onepagertatx": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.onepagertatx"
     ]
   },
   "application/vnd.openblox.game+xml": {
@@ -6752,21 +6813,25 @@
   },
   "audio/melp": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8130.txt",
       "http://www.iana.org/assignments/media-types/audio/MELP"
     ]
   },
   "audio/melp1200": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8130.txt",
       "http://www.iana.org/assignments/media-types/audio/MELP1200"
     ]
   },
   "audio/melp2400": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8130.txt",
       "http://www.iana.org/assignments/media-types/audio/MELP2400"
     ]
   },
   "audio/melp600": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8130.txt",
       "http://www.iana.org/assignments/media-types/audio/MELP600"
     ]
   },
@@ -7583,6 +7648,12 @@
       "http://www.iana.org/assignments/media-types/message/vnd.wfa.wsc"
     ]
   },
+  "model/3mf": {
+    "sources": [
+      "http://www.3mf.io/specification",
+      "http://www.iana.org/assignments/media-types/model/3mf"
+    ]
+  },
   "model/gltf+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/model/gltf+json"
@@ -7756,6 +7827,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc1847.txt",
       "http://www.iana.org/assignments/media-types/multipart/signed"
+    ]
+  },
+  "multipart/vnd.bint.med-plus": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/multipart/vnd.bint.med-plus"
     ]
   },
   "multipart/voice-message": {
@@ -7969,6 +8045,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc1874.txt",
       "http://www.iana.org/assignments/media-types/text/SGML"
+    ]
+  },
+  "text/strings": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/strings"
     ]
   },
   "text/t140": {
