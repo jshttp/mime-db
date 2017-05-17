@@ -3960,7 +3960,8 @@
     "source": "iana"
   },
   "application/vnd.sun.wadl+xml": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["wadl"]
   },
   "application/vnd.sun.xml.calc": {
     "source": "apache",
