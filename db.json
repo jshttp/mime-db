@@ -4426,7 +4426,7 @@
   },
   "application/x-bittorrent": {
     "source": "apache",
-    "extensions": ["torrent"]
+    "extensions": ["torrent","magnet"]
   },
   "application/x-blorb": {
     "source": "apache",
