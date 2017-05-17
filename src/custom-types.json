@@ -414,6 +414,17 @@
   "audio/x-caf": {
     "compressible": false
   },
+  "audio/x-m4r": {
+    "compressible": false,
+	"extensions": ["m4r"],
+    "sources": [
+      "http://fileextensionexplorer.com/m4r",
+	  "http://dotwhat.net/file/extension/m4r/9104",
+	  "http://extension.nirsoft.net/m4r",
+	  "http://filext.com/file-extension/m4r"
+    ],
+    "notes": "This is basically a renamed AAC (M4A) file, primarily associated with 'iPhone' by Apple Inc."
+  },
   "font/opentype": {
     "compressible": true,
     "extensions": ["otf"],
