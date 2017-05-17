@@ -23,6 +23,13 @@
       "https://www.iana.org/assignments/media-types/application/dash+xml"
     ]
   },
+  "application/dxf": {
+    "compressible": false,
+    "extensions": ["dxf"],
+    "sources": [
+      "http://images.autodesk.com/adsk/files/autocad_2012_pdf_dxf-reference_enu.pdf"
+    ]
+  },
   "application/ecmascript": {
     "compressible": true
   },
