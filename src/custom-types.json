@@ -414,6 +414,22 @@
   "audio/x-caf": {
     "compressible": false
   },
+  "audio/x-vorbis": {
+    "compressible": false,
+	"extensions": ["ogg"],
+	"sources": [
+      "https://gstreamer.freedesktop.org/data/doc/gstreamer/head/pwg/html/section-types-definitions.html",
+	  "https://bugs.kde.org/show_bug.cgi?id=48063"
+    ]
+  },
+  "audio/x-vorbis+ogg": {
+    "compressible": false,
+	"extensions": ["ogg"],
+	"sources": [
+      "http://askubuntu.com/questions/108130/how-do-i-set-a-custom-thumbnailer-for-audio-x-vorbisorg",
+	  "https://mailman.videolan.org/pipermail/vlc-devel/2016-May/107616.html"
+    ]
+  },
   "font/opentype": {
     "compressible": true,
     "extensions": ["otf"],
