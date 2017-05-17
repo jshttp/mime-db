@@ -110,6 +110,9 @@
   "application/ogg": {
     "compressible": false
   },
+  "application/package": {
+    "extensions": ["pak"]
+  },
   "application/pdf": {
     "compressible": false
   },
