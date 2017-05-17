@@ -5532,6 +5532,11 @@
     "compressible": false,
     "extensions": ["aac"]
   },
+  "audio/aac": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": ["aac"]
+  },
   "audio/x-aiff": {
     "source": "apache",
     "extensions": ["aif","aiff","aifc"]
