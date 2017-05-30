@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add `UTF-8` as default charset for `text/css`
+
 1.28.0 / 2017-05-14
 ===================
 

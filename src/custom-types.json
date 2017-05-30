@@ -559,7 +559,11 @@
     "extensions": ["coffee", "litcoffee"]
   },
   "text/css": {
-    "compressible": true
+    "charset": "UTF-8",
+    "compressible": true,
+    "sources":[
+      "https://www.w3.org/TR/CSS22/syndata.html#charset"
+    ]
   },
   "text/csv": {
     "compressible": true
