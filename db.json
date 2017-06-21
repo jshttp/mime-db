@@ -6509,6 +6509,10 @@
     "source": "apache",
     "extensions": ["opml"]
   },
+  "text/x-org": {
+    "compressible": true,
+    "extensions": ["org"]
+  },
   "text/x-pascal": {
     "source": "apache",
     "extensions": ["p","pas"]
