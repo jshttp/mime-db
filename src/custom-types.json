@@ -652,6 +652,10 @@
     "compressible": true,
     "extensions": ["mkd"]
   },
+  "text/x-orgmode": {
+    "compressible": true,
+    "extensions": ["org"]
+  },
   "text/x-processing": {
     "compressible": true,
     "extensions": ["pde"],
