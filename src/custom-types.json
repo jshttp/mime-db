@@ -237,6 +237,13 @@
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {
     "compressible": false
   },
+  "application/vnd.sun.wadl+xml": {
+    "compressible": true,
+    "extensions": ["wadl"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.sun.wadl+xml"
+    ]
+  },
   "application/x-7z-compressed": {
     "compressible": false
   },
