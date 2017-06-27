@@ -33,7 +33,6 @@
     "compressible": false
   },
   "application/fido.trusted-apps+json": {
-    "extensions": ["fidou2f"],
     "sources": [
       "https://fidoalliance.org/specs/fido-u2f-v1.0-ps-20141009/fido-appid-and-facets-ps-20141009.html"
     ]
