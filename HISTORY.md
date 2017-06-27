@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `application/fido.trusted-apps+json`
   * Add extension `.wadl` to `application/vnd.sun.wadl+xml`
   * Add `UTF-8` as default charset for `text/css`
 

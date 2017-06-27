@@ -366,6 +366,9 @@
   "application/fdt+xml": {
     "source": "iana"
   },
+  "application/fido.trusted-apps+json": {
+    "compressible": true
+  },
   "application/fits": {
     "source": "iana"
   },
