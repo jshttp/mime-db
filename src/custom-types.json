@@ -583,6 +583,13 @@
       "http://facebook.github.io/react/docs/getting-started.html"
     ]
   },
+  "text/vue": {
+    "compressible": true,
+    "extensions": ["vue"],
+    "sources": [
+      "http://vuejs.org/v2/guide/single-file-components.html"
+    ]
+  },
   "text/less": {
     "extensions": ["less"]
   },
