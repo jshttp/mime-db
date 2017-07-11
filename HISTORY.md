@@ -1,5 +1,5 @@
-unreleased
-==========
+1.29.0 / 2017-07-10
+===================
 
   * Add `application/fido.trusted-apps+json`
   * Add extension `.wadl` to `application/vnd.sun.wadl+xml`
