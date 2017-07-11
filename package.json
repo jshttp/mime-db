@@ -30,8 +30,8 @@
     "eslint-plugin-promise": "3.5.0",
     "eslint-plugin-standard": "3.0.1",
     "gnode": "0.1.2",
-    "istanbul": "0.4.5",
     "mocha": "1.21.5",
+    "nyc": "11.0.3",
     "raw-body": "2.2.0",
     "stream-to-array": "2.3.0"
   },
@@ -50,8 +50,8 @@
     "fetch": "gnode scripts/fetch-apache && gnode scripts/fetch-iana && gnode scripts/fetch-nginx",
     "lint": "eslint .",
     "test": "mocha --reporter spec --bail --check-leaks test/",
-    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
-    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+    "test-cov": "nyc --reporter=html --reporter=text npm test",
+    "test-travis": "nyc --reporter=text npm test",
     "update": "npm run fetch && npm run build"
   }
 }

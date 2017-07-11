@@ -24,13 +24,12 @@ before_install:
   - npm rm --save-dev stream-to-array
 
   # Setup Node.js version-specific dependencies
-  - "test $TRAVIS_NODE_VERSION != '0.6' || npm rm --save-dev istanbul"
-  - "test $TRAVIS_NODE_VERSION != '0.8' || npm rm --save-dev istanbul"
+  - "test $(echo $TRAVIS_NODE_VERSION | cut -d. -f1) -ge 4 || npm rm --save-dev nyc"
   - "test $(echo $TRAVIS_NODE_VERSION | cut -d. -f1) -ge 4 || npm rm --save-dev $(grep -E '\"eslint\\S*\"' package.json | cut -d'\"' -f2)"
 script:
-  # Run test script, depending on istanbul install
-  - "test ! -z $(npm -ps ls istanbul) || npm test"
-  - "test   -z $(npm -ps ls istanbul) || npm run-script test-travis"
-  - "test   -z $(npm -ps ls eslint  ) || npm run-script lint"
+  # Run test script, depending on nyc install
+  - "test ! -z $(npm -ps ls nyc) || npm test"
+  - "test   -z $(npm -ps ls nyc) || npm run-script test-travis"
+  - "test   -z $(npm -ps ls eslint) || npm run-script lint"
 after_script:
-  - "test -e ./coverage/lcov.info && npm install coveralls@2 && cat ./coverage/lcov.info | coveralls"
+  - "test -d .nyc_output && npm install coveralls@2 && nyc report --reporter=text-lcov | coveralls"
