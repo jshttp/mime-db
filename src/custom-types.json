@@ -411,6 +411,20 @@
   "audio/x-aac": {
     "compressible": false
   },
+  "audio/aac": {
+    "compressible": false,
+    "extensions": ["aac"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Advanced_Audio_Coding"
+    ]
+  },
+  "audio/aacp": {
+    "compressible": false,
+    "extensions": ["aac"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Advanced_Audio_Coding"
+    ]
+  },
   "audio/x-caf": {
     "compressible": false
   },

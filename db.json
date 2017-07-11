@@ -5035,6 +5035,14 @@
   "audio/3gpp2": {
     "source": "iana"
   },
+  "audio/aac": {
+    "compressible": false,
+    "extensions": ["aac"]
+  },
+  "audio/aacp": {
+    "compressible": false,
+    "extensions": ["aac"]
+  },
   "audio/ac3": {
     "source": "iana"
   },
