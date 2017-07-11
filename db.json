@@ -128,6 +128,9 @@
   "application/cbor": {
     "source": "iana"
   },
+  "application/cccex": {
+    "source": "iana"
+  },
   "application/ccmp+xml": {
     "source": "iana"
   },
@@ -500,6 +503,10 @@
     "compressible": true,
     "extensions": ["js"]
   },
+  "application/jf2feed+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/jose": {
     "source": "iana"
   },
@@ -809,6 +816,9 @@
     "source": "iana"
   },
   "application/parityfec": {
+    "source": "iana"
+  },
+  "application/passport": {
     "source": "iana"
   },
   "application/patch-ops-error+xml": {
@@ -1252,6 +1262,9 @@
   "application/vividence.scriptfile": {
     "source": "apache"
   },
+  "application/vnd.1000minds.decision-model+xml": {
+    "source": "iana"
+  },
   "application/vnd.3gpp-prose+xml": {
     "source": "iana"
   },
@@ -1479,6 +1492,9 @@
     "source": "iana"
   },
   "application/vnd.biopax.rdf+xml": {
+    "source": "iana"
+  },
+  "application/vnd.blink-idb-value-wrapper": {
     "source": "iana"
   },
   "application/vnd.blueice.multipass": {
@@ -1971,6 +1987,9 @@
     "source": "iana"
   },
   "application/vnd.eudora.data": {
+    "source": "iana"
+  },
+  "application/vnd.evolv.ecig.theme": {
     "source": "iana"
   },
   "application/vnd.ezpix-album": {
@@ -3880,6 +3899,9 @@
   "application/vnd.shana.informed.package": {
     "source": "iana",
     "extensions": ["ipk"]
+  },
+  "application/vnd.sigrok.session": {
+    "source": "iana"
   },
   "application/vnd.simtech-mindmapper": {
     "source": "iana",

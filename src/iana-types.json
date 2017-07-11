@@ -198,6 +198,11 @@
       "http://www.iana.org/assignments/media-types/application/cbor"
     ]
   },
+  "application/cccex": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/cccex"
+    ]
+  },
   "application/ccmp+xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc6503.txt",
@@ -315,16 +320,19 @@
   },
   "application/cose": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8152.txt",
       "http://www.iana.org/assignments/media-types/application/cose"
     ]
   },
   "application/cose-key": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8152.txt",
       "http://www.iana.org/assignments/media-types/application/cose-key"
     ]
   },
   "application/cose-key-set": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8152.txt",
       "http://www.iana.org/assignments/media-types/application/cose-key-set"
     ]
   },
@@ -490,6 +498,7 @@
   },
   "application/emergencycalldata.control+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8147.txt",
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.Control+xml"
     ]
   },
@@ -501,6 +510,7 @@
   },
   "application/emergencycalldata.ecall.msd": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8147.txt",
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.eCall.MSD"
     ]
   },
@@ -524,6 +534,7 @@
   },
   "application/emergencycalldata.veds+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8148.txt",
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.VEDS+xml"
     ]
   },
@@ -755,6 +766,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc4329.txt",
       "http://www.iana.org/assignments/media-types/application/javascript"
+    ]
+  },
+  "application/jf2feed+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/jf2feed+json"
     ]
   },
   "application/jose": {
@@ -1226,6 +1242,11 @@
       "http://tools.ietf.org/rfc/rfc5109.txt"
     ]
   },
+  "application/passport": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/passport"
+    ]
+  },
   "application/patch-ops-error+xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc5261.txt",
@@ -1234,6 +1255,7 @@
   },
   "application/pdf": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8118.txt",
       "http://www.iana.org/assignments/media-types/application/pdf"
     ]
   },
@@ -1911,6 +1933,11 @@
       "http://www.iana.org/assignments/media-types/application/vemmi"
     ]
   },
+  "application/vnd.1000minds.decision-model+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.1000minds.decision-model+xml"
+    ]
+  },
   "application/vnd.3gpp-prose+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp-prose+xml"
@@ -2210,6 +2237,11 @@
   "application/vnd.biopax.rdf+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.biopax.rdf+xml"
+    ]
+  },
+  "application/vnd.blink-idb-value-wrapper": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.blink-idb-value-wrapper"
     ]
   },
   "application/vnd.blueice.multipass": {
@@ -2910,6 +2942,11 @@
   "application/vnd.eudora.data": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.eudora.data"
+    ]
+  },
+  "application/vnd.evolv.ecig.theme": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.evolv.ecig.theme"
     ]
   },
   "application/vnd.ezpix-album": {
@@ -5601,6 +5638,11 @@
   "application/vnd.shana.informed.package": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.shana.informed.package"
+    ]
+  },
+  "application/vnd.sigrok.session": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.sigrok.session"
     ]
   },
   "application/vnd.simtech-mindmapper": {
