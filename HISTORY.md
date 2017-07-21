@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add glTF types and extensions
+
 1.29.0 / 2017-07-10
 ===================
 

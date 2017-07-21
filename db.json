@@ -6008,7 +6008,12 @@
   },
   "model/gltf+json": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["gltf"]
+  },
+  "model/gltf-binary": {
+    "compressible": true,
+    "extensions": ["glb"]
   },
   "model/iges": {
     "source": "iana",
