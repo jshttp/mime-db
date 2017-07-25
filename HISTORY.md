@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Add glTF types and extensions
+  * Add new upstream MIME types
 
 1.29.0 / 2017-07-10
 ===================

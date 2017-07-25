@@ -402,6 +402,9 @@
   "application/geo+json-seq": {
     "source": "iana"
   },
+  "application/geoxacml+xml": {
+    "source": "iana"
+  },
   "application/gml+xml": {
     "source": "iana",
     "extensions": ["gml"]
@@ -1277,6 +1280,9 @@
   "application/vnd.3gpp.bsf+xml": {
     "source": "iana"
   },
+  "application/vnd.3gpp.gmop+xml": {
+    "source": "iana"
+  },
   "application/vnd.3gpp.mid-call+xml": {
     "source": "iana"
   },
@@ -1987,6 +1993,12 @@
     "source": "iana"
   },
   "application/vnd.eudora.data": {
+    "source": "iana"
+  },
+  "application/vnd.evolv.ecig.profile": {
+    "source": "iana"
+  },
+  "application/vnd.evolv.ecig.settings": {
     "source": "iana"
   },
   "application/vnd.evolv.ecig.theme": {

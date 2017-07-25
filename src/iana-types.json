@@ -635,6 +635,11 @@
       "http://www.iana.org/assignments/media-types/application/geo+json-seq"
     ]
   },
+  "application/geoxacml+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/geoxacml+xml"
+    ]
+  },
   "application/gml+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/gml+xml"
@@ -793,7 +798,6 @@
   },
   "application/json": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc7159.txt",
       "http://www.iana.org/assignments/media-types/application/json"
     ]
   },
@@ -1958,6 +1962,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.bsf+xml"
     ]
   },
+  "application/vnd.3gpp.gmop+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.GMOP+xml"
+    ]
+  },
   "application/vnd.3gpp.mid-call+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mid-call+xml"
@@ -2942,6 +2951,16 @@
   "application/vnd.eudora.data": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.eudora.data"
+    ]
+  },
+  "application/vnd.evolv.ecig.profile": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.evolv.ecig.profile"
+    ]
+  },
+  "application/vnd.evolv.ecig.settings": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.evolv.ecig.settings"
     ]
   },
   "application/vnd.evolv.ecig.theme": {
