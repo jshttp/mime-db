@@ -212,6 +212,13 @@
       "http://www.phpied.com/gzip-your-font-face-files/"
     ]
   },
+  "application/vnd.ms-outlook": {
+    "compressible": false,
+    "extensions": ["msg"],
+    "sources": [
+      "https://www.thoughtco.com/mime-types-by-content-type-3469108"
+    ]
+  },
   "application/vnd.ms-powerpoint": {
     "compressible": false
   },
