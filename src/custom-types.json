@@ -510,6 +510,20 @@
       "http://en.wikipedia.org/wiki/MIME#Multipart_subtypes"
     ]
   },
+  "model/gltf-binary": {
+    "compressible": true,
+    "extensions": ["glb"],
+    "sources": [
+      "https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#glb-file-format-specification"
+    ]
+  },
+  "model/gltf+json": {
+    "compressible": true,
+    "extensions": ["gltf"],
+    "sources": [
+      "https://github.com/KhronosGroup/glTF/tree/master/specification/2.0"
+    ]
+  },
   "model/iges": {
     "compressible": false
   },
