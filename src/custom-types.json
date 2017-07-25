@@ -682,6 +682,14 @@
     "compressible": true,
     "extensions": ["mkd"]
   },
+  "text/x-org": {
+    "compressible": true,
+    "extensions": ["org"],
+    "sources": [
+      "https://lists.gnu.org/archive/html/emacs-orgmode/2011-01/msg00971.html",
+      "http://orgmode.org"
+    ]
+  },
   "text/x-processing": {
     "compressible": true,
     "extensions": ["pde"],
