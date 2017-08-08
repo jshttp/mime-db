@@ -78,7 +78,11 @@
   },
   "application/javascript": {
     "charset": "UTF-8",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["mjs"],
+    "sources": [
+      "https://github.com/nodejs/node-eps/blob/master/002-es-modules.md"
+    ]
   },
   "application/json": {
     "charset": "UTF-8",
