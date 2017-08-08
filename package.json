@@ -32,7 +32,7 @@
     "gnode": "0.1.2",
     "mocha": "1.21.5",
     "nyc": "11.1.0",
-    "raw-body": "2.2.0",
+    "raw-body": "2.3.0",
     "stream-to-array": "2.3.0"
   },
   "files": [
