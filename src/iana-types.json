@@ -8302,5 +8302,434 @@
       "http://tools.ietf.org/rfc/rfc7303.txt",
       "http://www.iana.org/assignments/media-types/text/xml-external-parsed-entity"
     ]
+  },
+  "video/1d-interleaved-parityfec": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc6015.txt",
+      "http://www.iana.org/assignments/media-types/video/1d-interleaved-parityfec"
+    ]
+  },
+  "video/3gpp": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3839.txt",
+      "http://tools.ietf.org/rfc/rfc6381.txt",
+      "http://www.iana.org/assignments/media-types/video/3gpp"
+    ]
+  },
+  "video/3gpp-tt": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc4396.txt",
+      "http://www.iana.org/assignments/media-types/video/3gpp-tt"
+    ]
+  },
+  "video/3gpp2": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc4393.txt",
+      "http://tools.ietf.org/rfc/rfc6381.txt",
+      "http://www.iana.org/assignments/media-types/video/3gpp2"
+    ]
+  },
+  "video/bmpeg": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3555.txt",
+      "http://www.iana.org/assignments/media-types/video/BMPEG"
+    ]
+  },
+  "video/bt656": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3555.txt",
+      "http://www.iana.org/assignments/media-types/video/BT656"
+    ]
+  },
+  "video/celb": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3555.txt",
+      "http://www.iana.org/assignments/media-types/video/CelB"
+    ]
+  },
+  "video/dv": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc6469.txt",
+      "http://www.iana.org/assignments/media-types/video/DV"
+    ]
+  },
+  "video/encaprtp": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc6849.txt",
+      "http://www.iana.org/assignments/media-types/video/encaprtp"
+    ]
+  },
+  "video/h261": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc4587.txt",
+      "http://www.iana.org/assignments/media-types/video/H261"
+    ]
+  },
+  "video/h263": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3555.txt",
+      "http://www.iana.org/assignments/media-types/video/H263"
+    ]
+  },
+  "video/h263-1998": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc4629.txt",
+      "http://www.iana.org/assignments/media-types/video/H263-1998"
+    ]
+  },
+  "video/h263-2000": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc4629.txt",
+      "http://www.iana.org/assignments/media-types/video/H263-2000"
+    ]
+  },
+  "video/h264": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc6184.txt",
+      "http://www.iana.org/assignments/media-types/video/H264"
+    ]
+  },
+  "video/h264-rcdo": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc6185.txt",
+      "http://www.iana.org/assignments/media-types/video/H264-RCDO"
+    ]
+  },
+  "video/h264-svc": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc6190.txt",
+      "http://www.iana.org/assignments/media-types/video/H264-SVC"
+    ]
+  },
+  "video/h265": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc7798.txt",
+      "http://www.iana.org/assignments/media-types/video/H265"
+    ]
+  },
+  "video/iso.segment": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/iso.segment"
+    ]
+  },
+  "video/jpeg": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3555.txt",
+      "http://www.iana.org/assignments/media-types/video/JPEG"
+    ]
+  },
+  "video/jpeg2000": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc5371.txt",
+      "http://tools.ietf.org/rfc/rfc5372.txt",
+      "http://www.iana.org/assignments/media-types/video/jpeg2000"
+    ]
+  },
+  "video/mj2": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3745.txt",
+      "http://www.iana.org/assignments/media-types/video/mj2"
+    ]
+  },
+  "video/mp1s": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3555.txt",
+      "http://www.iana.org/assignments/media-types/video/MP1S"
+    ]
+  },
+  "video/mp2p": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3555.txt",
+      "http://www.iana.org/assignments/media-types/video/MP2P"
+    ]
+  },
+  "video/mp2t": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3555.txt",
+      "http://www.iana.org/assignments/media-types/video/MP2T"
+    ]
+  },
+  "video/mp4": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc4337.txt",
+      "http://tools.ietf.org/rfc/rfc6381.txt",
+      "http://www.iana.org/assignments/media-types/video/mp4"
+    ]
+  },
+  "video/mp4v-es": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc6416.txt",
+      "http://www.iana.org/assignments/media-types/video/MP4V-ES"
+    ]
+  },
+  "video/mpeg": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc2045.txt",
+      "http://tools.ietf.org/rfc/rfc2046.txt"
+    ]
+  },
+  "video/mpeg4-generic": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3640.txt",
+      "http://www.iana.org/assignments/media-types/video/mpeg4-generic"
+    ]
+  },
+  "video/mpv": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3555.txt",
+      "http://www.iana.org/assignments/media-types/video/MPV"
+    ]
+  },
+  "video/nv": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc4856.txt",
+      "http://www.iana.org/assignments/media-types/video/nv"
+    ]
+  },
+  "video/ogg": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc5334.txt",
+      "http://tools.ietf.org/rfc/rfc7845.txt",
+      "http://www.iana.org/assignments/media-types/video/ogg"
+    ]
+  },
+  "video/parityfec": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc5109.txt"
+    ]
+  },
+  "video/pointer": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc2862.txt",
+      "http://www.iana.org/assignments/media-types/video/pointer"
+    ]
+  },
+  "video/quicktime": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc6381.txt",
+      "http://www.iana.org/assignments/media-types/video/quicktime"
+    ]
+  },
+  "video/raptorfec": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc6682.txt",
+      "http://www.iana.org/assignments/media-types/video/raptorfec"
+    ]
+  },
+  "video/raw": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc4175.txt"
+    ]
+  },
+  "video/rtp-enc-aescm128": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/rtp-enc-aescm128"
+    ]
+  },
+  "video/rtploopback": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc6849.txt",
+      "http://www.iana.org/assignments/media-types/video/rtploopback"
+    ]
+  },
+  "video/rtx": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc4588.txt",
+      "http://www.iana.org/assignments/media-types/video/rtx"
+    ]
+  },
+  "video/smpte292m": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc3497.txt",
+      "http://www.iana.org/assignments/media-types/video/SMPTE292M"
+    ]
+  },
+  "video/ulpfec": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc5109.txt",
+      "http://www.iana.org/assignments/media-types/video/ulpfec"
+    ]
+  },
+  "video/vc1": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc4425.txt",
+      "http://www.iana.org/assignments/media-types/video/vc1"
+    ]
+  },
+  "video/vnd.cctv": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.CCTV"
+    ]
+  },
+  "video/vnd.dece.hd": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.dece.hd"
+    ]
+  },
+  "video/vnd.dece.mobile": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.dece.mobile"
+    ]
+  },
+  "video/vnd.dece.mp4": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.dece-mp4"
+    ]
+  },
+  "video/vnd.dece.pd": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.dece.pd"
+    ]
+  },
+  "video/vnd.dece.sd": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.dece.sd"
+    ]
+  },
+  "video/vnd.dece.video": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.dece.video"
+    ]
+  },
+  "video/vnd.directv.mpeg": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.directv-mpeg"
+    ]
+  },
+  "video/vnd.directv.mpeg-tts": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.directv.mpeg-tts"
+    ]
+  },
+  "video/vnd.dlna.mpeg-tts": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.dlna.mpeg-tts"
+    ]
+  },
+  "video/vnd.dvb.file": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.dvb.file"
+    ]
+  },
+  "video/vnd.fvt": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.fvt"
+    ]
+  },
+  "video/vnd.hns.video": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.hns.video"
+    ]
+  },
+  "video/vnd.iptvforum.1dparityfec-1010": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.iptvforum.1dparityfec-1010"
+    ]
+  },
+  "video/vnd.iptvforum.1dparityfec-2005": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.iptvforum.1dparityfec-2005"
+    ]
+  },
+  "video/vnd.iptvforum.2dparityfec-1010": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.iptvforum.2dparityfec-1010"
+    ]
+  },
+  "video/vnd.iptvforum.2dparityfec-2005": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.iptvforum.2dparityfec-2005"
+    ]
+  },
+  "video/vnd.iptvforum.ttsavc": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.iptvforum.ttsavc"
+    ]
+  },
+  "video/vnd.iptvforum.ttsmpeg2": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.iptvforum.ttsmpeg2"
+    ]
+  },
+  "video/vnd.motorola.video": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.motorola.video"
+    ]
+  },
+  "video/vnd.motorola.videop": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.motorola.videop"
+    ]
+  },
+  "video/vnd.mpegurl": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd-mpegurl"
+    ]
+  },
+  "video/vnd.ms-playready.media.pyv": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.ms-playready.media.pyv"
+    ]
+  },
+  "video/vnd.nokia.interleaved-multimedia": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.nokia.interleaved-multimedia"
+    ]
+  },
+  "video/vnd.nokia.videovoip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.nokia.videovoip"
+    ]
+  },
+  "video/vnd.objectvideo": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.objectvideo"
+    ]
+  },
+  "video/vnd.radgamettools.bink": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.radgamettools.bink"
+    ]
+  },
+  "video/vnd.radgamettools.smacker": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.radgamettools.smacker"
+    ]
+  },
+  "video/vnd.sealed.mpeg1": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.sealed.mpeg1"
+    ]
+  },
+  "video/vnd.sealed.mpeg4": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.sealed.mpeg4"
+    ]
+  },
+  "video/vnd.sealed.swf": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.sealed-swf"
+    ]
+  },
+  "video/vnd.sealedmedia.softseal.mov": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.sealedmedia.softseal-mov"
+    ]
+  },
+  "video/vnd.uvvu.mp4": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.uvvu-mp4"
+    ]
+  },
+  "video/vnd.vivo": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd-vivo"
+    ]
+  },
+  "video/vp8": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc7741.txt",
+      "http://www.iana.org/assignments/media-types/video/VP8"
+    ]
   }
 }

@@ -5,6 +5,7 @@ unreleased
   * Add glTF types and extensions
   * Add new upstream MIME types
   * Add `text/x-org`
+  * Fix `source` records for `video/*` types that are IANA
 
 1.29.0 / 2017-07-10
 ===================

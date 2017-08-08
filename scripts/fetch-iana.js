@@ -32,7 +32,8 @@ co(function * () {
     get('message'),
     get('model'),
     get('multipart'),
-    get('text')
+    get('text'),
+    get('video')
   ]
 
   // flatten generators
