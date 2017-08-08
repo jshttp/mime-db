@@ -1537,6 +1537,7 @@
   },
   "application/rpki-publication": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8181.txt",
       "http://www.iana.org/assignments/media-types/application/rpki-publication"
     ]
   },
