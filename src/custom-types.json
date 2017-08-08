@@ -78,7 +78,11 @@
   },
   "application/javascript": {
     "charset": "UTF-8",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["mjs"],
+    "sources": [
+      "https://tools.ietf.org/html/draft-bfarias-javascript-mjs-00"
+    ]
   },
   "application/json": {
     "charset": "UTF-8",
