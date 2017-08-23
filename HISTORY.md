@@ -7,6 +7,7 @@ unreleased
   * Add new upstream MIME types
   * Add `text/x-org`
   * Fix `source` records for `video/*` types that are IANA
+  * Update `font/opentype` to registered `font/otf`
 
 1.29.0 / 2017-07-10
 ===================

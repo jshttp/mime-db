@@ -434,10 +434,11 @@
   "audio/x-caf": {
     "compressible": false
   },
-  "font/opentype": {
+  "font/otf": {
     "compressible": true,
     "extensions": ["otf"],
     "sources": [
+      "https://www.iana.org/assignments/media-types/font/otf",
       "http://www.phpied.com/gzip-your-font-face-files/"
     ]
   },

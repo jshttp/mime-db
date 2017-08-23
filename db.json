@@ -5679,7 +5679,7 @@
     "source": "apache",
     "extensions": ["xyz"]
   },
-  "font/opentype": {
+  "font/otf": {
     "compressible": true,
     "extensions": ["otf"]
   },
