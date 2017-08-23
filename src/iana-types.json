@@ -1039,6 +1039,11 @@
       "http://www.iana.org/assignments/media-types/application/mikey"
     ]
   },
+  "application/mmt-usd+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/mmt-usd+xml"
+    ]
+  },
   "application/mods+xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc6207.txt",
@@ -1523,6 +1528,21 @@
       "http://www.iana.org/assignments/media-types/application/rls-services+xml"
     ]
   },
+  "application/route-apd+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/route-apd+xml"
+    ]
+  },
+  "application/route-s-tsid+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/route-s-tsid+xml"
+    ]
+  },
+  "application/route-usd+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/route-usd+xml"
+    ]
+  },
   "application/rpki-ghostbusters": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc6493.txt",
@@ -1966,6 +1986,16 @@
   "application/vnd.3gpp.gmop+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.GMOP+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcptt-info+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-info+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcptt-mbms-usage-info+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-mbms-usage-info+xml"
     ]
   },
   "application/vnd.3gpp.mid-call+xml": {
@@ -7271,6 +7301,11 @@
   "audio/vnd.octel.sbc": {
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.octel.sbc"
+    ]
+  },
+  "audio/vnd.presonus.multitrack": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/vnd.presonus.multitrack"
     ]
   },
   "audio/vnd.qcelp": {

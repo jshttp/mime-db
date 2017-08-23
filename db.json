@@ -694,6 +694,9 @@
   "application/mikey": {
     "source": "iana"
   },
+  "application/mmt-usd+xml": {
+    "source": "iana"
+  },
   "application/mods+xml": {
     "source": "iana",
     "extensions": ["mods"]
@@ -1000,6 +1003,15 @@
     "source": "iana",
     "extensions": ["rs"]
   },
+  "application/route-apd+xml": {
+    "source": "iana"
+  },
+  "application/route-s-tsid+xml": {
+    "source": "iana"
+  },
+  "application/route-usd+xml": {
+    "source": "iana"
+  },
   "application/rpki-ghostbusters": {
     "source": "iana",
     "extensions": ["gbr"]
@@ -1281,6 +1293,12 @@
     "source": "iana"
   },
   "application/vnd.3gpp.gmop+xml": {
+    "source": "iana"
+  },
+  "application/vnd.3gpp.mcptt-info+xml": {
+    "source": "iana"
+  },
+  "application/vnd.3gpp.mcptt-mbms-usage-info+xml": {
     "source": "iana"
   },
   "application/vnd.3gpp.mid-call+xml": {
@@ -5526,6 +5544,9 @@
     "extensions": ["ecelp9600"]
   },
   "audio/vnd.octel.sbc": {
+    "source": "iana"
+  },
+  "audio/vnd.presonus.multitrack": {
     "source": "iana"
   },
   "audio/vnd.qcelp": {
