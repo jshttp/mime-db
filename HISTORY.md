@@ -1,5 +1,5 @@
-unreleased
-==========
+1.30.0 / 2017-08-27
+===================
 
   * Add `application/vnd.ms-outlook`
   * Add `application/x-arj`
