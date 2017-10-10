@@ -4,6 +4,7 @@ unreleased
   * Add `application/raml+yaml` with extension `.raml`
   * Add `application/wasm` with extension `.wasm`
   * Add new upstream MIME types
+  * Add extensions for JPEG-2000 images
 
 1.30.0 / 2017-08-27
 ===================

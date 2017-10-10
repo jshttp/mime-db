@@ -5804,7 +5804,9 @@
     "source": "iana"
   },
   "image/jp2": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false,
+    "extensions": ["jp2","jpg2"]
   },
   "image/jpeg": {
     "source": "iana",
@@ -5812,10 +5814,14 @@
     "extensions": ["jpeg","jpg","jpe"]
   },
   "image/jpm": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false,
+    "extensions": ["jpm"]
   },
   "image/jpx": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false,
+    "extensions": ["jpx","jpf"]
   },
   "image/ktx": {
     "source": "iana",

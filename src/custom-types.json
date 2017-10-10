@@ -557,6 +557,30 @@
   "image/jpeg": {
     "compressible": false
   },
+  "image/jp2": {
+    "compressible": false,
+    "extensions": ["jp2","jpg2"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/jp2",
+      "https://tools.ietf.org/html/rfc3745"
+    ]
+  },
+    "image/jpm": {
+    "compressible": false,
+    "extensions": ["jpm"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/jpm",
+      "https://tools.ietf.org/html/rfc3745"
+    ]
+  },
+  "image/jpx": {
+    "compressible": false,
+    "extensions": ["jpx","jpf"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/jpx",
+      "https://tools.ietf.org/html/rfc3745"
+    ]
+  },
   "image/pjpeg": {
     "compressible": false
   },
