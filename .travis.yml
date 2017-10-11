@@ -13,6 +13,7 @@ node_js:
   - "7.10"
   - "8.2"
 sudo: false
+dist: precise
 before_install:
   # Skip updating shrinkwrap / lock
   - "npm config set shrinkwrap false"
