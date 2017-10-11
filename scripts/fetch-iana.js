@@ -28,6 +28,7 @@ co(function * () {
   var gens = yield [
     get('application'),
     get('audio'),
+    get('font'),
     get('image'),
     get('message'),
     get('model'),

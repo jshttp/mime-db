@@ -5764,9 +5764,25 @@
     "source": "apache",
     "extensions": ["xyz"]
   },
+  "font/collection": {
+    "source": "iana"
+  },
   "font/otf": {
+    "source": "iana",
     "compressible": true,
     "extensions": ["otf"]
+  },
+  "font/sfnt": {
+    "source": "iana"
+  },
+  "font/ttf": {
+    "source": "iana"
+  },
+  "font/woff": {
+    "source": "iana"
+  },
+  "font/woff2": {
+    "source": "iana"
   },
   "image/apng": {
     "compressible": false,

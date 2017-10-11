@@ -7413,6 +7413,42 @@
       "http://www.iana.org/assignments/media-types/audio/vorbis-config"
     ]
   },
+  "font/collection": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc8081.txt",
+      "http://www.iana.org/assignments/media-types/font/collection"
+    ]
+  },
+  "font/otf": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc8081.txt",
+      "http://www.iana.org/assignments/media-types/font/otf"
+    ]
+  },
+  "font/sfnt": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc8081.txt",
+      "http://www.iana.org/assignments/media-types/font/sfnt"
+    ]
+  },
+  "font/ttf": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc8081.txt",
+      "http://www.iana.org/assignments/media-types/font/ttf"
+    ]
+  },
+  "font/woff": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc8081.txt",
+      "http://www.iana.org/assignments/media-types/font/woff"
+    ]
+  },
+  "font/woff2": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc8081.txt",
+      "http://www.iana.org/assignments/media-types/font/woff2"
+    ]
+  },
   "image/bmp": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc7903.txt",

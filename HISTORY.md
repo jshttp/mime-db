@@ -3,6 +3,7 @@ unreleased
 
   * Add `application/raml+yaml` with extension `.raml`
   * Add `application/wasm` with extension `.wasm`
+  * Add new `font` type from IANA
   * Add new upstream MIME types
   * Add extensions for JPEG-2000 images
 
