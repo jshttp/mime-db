@@ -1135,7 +1135,7 @@
     ]
   },
   "application/mud+json": {
-    "notes": "TEMPORARY - registered 2016-11-17, expires 2017-11-17",
+    "notes": "TEMPORARY - registered 2016-11-17, extension registered 2017-10-02, expires 2018-11-17",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/mud+json"
     ]
@@ -1973,6 +1973,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp-prose-pc3ch+xml"
     ]
   },
+  "application/vnd.3gpp-v2x-local-service-information": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp-v2x-local-service-information"
+    ]
+  },
   "application/vnd.3gpp.access-transfer-events+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.access-transfer-events+xml"
@@ -1988,14 +1993,34 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.GMOP+xml"
     ]
   },
+  "application/vnd.3gpp.mcptt-affiliation-command+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-affiliation-command+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcptt-floor-request+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-floor-request+xml"
+    ]
+  },
   "application/vnd.3gpp.mcptt-info+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-info+xml"
     ]
   },
+  "application/vnd.3gpp.mcptt-location-info+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-location-info+xml"
+    ]
+  },
   "application/vnd.3gpp.mcptt-mbms-usage-info+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-mbms-usage-info+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcptt-signed+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-signed+xml"
     ]
   },
   "application/vnd.3gpp.mid-call+xml": {
@@ -2215,6 +2240,7 @@
   },
   "application/vnd.apple.mpegurl": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8216.txt",
       "http://www.iana.org/assignments/media-types/application/vnd.apple.mpegurl"
     ]
   },
@@ -2249,6 +2275,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.autopackage"
     ]
   },
+  "application/vnd.avalon+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.avalon+json"
+    ]
+  },
   "application/vnd.avistar+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.avistar+xml"
@@ -2262,6 +2293,11 @@
   "application/vnd.balsamiq.bmpr": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.balsamiq.bmpr"
+    ]
+  },
+  "application/vnd.bbf.usp.msg": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.bbf.usp.msg"
     ]
   },
   "application/vnd.bekitzur-stech+json": {
@@ -2767,6 +2803,11 @@
   "application/vnd.ecdis-update": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ecdis-update"
+    ]
+  },
+  "application/vnd.ecip.rlp": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.ecip.rlp"
     ]
   },
   "application/vnd.ecowin.chart": {
@@ -7902,6 +7943,11 @@
       "http://tools.ietf.org/rfc/rfc2045.txt"
     ]
   },
+  "multipart/multilingual": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/multipart/multilingual"
+    ]
+  },
   "multipart/parallel": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc2046.txt",
@@ -8709,6 +8755,11 @@
   "video/vnd.nokia.interleaved-multimedia": {
     "sources": [
       "http://www.iana.org/assignments/media-types/video/vnd.nokia.interleaved-multimedia"
+    ]
+  },
+  "video/vnd.nokia.mp4vr": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.nokia.mp4vr"
     ]
   },
   "video/vnd.nokia.videovoip": {

@@ -53,6 +53,18 @@
   "application/vnd.ms-powerpoint": {
     "extensions": ["ppt"]
   },
+  "application/vnd.oasis.opendocument.graphics": {
+    "extensions": ["odg"]
+  },
+  "application/vnd.oasis.opendocument.presentation": {
+    "extensions": ["odp"]
+  },
+  "application/vnd.oasis.opendocument.spreadsheet": {
+    "extensions": ["ods"]
+  },
+  "application/vnd.oasis.opendocument.text": {
+    "extensions": ["odt"]
+  },
   "application/vnd.openxmlformats-officedocument.presentationml.presentation": {
     "extensions": ["pptx"]
   },

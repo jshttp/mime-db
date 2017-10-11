@@ -1286,6 +1286,9 @@
   "application/vnd.3gpp-prose-pc3ch+xml": {
     "source": "iana"
   },
+  "application/vnd.3gpp-v2x-local-service-information": {
+    "source": "iana"
+  },
   "application/vnd.3gpp.access-transfer-events+xml": {
     "source": "iana"
   },
@@ -1295,10 +1298,22 @@
   "application/vnd.3gpp.gmop+xml": {
     "source": "iana"
   },
+  "application/vnd.3gpp.mcptt-affiliation-command+xml": {
+    "source": "iana"
+  },
+  "application/vnd.3gpp.mcptt-floor-request+xml": {
+    "source": "iana"
+  },
   "application/vnd.3gpp.mcptt-info+xml": {
     "source": "iana"
   },
+  "application/vnd.3gpp.mcptt-location-info+xml": {
+    "source": "iana"
+  },
   "application/vnd.3gpp.mcptt-mbms-usage-info+xml": {
+    "source": "iana"
+  },
+  "application/vnd.3gpp.mcptt-signed+xml": {
     "source": "iana"
   },
   "application/vnd.3gpp.mid-call+xml": {
@@ -1499,6 +1514,10 @@
   "application/vnd.autopackage": {
     "source": "iana"
   },
+  "application/vnd.avalon+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.avistar+xml": {
     "source": "iana"
   },
@@ -1506,6 +1525,9 @@
     "source": "iana"
   },
   "application/vnd.balsamiq.bmpr": {
+    "source": "iana"
+  },
+  "application/vnd.bbf.usp.msg": {
     "source": "iana"
   },
   "application/vnd.bekitzur-stech+json": {
@@ -1874,6 +1896,9 @@
     "source": "iana"
   },
   "application/vnd.ecdis-update": {
+    "source": "iana"
+  },
+  "application/vnd.ecip.rlp": {
     "source": "iana"
   },
   "application/vnd.ecowin.chart": {
@@ -6203,6 +6228,9 @@
     "source": "iana",
     "compressible": false
   },
+  "multipart/multilingual": {
+    "source": "iana"
+  },
   "multipart/parallel": {
     "source": "iana"
   },
@@ -6848,6 +6876,9 @@
     "extensions": ["pyv"]
   },
   "video/vnd.nokia.interleaved-multimedia": {
+    "source": "iana"
+  },
+  "video/vnd.nokia.mp4vr": {
     "source": "iana"
   },
   "video/vnd.nokia.videovoip": {
