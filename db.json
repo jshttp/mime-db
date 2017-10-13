@@ -955,6 +955,10 @@
   "application/qsig": {
     "source": "iana"
   },
+  "application/raml+yaml": {
+    "compressible": true,
+    "extensions": ["raml"]
+  },
   "application/raptorfec": {
     "source": "iana"
   },

@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `application/raml+yaml` with extension `.raml`
   * Add `application/wasm` with extension `.wasm`
   * Add new upstream MIME types
 

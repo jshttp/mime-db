@@ -128,6 +128,13 @@
   "application/postscript": {
     "compressible": true
   },
+  "application/raml+yaml": {
+    "compressible": true,
+    "extensions": ["raml"],
+    "sources": [
+      "http://raml.org/spec.html"
+    ]
+  },
   "application/rdf+xml": {
     "compressible": true,
     "sources": [
