@@ -845,5 +845,12 @@
     "sources": [
       "https://developer.mozilla.org/en-US/docs/Web/WebGL/Adding_2D_content_to_a_WebGL_context"
     ]
+  },
+  "application/raml+yaml": {
+    "compressible": true,
+    "extensions": ["raml"],
+    "sources": [
+      "https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/#markup-language"
+    ]
   }
 }
