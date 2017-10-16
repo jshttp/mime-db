@@ -262,7 +262,8 @@
     "extensions": ["wasm"],
     "notes": "WebAssembly module",
     "sources": [
-      "https://webassembly.github.io/spec"
+      "https://webassembly.github.io/spec",
+      "https://github.com/WebAssembly/design/blob/master/Web.md"
     ]
   },
   "application/x-7z-compressed": {
