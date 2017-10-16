@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `application/wasm` with extension `.wasm`
   * Add new upstream MIME types
 
 1.30.0 / 2017-08-27

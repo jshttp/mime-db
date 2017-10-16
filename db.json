@@ -4439,6 +4439,10 @@
   "application/vq-rtcpxr": {
     "source": "iana"
   },
+  "application/wasm": {
+    "compressible": true,
+    "extensions": ["wasm"]
+  },
   "application/watcherinfo+xml": {
     "source": "iana"
   },

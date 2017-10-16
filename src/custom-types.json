@@ -257,6 +257,14 @@
       "http://www.iana.org/assignments/media-types/application/vnd.sun.wadl+xml"
     ]
   },
+  "application/wasm": {
+    "compressible": true,
+    "extensions": ["wasm"],
+    "notes": "WebAssembly module",
+    "sources": [
+      "https://webassembly.github.io/spec/binary/conventions.html"
+    ]
+  },
   "application/x-7z-compressed": {
     "compressible": false
   },
