@@ -2435,6 +2435,16 @@
       "http://www.iana.org/assignments/media-types/application/vnd.coffeescript"
     ]
   },
+  "application/vnd.collabio.xodocuments.document": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.collabio.xodocuments.document"
+    ]
+  },
+  "application/vnd.collabio.xodocuments.presentation": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.collabio.xodocuments.presentation"
+    ]
+  },
   "application/vnd.collection+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.collection+json"
@@ -5335,6 +5345,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.paos+xml"
     ]
   },
+  "application/vnd.patentdive": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.patentdive"
+    ]
+  },
   "application/vnd.pawaafile": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.pawaafile"
@@ -6332,6 +6347,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc3858.txt",
       "http://www.iana.org/assignments/media-types/application/watcherinfo+xml"
+    ]
+  },
+  "application/webpush-options+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/webpush-options+json"
     ]
   },
   "application/whoispp-query": {
@@ -7945,6 +7965,7 @@
   },
   "multipart/multilingual": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8255.txt",
       "http://www.iana.org/assignments/media-types/multipart/multilingual"
     ]
   },

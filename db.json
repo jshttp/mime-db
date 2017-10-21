@@ -1628,6 +1628,12 @@
   "application/vnd.coffeescript": {
     "source": "iana"
   },
+  "application/vnd.collabio.xodocuments.document": {
+    "source": "iana"
+  },
+  "application/vnd.collabio.xodocuments.presentation": {
+    "source": "iana"
+  },
   "application/vnd.collection+json": {
     "source": "iana",
     "compressible": true
@@ -3697,6 +3703,9 @@
   "application/vnd.paos.xml": {
     "source": "apache"
   },
+  "application/vnd.patentdive": {
+    "source": "iana"
+  },
   "application/vnd.pawaafile": {
     "source": "iana",
     "extensions": ["paw"]
@@ -4449,6 +4458,10 @@
   },
   "application/watcherinfo+xml": {
     "source": "iana"
+  },
+  "application/webpush-options+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/whoispp-query": {
     "source": "iana"
