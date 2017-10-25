@@ -4664,9 +4664,7 @@
     "extensions": ["psf"]
   },
   "application/x-font-otf": {
-    "source": "apache",
-    "compressible": true,
-    "extensions": ["otf"]
+    "compressible": true
   },
   "application/x-font-pcf": {
     "source": "apache",
@@ -4683,9 +4681,7 @@
     "source": "apache"
   },
   "application/x-font-ttf": {
-    "source": "apache",
-    "compressible": true,
-    "extensions": ["ttf","ttc"]
+    "compressible": true
   },
   "application/x-font-type1": {
     "source": "apache",
@@ -5764,9 +5760,29 @@
     "source": "apache",
     "extensions": ["xyz"]
   },
+  "font/collection": {
+    "source": "apache",
+    "extensions": ["ttc"]
+  },
   "font/otf": {
+    "source": "apache",
     "compressible": true,
     "extensions": ["otf"]
+  },
+  "font/sfnt": {
+    "source": "apache"
+  },
+  "font/ttf": {
+    "source": "apache",
+    "extensions": ["ttf"]
+  },
+  "font/woff": {
+    "source": "apache",
+    "extensions": ["woff"]
+  },
+  "font/woff2": {
+    "source": "apache",
+    "extensions": ["woff2"]
   },
   "image/apng": {
     "compressible": false,

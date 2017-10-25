@@ -137,12 +137,8 @@
   "application/fastsoap": {},
   "application/fdt+xml": {},
   "application/fits": {},
-  "application/font-sfnt": {},
   "application/font-tdpfr": {
     "extensions": ["pfr"]
-  },
-  "application/font-woff": {
-    "extensions": ["woff"]
   },
   "application/framework-attributes+xml": {},
   "application/geo+json": {},
@@ -2254,9 +2250,6 @@
   "application/x-font-linux-psf": {
     "extensions": ["psf"]
   },
-  "application/x-font-otf": {
-    "extensions": ["otf"]
-  },
   "application/x-font-pcf": {
     "extensions": ["pcf"]
   },
@@ -2265,9 +2258,6 @@
   },
   "application/x-font-speedo": {},
   "application/x-font-sunos-news": {},
-  "application/x-font-ttf": {
-    "extensions": ["ttf","ttc"]
-  },
   "application/x-font-type1": {
     "extensions": ["pfa","pfb","pfm","afm"]
   },
@@ -2769,6 +2759,22 @@
   "chemical/x-pdb": {},
   "chemical/x-xyz": {
     "extensions": ["xyz"]
+  },
+  "font/collection": {
+    "extensions": ["ttc"]
+  },
+  "font/otf": {
+    "extensions": ["otf"]
+  },
+  "font/sfnt": {},
+  "font/ttf": {
+    "extensions": ["ttf"]
+  },
+  "font/woff": {
+    "extensions": ["woff"]
+  },
+  "font/woff2": {
+    "extensions": ["woff2"]
   },
   "image/bmp": {
     "extensions": ["bmp"]
