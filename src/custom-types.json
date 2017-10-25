@@ -307,18 +307,6 @@
   "application/x-dvi": {
     "compressible": false
   },
-  "application/x-font-otf": {
-    "compressible": true,
-    "sources": [
-      "http://www.phpied.com/gzip-your-font-face-files/"
-    ]
-  },
-  "application/x-font-ttf": {
-    "compressible": true,
-    "sources": [
-      "http://www.phpied.com/gzip-your-font-face-files/"
-    ]
-  },
   "application/x-httpd-php": {
     "compressible": true,
     "extensions": ["php"],
