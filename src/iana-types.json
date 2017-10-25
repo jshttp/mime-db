@@ -2445,6 +2445,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.collabio.xodocuments.presentation"
     ]
   },
+  "application/vnd.collabio.xodocuments.spreadsheet": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.collabio.xodocuments.spreadsheet"
+    ]
+  },
   "application/vnd.collection+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.collection+json"
@@ -8638,6 +8643,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc4588.txt",
       "http://www.iana.org/assignments/media-types/video/rtx"
+    ]
+  },
+  "video/smpte291": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/smpte291"
     ]
   },
   "video/smpte292m": {

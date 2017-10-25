@@ -1634,6 +1634,9 @@
   "application/vnd.collabio.xodocuments.presentation": {
     "source": "iana"
   },
+  "application/vnd.collabio.xodocuments.spreadsheet": {
+    "source": "iana"
+  },
   "application/vnd.collection+json": {
     "source": "iana",
     "compressible": true
@@ -6813,6 +6816,9 @@
     "source": "iana"
   },
   "video/rtx": {
+    "source": "iana"
+  },
+  "video/smpte291": {
     "source": "iana"
   },
   "video/smpte292m": {
