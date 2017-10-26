@@ -1,5 +1,5 @@
-unreleased
-==========
+1.31.0 / 2017-10-25
+===================
 
   * Add `application/raml+yaml` with extension `.raml`
   * Add `application/wasm` with extension `.wasm`
