@@ -7034,6 +7034,9 @@
   "x-shader/x-fragment": {
     "compressible": true
   },
+  "text/x-python-script": {
+    "extensions": ["py"]
+  }
   "x-shader/x-vertex": {
     "compressible": true
   }
