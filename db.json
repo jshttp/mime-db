@@ -6452,6 +6452,9 @@
     "source": "iana",
     "extensions": ["sgml","sgm"]
   },
+  "text/shex": {
+    "extensions": ["shex"]
+  },
   "text/slim": {
     "extensions": ["slim","slm"]
   },

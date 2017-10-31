@@ -3,6 +3,7 @@ unreleased
 
   * Add new upstream MIME types
   * Update `text/hjson` to registered `application/hjson`
+  * Add `text/shex` with extension `.shex`
 
 1.31.0 / 2017-10-25
 ===================

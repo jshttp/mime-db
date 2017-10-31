@@ -759,6 +759,12 @@
     "compressible": true,
     "extensions": ["rtf"]
   },
+  "text/shex": {
+    "extensions": ["shex"],
+    "sources": [
+       "http://shex.io/shex-semantics/"
+    ]
+  },
   "text/slim": {
     "extensions": ["slim","slm"],
     "sources": [
