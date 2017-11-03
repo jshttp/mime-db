@@ -2,5 +2,8 @@
   "+json": {
     "compressible": true,
     "notes": "+json means it is JSON, which is compressible."
-  }
+  },
+  "text/x-python-script": {
+    "extensions": ["py"]
+  },
 }
