@@ -67,6 +67,12 @@
       "https://tools.ietf.org/html/rfc6713#section-3"
     ]
   },
+  "application/hjson": {
+    "extensions": ["hjson"],
+    "sources": [
+      "https://hjson.org/rfc.html#rfc.section.1.3"
+    ]
+  },
   "application/java-archive": {
     "compressible": false
   },
@@ -709,9 +715,6 @@
   },
   "text/csv": {
     "compressible": true
-  },
-  "application/hjson": {
-    "extensions": ["hjson"]
   },
   "text/html": {
     "compressible": true
