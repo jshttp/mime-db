@@ -710,7 +710,7 @@
   "text/csv": {
     "compressible": true
   },
-  "text/hjson": {
+  "application/hjson": {
     "extensions": ["hjson"]
   },
   "text/html": {
