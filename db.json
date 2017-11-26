@@ -428,6 +428,9 @@
   "application/held+xml": {
     "source": "iana"
   },
+  "application/hjson": {
+    "extensions": ["hjson"]
+  },
   "application/http": {
     "source": "iana"
   },
@@ -6353,9 +6356,6 @@
   },
   "text/grammar-ref-list": {
     "source": "iana"
-  },
-  "text/hjson": {
-    "extensions": ["hjson"]
   },
   "text/html": {
     "source": "iana",

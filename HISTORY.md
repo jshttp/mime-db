@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Add new upstream MIME types
+  * Update `text/hjson` to registered `application/hjson`
 
 1.31.0 / 2017-10-25
 ===================
