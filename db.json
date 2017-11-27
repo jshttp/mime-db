@@ -1631,6 +1631,9 @@
   "application/vnd.collabio.xodocuments.document": {
     "source": "iana"
   },
+  "application/vnd.collabio.xodocuments.document-template": {
+    "source": "iana"
+  },
   "application/vnd.collabio.xodocuments.presentation": {
     "source": "iana"
   },
@@ -6150,6 +6153,7 @@
     "extensions": ["gltf"]
   },
   "model/gltf-binary": {
+    "source": "iana",
     "compressible": true,
     "extensions": ["glb"]
   },

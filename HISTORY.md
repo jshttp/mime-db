@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add new upstream MIME types
+
 1.31.0 / 2017-10-25
 ===================
 
