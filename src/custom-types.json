@@ -757,7 +757,7 @@
     "extensions": ["rtf"]
   },
   "text/shex": {
-    "extensions": ["shex","shexc"],
+    "extensions": ["shex"],
     "sources": [
        "http://shex.io/shex-semantics/"
     ]
