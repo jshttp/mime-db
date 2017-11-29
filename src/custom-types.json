@@ -685,6 +685,12 @@
   "multipart/signed": {
     "compressible": false
   },
+  "text/asciidoc": {
+    "charset": "UTF-8",
+    "compressible": true,
+    "extensions": ["adoc","asciidoc"],
+    "notes": "AsciiDoc, a plain text document format"
+  },
   "text/cache-manifest": {
     "compressible": true,
     "extensions": ["manifest"],
