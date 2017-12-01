@@ -72,14 +72,14 @@ function addTemplateData (data) {
   }
 
   return function * get () {
-    var res = yield * cogent('http://www.iana.org/assignments/media-types/' + data.template)
+    var res = yield * cogent('http://www.iana.org/assignments/media-types/' + data.template, { retries: 3 })
     var ref = data.type + '/' + data.name
     var rfc = getRfcReferences(data.reference)[0]
 
     if (res.statusCode === 404 && data.template !== ref) {
       console.log('template ' + data.template + ' not found, retry as ' + ref)
       data.template = ref
-      res = yield * cogent('http://www.iana.org/assignments/media-types/' + ref)
+      res = yield * cogent('http://www.iana.org/assignments/media-types/' + ref, { retries: 3 })
 
       // replace the guessed mime
       if (res.statusCode === 200) {
@@ -145,7 +145,7 @@ function extractTemplateMime (body) {
 }
 
 function * get (type) {
-  var res = yield * cogent('http://www.iana.org/assignments/media-types/' + encodeURIComponent(type) + '.csv')
+  var res = yield * cogent('http://www.iana.org/assignments/media-types/' + encodeURIComponent(type) + '.csv', { retries: 3 })
 
   if (res.statusCode !== 200) {
     throw new Error('got status code ' + res.statusCode + ' from ' + type)
