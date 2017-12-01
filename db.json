@@ -1640,6 +1640,9 @@
   "application/vnd.collabio.xodocuments.presentation": {
     "source": "iana"
   },
+  "application/vnd.collabio.xodocuments.presentation-template": {
+    "source": "iana"
+  },
   "application/vnd.collabio.xodocuments.spreadsheet": {
     "source": "iana"
   },

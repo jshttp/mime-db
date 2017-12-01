@@ -2450,6 +2450,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.collabio.xodocuments.presentation"
     ]
   },
+  "application/vnd.collabio.xodocuments.presentation-template": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.collabio.xodocuments.presentation-template"
+    ]
+  },
   "application/vnd.collabio.xodocuments.spreadsheet": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.collabio.xodocuments.spreadsheet"
@@ -6361,6 +6366,7 @@
   },
   "application/webpush-options+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8292.txt",
       "http://www.iana.org/assignments/media-types/application/webpush-options+json"
     ]
   },
