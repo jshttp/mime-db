@@ -220,7 +220,7 @@ function * getTemplateBody (res) {
     slurp = slurp || slurpModeRegExp.test(line)
 
     return lines
-  }, []).slice(1).join('\n')
+  }, []).join('\n')
 }
 
 function addSource (data, url) {
