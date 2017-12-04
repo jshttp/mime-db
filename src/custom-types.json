@@ -44,14 +44,6 @@
     ],
     "notes": "File type is already a binary compressed format."
   },
-  "application/font-woff2": {
-    "compressible": false,
-    "extensions": ["woff2"],
-    "sources": [
-      "http://dev.w3.org/webfonts/WOFF2/spec/#IMT"
-    ],
-    "notes": "File type is already a binary compressed format."
-  },
   "application/geo+json": {
     "compressible": true,
     "extensions": ["geojson"],

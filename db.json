@@ -387,10 +387,6 @@
     "compressible": false,
     "extensions": ["woff"]
   },
-  "application/font-woff2": {
-    "compressible": false,
-    "extensions": ["woff2"]
-  },
   "application/framework-attributes+xml": {
     "source": "iana"
   },
