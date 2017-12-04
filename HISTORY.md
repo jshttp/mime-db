@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Add new upstream MIME types
+  * Fix some incorrect OOXML types
 
 1.32.0 / 2017-11-29
 ===================

@@ -4975,11 +4975,6 @@
       "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.extended-properties+xml"
     ]
   },
-  "application/vnd.openxmlformats-officedocument.presentationml-template": {
-    "sources": [
-      "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.presentationml-template"
-    ]
-  },
   "application/vnd.openxmlformats-officedocument.presentationml.commentauthors+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.presentationml.commentAuthors+xml"
@@ -5065,6 +5060,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.presentationml.tags+xml"
     ]
   },
+  "application/vnd.openxmlformats-officedocument.presentationml.template": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.presentationml-template"
+    ]
+  },
   "application/vnd.openxmlformats-officedocument.presentationml.template.main+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.presentationml.template.main+xml"
@@ -5073,11 +5073,6 @@
   "application/vnd.openxmlformats-officedocument.presentationml.viewprops+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.presentationml.viewProps+xml"
-    ]
-  },
-  "application/vnd.openxmlformats-officedocument.spreadsheetml-template": {
-    "sources": [
-      "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml-template"
     ]
   },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.calcchain+xml": {
@@ -5175,6 +5170,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.tableSingleCells+xml"
     ]
   },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.template": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml-template"
+    ]
+  },
   "application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml"
@@ -5208,11 +5208,6 @@
   "application/vnd.openxmlformats-officedocument.vmldrawing": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.vmlDrawing"
-    ]
-  },
-  "application/vnd.openxmlformats-officedocument.wordprocessingml-template": {
-    "sources": [
-      "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.wordprocessingml-template"
     ]
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml": {
@@ -5268,6 +5263,11 @@
   "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"
+    ]
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.template": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.wordprocessingml-template"
     ]
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml": {
