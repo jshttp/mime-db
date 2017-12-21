@@ -384,7 +384,7 @@
   },
   "application/font-woff": {
     "source": "iana",
-    "compressible": false,
+    "compressible": true,
     "extensions": ["woff"]
   },
   "application/framework-attributes+xml": {
