@@ -38,7 +38,7 @@
     ]
   },
   "application/font-woff": {
-    "compressible": false,
+    "compressible": true,
     "sources": [
       "https://github.com/h5bp/server-configs-apache/issues/42"
     ],
