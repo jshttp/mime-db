@@ -798,6 +798,7 @@
   },
   "application/json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8259.txt",
       "http://www.iana.org/assignments/media-types/application/json"
     ]
   },
@@ -1186,6 +1187,11 @@
       "http://www.iana.org/assignments/media-types/application/nlsml+xml"
     ]
   },
+  "application/node": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/node"
+    ]
+  },
   "application/nss": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/nss"
@@ -1330,6 +1336,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc5958.txt",
       "http://www.iana.org/assignments/media-types/application/pkcs8"
+    ]
+  },
+  "application/pkcs8-encrypted": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/pkcs8-encrypted"
     ]
   },
   "application/pkix-attr-cert": {
@@ -1899,6 +1910,11 @@
       "http://www.iana.org/assignments/media-types/application/timestamped-data"
     ]
   },
+  "application/tnauthlist": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/tnauthlist"
+    ]
+  },
   "application/trig": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/trig"
@@ -2300,6 +2316,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.bbf.usp.msg"
     ]
   },
+  "application/vnd.bbf.usp.msg+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.bbf.usp.msg+json"
+    ]
+  },
   "application/vnd.bekitzur-stech+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.bekitzur-stech+json"
@@ -2460,6 +2481,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.collabio.xodocuments.spreadsheet"
     ]
   },
+  "application/vnd.collabio.xodocuments.spreadsheet-template": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.collabio.xodocuments.spreadsheet-template"
+    ]
+  },
   "application/vnd.collection+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.collection+json"
@@ -2478,6 +2504,11 @@
   "application/vnd.comicbook+zip": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.comicbook+zip"
+    ]
+  },
+  "application/vnd.comicbook-rar": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.comicbook-rar"
     ]
   },
   "application/vnd.commerce-battelle": {
@@ -6336,6 +6367,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.yellowriver-custom-menu"
     ]
   },
+  "application/vnd.youtube.yt": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.youtube.yt"
+    ]
+  },
   "application/vnd.zul": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.zul"
@@ -7458,6 +7494,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc8081.txt",
       "http://www.iana.org/assignments/media-types/font/woff2"
+    ]
+  },
+  "image/aces": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/aces"
     ]
   },
   "image/bmp": {

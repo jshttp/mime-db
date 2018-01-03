@@ -775,6 +775,9 @@
   "application/nlsml+xml": {
     "source": "iana"
   },
+  "application/node": {
+    "source": "iana"
+  },
   "application/nss": {
     "source": "iana"
   },
@@ -878,6 +881,9 @@
   "application/pkcs8": {
     "source": "iana",
     "extensions": ["p8"]
+  },
+  "application/pkcs8-encrypted": {
+    "source": "iana"
   },
   "application/pkix-attr-cert": {
     "source": "iana",
@@ -1243,6 +1249,9 @@
     "source": "iana",
     "extensions": ["tsd"]
   },
+  "application/tnauthlist": {
+    "source": "iana"
+  },
   "application/trig": {
     "source": "iana"
   },
@@ -1533,6 +1542,10 @@
   "application/vnd.bbf.usp.msg": {
     "source": "iana"
   },
+  "application/vnd.bbf.usp.msg+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.bekitzur-stech+json": {
     "source": "iana",
     "compressible": true
@@ -1642,6 +1655,9 @@
   "application/vnd.collabio.xodocuments.spreadsheet": {
     "source": "iana"
   },
+  "application/vnd.collabio.xodocuments.spreadsheet-template": {
+    "source": "iana"
+  },
   "application/vnd.collection+json": {
     "source": "iana",
     "compressible": true
@@ -1655,6 +1671,9 @@
     "compressible": true
   },
   "application/vnd.comicbook+zip": {
+    "source": "iana"
+  },
+  "application/vnd.comicbook-rar": {
     "source": "iana"
   },
   "application/vnd.commerce-battelle": {
@@ -4436,6 +4455,9 @@
     "source": "iana",
     "extensions": ["cmp"]
   },
+  "application/vnd.youtube.yt": {
+    "source": "iana"
+  },
   "application/vnd.zul": {
     "source": "iana",
     "extensions": ["zir","zirz"]
@@ -5773,6 +5795,9 @@
   "font/woff2": {
     "source": "iana",
     "extensions": ["woff2"]
+  },
+  "image/aces": {
+    "source": "iana"
   },
   "image/apng": {
     "compressible": false,
