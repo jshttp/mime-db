@@ -7500,12 +7500,14 @@
     ]
   },
   "font/woff": {
+    "extensions": ["woff"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc8081.txt",
       "http://www.iana.org/assignments/media-types/font/woff"
     ]
   },
   "font/woff2": {
+    "extensions": ["woff2"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc8081.txt",
       "http://www.iana.org/assignments/media-types/font/woff2"

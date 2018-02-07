@@ -12,6 +12,7 @@ var parser = require('csv-parse')
 var toArray = require('stream-to-array')
 var writedb = require('./lib/write-db')
 
+var extensionsRegExp = /^\s*(?:\d\.\s+)?File extension(?:\(s\)|s|)\s?:\s+(?:\*\.|\.|)([0-9a-z_-]+)\s*(?:\(|$)/im
 var leadingSpacesRegExp = /^\s+/
 var listColonRegExp = /:(?:\s|$)/m
 var nameWithNotesRegExp = /^(\S+)(?: - (.*)$| \((.*)\)$|)/
@@ -19,7 +20,7 @@ var mimeTypeLineRegExp = /^(?:\s*|[^:\s-]*\s+)(?:MIME type(?: name)?|MIME media 
 var mimeSubtypeLineRegExp = /^[^:\s-]*\s*(?:MIME |Media )?subtype(?: name)?\s?:\s+(?:[a-z]+ Tree\s+(?:- ?)?|(?:[a-z]+ )+- )?([^([\r\n]*).*$/im
 var mimeSubtypesLineRegExp = /^[^:\s-]*\s*(?:MIME |Media )?subtype(?: names)?\s?:\s+(?:[a-z]+ Tree\s+(?:- ?)?)?(.*)$/im
 var rfcReferenceRegExp = /\[(RFC[0-9]{4})]/gi
-var slurpModeRegExp = /^(?:[1-4]\. |\s{0,3})[a-z]{4,}(?: [a-z]{4,})+(?:s|\(s\))?\s*:\s*/i
+var slurpModeRegExp = /^\s{0,3}(?:[1-4]\. )?[a-z]{4,}(?: [a-z]{4,})+(?:s|\(s\))?\s*:\s*/i
 var symbolRegExp = /[._-]/g
 var trimQuotesRegExp = /^"|"$/gm
 var urlReferenceRegExp = /\[(https?:\/\/[^\]]+)]/gi
@@ -28,7 +29,7 @@ co(function * () {
   var gens = yield [
     get('application'),
     get('audio'),
-    get('font'),
+    get('font', { extensions: true }),
     get('image'),
     get('message'),
     get('model'),
@@ -58,6 +59,7 @@ co(function * () {
     }
 
     json[mime] = {
+      extensions: result.extensions,
       notes: result.notes,
       sources: result.sources
     }
@@ -66,7 +68,9 @@ co(function * () {
   writedb('src/iana-types.json', json)
 }).then()
 
-function addTemplateData (data) {
+function addTemplateData (data, options) {
+  var opts = options || {}
+
   if (!data.template) {
     return data
   }
@@ -108,9 +112,14 @@ function addTemplateData (data) {
     // add the template as a source
     addSource(data, href)
 
-    // use extracted mime if it's almost the same
-    if (mime && mime.replace(symbolRegExp, '-') === data.mime.replace(symbolRegExp, '-')) {
+    if (mimeEql(mime, data.mime)) {
+      // use extracted mime
       data.mime = mime
+
+      // use extracted extensions
+      if (opts.extensions) {
+        data.extensions = extractTemplateExtensions(body)
+      }
     }
 
     return data
@@ -144,7 +153,21 @@ function extractTemplateMime (body) {
   return (type + '/' + subtype).toLowerCase()
 }
 
-function * get (type) {
+function extractTemplateExtensions (body) {
+  var match = extensionsRegExp.exec(body)
+
+  if (!match) {
+    return
+  }
+
+  var ext = match[1].toLowerCase()
+
+  if (ext !== 'none' && ext !== 'undefined') {
+    return [ext]
+  }
+}
+
+function * get (type, options) {
   var res = yield * cogent('http://www.iana.org/assignments/media-types/' + encodeURIComponent(type) + '.csv', { retries: 3 })
 
   if (res.statusCode !== 200) {
@@ -185,7 +208,7 @@ function * get (type) {
       addSource(data, url)
     })
 
-    return addTemplateData(data)
+    return addTemplateData(data, options)
   })
 }
 
@@ -288,6 +311,11 @@ function loadBluebird () {
   })
 
   return Promise
+}
+
+function mimeEql (mime1, mime2) {
+  return mime1 && mime2 &&
+    mime1.replace(symbolRegExp, '-') === mime2.replace(symbolRegExp, '-')
 }
 
 function normalizeHeader (val) {
