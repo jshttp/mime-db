@@ -591,6 +591,11 @@
       "http://www.iana.org/assignments/media-types/application/fdt+xml"
     ]
   },
+  "application/fhir+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/fhir+xml"
+    ]
+  },
   "application/fits": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc4047.txt",
@@ -2187,6 +2192,11 @@
   "application/vnd.airzip.filesecure.azs": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.airzip.filesecure.azs"
+    ]
+  },
+  "application/vnd.amadeus+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.amadeus+json"
     ]
   },
   "application/vnd.amazon.mobi8-ebook": {
@@ -5650,6 +5660,11 @@
   "application/vnd.renlearn.rlprint": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.renlearn.rlprint"
+    ]
+  },
+  "application/vnd.restful+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.restful+json"
     ]
   },
   "application/vnd.rig.cryptonote": {

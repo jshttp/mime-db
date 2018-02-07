@@ -369,6 +369,9 @@
   "application/fdt+xml": {
     "source": "iana"
   },
+  "application/fhir+xml": {
+    "source": "iana"
+  },
   "application/fido.trusted-apps+json": {
     "compressible": true
   },
@@ -1437,6 +1440,10 @@
   "application/vnd.airzip.filesecure.azs": {
     "source": "iana",
     "extensions": ["azs"]
+  },
+  "application/vnd.amadeus+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.amazon.ebook": {
     "source": "apache",
@@ -3882,6 +3889,10 @@
   },
   "application/vnd.renlearn.rlprint": {
     "source": "iana"
+  },
+  "application/vnd.restful+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.rig.cryptonote": {
     "source": "iana",
