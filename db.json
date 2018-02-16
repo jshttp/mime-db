@@ -6122,7 +6122,10 @@
     "source": "iana"
   },
   "message/disposition-notification": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": [
+      "disposition-notification"
+    ]
   },
   "message/external-body": {
     "source": "iana"
@@ -6131,16 +6134,20 @@
     "source": "iana"
   },
   "message/global": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["u8msg"]
   },
   "message/global-delivery-status": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["u8dsn"]
   },
   "message/global-disposition-notification": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["u8mdn"]
   },
   "message/global-headers": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["u8hdr"]
   },
   "message/http": {
     "source": "iana",
@@ -6178,7 +6185,8 @@
     "source": "iana"
   },
   "message/vnd.wfa.wsc": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["wsc"]
   },
   "model/3mf": {
     "source": "iana"

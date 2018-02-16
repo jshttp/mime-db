@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extensions from IANA for `message/*` types
   * Add new upstream MIME types
   * Fix some incorrect OOXML types
   * Remove `application/font-woff2`

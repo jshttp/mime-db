@@ -7819,6 +7819,9 @@
     ]
   },
   "message/disposition-notification": {
+    "extensions": [
+      "disposition-notification"
+    ],
     "sources": [
       "http://tools.ietf.org/rfc/rfc8098.txt",
       "http://www.iana.org/assignments/media-types/message/disposition-notification"
@@ -7837,24 +7840,28 @@
     ]
   },
   "message/global": {
+    "extensions": ["u8msg"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6532.txt",
       "http://www.iana.org/assignments/media-types/message/global"
     ]
   },
   "message/global-delivery-status": {
+    "extensions": ["u8dsn"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6533.txt",
       "http://www.iana.org/assignments/media-types/message/global-delivery-status"
     ]
   },
   "message/global-disposition-notification": {
+    "extensions": ["u8mdn"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6533.txt",
       "http://www.iana.org/assignments/media-types/message/global-disposition-notification"
     ]
   },
   "message/global-headers": {
+    "extensions": ["u8hdr"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6533.txt",
       "http://www.iana.org/assignments/media-types/message/global-headers"
@@ -7922,6 +7929,7 @@
     ]
   },
   "message/vnd.wfa.wsc": {
+    "extensions": ["wsc"],
     "sources": [
       "http://www.iana.org/assignments/media-types/message/vnd.wfa.wsc"
     ]

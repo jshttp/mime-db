@@ -13,6 +13,7 @@ var toArray = require('stream-to-array')
 var writedb = require('./lib/write-db')
 
 var extensionsRegExp = /^\s*(?:\d\.\s+)?File extension(?:\(s\)|s|)\s?:\s+(?:\*\.|\.|)([0-9a-z_-]+)\s*(?:\(|$)/im
+var extensionsQuotedRegExp = /^\s*(?:\d\.\s+)?File extension(?:\(s\)|s|)\s?:(?:[^'"\r\n]+)(?:"\.?([0-9a-z_-]+)"|'\.?([0-9a-z_-]+)')/im
 var leadingSpacesRegExp = /^\s+/
 var listColonRegExp = /:(?:\s|$)/m
 var nameWithNotesRegExp = /^(\S+)(?: - (.*)$| \((.*)\)$|)/
@@ -31,7 +32,7 @@ co(function * () {
     get('audio'),
     get('font', { extensions: true }),
     get('image'),
-    get('message'),
+    get('message', { extensions: true }),
     get('model'),
     get('multipart'),
     get('text'),
@@ -154,13 +155,13 @@ function extractTemplateMime (body) {
 }
 
 function extractTemplateExtensions (body) {
-  var match = extensionsRegExp.exec(body)
+  var match = extensionsRegExp.exec(body) || extensionsQuotedRegExp.exec(body)
 
   if (!match) {
     return
   }
 
-  var ext = match[1].toLowerCase()
+  var ext = (match[1] || match[2]).toLowerCase()
 
   if (ext !== 'none' && ext !== 'undefined') {
     return [ext]
