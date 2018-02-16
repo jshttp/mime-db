@@ -1,5 +1,5 @@
-unreleased
-==========
+1.33.0 / 2018-02-15
+===================
 
   * Add extensions from IANA for `message/*` types
   * Add new upstream MIME types
