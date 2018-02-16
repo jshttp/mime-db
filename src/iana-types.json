@@ -5862,6 +5862,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.spotfire.sfs"
     ]
   },
+  "application/vnd.sqlite3": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.sqlite3"
+    ]
+  },
   "application/vnd.sss-cod": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.sss-cod"
@@ -6401,6 +6406,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc4267.txt",
       "http://www.iana.org/assignments/media-types/application/voicexml+xml"
+    ]
+  },
+  "application/voucher-cms+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/voucher-cms+json"
     ]
   },
   "application/vq-rtcpxr": {

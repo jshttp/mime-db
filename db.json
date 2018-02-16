@@ -4041,6 +4041,9 @@
     "source": "iana",
     "extensions": ["sfs"]
   },
+  "application/vnd.sqlite3": {
+    "source": "iana"
+  },
   "application/vnd.sss-cod": {
     "source": "iana"
   },
@@ -4480,6 +4483,10 @@
   "application/voicexml+xml": {
     "source": "iana",
     "extensions": ["vxml"]
+  },
+  "application/voucher-cms+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vq-rtcpxr": {
     "source": "iana"
