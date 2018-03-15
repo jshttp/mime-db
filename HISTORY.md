@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Add extension `.es` to `application/ecmascript`
+  * Add new upstream MIME types
 
 1.33.0 / 2018-02-15
 ===================

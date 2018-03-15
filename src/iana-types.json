@@ -25,6 +25,11 @@
       "http://www.iana.org/assignments/media-types/application/activemessage"
     ]
   },
+  "application/activity+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/activity+json"
+    ]
+  },
   "application/alto-costmap+json": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc7285.txt",
@@ -589,6 +594,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc6726.txt",
       "http://www.iana.org/assignments/media-types/application/fdt+xml"
+    ]
+  },
+  "application/fhir+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/fhir+json"
     ]
   },
   "application/fhir+xml": {
@@ -1264,6 +1274,7 @@
   },
   "application/passport": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8225.txt",
       "http://www.iana.org/assignments/media-types/application/passport"
     ]
   },
@@ -1917,6 +1928,7 @@
   },
   "application/tnauthlist": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8226.txt",
       "http://www.iana.org/assignments/media-types/application/tnauthlist"
     ]
   },
@@ -3489,6 +3501,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.hydrostatix.sof-data"
     ]
   },
+  "application/vnd.hyper+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.hyper+json"
+    ]
+  },
   "application/vnd.hyper-item+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.hyper-item+json"
@@ -3505,6 +3522,7 @@
     ]
   },
   "application/vnd.ibm.afplinedata": {
+    "notes": "OBSOLETE",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ibm.afplinedata"
     ]
@@ -3520,6 +3538,7 @@
     ]
   },
   "application/vnd.ibm.modcap": {
+    "notes": "OBSOLETE",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ibm.modcap"
     ]
@@ -7960,6 +7979,11 @@
       "http://tools.ietf.org/rfc/rfc2077.txt"
     ]
   },
+  "model/stl": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/stl"
+    ]
+  },
   "model/vnd.collada+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.collada+xml"
@@ -8775,6 +8799,7 @@
   },
   "video/smpte291": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8331.txt",
       "http://www.iana.org/assignments/media-types/video/smpte291"
     ]
   },

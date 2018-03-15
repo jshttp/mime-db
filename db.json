@@ -14,6 +14,10 @@
   "application/activemessage": {
     "source": "iana"
   },
+  "application/activity+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/alto-costmap+json": {
     "source": "iana",
     "compressible": true
@@ -368,6 +372,10 @@
   },
   "application/fdt+xml": {
     "source": "iana"
+  },
+  "application/fhir+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/fhir+xml": {
     "source": "iana"
@@ -2385,6 +2393,10 @@
   "application/vnd.hydrostatix.sof-data": {
     "source": "iana",
     "extensions": ["sfd-hdstx"]
+  },
+  "application/vnd.hyper+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.hyper-item+json": {
     "source": "iana",
@@ -6210,6 +6222,9 @@
     "source": "iana",
     "compressible": false,
     "extensions": ["msh","mesh","silo"]
+  },
+  "model/stl": {
+    "source": "iana"
   },
   "model/vnd.collada+xml": {
     "source": "iana",
