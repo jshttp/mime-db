@@ -24,7 +24,12 @@
     ]
   },
   "application/ecmascript": {
-    "compressible": true
+    "compressible": true,
+    "extensions": ["es"],
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc4329.txt",
+      "http://www.iana.org/assignments/media-types/application/ecmascript"
+    ]
   },
   "application/edi-x12": {
     "compressible": false
