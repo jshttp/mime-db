@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add extension `.es` to `application/ecmascript`
+
 1.33.0 / 2018-02-15
 ===================
 

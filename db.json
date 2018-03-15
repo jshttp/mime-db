@@ -296,7 +296,7 @@
   "application/ecmascript": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["ecma"]
+    "extensions": ["ecma","es"]
   },
   "application/edi-consent": {
     "source": "iana"
