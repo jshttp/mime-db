@@ -591,6 +591,15 @@
   "image/vnd.adobe.photoshop": {
     "compressible": true
   },
+  "image/webp": {
+    "compressible": false,
+    "extensions": ["webp"],
+    "sources": [
+      "https://developers.google.com/speed/webp/faq",
+      "https://developers.google.com/speed/webp/",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types#Discrete_types"
+    ]
+  },
   "image/x-icon": {
     "compressible": true,
     "sources": [
