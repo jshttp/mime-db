@@ -47,7 +47,7 @@
   },
   "scripts": {
     "build": "node scripts/build",
-    "fetch": "gnode scripts/fetch-apache && gnode scripts/fetch-iana && gnode scripts/fetch-nginx",
+    "fetch": "node scripts/fetch-apache && gnode scripts/fetch-iana && node scripts/fetch-nginx",
     "lint": "eslint .",
     "test": "mocha --reporter spec --bail --check-leaks test/",
     "test-cov": "nyc --reporter=html --reporter=text npm test",

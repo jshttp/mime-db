@@ -1,12 +1,11 @@
+'use strict'
 
 /**
  * Convert these text files to JSON for browser usage.
  */
 
-global.Promise = global.Promise || loadBluebird()
-
-var co = require('co')
-var cogent = require('cogent')
+var getBody = require('raw-body')
+var https = require('https')
 var writedb = require('./lib/write-db')
 
 /**
@@ -14,24 +13,22 @@ var writedb = require('./lib/write-db')
  *
  *   <type> <ext> <ext> <ext>;
  */
-var typeLineRegExp = /^\s*([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*);\s*$/gm
+var TYPE_LINE_REGEXP = /^\s*([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*);\s*$/gm
 
-co(function * () {
-  var url = 'http://hg.nginx.org/nginx/raw-file/default/conf/mime.types'
-  var res = yield * cogent(url, {
-    string: true
-  })
+/**
+ * URL for the mime.types file in the NGINX project source.
+ */
+var URL = 'https://hg.nginx.org/nginx/raw-file/default/conf/mime.types'
 
-  if (res.statusCode !== 200) {
-    throw new Error('got status code ' + res.statusCode + ' from ' + url)
-  }
+get(URL, function onResponse (err, body) {
+  if (err) throw err
 
   var json = {}
   var match = null
 
-  typeLineRegExp.index = 0
+  TYPE_LINE_REGEXP.index = 0
 
-  while ((match = typeLineRegExp.exec(res.text))) {
+  while ((match = TYPE_LINE_REGEXP.exec(body))) {
     var mime = match[1]
 
     // parse the extensions
@@ -45,7 +42,7 @@ co(function * () {
   }
 
   writedb('src/nginx-types.json', json)
-}).then()
+})
 
 /**
  * Append an extension to an object.
@@ -77,15 +74,14 @@ function appendExtensions (obj, extensions) {
 }
 
 /**
- * Load the Bluebird promise.
+ * Get HTTPS resource.
  */
-function loadBluebird () {
-  var Promise = require('bluebird')
-
-  // Silence all warnings
-  Promise.config({
-    warnings: false
+function get (url, callback) {
+  https.get(url, function onResponse (res) {
+    if (res.statusCode !== 200) {
+      callback(new Error('got status code ' + res.statusCode + ' from ' + URL))
+    } else {
+      getBody(res, true, callback)
+    }
   })
-
-  return Promise
 }

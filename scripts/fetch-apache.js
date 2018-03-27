@@ -1,12 +1,11 @@
+'use strict'
 
 /**
  * Convert these text files to JSON for browser usage.
  */
 
-global.Promise = global.Promise || loadBluebird()
-
-var co = require('co')
-var cogent = require('cogent')
+var getBody = require('raw-body')
+var https = require('https')
 var writedb = require('./lib/write-db')
 
 /**
@@ -19,24 +18,22 @@ var writedb = require('./lib/write-db')
  * We could also just remove all lines that start with `#` if we want to make the JSON files smaller
  * and ignore all mime types without associated extensions.
  */
-var typeLineRegExp = /^(?:# )?([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*)$/gm
+var TYPE_LINE_REGEXP = /^(?:# )?([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*)$/gm
 
-co(function * () {
-  var url = 'http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types'
-  var res = yield * cogent(url, {
-    string: true
-  })
+/**
+ * URL for the mime.types file in the Apache HTTPD project source.
+ */
+var URL = 'https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types'
 
-  if (res.statusCode !== 200) {
-    throw new Error('got status code ' + res.statusCode + ' from ' + url)
-  }
+get(URL, function onResponse (err, body) {
+  if (err) throw err
 
   var json = {}
   var match = null
 
-  typeLineRegExp.index = 0
+  TYPE_LINE_REGEXP.index = 0
 
-  while ((match = typeLineRegExp.exec(res.text))) {
+  while ((match = TYPE_LINE_REGEXP.exec(body))) {
     var mime = match[1]
 
     if (mime.substr(-8) === '/example') {
@@ -54,7 +51,7 @@ co(function * () {
   }
 
   writedb('src/apache-types.json', json)
-}).then()
+})
 
 /**
  * Append an extension to an object.
@@ -86,15 +83,14 @@ function appendExtensions (obj, extensions) {
 }
 
 /**
- * Load the Bluebird promise.
+ * Get HTTPS resource.
  */
-function loadBluebird () {
-  var Promise = require('bluebird')
-
-  // Silence all warnings
-  Promise.config({
-    warnings: false
+function get (url, callback) {
+  https.get(url, function onResponse (res) {
+    if (res.statusCode !== 200) {
+      callback(new Error('got status code ' + res.statusCode + ' from ' + URL))
+    } else {
+      getBody(res, true, callback)
+    }
   })
-
-  return Promise
 }
