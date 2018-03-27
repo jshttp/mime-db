@@ -368,6 +368,11 @@
       "http://www.iana.org/assignments/media-types/application/csvm+json"
     ]
   },
+  "application/cwt": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/cwt"
+    ]
+  },
   "application/cybercash": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/cybercash"
@@ -7280,6 +7285,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc5109.txt",
       "http://www.iana.org/assignments/media-types/audio/ulpfec"
+    ]
+  },
+  "audio/usac": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/usac"
     ]
   },
   "audio/vdvi": {

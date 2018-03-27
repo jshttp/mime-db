@@ -231,6 +231,9 @@
     "source": "apache",
     "extensions": ["cu"]
   },
+  "application/cwt": {
+    "source": "iana"
+  },
   "application/cybercash": {
     "source": "iana"
   },
@@ -5552,6 +5555,9 @@
     "source": "iana"
   },
   "audio/ulpfec": {
+    "source": "iana"
+  },
+  "audio/usac": {
     "source": "iana"
   },
   "audio/vdvi": {
