@@ -550,13 +550,13 @@
   },
   "image/jp2": {
     "compressible": false,
-    "extensions": ["jp2","jpg2"],
+    "extensions": ["jp2", "jpg2"],
     "sources": [
       "https://www.iana.org/assignments/media-types/image/jp2",
       "https://tools.ietf.org/html/rfc3745"
     ]
   },
-    "image/jpm": {
+  "image/jpm": {
     "compressible": false,
     "extensions": ["jpm"],
     "sources": [
@@ -566,7 +566,7 @@
   },
   "image/jpx": {
     "compressible": false,
-    "extensions": ["jpx","jpf"],
+    "extensions": ["jpx", "jpf"],
     "sources": [
       "https://www.iana.org/assignments/media-types/image/jpx",
       "https://tools.ietf.org/html/rfc3745"
@@ -734,7 +734,7 @@
   },
   "text/markdown": {
     "compressible": true,
-    "extensions": ["markdown","md"],
+    "extensions": ["markdown", "md"],
     "sources": [
       "https://tools.ietf.org/html/rfc7763"
     ]
@@ -763,13 +763,13 @@
     ]
   },
   "text/slim": {
-    "extensions": ["slim","slm"],
+    "extensions": ["slim", "slm"],
     "sources": [
        "http://slim-lang.com/"
     ]
   },
   "text/stylus": {
-    "extensions": ["stylus","styl"]
+    "extensions": ["stylus", "styl"]
   },
   "text/tab-separated-values": {
     "compressible": true
@@ -837,7 +837,7 @@
     "compressible": true
   },
   "text/yaml": {
-    "extensions": ["yaml","yml"]
+    "extensions": ["yaml", "yml"]
   },
   "video/mp2t": {
     "extensions": ["ts"]
