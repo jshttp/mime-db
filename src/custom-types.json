@@ -170,6 +170,7 @@
     ]
   },
   "application/vnd.citationstyles.style+xml": {
+    "compressible": true,
     "extensions": ["csl"],
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.citationstyles.style+xml"
