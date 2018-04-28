@@ -279,7 +279,7 @@
     "extensions": ["wasm"],
     "notes": "WebAssembly module",
     "sources": [
-      "https://webassembly.github.io/spec/binary/conventions.html"
+      "https://webassembly.github.io/spec/core/binary/conventions.html"
     ]
   },
   "application/x-7z-compressed": {
