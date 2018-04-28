@@ -1437,6 +1437,9 @@
   "application/vnd.aether.imp": {
     "source": "iana"
   },
+  "application/vnd.afpc.afplinedata": {
+    "source": "iana"
+  },
   "application/vnd.ah-barcode": {
     "source": "iana"
   },
@@ -3811,6 +3814,9 @@
     "source": "iana",
     "extensions": ["mgz"]
   },
+  "application/vnd.psfs": {
+    "source": "iana"
+  },
   "application/vnd.publishare-delta-tree": {
     "source": "iana",
     "extensions": ["qps"]
@@ -4018,6 +4024,10 @@
     "source": "iana",
     "extensions": ["ipk"]
   },
+  "application/vnd.shootproof+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.sigrok.session": {
     "source": "iana"
   },
@@ -4206,6 +4216,10 @@
   "application/vnd.tcpdump.pcap": {
     "source": "iana",
     "extensions": ["pcap","cap","dmp"]
+  },
+  "application/vnd.think-cell.ppttc+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.tmd.mediaflex.api+xml": {
     "source": "iana"
@@ -5140,6 +5154,9 @@
   "application/xhtml-voice+xml": {
     "source": "apache"
   },
+  "application/xliff+xml": {
+    "source": "iana"
+  },
   "application/xml": {
     "source": "iana",
     "compressible": true,
@@ -5222,6 +5239,9 @@
     "extensions": ["3gpp"]
   },
   "audio/3gpp2": {
+    "source": "iana"
+  },
+  "audio/aac": {
     "source": "iana"
   },
   "audio/ac3": {

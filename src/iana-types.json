@@ -2191,6 +2191,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.aether.imp"
     ]
   },
+  "application/vnd.afpc.afplinedata": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.afplinedata"
+    ]
+  },
   "application/vnd.ah-barcode": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ah-barcode"
@@ -3527,7 +3532,7 @@
     ]
   },
   "application/vnd.ibm.afplinedata": {
-    "notes": "OBSOLETE",
+    "notes": "OBSOLETED in favor of vnd.afpc.afplinedata",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ibm.afplinedata"
     ]
@@ -5520,6 +5525,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.proteus.magazine"
     ]
   },
+  "application/vnd.psfs": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.psfs"
+    ]
+  },
   "application/vnd.publishare-delta-tree": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.publishare-delta-tree"
@@ -5831,6 +5841,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.shana.informed.package"
     ]
   },
+  "application/vnd.shootproof+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.shootproof+json"
+    ]
+  },
   "application/vnd.sigrok.session": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.sigrok.session"
@@ -5999,6 +6014,11 @@
   "application/vnd.tcpdump.pcap": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.tcpdump.pcap"
+    ]
+  },
+  "application/vnd.think-cell.ppttc+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.think-cell.ppttc+json"
     ]
   },
   "application/vnd.tmd.mediaflex.api+xml": {
@@ -6567,6 +6587,11 @@
       "http://www.iana.org/assignments/media-types/application/xhtml+xml"
     ]
   },
+  "application/xliff+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/xliff+xml"
+    ]
+  },
   "application/xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc7303.txt",
@@ -6685,6 +6710,11 @@
       "http://tools.ietf.org/rfc/rfc4393.txt",
       "http://tools.ietf.org/rfc/rfc6381.txt",
       "http://www.iana.org/assignments/media-types/audio/3gpp2"
+    ]
+  },
+  "audio/aac": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/aac"
     ]
   },
   "audio/ac3": {
