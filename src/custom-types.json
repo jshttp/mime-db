@@ -1,9 +1,4 @@
 {
-  "application/atom+xml": {
-    "sources": [
-      "http://en.wikipedia.org/wiki/Atom_(standard)"
-    ]
-  },
   "application/bdoc": {
     "compressible": false,
     "extensions": ["bdoc"],
@@ -35,11 +30,6 @@
   },
   "application/edifact": {
     "compressible": false
-  },
-  "application/fido.trusted-apps+json": {
-    "sources": [
-      "https://fidoalliance.org/specs/fido-u2f-v1.0-ps-20141009/fido-appid-and-facets-ps-20141009.html"
-    ]
   },
   "application/font-woff": {
     "compressible": false,
@@ -137,18 +127,8 @@
       "http://raml.org/spec.html"
     ]
   },
-  "application/rdf+xml": {
-    "sources": [
-      "http://en.wikipedia.org/wiki/RDF/XML"
-    ]
-  },
   "application/rtf": {
     "compressible": true
-  },
-  "application/soap+xml": {
-    "sources": [
-      "http://en.wikipedia.org/wiki/SOAP"
-    ]
   },
   "application/tar": {
     "compressible": true
@@ -180,11 +160,6 @@
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
-  "application/vnd.google-earth.kml+xml": {
-    "sources": [
-      "https://developers.google.com/kml/documentation/kml_tut"
-    ]
-  },
   "application/vnd.google-earth.kmz": {
     "compressible": false
   },
@@ -202,11 +177,6 @@
     "sources": [
       "https://developers.google.com/drive/v2/web/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
-    ]
-  },
-  "application/vnd.mozilla.xul+xml": {
-    "sources": [
-      "http://en.wikipedia.org/wiki/XUL"
     ]
   },
   "application/vnd.ms-excel": {
@@ -602,11 +572,6 @@
     ],
     "notes": "It is safest to leave these uncompressed."
   },
-  "message/imdn+xml": {
-    "sources": [
-      "http://tools.ietf.org/html/rfc5438"
-    ]
-  },
   "message/partial": {
     "compressible": false
   },
@@ -644,11 +609,6 @@
   },
   "model/x3d+vrml": {
     "compressible": false
-  },
-  "model/x3d+xml": {
-    "sources": [
-      "http://edutechwiki.unige.ch/en/X3D_file_structure"
-    ]
   },
   "multipart/alternative": {
     "compressible": false
