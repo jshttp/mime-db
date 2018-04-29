@@ -39,6 +39,7 @@
     "notes": "File type is already a binary compressed format."
   },
   "application/geo+json": {
+    "compressible": true,
     "extensions": ["geojson"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc7946.txt",
@@ -588,6 +589,7 @@
     ]
   },
   "model/gltf+json": {
+    "compressible": true,
     "extensions": ["gltf"],
     "sources": [
       "https://github.com/KhronosGroup/glTF/tree/master/specification/2.0"
