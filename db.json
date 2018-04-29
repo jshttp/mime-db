@@ -110,7 +110,8 @@
     "compressible": true
   },
   "application/bacnet-xdd+zip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/batch-smtp": {
     "source": "iana"
@@ -394,6 +395,7 @@
   },
   "application/epub+zip": {
     "source": "iana",
+    "compressible": false,
     "extensions": ["epub"]
   },
   "application/eshop": {
@@ -1046,7 +1048,8 @@
     "extensions": ["cww"]
   },
   "application/prs.hpub+zip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/prs.nprend": {
     "source": "iana"
@@ -1556,6 +1559,7 @@
   },
   "application/vnd.adobe.air-application-installer-package+zip": {
     "source": "apache",
+    "compressible": false,
     "extensions": ["air"]
   },
   "application/vnd.adobe.flash.movie": {
@@ -1847,7 +1851,8 @@
     "compressible": true
   },
   "application/vnd.comicbook+zip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.comicbook-rar": {
     "source": "iana"
@@ -1939,7 +1944,8 @@
     "source": "iana"
   },
   "application/vnd.d2l.coursepackage1p0+zip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.dart": {
     "source": "iana",
@@ -2190,7 +2196,8 @@
     "source": "iana"
   },
   "application/vnd.espass-espass+zip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.eszigno3+xml": {
     "source": "iana",
@@ -2202,10 +2209,12 @@
     "compressible": true
   },
   "application/vnd.etsi.asic-e+zip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.etsi.asic-s+zip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.etsi.cug+xml": {
     "source": "iana",
@@ -2484,7 +2493,8 @@
     "compressible": true
   },
   "application/vnd.gov.sk.e-form+zip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.gov.sk.xmldatacontainer+xml": {
     "source": "iana",
@@ -2641,10 +2651,12 @@
     "extensions": ["igl"]
   },
   "application/vnd.imagemeter.folder+zip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.imagemeter.image+zip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.immervision-ivp": {
     "source": "iana",
