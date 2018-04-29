@@ -1,6 +1,5 @@
 {
   "application/atom+xml": {
-    "compressible": true,
     "sources": [
       "http://en.wikipedia.org/wiki/Atom_(standard)"
     ]
@@ -139,19 +138,14 @@
     ]
   },
   "application/rdf+xml": {
-    "compressible": true,
     "sources": [
       "http://en.wikipedia.org/wiki/RDF/XML"
     ]
-  },
-  "application/rss+xml": {
-    "compressible": true
   },
   "application/rtf": {
     "compressible": true
   },
   "application/soap+xml": {
-    "compressible": true,
     "sources": [
       "http://en.wikipedia.org/wiki/SOAP"
     ]
@@ -170,7 +164,6 @@
     ]
   },
   "application/vnd.citationstyles.style+xml": {
-    "compressible": true,
     "extensions": ["csl"],
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.citationstyles.style+xml"
@@ -188,7 +181,6 @@
     ]
   },
   "application/vnd.google-earth.kml+xml": {
-    "compressible": true,
     "sources": [
       "https://developers.google.com/kml/documentation/kml_tut"
     ]
@@ -213,7 +205,6 @@
     ]
   },
   "application/vnd.mozilla.xul+xml": {
-    "compressible": true,
     "sources": [
       "http://en.wikipedia.org/wiki/XUL"
     ]
@@ -268,7 +259,6 @@
     "compressible": false
   },
   "application/vnd.sun.wadl+xml": {
-    "compressible": true,
     "extensions": ["wadl"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.sun.wadl+xml"
@@ -452,9 +442,6 @@
   "application/x-xpinstall": {
     "compressible": false
   },
-  "application/xhtml+xml": {
-    "compressible": true
-  },
   "application/xml": {
     "compressible": true,
     "extensions": ["xsd", "rng"],
@@ -467,9 +454,6 @@
     "sources": [
       "http://en.wikipedia.org/wiki/Document_type_definition"
     ]
-  },
-  "application/xop+xml": {
-    "compressible": true
   },
   "application/zip": {
     "compressible": false
@@ -585,9 +569,6 @@
   "image/png": {
     "compressible": false
   },
-  "image/svg+xml": {
-    "compressible": true
-  },
   "image/tiff": {
     "compressible": false,
     "sources": [
@@ -622,7 +603,6 @@
     "notes": "It is safest to leave these uncompressed."
   },
   "message/imdn+xml": {
-    "compressible": true,
     "sources": [
       "http://tools.ietf.org/html/rfc5438"
     ]
@@ -666,7 +646,6 @@
     "compressible": false
   },
   "model/x3d+xml": {
-    "compressible": true,
     "sources": [
       "http://edutechwiki.unige.ch/en/X3D_file_structure"
     ]
