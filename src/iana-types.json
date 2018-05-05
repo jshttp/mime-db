@@ -2196,6 +2196,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.afpc.afplinedata"
     ]
   },
+  "application/vnd.afpc.modca": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.modca"
+    ]
+  },
   "application/vnd.ah-barcode": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ah-barcode"
@@ -3548,7 +3553,7 @@
     ]
   },
   "application/vnd.ibm.modcap": {
-    "notes": "OBSOLETE",
+    "notes": "OBSOLETED in favor of application/vnd.afpc.modca",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ibm.modcap"
     ]

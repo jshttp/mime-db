@@ -1591,6 +1591,9 @@
   "application/vnd.afpc.afplinedata": {
     "source": "iana"
   },
+  "application/vnd.afpc.modca": {
+    "source": "iana"
+  },
   "application/vnd.ah-barcode": {
     "source": "iana"
   },
