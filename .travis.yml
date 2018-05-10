@@ -13,7 +13,7 @@ node_js:
   - "7.10"
   - "8.11"
   - "9.11"
-  - "10.0"
+  - "10.1"
 sudo: false
 dist: precise
 before_install:
