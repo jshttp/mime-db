@@ -306,6 +306,10 @@
   "application/dns": {
     "source": "iana"
   },
+  "application/dns+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/docbook+xml": {
     "source": "apache",
     "compressible": true,
@@ -456,6 +460,9 @@
   "application/geoxacml+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/gltf-buffer": {
+    "source": "iana"
   },
   "application/gml+xml": {
     "source": "iana",
@@ -1222,6 +1229,9 @@
     "source": "iana",
     "extensions": ["sdp"]
   },
+  "application/secevent+jwt": {
+    "source": "iana"
+  },
   "application/sep+xml": {
     "source": "iana",
     "compressible": true
@@ -1688,6 +1698,10 @@
   "application/vnd.aristanetworks.swi": {
     "source": "iana",
     "extensions": ["swi"]
+  },
+  "application/vnd.artisan+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.artsquare": {
     "source": "iana"
@@ -3313,6 +3327,9 @@
   "application/vnd.neurolanguage.nlu": {
     "source": "iana",
     "extensions": ["nlu"]
+  },
+  "application/vnd.nimn": {
+    "source": "iana"
   },
   "application/vnd.nintendo.nitro.rom": {
     "source": "iana"

@@ -370,6 +370,7 @@
   },
   "application/cwt": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8392.txt",
       "http://www.iana.org/assignments/media-types/application/cwt"
     ]
   },
@@ -445,6 +446,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc4027.txt",
       "http://www.iana.org/assignments/media-types/application/dns"
+    ]
+  },
+  "application/dns+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/dns+json"
     ]
   },
   "application/dskpp+xml": {
@@ -658,6 +664,11 @@
   "application/geoxacml+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/geoxacml+xml"
+    ]
+  },
+  "application/gltf-buffer": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/gltf-buffer"
     ]
   },
   "application/gml+xml": {
@@ -1679,6 +1690,11 @@
       "http://www.iana.org/assignments/media-types/application/sdp"
     ]
   },
+  "application/secevent+jwt": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/secevent+jwt"
+    ]
+  },
   "application/sep+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/sep+xml"
@@ -2306,6 +2322,11 @@
   "application/vnd.aristanetworks.swi": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.aristanetworks.swi"
+    ]
+  },
+  "application/vnd.artisan+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.artisan+json"
     ]
   },
   "application/vnd.artsquare": {
@@ -4434,6 +4455,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.neurolanguage.nlu"
     ]
   },
+  "application/vnd.nimn": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.nimn"
+    ]
+  },
   "application/vnd.nintendo.nitro.rom": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.nintendo.nitro.rom"
@@ -6459,6 +6485,7 @@
   },
   "application/voucher-cms+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8366.txt",
       "http://www.iana.org/assignments/media-types/application/voucher-cms+json"
     ]
   },
