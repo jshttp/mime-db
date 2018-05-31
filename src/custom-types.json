@@ -56,6 +56,14 @@
       "https://github.com/grpc/grpc/blob/master/doc/PROTOCOL-HTTP2.md"
     ]
   },
+  "application/grpc+proto": {
+    "extensions": ["proto"],
+    "sources": [
+      "https://developers.google.com/protocol-buffers/docs/proto",
+      "https://github.com/grpc/grpc/blob/master/doc/PROTOCOL-HTTP2.md#appendix-a---grpc-for-protobuf"
+      "https://developers.google.com/protocol-buffers/docs/reference/proto3-spec",
+    ]
+  },
   "application/gzip": {
     "compressible": false,
     "extensions": ["gz"],
