@@ -51,8 +51,8 @@
     ]
   },
   "application/grpc": {
-    "extensions": ["grpc"],
     "sources": [
+      "https://tools.ietf.org/html/draft-kumar-rtgwg-grpc-protocol-00",
       "https://github.com/grpc/grpc/blob/master/doc/PROTOCOL-HTTP2.md"
     ]
   },
