@@ -50,6 +50,12 @@
       "http://www.iana.org/assignments/media-types/application/geo+json"
     ]
   },
+  "application/grpc": {
+    "extensions": ["grpc"],
+    "sources": [
+      "https://github.com/grpc/grpc/blob/master/doc/PROTOCOL-HTTP2.md"
+    ]
+  },
   "application/gzip": {
     "compressible": false,
     "extensions": ["gz"],
