@@ -1232,6 +1232,34 @@
   "application/secevent+jwt": {
     "source": "iana"
   },
+  "application/senml+cbor": {
+    "source": "iana"
+  },
+  "application/senml+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/senml+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/senml-exi": {
+    "source": "iana"
+  },
+  "application/sensml+cbor": {
+    "source": "iana"
+  },
+  "application/sensml+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/sensml+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/sensml-exi": {
+    "source": "iana"
+  },
   "application/sep+xml": {
     "source": "iana",
     "compressible": true
@@ -6714,6 +6742,10 @@
   },
   "model/vnd.rosette.annotated-data-model": {
     "source": "iana"
+  },
+  "model/vnd.usdz+zip": {
+    "source": "iana",
+    "compressible": false
   },
   "model/vnd.valve.source.compiled-map": {
     "source": "iana"

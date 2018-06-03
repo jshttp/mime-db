@@ -1695,6 +1695,46 @@
       "http://www.iana.org/assignments/media-types/application/secevent+jwt"
     ]
   },
+  "application/senml+cbor": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/senml+cbor"
+    ]
+  },
+  "application/senml+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/senml+json"
+    ]
+  },
+  "application/senml+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/senml+xml"
+    ]
+  },
+  "application/senml-exi": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/senml-exi"
+    ]
+  },
+  "application/sensml+cbor": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/sensml+cbor"
+    ]
+  },
+  "application/sensml+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/sensml+json"
+    ]
+  },
+  "application/sensml+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/sensml+xml"
+    ]
+  },
+  "application/sensml-exi": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/sensml-exi"
+    ]
+  },
   "application/sep+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/sep+xml"
@@ -8114,6 +8154,11 @@
   "model/vnd.rosette.annotated-data-model": {
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.rosette.annotated-data-model"
+    ]
+  },
+  "model/vnd.usdz+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/vnd.usdz+zip"
     ]
   },
   "model/vnd.valve.source.compiled-map": {
