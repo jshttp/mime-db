@@ -4,6 +4,7 @@ unreleased
   * Add extension `.csl` to `application/vnd.citationstyles.style+xml`
   * Add extension `.es` to `application/ecmascript`
   * Add new upstream MIME types
+  * Add `UTF-8` as default charset for `text/turtle`
   * Mark all XML-derived types as compressible
 
 1.33.0 / 2018-02-15
