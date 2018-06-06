@@ -510,6 +510,20 @@
   "image/gif": {
     "compressible": false
   },
+  "image/heic": {
+    "extensions": ["heic"],
+    "notes": "High Efficiency Image Format (HEIF) Image",
+    "sources": [
+      "https://nokiatech.github.io/heif/technical.html"
+    ]
+  },
+  "image/heif": {
+    "extensions": ["heif"],
+    "notes": "High Efficiency Image Format (HEIF) Image",
+    "sources": [
+      "https://nokiatech.github.io/heif/technical.html"
+    ]
+  },
   "image/jpeg": {
     "compressible": false
   },
