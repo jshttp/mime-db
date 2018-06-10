@@ -26,5 +26,19 @@
         "database",
         "charset",
         "charsets"
-    ]
+    ],
+    "archive": {
+        "exclude": [
+            "/scripts",
+            "/src",
+            "/test",
+            ".gitattributes",
+            ".gitignore",
+            ".eslintignore",
+            ".eslintrc.yml",
+            ".travis.yml",
+            "index.js",
+            "package.json"
+        ]
+    }
 }
