@@ -1,0 +1,44 @@
+{
+    "name": "jshttp/mime-db",
+    "description": "Media Type Database",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Douglas Christopher Wilson",
+            "email": "doug@somethingdoug.com"
+        },
+        {
+            "name": "Jonathan Ong",
+            "email": "me@jongleberry.com",
+            "homepage": "http://jongleberry.com"
+        },
+        {
+            "name": "Robert Kieffer",
+            "email": "robert@broofa.com",
+            "homepage": "http://github.com/broofa"
+        }
+    ],
+    "keywords": [
+        "mime",
+        "db",
+        "type",
+        "types",
+        "database",
+        "charset",
+        "charsets"
+    ],
+    "archive": {
+        "exclude": [
+            "/scripts",
+            "/src",
+            "/test",
+            ".gitattributes",
+            ".gitignore",
+            ".eslintignore",
+            ".eslintrc.yml",
+            ".travis.yml",
+            "index.js",
+            "package.json"
+        ]
+    }
+}
