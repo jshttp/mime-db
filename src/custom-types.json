@@ -143,14 +143,26 @@
   "application/vnd.apple.pages": {
     "compressible": false,
     "extensions": ["pages"],
+    "sources":[
+      "https://docs.alfresco.com/5.2/references/valid-transformations.html",
+      "https://tika.apache.org/1.15/api/org/apache/tika/parser/iwork/IWorkPackageParser.html",
+    ]
   },
    "application/vnd.apple.numbers": {
     "compressible": false,
      "extensions": ["numbers"],
+     "sources":[
+        "https://docs.alfresco.com/5.2/references/valid-transformations.html",
+        "https://tika.apache.org/1.15/api/org/apache/tika/parser/iwork/IWorkPackageParser.html",
+      ]
   },
    "application/vnd.apple.keynote": {
     "compressible": false,
      "extensions": ["key"],
+     "sources":[
+        "https://docs.alfresco.com/5.2/references/valid-transformations.html",
+        "https://tika.apache.org/1.15/api/org/apache/tika/parser/iwork/IWorkPackageParser.html",
+      ]
   },
   "application/vnd.apple.pkpass": {
     "compressible": false,
