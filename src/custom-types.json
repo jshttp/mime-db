@@ -140,6 +140,18 @@
   "application/vnd.android.package-archive": {
     "compressible": false
   },
+  "application/vnd.apple.pages": {
+    "compressible": false,
+    "extensions": ["pages"],
+  },
+   "application/vnd.apple.numbers": {
+    "compressible": false,
+     "extensions": ["numbers"],
+  },
+   "application/vnd.apple.keynote": {
+    "compressible": false,
+     "extensions": ["key"],
+  },
   "application/vnd.apple.pkpass": {
     "compressible": false,
     "extensions": ["pkpass"],
