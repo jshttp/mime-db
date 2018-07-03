@@ -1,3 +1,9 @@
+unreleased
+==========
+
+  * Add new upstream MIME types
+    - Removes extension `.woff` from `application/font-woff`
+
 1.34.0 / 2018-06-03
 ===================
 

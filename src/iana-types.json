@@ -1167,7 +1167,6 @@
     ]
   },
   "application/mud+json": {
-    "notes": "TEMPORARY - registered 2016-11-17, extension registered 2017-10-02, expires 2018-11-17",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/mud+json"
     ]
@@ -1372,6 +1371,7 @@
   },
   "application/pkcs8-encrypted": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8351.txt",
       "http://www.iana.org/assignments/media-types/application/pkcs8-encrypted"
     ]
   },
@@ -1987,6 +1987,16 @@
       "http://www.iana.org/assignments/media-types/application/timestamped-data"
     ]
   },
+  "application/tlsrpt+gzip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/tlsrpt+gzip"
+    ]
+  },
+  "application/tlsrpt+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/tlsrpt+json"
+    ]
+  },
   "application/tnauthlist": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc8226.txt",
@@ -2085,6 +2095,16 @@
   "application/vnd.3gpp.gmop+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.GMOP+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcdata-payload": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcdata-payload"
+    ]
+  },
+  "application/vnd.3gpp.mcdata-signalling": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcdata-signalling"
     ]
   },
   "application/vnd.3gpp.mcptt-affiliation-command+xml": {
@@ -2407,6 +2427,11 @@
   "application/vnd.balsamiq.bmpr": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.balsamiq.bmpr"
+    ]
+  },
+  "application/vnd.banana-accounting": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.banana-accounting"
     ]
   },
   "application/vnd.bbf.usp.msg": {
@@ -3968,6 +3993,11 @@
   "application/vnd.las.las+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.las.las+xml"
+    ]
+  },
+  "application/vnd.leap+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.leap+json"
     ]
   },
   "application/vnd.liberty-request+xml": {
@@ -8578,6 +8608,11 @@
   "text/vnd.fmi.flexstor": {
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.fmi.flexstor"
+    ]
+  },
+  "text/vnd.gml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/vnd.gml"
     ]
   },
   "text/vnd.graphviz": {

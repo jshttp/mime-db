@@ -2,9 +2,6 @@
   "application/atom+xml": {
     "extensions": ["atom"]
   },
-  "application/font-woff": {
-    "extensions": ["woff"]
-  },
   "application/java-archive": {
     "extensions": ["jar","war","ear"]
   },
@@ -145,6 +142,12 @@
   },
   "audio/x-realaudio": {
     "extensions": ["ra"]
+  },
+  "font/woff": {
+    "extensions": ["woff"]
+  },
+  "font/woff2": {
+    "extensions": ["woff2"]
   },
   "image/gif": {
     "extensions": ["gif"]

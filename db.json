@@ -442,8 +442,7 @@
   },
   "application/font-woff": {
     "source": "iana",
-    "compressible": false,
-    "extensions": ["woff"]
+    "compressible": false
   },
   "application/framework-attributes+xml": {
     "source": "iana",
@@ -1425,6 +1424,13 @@
     "source": "iana",
     "extensions": ["tsd"]
   },
+  "application/tlsrpt+gzip": {
+    "source": "iana"
+  },
+  "application/tlsrpt+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/tnauthlist": {
     "source": "iana"
   },
@@ -1497,6 +1503,12 @@
   "application/vnd.3gpp.gmop+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.3gpp.mcdata-payload": {
+    "source": "iana"
+  },
+  "application/vnd.3gpp.mcdata-signalling": {
+    "source": "iana"
   },
   "application/vnd.3gpp.mcptt-affiliation-command+xml": {
     "source": "iana",
@@ -1758,6 +1770,9 @@
     "compressible": true
   },
   "application/vnd.balsamiq.bmpr": {
+    "source": "iana"
+  },
+  "application/vnd.banana-accounting": {
     "source": "iana"
   },
   "application/vnd.bbf.usp.msg": {
@@ -2939,6 +2954,10 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["lasxml"]
+  },
+  "application/vnd.leap+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.liberty-request+xml": {
     "source": "iana",
@@ -7072,6 +7091,9 @@
   "text/vnd.fmi.flexstor": {
     "source": "iana",
     "extensions": ["flx"]
+  },
+  "text/vnd.gml": {
+    "source": "iana"
   },
   "text/vnd.graphviz": {
     "source": "iana",
