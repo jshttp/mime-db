@@ -743,6 +743,14 @@
       "https://tools.ietf.org/html/rfc7763"
     ]
   },
+  "text/mdx": {
+    "compressible": true,
+    "extensions": ["mdx"],
+    "notes": "JSX in Markdown",
+    "sources": [
+      "https://github.com/mdx-js/specification"
+    ]
+  },
   "text/n3": {
     "compressible": true,
     "sources": [

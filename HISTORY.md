@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add `text/mdx` with extension `.mdx`
+
 1.39.0 / 2019-04-04
 ===================
 

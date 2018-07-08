@@ -7149,6 +7149,10 @@
     "source": "nginx",
     "extensions": ["mml"]
   },
+  "text/mdx": {
+    "compressible": true,
+    "extensions": ["mdx"]
+  },
   "text/mizar": {
     "source": "iana"
   },
