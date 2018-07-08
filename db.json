@@ -6940,6 +6940,10 @@
     "source": "nginx",
     "extensions": ["mml"]
   },
+  "text/mdx": {
+    "compressible": false,
+    "extensions": ["mdx"]
+  },
   "text/mizar": {
     "source": "iana"
   },
