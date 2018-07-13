@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extension `.owl` to `application/rdf+xml`
   * Add new upstream MIME types
     - Removes extension `.woff` from `application/font-woff`
 

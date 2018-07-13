@@ -1092,7 +1092,7 @@
   "application/rdf+xml": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["rdf"]
+    "extensions": ["rdf","owl"]
   },
   "application/reginfo+xml": {
     "source": "iana",
