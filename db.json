@@ -1368,6 +1368,10 @@
     "compressible": true,
     "extensions": ["ssml"]
   },
+  "application/stix+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/tamp-apex-update": {
     "source": "iana"
   },
@@ -1404,6 +1408,10 @@
   "application/tar": {
     "compressible": true
   },
+  "application/taxii+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/tei+xml": {
     "source": "iana",
     "compressible": true,
@@ -1432,6 +1440,9 @@
     "compressible": true
   },
   "application/tnauthlist": {
+    "source": "iana"
+  },
+  "application/trickle-ice-sdpfrag": {
     "source": "iana"
   },
   "application/trig": {
@@ -1813,6 +1824,10 @@
   "application/vnd.businessobjects": {
     "source": "iana",
     "extensions": ["rep"]
+  },
+  "application/vnd.byu.uapi+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.cab-jscript": {
     "source": "iana"
@@ -7098,6 +7113,9 @@
   "text/vnd.graphviz": {
     "source": "iana",
     "extensions": ["gv"]
+  },
+  "text/vnd.hgl": {
+    "source": "iana"
   },
   "text/vnd.in3d.3dml": {
     "source": "iana",

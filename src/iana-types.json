@@ -1692,6 +1692,7 @@
   },
   "application/secevent+jwt": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8417.txt",
       "http://www.iana.org/assignments/media-types/application/secevent+jwt"
     ]
   },
@@ -1891,6 +1892,11 @@
       "http://www.iana.org/assignments/media-types/application/ssml+xml"
     ]
   },
+  "application/stix+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/stix+json"
+    ]
+  },
   "application/tamp-apex-update": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc5934.txt",
@@ -1957,6 +1963,11 @@
       "http://www.iana.org/assignments/media-types/application/tamp-update-confirm"
     ]
   },
+  "application/taxii+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/taxii+json"
+    ]
+  },
   "application/tei+xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc6129.txt",
@@ -2001,6 +2012,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc8226.txt",
       "http://www.iana.org/assignments/media-types/application/tnauthlist"
+    ]
+  },
+  "application/trickle-ice-sdpfrag": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/trickle-ice-sdpfrag"
     ]
   },
   "application/trig": {
@@ -2487,6 +2503,11 @@
   "application/vnd.businessobjects": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.businessobjects"
+    ]
+  },
+  "application/vnd.byu.uapi+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.byu.uapi+json"
     ]
   },
   "application/vnd.cab-jscript": {
@@ -8618,6 +8639,11 @@
   "text/vnd.graphviz": {
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.graphviz"
+    ]
+  },
+  "text/vnd.hgl": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/vnd.hgl"
     ]
   },
   "text/vnd.in3d.3dml": {
