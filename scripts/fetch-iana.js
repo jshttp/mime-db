@@ -14,6 +14,7 @@ var writedb = require('./lib/write-db')
 
 var extensionsRegExp = /^\s*(?:\d\.\s+)?File extension(?:\(s\)|s|)\s?:\s+(?:\*\.|\.|)([0-9a-z_-]+)\s*(?:\(|$)/im
 var extensionsQuotedRegExp = /^\s*(?:\d\.\s+)?File extension(?:\(s\)|s|)\s?:(?:[^'"\r\n]+)(?:"\.?([0-9a-z_-]+)"|'\.?([0-9a-z_-]+)')/im
+var intendedUsageRegExp = /^\s*(?:(?:\d{1,2}\.|o)\s+)?Intended\s+Usage\s*:\s*(\S+)/im
 var leadingSpacesRegExp = /^\s+/
 var listColonRegExp = /:(?:\s|$)/m
 var nameWithNotesRegExp = /^(\S+)(?: - (.*)$| \((.*)\)$|)/
@@ -118,13 +119,21 @@ function addTemplateData (data, options) {
       data.mime = mime
 
       // use extracted extensions
-      if (opts.extensions) {
+      if (opts.extensions && extractIntendedUsage(body) === 'common') {
         data.extensions = extractTemplateExtensions(body)
       }
     }
 
     return data
   }
+}
+
+function extractIntendedUsage (body) {
+  var match = intendedUsageRegExp.exec(body)
+
+  return match
+    ? match[1].toLocaleLowerCase()
+    : undefined
 }
 
 function extractTemplateMime (body) {
