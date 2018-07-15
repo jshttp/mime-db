@@ -1,5 +1,5 @@
-unreleased
-==========
+1.35.0 / 2018-07-15
+===================
 
   * Add extension `.owl` to `application/rdf+xml`
   * Add new upstream MIME types
