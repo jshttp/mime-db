@@ -6918,6 +6918,9 @@
   "text/enriched": {
     "source": "iana"
   },
+  "text/event-stream": {
+    "compressible": false
+  },
   "text/fwdred": {
     "source": "iana"
   },
