@@ -1739,17 +1739,20 @@
     "extensions": ["mpkg"]
   },
   "application/vnd.apple.keynote": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["keynote"]
   },
   "application/vnd.apple.mpegurl": {
     "source": "iana",
     "extensions": ["m3u8"]
   },
   "application/vnd.apple.numbers": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["numbers"]
   },
   "application/vnd.apple.pages": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["pages"]
   },
   "application/vnd.apple.pkpass": {
     "compressible": false,

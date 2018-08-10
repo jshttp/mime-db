@@ -2385,6 +2385,7 @@
     ]
   },
   "application/vnd.apple.keynote": {
+    "extensions": ["keynote"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.apple.keynote"
     ]
@@ -2396,11 +2397,13 @@
     ]
   },
   "application/vnd.apple.numbers": {
+    "extensions": ["numbers"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.apple.numbers"
     ]
   },
   "application/vnd.apple.pages": {
+    "extensions": ["pages"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.apple.pages"
     ]

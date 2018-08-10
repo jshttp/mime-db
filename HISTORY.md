@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add Apple file extensions from IANA
   * Add new upstream MIME types
 
 1.35.0 / 2018-07-15

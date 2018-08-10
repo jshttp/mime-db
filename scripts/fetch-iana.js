@@ -29,7 +29,7 @@ var urlReferenceRegExp = /\[(https?:\/\/[^\]]+)]/gi
 
 co(function * () {
   var gens = yield [
-    get('application'),
+    get('application', { extensions: /\/vnd\.apple\./ }),
     get('audio'),
     get('font', { extensions: true }),
     get('image'),
@@ -119,7 +119,9 @@ function addTemplateData (data, options) {
       data.mime = mime
 
       // use extracted extensions
-      if (opts.extensions && extractIntendedUsage(body) === 'common') {
+      var useExt = opts.extensions &&
+        (opts.extensions === true || opts.extensions.test(data.mime))
+      if (useExt && extractIntendedUsage(body) === 'common') {
         data.extensions = extractTemplateExtensions(body)
       }
     }
