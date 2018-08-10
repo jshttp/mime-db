@@ -32,7 +32,7 @@ co(function * () {
     get('application', { extensions: /\/vnd\.apple\./ }),
     get('audio'),
     get('font', { extensions: true }),
-    get('image'),
+    get('image', { extensions: true }),
     get('message', { extensions: true }),
     get('model'),
     get('multipart'),
