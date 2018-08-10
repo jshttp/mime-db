@@ -2347,10 +2347,25 @@
       "http://www.iana.org/assignments/media-types/application/vnd.apple.installer+xml"
     ]
   },
+  "application/vnd.apple.keynote": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.apple.keynote"
+    ]
+  },
   "application/vnd.apple.mpegurl": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc8216.txt",
       "http://www.iana.org/assignments/media-types/application/vnd.apple.mpegurl"
+    ]
+  },
+   "application/vnd.apple.numbers": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.apple.numbers"
+    ]
+  },
+   "application/vnd.apple.pages": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.apple.pages"
     ]
   },
   "application/vnd.arastra.swi": {
