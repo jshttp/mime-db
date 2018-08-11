@@ -662,6 +662,11 @@
       "http://www.iana.org/assignments/media-types/application/geo+json-seq"
     ]
   },
+  "application/geopackage+sqlite3": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/geopackage+sqlite3"
+    ]
+  },
   "application/geoxacml+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/geoxacml+xml"

@@ -456,6 +456,9 @@
   "application/geo+json-seq": {
     "source": "iana"
   },
+  "application/geopackage+sqlite3": {
+    "source": "iana"
+  },
   "application/geoxacml+xml": {
     "source": "iana",
     "compressible": true
