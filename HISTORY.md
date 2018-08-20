@@ -1,5 +1,5 @@
-unreleased
-==========
+1.36.0 / 2018-08-20
+===================
 
   * Add Apple file extensions from IANA
   * Add extensions from IANA for `image/*` types
