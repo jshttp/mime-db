@@ -695,6 +695,15 @@
       "https://tools.ietf.org/html/rfc7763"
     ]
   },
+  "text/mdx": {
+    "compressible": false,
+    "extensions": ["mdx"],
+    "notes": "JSX in Markdown",
+    "sources": [
+      "https://spectrum.chat/thread/1021be59-2738-4511-aceb-c66921050b9a",
+      "https://github.com/mdx-js/specification"
+    ]
+  },
   "text/n3": {
     "compressible": true,
     "sources": [
