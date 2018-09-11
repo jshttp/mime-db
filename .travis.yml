@@ -30,7 +30,7 @@ before_install:
   - npm rm --save-dev stream-to-array
 
   # Setup Node.js version-specific dependencies
-  - "test $(echo $TRAVIS_NODE_VERSION | cut -d. -f1) -ge 4 || npm rm --save-dev nyc"
+  - "test $(echo $TRAVIS_NODE_VERSION | cut -d. -f1) -ge 6 || npm rm --save-dev nyc"
   - "test $(echo $TRAVIS_NODE_VERSION | cut -d. -f1) -ge 6 || npm rm --save-dev $(grep -E '\"eslint\\S*\"' package.json | cut -d'\"' -f2)"
 script:
   # Run test script, depending on nyc install
