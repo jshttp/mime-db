@@ -192,7 +192,7 @@ function * get (type, options) {
   var templates = Object.create(null)
 
   return mimes.map(function (row) {
-    var data = row.reduce(reduceRows, {type: type})
+    var data = row.reduce(reduceRows, { type: type })
 
     if (data.template) {
       if (data.template === type + '/example') {
@@ -225,7 +225,7 @@ function * get (type, options) {
 }
 
 function * getTemplateBody (res) {
-  var body = yield getRawBody(res, {encoding: 'ascii'})
+  var body = yield getRawBody(res, { encoding: 'ascii' })
   var lines = body.split(/\r?\n/)
   var slurp = false
 
