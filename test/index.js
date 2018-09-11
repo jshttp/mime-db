@@ -29,17 +29,17 @@ describe('mime-db', function () {
 
   it('should not have any uppercased letters in names', function () {
     Object.keys(db).forEach(function (name) {
-      assert.equal(name, name.toLowerCase(), 'type "' + name + '" should be lowercase')
+      assert.strictEqual(name, name.toLowerCase(), 'type "' + name + '" should be lowercase')
     })
   })
 
   it('should have .json and .js as having UTF-8 charsets', function () {
-    assert.equal('UTF-8', db['application/json'].charset)
-    assert.equal('UTF-8', db['application/javascript'].charset)
+    assert.strictEqual('UTF-8', db['application/json'].charset)
+    assert.strictEqual('UTF-8', db['application/javascript'].charset)
   })
 
   it('should set audio/x-flac with extension=flac', function () {
-    assert.equal('flac', db['audio/x-flac'].extensions[0])
+    assert.strictEqual('flac', db['audio/x-flac'].extensions[0])
   })
 
   it('should have guessed application/mathml+xml', function () {
@@ -56,7 +56,7 @@ describe('mime-db', function () {
   })
 
   it('should have the default .extension as the first', function () {
-    assert.equal(db['text/plain'].extensions[0], 'txt')
-    assert.equal(db['video/x-matroska'].extensions[0], 'mkv')
+    assert.strictEqual(db['text/plain'].extensions[0], 'txt')
+    assert.strictEqual(db['video/x-matroska'].extensions[0], 'mkv')
   })
 })
