@@ -454,6 +454,11 @@
       "http://www.iana.org/assignments/media-types/application/dns+json"
     ]
   },
+  "application/dns-message": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/dns-message"
+    ]
+  },
   "application/dskpp+xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc6063.txt",
@@ -777,7 +782,8 @@
   },
   "application/iotp": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc2935.txt"
+      "http://tools.ietf.org/rfc/rfc2935.txt",
+      "http://www.iana.org/assignments/media-types/application/IOTP"
     ]
   },
   "application/ipfix": {
@@ -1252,8 +1258,8 @@
   },
   "application/oda": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc2045.txt",
-      "http://tools.ietf.org/rfc/rfc2046.txt"
+      "http://tools.ietf.org/rfc/rfc1494.txt",
+      "http://www.iana.org/assignments/media-types/application/ODA"
     ]
   },
   "application/odx": {
@@ -1355,14 +1361,12 @@
   },
   "application/pkcs7-mime": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc5751.txt",
       "http://tools.ietf.org/rfc/rfc7114.txt",
       "http://www.iana.org/assignments/media-types/application/pkcs7-mime"
     ]
   },
   "application/pkcs7-signature": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc5751.txt",
       "http://www.iana.org/assignments/media-types/application/pkcs7-signature"
     ]
   },
@@ -1493,7 +1497,8 @@
   },
   "application/qsig": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc3204.txt"
+      "http://tools.ietf.org/rfc/rfc3204.txt",
+      "http://www.iana.org/assignments/media-types/application/QSIG"
     ]
   },
   "application/raptorfec": {
@@ -1700,41 +1705,49 @@
   },
   "application/senml+cbor": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8428.txt",
       "http://www.iana.org/assignments/media-types/application/senml+cbor"
     ]
   },
   "application/senml+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8428.txt",
       "http://www.iana.org/assignments/media-types/application/senml+json"
     ]
   },
   "application/senml+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8428.txt",
       "http://www.iana.org/assignments/media-types/application/senml+xml"
     ]
   },
   "application/senml-exi": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8428.txt",
       "http://www.iana.org/assignments/media-types/application/senml-exi"
     ]
   },
   "application/sensml+cbor": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8428.txt",
       "http://www.iana.org/assignments/media-types/application/sensml+cbor"
     ]
   },
   "application/sensml+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8428.txt",
       "http://www.iana.org/assignments/media-types/application/sensml+json"
     ]
   },
   "application/sensml+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8428.txt",
       "http://www.iana.org/assignments/media-types/application/sensml+xml"
     ]
   },
   "application/sensml-exi": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8428.txt",
       "http://www.iana.org/assignments/media-types/application/sensml-exi"
     ]
   },
@@ -3417,6 +3430,11 @@
   "application/vnd.fut-misnet": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.fut-misnet"
+    ]
+  },
+  "application/vnd.futoin+cbor": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.futoin+cbor"
     ]
   },
   "application/vnd.futoin+json": {
@@ -9082,6 +9100,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc4425.txt",
       "http://www.iana.org/assignments/media-types/video/vc1"
+    ]
+  },
+  "video/vc2": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vc2"
     ]
   },
   "video/vnd.cctv": {
