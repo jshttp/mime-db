@@ -17,25 +17,52 @@ node_js:
 sudo: false
 dist: precise
 before_install:
-  # Skip updating shrinkwrap / lock
-  - "npm config set shrinkwrap false"
-
+  # Configure npm
+  - |
+    # Skip updating shrinkwrap / lock
+    npm config set shrinkwrap false
   # Remove all non-test dependencies
-  - npm rm --save-dev bluebird
-  - npm rm --save-dev co
-  - npm rm --save-dev cogent
-  - npm rm --save-dev csv-parse
-  - npm rm --save-dev gnode
-  - npm rm --save-dev raw-body
-  - npm rm --save-dev stream-to-array
-
+  - |
+    # Remove build dependencies
+    npm rm --save-dev bluebird
+    npm rm --save-dev co
+    npm rm --save-dev cogent
+    npm rm --save-dev csv-parse
+    npm rm --save-dev gnode
+    npm rm --save-dev raw-body
+    npm rm --save-dev stream-to-array
   # Setup Node.js version-specific dependencies
-  - "test $(echo $TRAVIS_NODE_VERSION | cut -d. -f1) -ge 6 || npm rm --save-dev nyc"
-  - "test $(echo $TRAVIS_NODE_VERSION | cut -d. -f1) -ge 6 || npm rm --save-dev $(grep -E '\"eslint\\S*\"' package.json | cut -d'\"' -f2)"
+  - |
+    # nyc for coverage
+    # - remove on Node.js < 6
+    if [[ "$(cut -d. -f1 <<< "$TRAVIS_NODE_VERSION")" -lt 6 ]]; then
+      npm rm --save-dev nyc
+    fi
+  - |
+    # eslint for linting
+    # - remove on Node.js < 6
+    if [[ "$(cut -d. -f1 <<< "$TRAVIS_NODE_VERSION")" -lt 6 ]]; then
+      node -pe 'Object.keys(require("./package").devDependencies).join("\n")' | \
+        grep -E '^eslint(-|$)' | \
+        xargs npm rm --save-dev
+    fi
 script:
-  # Run test script, depending on nyc install
-  - "test ! -z $(npm -ps ls nyc) || npm test"
-  - "test   -z $(npm -ps ls nyc) || npm run-script test-travis"
-  - "test   -z $(npm -ps ls eslint) || npm run-script lint"
+  - |
+    # Run test script, depending on nyc install
+    if [[ -n "$(npm -ps ls nyc)" ]]; then
+      npm run-script test-travis
+    else
+      npm test
+    fi
+  - |
+    # Run linting, depending on eslint install
+    if [[ -n "$(npm -ps ls eslint)" ]]; then
+      npm run-script lint
+    fi
 after_script:
-  - "test -d .nyc_output && npm install coveralls@2 && nyc report --reporter=text-lcov | coveralls"
+  - |
+    # Upload coverage to coveralls if exists
+    if [[ -d .nyc_output ]]; then
+      npm install --save-dev coveralls@2
+      nyc report --reporter=text-lcov | coveralls
+    fi
