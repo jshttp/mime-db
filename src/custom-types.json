@@ -517,6 +517,34 @@
   "image/gif": {
     "compressible": false
   },
+  "image/heic": {
+    "extensions": ["heic"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/heic",
+      "http://nokiatech.github.io/heif/technical.html"
+    ]
+  },
+  "image/heic-sequence": {
+    "extensions": ["heics"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/heic-sequence",
+      "http://nokiatech.github.io/heif/technical.html"
+    ]
+  },
+  "image/heif": {
+    "extensions": ["heif"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/heif",
+      "http://nokiatech.github.io/heif/technical.html"
+    ]
+  },
+  "image/heif-sequence": {
+    "extensions": ["heifs"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/heif-sequence",
+      "http://nokiatech.github.io/heif/technical.html"
+    ]
+  },
   "image/jpeg": {
     "compressible": false
   },

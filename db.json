@@ -6400,16 +6400,20 @@
     "extensions": ["gif"]
   },
   "image/heic": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["heic"]
   },
   "image/heic-sequence": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["heics"]
   },
   "image/heif": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["heif"]
   },
   "image/heif-sequence": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["heifs"]
   },
   "image/ief": {
     "source": "iana",
