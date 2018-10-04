@@ -424,6 +424,18 @@
   "application/x-xpinstall": {
     "compressible": false
   },
+  "application/x-zip": {
+    "extensions": ["zip"],
+    "sources": [
+      "http://filext.com/file-extension/ZIP"
+    ]
+  },
+  "application/x-zip-compressed": {
+    "extensions": ["zip"],
+    "sources": [
+      "http://filext.com/file-extension/ZIP"
+    ]
+  },
   "application/xml": {
     "compressible": true,
     "extensions": ["xsd", "rng"],
