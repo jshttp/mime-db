@@ -5728,6 +5728,10 @@
   "application/zstd": {
     "source": "iana"
   },
+  "application/x-shellscript": {
+    "source": "iana",
+    "extensions": ["sh"]
+  },
   "audio/1d-interleaved-parityfec": {
     "source": "iana"
   },
