@@ -2394,6 +2394,10 @@
   "application/vnd.evolv.ecig.theme": {
     "source": "iana"
   },
+  "application/vnd.exstream-empower+zip": {
+    "source": "iana",
+    "compressible": false
+  },
   "application/vnd.ezpix-album": {
     "source": "iana",
     "extensions": ["ez2"]

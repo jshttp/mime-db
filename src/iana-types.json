@@ -2014,11 +2014,13 @@
   },
   "application/tlsrpt+gzip": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8460.txt",
       "http://www.iana.org/assignments/media-types/application/tlsrpt+gzip"
     ]
   },
   "application/tlsrpt+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8460.txt",
       "http://www.iana.org/assignments/media-types/application/tlsrpt+json"
     ]
   },
@@ -3275,6 +3277,11 @@
   "application/vnd.evolv.ecig.theme": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.evolv.ecig.theme"
+    ]
+  },
+  "application/vnd.exstream-empower+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.exstream-empower+zip"
     ]
   },
   "application/vnd.ezpix-album": {
@@ -5861,6 +5868,9 @@
     ]
   },
   "application/vnd.renlearn.rlprint": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.RenLearn.rlprint"
+    ]
   },
   "application/vnd.restful+json": {
     "sources": [
@@ -6854,6 +6864,7 @@
   },
   "application/zstd": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8478.txt",
       "http://www.iana.org/assignments/media-types/application/zstd"
     ]
   },
@@ -9104,6 +9115,7 @@
   },
   "video/vc2": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8450.txt",
       "http://www.iana.org/assignments/media-types/video/vc2"
     ]
   },
