@@ -1,5 +1,5 @@
-unreleased
-==========
+1.37.0 / 2018-10-19
+===================
 
   * Add extensions to HEIC image types
   * Add new upstream MIME types
