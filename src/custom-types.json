@@ -666,6 +666,15 @@
   "multipart/signed": {
     "compressible": false
   },
+  "text/acl": {
+    "compressible": true,
+    "extensions": ["acl"],
+    "sources": [
+      "https://www.w3.org/wiki/WebAccessControl",
+      "https://github.com/solid/web-access-control-spec"
+    ],
+    "notes": "Decentralized file permissions"
+  },
   "text/cache-manifest": {
     "compressible": true,
     "extensions": ["manifest"],
