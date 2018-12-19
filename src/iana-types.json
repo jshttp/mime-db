@@ -456,6 +456,7 @@
   },
   "application/dns-message": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8484.txt",
       "http://www.iana.org/assignments/media-types/application/dns-message"
     ]
   },
@@ -1262,6 +1263,11 @@
       "http://www.iana.org/assignments/media-types/application/ODA"
     ]
   },
+  "application/odm+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/odm+xml"
+    ]
+  },
   "application/odx": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/ODX"
@@ -2050,6 +2056,16 @@
       "http://www.iana.org/assignments/media-types/application/tve-trigger"
     ]
   },
+  "application/tzif": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/tzif"
+    ]
+  },
+  "application/tzif-leap": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/tzif-leap"
+    ]
+  },
   "application/ulpfec": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc5109.txt",
@@ -2134,14 +2150,39 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mc-signalling-ear"
     ]
   },
+  "application/vnd.3gpp.mcdata-affiliation-command+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcdata-affiliation-command+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcdata-info+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcdata-info+xml"
+    ]
+  },
   "application/vnd.3gpp.mcdata-payload": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcdata-payload"
     ]
   },
+  "application/vnd.3gpp.mcdata-service-config+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcdata-service-config+xml"
+    ]
+  },
   "application/vnd.3gpp.mcdata-signalling": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcdata-signalling"
+    ]
+  },
+  "application/vnd.3gpp.mcdata-ue-config+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcdata-ue-config+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcdata-user-profile+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcdata-user-profile+xml"
     ]
   },
   "application/vnd.3gpp.mcptt-affiliation-command+xml": {
@@ -2169,9 +2210,69 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-mbms-usage-info+xml"
     ]
   },
+  "application/vnd.3gpp.mcptt-service-config+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-service-config+xml"
+    ]
+  },
   "application/vnd.3gpp.mcptt-signed+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-signed+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcptt-ue-config+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-ue-config+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcptt-ue-init-config+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-ue-init-config+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcptt-user-profile+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-user-profile+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcvideo-affiliation-command+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-affiliation-command+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcvideo-affiliation-info+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-affiliation-info+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcvideo-location-info+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-location-info+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcvideo-mbms-usage-info+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-mbms-usage-info+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcvideo-service-config+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-service-config+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcvideo-transmission-request+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-transmission-request+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcvideo-ue-config+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-ue-config+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcvideo-user-profile+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-user-profile+xml"
     ]
   },
   "application/vnd.3gpp.mid-call+xml": {
@@ -3282,6 +3383,11 @@
   "application/vnd.exstream-empower+zip": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.exstream-empower+zip"
+    ]
+  },
+  "application/vnd.exstream-package": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.exstream-package"
     ]
   },
   "application/vnd.ezpix-album": {
@@ -5611,6 +5717,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.patentdive"
     ]
   },
+  "application/vnd.patientecommsdoc": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.patientecommsdoc"
+    ]
+  },
   "application/vnd.pawaafile": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.pawaafile"
@@ -7482,6 +7593,11 @@
       "http://www.iana.org/assignments/media-types/audio/telephone-event"
     ]
   },
+  "audio/tetra_acelp": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/TETRA_ACELP"
+    ]
+  },
   "audio/tone": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc4733.txt",
@@ -7626,6 +7742,11 @@
   "audio/vnd.dts.hd": {
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.dts.hd"
+    ]
+  },
+  "audio/vnd.dts.uhd": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/vnd.dts.uhd"
     ]
   },
   "audio/vnd.dvb.file": {
@@ -8804,6 +8925,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc5707.txt",
       "http://www.iana.org/assignments/media-types/text/vnd.radisys.msml-basic-layout"
+    ]
+  },
+  "text/vnd.senx.warpscript": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/vnd.senx.warpscript"
     ]
   },
   "text/vnd.si.uricatalogue": {
