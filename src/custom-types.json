@@ -431,6 +431,18 @@
       "http://en.wikipedia.org/wiki/RELAX_NG"
     ]
   },
+  "application/x-zip": {
+    "extensions": ["zip"],
+    "sources": [
+      "http://filext.com/file-extension/ZIP"
+    ]
+  },
+  "application/x-zip-compressed": {
+    "extensions": ["zip"],
+    "sources": [
+      "http://filext.com/file-extension/ZIP"
+    ]
+  },
   "application/xml-dtd": {
     "compressible": true,
     "sources": [
