@@ -434,13 +434,13 @@
   "application/x-zip": {
     "extensions": ["zip"],
     "sources": [
-      "http://filext.com/file-extension/ZIP"
+      "https://www.oreilly.com/library/view/web-design-in/0596009879/ch04s05.html"
     ]
   },
   "application/x-zip-compressed": {
     "extensions": ["zip"],
     "sources": [
-      "http://filext.com/file-extension/ZIP"
+      "https://www.oreilly.com/library/view/web-design-in/0596009879/ch04s05.html"
     ]
   },
   "application/xml-dtd": {
