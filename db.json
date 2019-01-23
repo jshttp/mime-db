@@ -7098,6 +7098,7 @@
     "extensions": ["jsx"]
   },
   "text/less": {
+    "compressible": true,
     "extensions": ["less"]
   },
   "text/markdown": {

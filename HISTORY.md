@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Add new upstream MIME types
+  * Mark `text/less` as compressible
 
 1.37.0 / 2018-10-19
 ===================
