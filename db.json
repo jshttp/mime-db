@@ -865,7 +865,8 @@
     "extensions": ["mxf"]
   },
   "application/n-quads": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["nq"]
   },
   "application/n-triples": {
     "source": "iana"

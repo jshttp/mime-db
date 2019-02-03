@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extension `.nq` to `application/n-quads`
   * Add new upstream MIME types
   * Mark `text/less` as compressible
 

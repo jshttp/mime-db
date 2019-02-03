@@ -105,6 +105,12 @@
   "application/msword": {
     "compressible": false
   },
+  "application/n-quads": {
+    "extensions": ["nq"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/n-quads"
+    ]
+  },
   "application/octet-stream": {
     "compressible": false,
     "extensions": ["buffer"],
