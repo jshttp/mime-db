@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Add extension `.nq` to `application/n-quads`
+  * Add extension `.nt` to `application/n-triples`
   * Add new upstream MIME types
   * Mark `text/less` as compressible
 

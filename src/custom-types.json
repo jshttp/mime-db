@@ -111,6 +111,12 @@
       "https://www.iana.org/assignments/media-types/application/n-quads"
     ]
   },
+  "application/n-triples": {
+    "extensions": ["nt"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/n-triples"
+    ]
+  },
   "application/octet-stream": {
     "compressible": false,
     "extensions": ["buffer"],
