@@ -31,7 +31,7 @@
     "eslint-plugin-standard": "4.0.0",
     "gnode": "0.1.2",
     "mocha": "5.2.0",
-    "nyc": "13.1.0",
+    "nyc": "13.2.0",
     "raw-body": "2.3.3",
     "stream-to-array": "2.3.0"
   },
