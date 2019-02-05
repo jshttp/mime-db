@@ -52,6 +52,7 @@
     "test": "mocha --reporter spec --bail --check-leaks test/",
     "test-cov": "nyc --reporter=html --reporter=text npm test",
     "test-travis": "nyc --reporter=text npm test",
-    "update": "npm run fetch && npm run build"
+    "update": "npm run fetch && npm run build",
+    "version": "node scripts/version-history.js && git add HISTORY.md"
   }
 }
