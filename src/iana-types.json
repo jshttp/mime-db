@@ -598,6 +598,11 @@
       "http://www.w3.org/TR/2009/CR-exi-20091208/#mediaTypeRegistration"
     ]
   },
+  "application/expect-ct-report+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/expect-ct-report+json"
+    ]
+  },
   "application/fastinfoset": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/fastinfoset"
@@ -1325,6 +1330,11 @@
       "http://www.iana.org/assignments/media-types/application/PDX"
     ]
   },
+  "application/pem-certificate-chain": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/pem-certificate-chain"
+    ]
+  },
   "application/pgp-encrypted": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc3156.txt",
@@ -1992,6 +2002,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc6129.txt",
       "http://www.iana.org/assignments/media-types/application/tei+xml"
+    ]
+  },
+  "application/tetra_isi": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/TETRA_ISI"
     ]
   },
   "application/thraud+xml": {
@@ -6476,6 +6491,11 @@
   "application/vnd.verimatrix.vcas": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.verimatrix.vcas"
+    ]
+  },
+  "application/vnd.veryant.thin": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.veryant.thin"
     ]
   },
   "application/vnd.vidsoft.vidconference": {

@@ -412,6 +412,10 @@
     "source": "iana",
     "extensions": ["exi"]
   },
+  "application/expect-ct-report+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/fastinfoset": {
     "source": "iana"
   },
@@ -962,6 +966,9 @@
   "application/pdx": {
     "source": "iana"
   },
+  "application/pem-certificate-chain": {
+    "source": "iana"
+  },
   "application/pgp-encrypted": {
     "source": "iana",
     "compressible": false,
@@ -1428,6 +1435,9 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["tei","teicorpus"]
+  },
+  "application/tetra_isi": {
+    "source": "iana"
   },
   "application/thraud+xml": {
     "source": "iana",
@@ -4885,6 +4895,9 @@
     "compressible": true
   },
   "application/vnd.verimatrix.vcas": {
+    "source": "iana"
+  },
+  "application/vnd.veryant.thin": {
     "source": "iana"
   },
   "application/vnd.vidsoft.vidconference": {
