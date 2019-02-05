@@ -1,5 +1,5 @@
-unreleased
-==========
+1.38.0 / 2019-02-04
+===================
 
   * Add extension `.nq` to `application/n-quads`
   * Add extension `.nt` to `application/n-triples`
