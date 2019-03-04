@@ -842,9 +842,6 @@
   "text/yaml": {
     "extensions": ["yaml","yml"]
   },
-  "video/mp2t": {
-    "extensions": ["ts"]
-  },
   "video/mp4": {
     "compressible": false
   },
