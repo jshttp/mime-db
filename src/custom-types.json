@@ -479,6 +479,13 @@
   "audio/ogg": {
     "compressible": false
   },
+  "audio/ogg; codecs=opus": {
+    "compressible": false,
+    "extensions": ["opus"],
+    "sources": [
+      "https://tools.ietf.org/html/rfc7845"
+    ]
+  },
   "audio/wav": {
     "compressible": false,
     "extensions": ["wav"]
