@@ -102,6 +102,18 @@
     "compressible": true,
     "extensions": ["atomsvc"]
   },
+  "application/atsc-dwd+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/atsc-held+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/atsc-rsat+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/atxml": {
     "source": "iana"
   },
@@ -801,6 +813,10 @@
   "application/mikey": {
     "source": "iana"
   },
+  "application/mmt-aei+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/mmt-usd+xml": {
     "source": "iana",
     "compressible": true
@@ -938,6 +954,9 @@
   "application/onenote": {
     "source": "apache",
     "extensions": ["onetoc","onetoc2","onetmp","onepkg"]
+  },
+  "application/oscore": {
+    "source": "iana"
   },
   "application/oxps": {
     "source": "iana",
@@ -6551,6 +6570,10 @@
     "source": "iana",
     "compressible": false,
     "extensions": ["jpx","jpf"]
+  },
+  "image/jxr": {
+    "source": "iana",
+    "extensions": ["jxr"]
   },
   "image/ktx": {
     "source": "iana",

@@ -145,6 +145,21 @@
       "http://www.iana.org/assignments/media-types/application/atomsvc+xml"
     ]
   },
+  "application/atsc-dwd+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/atsc-dwd+xml"
+    ]
+  },
+  "application/atsc-held+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/atsc-held+xml"
+    ]
+  },
+  "application/atsc-rsat+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/atsc-rsat+xml"
+    ]
+  },
   "application/atxml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/ATXML"
@@ -1087,6 +1102,11 @@
       "http://www.iana.org/assignments/media-types/application/mikey"
     ]
   },
+  "application/mmt-aei+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/mmt-aei+xml"
+    ]
+  },
   "application/mmt-usd+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/mmt-usd+xml"
@@ -1184,6 +1204,7 @@
   },
   "application/mud+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8520.txt",
       "http://www.iana.org/assignments/media-types/application/mud+json"
     ]
   },
@@ -1291,6 +1312,11 @@
       "http://www.iana.org/assignments/media-types/application/ogg"
     ]
   },
+  "application/oscore": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/oscore"
+    ]
+  },
   "application/oxps": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/oxps"
@@ -1332,6 +1358,7 @@
   },
   "application/pem-certificate-chain": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8555.txt",
       "http://www.iana.org/assignments/media-types/application/pem-certificate-chain"
     ]
   },
@@ -2073,11 +2100,13 @@
   },
   "application/tzif": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8536.txt",
       "http://www.iana.org/assignments/media-types/application/tzif"
     ]
   },
   "application/tzif-leap": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8536.txt",
       "http://www.iana.org/assignments/media-types/application/tzif-leap"
     ]
   },
@@ -8018,6 +8047,12 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc3745.txt",
       "http://www.iana.org/assignments/media-types/image/jpx"
+    ]
+  },
+  "image/jxr": {
+    "extensions": ["jxr"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/jxr"
     ]
   },
   "image/ktx": {
