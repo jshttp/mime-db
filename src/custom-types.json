@@ -38,10 +38,10 @@
   },
   "application/font-woff": {
     "compressible": false,
+    "notes": "File type is already a binary compressed format.",
     "sources": [
       "https://github.com/h5bp/server-configs-apache/issues/42"
-    ],
-    "notes": "File type is already a binary compressed format."
+    ]
   },
   "application/geo+json": {
     "extensions": ["geojson"],
@@ -143,9 +143,6 @@
       "http://raml.org/spec.html"
     ]
   },
-  "application/rtf": {
-    "compressible": true
-  },
   "application/rdf+xml": {
     "compressible": true,
     "extensions": ["rdf","owl"],
@@ -153,6 +150,9 @@
     "sources": [
       "https://www.w3.org/TR/owl-ref/#MIMEType"
     ]
+  },
+  "application/rtf": {
+    "compressible": true
   },
   "application/sieve": {
     "extensions": ["siv","sieve"],
@@ -191,9 +191,6 @@
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
-  "application/vnd.google-earth.kmz": {
-    "compressible": false
-  },
   "application/vnd.google-apps.presentation": {
     "compressible": false,
     "extensions": ["gslides"],
@@ -209,6 +206,9 @@
       "https://developers.google.com/drive/v2/web/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
+  },
+  "application/vnd.google-earth.kmz": {
+    "compressible": false
   },
   "application/vnd.ms-excel": {
     "compressible": false
@@ -363,8 +363,8 @@
     "compressible": true
   },
   "application/x-virtualbox-hdd": {
-    "extensions": ["hdd"],
     "compressible": true,
+    "extensions": ["hdd"],
     "notes": "Parallels Hard Disk Image",
     "sources": [
       "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
@@ -372,8 +372,8 @@
     ]
   },
   "application/x-virtualbox-ova": {
-    "extensions": ["ova"],
     "compressible": true,
+    "extensions": ["ova"],
     "notes": "Open Virtualization Format (OVF) Archive",
     "sources": [
       "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
@@ -381,8 +381,8 @@
     ]
   },
   "application/x-virtualbox-ovf": {
-    "extensions": ["ovf"],
     "compressible": true,
+    "extensions": ["ovf"],
     "notes": "Open Virtualization Format (OVF) Image",
     "sources": [
       "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
@@ -390,8 +390,8 @@
     ]
   },
   "application/x-virtualbox-vbox": {
-    "extensions": ["vbox"],
     "compressible": true,
+    "extensions": ["vbox"],
     "notes": "VirtualBox Settings File",
     "sources": [
       "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
@@ -399,8 +399,8 @@
     ]
   },
   "application/x-virtualbox-vbox-extpack": {
-    "extensions": ["vbox-extpack"],
     "compressible": false,
+    "extensions": ["vbox-extpack"],
     "notes": "VirtualBox Extension Pack",
     "sources": [
       "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
@@ -408,8 +408,8 @@
     ]
   },
   "application/x-virtualbox-vdi": {
-    "extensions": ["vdi"],
     "compressible": true,
+    "extensions": ["vdi"],
     "notes": "VirtualBox Disk Image",
     "sources": [
       "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
@@ -417,8 +417,8 @@
     ]
   },
   "application/x-virtualbox-vhd": {
-    "extensions": ["vhd"],
     "compressible": true,
+    "extensions": ["vhd"],
     "notes": "Microsoft Virtual Hard Disk",
     "sources": [
       "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
@@ -426,8 +426,8 @@
     ]
   },
   "application/x-virtualbox-vmdk": {
-    "extensions": ["vmdk"],
     "compressible": true,
+    "extensions": ["vmdk"],
     "notes": "VMWare Virtual Machine Disk",
     "sources": [
       "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
@@ -445,7 +445,7 @@
   },
   "application/xml": {
     "compressible": true,
-    "extensions": ["xsd", "rng"],
+    "extensions": ["xsd","rng"],
     "sources": [
       "http://en.wikipedia.org/wiki/RELAX_NG"
     ]
@@ -459,14 +459,14 @@
   "application/zip": {
     "compressible": false
   },
-  "audio/l24": {
-    "compressible": false
-  },
   "audio/3gpp": {
     "compressible": false,
     "extensions": ["3gpp"]
   },
   "audio/basic": {
+    "compressible": false
+  },
+  "audio/l24": {
     "compressible": false
   },
   "audio/mp3": {
@@ -486,14 +486,6 @@
   "audio/ogg": {
     "compressible": false
   },
-  "audio/wav": {
-    "compressible": false,
-    "extensions": ["wav"]
-  },
-  "audio/wave": {
-    "compressible": false,
-    "extensions": ["wav"]
-  },
   "audio/vnd.rn-realaudio": {
     "compressible": false
   },
@@ -502,6 +494,14 @@
   },
   "audio/vorbis": {
     "compressible": false
+  },
+  "audio/wav": {
+    "compressible": false,
+    "extensions": ["wav"]
+  },
+  "audio/wave": {
+    "compressible": false,
+    "extensions": ["wav"]
   },
   "audio/webm": {
     "compressible": false
@@ -564,9 +564,6 @@
       "http://nokiatech.github.io/heif/technical.html"
     ]
   },
-  "image/jpeg": {
-    "compressible": false
-  },
   "image/jp2": {
     "compressible": false,
     "extensions": ["jp2","jpg2"],
@@ -575,7 +572,10 @@
       "https://tools.ietf.org/html/rfc3745"
     ]
   },
-    "image/jpm": {
+  "image/jpeg": {
+    "compressible": false
+  },
+  "image/jpm": {
     "compressible": false,
     "extensions": ["jpm"],
     "sources": [
@@ -599,20 +599,20 @@
   },
   "image/tiff": {
     "compressible": false,
+    "notes": "Gains insignificant in testing.",
     "sources": [
       "http://stackoverflow.com/a/12770116"
-    ],
-    "notes": "Gains insignificant in testing."
+    ]
   },
   "image/vnd.adobe.photoshop": {
     "compressible": true
   },
   "image/x-icon": {
     "compressible": true,
+    "notes": "Usually a wrapper for .bmp formated images.",
     "sources": [
       "http://en.wikipedia.org/wiki/ICO_(file_format)"
-    ],
-    "notes": "Usually a wrapper for .bmp formated images."
+    ]
   },
   "image/x-ms-bmp": {
     "compressible": true,
@@ -625,10 +625,10 @@
   },
   "message/http": {
     "compressible": false,
+    "notes": "It is safest to leave these uncompressed.",
     "sources": [
       "http://stackoverflow.com/a/1450163"
-    ],
-    "notes": "It is safest to leave these uncompressed."
+    ]
   },
   "message/partial": {
     "compressible": false
@@ -639,17 +639,17 @@
       "http://en.wikipedia.org/wiki/MIME#Multipart_subtypes"
     ]
   },
+  "model/gltf+json": {
+    "extensions": ["gltf"],
+    "sources": [
+      "https://github.com/KhronosGroup/glTF/tree/master/specification/2.0"
+    ]
+  },
   "model/gltf-binary": {
     "compressible": true,
     "extensions": ["glb"],
     "sources": [
       "https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#glb-file-format-specification"
-    ]
-  },
-  "model/gltf+json": {
-    "extensions": ["gltf"],
-    "sources": [
-      "https://github.com/KhronosGroup/glTF/tree/master/specification/2.0"
     ]
   },
   "model/iges": {
@@ -688,28 +688,28 @@
   "text/cache-manifest": {
     "compressible": true,
     "extensions": ["manifest"],
+    "notes": "I think so.",
     "sources": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=715191#c2"
-    ],
-    "notes": "I think so."
+    ]
   },
   "text/calender": {
     "compressible": true,
+    "notes": "Probably needs to be uncompressed before sent to iCalender.",
     "sources": [
       "http://en.wikipedia.org/wiki/ICalendar"
-    ],
-    "notes": "Probably needs to be uncompressed before sent to iCalender."
+    ]
   },
   "text/cmd": {
     "compressible": true
   },
   "text/coffeescript": {
-    "extensions": ["coffee", "litcoffee"]
+    "extensions": ["coffee","litcoffee"]
   },
   "text/css": {
     "charset": "UTF-8",
     "compressible": true,
-    "sources":[
+    "sources": [
       "https://www.w3.org/TR/CSS22/syndata.html#charset"
     ]
   },
@@ -763,13 +763,13 @@
   "text/shex": {
     "extensions": ["shex"],
     "sources": [
-       "http://shex.io/shex-semantics/"
+      "http://shex.io/shex-semantics/"
     ]
   },
   "text/slim": {
     "extensions": ["slim","slm"],
     "sources": [
-       "http://slim-lang.com/"
+      "http://slim-lang.com/"
     ]
   },
   "text/stylus": {
@@ -795,7 +795,7 @@
     "compressible": true,
     "extensions": ["vtt"],
     "sources": [
-       "http://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
+      "http://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
     ]
   },
   "text/x-gwt-rpc": {
