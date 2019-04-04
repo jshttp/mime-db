@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extensions `.siv` and `.sieve` to `application/sieve`
   * Add new upstream MIME types
 
 1.38.0 / 2019-02-04

@@ -154,6 +154,13 @@
       "https://www.w3.org/TR/owl-ref/#MIMEType"
     ]
   },
+  "application/sieve": {
+    "extensions": ["siv","sieve"],
+    "sources": [
+      "https://tools.ietf.org/rfc/rfc5228.txt",
+      "https://www.iana.org/assignments/media-types/application/sieve"
+    ]
+  },
   "application/tar": {
     "compressible": true
   },

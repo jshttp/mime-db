@@ -1333,7 +1333,8 @@
     "extensions": ["shf"]
   },
   "application/sieve": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["siv","sieve"]
   },
   "application/simple-filter+xml": {
     "source": "iana",
