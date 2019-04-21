@@ -6899,7 +6899,8 @@
     "extensions": ["wsc"]
   },
   "model/3mf": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["3mf"]
   },
   "model/gltf+json": {
     "source": "iana",
@@ -6922,7 +6923,8 @@
     "extensions": ["msh","mesh","silo"]
   },
   "model/stl": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["stl"]
   },
   "model/vnd.collada+xml": {
     "source": "iana",
@@ -6959,23 +6961,28 @@
     "extensions": ["mts"]
   },
   "model/vnd.opengex": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["ogex"]
   },
   "model/vnd.parasolid.transmit.binary": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["x_b"]
   },
   "model/vnd.parasolid.transmit.text": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["x_t"]
   },
   "model/vnd.rosette.annotated-data-model": {
     "source": "iana"
   },
   "model/vnd.usdz+zip": {
     "source": "iana",
-    "compressible": false
+    "compressible": false,
+    "extensions": ["usdz"]
   },
   "model/vnd.valve.source.compiled-map": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["bsp"]
   },
   "model/vnd.vtu": {
     "source": "iana",
@@ -6992,7 +6999,8 @@
     "extensions": ["x3db","x3dbz"]
   },
   "model/x3d+fastinfoset": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["x3db"]
   },
   "model/x3d+vrml": {
     "source": "apache",
@@ -7005,7 +7013,8 @@
     "extensions": ["x3d","x3dz"]
   },
   "model/x3d-vrml": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["x3dv"]
   },
   "multipart/alternative": {
     "source": "iana",

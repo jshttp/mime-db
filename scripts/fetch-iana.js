@@ -12,7 +12,7 @@ var parser = require('csv-parse')
 var toArray = require('stream-to-array')
 var writedb = require('./lib/write-db')
 
-var extensionsRegExp = /^\s*(?:\d\.\s+)?File extension(?:\(s\)|s|)\s?:\s+(?:\*\.|\.|)([0-9a-z_-]+)\s*(?:\(|$)/im
+var extensionsRegExp = /(?:^\s*(?:\d\.\s+)?|\s+3\.\s+)File extension(?:\(s\)|s|)\s?:\s+(?:\*\.|\.|)([0-9a-z_-]+)\s*(?:\(|4\.\s+|$)/im
 var extensionsQuotedRegExp = /^\s*(?:\d\.\s+)?File extension(?:\(s\)|s|)\s?:(?:[^'"\r\n]+)(?:"\.?([0-9a-z_-]+)"|'\.?([0-9a-z_-]+)')/im
 var intendedUsageRegExp = /^\s*(?:(?:\d{1,2}\.|o)\s+)?Intended\s+Usage\s*:\s*(\S+)/im
 var leadingSpacesRegExp = /^\s+/
@@ -34,7 +34,7 @@ co(function * () {
     get('font', { extensions: true }),
     get('image', { extensions: true }),
     get('message', { extensions: true }),
-    get('model'),
+    get('model', { extensions: true }),
     get('multipart'),
     get('text'),
     get('video')

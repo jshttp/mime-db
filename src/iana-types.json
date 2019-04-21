@@ -8408,17 +8408,20 @@
     ]
   },
   "model/3mf": {
+    "extensions": ["3mf"],
     "sources": [
       "http://www.3mf.io/specification",
       "http://www.iana.org/assignments/media-types/model/3mf"
     ]
   },
   "model/gltf+json": {
+    "extensions": ["gltf"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/gltf+json"
     ]
   },
   "model/gltf-binary": {
+    "extensions": ["glb"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/gltf-binary"
     ]
@@ -8434,16 +8437,19 @@
     ]
   },
   "model/stl": {
+    "extensions": ["stl"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/stl"
     ]
   },
   "model/vnd.collada+xml": {
+    "extensions": ["dae"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.collada+xml"
     ]
   },
   "model/vnd.dwf": {
+    "extensions": ["dwf"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.dwf"
     ]
@@ -8464,6 +8470,7 @@
     ]
   },
   "model/vnd.gtw": {
+    "extensions": ["gtw"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.gtw"
     ]
@@ -8474,21 +8481,25 @@
     ]
   },
   "model/vnd.mts": {
+    "extensions": ["mts"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.mts"
     ]
   },
   "model/vnd.opengex": {
+    "extensions": ["ogex"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.opengex"
     ]
   },
   "model/vnd.parasolid.transmit.binary": {
+    "extensions": ["x_b"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.parasolid.transmit.binary"
     ]
   },
   "model/vnd.parasolid.transmit.text": {
+    "extensions": ["x_t"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.parasolid.transmit.text"
     ]
@@ -8499,16 +8510,19 @@
     ]
   },
   "model/vnd.usdz+zip": {
+    "extensions": ["usdz"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.usdz+zip"
     ]
   },
   "model/vnd.valve.source.compiled-map": {
+    "extensions": ["bsp"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.valve.source.compiled-map"
     ]
   },
   "model/vnd.vtu": {
+    "extensions": ["vtu"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.vtu"
     ]
@@ -8519,16 +8533,19 @@
     ]
   },
   "model/x3d+fastinfoset": {
+    "extensions": ["x3db"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/x3d+fastinfoset"
     ]
   },
   "model/x3d+xml": {
+    "extensions": ["x3d"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/x3d+xml"
     ]
   },
   "model/x3d-vrml": {
+    "extensions": ["x3dv"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/x3d-vrml"
     ]
