@@ -1,5 +1,5 @@
-unreleased
-==========
+1.40.0 / 2019-04-20
+===================
 
   * Add extensions from IANA for `model/*` types
   * Add `text/mdx` with extension `.mdx`
