@@ -347,7 +347,11 @@
   "application/x-pkcs12": {
     "compressible": false
   },
-  "application/x-rar-compressed": {
+  "application/x-protobuf": {
+    "compressible": true,
+    "sources": ["https://developers.google.com/api-client-library/java/google-http-java-client/reference/1.20.0/com/google/api/client/protobuf/ProtocolBuffers"]
+  },
+    "application/x-rar-compressed": {
     "compressible": false
   },
   "application/x-sh": {
