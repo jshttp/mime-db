@@ -349,7 +349,9 @@
   },
   "application/x-protobuf": {
     "compressible": true,
-    "sources": ["https://developers.google.com/api-client-library/java/google-http-java-client/reference/1.20.0/com/google/api/client/protobuf/ProtocolBuffers"]
+    "sources": [
+      "https://developers.google.com/api-client-library/java/google-http-java-client/reference/1.20.0/com/google/api/client/protobuf/ProtocolBuffers"
+    ]
   },
     "application/x-rar-compressed": {
     "compressible": false
