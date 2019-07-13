@@ -922,7 +922,7 @@
   },
   "application/octet-stream": {
     "source": "iana",
-    "compressible": false,
+    "compressible": true,
     "extensions": ["bin","dms","lrf","mar","so","dist","distz","pkg","bpk","dump","elc","deploy","exe","dll","deb","dmg","iso","img","msi","msp","msm","buffer"]
   },
   "application/oda": {
