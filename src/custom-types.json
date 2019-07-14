@@ -75,7 +75,7 @@
   "application/javascript": {
     "charset": "UTF-8",
     "compressible": true,
-    "extensions": ["mjs"],
+    "extensions": ["mjs","ejs"],
     "sources": [
       "https://tools.ietf.org/html/draft-bfarias-javascript-mjs-00"
     ]
