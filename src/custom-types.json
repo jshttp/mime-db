@@ -712,6 +712,9 @@
   "text/jade": {
     "extensions": ["jade"]
   },
+  "text/pug": {
+    "extensions": ["pug"]
+  },
   "text/javascript": {
     "compressible": true
   },
