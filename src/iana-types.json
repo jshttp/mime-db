@@ -650,6 +650,12 @@
       "http://www.iana.org/assignments/media-types/application/fits"
     ]
   },
+  "application/flexfec": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc8627.txt",
+      "http://www.iana.org/assignments/media-types/application/flexfec"
+    ]
+  },
   "application/font-sfnt": {
     "notes": "DEPRECATED in favor of font/sfnt",
     "sources": [
@@ -1314,6 +1320,7 @@
   },
   "application/oscore": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8613.txt",
       "http://www.iana.org/assignments/media-types/application/oscore"
     ]
   },
@@ -1404,12 +1411,14 @@
   },
   "application/pkcs7-mime": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8551.txt",
       "http://tools.ietf.org/rfc/rfc7114.txt",
       "http://www.iana.org/assignments/media-types/application/pkcs7-mime"
     ]
   },
   "application/pkcs7-signature": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8551.txt",
       "http://www.iana.org/assignments/media-types/application/pkcs7-signature"
     ]
   },
@@ -2285,6 +2294,7 @@
     ]
   },
   "application/vnd.3gpp.mcvideo-affiliation-info+xml": {
+    "notes": "OBSOLETE",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-affiliation-info+xml"
     ]
@@ -2504,6 +2514,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.amundsen.maze+xml"
     ]
   },
+  "application/vnd.android.ota": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.android.ota"
+    ]
+  },
   "application/vnd.anki": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.anki"
@@ -2634,6 +2649,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.banana-accounting"
     ]
   },
+  "application/vnd.bbf.usp.error": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.bbf.usp.error"
+    ]
+  },
   "application/vnd.bbf.usp.msg": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.bbf.usp.msg"
@@ -2737,6 +2757,11 @@
   "application/vnd.chipnuts.karaoke-mmd": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.chipnuts.karaoke-mmd"
+    ]
+  },
+  "application/vnd.ciedi": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.ciedi"
     ]
   },
   "application/vnd.cinderella": {
@@ -2892,6 +2917,11 @@
   "application/vnd.criticaltools.wbs+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.criticaltools.wbs+xml"
+    ]
+  },
+  "application/vnd.cryptii.pipe+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.cryptii.pipe+json"
     ]
   },
   "application/vnd.ctc-posml": {
@@ -4075,6 +4105,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.isac.fcs"
     ]
   },
+  "application/vnd.iso11783-10+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.iso11783-10+zip"
+    ]
+  },
   "application/vnd.jam": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.jam"
@@ -4238,6 +4273,16 @@
   "application/vnd.llamagraphics.life-balance.exchange+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.llamagraphics.life-balance.exchange+xml"
+    ]
+  },
+  "application/vnd.logipipe.circuit+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.logipipe.circuit+zip"
+    ]
+  },
+  "application/vnd.loom": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.loom"
     ]
   },
   "application/vnd.lotus-1-2-3": {
@@ -6152,6 +6197,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.semf"
     ]
   },
+  "application/vnd.shade-save-file": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.shade-save-file"
+    ]
+  },
   "application/vnd.shana.informed.formdata": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.shana.informed.formdata"
@@ -6175,6 +6225,11 @@
   "application/vnd.shootproof+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.shootproof+json"
+    ]
+  },
+  "application/vnd.shopkick+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.shopkick+json"
     ]
   },
   "application/vnd.sigrok.session": {
@@ -6527,6 +6582,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.veryant.thin"
     ]
   },
+  "application/vnd.ves.encrypted": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.ves.encrypted"
+    ]
+  },
   "application/vnd.vidsoft.vidconference": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.vidsoft.vidconference"
@@ -6768,6 +6828,7 @@
     ]
   },
   "application/vnd.youtube.yt": {
+    "notes": "OBSOLETED in favor of video/vnd.youtube.yt",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.youtube.yt"
     ]
@@ -7286,6 +7347,12 @@
   "audio/evs": {
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/EVS"
+    ]
+  },
+  "audio/flexfec": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc8627.txt",
+      "http://www.iana.org/assignments/media-types/audio/flexfec"
     ]
   },
   "audio/fwdred": {
@@ -8014,6 +8081,18 @@
       "http://www.iana.org/assignments/media-types/image/heif-sequence"
     ]
   },
+  "image/hej2k": {
+    "extensions": ["hej2"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/hej2k"
+    ]
+  },
+  "image/hsj2": {
+    "extensions": ["hsj2"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/hsj2"
+    ]
+  },
   "image/ief": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc1314.txt"
@@ -8037,6 +8116,18 @@
       "http://tools.ietf.org/rfc/rfc2046.txt"
     ]
   },
+  "image/jph": {
+    "extensions": ["jph"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/jph"
+    ]
+  },
+  "image/jphc": {
+    "extensions": ["jhc"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/jphc"
+    ]
+  },
   "image/jpm": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc3745.txt",
@@ -8053,6 +8144,30 @@
     "extensions": ["jxr"],
     "sources": [
       "http://www.iana.org/assignments/media-types/image/jxr"
+    ]
+  },
+  "image/jxra": {
+    "extensions": ["jxra"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/jxrA"
+    ]
+  },
+  "image/jxrs": {
+    "extensions": ["jxrs"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/jxrS"
+    ]
+  },
+  "image/jxsi": {
+    "extensions": ["jxsi"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/jxsi"
+    ]
+  },
+  "image/jxss": {
+    "extensions": ["jxss"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/jxss"
     ]
   },
   "image/ktx": {
@@ -8709,6 +8824,12 @@
       "http://tools.ietf.org/rfc/rfc1896.txt"
     ]
   },
+  "text/flexfec": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc8627.txt",
+      "http://www.iana.org/assignments/media-types/text/flexfec"
+    ]
+  },
   "text/fwdred": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc6354.txt",
@@ -9010,6 +9131,11 @@
       "http://www.iana.org/assignments/media-types/text/vnd.si.uricatalogue"
     ]
   },
+  "text/vnd.sosi": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/vnd.sosi"
+    ]
+  },
   "text/vnd.sun.j2me.app-descriptor": {
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.sun.j2me.app-descriptor"
@@ -9106,6 +9232,12 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc6849.txt",
       "http://www.iana.org/assignments/media-types/video/encaprtp"
+    ]
+  },
+  "video/flexfec": {
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc8627.txt",
+      "http://www.iana.org/assignments/media-types/video/flexfec"
     ]
   },
   "video/h261": {
@@ -9490,6 +9622,11 @@
   "video/vnd.vivo": {
     "sources": [
       "http://www.iana.org/assignments/media-types/video/vnd.vivo"
+    ]
+  },
+  "video/vnd.youtube.yt": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/vnd.youtube.yt"
     ]
   },
   "video/vp8": {

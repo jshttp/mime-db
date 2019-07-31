@@ -452,6 +452,9 @@
   "application/fits": {
     "source": "iana"
   },
+  "application/flexfec": {
+    "source": "iana"
+  },
   "application/font-sfnt": {
     "source": "iana"
   },
@@ -1812,6 +1815,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.android.ota": {
+    "source": "iana"
+  },
   "application/vnd.android.package-archive": {
     "source": "apache",
     "compressible": false,
@@ -1917,6 +1923,9 @@
   "application/vnd.banana-accounting": {
     "source": "iana"
   },
+  "application/vnd.bbf.usp.error": {
+    "source": "iana"
+  },
   "application/vnd.bbf.usp.msg": {
     "source": "iana"
   },
@@ -1990,6 +1999,9 @@
   "application/vnd.chipnuts.karaoke-mmd": {
     "source": "iana",
     "extensions": ["mmd"]
+  },
+  "application/vnd.ciedi": {
+    "source": "iana"
   },
   "application/vnd.cinderella": {
     "source": "iana",
@@ -2106,6 +2118,10 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["wbs"]
+  },
+  "application/vnd.cryptii.pipe+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.ctc-posml": {
     "source": "iana",
@@ -3004,6 +3020,10 @@
     "source": "iana",
     "extensions": ["fcs"]
   },
+  "application/vnd.iso11783-10+zip": {
+    "source": "iana",
+    "compressible": false
+  },
   "application/vnd.jam": {
     "source": "iana",
     "extensions": ["jam"]
@@ -3128,6 +3148,13 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["lbe"]
+  },
+  "application/vnd.logipipe.circuit+zip": {
+    "source": "iana",
+    "compressible": false
+  },
+  "application/vnd.loom": {
+    "source": "iana"
   },
   "application/vnd.lotus-1-2-3": {
     "source": "iana",
@@ -4583,6 +4610,9 @@
     "source": "iana",
     "extensions": ["semf"]
   },
+  "application/vnd.shade-save-file": {
+    "source": "iana"
+  },
   "application/vnd.shana.informed.formdata": {
     "source": "iana",
     "extensions": ["ifm"]
@@ -4600,6 +4630,10 @@
     "extensions": ["ipk"]
   },
   "application/vnd.shootproof+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.shopkick+json": {
     "source": "iana",
     "compressible": true
   },
@@ -4918,6 +4952,9 @@
     "source": "iana"
   },
   "application/vnd.veryant.thin": {
+    "source": "iana"
+  },
+  "application/vnd.ves.encrypted": {
     "source": "iana"
   },
   "application/vnd.vidsoft.vidconference": {
@@ -5988,6 +6025,9 @@
   "audio/evs": {
     "source": "iana"
   },
+  "audio/flexfec": {
+    "source": "iana"
+  },
   "audio/fwdred": {
     "source": "iana"
   },
@@ -6544,6 +6584,14 @@
     "source": "iana",
     "extensions": ["heifs"]
   },
+  "image/hej2k": {
+    "source": "iana",
+    "extensions": ["hej2"]
+  },
+  "image/hsj2": {
+    "source": "iana",
+    "extensions": ["hsj2"]
+  },
   "image/ief": {
     "source": "iana",
     "extensions": ["ief"]
@@ -6562,6 +6610,14 @@
     "compressible": false,
     "extensions": ["jpeg","jpg","jpe"]
   },
+  "image/jph": {
+    "source": "iana",
+    "extensions": ["jph"]
+  },
+  "image/jphc": {
+    "source": "iana",
+    "extensions": ["jhc"]
+  },
   "image/jpm": {
     "source": "iana",
     "compressible": false,
@@ -6575,6 +6631,22 @@
   "image/jxr": {
     "source": "iana",
     "extensions": ["jxr"]
+  },
+  "image/jxra": {
+    "source": "iana",
+    "extensions": ["jxra"]
+  },
+  "image/jxrs": {
+    "source": "iana",
+    "extensions": ["jxrs"]
+  },
+  "image/jxsi": {
+    "source": "iana",
+    "extensions": ["jxsi"]
+  },
+  "image/jxss": {
+    "source": "iana",
+    "extensions": ["jxss"]
   },
   "image/ktx": {
     "source": "iana",
@@ -7120,6 +7192,9 @@
   "text/enriched": {
     "source": "iana"
   },
+  "text/flexfec": {
+    "source": "iana"
+  },
   "text/fwdred": {
     "source": "iana"
   },
@@ -7359,6 +7434,9 @@
   "text/vnd.si.uricatalogue": {
     "source": "iana"
   },
+  "text/vnd.sosi": {
+    "source": "iana"
+  },
   "text/vnd.sun.j2me.app-descriptor": {
     "source": "iana",
     "extensions": ["jad"]
@@ -7509,6 +7587,9 @@
     "source": "iana"
   },
   "video/encaprtp": {
+    "source": "iana"
+  },
+  "video/flexfec": {
     "source": "iana"
   },
   "video/h261": {
@@ -7749,6 +7830,9 @@
   "video/vnd.vivo": {
     "source": "iana",
     "extensions": ["viv"]
+  },
+  "video/vnd.youtube.yt": {
+    "source": "iana"
   },
   "video/vp8": {
     "source": "iana"
