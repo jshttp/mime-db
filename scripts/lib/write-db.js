@@ -51,7 +51,7 @@ function endLine (key, i, arr) {
 function sortDataKeys (a, b) {
   var cmp = a.localeCompare(b)
 
-  return a !== 'source' || !cmp
-    ? cmp
-    : -1
+  return cmp && (a === 'source' || b === 'source')
+    ? (a === 'source' ? -1 : 1)
+    : cmp
 }
