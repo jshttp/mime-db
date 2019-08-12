@@ -675,6 +675,9 @@
   "multipart/signed": {
     "compressible": false
   },
+  "image/svg+xml": {
+    "charset": "UTF-8"
+  },
   "text/cache-manifest": {
     "compressible": true,
     "extensions": ["manifest"],
