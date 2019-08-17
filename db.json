@@ -1487,6 +1487,10 @@
   "application/tnauthlist": {
     "source": "iana"
   },
+  "application/toml": {
+    "compressible": true,
+    "extensions": ["toml"]
+  },
   "application/trickle-ice-sdpfrag": {
     "source": "iana"
   },

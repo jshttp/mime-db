@@ -164,6 +164,13 @@
   "application/tar": {
     "compressible": true
   },
+  "application/toml": {
+    "extensions": ["toml"],
+    "sources" : [
+      "https://github.com/toml-lang/toml"
+    ],
+    "compressible": true
+  },
   "application/vnd.android.package-archive": {
     "compressible": false
   },
