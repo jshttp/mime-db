@@ -526,6 +526,13 @@
       "http://www.phpied.com/gzip-your-font-face-files/"
     ]
   },
+  "font/ttf": {
+    "compressible": true,
+    "sources": [
+      "https://www.iana.org/assignments/media-types/font/ttf",
+      "http://www.phpied.com/gzip-your-font-face-files/"
+    ]
+  },
   "image/apng": {
     "compressible": false,
     "extensions": ["apng"],

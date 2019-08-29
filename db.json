@@ -6518,6 +6518,7 @@
   },
   "font/ttf": {
     "source": "iana",
+    "compressible": true,
     "extensions": ["ttf"]
   },
   "font/woff": {

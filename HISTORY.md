@@ -3,6 +3,7 @@ unreleased
 
   * Add new upstream MIME types
   * Add `application/toml` with extension `.toml`
+  * Mark `font/ttf` as compressible
 
 1.40.0 / 2019-04-20
 ===================
