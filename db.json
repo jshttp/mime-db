@@ -816,6 +816,9 @@
   "application/mikey": {
     "source": "iana"
   },
+  "application/mipc": {
+    "source": "iana"
+  },
   "application/mmt-aei+xml": {
     "source": "iana",
     "compressible": true
@@ -1349,6 +1352,9 @@
   "application/simplesymbolcontainer": {
     "source": "iana"
   },
+  "application/sipc": {
+    "source": "iana"
+  },
   "application/slate": {
     "source": "iana"
   },
@@ -1644,6 +1650,10 @@
     "compressible": true
   },
   "application/vnd.3gpp.mcvideo-affiliation-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.mcvideo-info+xml": {
     "source": "iana",
     "compressible": true
   },
@@ -1965,6 +1975,12 @@
     "source": "iana",
     "extensions": ["bmi"]
   },
+  "application/vnd.bpf": {
+    "source": "iana"
+  },
+  "application/vnd.bpf3": {
+    "source": "iana"
+  },
   "application/vnd.businessobjects": {
     "source": "iana",
     "extensions": ["rep"]
@@ -2126,6 +2142,9 @@
   "application/vnd.cryptii.pipe+json": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.crypto-shade-file": {
+    "source": "iana"
   },
   "application/vnd.ctc-posml": {
     "source": "iana",
@@ -3127,6 +3146,9 @@
     "source": "iana",
     "extensions": ["sse"]
   },
+  "application/vnd.las": {
+    "source": "iana"
+  },
   "application/vnd.las.las+json": {
     "source": "iana",
     "compressible": true
@@ -3135,6 +3157,9 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["lasxml"]
+  },
+  "application/vnd.laszip": {
+    "source": "iana"
   },
   "application/vnd.leap+json": {
     "source": "iana",

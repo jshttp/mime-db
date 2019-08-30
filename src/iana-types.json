@@ -1108,6 +1108,11 @@
       "http://www.iana.org/assignments/media-types/application/mikey"
     ]
   },
+  "application/mipc": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/mipc"
+    ]
+  },
   "application/mmt-aei+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/mmt-aei+xml"
@@ -1745,7 +1750,6 @@
   },
   "application/sdp": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc4566.txt",
       "http://www.iana.org/assignments/media-types/application/sdp"
     ]
   },
@@ -1875,6 +1879,11 @@
   "application/simplesymbolcontainer": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/simpleSymbolContainer"
+    ]
+  },
+  "application/sipc": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/sipc"
     ]
   },
   "application/slate": {
@@ -2294,9 +2303,14 @@
     ]
   },
   "application/vnd.3gpp.mcvideo-affiliation-info+xml": {
-    "notes": "OBSOLETE",
+    "notes": "OBSOLETED in favor of application/vnd.3gpp.mcvideo-info+xml",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-affiliation-info+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcvideo-info+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-info+xml"
     ]
   },
   "application/vnd.3gpp.mcvideo-location-info+xml": {
@@ -2704,6 +2718,16 @@
       "http://www.iana.org/assignments/media-types/application/vnd.bmi"
     ]
   },
+  "application/vnd.bpf": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.bpf"
+    ]
+  },
+  "application/vnd.bpf3": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.bpf3"
+    ]
+  },
   "application/vnd.businessobjects": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.businessobjects"
@@ -2922,6 +2946,11 @@
   "application/vnd.cryptii.pipe+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.cryptii.pipe+json"
+    ]
+  },
+  "application/vnd.crypto-shade-file": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.crypto-shade-file"
     ]
   },
   "application/vnd.ctc-posml": {
@@ -4245,6 +4274,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.kodak-descriptor"
     ]
   },
+  "application/vnd.las": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.las"
+    ]
+  },
   "application/vnd.las.las+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.las.las+json"
@@ -4253,6 +4287,11 @@
   "application/vnd.las.las+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.las.las+xml"
+    ]
+  },
+  "application/vnd.laszip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.laszip"
     ]
   },
   "application/vnd.leap+json": {
