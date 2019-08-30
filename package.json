@@ -1,7 +1,7 @@
 {
   "name": "mime-db",
   "description": "Media Type Database",
-  "version": "1.40.0",
+  "version": "1.41.0",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",

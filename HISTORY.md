@@ -1,5 +1,5 @@
-unreleased
-==========
+1.41.0 / 2019-08-30
+===================
 
   * Add new upstream MIME types
   * Add `application/toml` with extension `.toml`
