@@ -6927,7 +6927,7 @@
     "source": "apache",
     "extensions": ["xwd"]
   },
-  "image/dds" : {
+  "image/vnd.ms-dds" : {
     "sources": ["https://docs.microsoft.com/en-us/windows/win32/wic/dds-format-overview"],
     "extensions: ["dds"]
   },
