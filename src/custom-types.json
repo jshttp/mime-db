@@ -638,8 +638,12 @@
     "compressible": false
   },
   "image/dds" : {
-    "sources": ["https://docs.microsoft.com/en-us/windows/win32/wic/dds-format-overview"],
-    "extensions: ["dds"]
+    "sources": [
+      "https://docs.microsoft.com/en-us/windows/win32/wic/dds-format-overview",
+      "https://en.wikipedia.org/wiki/DirectDraw_Surface"
+    ],
+    "extensions: ["dds"],
+    "notes": "Microsoft format for storing graphical textures, and cubemaps. Used in 3d engines, such as Babylon.js"
   },
   "message/http": {
     "compressible": false,
