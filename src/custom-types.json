@@ -637,6 +637,10 @@
   "image/x-xcf": {
     "compressible": false
   },
+  "image/dds" : {
+    "sources": ["https://docs.microsoft.com/en-us/windows/win32/wic/dds-format-overview"],
+    "extensions: ["dds"]
+  },
   "message/http": {
     "compressible": false,
     "notes": "It is safest to leave these uncompressed.",
