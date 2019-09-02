@@ -6927,6 +6927,10 @@
     "source": "apache",
     "extensions": ["xwd"]
   },
+  "image/dds" : {
+    "sources": ["https://docs.microsoft.com/en-us/windows/win32/wic/dds-format-overview"],
+    "extensions: ["dds"]
+  },
   "message/cpim": {
     "source": "iana"
   },
