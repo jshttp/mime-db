@@ -3,7 +3,6 @@
 
   * Add new upstream MIME types
   * Add `application/toml` with extension `.toml`
-  * Add `image/dds` with extension `dds`
   * Mark `font/ttf` as compressible
 
 1.40.0 / 2019-04-20
