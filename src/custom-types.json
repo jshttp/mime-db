@@ -621,6 +621,13 @@
   "image/vnd.adobe.photoshop": {
     "compressible": true
   },
+  "image/vnd.ms-dds" : {
+    "extensions": ["dds"],
+    "notes": "Microsoft format for storing graphical textures and cubemaps. Used in 3d engines, such as Babylon.js.",
+    "sources": [
+      "https://docs.microsoft.com/en-us/windows/win32/wic/dds-format-overview"
+    ]
+  },
   "image/x-icon": {
     "compressible": true,
     "notes": "Usually a wrapper for .bmp formated images.",

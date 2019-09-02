@@ -6803,6 +6803,9 @@
   "image/vnd.mozilla.apng": {
     "source": "iana"
   },
+  "image/vnd.ms-dds": {
+    "extensions": ["dds"]
+  },
   "image/vnd.ms-modi": {
     "source": "iana",
     "extensions": ["mdi"]

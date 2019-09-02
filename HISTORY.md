@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `image/vnd.ms-dds` with extension `.dds`
   * Add new upstream MIME types
   * Remove compressible from `multipart/mixed`
 
