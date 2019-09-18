@@ -680,9 +680,6 @@
   "multipart/form-data": {
     "compressible": false
   },
-  "multipart/mixed": {
-    "compressible": false
-  },
   "multipart/related": {
     "compressible": false
   },

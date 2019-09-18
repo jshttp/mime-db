@@ -7155,8 +7155,7 @@
     "source": "iana"
   },
   "multipart/mixed": {
-    "source": "iana",
-    "compressible": false
+    "source": "iana"
   },
   "multipart/multilingual": {
     "source": "iana"
