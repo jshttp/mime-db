@@ -1420,6 +1420,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/swid+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/tamp-apex-update": {
     "source": "iana"
   },
@@ -6669,6 +6673,14 @@
   "image/jxrs": {
     "source": "iana",
     "extensions": ["jxrs"]
+  },
+  "image/jxs": {
+    "source": "iana",
+    "extensions": ["jxs"]
+  },
+  "image/jxsc": {
+    "source": "iana",
+    "extensions": ["jxsc"]
   },
   "image/jxsi": {
     "source": "iana",

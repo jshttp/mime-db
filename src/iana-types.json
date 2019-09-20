@@ -1972,6 +1972,11 @@
       "http://www.iana.org/assignments/media-types/application/stix+json"
     ]
   },
+  "application/swid+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/swid+xml"
+    ]
+  },
   "application/tamp-apex-update": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc5934.txt",
@@ -8195,6 +8200,18 @@
     "extensions": ["jxrs"],
     "sources": [
       "http://www.iana.org/assignments/media-types/image/jxrS"
+    ]
+  },
+  "image/jxs": {
+    "extensions": ["jxs"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/jxs"
+    ]
+  },
+  "image/jxsc": {
+    "extensions": ["jxsc"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/jxsc"
     ]
   },
   "image/jxsi": {
