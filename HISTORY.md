@@ -1,5 +1,5 @@
-unreleased
-==========
+1.42.0 / 2019-09-25
+===================
 
   * Add `image/vnd.ms-dds` with extension `.dds`
   * Add new upstream MIME types
