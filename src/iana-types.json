@@ -3538,6 +3538,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.ffsns"
     ]
   },
+  "application/vnd.ficlab.flb+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.ficlab.flb+zip"
+    ]
+  },
   "application/vnd.filmit.zfc": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.filmit.zfc"
@@ -9103,6 +9108,11 @@
   "text/vnd.esmertec.theme-descriptor": {
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.esmertec.theme-descriptor"
+    ]
+  },
+  "text/vnd.ficlab.flt": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/vnd.ficlab.flt"
     ]
   },
   "text/vnd.fly": {

@@ -2583,6 +2583,10 @@
   "application/vnd.ffsns": {
     "source": "iana"
   },
+  "application/vnd.ficlab.flb+zip": {
+    "source": "iana",
+    "compressible": false
+  },
   "application/vnd.filmit.zfc": {
     "source": "iana"
   },
@@ -7423,6 +7427,9 @@
     "extensions": ["sub"]
   },
   "text/vnd.esmertec.theme-descriptor": {
+    "source": "iana"
+  },
+  "text/vnd.ficlab.flt": {
     "source": "iana"
   },
   "text/vnd.fly": {
