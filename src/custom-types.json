@@ -669,6 +669,14 @@
   "model/mesh": {
     "compressible": false
   },
+  "model/vnd.reality": {
+    "compressible": false,
+    "extensions": ["reality"],
+    "notes": "Apple format for Reality Composer. No specs available anywhere.",
+    "sources" : [
+      "https://devstreaming-cdn.apple.com/videos/wwdc/2019/612umedd7bboc1/612/612_advances_in_ar_quick_look.pdf?dl=1"
+    ]
+  },
   "model/vrml": {
     "compressible": false
   },
