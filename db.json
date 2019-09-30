@@ -7093,6 +7093,10 @@
     "source": "iana",
     "extensions": ["x_t"]
   },
+  "model/vnd.reality": {
+    "compressible": false,
+    "extensions": ["reality"]
+  },
   "model/vnd.rosette.annotated-data-model": {
     "source": "iana"
   },
