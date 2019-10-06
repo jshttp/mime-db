@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `application/x-keepass2` with extension `.kdbx`
   * Add extension `.mxmf` to `audio/mobile-xmf`
   * Add new upstream MIME types
 

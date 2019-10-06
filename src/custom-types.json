@@ -328,6 +328,12 @@
   "application/x-javascript": {
     "compressible": true
   },
+  "application/x-keepass2": {
+    "extensions": ["kdbx"],
+    "sources": [
+      "https://github.com/keepassx/keepassx/blob/master/share/linux/keepassx.xml"
+    ]
+  },
   "application/x-latex": {
     "compressible": false
   },

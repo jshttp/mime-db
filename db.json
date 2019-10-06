@@ -5519,6 +5519,9 @@
   "application/x-javascript": {
     "compressible": true
   },
+  "application/x-keepass2": {
+    "extensions": ["kdbx"]
+  },
   "application/x-latex": {
     "source": "apache",
     "compressible": false,
