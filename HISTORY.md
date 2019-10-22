@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extension `.mxmf` to `audio/mobile-xmf`
   * Add new upstream MIME types
 
 1.42.0 / 2019-09-25

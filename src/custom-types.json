@@ -476,6 +476,13 @@
   "audio/l24": {
     "compressible": false
   },
+  "audio/mobile-xmf": {
+    "extensions": ["mxmf"],
+    "sources": [
+      "http://tools.ietf.org/rfc/rfc4723.txt",
+      "http://www.iana.org/assignments/media-types/audio/mobile-xmf"
+    ]
+  },
   "audio/mp3": {
     "compressible": false,
     "extensions": ["mp3"],

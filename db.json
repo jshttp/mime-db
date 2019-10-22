@@ -6198,7 +6198,8 @@
     "extensions": ["mid","midi","kar","rmi"]
   },
   "audio/mobile-xmf": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["mxmf"]
   },
   "audio/mp3": {
     "compressible": false,
