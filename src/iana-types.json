@@ -155,6 +155,11 @@
       "http://www.iana.org/assignments/media-types/application/atsc-held+xml"
     ]
   },
+  "application/atsc-rdt+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/atsc-rdt+json"
+    ]
+  },
   "application/atsc-rsat+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/atsc-rsat+xml"
@@ -216,6 +221,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc7049.txt",
       "http://www.iana.org/assignments/media-types/application/cbor"
+    ]
+  },
+  "application/cbor-seq": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/cbor-seq"
     ]
   },
   "application/cccex": {
@@ -1217,6 +1227,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc8520.txt",
       "http://www.iana.org/assignments/media-types/application/mud+json"
+    ]
+  },
+  "application/multipart-core": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/multipart-core"
     ]
   },
   "application/mxf": {
@@ -2483,9 +2498,54 @@
       "http://www.iana.org/assignments/media-types/application/vnd.afpc.afplinedata"
     ]
   },
+  "application/vnd.afpc.afplinedata-pagedef": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.afplinedata-pagedef"
+    ]
+  },
+  "application/vnd.afpc.foca-charset": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.foca-charset"
+    ]
+  },
+  "application/vnd.afpc.foca-codedfont": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.foca-codedfont"
+    ]
+  },
+  "application/vnd.afpc.foca-codepage": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.foca-codepage"
+    ]
+  },
   "application/vnd.afpc.modca": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.afpc.modca"
+    ]
+  },
+  "application/vnd.afpc.modca-formdef": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.modca-formdef"
+    ]
+  },
+  "application/vnd.afpc.modca-mediummap": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.modca-mediummap"
+    ]
+  },
+  "application/vnd.afpc.modca-objectcontainer": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.modca-objectcontainer"
+    ]
+  },
+  "application/vnd.afpc.modca-overlay": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.modca-overlay"
+    ]
+  },
+  "application/vnd.afpc.modca-pagesegment": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.modca-pagesegment"
     ]
   },
   "application/vnd.ah-barcode": {
@@ -9230,6 +9290,11 @@
   "text/vnd.wap.wmlscript": {
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.wap.wmlscript"
+    ]
+  },
+  "text/vtt": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/vtt"
     ]
   },
   "text/xml": {

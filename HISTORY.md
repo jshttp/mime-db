@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add new upstream MIME types
+
 1.42.0 / 2019-09-25
 ===================
 
