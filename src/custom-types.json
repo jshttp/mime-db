@@ -171,6 +171,12 @@
     ],
     "compressible": true
   },
+  "application/typescript": {
+    "source": ["https://github.com/microsoft/TypeScript"],
+    "charset": "UTF-8",
+    "compressible": true,
+    "extensions": ["ts"]
+  },
   "application/vnd.android.package-archive": {
     "compressible": false
   },
