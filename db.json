@@ -5653,6 +5653,9 @@
     "source": "apache",
     "extensions": ["p7r"]
   },
+  "application/x-python-code": {
+    "extensions": ["pyc","pyo"]
+  },
   "application/x-rar-compressed": {
     "source": "apache",
     "compressible": false,
@@ -7611,6 +7614,9 @@
   "text/x-processing": {
     "compressible": true,
     "extensions": ["pde"]
+  },
+  "text/x-python": {
+    "extensions": ["py"]
   },
   "text/x-sass": {
     "extensions": ["sass"]

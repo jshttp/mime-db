@@ -136,6 +136,12 @@
   "application/postscript": {
     "compressible": true
   },
+  "application/x-python-code": {
+    "extensions": ["pyc", "pyo"],
+    "sources": [
+      "https://github.com/python/cpython/blob/19a3d873005e5730eeabdc394c961e93f2ec02f0/Lib/mimetypes.py#L457"
+    ]
+  },
   "application/raml+yaml": {
     "compressible": true,
     "extensions": ["raml"],
@@ -856,6 +862,12 @@
     "extensions": ["pde"],
     "sources": [
       "https://en.wikipedia.org/wiki/Processing_(programming_language)"
+    ]
+  },
+  "text/x-python": {
+    "extensions": ["py"],
+    "sources": [
+      "https://github.com/python/cpython/blob/19a3d873005e5730eeabdc394c961e93f2ec02f0/Lib/mimetypes.py#L528"
     ]
   },
   "text/x-sass": {
