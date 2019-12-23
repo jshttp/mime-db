@@ -67,12 +67,24 @@
     "source": "iana",
     "extensions": ["ez"]
   },
+  "application/appinstaller": {
+    "compressible": true,
+    "extensions": ["appinstaller"]
+  },
   "application/applefile": {
     "source": "iana"
   },
   "application/applixware": {
     "source": "apache",
     "extensions": ["aw"]
+  },
+  "application/appx": {
+    "compressible": false,
+    "extensions": ["appx"]
+  },
+  "application/appxbundle": {
+    "compressible": false,
+    "extensions": ["appxbundle"]
   },
   "application/atf": {
     "source": "iana"
@@ -883,6 +895,14 @@
   "application/msc-mixer+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/msix": {
+    "compressible": false,
+    "extensions": ["msix"]
+  },
+  "application/msixbundle": {
+    "compressible": false,
+    "extensions": ["msixbundle"]
   },
   "application/msword": {
     "source": "iana",

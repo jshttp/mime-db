@@ -1,4 +1,31 @@
 {
+  "application/appinstaller": {
+    "compressible": true,
+    "extensions": ["appinstaller"],
+    "notes": "Microsoft Windows AppInstaller XML Manifest",
+    "sources": [
+      "https://docs.microsoft.com/en-us/windows/msix/app-installer/web-install-iis",
+      "https://docs.microsoft.com/en-us/windows/msix/app-installer/web-install-azure"
+    ]
+  },
+  "application/appx": {
+    "compressible": false,
+    "extensions": ["appx"],
+    "notes": "Microsoft Windows AppX Package",
+    "sources": [
+      "https://docs.microsoft.com/en-us/windows/msix/app-installer/web-install-iis",
+      "https://docs.microsoft.com/en-us/windows/msix/app-installer/web-install-azure"
+    ]
+  },
+  "application/appxbundle": {
+    "compressible": false,
+    "extensions": ["appxbundle"],
+    "notes": "Microsoft Windows AppX Bundle Package",
+    "sources": [
+      "https://docs.microsoft.com/en-us/windows/msix/app-installer/web-install-iis",
+      "https://docs.microsoft.com/en-us/windows/msix/app-installer/web-install-azure"
+    ]
+  },
   "application/bdoc": {
     "compressible": false,
     "extensions": ["bdoc"],
@@ -101,6 +128,24 @@
   },
   "application/mp4": {
     "extensions": ["m4p"]
+  },
+  "application/msix": {
+    "compressible": false,
+    "extensions": ["msix"],
+    "notes": "Microsoft Windows MSIX Package",
+    "sources": [
+      "https://docs.microsoft.com/en-us/windows/msix/app-installer/web-install-iis",
+      "https://docs.microsoft.com/en-us/windows/msix/app-installer/web-install-azure"
+    ]
+  },
+  "application/msixbundle": {
+    "compressible": false,
+    "extensions": ["msixbundle"],
+    "notes": "Microsoft Windows MSIX Bundle Package",
+    "sources": [
+      "https://docs.microsoft.com/en-us/windows/msix/app-installer/web-install-iis",
+      "https://docs.microsoft.com/en-us/windows/msix/app-installer/web-install-azure"
+    ]
   },
   "application/msword": {
     "compressible": false
