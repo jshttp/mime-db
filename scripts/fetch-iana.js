@@ -29,7 +29,7 @@ var urlReferenceRegExp = /\[(https?:\/\/[^\]]+)]/gi
 
 co(function * () {
   var gens = yield [
-    get('application', { extensions: /\/(?:dash\+xml|gzip|ld\+json|n-quads|n-triples|vnd\.apple\..+|vnd\.citationstyles\.style\+xml|vnd\.sun\.wadl\+xml)$/ }),
+    get('application', { extensions: /(?:\/(?:gzip|ld\+json|n-quads|n-triples|vnd\.apple\..+)|\+xml)$/ }),
     get('audio', { extensions: /\/mobile-xmf$/ }),
     get('font', { extensions: true }),
     get('image', { extensions: true }),
@@ -173,6 +173,11 @@ function extractTemplateExtensions (body) {
   }
 
   var ext = (match[1] || match[2]).toLowerCase()
+
+  // special-case popular base extensions
+  if (ext === 'xml') {
+    return
+  }
 
   if (ext !== 'none' && ext !== 'undefined') {
     return [ext]

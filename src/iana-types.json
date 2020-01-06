@@ -116,6 +116,7 @@
     ]
   },
   "application/atom+xml": {
+    "extensions": ["atom"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4287.txt",
       "http://tools.ietf.org/rfc/rfc5023.txt",
@@ -123,12 +124,14 @@
     ]
   },
   "application/atomcat+xml": {
+    "extensions": ["atomcat"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5023.txt",
       "http://www.iana.org/assignments/media-types/application/atomcat+xml"
     ]
   },
   "application/atomdeleted+xml": {
+    "extensions": ["atomdeleted"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6721.txt",
       "http://www.iana.org/assignments/media-types/application/atomdeleted+xml"
@@ -140,17 +143,20 @@
     ]
   },
   "application/atomsvc+xml": {
+    "extensions": ["atomsvc"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5023.txt",
       "http://www.iana.org/assignments/media-types/application/atomsvc+xml"
     ]
   },
   "application/atsc-dwd+xml": {
+    "extensions": ["dwd"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/atsc-dwd+xml"
     ]
   },
   "application/atsc-held+xml": {
+    "extensions": ["held"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/atsc-held+xml"
     ]
@@ -161,6 +167,7 @@
     ]
   },
   "application/atsc-rsat+xml": {
+    "extensions": ["rsat"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/atsc-rsat+xml"
     ]
@@ -200,6 +207,7 @@
     ]
   },
   "application/calendar+xml": {
+    "extensions": ["xcs"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6321.txt",
       "http://www.iana.org/assignments/media-types/application/calendar+xml"
@@ -246,6 +254,7 @@
     ]
   },
   "application/cdfx+xml": {
+    "extensions": ["cdfx"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/CDFX+XML"
     ]
@@ -421,6 +430,7 @@
     ]
   },
   "application/davmount+xml": {
+    "extensions": ["davmount"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4709.txt",
       "http://www.iana.org/assignments/media-types/application/davmount+xml"
@@ -504,6 +514,7 @@
     ]
   },
   "application/dssc+xml": {
+    "extensions": ["xdssc"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5698.txt",
       "http://www.iana.org/assignments/media-types/application/dssc+xml"
@@ -598,6 +609,7 @@
     ]
   },
   "application/emotionml+xml": {
+    "extensions": ["emotionml"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/emotionml+xml"
     ]
@@ -645,6 +657,7 @@
     ]
   },
   "application/fdt+xml": {
+    "extensions": ["fdt"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6726.txt",
       "http://www.iana.org/assignments/media-types/application/fdt+xml"
@@ -820,6 +833,7 @@
     ]
   },
   "application/inkml+xml": {
+    "extensions": ["ink"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/inkml+xml"
     ]
@@ -848,6 +862,7 @@
     ]
   },
   "application/its+xml": {
+    "extensions": ["its"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/its+xml"
     ]
@@ -936,6 +951,7 @@
     ]
   },
   "application/lgr+xml": {
+    "extensions": ["lgr"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc7940.txt",
       "http://www.iana.org/assignments/media-types/application/lgr+xml"
@@ -981,6 +997,7 @@
     ]
   },
   "application/mads+xml": {
+    "extensions": ["mads"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6207.txt",
       "http://www.iana.org/assignments/media-types/application/mads+xml"
@@ -993,6 +1010,7 @@
     ]
   },
   "application/marcxml+xml": {
+    "extensions": ["mrcx"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6207.txt",
       "http://www.iana.org/assignments/media-types/application/marcxml+xml"
@@ -1104,12 +1122,14 @@
     ]
   },
   "application/metalink4+xml": {
+    "extensions": ["meta4"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5854.txt",
       "http://www.iana.org/assignments/media-types/application/metalink4+xml"
     ]
   },
   "application/mets+xml": {
+    "extensions": ["mets"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6207.txt",
       "http://www.iana.org/assignments/media-types/application/mets+xml"
@@ -1132,16 +1152,19 @@
     ]
   },
   "application/mmt-aei+xml": {
+    "extensions": ["maei"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/mmt-aei+xml"
     ]
   },
   "application/mmt-usd+xml": {
+    "extensions": ["musd"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/mmt-usd+xml"
     ]
   },
   "application/mods+xml": {
+    "extensions": ["mods"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6207.txt",
       "http://www.iana.org/assignments/media-types/application/mods+xml"
@@ -1203,12 +1226,14 @@
     ]
   },
   "application/mrb-consumer+xml": {
+    "extensions": ["xdf"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6917.txt",
       "http://www.iana.org/assignments/media-types/application/mrb-consumer+xml"
     ]
   },
   "application/mrb-publish+xml": {
+    "extensions": ["xdf"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6917.txt",
       "http://www.iana.org/assignments/media-types/application/mrb-publish+xml"
@@ -1336,6 +1361,7 @@
     ]
   },
   "application/oebps-package+xml": {
+    "extensions": ["opf"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4839.txt",
       "http://www.iana.org/assignments/media-types/application/oebps-package+xml"
@@ -1360,6 +1386,7 @@
     ]
   },
   "application/p2p-overlay+xml": {
+    "extensions": ["relo"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6940.txt",
       "http://www.iana.org/assignments/media-types/application/p2p-overlay+xml"
@@ -1377,6 +1404,7 @@
     ]
   },
   "application/patch-ops-error+xml": {
+    "extensions": ["xer"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5261.txt",
       "http://www.iana.org/assignments/media-types/application/patch-ops-error+xml"
@@ -1532,6 +1560,7 @@
     ]
   },
   "application/provenance+xml": {
+    "extensions": ["provx"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/provenance+xml"
     ]
@@ -1596,6 +1625,7 @@
     ]
   },
   "application/rdf+xml": {
+    "extensions": ["rdf"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc3870.txt",
       "http://www.iana.org/assignments/media-types/application/rdf+xml"
@@ -1626,12 +1656,14 @@
     ]
   },
   "application/resource-lists+xml": {
+    "extensions": ["rl"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4826.txt",
       "http://www.iana.org/assignments/media-types/application/resource-lists+xml"
     ]
   },
   "application/resource-lists-diff+xml": {
+    "extensions": ["rld"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5362.txt",
       "http://www.iana.org/assignments/media-types/application/resource-lists-diff+xml"
@@ -1655,22 +1687,26 @@
     ]
   },
   "application/rls-services+xml": {
+    "extensions": ["rs"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4826.txt",
       "http://www.iana.org/assignments/media-types/application/rls-services+xml"
     ]
   },
   "application/route-apd+xml": {
+    "extensions": ["rapd"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/route-apd+xml"
     ]
   },
   "application/route-s-tsid+xml": {
+    "extensions": ["sls"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/route-s-tsid+xml"
     ]
   },
   "application/route-usd+xml": {
+    "extensions": ["rusd"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/route-usd+xml"
     ]
@@ -1797,6 +1833,7 @@
     ]
   },
   "application/senml+xml": {
+    "extensions": ["senmlx"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc8428.txt",
       "http://www.iana.org/assignments/media-types/application/senml+xml"
@@ -1821,6 +1858,7 @@
     ]
   },
   "application/sensml+xml": {
+    "extensions": ["sensmlx"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc8428.txt",
       "http://www.iana.org/assignments/media-types/application/sensml+xml"
@@ -1981,6 +2019,7 @@
     ]
   },
   "application/sru+xml": {
+    "extensions": ["sru"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6207.txt",
       "http://www.iana.org/assignments/media-types/application/sru+xml"
@@ -1998,6 +2037,7 @@
     ]
   },
   "application/swid+xml": {
+    "extensions": ["swidtag"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/swid+xml"
     ]
@@ -2137,6 +2177,7 @@
     ]
   },
   "application/ttml+xml": {
+    "extensions": ["ttml"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/ttml+xml"
     ]
@@ -2170,6 +2211,7 @@
     ]
   },
   "application/urc-ressheet+xml": {
+    "extensions": ["rsheet"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/urc-ressheet+xml"
     ]
@@ -2203,6 +2245,7 @@
     ]
   },
   "application/vnd.1000minds.decision-model+xml": {
+    "extensions": ["1km"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.1000minds.decision-model+xml"
     ]
@@ -2489,6 +2532,7 @@
     ]
   },
   "application/vnd.adobe.xdp+xml": {
+    "extensions": ["xdp"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.adobe.xdp+xml"
     ]
@@ -2729,6 +2773,7 @@
     ]
   },
   "application/vnd.balsamiq.bmml+xml": {
+    "extensions": ["bmml"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.balsamiq.bmml+xml"
     ]
@@ -2849,6 +2894,7 @@
     ]
   },
   "application/vnd.chemdraw+xml": {
+    "extensions": ["cdxml"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.chemdraw+xml"
     ]
@@ -3823,6 +3869,7 @@
     ]
   },
   "application/vnd.google-earth.kml+xml": {
+    "extensions": ["kml"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.google-earth.kml+xml"
     ]
@@ -3898,11 +3945,13 @@
     ]
   },
   "application/vnd.hal+xml": {
+    "extensions": ["hal"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.hal+xml"
     ]
   },
   "application/vnd.handheld-entertainment+xml": {
+    "extensions": ["zmm"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.HandHeld-Entertainment+xml"
     ]
@@ -4401,6 +4450,7 @@
     ]
   },
   "application/vnd.llamagraphics.life-balance.exchange+xml": {
+    "extensions": ["lbe"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.llamagraphics.life-balance.exchange+xml"
     ]
@@ -4651,6 +4701,7 @@
     ]
   },
   "application/vnd.mozilla.xul+xml": {
+    "extensions": ["xul"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.mozilla.xul+xml"
     ]
@@ -5001,6 +5052,7 @@
     ]
   },
   "application/vnd.nokia.n-gage.ac+xml": {
+    "extensions": ["ac"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.nokia.n-gage.ac+xml"
     ]
@@ -5477,6 +5529,7 @@
     ]
   },
   "application/vnd.openblox.game+xml": {
+    "extensions": ["obgx"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.openblox.game+xml"
     ]
@@ -5492,6 +5545,7 @@
     ]
   },
   "application/vnd.openstreetmap.data+xml": {
+    "extensions": ["osm"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.openstreetmap.data+xml"
     ]
@@ -6213,6 +6267,7 @@
     ]
   },
   "application/vnd.route66.link66+xml": {
+    "extensions": ["link66"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.route66.link66+xml"
     ]
@@ -6393,6 +6448,7 @@
     ]
   },
   "application/vnd.software602.filler.form+xml": {
+    "extensions": ["fo"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.software602.filler.form+xml"
     ]
@@ -6474,6 +6530,7 @@
     ]
   },
   "application/vnd.syncml+xml": {
+    "extensions": ["xsm"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.syncml+xml"
     ]
@@ -6484,6 +6541,7 @@
     ]
   },
   "application/vnd.syncml.dm+xml": {
+    "extensions": ["xdm"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.syncml.dm+xml"
     ]
@@ -6499,6 +6557,7 @@
     ]
   },
   "application/vnd.syncml.dmddf+xml": {
+    "extensions": ["ddf"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.syncml.dmddf+xml"
     ]
@@ -6970,6 +7029,7 @@
     ]
   },
   "application/vnd.zzazz.deck+xml": {
+    "extensions": ["zaz"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.zzazz.deck+xml"
     ]
@@ -7032,11 +7092,13 @@
     ]
   },
   "application/wsdl+xml": {
+    "extensions": ["wsdl"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/wsdl+xml"
     ]
   },
   "application/wspolicy+xml": {
+    "extensions": ["wspolicy"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/wspolicy+xml"
     ]
@@ -7059,36 +7121,42 @@
     ]
   },
   "application/xcap-att+xml": {
+    "extensions": ["xav"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4825.txt",
       "http://www.iana.org/assignments/media-types/application/xcap-att+xml"
     ]
   },
   "application/xcap-caps+xml": {
+    "extensions": ["xca"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4825.txt",
       "http://www.iana.org/assignments/media-types/application/xcap-caps+xml"
     ]
   },
   "application/xcap-diff+xml": {
+    "extensions": ["xdf"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5874.txt",
       "http://www.iana.org/assignments/media-types/application/xcap-diff+xml"
     ]
   },
   "application/xcap-el+xml": {
+    "extensions": ["xel"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4825.txt",
       "http://www.iana.org/assignments/media-types/application/xcap-el+xml"
     ]
   },
   "application/xcap-error+xml": {
+    "extensions": ["xer"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4825.txt",
       "http://www.iana.org/assignments/media-types/application/xcap-error+xml"
     ]
   },
   "application/xcap-ns+xml": {
+    "extensions": ["xns"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4825.txt",
       "http://www.iana.org/assignments/media-types/application/xcap-ns+xml"
@@ -7112,11 +7180,13 @@
     ]
   },
   "application/xhtml+xml": {
+    "extensions": ["xhtml"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/xhtml+xml"
     ]
   },
   "application/xliff+xml": {
+    "extensions": ["xlf"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/xliff+xml"
     ]
@@ -7152,6 +7222,7 @@
     ]
   },
   "application/xop+xml": {
+    "extensions": ["xop"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/xop+xml"
     ]
@@ -7198,6 +7269,7 @@
     ]
   },
   "application/yin+xml": {
+    "extensions": ["yin"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6020.txt",
       "http://www.iana.org/assignments/media-types/application/yin+xml"

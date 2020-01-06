@@ -120,7 +120,7 @@
   },
   "application/rdf+xml": {
     "compressible": true,
-    "extensions": ["rdf","owl"],
+    "extensions": ["owl"],
     "notes": "OWL 1 recommends using '.rdf' or '.owl' as extensions under the 'application/rdf+xml' mime type",
     "sources": [
       "https://www.w3.org/TR/owl-ref/#MIMEType"
