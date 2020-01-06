@@ -11,12 +11,6 @@
   "application/dart": {
     "compressible": true
   },
-  "application/dash+xml": {
-    "extensions": ["mpd"],
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/dash+xml"
-    ]
-  },
   "application/ecmascript": {
     "compressible": true,
     "extensions": ["es"],
@@ -51,11 +45,7 @@
     ]
   },
   "application/gzip": {
-    "compressible": false,
-    "extensions": ["gz"],
-    "sources": [
-      "https://tools.ietf.org/html/rfc6713#section-3"
-    ]
+    "compressible": false
   },
   "application/hjson": {
     "extensions": ["hjson"],
@@ -88,9 +78,6 @@
   "application/json5": {
     "extensions": ["json5"]
   },
-  "application/ld+json": {
-    "extensions": ["jsonld"]
-  },
   "application/manifest+json": {
     "charset": "UTF-8",
     "compressible": true,
@@ -104,18 +91,6 @@
   },
   "application/msword": {
     "compressible": false
-  },
-  "application/n-quads": {
-    "extensions": ["nq"],
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/n-quads"
-    ]
-  },
-  "application/n-triples": {
-    "extensions": ["nt"],
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/n-triples"
-    ]
   },
   "application/octet-stream": {
     "compressible": false,
@@ -179,12 +154,6 @@
     "extensions": ["pkpass"],
     "sources": [
       "https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/PassKit_PG/DistributingPasses.html"
-    ]
-  },
-  "application/vnd.citationstyles.style+xml": {
-    "extensions": ["csl"],
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.citationstyles.style+xml"
     ]
   },
   "application/vnd.dart": {
@@ -265,12 +234,6 @@
   },
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {
     "compressible": false
-  },
-  "application/vnd.sun.wadl+xml": {
-    "extensions": ["wadl"],
-    "sources": [
-      "http://www.iana.org/assignments/media-types/application/vnd.sun.wadl+xml"
-    ]
   },
   "application/wasm": {
     "compressible": true,
@@ -481,13 +444,6 @@
   },
   "audio/l24": {
     "compressible": false
-  },
-  "audio/mobile-xmf": {
-    "extensions": ["mxmf"],
-    "sources": [
-      "http://tools.ietf.org/rfc/rfc4723.txt",
-      "http://www.iana.org/assignments/media-types/audio/mobile-xmf"
-    ]
   },
   "audio/mp3": {
     "compressible": false,
@@ -822,7 +778,6 @@
   "text/vtt": {
     "charset": "UTF-8",
     "compressible": true,
-    "extensions": ["vtt"],
     "sources": [
       "http://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
     ]

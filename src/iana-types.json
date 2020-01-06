@@ -410,6 +410,7 @@
     ]
   },
   "application/dash+xml": {
+    "extensions": ["mpd"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/dash+xml"
     ]
@@ -730,6 +731,7 @@
     ]
   },
   "application/gzip": {
+    "extensions": ["gz"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6713.txt",
       "http://www.iana.org/assignments/media-types/application/gzip"
@@ -928,6 +930,7 @@
     ]
   },
   "application/ld+json": {
+    "extensions": ["jsonld"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/ld+json"
     ]
@@ -1246,11 +1249,13 @@
     ]
   },
   "application/n-quads": {
+    "extensions": ["nq"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/n-quads"
     ]
   },
   "application/n-triples": {
+    "extensions": ["nt"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/n-triples"
     ]
@@ -2874,6 +2879,7 @@
     ]
   },
   "application/vnd.citationstyles.style+xml": {
+    "extensions": ["csl"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.citationstyles.style+xml"
     ]
@@ -6447,6 +6453,7 @@
     ]
   },
   "application/vnd.sun.wadl+xml": {
+    "extensions": ["wadl"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.sun.wadl+xml"
     ]
@@ -7654,6 +7661,7 @@
     ]
   },
   "audio/mobile-xmf": {
+    "extensions": ["mxmf"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4723.txt",
       "http://www.iana.org/assignments/media-types/audio/mobile-xmf"
@@ -9123,6 +9131,7 @@
     ]
   },
   "text/turtle": {
+    "extensions": ["ttl"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/turtle"
     ]
@@ -9308,6 +9317,7 @@
     ]
   },
   "text/vtt": {
+    "extensions": ["vtt"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vtt"
     ]

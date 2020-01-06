@@ -29,14 +29,14 @@ var urlReferenceRegExp = /\[(https?:\/\/[^\]]+)]/gi
 
 co(function * () {
   var gens = yield [
-    get('application', { extensions: /\/vnd\.apple\./ }),
-    get('audio'),
+    get('application', { extensions: /\/(?:dash\+xml|gzip|ld\+json|n-quads|n-triples|vnd\.apple\..+|vnd\.citationstyles\.style\+xml|vnd\.sun\.wadl\+xml)$/ }),
+    get('audio', { extensions: /\/mobile-xmf$/ }),
     get('font', { extensions: true }),
     get('image', { extensions: true }),
     get('message', { extensions: true }),
     get('model', { extensions: true }),
     get('multipart'),
-    get('text'),
+    get('text', { extensions: /\/(?:turtle|vtt)$/ }),
     get('video')
   ]
 
