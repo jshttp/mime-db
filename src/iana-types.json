@@ -308,6 +308,11 @@
       "http://www.iana.org/assignments/media-types/application/cfw"
     ]
   },
+  "application/clue+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/clue+xml"
+    ]
+  },
   "application/clue_info+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/clue_info+xml"
@@ -2633,6 +2638,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.api+json"
     ]
   },
+  "application/vnd.aplextor.warrp+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.aplextor.warrp+json"
+    ]
+  },
   "application/vnd.apothekende.reservation+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.apothekende.reservation+json"
@@ -3736,6 +3746,11 @@
   "application/vnd.genomatix.tuxedo": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.genomatix.tuxedo"
+    ]
+  },
+  "application/vnd.gentics.grd+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.gentics.grd+json"
     ]
   },
   "application/vnd.geo+json": {

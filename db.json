@@ -213,6 +213,10 @@
   "application/cfw": {
     "source": "iana"
   },
+  "application/clue+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/clue_info+xml": {
     "source": "iana",
     "compressible": true
@@ -1906,6 +1910,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.aplextor.warrp+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.apothekende.reservation+json": {
     "source": "iana",
     "compressible": true
@@ -2721,6 +2729,10 @@
   "application/vnd.genomatix.tuxedo": {
     "source": "iana",
     "extensions": ["txd"]
+  },
+  "application/vnd.gentics.grd+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.geo+json": {
     "source": "iana",
