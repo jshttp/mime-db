@@ -1,5 +1,5 @@
-unreleased
-==========
+1.43.0 / 2020-01-05
+===================
 
   * Add `application/x-keepass2` with extension `.kdbx`
   * Add extension `.mxmf` to `audio/mobile-xmf`
