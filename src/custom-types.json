@@ -736,7 +736,7 @@
   },
   "text/plain": {
     "compressible": true,
-    "extensions": ["ini"]
+    "extensions": ["ini","license"]
   },
   "text/richtext": {
     "compressible": true
