@@ -501,6 +501,11 @@
       "http://www.iana.org/assignments/media-types/application/dns-message"
     ]
   },
+  "application/dots+cbor": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/dots+cbor"
+    ]
+  },
   "application/dskpp+xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc6063.txt",
@@ -858,7 +863,8 @@
   },
   "application/isup": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc3204.txt"
+      "http://tools.ietf.org/rfc/rfc3204.txt",
+      "http://www.iana.org/assignments/media-types/application/ISUP"
     ]
   },
   "application/its+xml": {
@@ -6292,6 +6298,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.sailingtracker.track"
     ]
   },
+  "application/vnd.sar": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.sar"
+    ]
+  },
   "application/vnd.sbm.cid": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.sbm.cid"
@@ -7916,6 +7927,11 @@
   "audio/tetra_acelp": {
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/TETRA_ACELP"
+    ]
+  },
+  "audio/tetra_acelp_bb": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/TETRA_ACELP_BB"
     ]
   },
   "audio/tone": {

@@ -347,6 +347,9 @@
     "compressible": true,
     "extensions": ["dbk"]
   },
+  "application/dots+cbor": {
+    "source": "iana"
+  },
   "application/dskpp+xml": {
     "source": "iana",
     "compressible": true
@@ -4667,6 +4670,9 @@
     "source": "iana",
     "extensions": ["st"]
   },
+  "application/vnd.sar": {
+    "source": "iana"
+  },
   "application/vnd.sbm.cid": {
     "source": "iana"
   },
@@ -6362,6 +6368,9 @@
     "source": "iana"
   },
   "audio/tetra_acelp": {
+    "source": "iana"
+  },
+  "audio/tetra_acelp_bb": {
     "source": "iana"
   },
   "audio/tone": {
