@@ -1503,6 +1503,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/td+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/tei+xml": {
     "source": "iana",
     "compressible": true,
@@ -2370,6 +2374,10 @@
   "application/vnd.dvb.ait": {
     "source": "iana",
     "extensions": ["ait"]
+  },
+  "application/vnd.dvb.dvbisl+xml": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.dvb.dvbj": {
     "source": "iana"
@@ -7141,6 +7149,14 @@
     "source": "iana",
     "compressible": false,
     "extensions": ["msh","mesh","silo"]
+  },
+  "model/mtl": {
+    "source": "iana",
+    "extensions": ["mtl"]
+  },
+  "model/obj": {
+    "source": "iana",
+    "extensions": ["obj"]
   },
   "model/stl": {
     "source": "iana",

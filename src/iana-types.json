@@ -1913,7 +1913,8 @@
   },
   "application/sgml": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc1874.txt"
+      "http://tools.ietf.org/rfc/rfc1874.txt",
+      "http://www.iana.org/assignments/media-types/application/SGML"
     ]
   },
   "application/sgml-open-catalog": {
@@ -2117,6 +2118,11 @@
   "application/taxii+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/taxii+json"
+    ]
+  },
+  "application/td+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/td+json"
     ]
   },
   "application/tei+xml": {
@@ -3264,6 +3270,11 @@
   "application/vnd.dvb.ait": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.dvb.ait"
+    ]
+  },
+  "application/vnd.dvb.dvbisl+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.dvb.dvbisl+xml"
     ]
   },
   "application/vnd.dvb.dvbj": {
@@ -8781,6 +8792,18 @@
   "model/mesh": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc2077.txt"
+    ]
+  },
+  "model/mtl": {
+    "extensions": ["mtl"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/mtl"
+    ]
+  },
+  "model/obj": {
+    "extensions": ["obj"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/obj"
     ]
   },
   "model/stl": {
