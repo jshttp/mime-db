@@ -8,6 +8,12 @@
       "http://www.id.ee/public/bdoc-spec21.pdf"
     ]
   },
+  "application/cdr":{
+    "extensions": ["cdr"],
+    "sources": [
+      "https://www.zamzar.com/fileformats/cdr"
+    ]
+  },
   "application/dart": {
     "compressible": true
   },
@@ -24,6 +30,13 @@
   },
   "application/edifact": {
     "compressible": false
+  },
+  "application/x-fictionbook+xml":{
+    "extensions": ["fb2","fbz"],
+    "sources": [
+      "https://reposcope.com/mimetype/application/x-fictionbook+xml",
+      "https://en.wikipedia.org/wiki/FictionBook"
+    ]
   },
   "application/fido.trusted-apps+json": {
     "sources": [
@@ -269,6 +282,15 @@
   "application/x-bzip2": {
     "compressible": false
   },
+  "application/x-cbc":{
+    "extensions": ["cbc"]
+  },
+  "application/x-cdr":{
+    "extensions": ["cdr"],
+    "sources": [
+      "https://www.zamzar.com/fileformats/cdr"
+    ]
+  },
   "application/x-chrome-extension": {
     "extensions": ["crx"]
   },
@@ -312,6 +334,18 @@
       "https://bugzilla.mozilla.org/show_bug.cgi?id=250938"
     ]
   },
+  "application/x-msworks":{
+    "extensions": ["xlr"],
+    "sources": [
+      "https://www.zamzar.com/fileformats/xlr"
+    ]
+  },
+  "application/x-ms-reader":{
+    "extensions": ["lit"],
+    "sources": [
+      "https://www.zamzar.com/fileformats/lit"
+    ]
+  },
   "application/x-ns-proxy-autoconfig": {
     "compressible": true,
     "extensions": ["pac"],
@@ -320,11 +354,20 @@
       "https://en.wikipedia.org/wiki/Proxy_auto-config#The_PAC_File"
     ]
   },
+  "application/x-obaks":{
+    "extensions": ["lit"],
+    "sources": [
+      "https://www.zamzar.com/fileformats/lit"
+    ]
+  },
   "application/x-pkcs12": {
     "compressible": false
   },
   "application/x-rar-compressed": {
     "compressible": false
+  },
+  "application/x-rocketbook":{
+    "extensions": ["rb"]
   },
   "application/x-sh": {
     "compressible": true
@@ -516,6 +559,12 @@
       "http://stackoverflow.com/a/12770116"
     ]
   },
+  "image/cdr":{
+    "extensions": ["cdr"],
+    "sources": [
+      "https://www.zamzar.com/fileformats/cdr"
+    ]
+  },
   "image/gif": {
     "compressible": false
   },
@@ -595,6 +644,18 @@
     "notes": "Microsoft format for storing graphical textures and cubemaps. Used in 3d engines, such as Babylon.js.",
     "sources": [
       "https://docs.microsoft.com/en-us/windows/win32/wic/dds-format-overview"
+    ]
+  },
+  "image/x-cdr":{
+    "extensions": ["cdr"],
+    "sources": [
+      "https://www.zamzar.com/fileformats/cdr"
+    ]
+  },
+  "image/x-coreldraw":{
+    "extensions": ["cdr"],
+    "sources": [
+      "https://mediatemple.net/community/products/dv/204403964/mime-types"
     ]
   },
   "image/x-icon": {
