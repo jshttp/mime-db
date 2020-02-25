@@ -65,8 +65,9 @@
   "application/javascript": {
     "charset": "UTF-8",
     "compressible": true,
-    "extensions": ["mjs"],
+    "extensions": ["cjs", "mjs"],
     "sources": [
+      "https://nodejs.org/docs/latest-v13.x/api/esm.html#esm_package_scope_and_file_extensions",
       "https://tools.ietf.org/html/draft-bfarias-javascript-mjs-00"
     ]
   },
