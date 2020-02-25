@@ -965,7 +965,8 @@
     "compressible": true
   },
   "application/node": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["cjs"]
   },
   "application/nss": {
     "source": "iana"

@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extension `.cjs` to `application/node`
   * Add new upstream MIME types
 
 1.43.0 / 2020-01-05

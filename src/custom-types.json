@@ -92,6 +92,12 @@
   "application/msword": {
     "compressible": false
   },
+  "application/node": {
+    "extensions": ["cjs"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/node"
+    ]
+  },
   "application/octet-stream": {
     "compressible": false,
     "extensions": ["buffer"],
