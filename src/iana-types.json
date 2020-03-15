@@ -225,6 +225,11 @@
       "http://www.iana.org/assignments/media-types/application/CALS-1840"
     ]
   },
+  "application/cap+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/cap+xml"
+    ]
+  },
   "application/cbor": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc7049.txt",
@@ -233,6 +238,7 @@
   },
   "application/cbor-seq": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8742.txt",
       "http://www.iana.org/assignments/media-types/application/cbor-seq"
     ]
   },
@@ -1270,6 +1276,7 @@
   },
   "application/multipart-core": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8710.txt",
       "http://www.iana.org/assignments/media-types/application/multipart-core"
     ]
   },
@@ -1612,6 +1619,11 @@
       "http://www.iana.org/assignments/media-types/application/pskc+xml"
     ]
   },
+  "application/pvd+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/pvd+json"
+    ]
+  },
   "application/qsig": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc3204.txt",
@@ -1843,6 +1855,16 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc8428.txt",
       "http://www.iana.org/assignments/media-types/application/senml+xml"
+    ]
+  },
+  "application/senml-etch+cbor": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/senml-etch+cbor"
+    ]
+  },
+  "application/senml-etch+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/senml-etch+json"
     ]
   },
   "application/senml-exi": {

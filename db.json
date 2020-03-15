@@ -159,6 +159,10 @@
   "application/cals-1840": {
     "source": "iana"
   },
+  "application/cap+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/cbor": {
     "source": "iana"
   },
@@ -1152,6 +1156,10 @@
     "compressible": true,
     "extensions": ["pskcxml"]
   },
+  "application/pvd+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/qsig": {
     "source": "iana"
   },
@@ -1322,6 +1330,13 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["senmlx"]
+  },
+  "application/senml-etch+cbor": {
+    "source": "iana"
+  },
+  "application/senml-etch+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/senml-exi": {
     "source": "iana"
