@@ -78,6 +78,14 @@
   "application/json5": {
     "extensions": ["json5"]
   },
+  "application/ld+json": {
+    "charset": "UTF-8",
+    "compressible": true,
+    "extensions": ["jsonld"],
+    "sources": [
+      "https://www.w3.org/TR/json-ld/",
+    ]
+  },
   "application/manifest+json": {
     "charset": "UTF-8",
     "compressible": true,
