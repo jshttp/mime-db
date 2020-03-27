@@ -90,6 +90,16 @@
       "http://www.iana.org/assignments/media-types/application/alto-networkmapfilter+json"
     ]
   },
+  "application/alto-updatestreamcontrol+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/alto-updatestreamcontrol+json"
+    ]
+  },
+  "application/alto-updatestreamparams+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/alto-updatestreamparams+json"
+    ]
+  },
   "application/aml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/AML"
@@ -153,6 +163,11 @@
     "extensions": ["dwd"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/atsc-dwd+xml"
+    ]
+  },
+  "application/atsc-dynamic-event-message": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/atsc-dynamic-event-message"
     ]
   },
   "application/atsc-held+xml": {
@@ -991,6 +1006,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc6739.txt",
       "http://www.iana.org/assignments/media-types/application/lostsync+xml"
+    ]
+  },
+  "application/lpf+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/lpf+zip"
     ]
   },
   "application/lxf": {
@@ -3187,6 +3207,11 @@
   "application/vnd.dataresource+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.dataresource+json"
+    ]
+  },
+  "application/vnd.dbf": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.dbf"
     ]
   },
   "application/vnd.debian.binary-package": {
@@ -6461,6 +6486,16 @@
       "http://www.iana.org/assignments/media-types/application/vnd.shopkick+json"
     ]
   },
+  "application/vnd.shp": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.shp"
+    ]
+  },
+  "application/vnd.shx": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.shx"
+    ]
+  },
   "application/vnd.sigrok.session": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.sigrok.session"
@@ -7147,9 +7182,29 @@
       "http://www.iana.org/assignments/media-types/application/wspolicy+xml"
     ]
   },
+  "application/x-pki-message": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/x-pki-message"
+    ]
+  },
   "application/x-www-form-urlencoded": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/x-www-form-urlencoded"
+    ]
+  },
+  "application/x-x509-ca-cert": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/x-x509-ca-cert"
+    ]
+  },
+  "application/x-x509-ca-ra-cert": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/x-x509-ca-ra-cert"
+    ]
+  },
+  "application/x-x509-next-ca-cert": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/x-x509-next-ca-cert"
     ]
   },
   "application/x400-bp": {
@@ -9238,7 +9293,8 @@
   },
   "text/sgml": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc1874.txt"
+      "http://tools.ietf.org/rfc/rfc1874.txt",
+      "http://www.iana.org/assignments/media-types/text/SGML"
     ]
   },
   "text/strings": {

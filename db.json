@@ -60,6 +60,14 @@
     "source": "iana",
     "compressible": true
   },
+  "application/alto-updatestreamcontrol+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/alto-updatestreamparams+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/aml": {
     "source": "iana"
   },
@@ -107,6 +115,9 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["dwd"]
+  },
+  "application/atsc-dynamic-event-message": {
+    "source": "iana"
   },
   "application/atsc-held+xml": {
     "source": "iana",
@@ -707,6 +718,10 @@
   "application/lostsync+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/lpf+zip": {
+    "source": "iana",
+    "compressible": false
   },
   "application/lxf": {
     "source": "iana"
@@ -2305,6 +2320,9 @@
   "application/vnd.dataresource+json": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.dbf": {
+    "source": "iana"
   },
   "application/vnd.debian.binary-package": {
     "source": "iana"
@@ -4781,6 +4799,12 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.shp": {
+    "source": "iana"
+  },
+  "application/vnd.shx": {
+    "source": "iana"
+  },
   "application/vnd.sigrok.session": {
     "source": "iana"
   },
@@ -5725,6 +5749,9 @@
     "source": "apache",
     "extensions": ["p7r"]
   },
+  "application/x-pki-message": {
+    "source": "iana"
+  },
   "application/x-rar-compressed": {
     "source": "apache",
     "compressible": false,
@@ -5867,8 +5894,14 @@
     "compressible": true
   },
   "application/x-x509-ca-cert": {
-    "source": "apache",
+    "source": "iana",
     "extensions": ["der","crt","pem"]
+  },
+  "application/x-x509-ca-ra-cert": {
+    "source": "iana"
+  },
+  "application/x-x509-next-ca-cert": {
+    "source": "iana"
   },
   "application/x-xfig": {
     "source": "apache",
