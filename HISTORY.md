@@ -1,5 +1,5 @@
-unreleased
-==========
+1.44.0 / 2020-04-22
+===================
 
   * Add charsets from IANA
   * Add extension `.cjs` to `application/node`
