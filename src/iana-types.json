@@ -1806,6 +1806,11 @@
       "http://www.iana.org/assignments/media-types/application/samlmetadata+xml"
     ]
   },
+  "application/sbe": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/sbe"
+    ]
+  },
   "application/sbml+xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc3823.txt",
@@ -5292,6 +5297,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.ocf+cbor"
     ]
   },
+  "application/vnd.oci.image.manifest.v1+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.oci.image.manifest.v1+json"
+    ]
+  },
   "application/vnd.oftn.l10n+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.oftn.l10n+json"
@@ -6524,6 +6534,11 @@
   "application/vnd.smart.teacher": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.smart.teacher"
+    ]
+  },
+  "application/vnd.snesdev-page-table": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.snesdev-page-table"
     ]
   },
   "application/vnd.software602.filler.form+xml": {
@@ -7829,6 +7844,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc8130.txt",
       "http://www.iana.org/assignments/media-types/audio/MELP600"
+    ]
+  },
+  "audio/mhas": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/mhas"
     ]
   },
   "audio/mobile-xmf": {

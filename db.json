@@ -1299,6 +1299,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/sbe": {
+    "source": "iana"
+  },
   "application/sbml+xml": {
     "source": "iana",
     "compressible": true,
@@ -3905,6 +3908,10 @@
   "application/vnd.ocf+cbor": {
     "source": "iana"
   },
+  "application/vnd.oci.image.manifest.v1+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.oftn.l10n+json": {
     "source": "iana",
     "compressible": true
@@ -4827,6 +4834,9 @@
   "application/vnd.smart.teacher": {
     "source": "iana",
     "extensions": ["teacher"]
+  },
+  "application/vnd.snesdev-page-table": {
+    "source": "iana"
   },
   "application/vnd.software602.filler.form+xml": {
     "source": "iana",
@@ -6306,6 +6316,9 @@
     "source": "iana"
   },
   "audio/melp600": {
+    "source": "iana"
+  },
+  "audio/mhas": {
     "source": "iana"
   },
   "audio/midi": {
