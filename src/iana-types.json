@@ -6,6 +6,7 @@
     ]
   },
   "application/3gpdash-qoe-report+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/3gpdash-qoe-report+xml"
     ]
@@ -210,6 +211,7 @@
     ]
   },
   "application/beep+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://tools.ietf.org/rfc/rfc3080.txt",
       "http://www.iana.org/assignments/media-types/application/beep+xml"
@@ -241,6 +243,7 @@
     ]
   },
   "application/cap+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/cap+xml"
     ]
@@ -690,11 +693,13 @@
     ]
   },
   "application/fhir+json": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/fhir+json"
     ]
   },
   "application/fhir+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/fhir+xml"
     ]
@@ -823,6 +828,7 @@
     ]
   },
   "application/im-iscomposing+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://tools.ietf.org/rfc/rfc3994.txt",
       "http://www.iana.org/assignments/media-types/application/im-iscomposing+xml"
@@ -1272,12 +1278,14 @@
     ]
   },
   "application/msc-ivr+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://tools.ietf.org/rfc/rfc6231.txt",
       "http://www.iana.org/assignments/media-types/application/msc-ivr+xml"
     ]
   },
   "application/msc-mixer+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://tools.ietf.org/rfc/rfc6505.txt",
       "http://www.iana.org/assignments/media-types/application/msc-mixer+xml"
@@ -1325,12 +1333,14 @@
     ]
   },
   "application/news-checkgroups": {
+    "charset": "US-ASCII",
     "sources": [
       "http://tools.ietf.org/rfc/rfc5537.txt",
       "http://www.iana.org/assignments/media-types/application/news-checkgroups"
     ]
   },
   "application/news-groupinfo": {
+    "charset": "US-ASCII",
     "sources": [
       "http://tools.ietf.org/rfc/rfc5537.txt",
       "http://www.iana.org/assignments/media-types/application/news-groupinfo"
@@ -1478,12 +1488,14 @@
     ]
   },
   "application/pidf+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://tools.ietf.org/rfc/rfc3863.txt",
       "http://www.iana.org/assignments/media-types/application/pidf+xml"
     ]
   },
   "application/pidf-diff+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://tools.ietf.org/rfc/rfc5262.txt",
       "http://www.iana.org/assignments/media-types/application/pidf-diff+xml"
@@ -1562,6 +1574,7 @@
     ]
   },
   "application/poc-settings+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://tools.ietf.org/rfc/rfc4354.txt",
       "http://www.iana.org/assignments/media-types/application/poc-settings+xml"
@@ -5553,16 +5566,19 @@
     ]
   },
   "application/vnd.omads-email+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.omads-email+xml"
     ]
   },
   "application/vnd.omads-file+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.omads-file+xml"
     ]
   },
   "application/vnd.omads-folder+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.omads-folder+xml"
     ]
@@ -6624,17 +6640,20 @@
     ]
   },
   "application/vnd.syncml+xml": {
+    "charset": "UTF-8",
     "extensions": ["xsm"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.syncml+xml"
     ]
   },
   "application/vnd.syncml.dm+wbxml": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.syncml.dm+wbxml"
     ]
   },
   "application/vnd.syncml.dm+xml": {
+    "charset": "UTF-8",
     "extensions": ["xdm"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.syncml.dm+xml"
@@ -6651,6 +6670,7 @@
     ]
   },
   "application/vnd.syncml.dmddf+xml": {
+    "charset": "UTF-8",
     "extensions": ["ddf"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.syncml.dmddf+xml"
@@ -6662,6 +6682,7 @@
     ]
   },
   "application/vnd.syncml.dmtnds+xml": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.syncml.dmtnds+xml"
     ]
@@ -6907,6 +6928,7 @@
     ]
   },
   "application/vnd.wap.wbxml": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.wap.wbxml"
     ]
@@ -9223,11 +9245,13 @@
     ]
   },
   "text/n3": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/text/n3"
     ]
   },
   "text/parameters": {
+    "charset": "UTF-8",
     "sources": [
       "http://tools.ietf.org/rfc/rfc7826.txt",
       "http://www.iana.org/assignments/media-types/text/parameters"
@@ -9246,6 +9270,7 @@
     ]
   },
   "text/provenance-notation": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/text/provenance-notation"
     ]
@@ -9340,6 +9365,7 @@
     ]
   },
   "text/turtle": {
+    "charset": "UTF-8",
     "extensions": ["ttl"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/turtle"
@@ -9384,6 +9410,7 @@
     ]
   },
   "text/vnd.debian.copyright": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.debian.copyright"
     ]
@@ -9399,6 +9426,7 @@
     ]
   },
   "text/vnd.esmertec.theme-descriptor": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.esmertec.theme-descriptor"
     ]
@@ -9496,11 +9524,13 @@
     ]
   },
   "text/vnd.sun.j2me.app-descriptor": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.sun.j2me.app-descriptor"
     ]
   },
   "text/vnd.trolltech.linguist": {
+    "charset": "UTF-8",
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.trolltech.linguist"
     ]

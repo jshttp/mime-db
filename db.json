@@ -4,6 +4,7 @@
   },
   "application/3gpdash-qoe-report+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/3gpp-ims+xml": {
@@ -153,6 +154,7 @@
   },
   "application/beep+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/calendar+json": {
@@ -172,6 +174,7 @@
   },
   "application/cap+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/cbor": {
@@ -477,10 +480,12 @@
   },
   "application/fhir+json": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/fhir+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/fido.trusted-apps+json": {
@@ -577,6 +582,7 @@
   },
   "application/im-iscomposing+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/index": {
@@ -918,10 +924,12 @@
   },
   "application/msc-ivr+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/msc-mixer+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/msword": {
@@ -952,10 +960,12 @@
     "source": "iana"
   },
   "application/news-checkgroups": {
-    "source": "iana"
+    "source": "iana",
+    "charset": "US-ASCII"
   },
   "application/news-groupinfo": {
-    "source": "iana"
+    "source": "iana",
+    "charset": "US-ASCII"
   },
   "application/news-transmission": {
     "source": "iana"
@@ -1064,10 +1074,12 @@
   },
   "application/pidf+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/pidf-diff+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/pkcs10": {
@@ -1119,6 +1131,7 @@
   },
   "application/poc-settings+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/postscript": {
@@ -4100,14 +4113,17 @@
   },
   "application/vnd.omads-email+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/vnd.omads-file+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/vnd.omads-folder+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/vnd.omaloc-supl-init": {
@@ -4968,15 +4984,18 @@
   },
   "application/vnd.syncml+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true,
     "extensions": ["xsm"]
   },
   "application/vnd.syncml.dm+wbxml": {
     "source": "iana",
+    "charset": "UTF-8",
     "extensions": ["bdm"]
   },
   "application/vnd.syncml.dm+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true,
     "extensions": ["xdm"]
   },
@@ -4988,6 +5007,7 @@
   },
   "application/vnd.syncml.dmddf+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true,
     "extensions": ["ddf"]
   },
@@ -4996,6 +5016,7 @@
   },
   "application/vnd.syncml.dmtnds+xml": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true
   },
   "application/vnd.syncml.ds.notification": {
@@ -5164,6 +5185,7 @@
   },
   "application/vnd.wap.wbxml": {
     "source": "iana",
+    "charset": "UTF-8",
     "extensions": ["wbxml"]
   },
   "application/vnd.wap.wmlc": {
@@ -7467,11 +7489,13 @@
   },
   "text/n3": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true,
     "extensions": ["n3"]
   },
   "text/parameters": {
-    "source": "iana"
+    "source": "iana",
+    "charset": "UTF-8"
   },
   "text/parityfec": {
     "source": "iana"
@@ -7482,7 +7506,8 @@
     "extensions": ["txt","text","conf","def","list","log","in","ini"]
   },
   "text/provenance-notation": {
-    "source": "iana"
+    "source": "iana",
+    "charset": "UTF-8"
   },
   "text/prs.fallenstein.rst": {
     "source": "iana"
@@ -7594,7 +7619,8 @@
     "extensions": ["scurl"]
   },
   "text/vnd.debian.copyright": {
-    "source": "iana"
+    "source": "iana",
+    "charset": "UTF-8"
   },
   "text/vnd.dmclientscript": {
     "source": "iana"
@@ -7604,7 +7630,8 @@
     "extensions": ["sub"]
   },
   "text/vnd.esmertec.theme-descriptor": {
-    "source": "iana"
+    "source": "iana",
+    "charset": "UTF-8"
   },
   "text/vnd.ficlab.flt": {
     "source": "iana"
@@ -7667,10 +7694,12 @@
   },
   "text/vnd.sun.j2me.app-descriptor": {
     "source": "iana",
+    "charset": "UTF-8",
     "extensions": ["jad"]
   },
   "text/vnd.trolltech.linguist": {
-    "source": "iana"
+    "source": "iana",
+    "charset": "UTF-8"
   },
   "text/vnd.wap.si": {
     "source": "iana"

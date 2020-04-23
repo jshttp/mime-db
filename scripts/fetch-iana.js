@@ -27,6 +27,9 @@ var symbolRegExp = /[._-]/g
 var trimQuotesRegExp = /^"|"$/gm
 var urlReferenceRegExp = /\[(https?:\/\/[^\]]+)]/gi
 
+var CHARSET_DEFAULT_REGEXP = /(?:\bcharset\b[^.]*(?:\.\s+default\s+(?:value\s+)?is|\bdefault[^.]*(?:of|is)|\bmust\s+have\s+the\s+value|\bvalue\s+must\s+be)\s+|\bcharset\s*\(?defaults\s+to\s+|\bdefault\b[^.]*?\bchar(?:set|act[eo]r\s+set)\b[^.]*?(?:of|is)\s+|\bcharset\s+(?:must|is)\s+always\s+(?:be\s+)?)["']?([a-z0-9]+-[a-z0-9-]+)/im
+var MIME_TYPE_HAS_CHARSET_PARAMETER_REGEXP = /parameters\s*:[^.]*\bcharset\b/im
+
 co(function * () {
   var gens = yield [
     get('application', { extensions: /(?:\/(?:gzip|ld\+json|n-quads|n-triples|vnd\.apple\..+)|\+xml)$/ }),
@@ -61,6 +64,7 @@ co(function * () {
     }
 
     json[mime] = {
+      charset: result.charset,
       extensions: result.extensions,
       notes: result.notes,
       sources: result.sources
@@ -118,6 +122,9 @@ function addTemplateData (data, options) {
       // use extracted mime
       data.mime = mime
 
+      // use extracted charset
+      data.charset = extractTemplateCharset(body)
+
       // use extracted extensions
       var useExt = opts.extensions &&
         (opts.extensions === true || opts.extensions.test(data.mime))
@@ -163,6 +170,18 @@ function extractTemplateMime (body) {
   }
 
   return (type + '/' + subtype).toLowerCase()
+}
+
+function extractTemplateCharset (body) {
+  if (!MIME_TYPE_HAS_CHARSET_PARAMETER_REGEXP.test(body)) {
+    return undefined
+  }
+
+  var match = CHARSET_DEFAULT_REGEXP.exec(body)
+
+  return match
+    ? match[1].toUpperCase()
+    : undefined
 }
 
 function extractTemplateExtensions (body) {
