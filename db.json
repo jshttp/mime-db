@@ -2004,7 +2004,7 @@
   },
   "application/vnd.apple.keynote": {
     "source": "iana",
-    "extensions": ["keynote"]
+    "extensions": ["key"]
   },
   "application/vnd.apple.mpegurl": {
     "source": "iana",

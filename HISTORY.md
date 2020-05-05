@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Fix extension of `application/vnd.apple.keynote` to be `.key`
+
 1.44.0 / 2020-04-22
 ===================
 

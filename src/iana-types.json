@@ -2775,7 +2775,7 @@
     ]
   },
   "application/vnd.apple.keynote": {
-    "extensions": ["keynote"],
+    "extensions": ["key"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.apple.keynote"
     ]
