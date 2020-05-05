@@ -3498,9 +3498,6 @@
     ]
   },
   "application/vnd.efi.iso": {
-    "sources": [
-      "http://www.iana.org/assignments/media-types/application/vnd.efi.iso"
-    ]
   },
   "application/vnd.emclient.accessrequest+xml": {
     "sources": [
@@ -3783,11 +3780,13 @@
     ]
   },
   "application/vnd.frogans.fnc": {
+    "notes": "OBSOLETE",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.frogans.fnc"
     ]
   },
   "application/vnd.frogans.ltf": {
+    "notes": "OBSOLETE",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.frogans.ltf"
     ]
@@ -9340,6 +9339,12 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc1874.txt",
       "http://www.iana.org/assignments/media-types/text/SGML"
+    ]
+  },
+  "text/spdx": {
+    "extensions": ["spdx"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/spdx"
     ]
   },
   "text/strings": {

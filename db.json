@@ -7557,6 +7557,10 @@
   "text/slim": {
     "extensions": ["slim","slm"]
   },
+  "text/spdx": {
+    "source": "iana",
+    "extensions": ["spdx"]
+  },
   "text/strings": {
     "source": "iana"
   },

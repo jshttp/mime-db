@@ -39,7 +39,7 @@ co(function * () {
     get('message', { extensions: true }),
     get('model', { extensions: true }),
     get('multipart'),
-    get('text', { extensions: /\/(?:turtle|vtt)$/ }),
+    get('text', { extensions: /\/(?:spdx|turtle|vtt)$/ }),
     get('video')
   ]
 
