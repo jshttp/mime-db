@@ -813,6 +813,14 @@
       "https://en.wikipedia.org/wiki/Processing_(programming_language)"
     ]
   },
+  "text/x-rst": {
+    "compressible": true,
+    "extensions": ["rst"],
+    "sources": [
+      "https://docutils.sourceforge.io/rst.html",
+      "https://en.wikipedia.org/wiki/ReStructuredText"
+    ]
+  },
   "text/x-sass": {
     "extensions": ["sass"]
   },
