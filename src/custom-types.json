@@ -817,8 +817,7 @@
     "compressible": true,
     "extensions": ["rst"],
     "sources": [
-      "https://docutils.sourceforge.io/rst.html",
-      "https://en.wikipedia.org/wiki/ReStructuredText"
+      "https://docutils.sourceforge.io/rst.html"
     ]
   },
   "text/x-sass": {
