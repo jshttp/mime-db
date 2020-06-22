@@ -6444,6 +6444,9 @@
   "audio/smv0": {
     "source": "iana"
   },
+  "audio/sofa": {
+    "source": "iana"
+  },
   "audio/sp-midi": {
     "source": "iana"
   },
@@ -6466,6 +6469,9 @@
     "source": "iana"
   },
   "audio/tone": {
+    "source": "iana"
+  },
+  "audio/tsvcis": {
     "source": "iana"
   },
   "audio/uemclip": {

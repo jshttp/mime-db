@@ -527,6 +527,7 @@
   },
   "application/dots+cbor": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8782.txt",
       "http://www.iana.org/assignments/media-types/application/dots+cbor"
     ]
   },
@@ -3498,6 +3499,9 @@
     ]
   },
   "application/vnd.efi.iso": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.efi.iso"
+    ]
   },
   "application/vnd.emclient.accessrequest+xml": {
     "sources": [
@@ -7423,7 +7427,6 @@
   },
   "application/zstd": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc8478.txt",
       "http://www.iana.org/assignments/media-types/application/zstd"
     ]
   },
@@ -8024,6 +8027,11 @@
       "http://www.iana.org/assignments/media-types/audio/SMV0"
     ]
   },
+  "audio/sofa": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/sofa"
+    ]
+  },
   "audio/sp-midi": {
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/sp-midi"
@@ -8067,6 +8075,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc4733.txt",
       "http://www.iana.org/assignments/media-types/audio/tone"
+    ]
+  },
+  "audio/tsvcis": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/TSVCIS"
     ]
   },
   "audio/uemclip": {
