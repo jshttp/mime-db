@@ -7416,6 +7416,10 @@
   "text/coffeescript": {
     "extensions": ["coffee","litcoffee"]
   },
+  "text/comma-separated-values": {
+    "compressible": true,
+    "extensions": ["csv"]
+  },
   "text/css": {
     "source": "iana",
     "charset": "UTF-8",
