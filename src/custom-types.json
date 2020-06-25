@@ -686,6 +686,10 @@
   "text/cmd": {
     "compressible": true
   },
+  "text/comma-separated-values": {
+    "compressible": true,
+    "extensions": ["csv"]
+  },
   "text/coffeescript": {
     "extensions": ["coffee","litcoffee"]
   },
