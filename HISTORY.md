@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `application/ubjson` with extension `.ubj`
   * Add new upstream MIME types
   * Fix extension of `application/vnd.apple.keynote` to be `.key`
 

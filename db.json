@@ -1611,6 +1611,10 @@
   "application/tzif-leap": {
     "source": "iana"
   },
+  "application/ubjson": {
+    "compressible": false,
+    "extensions": ["ubj"]
+  },
   "application/ulpfec": {
     "source": "iana"
   },

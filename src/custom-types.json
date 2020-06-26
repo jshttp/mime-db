@@ -152,6 +152,13 @@
     ],
     "compressible": true
   },
+  "application/ubjson": {
+    "extensions": ["ubj"],
+    "sources" : [
+      "http://ubjson.org/"
+    ],
+    "compressible": false
+  },
   "application/vnd.android.package-archive": {
     "compressible": false
   },
