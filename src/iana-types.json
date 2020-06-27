@@ -2290,6 +2290,7 @@
     ]
   },
   "application/urc-targetdesc+xml": {
+    "extensions": ["td"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/urc-targetdesc+xml"
     ]
