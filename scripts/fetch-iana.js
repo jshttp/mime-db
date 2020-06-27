@@ -144,6 +144,10 @@ function addTemplateData (data, options) {
         (opts.extensions === true || opts.extensions.test(data.mime))
       if (useExt && extractIntendedUsage(body) === 'common') {
         data.extensions = extractTemplateExtensions(body)
+        if (!data.extensions) {
+          console.log('===== %s =====', mime)
+          console.log(((body.match(/extension\(.{1,40}/ims) || [])[0] || '').split('\n')[0])
+        }
       }
     }
 
