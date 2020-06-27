@@ -3095,6 +3095,7 @@
     ]
   },
   "application/vnd.biopax.rdf+xml": {
+    "extensions": ["owl"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.biopax.rdf+xml"
     ]
@@ -6899,6 +6900,7 @@
     ]
   },
   "application/vnd.solent.sdkm+xml": {
+    "extensions": ["sdkm","sdkd"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.solent.sdkm+xml"
     ]
@@ -9376,6 +9378,7 @@
     ]
   },
   "model/vnd.flatland.3dml": {
+    "extensions": ["3dml","3dm"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.flatland.3dml"
     ]

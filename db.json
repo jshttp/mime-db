@@ -2213,7 +2213,8 @@
   },
   "application/vnd.biopax.rdf+xml": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["owl"]
   },
   "application/vnd.blink-idb-value-wrapper": {
     "source": "iana"
@@ -7538,7 +7539,8 @@
     "extensions": ["dwf"]
   },
   "model/vnd.flatland.3dml": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["3dml","3dm"]
   },
   "model/vnd.gdl": {
     "source": "iana",
