@@ -8545,8 +8545,9 @@
     ]
   },
   "image/ktx": {
+    "extensions": ["ktx"],
     "sources": [
-      "http://www.khronos.org/opengles/sdk/tools/KTX/file_format_spec/#mimeregistration"
+      "http://www.iana.org/assignments/media-types/image/ktx"
     ]
   },
   "image/naplps": {
