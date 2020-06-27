@@ -2368,8 +2368,7 @@
   },
   "application/tlsrpt+json": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc8460.txt",
-      "http://www.iana.org/assignments/media-types/application/tlsrpt+json"
+      "http://tools.ietf.org/rfc/rfc8460.txt"
     ]
   },
   "application/tnauthlist": {
@@ -2979,6 +2978,7 @@
     ]
   },
   "application/vnd.apple.installer+xml": {
+    "extensions": ["dist","distz","pkg","mpkg"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.apple.installer+xml"
     ]
@@ -9005,6 +9005,7 @@
     ]
   },
   "image/vnd.dece.graphic": {
+    "extensions": ["uvi","uvvi","uvg","uvvg"],
     "sources": [
       "http://www.iana.org/assignments/media-types/image/vnd.dece.graphic"
     ]
@@ -9101,21 +9102,25 @@
     ]
   },
   "image/vnd.radiance": {
+    "extensions": ["pic","hdr","rgbe","xyze"],
     "sources": [
       "http://www.iana.org/assignments/media-types/image/vnd.radiance"
     ]
   },
   "image/vnd.sealed.png": {
+    "extensions": ["spng","spn","s1n"],
     "sources": [
       "http://www.iana.org/assignments/media-types/image/vnd.sealed.png"
     ]
   },
   "image/vnd.sealedmedia.softseal.gif": {
+    "extensions": ["sgif","sgi","s1g"],
     "sources": [
       "http://www.iana.org/assignments/media-types/image/vnd.sealedmedia.softseal.gif"
     ]
   },
   "image/vnd.sealedmedia.softseal.jpg": {
+    "extensions": ["sjpg","sjp","s1j"],
     "sources": [
       "http://www.iana.org/assignments/media-types/image/vnd.sealedmedia.softseal.jpg"
     ]

@@ -2128,7 +2128,7 @@
   "application/vnd.apple.installer+xml": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["mpkg"]
+    "extensions": ["dist","distz","pkg","mpkg"]
   },
   "application/vnd.apple.keynote": {
     "source": "iana",
@@ -7276,16 +7276,20 @@
     "extensions": ["b16"]
   },
   "image/vnd.radiance": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["pic","hdr","rgbe","xyze"]
   },
   "image/vnd.sealed.png": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["spng","spn","s1n"]
   },
   "image/vnd.sealedmedia.softseal.gif": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["sgif","sgi","s1g"]
   },
   "image/vnd.sealedmedia.softseal.jpg": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["sjpg","sjp","s1j"]
   },
   "image/vnd.svf": {
     "source": "iana"
