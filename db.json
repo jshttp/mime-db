@@ -177,6 +177,10 @@
     "charset": "UTF-8",
     "compressible": true
   },
+  "application/captive+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/cbor": {
     "source": "iana"
   },
@@ -7561,6 +7565,9 @@
   "text/sgml": {
     "source": "iana",
     "extensions": ["sgml","sgm"]
+  },
+  "text/shaclc": {
+    "source": "iana"
   },
   "text/shex": {
     "extensions": ["shex"]

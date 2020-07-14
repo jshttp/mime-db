@@ -248,6 +248,11 @@
       "http://www.iana.org/assignments/media-types/application/cap+xml"
     ]
   },
+  "application/captive+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/captive+json"
+    ]
+  },
   "application/cbor": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc7049.txt",
@@ -1898,11 +1903,13 @@
   },
   "application/senml-etch+cbor": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8790.txt",
       "http://www.iana.org/assignments/media-types/application/senml-etch+cbor"
     ]
   },
   "application/senml-etch+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8790.txt",
       "http://www.iana.org/assignments/media-types/application/senml-etch+json"
     ]
   },
@@ -9354,6 +9361,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc1874.txt",
       "http://www.iana.org/assignments/media-types/text/SGML"
+    ]
+  },
+  "text/shaclc": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/shaclc"
     ]
   },
   "text/spdx": {
