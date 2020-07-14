@@ -6782,6 +6782,10 @@
   "image/avcs": {
     "source": "iana"
   },
+  "image/avif": {
+    "compressible": false,
+    "extensions": ["avif"]
+  },
   "image/bmp": {
     "source": "iana",
     "compressible": true,

@@ -523,6 +523,14 @@
       "https://en.wikipedia.org/wiki/APNG"
     ]
   },
+  "image/avif": {
+    "compressible": false,
+    "extensions": ["avif"],
+    "sources": [
+      "https://aomediacodec.github.io/av1-avif/"
+    ],
+    "notes": "The AV1 Image File Format (AVIF) is a specification for storing images or image sequences compressed with AV1 in the HEIF file format"
+  },
   "image/bmp": {
     "compressible": true,
     "sources": [
