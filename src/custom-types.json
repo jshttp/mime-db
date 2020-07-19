@@ -455,6 +455,12 @@
   "audio/basic": {
     "compressible": false
   },
+  "audio/flac": {
+    "sources": [
+      "https://wiki.xiph.org/index.php?title=MIME_Types_and_File_Extensions"
+    ],
+    "extensions": ["flac"]
+  },
   "audio/l24": {
     "compressible": false
   },
