@@ -11,7 +11,7 @@ addData(db, require('../src/apache-types.json'), 'apache')
 addData(db, require('../src/nginx-types.json'), 'nginx')
 
 // now add all our custom data
-addData(db, require('../src/custom-types.json'))
+addData(db, require('../src/custom-types.json'), 'custom')
 
 // finally, all custom suffix defaults
 var mime = require('../src/custom-suffix.json')
