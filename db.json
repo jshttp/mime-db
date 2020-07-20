@@ -162,7 +162,6 @@
     "extensions": ["lin"]
   },
   "application/bdoc": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["bdoc"]
   },
@@ -323,7 +322,6 @@
     "source": "iana"
   },
   "application/dart": {
-    "source": "custom",
     "compressible": true
   },
   "application/dash+xml": {
@@ -513,7 +511,6 @@
     "compressible": true
   },
   "application/fido.trusted-apps+json": {
-    "source": "custom",
     "compressible": true
   },
   "application/fits": {
@@ -591,7 +588,6 @@
     "compressible": true
   },
   "application/hjson": {
-    "source": "custom",
     "extensions": ["hjson"]
   },
   "application/hta": {
@@ -712,7 +708,6 @@
     "source": "iana"
   },
   "application/json5": {
-    "source": "custom",
     "extensions": ["json5"]
   },
   "application/jsonml+json": {
@@ -793,7 +788,6 @@
     "extensions": ["mads"]
   },
   "application/manifest+json": {
-    "source": "custom",
     "charset": "UTF-8",
     "compressible": true,
     "extensions": ["webmanifest"]
@@ -1249,7 +1243,6 @@
     "source": "iana"
   },
   "application/raml+yaml": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["raml"]
   },
@@ -1609,7 +1602,6 @@
     "source": "iana"
   },
   "application/tar": {
-    "source": "custom",
     "compressible": true
   },
   "application/taxii+json": {
@@ -1654,7 +1646,6 @@
     "source": "iana"
   },
   "application/toml": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["toml"]
   },
@@ -1679,7 +1670,6 @@
     "source": "iana"
   },
   "application/ubjson": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["ubj"]
   },
@@ -2092,7 +2082,6 @@
     "extensions": ["pages"]
   },
   "application/vnd.apple.pkpass": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["pkpass"]
   },
@@ -2946,17 +2935,14 @@
     "extensions": ["gmx"]
   },
   "application/vnd.google-apps.document": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["gdoc"]
   },
   "application/vnd.google-apps.presentation": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["gslides"]
   },
   "application/vnd.google-apps.spreadsheet": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["gsheet"]
   },
@@ -3656,7 +3642,6 @@
     "compressible": true
   },
   "application/vnd.ms-outlook": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["msg"]
   },
@@ -5516,7 +5501,6 @@
     "extensions": ["dmg"]
   },
   "application/x-arj": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["arj"]
   },
@@ -5537,7 +5521,6 @@
     "extensions": ["bcpio"]
   },
   "application/x-bdoc": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["bdoc"]
   },
@@ -5592,7 +5575,6 @@
     "extensions": ["pgn"]
   },
   "application/x-chrome-extension": {
-    "source": "custom",
     "extensions": ["crx"]
   },
   "application/x-cocoa": {
@@ -5622,7 +5604,6 @@
     "extensions": ["csh"]
   },
   "application/x-deb": {
-    "source": "custom",
     "compressible": false
   },
   "application/x-debian-package": {
@@ -5778,7 +5759,6 @@
     "extensions": ["hdf"]
   },
   "application/x-httpd-php": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["php"]
   },
@@ -5830,7 +5810,6 @@
     "extensions": ["jnlp"]
   },
   "application/x-javascript": {
-    "source": "custom",
     "compressible": true
   },
   "application/x-jmol": {
@@ -5845,7 +5824,6 @@
     "source": "mime-support"
   },
   "application/x-keepass2": {
-    "source": "custom",
     "extensions": ["kdbx"]
   },
   "application/x-killustrator": {
@@ -5878,7 +5856,6 @@
     "extensions": ["lha"]
   },
   "application/x-lua-bytecode": {
-    "source": "custom",
     "extensions": ["luac"]
   },
   "application/x-lyx": {
@@ -6223,42 +6200,34 @@
     "source": "mime-support"
   },
   "application/x-virtualbox-hdd": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["hdd"]
   },
   "application/x-virtualbox-ova": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["ova"]
   },
   "application/x-virtualbox-ovf": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["ovf"]
   },
   "application/x-virtualbox-vbox": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["vbox"]
   },
   "application/x-virtualbox-vbox-extpack": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["vbox-extpack"]
   },
   "application/x-virtualbox-vdi": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["vdi"]
   },
   "application/x-virtualbox-vhd": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["vhd"]
   },
   "application/x-virtualbox-vmdk": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["vmdk"]
   },
@@ -6267,7 +6236,6 @@
     "extensions": ["src"]
   },
   "application/x-web-app-manifest+json": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["webapp"]
   },
@@ -6726,7 +6694,6 @@
     "extensions": ["mxmf"]
   },
   "audio/mp3": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["mp3"]
   },
@@ -6995,7 +6962,6 @@
     "extensions": ["rip"]
   },
   "audio/vnd.rn-realaudio": {
-    "source": "custom",
     "compressible": false
   },
   "audio/vnd.sealedmedia.softseal.mpeg": {
@@ -7005,7 +6971,6 @@
     "source": "iana"
   },
   "audio/vnd.wave": {
-    "source": "custom",
     "compressible": false
   },
   "audio/vorbis": {
@@ -7016,12 +6981,10 @@
     "source": "iana"
   },
   "audio/wav": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["wav"]
   },
   "audio/wave": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["wav"]
   },
@@ -7350,7 +7313,6 @@
     "extensions": ["exr"]
   },
   "image/apng": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["apng"]
   },
@@ -7361,7 +7323,6 @@
     "source": "iana"
   },
   "image/avif": {
-    "source": "custom",
     "compressible": false,
     "extensions": ["avif"]
   },
@@ -7495,7 +7456,6 @@
     "extensions": ["pcx"]
   },
   "image/pjpeg": {
-    "source": "custom",
     "compressible": false
   },
   "image/png": {
@@ -7602,7 +7562,6 @@
     "source": "iana"
   },
   "image/vnd.ms-dds": {
-    "source": "custom",
     "extensions": ["dds"]
   },
   "image/vnd.ms-modi": {
@@ -7775,7 +7734,6 @@
     "extensions": ["xbm"]
   },
   "image/x-xcf": {
-    "source": "custom",
     "compressible": false
   },
   "image/x-xpixmap": {
@@ -8069,15 +8027,12 @@
     "extensions": ["ics","ifb","icz"]
   },
   "text/calender": {
-    "source": "custom",
     "compressible": true
   },
   "text/cmd": {
-    "source": "custom",
     "compressible": true
   },
   "text/coffeescript": {
-    "source": "custom",
     "extensions": ["coffee","litcoffee"]
   },
   "text/css": {
@@ -8135,7 +8090,6 @@
     "extensions": ["uls"]
   },
   "text/jade": {
-    "source": "custom",
     "extensions": ["jade"]
   },
   "text/javascript": {
@@ -8146,12 +8100,10 @@
     "source": "iana"
   },
   "text/jsx": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["jsx"]
   },
   "text/less": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["less"]
   },
@@ -8165,7 +8117,6 @@
     "extensions": ["mml"]
   },
   "text/mdx": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["mdx"]
   },
@@ -8244,11 +8195,9 @@
     "source": "iana"
   },
   "text/shex": {
-    "source": "custom",
     "extensions": ["shex"]
   },
   "text/slim": {
-    "source": "custom",
     "extensions": ["slim","slm"]
   },
   "text/spdx": {
@@ -8259,7 +8208,6 @@
     "source": "iana"
   },
   "text/stylus": {
-    "source": "custom",
     "extensions": ["stylus","styl"]
   },
   "text/t140": {
@@ -8475,11 +8423,9 @@
     "extensions": ["f","for","f77","f90"]
   },
   "text/x-gwt-rpc": {
-    "source": "custom",
     "compressible": true
   },
   "text/x-handlebars-template": {
-    "source": "custom",
     "extensions": ["hbs"]
   },
   "text/x-haskell": {
@@ -8495,7 +8441,6 @@
     "extensions": ["java"]
   },
   "text/x-jquery-tmpl": {
-    "source": "custom",
     "compressible": true
   },
   "text/x-lilypond": {
@@ -8507,14 +8452,12 @@
     "extensions": ["lhs"]
   },
   "text/x-lua": {
-    "source": "custom",
     "extensions": ["lua"]
   },
   "text/x-makefile": {
     "source": "mime-support"
   },
   "text/x-markdown": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["mkd"]
   },
@@ -8531,7 +8474,6 @@
     "extensions": ["opml"]
   },
   "text/x-org": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["org"]
   },
@@ -8548,7 +8490,6 @@
     "extensions": ["pl","pm"]
   },
   "text/x-processing": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["pde"]
   },
@@ -8557,7 +8498,6 @@
     "extensions": ["py"]
   },
   "text/x-sass": {
-    "source": "custom",
     "extensions": ["sass"]
   },
   "text/x-scala": {
@@ -8565,7 +8505,6 @@
     "extensions": ["scala"]
   },
   "text/x-scss": {
-    "source": "custom",
     "extensions": ["scss"]
   },
   "text/x-server-parsed-html": {
@@ -8584,7 +8523,6 @@
     "extensions": ["sh"]
   },
   "text/x-suse-ymp": {
-    "source": "custom",
     "compressible": true,
     "extensions": ["ymp"]
   },
@@ -8617,7 +8555,6 @@
     "source": "iana"
   },
   "text/yaml": {
-    "source": "custom",
     "extensions": ["yaml","yml"]
   },
   "video/1d-interleaved-parityfec": {
@@ -8998,11 +8935,9 @@
     "extensions": ["sisx"]
   },
   "x-shader/x-fragment": {
-    "source": "custom",
     "compressible": true
   },
   "x-shader/x-vertex": {
-    "source": "custom",
     "compressible": true
   },
   "x-world/x-vrml": {

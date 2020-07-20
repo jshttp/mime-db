@@ -49,11 +49,11 @@ The JSON file is a map lookup for lowercased mime types.
 Each mime type has the following properties:
 
 - `.source` - where the mime type is defined.
+    If not set, it's probably a custom media type.
     - `apache` - [Apache common media types](http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types)
     - `iana` - [IANA-defined media types](http://www.iana.org/assignments/media-types/media-types.xhtml)
     - `nginx` - [nginx media types](http://hg.nginx.org/nginx/raw-file/default/conf/mime.types)
     - `mime-support` [Debian Linux mime.types database (upstream source)](https://salsa.debian.org/debian/mime-support/-/raw/master/mime.types)
-    - `custom` - Loaded from custom set of types maintained in this repository.
 - `.extensions[]` - known extensions associated with this mime type.
 - `.compressible` - whether a file of this type can be gzipped.
 - `.charset` - the default charset associated with this type, if any.
