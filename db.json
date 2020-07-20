@@ -76,6 +76,10 @@
     "source": "iana",
     "extensions": ["ez"]
   },
+  "application/annodex": {
+    "source": "mime-support",
+    "extensions": ["anx"]
+  },
   "application/applefile": {
     "source": "iana"
   },
@@ -106,6 +110,11 @@
   },
   "application/atomicmail": {
     "source": "iana"
+  },
+  "application/atomserv+xml": {
+    "source": "mime-support",
+    "compressible": true,
+    "extensions": ["atomsrv"]
   },
   "application/atomsvc+xml": {
     "source": "iana",
@@ -148,7 +157,12 @@
   "application/batch-smtp": {
     "source": "iana"
   },
+  "application/bbolin": {
+    "source": "mime-support",
+    "extensions": ["lin"]
+  },
   "application/bdoc": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["bdoc"]
   },
@@ -309,6 +323,7 @@
     "source": "iana"
   },
   "application/dart": {
+    "source": "custom",
     "compressible": true
   },
   "application/dash+xml": {
@@ -338,7 +353,8 @@
     "compressible": true
   },
   "application/dicom": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["dcm"]
   },
   "application/dicom+json": {
     "source": "iana",
@@ -375,6 +391,10 @@
   "application/dskpp+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/dsptype": {
+    "source": "mime-support",
+    "extensions": ["tsp"]
   },
   "application/dssc+der": {
     "source": "iana",
@@ -493,6 +513,7 @@
     "compressible": true
   },
   "application/fido.trusted-apps+json": {
+    "source": "custom",
     "compressible": true
   },
   "application/fits": {
@@ -502,7 +523,8 @@
     "source": "iana"
   },
   "application/font-sfnt": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["otf","ttf"]
   },
   "application/font-tdpfr": {
     "source": "iana",
@@ -510,11 +532,16 @@
   },
   "application/font-woff": {
     "source": "iana",
-    "compressible": false
+    "compressible": false,
+    "extensions": ["woff"]
   },
   "application/framework-attributes+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/futuresplash": {
+    "source": "mime-support",
+    "extensions": ["spl"]
   },
   "application/geo+json": {
     "source": "iana",
@@ -530,6 +557,9 @@
   "application/geoxacml+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/ghostview": {
+    "source": "mime-support"
   },
   "application/gltf-buffer": {
     "source": "iana"
@@ -561,7 +591,12 @@
     "compressible": true
   },
   "application/hjson": {
+    "source": "custom",
     "extensions": ["hjson"]
+  },
+  "application/hta": {
+    "source": "mime-support",
+    "extensions": ["hta"]
   },
   "application/http": {
     "source": "iana"
@@ -677,6 +712,7 @@
     "source": "iana"
   },
   "application/json5": {
+    "source": "custom",
     "extensions": ["json5"]
   },
   "application/jsonml+json": {
@@ -736,6 +772,10 @@
   "application/lxf": {
     "source": "iana"
   },
+  "application/m3g": {
+    "source": "mime-support",
+    "extensions": ["m3g"]
+  },
   "application/mac-binhex40": {
     "source": "iana",
     "extensions": ["hqx"]
@@ -753,6 +793,7 @@
     "extensions": ["mads"]
   },
   "application/manifest+json": {
+    "source": "custom",
     "charset": "UTF-8",
     "compressible": true,
     "extensions": ["webmanifest"]
@@ -768,7 +809,7 @@
   },
   "application/mathematica": {
     "source": "iana",
-    "extensions": ["ma","nb","mb"]
+    "extensions": ["ma","nb","mb","nbp"]
   },
   "application/mathml+xml": {
     "source": "iana",
@@ -926,6 +967,13 @@
     "compressible": true,
     "extensions": ["xdf"]
   },
+  "application/ms-tnef": {
+    "source": "mime-support"
+  },
+  "application/msaccess": {
+    "source": "mime-support",
+    "extensions": ["mdb"]
+  },
   "application/msc-ivr+xml": {
     "source": "iana",
     "charset": "UTF-8",
@@ -971,6 +1019,9 @@
     "source": "iana",
     "charset": "US-ASCII"
   },
+  "application/news-message-id": {
+    "source": "mime-support"
+  },
   "application/news-transmission": {
     "source": "iana"
   },
@@ -994,7 +1045,7 @@
   "application/octet-stream": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["bin","dms","lrf","mar","so","dist","distz","pkg","bpk","dump","elc","deploy","exe","dll","deb","dmg","iso","img","msi","msp","msm","buffer"]
+    "extensions": ["bin","dms","lrf","mar","so","dist","distz","pkg","bpk","dump","elc","deploy","exe","dll","deb","dmg","iso","img","msi","msp","msm","msu","buffer"]
   },
   "application/oda": {
     "source": "iana",
@@ -1024,7 +1075,7 @@
   },
   "application/onenote": {
     "source": "apache",
-    "extensions": ["onetoc","onetoc2","onetmp","onepkg"]
+    "extensions": ["onetoc","onetoc2","onetmp","onepkg","one"]
   },
   "application/oscore": {
     "source": "iana"
@@ -1066,7 +1117,8 @@
     "extensions": ["pgp"]
   },
   "application/pgp-keys": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["key"]
   },
   "application/pgp-signature": {
     "source": "iana",
@@ -1141,7 +1193,7 @@
   "application/postscript": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["ai","eps","ps"]
+    "extensions": ["ai","eps","ps","epsi","epsf","eps2","eps3"]
   },
   "application/ppsp-tracker+json": {
     "source": "iana",
@@ -1197,11 +1249,16 @@
     "source": "iana"
   },
   "application/raml+yaml": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["raml"]
   },
   "application/raptorfec": {
     "source": "iana"
+  },
+  "application/rar": {
+    "source": "mime-support",
+    "extensions": ["rar"]
   },
   "application/rdap+json": {
     "source": "iana",
@@ -1444,6 +1501,10 @@
   "application/sipc": {
     "source": "iana"
   },
+  "application/sla": {
+    "source": "mime-support",
+    "extensions": ["stl"]
+  },
   "application/slate": {
     "source": "iana"
   },
@@ -1548,6 +1609,7 @@
     "source": "iana"
   },
   "application/tar": {
+    "source": "custom",
     "compressible": true
   },
   "application/taxii+json": {
@@ -1592,6 +1654,7 @@
     "source": "iana"
   },
   "application/toml": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["toml"]
   },
@@ -1616,6 +1679,7 @@
     "source": "iana"
   },
   "application/ubjson": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["ubj"]
   },
@@ -2028,6 +2092,7 @@
     "extensions": ["pages"]
   },
   "application/vnd.apple.pkpass": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["pkpass"]
   },
@@ -2240,6 +2305,9 @@
     "source": "iana",
     "extensions": ["csp"]
   },
+  "application/vnd.comsocaller": {
+    "source": "mime-support"
+  },
   "application/vnd.contact.cmsg": {
     "source": "iana",
     "extensions": ["cdbcmsg"]
@@ -2351,7 +2419,8 @@
     "source": "iana"
   },
   "application/vnd.debian.binary-package": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["deb","ddeb","udeb"]
   },
   "application/vnd.dece.data": {
     "source": "iana",
@@ -2746,7 +2815,8 @@
     "extensions": ["ftc"]
   },
   "application/vnd.font-fontforge-sfd": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["sfd"]
   },
   "application/vnd.framemaker": {
     "source": "iana",
@@ -2876,14 +2946,17 @@
     "extensions": ["gmx"]
   },
   "application/vnd.google-apps.document": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["gdoc"]
   },
   "application/vnd.google-apps.presentation": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["gslides"]
   },
   "application/vnd.google-apps.spreadsheet": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["gsheet"]
   },
@@ -3535,7 +3608,7 @@
   "application/vnd.ms-excel": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["xls","xlm","xla","xlc","xlt","xlw"]
+    "extensions": ["xls","xlm","xla","xlc","xlt","xlw","xlb"]
   },
   "application/vnd.ms-excel.addin.macroenabled.12": {
     "source": "iana",
@@ -3583,6 +3656,7 @@
     "compressible": true
   },
   "application/vnd.ms-outlook": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["msg"]
   },
@@ -4900,6 +4974,10 @@
     "source": "apache",
     "extensions": ["sdc"]
   },
+  "application/vnd.stardivision.chart": {
+    "source": "mime-support",
+    "extensions": ["sds"]
+  },
   "application/vnd.stardivision.draw": {
     "source": "apache",
     "extensions": ["sda"]
@@ -4910,7 +4988,7 @@
   },
   "application/vnd.stardivision.math": {
     "source": "apache",
-    "extensions": ["smf"]
+    "extensions": ["smf","sdf"]
   },
   "application/vnd.stardivision.writer": {
     "source": "apache",
@@ -5076,6 +5154,9 @@
   "application/vnd.truedoc": {
     "source": "iana"
   },
+  "application/vnd.tve-trigger": {
+    "source": "mime-support"
+  },
   "application/vnd.ubisoft.webplayer": {
     "source": "iana"
   },
@@ -5238,6 +5319,10 @@
     "source": "iana",
     "extensions": ["wpd"]
   },
+  "application/vnd.wordperfect5.1": {
+    "source": "mime-support",
+    "extensions": ["wp5"]
+  },
   "application/vnd.wqd": {
     "source": "iana",
     "extensions": ["wqd"]
@@ -5364,6 +5449,7 @@
     "source": "iana"
   },
   "application/wasm": {
+    "source": "mime-support",
     "compressible": true,
     "extensions": ["wasm"]
   },
@@ -5405,6 +5491,10 @@
     "compressible": true,
     "extensions": ["wspolicy"]
   },
+  "application/x-123": {
+    "source": "mime-support",
+    "extensions": ["wk"]
+  },
   "application/x-7z-compressed": {
     "source": "apache",
     "compressible": false,
@@ -5426,6 +5516,7 @@
     "extensions": ["dmg"]
   },
   "application/x-arj": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["arj"]
   },
@@ -5446,6 +5537,7 @@
     "extensions": ["bcpio"]
   },
   "application/x-bdoc": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["bdoc"]
   },
@@ -5467,9 +5559,21 @@
     "compressible": false,
     "extensions": ["bz2","boz"]
   },
+  "application/x-cab": {
+    "source": "mime-support",
+    "extensions": ["cab"]
+  },
   "application/x-cbr": {
     "source": "apache",
     "extensions": ["cbr","cba","cbt","cbz","cb7"]
+  },
+  "application/x-cbz": {
+    "source": "mime-support",
+    "extensions": ["cbz"]
+  },
+  "application/x-cdf": {
+    "source": "mime-support",
+    "extensions": ["cdf","cda"]
   },
   "application/x-cdlink": {
     "source": "apache",
@@ -5488,6 +5592,7 @@
     "extensions": ["pgn"]
   },
   "application/x-chrome-extension": {
+    "source": "custom",
     "extensions": ["crx"]
   },
   "application/x-cocoa": {
@@ -5497,9 +5602,16 @@
   "application/x-compress": {
     "source": "apache"
   },
+  "application/x-comsol": {
+    "source": "mime-support",
+    "extensions": ["mph"]
+  },
   "application/x-conference": {
     "source": "apache",
     "extensions": ["nsc"]
+  },
+  "application/x-core": {
+    "source": "mime-support"
   },
   "application/x-cpio": {
     "source": "apache",
@@ -5510,6 +5622,7 @@
     "extensions": ["csh"]
   },
   "application/x-deb": {
+    "source": "custom",
     "compressible": false
   },
   "application/x-debian-package": {
@@ -5523,6 +5636,10 @@
   "application/x-director": {
     "source": "apache",
     "extensions": ["dir","dcr","dxr","cst","cct","cxt","w3d","fgd","swa"]
+  },
+  "application/x-dms": {
+    "source": "mime-support",
+    "extensions": ["dms"]
   },
   "application/x-doom": {
     "source": "apache",
@@ -5555,6 +5672,13 @@
   "application/x-eva": {
     "source": "apache",
     "extensions": ["eva"]
+  },
+  "application/x-executable": {
+    "source": "mime-support"
+  },
+  "application/x-font": {
+    "source": "mime-support",
+    "extensions": ["pfa","pfb","gsf"]
   },
   "application/x-font-bdf": {
     "source": "apache",
@@ -5602,9 +5726,17 @@
     "source": "apache",
     "extensions": ["arc"]
   },
+  "application/x-freemind": {
+    "source": "mime-support",
+    "extensions": ["mm"]
+  },
   "application/x-futuresplash": {
     "source": "apache",
     "extensions": ["spl"]
+  },
+  "application/x-ganttproject": {
+    "source": "mime-support",
+    "extensions": ["gan"]
   },
   "application/x-gca-compressed": {
     "source": "apache",
@@ -5618,13 +5750,25 @@
     "source": "apache",
     "extensions": ["gnumeric"]
   },
+  "application/x-go-sgf": {
+    "source": "mime-support",
+    "extensions": ["sgf"]
+  },
   "application/x-gramps-xml": {
     "source": "apache",
     "extensions": ["gramps"]
   },
+  "application/x-graphing-calculator": {
+    "source": "mime-support",
+    "extensions": ["gcf"]
+  },
   "application/x-gtar": {
     "source": "apache",
     "extensions": ["gtar"]
+  },
+  "application/x-gtar-compressed": {
+    "source": "mime-support",
+    "extensions": ["tgz","taz"]
   },
   "application/x-gzip": {
     "source": "apache"
@@ -5634,20 +5778,51 @@
     "extensions": ["hdf"]
   },
   "application/x-httpd-php": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["php"]
+  },
+  "application/x-hwp": {
+    "source": "mime-support",
+    "extensions": ["hwp"]
+  },
+  "application/x-ica": {
+    "source": "mime-support",
+    "extensions": ["ica"]
+  },
+  "application/x-info": {
+    "source": "mime-support",
+    "extensions": ["info"]
   },
   "application/x-install-instructions": {
     "source": "apache",
     "extensions": ["install"]
   },
+  "application/x-internet-signup": {
+    "source": "mime-support",
+    "extensions": ["ins","isp"]
+  },
+  "application/x-iphone": {
+    "source": "mime-support",
+    "extensions": ["iii"]
+  },
   "application/x-iso9660-image": {
     "source": "apache",
     "extensions": ["iso"]
   },
+  "application/x-jam": {
+    "source": "mime-support",
+    "extensions": ["jam"]
+  },
+  "application/x-java-applet": {
+    "source": "mime-support"
+  },
   "application/x-java-archive-diff": {
     "source": "nginx",
     "extensions": ["jardiff"]
+  },
+  "application/x-java-bean": {
+    "source": "mime-support"
   },
   "application/x-java-jnlp-file": {
     "source": "apache",
@@ -5655,22 +5830,76 @@
     "extensions": ["jnlp"]
   },
   "application/x-javascript": {
+    "source": "custom",
     "compressible": true
   },
+  "application/x-jmol": {
+    "source": "mime-support",
+    "extensions": ["jmz"]
+  },
+  "application/x-kchart": {
+    "source": "mime-support",
+    "extensions": ["chrt"]
+  },
+  "application/x-kdelnk": {
+    "source": "mime-support"
+  },
   "application/x-keepass2": {
+    "source": "custom",
     "extensions": ["kdbx"]
+  },
+  "application/x-killustrator": {
+    "source": "mime-support",
+    "extensions": ["kil"]
+  },
+  "application/x-koan": {
+    "source": "mime-support",
+    "extensions": ["skp","skd","skt","skm"]
+  },
+  "application/x-kpresenter": {
+    "source": "mime-support",
+    "extensions": ["kpr","kpt"]
+  },
+  "application/x-kspread": {
+    "source": "mime-support",
+    "extensions": ["ksp"]
+  },
+  "application/x-kword": {
+    "source": "mime-support",
+    "extensions": ["kwd","kwt"]
   },
   "application/x-latex": {
     "source": "apache",
     "compressible": false,
     "extensions": ["latex"]
   },
+  "application/x-lha": {
+    "source": "mime-support",
+    "extensions": ["lha"]
+  },
   "application/x-lua-bytecode": {
+    "source": "custom",
     "extensions": ["luac"]
+  },
+  "application/x-lyx": {
+    "source": "mime-support",
+    "extensions": ["lyx"]
+  },
+  "application/x-lzh": {
+    "source": "mime-support",
+    "extensions": ["lzh"]
   },
   "application/x-lzh-compressed": {
     "source": "apache",
     "extensions": ["lzh","lha"]
+  },
+  "application/x-lzx": {
+    "source": "mime-support",
+    "extensions": ["lzx"]
+  },
+  "application/x-maker": {
+    "source": "mime-support",
+    "extensions": ["frm","maker","frame","fm","fb","book","fbdoc"]
   },
   "application/x-makeself": {
     "source": "nginx",
@@ -5680,16 +5909,26 @@
     "source": "apache",
     "extensions": ["mie"]
   },
+  "application/x-mif": {
+    "source": "mime-support",
+    "extensions": ["mif"]
+  },
   "application/x-mobipocket-ebook": {
     "source": "apache",
     "extensions": ["prc","mobi"]
   },
   "application/x-mpegurl": {
-    "compressible": false
+    "source": "mime-support",
+    "compressible": false,
+    "extensions": ["m3u8"]
   },
   "application/x-ms-application": {
     "source": "apache",
     "extensions": ["application"]
+  },
+  "application/x-ms-manifest": {
+    "source": "mime-support",
+    "extensions": ["manifest"]
   },
   "application/x-ms-shortcut": {
     "source": "apache",
@@ -5724,11 +5963,16 @@
     "extensions": ["clp"]
   },
   "application/x-msdos-program": {
-    "extensions": ["exe"]
+    "source": "mime-support",
+    "extensions": ["com","exe","bat","dll"]
   },
   "application/x-msdownload": {
     "source": "apache",
     "extensions": ["exe","dll","com","bat","msi"]
+  },
+  "application/x-msi": {
+    "source": "mime-support",
+    "extensions": ["msi"]
   },
   "application/x-msmediaview": {
     "source": "apache",
@@ -5763,12 +6007,25 @@
     "extensions": ["nc","cdf"]
   },
   "application/x-ns-proxy-autoconfig": {
+    "source": "mime-support",
     "compressible": true,
     "extensions": ["pac"]
+  },
+  "application/x-nwc": {
+    "source": "mime-support",
+    "extensions": ["nwc"]
   },
   "application/x-nzb": {
     "source": "apache",
     "extensions": ["nzb"]
+  },
+  "application/x-object": {
+    "source": "mime-support",
+    "extensions": ["o"]
+  },
+  "application/x-oz-application": {
+    "source": "mime-support",
+    "extensions": ["oza"]
   },
   "application/x-perl": {
     "source": "nginx",
@@ -5791,13 +6048,33 @@
     "source": "apache",
     "extensions": ["p7r"]
   },
+  "application/x-pkcs7-crl": {
+    "source": "mime-support",
+    "extensions": ["crl"]
+  },
   "application/x-pki-message": {
     "source": "iana"
+  },
+  "application/x-python-code": {
+    "source": "mime-support",
+    "extensions": ["pyc","pyo"]
+  },
+  "application/x-qgis": {
+    "source": "mime-support",
+    "extensions": ["qgs","shp","shx"]
+  },
+  "application/x-quicktimeplayer": {
+    "source": "mime-support",
+    "extensions": ["qtl"]
   },
   "application/x-rar-compressed": {
     "source": "apache",
     "compressible": false,
     "extensions": ["rar"]
+  },
+  "application/x-rdp": {
+    "source": "mime-support",
+    "extensions": ["rdp"]
   },
   "application/x-redhat-package-manager": {
     "source": "nginx",
@@ -5806,6 +6083,26 @@
   "application/x-research-info-systems": {
     "source": "apache",
     "extensions": ["ris"]
+  },
+  "application/x-rss+xml": {
+    "source": "mime-support",
+    "compressible": true,
+    "extensions": ["rss"]
+  },
+  "application/x-ruby": {
+    "source": "mime-support",
+    "extensions": ["rb"]
+  },
+  "application/x-rx": {
+    "source": "mime-support"
+  },
+  "application/x-scilab": {
+    "source": "mime-support",
+    "extensions": ["sci","sce"]
+  },
+  "application/x-scilab-xcos": {
+    "source": "mime-support",
+    "extensions": ["xcos"]
   },
   "application/x-sea": {
     "source": "nginx",
@@ -5820,10 +6117,17 @@
     "source": "apache",
     "extensions": ["shar"]
   },
+  "application/x-shellscript": {
+    "source": "mime-support"
+  },
   "application/x-shockwave-flash": {
     "source": "apache",
     "compressible": false,
-    "extensions": ["swf"]
+    "extensions": ["swf","swfl"]
+  },
+  "application/x-silverlight": {
+    "source": "mime-support",
+    "extensions": ["scr"]
   },
   "application/x-silverlight-app": {
     "source": "apache",
@@ -5836,7 +6140,7 @@
   "application/x-stuffit": {
     "source": "apache",
     "compressible": false,
-    "extensions": ["sit"]
+    "extensions": ["sit","sitx"]
   },
   "application/x-stuffitx": {
     "source": "apache",
@@ -5875,6 +6179,14 @@
     "source": "apache",
     "extensions": ["tex"]
   },
+  "application/x-tex-gf": {
+    "source": "mime-support",
+    "extensions": ["gf"]
+  },
+  "application/x-tex-pk": {
+    "source": "mime-support",
+    "extensions": ["pk"]
+  },
   "application/x-tex-tfm": {
     "source": "apache",
     "extensions": ["tfm"]
@@ -5887,39 +6199,66 @@
     "source": "apache",
     "extensions": ["obj"]
   },
+  "application/x-troff": {
+    "source": "mime-support",
+    "extensions": ["t","tr","roff"]
+  },
+  "application/x-troff-man": {
+    "source": "mime-support",
+    "extensions": ["man"]
+  },
+  "application/x-troff-me": {
+    "source": "mime-support",
+    "extensions": ["me"]
+  },
+  "application/x-troff-ms": {
+    "source": "mime-support",
+    "extensions": ["ms"]
+  },
   "application/x-ustar": {
     "source": "apache",
     "extensions": ["ustar"]
   },
+  "application/x-videolan": {
+    "source": "mime-support"
+  },
   "application/x-virtualbox-hdd": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["hdd"]
   },
   "application/x-virtualbox-ova": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["ova"]
   },
   "application/x-virtualbox-ovf": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["ovf"]
   },
   "application/x-virtualbox-vbox": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["vbox"]
   },
   "application/x-virtualbox-vbox-extpack": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["vbox-extpack"]
   },
   "application/x-virtualbox-vdi": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["vdi"]
   },
   "application/x-virtualbox-vhd": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["vhd"]
   },
   "application/x-virtualbox-vmdk": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["vmdk"]
   },
@@ -5928,8 +6267,13 @@
     "extensions": ["src"]
   },
   "application/x-web-app-manifest+json": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["webapp"]
+  },
+  "application/x-wingz": {
+    "source": "mime-support",
+    "extensions": ["wz"]
   },
   "application/x-www-form-urlencoded": {
     "source": "iana",
@@ -5944,6 +6288,10 @@
   },
   "application/x-x509-next-ca-cert": {
     "source": "iana"
+  },
+  "application/x-xcf": {
+    "source": "mime-support",
+    "extensions": ["xcf"]
   },
   "application/x-xfig": {
     "source": "apache",
@@ -6070,7 +6418,7 @@
   "application/xslt+xml": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["xslt"]
+    "extensions": ["xslt","xsl"]
   },
   "application/xspf+xml": {
     "source": "apache",
@@ -6143,13 +6491,19 @@
     "extensions": ["adp"]
   },
   "audio/amr": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["amr"]
   },
   "audio/amr-wb": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["awb"]
   },
   "audio/amr-wb+": {
     "source": "iana"
+  },
+  "audio/annodex": {
+    "source": "mime-support",
+    "extensions": ["axa"]
   },
   "audio/aptx": {
     "source": "iana"
@@ -6182,6 +6536,10 @@
   },
   "audio/cn": {
     "source": "iana"
+  },
+  "audio/csound": {
+    "source": "mime-support",
+    "extensions": ["csd","orc","sco"]
   },
   "audio/dat12": {
     "source": "iana"
@@ -6255,11 +6613,18 @@
   "audio/evs": {
     "source": "iana"
   },
+  "audio/flac": {
+    "source": "mime-support",
+    "extensions": ["flac"]
+  },
   "audio/flexfec": {
     "source": "iana"
   },
   "audio/fwdred": {
     "source": "iana"
+  },
+  "audio/g.722.1": {
+    "source": "mime-support"
   },
   "audio/g711-0": {
     "source": "iana"
@@ -6361,6 +6726,7 @@
     "extensions": ["mxmf"]
   },
   "audio/mp3": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["mp3"]
   },
@@ -6381,10 +6747,14 @@
   "audio/mpeg": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["mpga","mp2","mp2a","mp3","m2a","m3a"]
+    "extensions": ["mpga","mp2","mp2a","mp3","m2a","m3a","mpega","m4a"]
   },
   "audio/mpeg4-generic": {
     "source": "iana"
+  },
+  "audio/mpegurl": {
+    "source": "mime-support",
+    "extensions": ["m3u"]
   },
   "audio/musepack": {
     "source": "apache"
@@ -6392,7 +6762,7 @@
   "audio/ogg": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["oga","ogg","spx"]
+    "extensions": ["oga","ogg","spx","opus"]
   },
   "audio/opus": {
     "source": "iana"
@@ -6413,7 +6783,8 @@
     "source": "iana"
   },
   "audio/prs.sid": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["sid"]
   },
   "audio/qcelp": {
     "source": "iana"
@@ -6624,6 +6995,7 @@
     "extensions": ["rip"]
   },
   "audio/vnd.rn-realaudio": {
+    "source": "custom",
     "compressible": false
   },
   "audio/vnd.sealedmedia.softseal.mpeg": {
@@ -6633,6 +7005,7 @@
     "source": "iana"
   },
   "audio/vnd.wave": {
+    "source": "custom",
     "compressible": false
   },
   "audio/vorbis": {
@@ -6643,10 +7016,12 @@
     "source": "iana"
   },
   "audio/wav": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["wav"]
   },
   "audio/wave": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["wav"]
   },
@@ -6673,6 +7048,10 @@
     "source": "apache",
     "extensions": ["flac"]
   },
+  "audio/x-gsm": {
+    "source": "mime-support",
+    "extensions": ["gsm"]
+  },
   "audio/x-m4a": {
     "source": "nginx",
     "extensions": ["m4a"]
@@ -6695,7 +7074,7 @@
   },
   "audio/x-pn-realaudio": {
     "source": "apache",
-    "extensions": ["ram","ra"]
+    "extensions": ["ram","ra","rm"]
   },
   "audio/x-pn-realaudio-plugin": {
     "source": "apache",
@@ -6704,6 +7083,14 @@
   "audio/x-realaudio": {
     "source": "nginx",
     "extensions": ["ra"]
+  },
+  "audio/x-scpls": {
+    "source": "mime-support",
+    "extensions": ["pls"]
+  },
+  "audio/x-sd2": {
+    "source": "mime-support",
+    "extensions": ["sd2"]
   },
   "audio/x-tta": {
     "source": "apache"
@@ -6716,9 +7103,37 @@
     "source": "apache",
     "extensions": ["xm"]
   },
+  "chemical/x-alchemy": {
+    "source": "mime-support",
+    "extensions": ["alc"]
+  },
+  "chemical/x-cache": {
+    "source": "mime-support",
+    "extensions": ["cac","cache"]
+  },
+  "chemical/x-cache-csf": {
+    "source": "mime-support",
+    "extensions": ["csf"]
+  },
+  "chemical/x-cactvs-binary": {
+    "source": "mime-support",
+    "extensions": ["cbin","cascii","ctab"]
+  },
   "chemical/x-cdx": {
     "source": "apache",
     "extensions": ["cdx"]
+  },
+  "chemical/x-cerius": {
+    "source": "mime-support",
+    "extensions": ["cer"]
+  },
+  "chemical/x-chem3d": {
+    "source": "mime-support",
+    "extensions": ["c3d"]
+  },
+  "chemical/x-chemdraw": {
+    "source": "mime-support",
+    "extensions": ["chm"]
   },
   "chemical/x-cif": {
     "source": "apache",
@@ -6732,12 +7147,173 @@
     "source": "apache",
     "extensions": ["cml"]
   },
+  "chemical/x-compass": {
+    "source": "mime-support",
+    "extensions": ["cpa"]
+  },
+  "chemical/x-crossfire": {
+    "source": "mime-support",
+    "extensions": ["bsd"]
+  },
   "chemical/x-csml": {
     "source": "apache",
-    "extensions": ["csml"]
+    "extensions": ["csml","csm"]
+  },
+  "chemical/x-ctx": {
+    "source": "mime-support",
+    "extensions": ["ctx"]
+  },
+  "chemical/x-cxf": {
+    "source": "mime-support",
+    "extensions": ["cxf","cef"]
+  },
+  "chemical/x-embl-dl-nucleotide": {
+    "source": "mime-support",
+    "extensions": ["emb","embl"]
+  },
+  "chemical/x-galactic-spc": {
+    "source": "mime-support",
+    "extensions": ["spc"]
+  },
+  "chemical/x-gamess-input": {
+    "source": "mime-support",
+    "extensions": ["inp","gam","gamin"]
+  },
+  "chemical/x-gaussian-checkpoint": {
+    "source": "mime-support",
+    "extensions": ["fch","fchk"]
+  },
+  "chemical/x-gaussian-cube": {
+    "source": "mime-support",
+    "extensions": ["cub"]
+  },
+  "chemical/x-gaussian-input": {
+    "source": "mime-support",
+    "extensions": ["gau","gjc","gjf"]
+  },
+  "chemical/x-gaussian-log": {
+    "source": "mime-support",
+    "extensions": ["gal"]
+  },
+  "chemical/x-gcg8-sequence": {
+    "source": "mime-support",
+    "extensions": ["gcg"]
+  },
+  "chemical/x-genbank": {
+    "source": "mime-support",
+    "extensions": ["gen"]
+  },
+  "chemical/x-hin": {
+    "source": "mime-support",
+    "extensions": ["hin"]
+  },
+  "chemical/x-isostar": {
+    "source": "mime-support",
+    "extensions": ["istr","ist"]
+  },
+  "chemical/x-jcamp-dx": {
+    "source": "mime-support",
+    "extensions": ["jdx","dx"]
+  },
+  "chemical/x-kinemage": {
+    "source": "mime-support",
+    "extensions": ["kin"]
+  },
+  "chemical/x-macmolecule": {
+    "source": "mime-support",
+    "extensions": ["mcm"]
+  },
+  "chemical/x-macromodel-input": {
+    "source": "mime-support",
+    "extensions": ["mmd","mmod"]
+  },
+  "chemical/x-mdl-molfile": {
+    "source": "mime-support",
+    "extensions": ["mol"]
+  },
+  "chemical/x-mdl-rdfile": {
+    "source": "mime-support",
+    "extensions": ["rd"]
+  },
+  "chemical/x-mdl-rxnfile": {
+    "source": "mime-support",
+    "extensions": ["rxn"]
+  },
+  "chemical/x-mdl-sdfile": {
+    "source": "mime-support",
+    "extensions": ["sd","sdf"]
+  },
+  "chemical/x-mdl-tgf": {
+    "source": "mime-support",
+    "extensions": ["tgf"]
+  },
+  "chemical/x-mmcif": {
+    "source": "mime-support",
+    "extensions": ["mcif"]
+  },
+  "chemical/x-mol2": {
+    "source": "mime-support",
+    "extensions": ["mol2"]
+  },
+  "chemical/x-molconn-z": {
+    "source": "mime-support",
+    "extensions": ["b"]
+  },
+  "chemical/x-mopac-graph": {
+    "source": "mime-support",
+    "extensions": ["gpt"]
+  },
+  "chemical/x-mopac-input": {
+    "source": "mime-support",
+    "extensions": ["mop","mopcrt","mpc","zmt"]
+  },
+  "chemical/x-mopac-out": {
+    "source": "mime-support",
+    "extensions": ["moo"]
+  },
+  "chemical/x-mopac-vib": {
+    "source": "mime-support",
+    "extensions": ["mvb"]
+  },
+  "chemical/x-ncbi-asn1": {
+    "source": "mime-support",
+    "extensions": ["asn"]
+  },
+  "chemical/x-ncbi-asn1-ascii": {
+    "source": "mime-support",
+    "extensions": ["prt","ent"]
+  },
+  "chemical/x-ncbi-asn1-binary": {
+    "source": "mime-support",
+    "extensions": ["val","aso"]
+  },
+  "chemical/x-ncbi-asn1-spec": {
+    "source": "mime-support",
+    "extensions": ["asn"]
   },
   "chemical/x-pdb": {
-    "source": "apache"
+    "source": "apache",
+    "extensions": ["pdb","ent"]
+  },
+  "chemical/x-rosdal": {
+    "source": "mime-support",
+    "extensions": ["ros"]
+  },
+  "chemical/x-swissprot": {
+    "source": "mime-support",
+    "extensions": ["sw"]
+  },
+  "chemical/x-vamas-iso14976": {
+    "source": "mime-support",
+    "extensions": ["vms"]
+  },
+  "chemical/x-vmd": {
+    "source": "mime-support",
+    "extensions": ["vmd"]
+  },
+  "chemical/x-xtel": {
+    "source": "mime-support",
+    "extensions": ["xtel"]
   },
   "chemical/x-xyz": {
     "source": "apache",
@@ -6750,15 +7326,16 @@
   "font/otf": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["otf"]
+    "extensions": ["otf","ttf"]
   },
   "font/sfnt": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["ttf","otf"]
   },
   "font/ttf": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["ttf"]
+    "extensions": ["ttf","otf"]
   },
   "font/woff": {
     "source": "iana",
@@ -6773,6 +7350,7 @@
     "extensions": ["exr"]
   },
   "image/apng": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["apng"]
   },
@@ -6783,6 +7361,7 @@
     "source": "iana"
   },
   "image/avif": {
+    "source": "custom",
     "compressible": false,
     "extensions": ["avif"]
   },
@@ -6911,7 +7490,12 @@
   "image/naplps": {
     "source": "iana"
   },
+  "image/pcx": {
+    "source": "mime-support",
+    "extensions": ["pcx"]
+  },
   "image/pjpeg": {
+    "source": "custom",
     "compressible": false
   },
   "image/png": {
@@ -7018,6 +7602,7 @@
     "source": "iana"
   },
   "image/vnd.ms-dds": {
+    "source": "custom",
     "extensions": ["dds"]
   },
   "image/vnd.ms-modi": {
@@ -7079,6 +7664,14 @@
     "source": "apache",
     "extensions": ["3ds"]
   },
+  "image/x-canon-cr2": {
+    "source": "mime-support",
+    "extensions": ["cr2"]
+  },
+  "image/x-canon-crw": {
+    "source": "mime-support",
+    "extensions": ["crw"]
+  },
   "image/x-cmu-raster": {
     "source": "apache",
     "extensions": ["ras"]
@@ -7086,6 +7679,26 @@
   "image/x-cmx": {
     "source": "apache",
     "extensions": ["cmx"]
+  },
+  "image/x-coreldraw": {
+    "source": "mime-support",
+    "extensions": ["cdr"]
+  },
+  "image/x-coreldrawpattern": {
+    "source": "mime-support",
+    "extensions": ["pat"]
+  },
+  "image/x-coreldrawtemplate": {
+    "source": "mime-support",
+    "extensions": ["cdt"]
+  },
+  "image/x-corelphotopaint": {
+    "source": "mime-support",
+    "extensions": ["cpt"]
+  },
+  "image/x-epson-erf": {
+    "source": "mime-support",
+    "extensions": ["erf"]
   },
   "image/x-freehand": {
     "source": "apache",
@@ -7095,6 +7708,10 @@
     "source": "apache",
     "compressible": true,
     "extensions": ["ico"]
+  },
+  "image/x-jg": {
+    "source": "mime-support",
+    "extensions": ["art"]
   },
   "image/x-jng": {
     "source": "nginx",
@@ -7109,9 +7726,21 @@
     "compressible": true,
     "extensions": ["bmp"]
   },
+  "image/x-nikon-nef": {
+    "source": "mime-support",
+    "extensions": ["nef"]
+  },
+  "image/x-olympus-orf": {
+    "source": "mime-support",
+    "extensions": ["orf"]
+  },
   "image/x-pcx": {
     "source": "apache",
     "extensions": ["pcx"]
+  },
+  "image/x-photoshop": {
+    "source": "mime-support",
+    "extensions": ["psd"]
   },
   "image/x-pict": {
     "source": "apache",
@@ -7146,6 +7775,7 @@
     "extensions": ["xbm"]
   },
   "image/x-xcf": {
+    "source": "custom",
     "compressible": false
   },
   "image/x-xpixmap": {
@@ -7155,6 +7785,24 @@
   "image/x-xwindowdump": {
     "source": "apache",
     "extensions": ["xwd"]
+  },
+  "inode/blockdevice": {
+    "source": "mime-support"
+  },
+  "inode/chardevice": {
+    "source": "mime-support"
+  },
+  "inode/directory": {
+    "source": "mime-support"
+  },
+  "inode/directory-locked": {
+    "source": "mime-support"
+  },
+  "inode/fifo": {
+    "source": "mime-support"
+  },
+  "inode/socket": {
+    "source": "mime-support"
   },
   "message/cpim": {
     "source": "iana"
@@ -7418,15 +8066,18 @@
   },
   "text/calendar": {
     "source": "iana",
-    "extensions": ["ics","ifb"]
+    "extensions": ["ics","ifb","icz"]
   },
   "text/calender": {
+    "source": "custom",
     "compressible": true
   },
   "text/cmd": {
+    "source": "custom",
     "compressible": true
   },
   "text/coffeescript": {
+    "source": "custom",
     "extensions": ["coffee","litcoffee"]
   },
   "text/css": {
@@ -7455,6 +8106,9 @@
   "text/encaprtp": {
     "source": "iana"
   },
+  "text/english": {
+    "source": "mime-support"
+  },
   "text/enriched": {
     "source": "iana"
   },
@@ -7467,12 +8121,21 @@
   "text/grammar-ref-list": {
     "source": "iana"
   },
+  "text/h323": {
+    "source": "mime-support",
+    "extensions": ["323"]
+  },
   "text/html": {
     "source": "iana",
     "compressible": true,
     "extensions": ["html","htm","shtml"]
   },
+  "text/iuls": {
+    "source": "mime-support",
+    "extensions": ["uls"]
+  },
   "text/jade": {
+    "source": "custom",
     "extensions": ["jade"]
   },
   "text/javascript": {
@@ -7483,23 +8146,26 @@
     "source": "iana"
   },
   "text/jsx": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["jsx"]
   },
   "text/less": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["less"]
   },
   "text/markdown": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["markdown","md"]
+    "extensions": ["md","markdown"]
   },
   "text/mathml": {
     "source": "nginx",
     "extensions": ["mml"]
   },
   "text/mdx": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["mdx"]
   },
@@ -7522,7 +8188,7 @@
   "text/plain": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["txt","text","conf","def","list","log","in","ini"]
+    "extensions": ["txt","text","conf","def","list","log","in","asc","pot","brf","srt","ini"]
   },
   "text/provenance-notation": {
     "source": "iana",
@@ -7566,6 +8232,10 @@
   "text/rtx": {
     "source": "iana"
   },
+  "text/scriptlet": {
+    "source": "mime-support",
+    "extensions": ["sct","wsc"]
+  },
   "text/sgml": {
     "source": "iana",
     "extensions": ["sgml","sgm"]
@@ -7574,9 +8244,11 @@
     "source": "iana"
   },
   "text/shex": {
+    "source": "custom",
     "extensions": ["shex"]
   },
   "text/slim": {
+    "source": "custom",
     "extensions": ["slim","slm"]
   },
   "text/spdx": {
@@ -7587,6 +8259,7 @@
     "source": "iana"
   },
   "text/stylus": {
+    "source": "custom",
     "extensions": ["stylus","styl"]
   },
   "text/t140": {
@@ -7596,6 +8269,10 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["tsv"]
+  },
+  "text/texmacs": {
+    "source": "mime-support",
+    "extensions": ["tm"]
   },
   "text/troff": {
     "source": "iana",
@@ -7617,7 +8294,7 @@
   "text/vcard": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["vcard"]
+    "extensions": ["vcard","vcf"]
   },
   "text/vnd.a": {
     "source": "iana"
@@ -7661,6 +8338,9 @@
   },
   "text/vnd.ficlab.flt": {
     "source": "iana"
+  },
+  "text/vnd.flatland.3dml": {
+    "source": "mime-support"
   },
   "text/vnd.fly": {
     "source": "iana",
@@ -7751,37 +8431,96 @@
     "source": "apache",
     "extensions": ["s","asm"]
   },
+  "text/x-bibtex": {
+    "source": "mime-support",
+    "extensions": ["bib"]
+  },
+  "text/x-boo": {
+    "source": "mime-support",
+    "extensions": ["boo"]
+  },
   "text/x-c": {
     "source": "apache",
     "extensions": ["c","cc","cxx","cpp","h","hh","dic"]
   },
+  "text/x-chdr": {
+    "source": "mime-support",
+    "extensions": ["h"]
+  },
   "text/x-component": {
     "source": "nginx",
     "extensions": ["htc"]
+  },
+  "text/x-crontab": {
+    "source": "mime-support"
+  },
+  "text/x-csh": {
+    "source": "mime-support",
+    "extensions": ["csh"]
+  },
+  "text/x-csrc": {
+    "source": "mime-support",
+    "extensions": ["c"]
+  },
+  "text/x-diff": {
+    "source": "mime-support",
+    "extensions": ["diff","patch"]
+  },
+  "text/x-dsrc": {
+    "source": "mime-support",
+    "extensions": ["d"]
   },
   "text/x-fortran": {
     "source": "apache",
     "extensions": ["f","for","f77","f90"]
   },
   "text/x-gwt-rpc": {
+    "source": "custom",
     "compressible": true
   },
   "text/x-handlebars-template": {
+    "source": "custom",
     "extensions": ["hbs"]
+  },
+  "text/x-haskell": {
+    "source": "mime-support",
+    "extensions": ["hs"]
+  },
+  "text/x-java": {
+    "source": "mime-support",
+    "extensions": ["java"]
   },
   "text/x-java-source": {
     "source": "apache",
     "extensions": ["java"]
   },
   "text/x-jquery-tmpl": {
+    "source": "custom",
     "compressible": true
   },
+  "text/x-lilypond": {
+    "source": "mime-support",
+    "extensions": ["ly"]
+  },
+  "text/x-literate-haskell": {
+    "source": "mime-support",
+    "extensions": ["lhs"]
+  },
   "text/x-lua": {
+    "source": "custom",
     "extensions": ["lua"]
   },
+  "text/x-makefile": {
+    "source": "mime-support"
+  },
   "text/x-markdown": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["mkd"]
+  },
+  "text/x-moc": {
+    "source": "mime-support",
+    "extensions": ["moc"]
   },
   "text/x-nfo": {
     "source": "apache",
@@ -7792,6 +8531,7 @@
     "extensions": ["opml"]
   },
   "text/x-org": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["org"]
   },
@@ -7799,15 +8539,37 @@
     "source": "apache",
     "extensions": ["p","pas"]
   },
+  "text/x-pcs-gcd": {
+    "source": "mime-support",
+    "extensions": ["gcd"]
+  },
+  "text/x-perl": {
+    "source": "mime-support",
+    "extensions": ["pl","pm"]
+  },
   "text/x-processing": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["pde"]
   },
+  "text/x-python": {
+    "source": "mime-support",
+    "extensions": ["py"]
+  },
   "text/x-sass": {
+    "source": "custom",
     "extensions": ["sass"]
   },
+  "text/x-scala": {
+    "source": "mime-support",
+    "extensions": ["scala"]
+  },
   "text/x-scss": {
+    "source": "custom",
     "extensions": ["scss"]
+  },
+  "text/x-server-parsed-html": {
+    "source": "mime-support"
   },
   "text/x-setext": {
     "source": "apache",
@@ -7817,9 +8579,22 @@
     "source": "apache",
     "extensions": ["sfv"]
   },
+  "text/x-sh": {
+    "source": "mime-support",
+    "extensions": ["sh"]
+  },
   "text/x-suse-ymp": {
+    "source": "custom",
     "compressible": true,
     "extensions": ["ymp"]
+  },
+  "text/x-tcl": {
+    "source": "mime-support",
+    "extensions": ["tcl","tk"]
+  },
+  "text/x-tex": {
+    "source": "mime-support",
+    "extensions": ["tex","ltx","sty","cls"]
   },
   "text/x-uuencode": {
     "source": "apache",
@@ -7842,6 +8617,7 @@
     "source": "iana"
   },
   "text/yaml": {
+    "source": "custom",
     "extensions": ["yaml","yml"]
   },
   "video/1d-interleaved-parityfec": {
@@ -7858,6 +8634,10 @@
     "source": "iana",
     "extensions": ["3g2"]
   },
+  "video/annodex": {
+    "source": "mime-support",
+    "extensions": ["axv"]
+  },
   "video/bmpeg": {
     "source": "iana"
   },
@@ -7867,14 +8647,27 @@
   "video/celb": {
     "source": "iana"
   },
+  "video/dl": {
+    "source": "mime-support",
+    "extensions": ["dl"]
+  },
   "video/dv": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["dif","dv"]
   },
   "video/encaprtp": {
     "source": "iana"
   },
   "video/flexfec": {
     "source": "iana"
+  },
+  "video/fli": {
+    "source": "mime-support",
+    "extensions": ["fli"]
+  },
+  "video/gl": {
+    "source": "mime-support",
+    "extensions": ["gl"]
   },
   "video/h261": {
     "source": "iana",
@@ -8077,6 +8870,9 @@
     "source": "iana",
     "extensions": ["pyv"]
   },
+  "video/vnd.mts": {
+    "source": "mime-support"
+  },
   "video/vnd.nokia.interleaved-multimedia": {
     "source": "iana"
   },
@@ -8139,6 +8935,10 @@
     "compressible": false,
     "extensions": ["flv"]
   },
+  "video/x-la-asf": {
+    "source": "mime-support",
+    "extensions": ["lsf","lsx"]
+  },
   "video/x-m4v": {
     "source": "apache",
     "extensions": ["m4v"]
@@ -8146,7 +8946,7 @@
   "video/x-matroska": {
     "source": "apache",
     "compressible": false,
-    "extensions": ["mkv","mk3d","mks"]
+    "extensions": ["mkv","mk3d","mks","mpv"]
   },
   "video/x-mng": {
     "source": "apache",
@@ -8193,10 +8993,20 @@
     "source": "apache",
     "extensions": ["ice"]
   },
+  "x-epoc/x-sisx-app": {
+    "source": "mime-support",
+    "extensions": ["sisx"]
+  },
   "x-shader/x-fragment": {
+    "source": "custom",
     "compressible": true
   },
   "x-shader/x-vertex": {
+    "source": "custom",
     "compressible": true
+  },
+  "x-world/x-vrml": {
+    "source": "mime-support",
+    "extensions": ["vrm","vrml","wrl"]
   }
 }
