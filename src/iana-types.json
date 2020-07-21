@@ -8912,6 +8912,11 @@
       "http://www.iana.org/assignments/media-types/model/3mf"
     ]
   },
+  "model/e57": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/e57"
+    ]
+  },
   "model/gltf+json": {
     "extensions": ["gltf"],
     "sources": [

@@ -7233,6 +7233,9 @@
     "source": "iana",
     "extensions": ["3mf"]
   },
+  "model/e57": {
+    "source": "iana"
+  },
   "model/gltf+json": {
     "source": "iana",
     "compressible": true,
