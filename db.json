@@ -4691,7 +4691,8 @@
     "source": "iana"
   },
   "application/vnd.rar": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["rar"]
   },
   "application/vnd.realvnc.bed": {
     "source": "iana",

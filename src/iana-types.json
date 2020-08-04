@@ -6339,6 +6339,7 @@
     ]
   },
   "application/vnd.rar": {
+    "extensions": ["rar"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.rar"
     ]
