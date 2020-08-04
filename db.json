@@ -4078,6 +4078,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.oma.lwm2m+cbor": {
+    "source": "iana"
+  },
   "application/vnd.oma.lwm2m+json": {
     "source": "iana",
     "compressible": true

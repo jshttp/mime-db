@@ -1660,6 +1660,7 @@
   },
   "application/pvd+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8801.txt",
       "http://www.iana.org/assignments/media-types/application/pvd+json"
     ]
   },
@@ -5519,6 +5520,11 @@
   "application/vnd.oma.group-usage-list+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.oma.group-usage-list+xml"
+    ]
+  },
+  "application/vnd.oma.lwm2m+cbor": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.oma.lwm2m+cbor"
     ]
   },
   "application/vnd.oma.lwm2m+json": {
