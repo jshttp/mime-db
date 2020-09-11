@@ -3253,6 +3253,7 @@
     ]
   },
   "application/vnd.dbf": {
+    "extensions": ["dbf"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.dbf"
     ]
