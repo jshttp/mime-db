@@ -8565,6 +8565,12 @@
       "http://www.iana.org/assignments/media-types/image/ktx"
     ]
   },
+  "image/ktx2": {
+    "extensions": ["ktx2"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/ktx2"
+    ]
+  },
   "image/naplps": {
     "sources": [
       "http://www.iana.org/assignments/media-types/image/naplps"

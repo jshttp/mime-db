@@ -3,6 +3,7 @@ unreleased
 
   * Add `application/ubjson` with extension `.ubj`
   * Add `image/avif` with extension `.avif`
+  * Add `image/ktx2` with extension `.ktx2`
   * Add extension `.rar` to `application/vnd.rar`
   * Add extension `.td` to `application/urc-targetdesc+xml`
   * Add new upstream MIME types

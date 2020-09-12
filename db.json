@@ -6912,6 +6912,10 @@
     "source": "iana",
     "extensions": ["ktx"]
   },
+  "image/ktx2": {
+    "source": "iana",
+    "extensions": ["ktx2"]
+  },
   "image/naplps": {
     "source": "iana"
   },
