@@ -242,12 +242,6 @@
       "http://www.iana.org/assignments/media-types/application/CALS-1840"
     ]
   },
-  "application/cap+xml": {
-    "charset": "UTF-8",
-    "sources": [
-      "http://www.iana.org/assignments/media-types/application/cap+xml"
-    ]
-  },
   "application/captive+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/captive+json"
@@ -590,6 +584,12 @@
       "http://www.iana.org/assignments/media-types/application/efi"
     ]
   },
+  "application/emergencycalldata.cap+xml": {
+    "charset": "UTF-8",
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/EmergencyCallData.cap+xml"
+    ]
+  },
   "application/emergencycalldata.comment+xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc7852.txt",
@@ -639,8 +639,10 @@
     ]
   },
   "application/emma+xml": {
+    "extensions": ["emma"],
     "sources": [
-      "http://www.w3.org/TR/2007/CR-emma-20071211/#media-type-registration"
+      "http://www.w3.org/TR/2007/CR-emma-20071211/#media-type-registration",
+      "http://www.iana.org/assignments/media-types/application/emma+xml"
     ]
   },
   "application/emotionml+xml": {
@@ -673,7 +675,8 @@
   },
   "application/exi": {
     "sources": [
-      "http://www.w3.org/TR/2009/CR-exi-20091208/#mediaTypeRegistration"
+      "http://www.w3.org/TR/2009/CR-exi-20091208/#mediaTypeRegistration",
+      "http://www.iana.org/assignments/media-types/application/exi"
     ]
   },
   "application/expect-ct-report+json": {
@@ -1067,17 +1070,20 @@
   },
   "application/mathml+xml": {
     "sources": [
-      "http://www.w3.org/TR/MathML3/appendixb.html"
+      "http://www.w3.org/TR/MathML3/appendixb.html",
+      "http://www.iana.org/assignments/media-types/application/mathml+xml"
     ]
   },
   "application/mathml-content+xml": {
     "sources": [
-      "http://www.w3.org/TR/MathML3/appendixb.html"
+      "http://www.w3.org/TR/MathML3/appendixb.html",
+      "http://www.iana.org/assignments/media-types/application/mathml-content+xml"
     ]
   },
   "application/mathml-presentation+xml": {
     "sources": [
-      "http://www.w3.org/TR/MathML3/appendixb.html"
+      "http://www.w3.org/TR/MathML3/appendixb.html",
+      "http://www.iana.org/assignments/media-types/application/mathml-presentation+xml"
     ]
   },
   "application/mbms-associated-procedure-description+xml": {
@@ -1423,6 +1429,11 @@
       "http://www.iana.org/assignments/media-types/application/ogg"
     ]
   },
+  "application/opc-nodeset+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/opc-nodeset+xml"
+    ]
+  },
   "application/oscore": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc8613.txt",
@@ -1484,7 +1495,8 @@
   },
   "application/pgp-keys": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc3156.txt"
+      "http://tools.ietf.org/rfc/rfc3156.txt",
+      "http://www.iana.org/assignments/media-types/application/pgp-keys"
     ]
   },
   "application/pgp-signature": {
@@ -2062,12 +2074,15 @@
   },
   "application/sparql-query": {
     "sources": [
-      "http://www.w3.org/TR/2007/CR-rdf-sparql-query-20070614/#mediaType"
+      "http://www.w3.org/TR/2007/CR-rdf-sparql-query-20070614/#mediaType",
+      "http://www.iana.org/assignments/media-types/application/sparql-query"
     ]
   },
   "application/sparql-results+xml": {
+    "extensions": ["srx"],
     "sources": [
-      "http://www.w3.org/TR/2007/CR-rdf-sparql-XMLres-20070925/#mime"
+      "http://www.w3.org/TR/2007/CR-rdf-sparql-XMLres-20070925/#mime",
+      "http://www.iana.org/assignments/media-types/application/sparql-results+xml"
     ]
   },
   "application/spirits-event+xml": {
@@ -6657,6 +6672,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.swiftview-ics"
     ]
   },
+  "application/vnd.sycle+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.sycle+xml"
+    ]
+  },
   "application/vnd.syncml+xml": {
     "charset": "UTF-8",
     "extensions": ["xsm"],
@@ -7382,8 +7402,10 @@
     ]
   },
   "application/xslt+xml": {
+    "extensions": ["xsl"],
     "sources": [
-      "http://www.w3.org/TR/2007/REC-xslt20-20070123/#media-type-registration"
+      "http://www.w3.org/TR/2007/REC-xslt20-20070123/#media-type-registration",
+      "http://www.iana.org/assignments/media-types/application/xslt+xml"
     ]
   },
   "application/xv+xml": {
@@ -7786,7 +7808,8 @@
   "audio/g7291": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc4749.txt",
-      "http://tools.ietf.org/rfc/rfc5459.txt"
+      "http://tools.ietf.org/rfc/rfc5459.txt",
+      "http://www.iana.org/assignments/media-types/audio/G7291"
     ]
   },
   "audio/g729d": {
@@ -8094,6 +8117,7 @@
   },
   "audio/tsvcis": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8817.txt",
       "http://www.iana.org/assignments/media-types/audio/TSVCIS"
     ]
   },
@@ -8598,8 +8622,10 @@
     ]
   },
   "image/svg+xml": {
+    "extensions": ["svg"],
     "sources": [
-      "http://www.w3.org/TR/SVG/mimereg.html"
+      "http://www.w3.org/TR/SVG/mimereg.html",
+      "http://www.iana.org/assignments/media-types/image/svg+xml"
     ]
   },
   "image/t38": {
@@ -9249,6 +9275,11 @@
       "http://www.iana.org/assignments/media-types/text/fwdred"
     ]
   },
+  "text/gff3": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/gff3"
+    ]
+  },
   "text/grammar-ref-list": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc6787.txt",
@@ -9844,7 +9875,8 @@
   },
   "video/raw": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc4175.txt"
+      "http://tools.ietf.org/rfc/rfc4175.txt",
+      "http://www.iana.org/assignments/media-types/video/raw"
     ]
   },
   "video/rtp-enc-aescm128": {

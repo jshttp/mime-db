@@ -172,11 +172,6 @@
   "application/cals-1840": {
     "source": "iana"
   },
-  "application/cap+xml": {
-    "source": "iana",
-    "charset": "UTF-8",
-    "compressible": true
-  },
   "application/captive+json": {
     "source": "iana",
     "compressible": true
@@ -406,6 +401,11 @@
   },
   "application/efi": {
     "source": "iana"
+  },
+  "application/emergencycalldata.cap+xml": {
+    "source": "iana",
+    "charset": "UTF-8",
+    "compressible": true
   },
   "application/emergencycalldata.comment+xml": {
     "source": "iana",
@@ -1025,6 +1025,10 @@
   "application/onenote": {
     "source": "apache",
     "extensions": ["onetoc","onetoc2","onetmp","onepkg"]
+  },
+  "application/opc-nodeset+xml": {
+    "source": "iana",
+    "compressible": true
   },
   "application/oscore": {
     "source": "iana"
@@ -4991,6 +4995,10 @@
   "application/vnd.swiftview-ics": {
     "source": "iana"
   },
+  "application/vnd.sycle+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.symbian.install": {
     "source": "apache",
     "extensions": ["sis","sisx"]
@@ -6074,7 +6082,7 @@
   "application/xslt+xml": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["xslt"]
+    "extensions": ["xsl","xslt"]
   },
   "application/xspf+xml": {
     "source": "apache",
@@ -7473,6 +7481,9 @@
     "source": "iana"
   },
   "text/fwdred": {
+    "source": "iana"
+  },
+  "text/gff3": {
     "source": "iana"
   },
   "text/grammar-ref-list": {
