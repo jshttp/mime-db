@@ -1320,6 +1320,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/sarif+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/sbe": {
     "source": "iana"
   },
@@ -7699,6 +7703,9 @@
   "text/vnd.graphviz": {
     "source": "iana",
     "extensions": ["gv"]
+  },
+  "text/vnd.hans": {
+    "source": "iana"
   },
   "text/vnd.hgl": {
     "source": "iana"

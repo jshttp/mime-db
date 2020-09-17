@@ -1838,6 +1838,11 @@
       "http://www.iana.org/assignments/media-types/application/samlmetadata+xml"
     ]
   },
+  "application/sarif+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/sarif+json"
+    ]
+  },
   "application/sbe": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/sbe"
@@ -7260,6 +7265,7 @@
   },
   "application/x-pki-message": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8894.txt",
       "http://www.iana.org/assignments/media-types/application/x-pki-message"
     ]
   },
@@ -7270,16 +7276,19 @@
   },
   "application/x-x509-ca-cert": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8894.txt",
       "http://www.iana.org/assignments/media-types/application/x-x509-ca-cert"
     ]
   },
   "application/x-x509-ca-ra-cert": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8894.txt",
       "http://www.iana.org/assignments/media-types/application/x-x509-ca-ra-cert"
     ]
   },
   "application/x-x509-next-ca-cert": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8894.txt",
       "http://www.iana.org/assignments/media-types/application/x-x509-next-ca-cert"
     ]
   },
@@ -9536,6 +9545,11 @@
   "text/vnd.graphviz": {
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.graphviz"
+    ]
+  },
+  "text/vnd.hans": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/vnd.hans"
     ]
   },
   "text/vnd.hgl": {
