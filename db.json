@@ -2338,6 +2338,12 @@
     "source": "iana",
     "compressible": false
   },
+  "application/vnd.d3m-dataset": {
+    "source": "iana"
+  },
+  "application/vnd.d3m-problem": {
+    "source": "iana"
+  },
   "application/vnd.dart": {
     "source": "iana",
     "compressible": true,
@@ -7052,6 +7058,10 @@
   "image/vnd.net-fpx": {
     "source": "iana",
     "extensions": ["npx"]
+  },
+  "image/vnd.pco.b16": {
+    "source": "iana",
+    "extensions": ["b16"]
   },
   "image/vnd.radiance": {
     "source": "iana"

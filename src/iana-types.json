@@ -3237,6 +3237,16 @@
       "http://www.iana.org/assignments/media-types/application/vnd.d2l.coursepackage1p0+zip"
     ]
   },
+  "application/vnd.d3m-dataset": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.d3m-dataset"
+    ]
+  },
+  "application/vnd.d3m-problem": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.d3m-problem"
+    ]
+  },
   "application/vnd.dart": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.dart"
@@ -8762,6 +8772,12 @@
   "image/vnd.net-fpx": {
     "sources": [
       "http://www.iana.org/assignments/media-types/image/vnd.net-fpx"
+    ]
+  },
+  "image/vnd.pco.b16": {
+    "extensions": ["b16"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/vnd.pco.b16"
     ]
   },
   "image/vnd.radiance": {
