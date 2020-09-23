@@ -1,5 +1,5 @@
-unreleased
-==========
+1.45.0 / 2020-09-22
+===================
 
   * Add `application/ubjson` with extension `.ubj`
   * Add `image/avif` with extension `.avif`
