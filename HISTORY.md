@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extension `.opus` to `audio/ogg`
   * Add new upstream MIME types
 
 1.45.0 / 2020-09-22

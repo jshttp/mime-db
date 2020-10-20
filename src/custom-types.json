@@ -473,7 +473,11 @@
     "compressible": false
   },
   "audio/ogg": {
-    "compressible": false
+    "compressible": false,
+    "extensions": ["opus"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/audio/ogg"
+    ]
   },
   "audio/vnd.rn-realaudio": {
     "compressible": false
