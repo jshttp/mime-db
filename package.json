@@ -24,7 +24,7 @@
     "cogent": "1.0.1",
     "csv-parse": "4.12.0",
     "eslint": "7.12.1",
-    "eslint-config-standard": "14.1.1",
+    "eslint-config-standard": "15.0.1",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-markdown": "1.0.2",
     "eslint-plugin-node": "11.1.0",
