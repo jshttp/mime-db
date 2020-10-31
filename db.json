@@ -236,6 +236,9 @@
   "application/cfw": {
     "source": "iana"
   },
+  "application/clr": {
+    "source": "iana"
+  },
   "application/clue+xml": {
     "source": "iana",
     "compressible": true
@@ -1171,6 +1174,10 @@
     "source": "iana",
     "extensions": ["cww"]
   },
+  "application/prs.cyn": {
+    "source": "iana",
+    "charset": "7-BIT"
+  },
   "application/prs.hpub+zip": {
     "source": "iana",
     "compressible": false
@@ -1690,6 +1697,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.3gpp.interworking-data": {
+    "source": "iana"
+  },
   "application/vnd.3gpp.mc-signalling-ear": {
     "source": "iana"
   },
@@ -1905,6 +1915,9 @@
   "application/vnd.afpc.afplinedata-pagedef": {
     "source": "iana"
   },
+  "application/vnd.afpc.cmoca-cmresource": {
+    "source": "iana"
+  },
   "application/vnd.afpc.foca-charset": {
     "source": "iana"
   },
@@ -1915,6 +1928,9 @@
     "source": "iana"
   },
   "application/vnd.afpc.modca": {
+    "source": "iana"
+  },
+  "application/vnd.afpc.modca-cmtable": {
     "source": "iana"
   },
   "application/vnd.afpc.modca-formdef": {
@@ -2856,6 +2872,9 @@
   "application/vnd.geogebra.file": {
     "source": "iana",
     "extensions": ["ggb"]
+  },
+  "application/vnd.geogebra.slides": {
+    "source": "iana"
   },
   "application/vnd.geogebra.tool": {
     "source": "iana",
@@ -4812,6 +4831,10 @@
     "source": "iana",
     "extensions": ["see"]
   },
+  "application/vnd.seis+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.sema": {
     "source": "iana",
     "extensions": ["sema"]
@@ -5231,6 +5254,9 @@
   "application/vnd.webturbo": {
     "source": "iana",
     "extensions": ["wtb"]
+  },
+  "application/vnd.wfa.dpp": {
+    "source": "iana"
   },
   "application/vnd.wfa.p2p": {
     "source": "iana"

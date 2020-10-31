@@ -244,12 +244,12 @@
   },
   "application/captive+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8908.txt",
       "http://www.iana.org/assignments/media-types/application/captive+json"
     ]
   },
   "application/cbor": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc7049.txt",
       "http://www.iana.org/assignments/media-types/application/cbor"
     ]
   },
@@ -338,6 +338,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc6230.txt",
       "http://www.iana.org/assignments/media-types/application/cfw"
+    ]
+  },
+  "application/clr": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/clr"
     ]
   },
   "application/clue+xml": {
@@ -587,6 +592,7 @@
   "application/emergencycalldata.cap+xml": {
     "charset": "UTF-8",
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8876.txt",
       "http://www.iana.org/assignments/media-types/application/EmergencyCallData.cap+xml"
     ]
   },
@@ -1454,7 +1460,8 @@
   },
   "application/parityfec": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc5109.txt"
+      "http://tools.ietf.org/rfc/rfc3009.txt",
+      "http://www.iana.org/assignments/media-types/application/parityfec"
     ]
   },
   "application/passport": {
@@ -1637,6 +1644,12 @@
   "application/prs.cww": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/prs.cww"
+    ]
+  },
+  "application/prs.cyn": {
+    "charset": "7-BIT",
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/prs.cyn"
     ]
   },
   "application/prs.hpub+zip": {
@@ -2382,6 +2395,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.GMOP+xml"
     ]
   },
+  "application/vnd.3gpp.interworking-data": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.interworking-data"
+    ]
+  },
   "application/vnd.3gpp.mc-signalling-ear": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mc-signalling-ear"
@@ -2659,6 +2677,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.afpc.afplinedata-pagedef"
     ]
   },
+  "application/vnd.afpc.cmoca-cmresource": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.cmoca-cmresource"
+    ]
+  },
   "application/vnd.afpc.foca-charset": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.afpc.foca-charset"
@@ -2677,6 +2700,11 @@
   "application/vnd.afpc.modca": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.afpc.modca"
+    ]
+  },
+  "application/vnd.afpc.modca-cmtable": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.afpc.modca-cmtable"
     ]
   },
   "application/vnd.afpc.modca-formdef": {
@@ -3945,6 +3973,11 @@
   "application/vnd.geogebra.file": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.geogebra.file"
+    ]
+  },
+  "application/vnd.geogebra.slides": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.geogebra.slides"
     ]
   },
   "application/vnd.geogebra.tool": {
@@ -6511,6 +6544,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.seemail"
     ]
   },
+  "application/vnd.seis+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.seis+json"
+    ]
+  },
   "application/vnd.sema": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.sema"
@@ -7000,6 +7038,11 @@
   "application/vnd.webturbo": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.webturbo"
+    ]
+  },
+  "application/vnd.wfa.dpp": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.wfa.dpp"
     ]
   },
   "application/vnd.wfa.p2p": {
@@ -7994,7 +8037,8 @@
   },
   "audio/parityfec": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc5109.txt"
+      "http://tools.ietf.org/rfc/rfc3009.txt",
+      "http://www.iana.org/assignments/media-types/audio/parityfec"
     ]
   },
   "audio/pcma": {
@@ -9355,7 +9399,8 @@
   },
   "text/parityfec": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc5109.txt"
+      "http://tools.ietf.org/rfc/rfc3009.txt",
+      "http://www.iana.org/assignments/media-types/text/parityfec"
     ]
   },
   "text/plain": {
@@ -9883,7 +9928,8 @@
   },
   "video/parityfec": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc5109.txt"
+      "http://tools.ietf.org/rfc/rfc3009.txt",
+      "http://www.iana.org/assignments/media-types/video/parityfec"
     ]
   },
   "video/pointer": {
