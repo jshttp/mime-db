@@ -618,6 +618,24 @@
       "https://docs.microsoft.com/en-us/windows/win32/wic/dds-format-overview"
     ]
   },
+  "image/x-adobe-dng" : {
+    "extensions": ["dng"],
+    "sources": [
+      "https://stackoverflow.com/a/47612661/816478"
+    ]
+  },
+  "image/x-sony-arw" : {
+    "extensions": ["arw"],
+    "sources": [
+      "https://stackoverflow.com/a/47612661/816478"
+    ]
+  },
+  "image/x-canon-cr2" : {
+    "extensions": ["cr2"],
+    "sources": [
+      "https://stackoverflow.com/a/47612661/816478"
+    ]
+  },
   "image/x-icon": {
     "compressible": true,
     "notes": "Usually a wrapper for .bmp formated images.",
@@ -629,6 +647,18 @@
     "compressible": true,
     "sources": [
       "http://stackoverflow.com/a/12770116"
+    ]
+  },
+  "image/x-nikon-nef" : {
+    "extensions": ["nef"],
+    "sources": [
+      "https://stackoverflow.com/a/47612661/816478"
+    ]
+  },
+  "image/x-panasonic-raw" : {
+    "extensions": ["raw"],
+    "sources": [
+      "https://stackoverflow.com/a/47612661/816478"
     ]
   },
   "image/x-xcf": {
