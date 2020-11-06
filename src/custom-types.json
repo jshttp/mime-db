@@ -804,6 +804,7 @@
     "extensions": ["hbs"]
   },
   "text/x-java-properties": {
+    "compressible": true,
     "extensions": ["properties"]
   },
   "text/x-jquery-tmpl": {
