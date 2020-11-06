@@ -805,7 +805,11 @@
   },
   "text/x-java-properties": {
     "compressible": true,
-    "extensions": ["properties"]
+    "extensions": ["properties"],
+    "sources": [
+      "https://stackoverflow.com/a/28813973",
+      "https://www.digipres.org/formats/mime-types/"
+    ]
   },
   "text/x-jquery-tmpl": {
     "compressible": true
