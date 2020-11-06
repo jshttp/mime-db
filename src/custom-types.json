@@ -803,6 +803,9 @@
   "text/x-handlebars-template": {
     "extensions": ["hbs"]
   },
+  "text/x-java-properties": {
+    "extensions": ["properties"]
+  },
   "text/x-jquery-tmpl": {
     "compressible": true
   },
