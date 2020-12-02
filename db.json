@@ -8033,7 +8033,7 @@
   "video/quicktime": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["qt","mov"]
+    "extensions": ["mov", "qt"]
   },
   "video/raptorfec": {
     "source": "iana"
