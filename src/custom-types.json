@@ -71,7 +71,6 @@
     ]
   },
   "application/json": {
-    "charset": "UTF-8",
     "compressible": true,
     "extensions": ["map"]
   },
