@@ -719,7 +719,8 @@
     "compressible": true
   },
   "text/html": {
-    "compressible": true
+    "compressible": true,
+    "extensions": ["shtm"]
   },
   "text/jade": {
     "extensions": ["jade"]
