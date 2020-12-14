@@ -7533,7 +7533,7 @@
   "text/html": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["html","htm","shtml","shtm"]
+    "extensions": ["html","htm","shtml"]
   },
   "text/jade": {
     "extensions": ["jade"]
