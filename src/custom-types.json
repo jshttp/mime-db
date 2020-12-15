@@ -761,7 +761,7 @@
   },
   "text/plain": {
     "compressible": true,
-    "extensions": ["ini"]
+    "extensions": ["ini", "toml"]
   },
   "text/richtext": {
     "compressible": true
