@@ -405,6 +405,15 @@
   "application/efi": {
     "source": "iana"
   },
+  "application/elm+json": {
+    "source": "iana",
+    "charset": "UTF-8",
+    "compressible": true
+  },
+  "application/elm+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/emergencycalldata.cap+xml": {
     "source": "iana",
     "charset": "UTF-8",
@@ -663,6 +672,10 @@
     "compressible": true
   },
   "application/jrd+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/jscalendar+json": {
     "source": "iana",
     "compressible": true
   },
@@ -7489,6 +7502,15 @@
   "text/coffeescript": {
     "extensions": ["coffee","litcoffee"]
   },
+  "text/cql": {
+    "source": "iana"
+  },
+  "text/cql-expression": {
+    "source": "iana"
+  },
+  "text/cql-identifier": {
+    "source": "iana"
+  },
   "text/css": {
     "source": "iana",
     "charset": "UTF-8",
@@ -7516,6 +7538,9 @@
     "source": "iana"
   },
   "text/enriched": {
+    "source": "iana"
+  },
+  "text/fhirpath": {
     "source": "iana"
   },
   "text/flexfec": {

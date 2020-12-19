@@ -93,11 +93,13 @@
   },
   "application/alto-updatestreamcontrol+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8895.txt",
       "http://www.iana.org/assignments/media-types/application/alto-updatestreamcontrol+json"
     ]
   },
   "application/alto-updatestreamparams+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8895.txt",
       "http://www.iana.org/assignments/media-types/application/alto-updatestreamparams+json"
     ]
   },
@@ -250,6 +252,7 @@
   },
   "application/cbor": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8949.txt",
       "http://www.iana.org/assignments/media-types/application/cbor"
     ]
   },
@@ -587,6 +590,17 @@
   "application/efi": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/efi"
+    ]
+  },
+  "application/elm+json": {
+    "charset": "UTF-8",
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/elm+json"
+    ]
+  },
+  "application/elm+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/elm+xml"
     ]
   },
   "application/emergencycalldata.cap+xml": {
@@ -942,6 +956,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc7033.txt",
       "http://www.iana.org/assignments/media-types/application/jrd+json"
+    ]
+  },
+  "application/jscalendar+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/jscalendar+json"
     ]
   },
   "application/json": {
@@ -9283,6 +9302,21 @@
       "http://www.iana.org/assignments/media-types/text/calendar"
     ]
   },
+  "text/cql": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/cql"
+    ]
+  },
+  "text/cql-expression": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/cql-expression"
+    ]
+  },
+  "text/cql-identifier": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/cql-identifier"
+    ]
+  },
   "text/css": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc2318.txt",
@@ -9331,6 +9365,11 @@
   "text/enriched": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc1896.txt"
+    ]
+  },
+  "text/fhirpath": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/fhirpath"
     ]
   },
   "text/flexfec": {
