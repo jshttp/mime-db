@@ -350,11 +350,13 @@
   },
   "application/clue+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8847.txt",
       "http://www.iana.org/assignments/media-types/application/clue+xml"
     ]
   },
   "application/clue_info+xml": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8846.txt",
       "http://www.iana.org/assignments/media-types/application/clue_info+xml"
     ]
   },
@@ -2301,6 +2303,7 @@
   },
   "application/trickle-ice-sdpfrag": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8840.txt",
       "http://www.iana.org/assignments/media-types/application/trickle-ice-sdpfrag"
     ]
   },
@@ -9793,6 +9796,11 @@
       "http://tools.ietf.org/rfc/rfc4393.txt",
       "http://tools.ietf.org/rfc/rfc6381.txt",
       "http://www.iana.org/assignments/media-types/video/3gpp2"
+    ]
+  },
+  "video/av1": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/AV1"
     ]
   },
   "video/bmpeg": {

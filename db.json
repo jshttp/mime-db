@@ -7949,6 +7949,9 @@
     "source": "iana",
     "extensions": ["3g2"]
   },
+  "video/av1": {
+    "source": "iana"
+  },
   "video/bmpeg": {
     "source": "iana"
   },
