@@ -452,6 +452,12 @@
     "compressible": false,
     "extensions": ["3gpp"]
   },
+  "audio/amr": {
+    "extensions": ["amr"],
+    "sources": [
+      "https://tools.ietf.org/html/rfc4867"
+    ]
+  },
   "audio/basic": {
     "compressible": false
   },

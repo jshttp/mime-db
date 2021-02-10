@@ -6213,7 +6213,8 @@
     "extensions": ["adp"]
   },
   "audio/amr": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["amr"]
   },
   "audio/amr-wb": {
     "source": "iana"
