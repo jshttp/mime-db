@@ -55,6 +55,14 @@ describe('mime-db', function () {
     }))
   })
 
+  it('should have only lowercase .extensions', function () {
+    Object.keys(db).forEach(function (name) {
+      (db[name].extensions || []).forEach(function (ext) {
+        assert.strictEqual(ext, ext.toLowerCase(), 'extension "' + ext + '" in type "' + name + '" should be lowercase')
+      })
+    })
+  })
+
   it('should have the default .extension as the first', function () {
     assert.strictEqual(db['text/plain'].extensions[0], 'txt')
     assert.strictEqual(db['video/x-matroska'].extensions[0], 'mkv')
