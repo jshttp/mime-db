@@ -1,5 +1,5 @@
-unreleased
-==========
+1.46.0 / 2021-02-13
+===================
 
   * Add extension `.amr` to `audio/amr`
   * Add extension `.m4s` to `video/iso.segment`
