@@ -2363,6 +2363,14 @@
   "application/vnd.cybank": {
     "source": "iana"
   },
+  "application/vnd.cyclonedx+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.cyclonedx+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.d2l.coursepackage1p0+zip": {
     "source": "iana",
     "compressible": false
@@ -6502,6 +6510,9 @@
     "source": "apache",
     "extensions": ["s3m"]
   },
+  "audio/scip": {
+    "source": "iana"
+  },
   "audio/silk": {
     "source": "apache",
     "extensions": ["sil"]
@@ -6845,6 +6856,7 @@
     "source": "iana"
   },
   "image/avif": {
+    "source": "iana",
     "compressible": false,
     "extensions": ["avif"]
   },
@@ -8076,6 +8088,9 @@
     "source": "iana"
   },
   "video/rtx": {
+    "source": "iana"
+  },
+  "video/scip": {
     "source": "iana"
   },
   "video/smpte291": {

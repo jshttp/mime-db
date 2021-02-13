@@ -397,19 +397,16 @@
   },
   "application/cose": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc8152.txt",
       "http://www.iana.org/assignments/media-types/application/cose"
     ]
   },
   "application/cose-key": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc8152.txt",
       "http://www.iana.org/assignments/media-types/application/cose-key"
     ]
   },
   "application/cose-key-set": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc8152.txt",
       "http://www.iana.org/assignments/media-types/application/cose-key-set"
     ]
   },
@@ -1925,6 +1922,7 @@
   },
   "application/sdp": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8866.txt",
       "http://www.iana.org/assignments/media-types/application/sdp"
     ]
   },
@@ -3280,6 +3278,16 @@
   "application/vnd.cybank": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.cybank"
+    ]
+  },
+  "application/vnd.cyclonedx+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.cyclonedx+json"
+    ]
+  },
+  "application/vnd.cyclonedx+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.cyclonedx+xml"
     ]
   },
   "application/vnd.d2l.coursepackage1p0+zip": {
@@ -7549,6 +7557,7 @@
   },
   "application/zstd": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8878.txt",
       "http://www.iana.org/assignments/media-types/application/zstd"
     ]
   },
@@ -8133,6 +8142,11 @@
       "http://www.iana.org/assignments/media-types/audio/rtx"
     ]
   },
+  "audio/scip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/audio/scip"
+    ]
+  },
   "audio/smv": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc3558.txt",
@@ -8503,6 +8517,11 @@
   "image/avcs": {
     "sources": [
       "http://www.iana.org/assignments/media-types/image/avcs"
+    ]
+  },
+  "image/avif": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/image/avif"
     ]
   },
   "image/bmp": {
@@ -10018,6 +10037,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc4588.txt",
       "http://www.iana.org/assignments/media-types/video/rtx"
+    ]
+  },
+  "video/scip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/scip"
     ]
   },
   "video/smpte291": {
