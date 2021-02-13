@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Add extension `.amr` to `audio/amr`
+  * Add extension `.m4s` to `video/iso.segment`
   * Add extension `.opus` to `audio/ogg`
   * Add new upstream MIME types
 

@@ -9907,6 +9907,7 @@
     ]
   },
   "video/iso.segment": {
+    "extensions": ["m4s"],
     "sources": [
       "http://www.iana.org/assignments/media-types/video/iso.segment"
     ]

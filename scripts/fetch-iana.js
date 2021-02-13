@@ -40,7 +40,7 @@ co(function * () {
     get('model', { extensions: true }),
     get('multipart'),
     get('text', { extensions: /\/(?:spdx|turtle|vtt)$/ }),
-    get('video')
+    get('video', { extensions: /\/iso\.segment$/ })
   ]
 
   // flatten generators

@@ -8011,7 +8011,8 @@
     "source": "iana"
   },
   "video/iso.segment": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["m4s"]
   },
   "video/jpeg": {
     "source": "iana",
