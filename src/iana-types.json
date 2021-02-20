@@ -1301,14 +1301,12 @@
     ]
   },
   "application/mrb-consumer+xml": {
-    "extensions": ["xdf"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6917.txt",
       "http://www.iana.org/assignments/media-types/application/mrb-consumer+xml"
     ]
   },
   "application/mrb-publish+xml": {
-    "extensions": ["xdf"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6917.txt",
       "http://www.iana.org/assignments/media-types/application/mrb-publish+xml"
@@ -1490,7 +1488,6 @@
     ]
   },
   "application/patch-ops-error+xml": {
-    "extensions": ["xer"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5261.txt",
       "http://www.iana.org/assignments/media-types/application/patch-ops-error+xml"
@@ -7403,7 +7400,6 @@
     ]
   },
   "application/xcap-diff+xml": {
-    "extensions": ["xdf"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5874.txt",
       "http://www.iana.org/assignments/media-types/application/xcap-diff+xml"
@@ -7417,7 +7413,6 @@
     ]
   },
   "application/xcap-error+xml": {
-    "extensions": ["xer"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4825.txt",
       "http://www.iana.org/assignments/media-types/application/xcap-error+xml"

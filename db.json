@@ -934,13 +934,11 @@
   },
   "application/mrb-consumer+xml": {
     "source": "iana",
-    "compressible": true,
-    "extensions": ["xdf"]
+    "compressible": true
   },
   "application/mrb-publish+xml": {
     "source": "iana",
-    "compressible": true,
-    "extensions": ["xdf"]
+    "compressible": true
   },
   "application/msc-ivr+xml": {
     "source": "iana",
@@ -6071,8 +6069,7 @@
   },
   "application/xcap-error+xml": {
     "source": "iana",
-    "compressible": true,
-    "extensions": ["xer"]
+    "compressible": true
   },
   "application/xcap-ns+xml": {
     "source": "iana",

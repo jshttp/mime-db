@@ -55,6 +55,15 @@ co(function * () {
   // flatten results
   results = results.reduce(concat, [])
 
+  // gather extension frequency
+  var exts = Object.create(null)
+  results.forEach(function (result) {
+    (result.extensions || []).forEach(function (ext) {
+      exts[ext] = (exts[ext] || 0) + 1
+    })
+  })
+
+  // construct json map
   var json = Object.create(null)
   results.forEach(function (result) {
     var mime = result.mime
@@ -65,9 +74,13 @@ co(function * () {
 
     json[mime] = {
       charset: result.charset,
-      extensions: result.extensions,
       notes: result.notes,
       sources: result.sources
+    }
+
+    // keep unambigious extensions
+    if (result.extensions && exts[result.extensions[0]] === 1) {
+      json[mime].extensions = result.extensions
     }
   })
 
@@ -192,11 +205,6 @@ function extractTemplateExtensions (body) {
   }
 
   var ext = (match[1] || match[2]).toLowerCase()
-
-  // special-case popular base extensions
-  if (ext === 'xml') {
-    return
-  }
 
   if (ext !== 'none' && ext !== 'undefined') {
     return [ext]
