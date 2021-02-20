@@ -890,5 +890,27 @@
     "sources": [
       "https://developer.mozilla.org/en-US/docs/Web/WebGL/Adding_2D_content_to_a_WebGL_context"
     ]
+  },
+  "application/vnd.hancom.hwp": {
+    "extensions": ["hwp"],
+    "notes": ".hwp (Hangul Word-Processor) is the Most popular document type in Korea.",
+    "sources": [
+      "https://cdn.hancom.com/link/docs/%ED%95%9C%EA%B8%80%EB%AC%B8%EC%84%9C%ED%8C%8C%EC%9D%BC%ED%98%95%EC%8B%9D_5.0_revision1.3.pdf"
+    ]
+  },
+  "application/vnd.hancom.hml": {
+    "extensions": ["hml"],
+    "notes": "HWPML (hwp + xml) document structure.",
+    "sources": [
+      "https://cdn.hancom.com/link/docs/%ED%95%9C%EA%B8%80%EB%AC%B8%EC%84%9C%ED%8C%8C%EC%9D%BC%ED%98%95%EC%8B%9D3.0_HWPML_revision1.2.pdf"
+    ]
+  },
+  "application/vnd.hancom.owpml": {
+    "extensions": ["owpml"],
+    "notes":".owpml (Open Word-Processor Markup Language) is national standard version of HWPML in Korea, and it is supported from the HWP 2018 version.",
+    "sources": [
+      "https://standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?ksNo=KSX6101",
+      "https://e-ks.kr/streamdocs/view/sd;streamdocsId=72059197557727331"
+    ]
   }
 }
