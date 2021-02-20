@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Update primary extension to `.es` for `application/ecmascript`
+
 1.46.0 / 2021-02-13
 ===================
 

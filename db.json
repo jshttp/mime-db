@@ -389,7 +389,7 @@
   "application/ecmascript": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["ecma","es"]
+    "extensions": ["es","ecma"]
   },
   "application/edi-consent": {
     "source": "iana"
