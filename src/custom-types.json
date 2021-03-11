@@ -142,7 +142,12 @@
     ]
   },
   "application/tar": {
-    "compressible": true
+    "compressible": true,
+    "extensions": ["tar","tar.gz","taz","tgz"],
+    "sources": [
+      "https://www.gnu.org/software/tar/",
+      "https://en.wikipedia.org/wiki/Tar_(computing)"
+    ]
   },
   "application/toml": {
     "extensions": ["toml"],
