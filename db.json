@@ -7568,7 +7568,7 @@
   "text/html": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["html","htm","shtml"]
+    "extensions": ["html","htm","shtml","ghtml"]
   },
   "text/jade": {
     "extensions": ["jade"]
