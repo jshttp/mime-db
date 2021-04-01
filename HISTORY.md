@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add new upstream MIME types
   * Remove ambigious extensions from IANA for `application/*+xml` types
   * Update primary extension to `.es` for `application/ecmascript`
 

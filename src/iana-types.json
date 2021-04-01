@@ -1719,7 +1719,6 @@
   },
   "application/rdap+json": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc7483.txt",
       "http://www.iana.org/assignments/media-types/application/rdap+json"
     ]
   },
@@ -3226,6 +3225,11 @@
   "application/vnd.crypto-shade-file": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.crypto-shade-file"
+    ]
+  },
+  "application/vnd.cryptomator.encrypted": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.cryptomator.encrypted"
     ]
   },
   "application/vnd.ctc-posml": {
@@ -5145,6 +5149,11 @@
   "application/vnd.nearst.inv+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.nearst.inv+json"
+    ]
+  },
+  "application/vnd.nebumind.line": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.nebumind.line"
     ]
   },
   "application/vnd.nervana": {
@@ -9170,6 +9179,12 @@
       "http://www.iana.org/assignments/media-types/model/vnd.rosette.annotated-data-model"
     ]
   },
+  "model/vnd.sap.vds": {
+    "extensions": ["vds"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/vnd.sap.vds"
+    ]
+  },
   "model/vnd.usdz+zip": {
     "extensions": ["usdz"],
     "sources": [
@@ -9846,6 +9861,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc6849.txt",
       "http://www.iana.org/assignments/media-types/video/encaprtp"
+    ]
+  },
+  "video/ffv1": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/FFV1"
     ]
   },
   "video/flexfec": {
