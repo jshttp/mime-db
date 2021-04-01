@@ -1,5 +1,5 @@
-unreleased
-==========
+1.47.0 / 2021-04-01
+===================
 
   * Add new upstream MIME types
   * Remove ambigious extensions from IANA for `application/*+xml` types
