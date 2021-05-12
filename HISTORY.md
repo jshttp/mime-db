@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extension `.mvt` to `application/vnd.mapbox-vector-tile`
   * Add new upstream MIME types
 
 1.47.0 / 2021-04-01

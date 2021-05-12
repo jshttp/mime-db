@@ -4771,6 +4771,7 @@
     ]
   },
   "application/vnd.mapbox-vector-tile": {
+    "extensions": ["mvt"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.mapbox-vector-tile"
     ]

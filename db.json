@@ -3476,7 +3476,8 @@
     "extensions": ["portpkg"]
   },
   "application/vnd.mapbox-vector-tile": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["mvt"]
   },
   "application/vnd.marlin.drm.actiontoken+xml": {
     "source": "iana",
