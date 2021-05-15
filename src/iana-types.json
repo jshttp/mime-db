@@ -16,6 +16,16 @@
       "http://www.iana.org/assignments/media-types/application/3gpp-ims+xml"
     ]
   },
+  "application/3gpphal+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/3gppHal+json"
+    ]
+  },
+  "application/3gpphalforms+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/3gppHalForms+json"
+    ]
+  },
   "application/a2l": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/A2L"
@@ -1403,6 +1413,11 @@
       "http://www.iana.org/assignments/media-types/application/nss"
     ]
   },
+  "application/oauth-authz-req+jwt": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/oauth-authz-req+jwt"
+    ]
+  },
   "application/ocsp-request": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc6960.txt",
@@ -1869,6 +1884,11 @@
   "application/sarif+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/sarif+json"
+    ]
+  },
+  "application/sarif-external-properties+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/sarif-external-properties+json"
     ]
   },
   "application/sbe": {
@@ -2397,6 +2417,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp-v2x-local-service-information"
     ]
   },
+  "application/vnd.3gpp.5gnas": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.5gnas"
+    ]
+  },
   "application/vnd.3gpp.access-transfer-events+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.access-transfer-events+xml"
@@ -2412,9 +2437,19 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.GMOP+xml"
     ]
   },
+  "application/vnd.3gpp.gtpc": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.gtpc"
+    ]
+  },
   "application/vnd.3gpp.interworking-data": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.interworking-data"
+    ]
+  },
+  "application/vnd.3gpp.lpp": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.lpp"
     ]
   },
   "application/vnd.3gpp.mc-signalling-ear": {
@@ -2558,6 +2593,16 @@
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.mid-call+xml"
     ]
   },
+  "application/vnd.3gpp.ngap": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.ngap"
+    ]
+  },
+  "application/vnd.3gpp.pfcp": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.pfcp"
+    ]
+  },
   "application/vnd.3gpp.pic-bw-large": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.pic-bw-large"
@@ -2571,6 +2616,11 @@
   "application/vnd.3gpp.pic-bw-var": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.3gpp.pic-bw-var"
+    ]
+  },
+  "application/vnd.3gpp.s1ap": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.3gpp.s1ap"
     ]
   },
   "application/vnd.3gpp.sms": {
@@ -3230,6 +3280,11 @@
   "application/vnd.cryptomator.encrypted": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.cryptomator.encrypted"
+    ]
+  },
+  "application/vnd.cryptomator.vault": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.cryptomator.vault"
     ]
   },
   "application/vnd.ctc-posml": {
@@ -3898,6 +3953,26 @@
   "application/vnd.fsc.weblaunch": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.fsc.weblaunch"
+    ]
+  },
+  "application/vnd.fujifilm.fb.docuworks": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.fujifilm.fb.docuworks"
+    ]
+  },
+  "application/vnd.fujifilm.fb.docuworks.binder": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.fujifilm.fb.docuworks.binder"
+    ]
+  },
+  "application/vnd.fujifilm.fb.docuworks.container": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.fujifilm.fb.docuworks.container"
+    ]
+  },
+  "application/vnd.fujifilm.fb.jfi+xml": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.fujifilm.fb.jfi+xml"
     ]
   },
   "application/vnd.fujitsu.oasys": {
@@ -7302,6 +7377,11 @@
       "http://www.iana.org/assignments/media-types/application/vq-rtcpxr"
     ]
   },
+  "application/wasm": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/wasm"
+    ]
+  },
   "application/watcherinfo+xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc3858.txt",
@@ -9174,6 +9254,11 @@
       "http://www.iana.org/assignments/media-types/model/vnd.parasolid.transmit.text"
     ]
   },
+  "model/vnd.pytha.pyox": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/vnd.pytha.pyox"
+    ]
+  },
   "model/vnd.rosette.annotated-data-model": {
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.rosette.annotated-data-model"
@@ -9558,6 +9643,11 @@
   "text/shaclc": {
     "sources": [
       "http://www.iana.org/assignments/media-types/text/shaclc"
+    ]
+  },
+  "text/shex": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/shex"
     ]
   },
   "text/spdx": {

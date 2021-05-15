@@ -74,6 +74,9 @@
   "application/vnd.wap.wmlc": {
     "extensions": ["wmlc"]
   },
+  "application/wasm": {
+    "extensions": ["wasm"]
+  },
   "application/x-7z-compressed": {
     "extensions": ["7z"]
   },
