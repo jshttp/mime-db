@@ -849,6 +849,7 @@
     "compressible": true
   },
   "text/yaml": {
+    "compressible": true,
     "extensions": ["yaml","yml"]
   },
   "video/mp4": {

@@ -3,6 +3,7 @@ unreleased
 
   * Add extension `.mvt` to `application/vnd.mapbox-vector-tile`
   * Add new upstream MIME types
+  * Mark `text/yaml` as compressible
 
 1.47.0 / 2021-04-01
 ===================

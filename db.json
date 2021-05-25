@@ -8008,6 +8008,7 @@
     "source": "iana"
   },
   "text/yaml": {
+    "compressible": true,
     "extensions": ["yaml","yml"]
   },
   "video/1d-interleaved-parityfec": {
