@@ -2328,6 +2328,7 @@
     ]
   },
   "application/trig": {
+    "extensions": ["trig"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/trig"
     ]
