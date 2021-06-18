@@ -543,7 +543,6 @@
   },
   "application/dots+cbor": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc8782.txt",
       "http://www.iana.org/assignments/media-types/application/dots+cbor"
     ]
   },
@@ -1236,6 +1235,11 @@
       "http://www.iana.org/assignments/media-types/application/mipc"
     ]
   },
+  "application/missing-blocks+cbor-seq": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/missing-blocks+cbor-seq"
+    ]
+  },
   "application/mmt-aei+xml": {
     "extensions": ["maei"],
     "sources": [
@@ -1734,6 +1738,7 @@
   },
   "application/rdap+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc9083.txt",
       "http://www.iana.org/assignments/media-types/application/rdap+json"
     ]
   },
@@ -6541,6 +6546,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.RenLearn.rlprint"
     ]
   },
+  "application/vnd.resilient.logic": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.resilient.logic"
+    ]
+  },
   "application/vnd.restful+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.restful+json"
@@ -10366,6 +10376,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc7741.txt",
       "http://www.iana.org/assignments/media-types/video/VP8"
+    ]
+  },
+  "video/vp9": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/VP9"
     ]
   }
 }

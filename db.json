@@ -896,6 +896,9 @@
   "application/mipc": {
     "source": "iana"
   },
+  "application/missing-blocks+cbor-seq": {
+    "source": "iana"
+  },
   "application/mmt-aei+xml": {
     "source": "iana",
     "compressible": true,
@@ -4819,6 +4822,9 @@
   "application/vnd.renlearn.rlprint": {
     "source": "iana"
   },
+  "application/vnd.resilient.logic": {
+    "source": "iana"
+  },
   "application/vnd.restful+json": {
     "source": "iana",
     "compressible": true
@@ -8296,6 +8302,9 @@
     "source": "iana"
   },
   "video/vp8": {
+    "source": "iana"
+  },
+  "video/vp9": {
     "source": "iana"
   },
   "video/webm": {
