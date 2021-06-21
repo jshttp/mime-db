@@ -858,6 +858,9 @@
   "video/mpeg": {
     "compressible": false
   },
+  "video/mp2t": {
+    "extensions": ["tsv", "tsa", "m2t", "m2ts"]
+  },
   "video/ogg": {
     "compressible": false
   },
