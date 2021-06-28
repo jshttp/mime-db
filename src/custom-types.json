@@ -831,6 +831,12 @@
       "https://en.wikipedia.org/wiki/Processing_(programming_language)"
     ]
   },
+  "text/x-python-script": {
+    "extensions": ["py"]
+  },
+  "text/x-python": {
+    "extensions": ["py"]
+  },
   "text/x-sass": {
     "extensions": ["sass"]
   },
