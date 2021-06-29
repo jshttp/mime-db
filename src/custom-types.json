@@ -832,10 +832,16 @@
     ]
   },
   "text/x-python-script": {
-    "extensions": ["py"]
+    "extensions": ["py"],
+    "sources": [
+      "http://www.htmlcodes.ws/reference/mime-types-complete-list.cfm"
+    ]
   },
   "text/x-python": {
-    "extensions": ["py"]
+    "extensions": ["py"],
+    "sources": [
+      "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=235663#5"
+    ]
   },
   "text/x-sass": {
     "extensions": ["sass"]
