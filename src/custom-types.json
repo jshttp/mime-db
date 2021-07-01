@@ -837,6 +837,12 @@
   "text/x-scss": {
     "extensions": ["scss"]
   },
+  "text/x-python": {
+    "extensions": ["py", "pyx", "wsgi"],
+    "sources": [
+      "https://reposcope.com/mimetype/text/x-python"
+    ]
+  },
   "text/x-suse-ymp": {
     "compressible": true,
     "extensions": ["ymp"],
