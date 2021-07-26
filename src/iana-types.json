@@ -969,6 +969,7 @@
   },
   "application/jscalendar+json": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc8984.txt",
       "http://www.iana.org/assignments/media-types/application/jscalendar+json"
     ]
   },
@@ -1082,6 +1083,12 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc6207.txt",
       "http://www.iana.org/assignments/media-types/application/mads+xml"
+    ]
+  },
+  "application/manifest+json": {
+    "extensions": ["webmanifest"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/manifest+json"
     ]
   },
   "application/marc": {
@@ -1485,6 +1492,11 @@
   "application/oxps": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/oxps"
+    ]
+  },
+  "application/p21+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/p21+zip"
     ]
   },
   "application/p2p-overlay+xml": {
@@ -2868,6 +2880,16 @@
   "application/vnd.antix.game-component": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.antix.game-component"
+    ]
+  },
+  "application/vnd.apache.arrow.file": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.apache.arrow.file"
+    ]
+  },
+  "application/vnd.apache.arrow.stream": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.apache.arrow.stream"
     ]
   },
   "application/vnd.apache.thrift.binary": {
@@ -5840,6 +5862,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.openstreetmap.data+xml"
     ]
   },
+  "application/vnd.opentimestamps.ots": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.opentimestamps.ots"
+    ]
+  },
   "application/vnd.openxmlformats-officedocument.custom-properties+xml": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.custom-properties+xml"
@@ -7096,6 +7123,11 @@
   "application/vnd.verimatrix.vcas": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.verimatrix.vcas"
+    ]
+  },
+  "application/vnd.veritone.aion+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.veritone.aion+json"
     ]
   },
   "application/vnd.veryant.thin": {
@@ -9196,6 +9228,18 @@
     "extensions": ["obj"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/obj"
+    ]
+  },
+  "model/step+zip": {
+    "extensions": ["stpz"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/step+zip"
+    ]
+  },
+  "model/step-xml+zip": {
+    "extensions": ["stpxz"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/step-xml+zip"
     ]
   },
   "model/stl": {

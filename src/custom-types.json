@@ -79,8 +79,6 @@
   },
   "application/manifest+json": {
     "charset": "UTF-8",
-    "compressible": true,
-    "extensions": ["webmanifest"],
     "sources": [
       "http://w3c.github.io/manifest/#h-media-type-registration"
     ]
