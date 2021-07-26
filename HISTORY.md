@@ -1,5 +1,5 @@
-unreleased
-==========
+1.49.0 / 2021-07-26
+===================
 
   * Add extension `.trig` to `application/trig`
   * Add new upstream MIME types
