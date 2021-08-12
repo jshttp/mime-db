@@ -31,6 +31,11 @@
       "http://www.iana.org/assignments/media-types/application/A2L"
     ]
   },
+  "application/ace+cbor": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/ace+cbor"
+    ]
+  },
   "application/activemessage": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/activemessage"
@@ -711,6 +716,12 @@
   "application/expect-ct-report+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/expect-ct-report+json"
+    ]
+  },
+  "application/express": {
+    "extensions": ["exp"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/express"
     ]
   },
   "application/fastinfoset": {
@@ -1492,6 +1503,11 @@
   "application/oxps": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/oxps"
+    ]
+  },
+  "application/p21": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/p21"
     ]
   },
   "application/p21+zip": {
@@ -9230,6 +9246,17 @@
       "http://www.iana.org/assignments/media-types/model/obj"
     ]
   },
+  "model/step": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/step"
+    ]
+  },
+  "model/step+xml": {
+    "extensions": ["stpx"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/step+xml"
+    ]
+  },
   "model/step+zip": {
     "extensions": ["stpz"],
     "sources": [
@@ -10085,6 +10112,11 @@
       "http://tools.ietf.org/rfc/rfc5371.txt",
       "http://tools.ietf.org/rfc/rfc5372.txt",
       "http://www.iana.org/assignments/media-types/video/jpeg2000"
+    ]
+  },
+  "video/jxsv": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/video/jxsv"
     ]
   },
   "video/mj2": {
