@@ -532,6 +532,11 @@
     ],
     "notes": "The AV1 Image File Format (AVIF) is a specification for storing images or image sequences compressed with AV1 in the HEIF file format"
   },
+  "image/avif-sequence": {
+    "compressible": false,
+    "extensions": ["avifs"],
+    "notes": "The AV1 Image File Format (AVIF) is a specification for storing images or image sequences compressed with AV1 in the HEIF file format"
+  },
   "image/bmp": {
     "compressible": true,
     "sources": [
