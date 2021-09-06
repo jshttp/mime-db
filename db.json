@@ -5811,6 +5811,15 @@
     "source": "apache",
     "extensions": ["iso"]
   },
+  "application/x-iwork-keynote-sffkey": {
+    "extensions": ["key"]
+  },
+  "application/x-iwork-numbers-sffnumbers": {
+    "extensions": ["numbers"]
+  },
+  "application/x-iwork-pages-sffpages": {
+    "extensions": ["pages"]
+  },
   "application/x-java-archive-diff": {
     "source": "nginx",
     "extensions": ["jardiff"]

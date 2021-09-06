@@ -293,6 +293,27 @@
       "http://php.net/manual/en/faq.installation.php"
     ]
   },
+  "application/x-iwork-keynote-sffkey": {
+    "extensions": ["key"],
+    "notes": "Deprecated alias for iWorks Keynote file",
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.apple.keynote"
+    ]
+  },
+  "application/x-iwork-numbers-sffnumbers": {
+    "extensions": ["numbers"],
+    "notes": "Deprecated alias for iWorks Numbers file",
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.apple.numbers"
+    ]
+  },
+  "application/x-iwork-pages-sffpages": {
+    "extensions": ["pages"],
+    "notes": "Deprecated alias for iWorks Pages file",
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.apple.pages"
+    ]
+  },
   "application/x-java-jnlp-file": {
     "compressible": false
   },
