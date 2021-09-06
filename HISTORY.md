@@ -1,6 +1,9 @@
 unreleased
 ==========
 
+  * Add `application/x-iwork-keynote-sffkey`
+  * Add `application/x-iwork-numbers-sffnumbers`
+  * Add `application/x-iwork-pages-sffpages`
   * Add new upstream MIME types
 
 1.49.0 / 2021-07-26
