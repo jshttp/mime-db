@@ -133,6 +133,11 @@
       "http://www.iana.org/assignments/media-types/application/applefile"
     ]
   },
+  "application/at+jwt": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/at+jwt"
+    ]
+  },
   "application/atf": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/ATF"
@@ -548,6 +553,7 @@
   },
   "application/dots+cbor": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc9132.txt",
       "http://www.iana.org/assignments/media-types/application/dots+cbor"
     ]
   },
@@ -1437,6 +1443,7 @@
   },
   "application/oauth-authz-req+jwt": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc9101.txt",
       "http://www.iana.org/assignments/media-types/application/oauth-authz-req+jwt"
     ]
   },
@@ -2347,6 +2354,11 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc8226.txt",
       "http://www.iana.org/assignments/media-types/application/tnauthlist"
+    ]
+  },
+  "application/token-introspection+jwt": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/token-introspection+jwt"
     ]
   },
   "application/trickle-ice-sdpfrag": {
@@ -8249,7 +8261,8 @@
   "audio/qcelp": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc3555.txt",
-      "http://tools.ietf.org/rfc/rfc3625.txt"
+      "http://tools.ietf.org/rfc/rfc3625.txt",
+      "http://www.iana.org/assignments/media-types/audio/QCELP"
     ]
   },
   "audio/raptorfec": {
@@ -10038,6 +10051,7 @@
   },
   "video/ffv1": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc9043.txt",
       "http://www.iana.org/assignments/media-types/video/FFV1"
     ]
   },

@@ -94,6 +94,9 @@
     "source": "apache",
     "extensions": ["aw"]
   },
+  "application/at+jwt": {
+    "source": "iana"
+  },
   "application/atf": {
     "source": "iana"
   },
@@ -1648,6 +1651,9 @@
     "compressible": true
   },
   "application/tnauthlist": {
+    "source": "iana"
+  },
+  "application/token-introspection+jwt": {
     "source": "iana"
   },
   "application/toml": {
