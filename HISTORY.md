@@ -1,5 +1,5 @@
-unreleased
-==========
+1.50.0 / 2021-09-15
+===================
 
   * Add deprecated iWorks mime types and extensions
   * Add new upstream MIME types
