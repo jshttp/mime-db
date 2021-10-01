@@ -1,3 +1,8 @@
+unreleased
+==========
+
+  * Add new upstream MIME types
+
 1.50.0 / 2021-09-15
 ===================
 

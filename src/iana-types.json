@@ -5268,6 +5268,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.mynfc"
     ]
   },
+  "application/vnd.nacamar.ybrid+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.nacamar.ybrid+json"
+    ]
+  },
   "application/vnd.ncd.control": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ncd.control"

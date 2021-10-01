@@ -3858,6 +3858,10 @@
     "source": "iana",
     "extensions": ["taglet"]
   },
+  "application/vnd.nacamar.ybrid+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.ncd.control": {
     "source": "iana"
   },
