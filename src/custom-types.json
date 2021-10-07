@@ -641,6 +641,7 @@
     ]
   },
   "image/vnd.ms-dds" : {
+    "compressible": true,
     "extensions": ["dds"],
     "notes": "Microsoft format for storing graphical textures and cubemaps. Used in 3d engines, such as Babylon.js.",
     "sources": [

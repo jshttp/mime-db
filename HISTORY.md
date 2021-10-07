@@ -3,6 +3,7 @@ unreleased
 
   * Add new upstream MIME types
   * Mark `image/vnd.microsoft.icon` as compressible
+  * Mark `image/vnd.ms-dds` as compressible
 
 1.50.0 / 2021-09-15
 ===================

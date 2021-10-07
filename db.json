@@ -7214,6 +7214,7 @@
     "source": "iana"
   },
   "image/vnd.ms-dds": {
+    "compressible": true,
     "extensions": ["dds"]
   },
   "image/vnd.ms-modi": {
