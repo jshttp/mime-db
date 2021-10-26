@@ -451,10 +451,7 @@
   "application/x-zip-compressed": {
     "compressible": false,
     "extensions": ["zip"],
-    "notes": "winZip file format",
-    "sources": [
-      "https://bugs.python.org/issue41738"
-    ]
+    "notes": "winZip file format"
   },
   "application/xml": {
     "compressible": true,
