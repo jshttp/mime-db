@@ -448,6 +448,14 @@
   "application/x-xpinstall": {
     "compressible": false
   },
+  "application/x-zip-compressed": {
+    "compressible": false,
+    "extensions": ["zip"],
+    "notes": "winZip file format",
+    "sources": [
+      "https://mimetype.io/application/x-zip-compressed"
+    ]
+  },
   "application/xml": {
     "compressible": true,
     "extensions": ["xsd","rng"],
