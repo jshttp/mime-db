@@ -453,7 +453,7 @@
     "extensions": ["zip"],
     "notes": "winZip file format",
     "sources": [
-      "https://mimetype.io/application/x-zip-compressed"
+      "https://bugs.python.org/issue41738"
     ]
   },
   "application/xml": {
