@@ -633,6 +633,13 @@
   "image/vnd.adobe.photoshop": {
     "compressible": true
   },
+  "image/vnd.microsoft.icon": {
+    "notes": "Alias for image/x-icon which is compressible",
+    "compressible": true,
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/vnd.microsoft.icon"
+    ]
+  },
   "image/vnd.ms-dds" : {
     "extensions": ["dds"],
     "notes": "Microsoft format for storing graphical textures and cubemaps. Used in 3d engines, such as Babylon.js.",

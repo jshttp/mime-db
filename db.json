@@ -7204,6 +7204,7 @@
   },
   "image/vnd.microsoft.icon": {
     "source": "iana",
+    "compressible": true,
     "extensions": ["ico"]
   },
   "image/vnd.mix": {
