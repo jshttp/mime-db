@@ -1,5 +1,5 @@
-unreleased
-==========
+1.51.0 / 2021-11-08
+===================
 
   * Add new upstream MIME types
   * Mark `image/vnd.microsoft.icon` as compressible
