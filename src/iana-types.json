@@ -135,6 +135,7 @@
   },
   "application/at+jwt": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc9068.txt",
       "http://www.iana.org/assignments/media-types/application/at+jwt"
     ]
   },
@@ -850,7 +851,6 @@
   },
   "application/http": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc7230.txt",
       "http://www.iana.org/assignments/media-types/application/http"
     ]
   },
@@ -2179,6 +2179,11 @@
       "http://www.iana.org/assignments/media-types/application/sparql-results+xml"
     ]
   },
+  "application/spdx+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/spdx+json"
+    ]
+  },
   "application/spirits-event+xml": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc3910.txt",
@@ -2843,6 +2848,12 @@
   "application/vnd.afpc.modca-pagesegment": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.afpc.modca-pagesegment"
+    ]
+  },
+  "application/vnd.age": {
+    "extensions": ["age"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.age"
     ]
   },
   "application/vnd.ah-barcode": {
@@ -9153,7 +9164,6 @@
   },
   "message/http": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc7230.txt",
       "http://www.iana.org/assignments/media-types/message/http"
     ]
   },
@@ -9425,7 +9435,6 @@
   },
   "multipart/byteranges": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc7233.txt",
       "http://www.iana.org/assignments/media-types/multipart/byteranges"
     ]
   },
@@ -9846,6 +9855,12 @@
       "http://www.iana.org/assignments/media-types/text/vnd.esmertec.theme-descriptor"
     ]
   },
+  "text/vnd.familysearch.gedcom": {
+    "extensions": ["ged"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/text/vnd.familysearch.gedcom"
+    ]
+  },
   "text/vnd.ficlab.flt": {
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.ficlab.flt"
@@ -10135,6 +10150,7 @@
   },
   "video/jxsv": {
     "sources": [
+      "http://tools.ietf.org/rfc/rfc9134.txt",
       "http://www.iana.org/assignments/media-types/video/jxsv"
     ]
   },

@@ -32,14 +32,14 @@ var MIME_TYPE_HAS_CHARSET_PARAMETER_REGEXP = /parameters\s*:[^.]*\bcharset\b/im
 
 co(function * () {
   var gens = yield [
-    get('application', { extensions: /(?:\/(?:ecmascript|express|gzip|(?:ld|manifest)\+json|n-quads|n-triples|trig|vnd\.(?:apple\..+|dbf|mapbox-vector-tile|rar))|\+xml)$/ }),
+    get('application', { extensions: /(?:\/(?:ecmascript|express|gzip|(?:ld|manifest)\+json|n-quads|n-triples|trig|vnd\.(?:age|apple\..+|dbf|mapbox-vector-tile|rar))|\+xml)$/ }),
     get('audio', { extensions: /\/mobile-xmf$/ }),
     get('font', { extensions: true }),
     get('image', { extensions: true }),
     get('message', { extensions: true }),
     get('model', { extensions: true }),
     get('multipart'),
-    get('text', { extensions: /\/(?:spdx|turtle|vtt)$/ }),
+    get('text', { extensions: /\/(?:spdx|turtle|vnd\.familysearch\.gedcom|vtt)$/ }),
     get('video', { extensions: /\/iso\.segment$/ })
   ]
 
