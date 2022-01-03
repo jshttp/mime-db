@@ -328,6 +328,11 @@
     "compressible": true,
     "extensions": ["mpd"]
   },
+  "application/dash-patch+xml": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["mpp"]
+  },
   "application/dashdelta": {
     "source": "iana"
   },
@@ -2834,6 +2839,10 @@
   "application/vnd.f-secure.mobile": {
     "source": "iana"
   },
+  "application/vnd.familysearch.gedcom+zip": {
+    "source": "iana",
+    "compressible": false
+  },
   "application/vnd.fastcopy-disk-image": {
     "source": "iana"
   },
@@ -3123,6 +3132,16 @@
   "application/vnd.hhe.lesson-player": {
     "source": "iana",
     "extensions": ["les"]
+  },
+  "application/vnd.hl7cda+xml": {
+    "source": "iana",
+    "charset": "UTF-8",
+    "compressible": true
+  },
+  "application/vnd.hl7v2+xml": {
+    "source": "iana",
+    "charset": "UTF-8",
+    "compressible": true
   },
   "application/vnd.hp-hpgl": {
     "source": "iana",
@@ -5154,6 +5173,10 @@
     "source": "iana"
   },
   "application/vnd.sycle+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.syft+json": {
     "source": "iana",
     "compressible": true
   },

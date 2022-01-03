@@ -475,6 +475,12 @@
       "http://www.iana.org/assignments/media-types/application/dash+xml"
     ]
   },
+  "application/dash-patch+xml": {
+    "extensions": ["mpp"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/dash-patch+xml"
+    ]
+  },
   "application/dashdelta": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/dashdelta"
@@ -3940,6 +3946,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.f-secure.mobile"
     ]
   },
+  "application/vnd.familysearch.gedcom+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.familysearch.gedcom+zip"
+    ]
+  },
   "application/vnd.fastcopy-disk-image": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.fastcopy-disk-image"
@@ -4316,6 +4327,18 @@
   "application/vnd.hhe.lesson-player": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.hhe.lesson-player"
+    ]
+  },
+  "application/vnd.hl7cda+xml": {
+    "charset": "UTF-8",
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.hl7cda+xml"
+    ]
+  },
+  "application/vnd.hl7v2+xml": {
+    "charset": "UTF-8",
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.hl7v2+xml"
     ]
   },
   "application/vnd.hp-hpgl": {
@@ -6926,6 +6949,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.sycle+xml"
     ]
   },
+  "application/vnd.syft+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.syft+json"
+    ]
+  },
   "application/vnd.syncml+xml": {
     "charset": "UTF-8",
     "extensions": ["xsm"],
@@ -8880,6 +8908,7 @@
     ]
   },
   "image/png": {
+    "extensions": ["png"],
     "sources": [
       "http://www.iana.org/assignments/media-types/image/png"
     ]
@@ -9174,7 +9203,7 @@
     ]
   },
   "message/news": {
-    "notes": "OBSOLETED by RFC5537",
+    "notes": "OBSOLETED by [RFC5537]",
     "sources": [
       "http://tools.ietf.org/rfc/rfc5537.txt",
       "http://www.iana.org/assignments/media-types/message/news"
@@ -9193,6 +9222,7 @@
     ]
   },
   "message/s-http": {
+    "notes": "OBSOLETE",
     "sources": [
       "http://tools.ietf.org/rfc/rfc2660.txt",
       "http://www.iana.org/assignments/media-types/message/s-http"
