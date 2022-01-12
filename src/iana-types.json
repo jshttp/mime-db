@@ -3901,6 +3901,11 @@
       "http://www.iana.org/assignments/media-types/application/vnd.etsi.tsl.der"
     ]
   },
+  "application/vnd.eu.kasparian.car+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.eu.kasparian.car+json"
+    ]
+  },
   "application/vnd.eudora.data": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.eudora.data"

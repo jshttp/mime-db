@@ -2809,6 +2809,10 @@
   "application/vnd.etsi.tsl.der": {
     "source": "iana"
   },
+  "application/vnd.eu.kasparian.car+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.eudora.data": {
     "source": "iana"
   },
