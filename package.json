@@ -2,6 +2,7 @@
   "name": "mime-db",
   "description": "Media Type Database",
   "version": "1.51.0",
+  "typings": "./db.d.ts",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
@@ -41,6 +42,7 @@
     "LICENSE",
     "README.md",
     "db.json",
+    "db.d.ts",
     "index.js"
   ],
   "engines": {
@@ -48,6 +50,7 @@
   },
   "scripts": {
     "build": "node scripts/build",
+    "gen-types": "node scripts/gen-ts-definitions",
     "fetch": "node scripts/fetch-apache && gnode scripts/fetch-iana && node scripts/fetch-nginx",
     "lint": "eslint .",
     "test": "mocha --reporter spec --bail --check-leaks test/",
