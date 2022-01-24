@@ -80,7 +80,7 @@ To update the build, run `npm run build`.
 
 The best way to get new media types included in this library is to register
 them with the IANA. The community registration procedure is outlined in
-[RFC 6838 section 5](http://tools.ietf.org/html/rfc6838#section-5). Types
+[RFC 6838 section 5](https://datatracker.ietf.org/doc/html/rfc6838#section-5). Types
 registered with the IANA are automatically pulled into this library.
 
 If that is not possible / feasible, they can be added directly here as a
