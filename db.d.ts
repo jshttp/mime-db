@@ -4630,6 +4630,6 @@ export declare type MimeTypesWithOptions =
   | "text/vtt;charset=UTF-8"
   | "TEXT/VTT;CHARSET=UTF-8";
 
-export type MimeTypesBoth = MimeTypes | MimeTypesWithOptions;
+export declare type MimeTypesBoth = MimeTypes | MimeTypesWithOptions;
 
-export {};
+export {  };

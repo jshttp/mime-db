@@ -32,7 +32,7 @@ const MIME_TYPES_OPTIONS_NAME = "MimeTypesWithOptions";
 const MIME_TYPES_BOTH_NAME = "MimeTypesBoth";
 
 function typeString(literalArr, typeName, orFormat = OR_FORMAT) {
-  return `type ${typeName} =${orFormat}${literalArr
+  return `export declare type ${typeName} =${orFormat}${literalArr
     .map((a) => `"${a}"`)
     .join(orFormat)};\n`;
 }
@@ -42,10 +42,12 @@ const mimeArrWithOptionsType = typeString(
   mimeArrWithOptions,
   MIME_TYPES_OPTIONS_NAME
 );
-const mimeArrBothType = `type ${MIME_TYPES_BOTH_NAME} = ${MIME_TYPES_NAME} | ${MIME_TYPES_OPTIONS_NAME};\n`;
+const mimeArrBothType = `export declare type ${MIME_TYPES_BOTH_NAME} = ${MIME_TYPES_NAME} | ${MIME_TYPES_OPTIONS_NAME};\n`;
 
 fs.writeFileSync(
   path.join(__dirname, "..", DEF_FILE_NAME),
-  [mimeArrType, mimeArrWithOptionsType, mimeArrBothType].join("\n"),
+  [mimeArrType, mimeArrWithOptionsType, mimeArrBothType, "export {  };\n"].join(
+    "\n"
+  ),
   { encoding: "utf-8" }
 );
