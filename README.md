@@ -35,10 +35,18 @@ https://cdn.jsdelivr.net/gh/jshttp/mime-db@master/db.json
 ## Usage
 
 ```js
-var db = require('mime-db')
+var db = require("mime-db");
 
 // grab data on .js files
-var data = db['application/javascript']
+var data = db["application/javascript"];
+```
+
+or in Typescript
+
+```ts
+import * as db from "mime-db";
+
+const data = db["application/javascript"];
 ```
 
 ## Data Structure
@@ -47,10 +55,10 @@ The JSON file is a map lookup for lowercased mime types.
 Each mime type has the following properties:
 
 - `.source` - where the mime type is defined.
-    If not set, it's probably a custom media type.
-    - `apache` - [Apache common media types](http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types)
-    - `iana` - [IANA-defined media types](http://www.iana.org/assignments/media-types/media-types.xhtml)
-    - `nginx` - [nginx media types](http://hg.nginx.org/nginx/raw-file/default/conf/mime.types)
+  If not set, it's probably a custom media type.
+  - `apache` - [Apache common media types](http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types)
+  - `iana` - [IANA-defined media types](http://www.iana.org/assignments/media-types/media-types.xhtml)
+  - `nginx` - [nginx media types](http://hg.nginx.org/nginx/raw-file/default/conf/mime.types)
 - `.extensions[]` - known extensions associated with this mime type.
 - `.compressible` - whether a file of this type can be gzipped.
 - `.charset` - the default charset associated with this type, if any.

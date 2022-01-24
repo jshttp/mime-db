@@ -43,6 +43,7 @@
     "db.json",
     "index.js"
   ],
+  "typings": "./index.d.ts",
   "engines": {
     "node": ">= 0.6"
   },
