@@ -501,7 +501,8 @@
     "compressible": false
   },
   "audio/vnd.wave": {
-    "compressible": false
+    "compressible": false,
+    "extensions": ["wav"]
   },
   "audio/vorbis": {
     "compressible": false
