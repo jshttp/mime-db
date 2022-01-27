@@ -6850,7 +6850,8 @@
     "source": "iana"
   },
   "audio/vnd.wave": {
-    "compressible": false
+    "compressible": false,
+    "extensions": ["wav"]
   },
   "audio/vorbis": {
     "source": "iana",
