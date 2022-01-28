@@ -502,7 +502,10 @@
   },
   "audio/vnd.wave": {
     "compressible": false,
-    "extensions": ["wav"]
+    "extensions": ["wav"],
+    "sources": [
+      "https://www.loc.gov/preservation/digital/formats/fdd/fdd000001.shtml"
+    ]
   },
   "audio/vorbis": {
     "compressible": false
