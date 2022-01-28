@@ -504,7 +504,8 @@
     "compressible": false,
     "extensions": ["wav"],
     "sources": [
-      "https://www.loc.gov/preservation/digital/formats/fdd/fdd000001.shtml"
+      "https://www.loc.gov/preservation/digital/formats/fdd/fdd000001.shtml",
+      "https://bugs.webkit.org/show_bug.cgi?id=173635"
     ]
   },
   "audio/vorbis": {
