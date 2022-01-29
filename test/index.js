@@ -2,6 +2,7 @@
 var assert = require('assert')
 var fs = require('fs')
 var join = require('path').join
+var typer = require('media-typer')
 
 var db = require('..')
 
@@ -21,10 +22,10 @@ describe('mime-db', function () {
     })
   })
 
-  it('should all be mime types', function () {
-    assert(Object.keys(db).every(function (name) {
-      return ~name.indexOf('/') || console.log(name)
-    }))
+  it('should contain only vlaid mime types', function () {
+    Object.keys(db).forEach(function (mime) {
+      assert.ok(typer.test(mime), 'type "' + mime + '" is a valid mime type')
+    })
   })
 
   it('should not have any uppercased letters in names', function () {
