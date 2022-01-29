@@ -364,6 +364,11 @@
       "http://www.iana.org/assignments/media-types/application/cfw"
     ]
   },
+  "application/city+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/city+json"
+    ]
+  },
   "application/clr": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/clr"
@@ -3689,6 +3694,11 @@
   "application/vnd.ecip.rlp": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.ecip.rlp"
+    ]
+  },
+  "application/vnd.eclipse.ditto+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.eclipse.ditto+json"
     ]
   },
   "application/vnd.ecowin.chart": {

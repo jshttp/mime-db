@@ -250,6 +250,10 @@
   "application/cfw": {
     "source": "iana"
   },
+  "application/city+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/clr": {
     "source": "iana"
   },
@@ -2651,6 +2655,10 @@
   },
   "application/vnd.ecip.rlp": {
     "source": "iana"
+  },
+  "application/vnd.eclipse.ditto+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.ecowin.chart": {
     "source": "iana",
