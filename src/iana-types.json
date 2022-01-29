@@ -9017,7 +9017,6 @@
     ]
   },
   "image/vnd.dvb.subtitle": {
-    "extensions": ["sub"],
     "sources": [
       "http://www.iana.org/assignments/media-types/image/vnd.dvb.subtitle"
     ]
@@ -9383,7 +9382,6 @@
     ]
   },
   "model/vnd.flatland.3dml": {
-    "extensions": ["3dml","3dm"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/vnd.flatland.3dml"
     ]
@@ -9589,17 +9587,20 @@
     ]
   },
   "text/cache-manifest": {
+    "extensions": ["appcache","manifest"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/cache-manifest"
     ]
   },
   "text/calendar": {
+    "extensions": ["ics"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5545.txt",
       "http://www.iana.org/assignments/media-types/text/calendar"
     ]
   },
   "text/cql": {
+    "extensions": ["cql"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/cql"
     ]
@@ -9615,12 +9616,14 @@
     ]
   },
   "text/css": {
+    "extensions": ["css"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc2318.txt",
       "http://www.iana.org/assignments/media-types/text/css"
     ]
   },
   "text/csv": {
+    "extensions": ["csv"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4180.txt",
       "http://tools.ietf.org/rfc/rfc7111.txt",
@@ -9628,6 +9631,7 @@
     ]
   },
   "text/csv-schema": {
+    "extensions": ["csvs"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/csv-schema"
     ]
@@ -9682,6 +9686,7 @@
     ]
   },
   "text/gff3": {
+    "extensions": ["gff3"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/gff3"
     ]
@@ -9693,6 +9698,7 @@
     ]
   },
   "text/html": {
+    "extensions": ["html","htm"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/html"
     ]
@@ -9705,23 +9711,27 @@
     ]
   },
   "text/jcr-cnd": {
+    "extensions": ["cnd"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/jcr-cnd"
     ]
   },
   "text/markdown": {
+    "extensions": ["md","markdown"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc7763.txt",
       "http://www.iana.org/assignments/media-types/text/markdown"
     ]
   },
   "text/mizar": {
+    "extensions": ["miz"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/mizar"
     ]
   },
   "text/n3": {
     "charset": "UTF-8",
+    "extensions": ["n3"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/n3"
     ]
@@ -9748,11 +9758,13 @@
   },
   "text/provenance-notation": {
     "charset": "UTF-8",
+    "extensions": ["provn"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/provenance-notation"
     ]
   },
   "text/prs.fallenstein.rst": {
+    "extensions": ["rst"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/prs.fallenstein.rst"
     ]
@@ -9820,11 +9832,13 @@
     ]
   },
   "text/shaclc": {
+    "extensions": ["shaclc","shc"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/shaclc"
     ]
   },
   "text/shex": {
+    "extensions": ["shex"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/shex"
     ]
@@ -9877,27 +9891,32 @@
     ]
   },
   "text/vcard": {
+    "extensions": ["vcf","vcard"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc6350.txt",
       "http://www.iana.org/assignments/media-types/text/vcard"
     ]
   },
   "text/vnd.a": {
+    "extensions": ["a"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.a"
     ]
   },
   "text/vnd.abc": {
+    "extensions": ["abc"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.abc"
     ]
   },
   "text/vnd.ascii-art": {
+    "extensions": ["ascii"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.ascii-art"
     ]
   },
   "text/vnd.curl": {
+    "extensions": ["curl"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.curl"
     ]
@@ -9909,6 +9928,7 @@
     ]
   },
   "text/vnd.dmclientscript": {
+    "extensions": ["dms"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.DMClientScript"
     ]
@@ -9936,6 +9956,7 @@
     ]
   },
   "text/vnd.fly": {
+    "extensions": ["fly"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.fly"
     ]
@@ -9951,6 +9972,7 @@
     ]
   },
   "text/vnd.graphviz": {
+    "extensions": ["gv","dot"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.graphviz"
     ]
@@ -9961,6 +9983,7 @@
     ]
   },
   "text/vnd.hgl": {
+    "extensions": ["hgl"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.hgl"
     ]
@@ -9971,6 +9994,7 @@
     ]
   },
   "text/vnd.in3d.spot": {
+    "extensions": ["spot","spo"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.in3d.spot"
     ]
@@ -10012,6 +10036,7 @@
     ]
   },
   "text/vnd.senx.warpscript": {
+    "extensions": ["mc2"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.senx.warpscript"
     ]
@@ -10023,6 +10048,7 @@
     ]
   },
   "text/vnd.sosi": {
+    "extensions": ["sos"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.sosi"
     ]
@@ -10035,6 +10061,7 @@
   },
   "text/vnd.trolltech.linguist": {
     "charset": "UTF-8",
+    "extensions": ["ts"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.trolltech.linguist"
     ]
@@ -10050,11 +10077,13 @@
     ]
   },
   "text/vnd.wap.wml": {
+    "extensions": ["wml"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.wap.wml"
     ]
   },
   "text/vnd.wap.wmlscript": {
+    "extensions": ["wmls"],
     "sources": [
       "http://www.iana.org/assignments/media-types/text/vnd.wap.wmlscript"
     ]
@@ -10066,12 +10095,14 @@
     ]
   },
   "text/xml": {
+    "extensions": ["xml"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc7303.txt",
       "http://www.iana.org/assignments/media-types/text/xml"
     ]
   },
   "text/xml-external-parsed-entity": {
+    "extensions": ["ent"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc7303.txt",
       "http://www.iana.org/assignments/media-types/text/xml-external-parsed-entity"
