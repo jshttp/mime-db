@@ -933,7 +933,7 @@
     ]
   },
   "application/inkml+xml": {
-    "extensions": ["ink"],
+    "extensions": ["ink","inkml"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/inkml+xml"
     ]
@@ -7669,7 +7669,7 @@
     ]
   },
   "application/xhtml+xml": {
-    "extensions": ["xhtml"],
+    "extensions": ["xhtml","xht"],
     "sources": [
       "http://www.iana.org/assignments/media-types/application/xhtml+xml"
     ]
@@ -7717,7 +7717,7 @@
     ]
   },
   "application/xslt+xml": {
-    "extensions": ["xsl"],
+    "extensions": ["xsl","xslt"],
     "sources": [
       "http://www.w3.org/TR/2007/REC-xslt20-20070123/#media-type-registration",
       "http://www.iana.org/assignments/media-types/application/xslt+xml"
