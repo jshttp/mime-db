@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extensions to various XML types
   * Add new upstream MIME types
 
 1.51.0 / 2021-11-08

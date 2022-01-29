@@ -297,7 +297,8 @@
   },
   "application/cpl+xml": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["cpl"]
   },
   "application/csrattrs": {
     "source": "iana"
@@ -877,7 +878,8 @@
   },
   "application/media-policy-dataset+xml": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["mpf"]
   },
   "application/media_control+xml": {
     "source": "iana",
@@ -5582,7 +5584,8 @@
   },
   "application/watcherinfo+xml": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["wif"]
   },
   "application/webpush-options+json": {
     "source": "iana",

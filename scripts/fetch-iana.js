@@ -27,7 +27,7 @@ var trimQuotesRegExp = /^"|"$/gm
 var urlReferenceRegExp = /\[(https?:\/\/[^\]]+)]/gi
 
 var CHARSET_DEFAULT_REGEXP = /(?:\bcharset\b[^.]*(?:\.\s+default\s+(?:value\s+)?is|\bdefault[^.]*(?:of|is)|\bmust\s+have\s+the\s+value|\bvalue\s+must\s+be)\s+|\bcharset\s*\(?defaults\s+to\s+|\bdefault\b[^.]*?\bchar(?:set|act[eo]r\s+set)\b[^.]*?(?:of|is)\s+|\bcharset\s+(?:must|is)\s+always\s+(?:be\s+)?)["']?([a-z0-9]+-[a-z0-9-]+)/im
-var EXTENSIONS_REGEXP = /(?:^\s*(?:\d\.\s+)?|\s+[23]\.\s+)[Ff]ile [Ee]xtension(?:\(s\)|s|)\s?:\s+(?:\*\.|\.|)([0-9a-z_-]+|[0-9A-Z_-]+)(?:\s*\(|\s*[34]\.\s+|\s+[A-Z]|$)/m
+var EXTENSIONS_REGEXP = /(?:^\s*(?:\d\.\s+)?|\s+[23]\.\s+)[Ff]ile [Ee]xtension(?:\(s\)|s|)\s?:\s+(?:\*\.|\.|)([0-9a-z_-]+|[0-9A-Z_-]+)(?:\s+or\s+(?:\*\.|\.|)([0-9a-z_-]+|[0-9A-Z_-]+)\s*)?(?:\s*[34]\.\s+|\s+[A-Z(]|\s*$)/m
 var MIME_TYPE_HAS_CHARSET_PARAMETER_REGEXP = /parameters\s*:[^.]*\bcharset\b/im
 
 co(function * () {
@@ -79,8 +79,9 @@ co(function * () {
     }
 
     // keep unambigious extensions
-    if (result.extensions && exts[result.extensions[0]] === 1) {
-      json[mime].extensions = result.extensions
+    var extensions = (result.extensions || []).filter(function (ext) { return exts[ext] === 1 })
+    if (extensions.length !== 0) {
+      json[mime].extensions = extensions
     }
   })
 
@@ -204,11 +205,15 @@ function extractTemplateExtensions (body) {
     return
   }
 
-  var ext = (match[1] || match[2]).toLowerCase()
+  var exts = match
+    .slice(1)
+    .filter(Boolean)
+    .map(function (ext) { return ext.toLowerCase() })
+    .filter(function (ext) { return ext !== 'none' })
 
-  if (ext !== 'none' && ext !== 'undefined') {
-    return [ext]
-  }
+  return exts.length === 0
+    ? undefined
+    : exts
 }
 
 function * get (type, options) {
