@@ -2368,7 +2368,8 @@
   },
   "application/tlsrpt+json": {
     "sources": [
-      "http://tools.ietf.org/rfc/rfc8460.txt"
+      "http://tools.ietf.org/rfc/rfc8460.txt",
+      "http://www.iana.org/assignments/media-types/application/tlsrpt+json"
     ]
   },
   "application/tnauthlist": {
@@ -7797,6 +7798,7 @@
     ]
   },
   "audio/32kadpcm": {
+    "extensions": ["726"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc3802.txt",
       "http://tools.ietf.org/rfc/rfc2421.txt",
@@ -7818,6 +7820,7 @@
     ]
   },
   "audio/aac": {
+    "extensions": ["adts","aac"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/aac"
     ]
@@ -7859,18 +7862,21 @@
     ]
   },
   "audio/atrac-advanced-lossless": {
+    "extensions": ["aal"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5584.txt",
       "http://www.iana.org/assignments/media-types/audio/ATRAC-ADVANCED-LOSSLESS"
     ]
   },
   "audio/atrac-x": {
+    "extensions": ["atx"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5584.txt",
       "http://www.iana.org/assignments/media-types/audio/ATRAC-X"
     ]
   },
   "audio/atrac3": {
+    "extensions": ["at3"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5584.txt",
       "http://www.iana.org/assignments/media-types/audio/ATRAC3"
@@ -8046,6 +8052,7 @@
     ]
   },
   "audio/evs": {
+    "extensions": ["3gp","3gpp"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/EVS"
     ]
@@ -8178,6 +8185,7 @@
     ]
   },
   "audio/l16": {
+    "extensions": ["l16"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4856.txt",
       "http://www.iana.org/assignments/media-types/audio/L16"
@@ -8232,6 +8240,7 @@
     ]
   },
   "audio/mhas": {
+    "extensions": ["mhas"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/mhas"
     ]
@@ -8283,6 +8292,7 @@
     ]
   },
   "audio/ogg": {
+    "extensions": ["oga","ogg","spx","opus"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc5334.txt",
       "http://tools.ietf.org/rfc/rfc7845.txt",
@@ -8326,6 +8336,7 @@
     ]
   },
   "audio/prs.sid": {
+    "extensions": ["sid","psid"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/prs.sid"
     ]
@@ -8401,6 +8412,7 @@
     ]
   },
   "audio/sp-midi": {
+    "extensions": ["mid"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/sp-midi"
     ]
@@ -8464,6 +8476,7 @@
     ]
   },
   "audio/usac": {
+    "extensions": ["loas"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/usac"
     ]
@@ -8492,6 +8505,7 @@
     ]
   },
   "audio/vnd.audiokoz": {
+    "extensions": ["koz"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.audiokoz"
     ]
@@ -8522,11 +8536,13 @@
     ]
   },
   "audio/vnd.dece.audio": {
+    "extensions": ["uva","uvva"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.dece.audio"
     ]
   },
   "audio/vnd.digital-winds": {
+    "extensions": ["eol"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.digital-winds"
     ]
@@ -8547,6 +8563,7 @@
     ]
   },
   "audio/vnd.dolby.mlp": {
+    "extensions": ["mlp"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.dolby.mlp"
     ]
@@ -8582,11 +8599,13 @@
     ]
   },
   "audio/vnd.dts": {
+    "extensions": ["cpt","dts"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.dts"
     ]
   },
   "audio/vnd.dts.hd": {
+    "extensions": ["dtshd"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.dts.hd"
     ]
@@ -8597,11 +8616,13 @@
     ]
   },
   "audio/vnd.dvb.file": {
+    "extensions": ["dvb"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.dvb.file"
     ]
   },
   "audio/vnd.everad.plj": {
+    "extensions": ["plj"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.everad.plj"
     ]
@@ -8612,11 +8633,13 @@
     ]
   },
   "audio/vnd.lucent.voice": {
+    "extensions": ["lvp"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.lucent.voice"
     ]
   },
   "audio/vnd.ms-playready.media.pya": {
+    "extensions": ["pya"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.ms-playready.media.pya"
     ]
@@ -8632,16 +8655,19 @@
     ]
   },
   "audio/vnd.nuera.ecelp4800": {
+    "extensions": ["ecelp4800"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.nuera.ecelp4800"
     ]
   },
   "audio/vnd.nuera.ecelp7470": {
+    "extensions": ["ecelp7470"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.nuera.ecelp7470"
     ]
   },
   "audio/vnd.nuera.ecelp9600": {
+    "extensions": ["ecelp9600"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.nuera.ecelp9600"
     ]
@@ -8669,11 +8695,13 @@
     ]
   },
   "audio/vnd.rip": {
+    "extensions": ["rip"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.rip"
     ]
   },
   "audio/vnd.sealedmedia.softseal.mpeg": {
+    "extensions": ["smp3","smp","s1m"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/vnd.sealedmedia.softseal.mpeg"
     ]

@@ -6349,7 +6349,8 @@
     "source": "iana"
   },
   "audio/32kadpcm": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["726"]
   },
   "audio/3gpp": {
     "source": "iana",
@@ -6360,7 +6361,8 @@
     "source": "iana"
   },
   "audio/aac": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["adts","aac"]
   },
   "audio/ac3": {
     "source": "iana"
@@ -6386,13 +6388,16 @@
     "source": "iana"
   },
   "audio/atrac-advanced-lossless": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["aal"]
   },
   "audio/atrac-x": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["atx"]
   },
   "audio/atrac3": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["at3"]
   },
   "audio/basic": {
     "source": "iana",
@@ -6481,7 +6486,8 @@
     "source": "iana"
   },
   "audio/evs": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["3gp","3gpp"]
   },
   "audio/flexfec": {
     "source": "iana"
@@ -6550,7 +6556,8 @@
     "source": "apache"
   },
   "audio/l16": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["l16"]
   },
   "audio/l20": {
     "source": "iana"
@@ -6578,7 +6585,8 @@
     "source": "iana"
   },
   "audio/mhas": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["mhas"]
   },
   "audio/midi": {
     "source": "apache",
@@ -6641,7 +6649,8 @@
     "source": "iana"
   },
   "audio/prs.sid": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["sid","psid"]
   },
   "audio/qcelp": {
     "source": "iana"
@@ -6688,7 +6697,8 @@
     "source": "iana"
   },
   "audio/sp-midi": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["mid"]
   },
   "audio/speex": {
     "source": "iana"
@@ -6721,7 +6731,8 @@
     "source": "iana"
   },
   "audio/usac": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["loas"]
   },
   "audio/vdvi": {
     "source": "iana"
@@ -6736,7 +6747,8 @@
     "source": "iana"
   },
   "audio/vnd.audiokoz": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["koz"]
   },
   "audio/vnd.celp": {
     "source": "iana"
@@ -6771,7 +6783,8 @@
     "source": "iana"
   },
   "audio/vnd.dolby.mlp": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["mlp"]
   },
   "audio/vnd.dolby.mps": {
     "source": "iana"
@@ -6794,7 +6807,7 @@
   },
   "audio/vnd.dts": {
     "source": "iana",
-    "extensions": ["dts"]
+    "extensions": ["cpt","dts"]
   },
   "audio/vnd.dts.hd": {
     "source": "iana",
@@ -6804,10 +6817,12 @@
     "source": "iana"
   },
   "audio/vnd.dvb.file": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["dvb"]
   },
   "audio/vnd.everad.plj": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["plj"]
   },
   "audio/vnd.hns.audio": {
     "source": "iana"
@@ -6858,7 +6873,8 @@
     "compressible": false
   },
   "audio/vnd.sealedmedia.softseal.mpeg": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["smp3","smp","s1m"]
   },
   "audio/vnd.vmx.cvsd": {
     "source": "iana"
