@@ -6358,7 +6358,8 @@
     "extensions": ["3gpp"]
   },
   "audio/3gpp2": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["3g2","3gpp2"]
   },
   "audio/aac": {
     "source": "iana",
@@ -6420,7 +6421,8 @@
     "source": "iana"
   },
   "audio/dls": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["dls"]
   },
   "audio/dsr-es201108": {
     "source": "iana"
@@ -6486,8 +6488,7 @@
     "source": "iana"
   },
   "audio/evs": {
-    "source": "iana",
-    "extensions": ["3gp","3gpp"]
+    "source": "iana"
   },
   "audio/flexfec": {
     "source": "iana"
@@ -6603,7 +6604,7 @@
   "audio/mp4": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["m4a","mp4a"]
+    "extensions": ["mp4","mpg4","m4a","mp4a"]
   },
   "audio/mp4a-latm": {
     "source": "iana"
@@ -7117,12 +7118,12 @@
   "image/jpm": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["jpm"]
+    "extensions": ["jpm","jpgm"]
   },
   "image/jpx": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["jpx","jpf"]
+    "extensions": ["jpf","jpx"]
   },
   "image/jxr": {
     "source": "iana",

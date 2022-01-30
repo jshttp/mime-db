@@ -7806,6 +7806,7 @@
     ]
   },
   "audio/3gpp": {
+    "extensions": ["3gpp"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc3839.txt",
       "http://tools.ietf.org/rfc/rfc6381.txt",
@@ -7813,6 +7814,7 @@
     ]
   },
   "audio/3gpp2": {
+    "extensions": ["3g2","3gpp2"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4393.txt",
       "http://tools.ietf.org/rfc/rfc6381.txt",
@@ -7920,6 +7922,7 @@
     ]
   },
   "audio/dls": {
+    "extensions": ["dls"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4613.txt",
       "http://www.iana.org/assignments/media-types/audio/dls"
@@ -8052,7 +8055,6 @@
     ]
   },
   "audio/evs": {
-    "extensions": ["3gp","3gpp"],
     "sources": [
       "http://www.iana.org/assignments/media-types/audio/EVS"
     ]
@@ -8253,6 +8255,7 @@
     ]
   },
   "audio/mp4": {
+    "extensions": ["mp4","mpg4"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc4337.txt",
       "http://tools.ietf.org/rfc/rfc6381.txt",
@@ -8870,6 +8873,7 @@
     ]
   },
   "image/jp2": {
+    "extensions": ["jp2","jpg2"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc3745.txt",
       "http://www.iana.org/assignments/media-types/image/jp2"
@@ -8894,12 +8898,14 @@
     ]
   },
   "image/jpm": {
+    "extensions": ["jpm","jpgm"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc3745.txt",
       "http://www.iana.org/assignments/media-types/image/jpm"
     ]
   },
   "image/jpx": {
+    "extensions": ["jpf"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc3745.txt",
       "http://www.iana.org/assignments/media-types/image/jpx"
