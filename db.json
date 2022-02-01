@@ -7006,10 +7006,12 @@
     "extensions": ["apng"]
   },
   "image/avci": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["avci"]
   },
   "image/avcs": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["avcs"]
   },
   "image/avif": {
     "source": "iana",

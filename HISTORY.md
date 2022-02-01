@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extensions from IANA for more `image/*` types
   * Add extension `.asc` to `application/pgp-keys`
   * Add extensions to various XML types
   * Add new upstream MIME types

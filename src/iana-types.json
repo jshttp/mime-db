@@ -8733,11 +8733,13 @@
     ]
   },
   "image/avci": {
+    "extensions": ["avci"],
     "sources": [
       "http://www.iana.org/assignments/media-types/image/avci"
     ]
   },
   "image/avcs": {
+    "extensions": ["avcs"],
     "sources": [
       "http://www.iana.org/assignments/media-types/image/avcs"
     ]

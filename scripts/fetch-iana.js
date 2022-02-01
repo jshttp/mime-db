@@ -24,7 +24,6 @@ var leadingSpacesRegExp = /^\s+/
 var listColonRegExp = /:(?:\s|$)/m
 var nameWithNotesRegExp = /^(\S+)(?: - (.*)$| \((.*)\)$|)/
 var mimeTypeLineRegExp = /^(?:\s*|[^:\s-]*\s+)(?:MIME type(?: name)?|MIME media type(?: name)?|Media type(?: name)?|Type name)\s?:\s+(.*)$/im
-var mimeSubtypeLineRegExp = /^[^:\s-]*\s*(?:MIME |Media )?subtype(?: name)?\s?:\s+(?:[a-z]+ Tree\s+(?:- ?)?|(?:[a-z]+ )+- )?([^([\r\n]*).*$/im
 var mimeSubtypesLineRegExp = /^[^:\s-]*\s*(?:MIME |Media )?subtype(?: names)?\s?:\s+(?:[a-z]+ Tree\s+(?:- ?)?)?(.*)$/im
 var rfcReferenceRegExp = /\[(RFC[0-9]{4})]/gi
 var slurpModeRegExp = /^\s{0,3}(?:[1-4]\. )?[a-z]{4,}(?: [a-z]{4,})+(?:s|\(s\))?\s*:\s*/i
@@ -34,6 +33,7 @@ var urlReferenceRegExp = /\[(https?:\/\/[^\]]+)]/gi
 
 var CHARSET_DEFAULT_REGEXP = /(?:\bcharset\b[^.]*(?:\.\s+default\s+(?:value\s+)?is|\bdefault[^.]*(?:of|is)|\bmust\s+have\s+the\s+value|\bvalue\s+must\s+be)\s+|\bcharset\s*\(?defaults\s+to\s+|\bdefault\b[^.]*?\bchar(?:set|act[eo]r\s+set)\b[^.]*?(?:of|is)\s+|\bcharset\s+(?:must|is)\s+always\s+(?:be\s+)?)["']?([a-z0-9]+-[a-z0-9-]+)/im
 var EXTENSIONS_REGEXP = /(?:^\s*(?:\d\.\s+)?|\s+[23]\.\s+)[Ff]ile [Ee]xtension(?:\(s\)|s|)\s?:\s+(?:\*\.|\.|)([0-9a-z_-]+|[0-9A-Z_-]+)(?:\s+or\s+(?:\*\.|\.|)([0-9a-z_-]+|[0-9A-Z_-]+)\s*)?(?:\s*[34]\.\s+|\s+[A-Z(]|\s*$)/m
+var MIME_SUBTYPE_LINE_REGEXP = /^[^:\s-]*\s*(?:MIME )?(?:[Mm]edia )?(?:[Ss]ub ?type|SUB ?TYPE)(?: (?:[Nn]ame|NAME))?\s*:\s+(?:[A-Za-z]+ [Tt]ree\s+(?:- ?)?|(?:[a-z]+ )+- )?([0-9A-Za-z][0-9A-Za-z_.+-]*)(?:\s|$)/m
 var MIME_TYPE_HAS_CHARSET_PARAMETER_REGEXP = /parameters\s*:[^.]*\bcharset\b/im
 
 co(function * () {
@@ -167,9 +167,9 @@ function extractIntendedUsage (body) {
 
 function extractTemplateMime (body) {
   var type = mimeTypeLineRegExp.exec(body)
-  var subtype = mimeSubtypeLineRegExp.exec(body)
+  var subtype = MIME_SUBTYPE_LINE_REGEXP.exec(body)
 
-  if (!subtype && (subtype = mimeSubtypesLineRegExp.exec(body)) && !/^[A-Za-z0-9]+$/.test(subtype[1])) {
+  if (!subtype && (subtype = mimeSubtypesLineRegExp.exec(body)) && !/^[A-Za-z0-9.+-]+$/.test(subtype[1])) {
     return
   }
 
