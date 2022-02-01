@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extension `.asc` to `application/pgp-keys`
   * Add extensions to various XML types
   * Add new upstream MIME types
 

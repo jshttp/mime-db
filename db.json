@@ -1127,7 +1127,8 @@
     "extensions": ["pgp"]
   },
   "application/pgp-keys": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["asc"]
   },
   "application/pgp-signature": {
     "source": "iana",

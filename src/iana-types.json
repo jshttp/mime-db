@@ -1585,6 +1585,7 @@
     ]
   },
   "application/pgp-keys": {
+    "extensions": ["asc"],
     "sources": [
       "http://tools.ietf.org/rfc/rfc3156.txt",
       "http://www.iana.org/assignments/media-types/application/pgp-keys"
