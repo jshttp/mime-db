@@ -6733,7 +6733,7 @@
   },
   "audio/usac": {
     "source": "iana",
-    "extensions": ["loas"]
+    "extensions": ["loas","xhe"]
   },
   "audio/vdvi": {
     "source": "iana"
@@ -7590,11 +7590,11 @@
   },
   "model/vnd.parasolid.transmit.binary": {
     "source": "iana",
-    "extensions": ["x_b"]
+    "extensions": ["x_b","xmt_bin"]
   },
   "model/vnd.parasolid.transmit.text": {
     "source": "iana",
-    "extensions": ["x_t"]
+    "extensions": ["x_t","xmt_txt"]
   },
   "model/vnd.pytha.pyox": {
     "source": "iana",
