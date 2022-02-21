@@ -1461,6 +1461,11 @@
       "http://www.iana.org/assignments/media-types/application/oauth-authz-req+jwt"
     ]
   },
+  "application/oblivious-dns-message": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/oblivious-dns-message"
+    ]
+  },
   "application/ocsp-request": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc6960.txt",
@@ -4909,6 +4914,11 @@
   "application/vnd.mason+json": {
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.mason+json"
+    ]
+  },
+  "application/vnd.maxar.archive.3tz+zip": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.maxar.archive.3tz+zip"
     ]
   },
   "application/vnd.maxmind.maxmind-db": {

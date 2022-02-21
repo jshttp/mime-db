@@ -1035,6 +1035,9 @@
   "application/oauth-authz-req+jwt": {
     "source": "iana"
   },
+  "application/oblivious-dns-message": {
+    "source": "iana"
+  },
   "application/ocsp-request": {
     "source": "iana"
   },
@@ -3570,6 +3573,10 @@
   "application/vnd.mason+json": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.maxar.archive.3tz+zip": {
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.maxmind.maxmind-db": {
     "source": "iana"
