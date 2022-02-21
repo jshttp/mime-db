@@ -1,5 +1,5 @@
-unreleased
-==========
+1.52.0 / 2022-02-21
+===================
 
   * Add extensions from IANA for more `image/*` types
   * Add extension `.asc` to `application/pgp-keys`
