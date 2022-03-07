@@ -34,7 +34,7 @@
     "media-typer": "1.1.0",
     "mocha": "9.2.1",
     "nyc": "15.1.0",
-    "raw-body": "2.5.0",
+    "raw-body": "2.5.1",
     "stream-to-array": "2.3.0"
   },
   "files": [
