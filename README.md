@@ -90,7 +90,7 @@ associateed with this media type, the source must definitively link the
 media type and extension as well.
 
 [ci-image]: https://badgen.net/github/checks/jshttp/mime-db/master?label=ci
-[ci-url]: https://github.com/jshttp/mime-db/actions?query=workflow%3Aci
+[ci-url]: https://github.com/jshttp/mime-db/actions/workflows/ci.yml
 [coveralls-image]: https://badgen.net/coveralls/c/github/jshttp/mime-db/master
 [coveralls-url]: https://coveralls.io/r/jshttp/mime-db?branch=master
 [node-image]: https://badgen.net/npm/node/mime-db
