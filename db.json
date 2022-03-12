@@ -32,6 +32,14 @@
     "source": "iana",
     "compressible": true
   },
+  "application/alto-cdni+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/alto-cdnifilter+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/alto-costmap+json": {
     "source": "iana",
     "compressible": true
@@ -69,6 +77,14 @@
     "compressible": true
   },
   "application/alto-networkmapfilter+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/alto-propmap+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/alto-propmapparams+json": {
     "source": "iana",
     "compressible": true
   },
@@ -3045,6 +3061,14 @@
   "application/vnd.gmx": {
     "source": "iana",
     "extensions": ["gmx"]
+  },
+  "application/vnd.gnu.taler.exchange+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.gnu.taler.merchant+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.google-apps.document": {
     "compressible": false,
@@ -7513,6 +7537,10 @@
     "source": "iana",
     "extensions": ["obj"]
   },
+  "model/prc": {
+    "source": "iana",
+    "extensions": ["prc"]
+  },
   "model/step": {
     "source": "iana"
   },
@@ -7534,6 +7562,10 @@
   "model/stl": {
     "source": "iana",
     "extensions": ["stl"]
+  },
+  "model/u3d": {
+    "source": "iana",
+    "extensions": ["u3d"]
   },
   "model/vnd.collada+xml": {
     "source": "iana",

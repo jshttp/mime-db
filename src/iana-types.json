@@ -46,6 +46,16 @@
       "http://www.iana.org/assignments/media-types/application/activity+json"
     ]
   },
+  "application/alto-cdni+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/alto-cdni+json"
+    ]
+  },
+  "application/alto-cdnifilter+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/alto-cdnifilter+json"
+    ]
+  },
   "application/alto-costmap+json": {
     "sources": [
       "http://tools.ietf.org/rfc/rfc7285.txt",
@@ -104,6 +114,16 @@
     "sources": [
       "http://tools.ietf.org/rfc/rfc7285.txt",
       "http://www.iana.org/assignments/media-types/application/alto-networkmapfilter+json"
+    ]
+  },
+  "application/alto-propmap+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/alto-propmap+json"
+    ]
+  },
+  "application/alto-propmapparams+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/alto-propmapparams+json"
     ]
   },
   "application/alto-updatestreamcontrol+json": {
@@ -4234,6 +4254,16 @@
     "notes": "DEPRECATED",
     "sources": [
       "http://www.iana.org/assignments/media-types/application/vnd.gmx"
+    ]
+  },
+  "application/vnd.gnu.taler.exchange+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.gnu.taler.exchange+json"
+    ]
+  },
+  "application/vnd.gnu.taler.merchant+json": {
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/vnd.gnu.taler.merchant+json"
     ]
   },
   "application/vnd.google-earth.kml+xml": {
@@ -9337,6 +9367,12 @@
       "http://www.iana.org/assignments/media-types/model/obj"
     ]
   },
+  "model/prc": {
+    "extensions": ["prc"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/prc"
+    ]
+  },
   "model/step": {
     "sources": [
       "http://www.iana.org/assignments/media-types/model/step"
@@ -9364,6 +9400,12 @@
     "extensions": ["stl"],
     "sources": [
       "http://www.iana.org/assignments/media-types/model/stl"
+    ]
+  },
+  "model/u3d": {
+    "extensions": ["u3d"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/model/u3d"
     ]
   },
   "model/vnd.collada+xml": {
