@@ -11,9 +11,9 @@ It consists of a single, public JSON file and does not include any logic,
 allowing it to remain as un-opinionated as possible with an API.
 It aggregates data from the following sources:
 
-- http://www.iana.org/assignments/media-types/media-types.xhtml
-- http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
-- http://hg.nginx.org/nginx/raw-file/default/conf/mime.types
+- https://www.iana.org/assignments/media-types/media-types.xhtml
+- https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
+- https://hg.nginx.org/nginx/raw-file/default/conf/mime.types
 
 ## Installation
 
@@ -48,9 +48,9 @@ Each mime type has the following properties:
 
 - `.source` - where the mime type is defined.
     If not set, it's probably a custom media type.
-    - `apache` - [Apache common media types](http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types)
-    - `iana` - [IANA-defined media types](http://www.iana.org/assignments/media-types/media-types.xhtml)
-    - `nginx` - [nginx media types](http://hg.nginx.org/nginx/raw-file/default/conf/mime.types)
+    - `apache` - [Apache common media types](https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types)
+    - `iana` - [IANA-defined media types](https://www.iana.org/assignments/media-types/media-types.xhtml)
+    - `nginx` - [nginx media types](https://hg.nginx.org/nginx/raw-file/default/conf/mime.types)
 - `.extensions[]` - known extensions associated with this mime type.
 - `.compressible` - whether a file of this type can be gzipped.
 - `.charset` - the default charset associated with this type, if any.
@@ -67,7 +67,7 @@ periodically and will pull in any changes.
 
 The best way to get new media types included in this library is to register
 them with the IANA. The community registration procedure is outlined in
-[RFC 6838 section 5](http://tools.ietf.org/html/rfc6838#section-5). Types
+[RFC 6838 section 5](https://tools.ietf.org/html/rfc6838#section-5). Types
 registered with the IANA are automatically pulled into this library.
 
 ### Direct Inclusion
