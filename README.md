@@ -59,6 +59,25 @@ If unknown, every property could be `undefined`.
 
 ## Contributing
 
+The primary way to contribute to this database is by updating the data in
+one of the upstream sources. The database is updated from the upstreams
+periodically and will pull in any changes.
+
+### Registering Media Types
+
+The best way to get new media types included in this library is to register
+them with the IANA. The community registration procedure is outlined in
+[RFC 6838 section 5](http://tools.ietf.org/html/rfc6838#section-5). Types
+registered with the IANA are automatically pulled into this library.
+
+### Direct Inclusion
+
+If that is not possible / feasible, they can be added directly here as a
+"custom" type. To do this, it is required to have a primary source that
+definitively lists the media type. If an extension is going to be listed as
+associateed with this media type, the source must definitively link the
+media type and extension as well.
+
 To edit the database, only make PRs against `src/custom-types.json` or
 `src/custom-suffix.json`.
 
@@ -75,19 +94,6 @@ keys and the values being an object with the following keys:
   links to type aggregating sites and Wikipedia are _not acceptable_.
 
 To update the build, run `npm run build`.
-
-### Adding Custom Media Types
-
-The best way to get new media types included in this library is to register
-them with the IANA. The community registration procedure is outlined in
-[RFC 6838 section 5](http://tools.ietf.org/html/rfc6838#section-5). Types
-registered with the IANA are automatically pulled into this library.
-
-If that is not possible / feasible, they can be added directly here as a
-"custom" type. To do this, it is required to have a primary source that
-definitively lists the media type. If an extension is going to be listed as
-associateed with this media type, the source must definitively link the
-media type and extension as well.
 
 [ci-image]: https://badgen.net/github/checks/jshttp/mime-db/master?label=ci
 [ci-url]: https://github.com/jshttp/mime-db/actions/workflows/ci.yml
