@@ -14,8 +14,8 @@
   "application/ecmascript": {
     "compressible": true,
     "sources": [
-      "http://tools.ietf.org/rfc/rfc4329.txt",
-      "http://www.iana.org/assignments/media-types/application/ecmascript"
+      "https://tools.ietf.org/rfc/rfc4329.txt",
+      "https://www.iana.org/assignments/media-types/application/ecmascript"
     ]
   },
   "application/edi-x12": {
@@ -39,8 +39,8 @@
   "application/geo+json": {
     "extensions": ["geojson"],
     "sources": [
-      "http://tools.ietf.org/rfc/rfc7946.txt",
-      "http://www.iana.org/assignments/media-types/application/geo+json"
+      "https://tools.ietf.org/rfc/rfc7946.txt",
+      "https://www.iana.org/assignments/media-types/application/geo+json"
     ]
   },
   "application/gzip": {
@@ -824,7 +824,7 @@
     "charset": "UTF-8",
     "compressible": true,
     "sources": [
-      "http://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
+      "https://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
     ]
   },
   "text/x-gwt-rpc": {
