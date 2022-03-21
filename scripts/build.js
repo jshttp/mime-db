@@ -25,7 +25,7 @@ Object.keys(mime).forEach(function (suffix) {
   var s = mime[suffix]
 
   Object.keys(db).forEach(function (type) {
-    if (type.substr(0 - suffix.length) !== suffix) {
+    if (type.slice(-suffix.length) !== suffix) {
       return
     }
 

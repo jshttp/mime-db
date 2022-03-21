@@ -184,9 +184,9 @@ function extractTemplateMime (body) {
     return
   }
 
-  if (subtype.substr(0, type.length + 1) === type + '/') {
+  if (subtype.slice(0, type.length + 1) === type + '/') {
     // strip type from subtype
-    subtype = subtype.substr(type.length + 1)
+    subtype = subtype.slice(type.length + 1)
   }
 
   return (type + '/' + subtype).toLowerCase()
@@ -311,7 +311,7 @@ function addSource (data, url) {
 
 function appendToLine (line, str) {
   var trimmed = line.trimRight()
-  var append = trimmed.substr(-1) === '-'
+  var append = trimmed.slice(-1) === '-'
     ? str.trimLeft()
     : ' ' + str.trimLeft()
   return trimmed + append
@@ -374,7 +374,7 @@ function mimeEql (mime1, mime2) {
 }
 
 function normalizeHeader (val) {
-  return val.substr(0, 1).toLowerCase() + val.substr(1).replace(/ (.)/, function (s, c) {
+  return val.slice(0, 1).toLowerCase() + val.slice(1).replace(/ (.)/, function (s, c) {
     return c.toUpperCase()
   })
 }

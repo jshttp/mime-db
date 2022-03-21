@@ -43,7 +43,7 @@ get(URL, function onResponse (err, body) {
   while ((match = TYPE_LINE_REGEXP.exec(body))) {
     var mime = match[1]
 
-    if (mime.substr(-8) === '/example') {
+    if (mime.slice(-8) === '/example') {
       continue
     }
 
