@@ -735,7 +735,7 @@
     "source": "apache",
     "charset": "UTF-8",
     "compressible": true,
-    "extensions": ["js","mjs"]
+    "extensions": ["js"]
   },
   "application/jf2feed+json": {
     "source": "iana",
@@ -7859,6 +7859,7 @@
   },
   "text/javascript": {
     "source": "iana",
+    "charset": "UTF-8",
     "compressible": true,
     "extensions": ["js","mjs"]
   },
