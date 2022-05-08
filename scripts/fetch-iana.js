@@ -119,7 +119,7 @@ function addTemplateData (data, options) {
 
     if (res.statusCode === 404 && rfc !== undefined) {
       console.log('template ' + data.template + ' not found, fetch ' + rfc)
-      res = yield * cogent('https://tools.ietf.org/rfc/' + rfc.toLowerCase() + '.txt')
+      res = yield * cogent('https://tools.ietf.org/rfc/' + rfc.toLowerCase() + '.txt', { redirects: 2 })
     }
 
     if (res.statusCode === 404) {
