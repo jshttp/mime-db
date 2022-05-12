@@ -22,7 +22,7 @@ describe('mime-db', function () {
     })
   })
 
-  it('should contain only vlaid mime types', function () {
+  it('should contain only valid mime types', function () {
     Object.keys(db).forEach(function (mime) {
       assert.ok(typer.test(mime), 'type "' + mime + '" is a valid mime type')
     })
