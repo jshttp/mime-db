@@ -451,7 +451,7 @@
     "source": "iana"
   },
   "application/ecmascript": {
-    "source": "iana",
+    "source": "apache",
     "compressible": true,
     "extensions": ["ecma"]
   },
@@ -732,7 +732,7 @@
     "extensions": ["class"]
   },
   "application/javascript": {
-    "source": "iana",
+    "source": "apache",
     "charset": "UTF-8",
     "compressible": true,
     "extensions": ["js","mjs"]
@@ -1581,7 +1581,7 @@
     "source": "iana"
   },
   "application/smil": {
-    "source": "iana"
+    "source": "apache"
   },
   "application/smil+xml": {
     "source": "iana",
@@ -1916,10 +1916,6 @@
     "source": "iana",
     "compressible": true
   },
-  "application/vnd.3gpp.mcvideo-affiliation-info+xml": {
-    "source": "iana",
-    "compressible": true
-  },
   "application/vnd.3gpp.mcvideo-info+xml": {
     "source": "iana",
     "compressible": true
@@ -2105,7 +2101,7 @@
     "extensions": ["age"]
   },
   "application/vnd.ah-barcode": {
-    "source": "iana"
+    "source": "apache"
   },
   "application/vnd.ahead.space": {
     "source": "iana",
@@ -2218,7 +2214,7 @@
     "extensions": ["pkpass"]
   },
   "application/vnd.arastra.swi": {
-    "source": "iana"
+    "source": "apache"
   },
   "application/vnd.aristanetworks.swi": {
     "source": "iana",
@@ -2976,11 +2972,11 @@
     "extensions": ["fm","frame","maker","book"]
   },
   "application/vnd.frogans.fnc": {
-    "source": "iana",
+    "source": "apache",
     "extensions": ["fnc"]
   },
   "application/vnd.frogans.ltf": {
-    "source": "iana",
+    "source": "apache",
     "extensions": ["ltf"]
   },
   "application/vnd.fsc.weblaunch": {
@@ -3070,11 +3066,11 @@
     "compressible": true
   },
   "application/vnd.geo+json": {
-    "source": "iana",
+    "source": "apache",
     "compressible": true
   },
   "application/vnd.geocube+xml": {
-    "source": "iana",
+    "source": "apache",
     "compressible": true
   },
   "application/vnd.geogebra.file": {
@@ -3277,7 +3273,7 @@
     "source": "iana"
   },
   "application/vnd.ibm.afplinedata": {
-    "source": "iana"
+    "source": "apache"
   },
   "application/vnd.ibm.electronic-media": {
     "source": "iana"
@@ -3287,7 +3283,7 @@
     "extensions": ["mpy"]
   },
   "application/vnd.ibm.modcap": {
-    "source": "iana",
+    "source": "apache",
     "extensions": ["afp","listafp","list3820"]
   },
   "application/vnd.ibm.rights-management": {
@@ -3363,7 +3359,7 @@
     "compressible": true
   },
   "application/vnd.informix-visionary": {
-    "source": "iana"
+    "source": "apache"
   },
   "application/vnd.infotech.project": {
     "source": "iana"
@@ -4072,7 +4068,7 @@
     "extensions": ["ngdat"]
   },
   "application/vnd.nokia.n-gage.symbian.install": {
-    "source": "iana",
+    "source": "apache",
     "extensions": ["n-gage"]
   },
   "application/vnd.nokia.ncd": {
@@ -4266,7 +4262,7 @@
     "compressible": true
   },
   "application/vnd.oma.bcast.drm-trigger+xml": {
-    "source": "iana",
+    "source": "apache",
     "compressible": true
   },
   "application/vnd.oma.bcast.imd+xml": {
@@ -4297,7 +4293,7 @@
     "source": "iana"
   },
   "application/vnd.oma.bcast.smartcard-trigger+xml": {
-    "source": "iana",
+    "source": "apache",
     "compressible": true
   },
   "application/vnd.oma.bcast.sprov+xml": {
@@ -5639,9 +5635,6 @@
     "source": "iana",
     "extensions": ["cmp"]
   },
-  "application/vnd.youtube.yt": {
-    "source": "iana"
-  },
   "application/vnd.zul": {
     "source": "iana",
     "extensions": ["zir","zirz"]
@@ -6935,7 +6928,7 @@
     "source": "iana"
   },
   "audio/vnd.qcelp": {
-    "source": "iana"
+    "source": "apache"
   },
   "audio/vnd.rhetorex.32kadpcm": {
     "source": "iana"
@@ -7533,7 +7526,7 @@
     "compressible": true
   },
   "message/news": {
-    "source": "iana"
+    "source": "apache"
   },
   "message/partial": {
     "source": "iana",
@@ -7545,7 +7538,7 @@
     "extensions": ["eml","mime"]
   },
   "message/s-http": {
-    "source": "iana"
+    "source": "apache"
   },
   "message/sip": {
     "source": "iana"
@@ -7557,7 +7550,7 @@
     "source": "iana"
   },
   "message/vnd.si.simp": {
-    "source": "iana"
+    "source": "apache"
   },
   "message/vnd.wfa.wsc": {
     "source": "iana",
@@ -7829,7 +7822,7 @@
     "source": "iana"
   },
   "text/ecmascript": {
-    "source": "iana"
+    "source": "apache"
   },
   "text/encaprtp": {
     "source": "iana"
@@ -8106,7 +8099,7 @@
     "source": "iana"
   },
   "text/vnd.si.uricatalogue": {
-    "source": "iana"
+    "source": "apache"
   },
   "text/vnd.sosi": {
     "source": "iana"
@@ -8500,7 +8493,7 @@
     "source": "iana"
   },
   "video/vnd.radgamettools.smacker": {
-    "source": "iana"
+    "source": "apache"
   },
   "video/vnd.sealed.mpeg1": {
     "source": "iana"

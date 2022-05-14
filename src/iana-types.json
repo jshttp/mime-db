@@ -647,14 +647,6 @@
       "https://www.iana.org/assignments/media-types/application/dvcs"
     ]
   },
-  "application/ecmascript": {
-    "notes": "OBSOLETED in favor of text/javascript",
-    "sources": [
-      "https://tools.ietf.org/rfc/rfc4329.txt",
-      "https://tools.ietf.org/rfc/rfc9239.txt",
-      "https://www.iana.org/assignments/media-types/application/ecmascript"
-    ]
-  },
   "application/edi-consent": {
     "sources": [
       "https://tools.ietf.org/rfc/rfc1767.txt",
@@ -1031,14 +1023,6 @@
     "extensions": ["its"],
     "sources": [
       "https://www.iana.org/assignments/media-types/application/its+xml"
-    ]
-  },
-  "application/javascript": {
-    "notes": "OBSOLETED in favor of text/javascript",
-    "sources": [
-      "https://tools.ietf.org/rfc/rfc4329.txt",
-      "https://tools.ietf.org/rfc/rfc9239.txt",
-      "https://www.iana.org/assignments/media-types/application/javascript"
     ]
   },
   "application/jf2feed+json": {
@@ -2235,13 +2219,6 @@
       "https://www.iana.org/assignments/media-types/application/slate"
     ]
   },
-  "application/smil": {
-    "notes": "OBSOLETED in favor of application/smil+xml",
-    "sources": [
-      "https://tools.ietf.org/rfc/rfc4536.txt",
-      "https://www.iana.org/assignments/media-types/application/smil"
-    ]
-  },
   "application/smil+xml": {
     "sources": [
       "https://tools.ietf.org/rfc/rfc4536.txt",
@@ -2707,12 +2684,6 @@
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-affiliation-command+xml"
     ]
   },
-  "application/vnd.3gpp.mcvideo-affiliation-info+xml": {
-    "notes": "OBSOLETED in favor of application/vnd.3gpp.mcvideo-info+xml",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-affiliation-info+xml"
-    ]
-  },
   "application/vnd.3gpp.mcvideo-info+xml": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.mcvideo-info+xml"
@@ -2960,11 +2931,6 @@
       "https://www.iana.org/assignments/media-types/application/vnd.age"
     ]
   },
-  "application/vnd.ah-barcode": {
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.ah-barcode"
-    ]
-  },
   "application/vnd.ahead.space": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.ahead.space"
@@ -3092,12 +3058,6 @@
     "extensions": ["pages"],
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.apple.pages"
-    ]
-  },
-  "application/vnd.arastra.swi": {
-    "notes": "OBSOLETED in favor of application/vnd.aristanetworks.swi",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.arastra.swi"
     ]
   },
   "application/vnd.aristanetworks.swi": {
@@ -4124,18 +4084,6 @@
       "https://www.iana.org/assignments/media-types/application/vnd.framemaker"
     ]
   },
-  "application/vnd.frogans.fnc": {
-    "notes": "OBSOLETE",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.frogans.fnc"
-    ]
-  },
-  "application/vnd.frogans.ltf": {
-    "notes": "OBSOLETE",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.frogans.ltf"
-    ]
-  },
   "application/vnd.fsc.weblaunch": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.fsc.weblaunch"
@@ -4254,18 +4202,6 @@
   "application/vnd.gentics.grd+json": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.gentics.grd+json"
-    ]
-  },
-  "application/vnd.geo+json": {
-    "notes": "OBSOLETED by [RFC7946] in favor of application/geo+json",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.geo+json"
-    ]
-  },
-  "application/vnd.geocube+xml": {
-    "notes": "OBSOLETED by request",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.geocube+xml"
     ]
   },
   "application/vnd.geogebra.file": {
@@ -4512,12 +4448,6 @@
       "https://www.iana.org/assignments/media-types/application/vnd.hzn-3d-crossword"
     ]
   },
-  "application/vnd.ibm.afplinedata": {
-    "notes": "OBSOLETED in favor of vnd.afpc.afplinedata",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.ibm.afplinedata"
-    ]
-  },
   "application/vnd.ibm.electronic-media": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.ibm.electronic-media"
@@ -4526,12 +4456,6 @@
   "application/vnd.ibm.minipay": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.ibm.MiniPay"
-    ]
-  },
-  "application/vnd.ibm.modcap": {
-    "notes": "OBSOLETED in favor of application/vnd.afpc.modca",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.ibm.modcap"
     ]
   },
   "application/vnd.ibm.rights-management": {
@@ -4627,12 +4551,6 @@
   "application/vnd.informedcontrol.rms+xml": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.informedcontrol.rms+xml"
-    ]
-  },
-  "application/vnd.informix-visionary": {
-    "notes": "OBSOLETED in favor of application/vnd.visionary",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.informix-visionary"
     ]
   },
   "application/vnd.infotech.project": {
@@ -5554,12 +5472,6 @@
       "https://www.iana.org/assignments/media-types/application/vnd.nokia.n-gage.data"
     ]
   },
-  "application/vnd.nokia.n-gage.symbian.install": {
-    "notes": "OBSOLETE; no replacement given",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.nokia.n-gage.symbian.install"
-    ]
-  },
   "application/vnd.nokia.ncd": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.nokia.ncd"
@@ -5810,11 +5722,6 @@
       "https://www.iana.org/assignments/media-types/application/vnd.oma.bcast.associated-procedure-parameter+xml"
     ]
   },
-  "application/vnd.oma.bcast.drm-trigger+xml": {
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.oma.bcast.drm-trigger+xml"
-    ]
-  },
   "application/vnd.oma.bcast.imd+xml": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.oma.bcast.imd+xml"
@@ -5853,11 +5760,6 @@
   "application/vnd.oma.bcast.simple-symbol-container": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.oma.bcast.simple-symbol-container"
-    ]
-  },
-  "application/vnd.oma.bcast.smartcard-trigger+xml": {
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.oma.bcast.smartcard-trigger+xml"
     ]
   },
   "application/vnd.oma.bcast.sprov+xml": {
@@ -7589,12 +7491,6 @@
       "https://www.iana.org/assignments/media-types/application/vnd.yellowriver-custom-menu"
     ]
   },
-  "application/vnd.youtube.yt": {
-    "notes": "OBSOLETED in favor of video/vnd.youtube.yt",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/vnd.youtube.yt"
-    ]
-  },
   "application/vnd.zul": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.zul"
@@ -8771,13 +8667,6 @@
       "https://www.iana.org/assignments/media-types/audio/vnd.presonus.multitrack"
     ]
   },
-  "audio/vnd.qcelp": {
-    "notes": "DEPRECATED in favor of audio/qcelp",
-    "sources": [
-      "https://tools.ietf.org/rfc/rfc3625.txt",
-      "https://www.iana.org/assignments/media-types/audio/vnd.qcelp"
-    ]
-  },
   "audio/vnd.rhetorex.32kadpcm": {
     "sources": [
       "https://www.iana.org/assignments/media-types/audio/vnd.rhetorex.32kadpcm"
@@ -9347,13 +9236,6 @@
       "https://www.iana.org/assignments/media-types/message/imdn+xml"
     ]
   },
-  "message/news": {
-    "notes": "OBSOLETED by [RFC5537]",
-    "sources": [
-      "https://tools.ietf.org/rfc/rfc5537.txt",
-      "https://www.iana.org/assignments/media-types/message/news"
-    ]
-  },
   "message/partial": {
     "sources": [
       "https://tools.ietf.org/rfc/rfc2045.txt",
@@ -9364,13 +9246,6 @@
     "sources": [
       "https://tools.ietf.org/rfc/rfc2045.txt",
       "https://tools.ietf.org/rfc/rfc2046.txt"
-    ]
-  },
-  "message/s-http": {
-    "notes": "OBSOLETE",
-    "sources": [
-      "https://tools.ietf.org/rfc/rfc2660.txt",
-      "https://www.iana.org/assignments/media-types/message/s-http"
     ]
   },
   "message/sip": {
@@ -9389,12 +9264,6 @@
     "sources": [
       "https://tools.ietf.org/rfc/rfc3886.txt",
       "https://www.iana.org/assignments/media-types/message/tracking-status"
-    ]
-  },
-  "message/vnd.si.simp": {
-    "notes": "OBSOLETED by request",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/message/vnd.si.simp"
     ]
   },
   "message/vnd.wfa.wsc": {
@@ -9764,13 +9633,6 @@
       "https://www.iana.org/assignments/media-types/text/dns"
     ]
   },
-  "text/ecmascript": {
-    "notes": "OBSOLETED in favor of text/javascript",
-    "sources": [
-      "https://tools.ietf.org/rfc/rfc9239.txt",
-      "https://www.iana.org/assignments/media-types/text/ecmascript"
-    ]
-  },
   "text/encaprtp": {
     "sources": [
       "https://tools.ietf.org/rfc/rfc6849.txt",
@@ -10131,12 +9993,6 @@
   "text/vnd.senx.warpscript": {
     "sources": [
       "https://www.iana.org/assignments/media-types/text/vnd.senx.warpscript"
-    ]
-  },
-  "text/vnd.si.uricatalogue": {
-    "notes": "OBSOLETED by request",
-    "sources": [
-      "https://www.iana.org/assignments/media-types/text/vnd.si.uricatalogue"
     ]
   },
   "text/vnd.sosi": {
@@ -10628,11 +10484,6 @@
   "video/vnd.radgamettools.bink": {
     "sources": [
       "https://www.iana.org/assignments/media-types/video/vnd.radgamettools.bink"
-    ]
-  },
-  "video/vnd.radgamettools.smacker": {
-    "sources": [
-      "https://www.iana.org/assignments/media-types/video/vnd.radgamettools.smacker"
     ]
   },
   "video/vnd.sealed.mpeg1": {

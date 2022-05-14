@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Add new upstream MIME types
+  * Remove obsolete MIME types from IANA data
 
 1.52.0 / 2022-02-21
 ===================
