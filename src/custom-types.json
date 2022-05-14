@@ -111,6 +111,12 @@
   "application/pgp-encrypted": {
     "compressible": false
   },
+  "application/pgp-keys": {
+    "extensions": ["asc"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/pgp-keys"
+    ]
+  },
   "application/postscript": {
     "compressible": true
   },

@@ -1191,7 +1191,7 @@
   },
   "application/pgp-signature": {
     "source": "iana",
-    "extensions": ["asc","sig"]
+    "extensions": ["sig","asc"]
   },
   "application/pics-rules": {
     "source": "apache",
@@ -1307,7 +1307,8 @@
   },
   "application/prs.xsf+xml": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["xsf"]
   },
   "application/pskc+xml": {
     "source": "iana",
@@ -4879,7 +4880,8 @@
   },
   "application/vnd.pwg-xhtml-print+xml": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["xhtm"]
   },
   "application/vnd.qualcomm.brew-app-res": {
     "source": "iana"
@@ -5387,7 +5389,7 @@
   "application/vnd.uoml+xml": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["uoml"]
+    "extensions": ["uoml","uo"]
   },
   "application/vnd.uplanet.alert": {
     "source": "iana"
@@ -7106,7 +7108,7 @@
   "image/bmp": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["bmp"]
+    "extensions": ["bmp","dib"]
   },
   "image/cgm": {
     "source": "iana",
@@ -7242,7 +7244,7 @@
   },
   "image/prs.btif": {
     "source": "iana",
-    "extensions": ["btif"]
+    "extensions": ["btif","btf"]
   },
   "image/prs.pti": {
     "source": "iana",
@@ -7337,7 +7339,8 @@
     "source": "iana"
   },
   "image/vnd.mozilla.apng": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["apng"]
   },
   "image/vnd.ms-dds": {
     "compressible": true,
@@ -7668,7 +7671,8 @@
     "extensions": ["x_t"]
   },
   "model/vnd.pytha.pyox": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["pyo","pyox"]
   },
   "model/vnd.rosette.annotated-data-model": {
     "source": "iana"

@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extensions from IANA for more MIME types
   * Add new upstream MIME types
   * Remove obsolete MIME types from IANA data
 
