@@ -40,7 +40,7 @@ var MIME_TYPE_HAS_CHARSET_PARAMETER_REGEXP = /parameters\s*:[^.]*\bcharset\b/im
 co(function * () {
   var gens = yield [
     get('application', { extensions: /(?:\/(?:cwl|ecmascript|express|fdf|gzip|(?:ld|manifest)\+json|n-quads|n-triples|pgp-.+|trig|vnd\.(?:age|apple\..+|dbf|mapbox-vector-tile|rar))|xfdf|\+xml)$/ }),
-    get('audio', { extensions: /\/mobile-xmf$/ }),
+    get('audio', { extensions: /\/(?:aac|mobile-xmf)$/ }),
     get('font', { extensions: true }),
     get('image', { extensions: true }),
     get('message', { extensions: true }),

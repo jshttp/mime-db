@@ -6445,7 +6445,8 @@
     "source": "iana"
   },
   "audio/aac": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["adts","aac"]
   },
   "audio/ac3": {
     "source": "iana"

@@ -7835,6 +7835,7 @@
     ]
   },
   "audio/aac": {
+    "extensions": ["adts","aac"],
     "sources": [
       "https://www.iana.org/assignments/media-types/audio/aac"
     ]
