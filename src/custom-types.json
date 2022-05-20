@@ -771,11 +771,7 @@
     "extensions": ["less"]
   },
   "text/markdown": {
-    "compressible": true,
-    "extensions": ["markdown","md"],
-    "sources": [
-      "https://tools.ietf.org/html/rfc7763"
-    ]
+    "compressible": true
   },
   "text/mdx": {
     "compressible": true,

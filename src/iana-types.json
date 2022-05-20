@@ -9700,6 +9700,7 @@
     ]
   },
   "text/markdown": {
+    "extensions": ["md","markdown"],
     "sources": [
       "https://tools.ietf.org/rfc/rfc7763.txt",
       "https://www.iana.org/assignments/media-types/text/markdown"

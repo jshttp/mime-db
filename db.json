@@ -7875,7 +7875,7 @@
   "text/markdown": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["markdown","md"]
+    "extensions": ["md","markdown"]
   },
   "text/mathml": {
     "source": "nginx",
