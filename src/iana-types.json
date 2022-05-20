@@ -9689,6 +9689,7 @@
     ]
   },
   "text/javascript": {
+    "extensions": ["js","mjs"],
     "sources": [
       "https://tools.ietf.org/rfc/rfc9239.txt",
       "https://www.iana.org/assignments/media-types/text/javascript"

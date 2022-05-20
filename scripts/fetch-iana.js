@@ -46,7 +46,7 @@ co(function * () {
     get('message', { extensions: true }),
     get('model', { extensions: true }),
     get('multipart'),
-    get('text', { extensions: /\/(?:markdown|spdx|turtle|vnd\.familysearch\.gedcom|vtt)$/ }),
+    get('text', { extensions: /\/(?:javascript|markdown|spdx|turtle|vnd\.familysearch\.gedcom|vtt)$/ }),
     get('video', { extensions: /\/iso\.segment$/ })
   ]
 

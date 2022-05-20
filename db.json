@@ -7859,7 +7859,8 @@
   },
   "text/javascript": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["js","mjs"]
   },
   "text/jcr-cnd": {
     "source": "iana"

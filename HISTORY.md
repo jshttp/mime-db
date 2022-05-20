@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extensions `.js` and `.mjs` to `text/javascript`
   * Add extensions from IANA for more MIME types
   * Add new upstream MIME types
   * Fix extensions for `text/markdown` to match IANA
