@@ -52,6 +52,13 @@
       "https://hjson.org/rfc.html#rfc.section.1.3"
     ]
   },
+  "application/importmap+json": {
+    "extensions": ["importmap"],
+    "sources": [
+      "https://github.com/WICG/import-maps#installation",
+      "https://wicg.github.io/import-maps/#comparison-with-first-party-scripts"
+    ]
+  },
   "application/java-archive": {
     "compressible": false
   },

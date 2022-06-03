@@ -678,6 +678,10 @@
     "charset": "UTF-8",
     "compressible": true
   },
+  "application/importmap+json": {
+    "compressible": true,
+    "extensions": ["importmap"]
+  },
   "application/index": {
     "source": "iana"
   },
