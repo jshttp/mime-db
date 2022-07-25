@@ -176,6 +176,12 @@
       "https://www.iana.org/assignments/media-types/application/sieve"
     ]
   },
+  "application/sql": {
+    "extensions": ["sql"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/sql"
+    ]
+  },
   "application/tar": {
     "compressible": true
   },

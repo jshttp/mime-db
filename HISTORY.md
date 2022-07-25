@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extension `.sql` to `application/sql`
   * Add extensions `.aac` and `.adts` to `audio/aac`
   * Add extensions `.js` and `.mjs` to `text/javascript`
   * Add extensions from IANA for more MIME types
