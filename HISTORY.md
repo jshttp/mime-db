@@ -8,6 +8,7 @@ unreleased
   * Fix extensions for `text/markdown` to match IANA
   * Remove extension `.mjs` from `application/javascript`
   * Remove obsolete MIME types from IANA data
+  * Replace `text/yaml` with `application/yaml`
 
 1.52.0 / 2022-02-21
 ===================

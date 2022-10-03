@@ -8234,7 +8234,7 @@
   "text/xml-external-parsed-entity": {
     "source": "iana"
   },
-  "text/yaml": {
+  "application/yaml": {
     "compressible": true,
     "extensions": ["yaml","yml"]
   },

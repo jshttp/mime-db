@@ -877,7 +877,7 @@
   "text/xml": {
     "compressible": true
   },
-  "text/yaml": {
+  "application/yaml": {
     "compressible": true,
     "extensions": ["yaml","yml"]
   },
