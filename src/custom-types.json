@@ -1,4 +1,25 @@
 {
+  "application/appinstaller": {
+    "compressible": false,
+    "extensions": ["appinstaller"],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/msix/app-installer/installing-windows10-apps-web"
+    ]
+  },
+  "application/appx": {
+    "compressible": false,
+    "extensions": ["appx"],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/msix/app-installer/installing-windows10-apps-web"
+    ]
+  },
+  "application/appxbundle": {
+    "compressible": false,
+    "extensions": ["appxbundle"],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/msix/app-installer/installing-windows10-apps-web"
+    ]
+  },
   "application/bdoc": {
     "compressible": false,
     "extensions": ["bdoc"],
@@ -81,6 +102,20 @@
   },
   "application/mp4": {
     "extensions": ["m4p"]
+  },
+  "application/msix": {
+    "compressible": false,
+    "extensions": ["msix"],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/msix/app-installer/installing-windows10-apps-web"
+    ]
+  },
+  "application/msixbundle": {
+    "compressible": false,
+    "extensions": ["msixbundle"],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/msix/app-installer/installing-windows10-apps-web"
+    ]
   },
   "application/msword": {
     "compressible": false
