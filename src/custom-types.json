@@ -295,6 +295,13 @@
       "http://php.net/manual/en/faq.installation.php"
     ]
   },
+  "application/x-ipynb+json": {
+    "compressible": true,
+    "extensions": ["ipynb"],
+    "sources": [
+      "https://docs.jupyter.org/en/latest/reference/mimetype.html"
+    ]
+  },
   "application/x-iwork-keynote-sffkey": {
     "extensions": ["key"],
     "notes": "Deprecated alias for iWorks Keynote file",
