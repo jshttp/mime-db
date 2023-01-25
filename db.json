@@ -7176,7 +7176,7 @@
   "image/jpeg": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["jpeg","jpg","jpe"]
+    "extensions": ["jpeg","jpg","jpe", "jfif"]
   },
   "image/jph": {
     "source": "iana",
