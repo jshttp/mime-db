@@ -9,8 +9,6 @@
  * Convert the IANA definitions from CSV to local.
  */
 
-global.Promise = global.Promise || loadBluebird()
-
 var co = require('co')
 var getRawBody = require('raw-body')
 var cogent = require('cogent')
@@ -366,17 +364,6 @@ function getUrlReferences (reference) {
   }
 
   return urls
-}
-
-function loadBluebird () {
-  var Promise = require('bluebird')
-
-  // Silence all warnings
-  Promise.config({
-    warnings: false
-  })
-
-  return Promise
 }
 
 function mimeEql (mime1, mime2) {

@@ -169,7 +169,7 @@ jobs:
         fi
 
     - name: Remove non-test npm modules
-      run: npm rm --silent --save-dev bluebird co cogent csv-parse gnode raw-body stream-to-array
+      run: npm rm --silent --save-dev co cogent csv-parse gnode raw-body stream-to-array
 
     - name: Remove npm module(s) ${{ matrix.npm-rm }}
       run: npm rm --silent --save-dev ${{ matrix.npm-rm }}
