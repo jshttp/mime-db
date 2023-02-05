@@ -1,7 +1,7 @@
 /*!
  * mime-db
  * Copyright(c) 2014 Jonathan Ong
- * Copyright(c) 2015-2022 Douglas Christopher Wilson
+ * Copyright(c) 2015-2023 Douglas Christopher Wilson
  * MIT Licensed
  */
 
@@ -10,8 +10,7 @@
  */
 
 var co = require('co')
-var getRawBody = require('raw-body')
-var cogent = require('cogent')
+var got = require('got')
 var parser = require('csv-parse')
 var toArray = require('stream-to-array')
 var typer = require('media-typer')
@@ -109,14 +108,14 @@ function addTemplateData (data, options) {
   }
 
   return function * get () {
-    var res = yield * cogent('https://www.iana.org/assignments/media-types/' + data.template, { retries: 3 })
+    var res = yield got('https://www.iana.org/assignments/media-types/' + data.template)
     var ref = data.type + '/' + data.name
     var rfc = getRfcReferences(data.reference)[0]
 
     if (res.statusCode === 404 && data.template !== ref) {
       console.log('template ' + data.template + ' not found, retry as ' + ref)
       data.template = ref
-      res = yield * cogent('https://www.iana.org/assignments/media-types/' + ref, { retries: 3 })
+      res = yield got('https://www.iana.org/assignments/media-types/' + ref)
 
       // replace the guessed mime
       if (res.statusCode === 200) {
@@ -126,7 +125,7 @@ function addTemplateData (data, options) {
 
     if (res.statusCode === 404 && rfc !== undefined) {
       console.log('template ' + data.template + ' not found, fetch ' + rfc)
-      res = yield * cogent('https://tools.ietf.org/rfc/' + rfc.toLowerCase() + '.txt')
+      res = yield got('https://tools.ietf.org/rfc/' + rfc.toLowerCase() + '.txt')
     }
 
     if (res.statusCode === 404) {
@@ -138,12 +137,11 @@ function addTemplateData (data, options) {
       throw new Error('got status code ' + res.statusCode + ' from template ' + data.template)
     }
 
-    var body = yield getTemplateBody(res)
-    var href = res.urls[0].href
+    var body = getTemplateBody(res.body)
     var mime = extractTemplateMime(body)
 
     // add the template as a source
-    addSource(data, href)
+    addSource(data, res.url)
 
     if (mimeEql(mime, data.mime)) {
       // use extracted mime
@@ -232,13 +230,13 @@ function extractTemplateExtensions (body) {
 }
 
 function * get (type, options) {
-  var res = yield * cogent('https://www.iana.org/assignments/media-types/' + encodeURIComponent(type) + '.csv', { retries: 3 })
+  var res = yield got('https://www.iana.org/assignments/media-types/' + encodeURIComponent(type) + '.csv')
 
   if (res.statusCode !== 200) {
     throw new Error('got status code ' + res.statusCode + ' from ' + type)
   }
 
-  var mimes = yield toArray(res.pipe(parser()))
+  var mimes = yield toArray(parser(res.body))
   var headers = mimes.shift().map(normalizeHeader)
   var reduceRows = generateRowMapper(headers)
   var templates = Object.create(null)
@@ -276,8 +274,7 @@ function * get (type, options) {
   })
 }
 
-function * getTemplateBody (res) {
-  var body = yield getRawBody(res, { encoding: 'ascii' })
+function getTemplateBody (body) {
   var lines = body.split(/\r?\n/)
   var slurp = false
 

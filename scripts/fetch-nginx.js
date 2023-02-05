@@ -1,7 +1,7 @@
 /*!
  * mime-db
  * Copyright(c) 2014 Jonathan Ong
- * Copyright(c) 2015-2022 Douglas Christopher Wilson
+ * Copyright(c) 2015-2023 Douglas Christopher Wilson
  * MIT Licensed
  */
 
@@ -11,8 +11,7 @@
  * Convert these text files to JSON for browser usage.
  */
 
-var getBody = require('raw-body')
-var https = require('https')
+var got = require('got')
 var writedb = require('./lib/write-db')
 
 /**
@@ -84,14 +83,12 @@ function appendExtensions (obj, extensions) {
 }
 
 /**
- * Get HTTPS resource.
+ * Get HTTP resource body.
  */
 function get (url, callback) {
-  https.get(url, function onResponse (res) {
-    if (res.statusCode !== 200) {
-      callback(new Error('got status code ' + res.statusCode + ' from ' + URL))
-    } else {
-      getBody(res, true, callback)
-    }
+  got(url).then(function onResponse (res) {
+    callback(null, res.body)
+  }).catch(function onError (err) {
+    callback(err)
   })
 }
