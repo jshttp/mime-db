@@ -169,7 +169,9 @@ jobs:
         fi
 
     - name: Remove non-test npm modules
-      run: npm rm --silent --save-dev co cogent csv-parse gnode raw-body stream-to-array
+      run: |
+        echo co cogent csv-parse gnode raw-body stream-to-array | \
+          xargs -n1 npm rm --silent --save-dev
 
     - name: Remove npm module(s) ${{ matrix.npm-rm }}
       run: npm rm --silent --save-dev ${{ matrix.npm-rm }}
