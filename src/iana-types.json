@@ -9030,6 +9030,7 @@
     ]
   },
   "image/jp2": {
+    "extensions": ["jp2","jpg2"],
     "sources": [
       "https://tools.ietf.org/rfc/rfc3745.txt",
       "https://www.iana.org/assignments/media-types/image/jp2"
@@ -9054,6 +9055,7 @@
     ]
   },
   "image/jpm": {
+    "extensions": ["jpm","jpgm"],
     "sources": [
       "https://tools.ietf.org/rfc/rfc3745.txt",
       "https://www.iana.org/assignments/media-types/image/jpm"

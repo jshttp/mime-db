@@ -628,7 +628,6 @@
   },
   "image/jp2": {
     "compressible": false,
-    "extensions": ["jp2","jpg2"],
     "sources": [
       "https://www.iana.org/assignments/media-types/image/jp2",
       "https://tools.ietf.org/html/rfc3745"
@@ -639,7 +638,6 @@
   },
   "image/jpm": {
     "compressible": false,
-    "extensions": ["jpm"],
     "sources": [
       "https://www.iana.org/assignments/media-types/image/jpm",
       "https://tools.ietf.org/html/rfc3745"

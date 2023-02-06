@@ -7320,7 +7320,7 @@
   "image/jpm": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["jpm"]
+    "extensions": ["jpm","jpgm"]
   },
   "image/jpx": {
     "source": "iana",
