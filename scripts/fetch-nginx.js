@@ -29,15 +29,15 @@ var TYPE_LINE_REGEXP = /^\s*([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*);\s*$/gm
  */
 var URL = 'https://raw.githubusercontent.com/nginx/nginx/master/conf/mime.types'
 
-get(URL, function onResponse (err, body) {
-  if (err) throw err
+;(async function () {
+  const res = await got(URL)
 
   var json = {}
   var match = null
 
   TYPE_LINE_REGEXP.index = 0
 
-  while ((match = TYPE_LINE_REGEXP.exec(body))) {
+  while ((match = TYPE_LINE_REGEXP.exec(res.body))) {
     var mime = match[1]
 
     // parse the extensions
@@ -51,7 +51,7 @@ get(URL, function onResponse (err, body) {
   }
 
   writedb('src/nginx-types.json', json)
-})
+}())
 
 /**
  * Append an extension to an object.
@@ -80,15 +80,4 @@ function appendExtensions (obj, extensions) {
     // add extension to the type entry
     appendExtension(obj, extension)
   }
-}
-
-/**
- * Get HTTP resource body.
- */
-function get (url, callback) {
-  got(url).then(function onResponse (res) {
-    callback(null, res.body)
-  }).catch(function onError (err) {
-    callback(err)
-  })
 }

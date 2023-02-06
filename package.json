@@ -19,7 +19,6 @@
   ],
   "repository": "jshttp/mime-db",
   "devDependencies": {
-    "co": "4.6.0",
     "csv-parse": "4.16.3",
     "eslint": "8.32.0",
     "eslint-config-standard": "15.0.1",
@@ -28,7 +27,6 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-standard": "4.1.0",
-    "gnode": "0.1.2",
     "got": "11.8.6",
     "media-typer": "1.1.0",
     "mocha": "10.2.0",
@@ -47,7 +45,7 @@
   },
   "scripts": {
     "build": "node scripts/build",
-    "fetch": "node scripts/fetch-apache && gnode scripts/fetch-iana && node scripts/fetch-nginx",
+    "fetch": "node scripts/fetch-apache && node scripts/fetch-iana && node scripts/fetch-nginx",
     "lint": "eslint .",
     "test": "mocha --reporter spec --bail --check-leaks test/",
     "test-ci": "nyc --reporter=lcovonly --reporter=text npm test",

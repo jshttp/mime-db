@@ -9,7 +9,6 @@
  * Convert the IANA definitions from CSV to local.
  */
 
-var co = require('co')
 var got = require('got')
 var parser = require('csv-parse')
 var toArray = require('stream-to-array')
@@ -34,30 +33,18 @@ var INTENDED_USAGE_REGEXP = /^\s*(?:(?:\d{1,2}\.|o)\s+)?Intended\s+Usage\s*:\s*(
 var MIME_SUBTYPE_LINE_REGEXP = /^[^:\s-]*\s*(?:MIME )?(?:[Mm]edia )?(?:[Ss]ub ?type|SUB ?TYPE)(?: (?:[Nn]ame|NAME))?\s*:\s+(?:[A-Za-z]+ [Tt]ree\s+(?:- ?)?|(?:[a-z]+ )+- )?([0-9A-Za-z][0-9A-Za-z_.+-]*)(?:\s|$)/m
 var MIME_TYPE_HAS_CHARSET_PARAMETER_REGEXP = /parameters\s*:[^.]*\bcharset\b/im
 
-co(function * () {
-  var gens = yield [
-    get('application', { extensions: /(?:\/(?:cwl|ecmascript|express|fdf|gzip|(?:ld|manifest)\+json|n-quads|n-triples|pgp-.+|trig|vnd\.(?:age|apple\..+|dbf|mapbox-vector-tile|rar))|xfdf|\+xml)$/ }),
-    get('audio', { extensions: /\/(?:aac|mobile-xmf)$/ }),
-    get('font', { extensions: true }),
-    get('image', { extensions: true }),
-    get('message', { extensions: true }),
-    get('model', { extensions: true }),
-    get('multipart'),
-    get('text', { extensions: /\/(?:javascript|markdown|spdx|turtle|vnd\.familysearch\.gedcom|vtt)$/ }),
-    get('video', { extensions: /\/iso\.segment$/ })
-  ]
-
-  // flatten generators
-  gens = gens.reduce(concat, [])
-
-  // get results in groups
-  var results = []
-  while (gens.length !== 0) {
-    results.push(yield gens.splice(0, 10))
-  }
-
-  // flatten results
-  results = results.reduce(concat, [])
+;(async function () {
+  const results = Array.prototype.concat.apply([], [
+    await get('application', { extensions: /(?:\/(?:cwl|ecmascript|express|fdf|gzip|(?:ld|manifest)\+json|n-quads|n-triples|pgp-.+|trig|vnd\.(?:age|apple\..+|dbf|mapbox-vector-tile|rar))|xfdf|\+xml)$/ }),
+    await get('audio', { extensions: /\/(?:aac|mobile-xmf)$/ }),
+    await get('font', { extensions: true }),
+    await get('image', { extensions: true }),
+    await get('message', { extensions: true }),
+    await get('model', { extensions: true }),
+    await get('multipart'),
+    await get('text', { extensions: /\/(?:javascript|markdown|spdx|turtle|vnd\.familysearch\.gedcom|vtt)$/ }),
+    await get('video', { extensions: /\/iso\.segment$/ })
+  ])
 
   // gather extension frequency
   var exts = Object.create(null)
@@ -98,69 +85,65 @@ co(function * () {
   })
 
   writedb('src/iana-types.json', json)
-}).then()
+}())
 
-function addTemplateData (data, options) {
+async function addTemplateData (data, options) {
   var opts = options || {}
 
   if (!data.template) {
-    return data
+    return
   }
 
-  return function * get () {
-    var res = yield got('https://www.iana.org/assignments/media-types/' + data.template)
-    var ref = data.type + '/' + data.name
-    var rfc = getRfcReferences(data.reference)[0]
+  let res = await got('https://www.iana.org/assignments/media-types/' + data.template)
+  var ref = data.type + '/' + data.name
+  var rfc = getRfcReferences(data.reference)[0]
 
-    if (res.statusCode === 404 && data.template !== ref) {
-      console.log('template ' + data.template + ' not found, retry as ' + ref)
-      data.template = ref
-      res = yield got('https://www.iana.org/assignments/media-types/' + ref)
+  if (res.statusCode === 404 && data.template !== ref) {
+    console.log('template ' + data.template + ' not found, retry as ' + ref)
+    data.template = ref
+    res = await got('https://www.iana.org/assignments/media-types/' + ref)
 
-      // replace the guessed mime
-      if (res.statusCode === 200) {
-        data.mime = data.template
-      }
+    // replace the guessed mime
+    if (res.statusCode === 200) {
+      data.mime = data.template
     }
+  }
 
-    if (res.statusCode === 404 && rfc !== undefined) {
-      console.log('template ' + data.template + ' not found, fetch ' + rfc)
-      res = yield got('https://tools.ietf.org/rfc/' + rfc.toLowerCase() + '.txt')
+  if (res.statusCode === 404 && rfc !== undefined) {
+    console.log('template ' + data.template + ' not found, fetch ' + rfc)
+    res = await got('https://tools.ietf.org/rfc/' + rfc.toLowerCase() + '.txt')
+  }
+
+  if (res.statusCode === 404) {
+    console.log('template ' + data.template + ' not found')
+    return
+  }
+
+  if (res.statusCode !== 200) {
+    throw new Error('got status code ' + res.statusCode + ' from template ' + data.template)
+  }
+
+  var body = getTemplateBody(res.body)
+  var mime = extractTemplateMime(body)
+
+  // add the template as a source
+  addSource(data, res.url)
+
+  if (mimeEql(mime, data.mime)) {
+    // use extracted mime
+    data.mime = mime
+
+    // use extracted charset
+    data.charset = extractTemplateCharset(body)
+
+    // use extracted usage
+    data.usage = extractIntendedUsage(body)
+
+    // use extracted extensions
+    if (data.usage === 'common' && opts.extensions &&
+      (opts.extensions === true || opts.extensions.test(data.mime))) {
+      data.extensions = extractTemplateExtensions(body)
     }
-
-    if (res.statusCode === 404) {
-      console.log('template ' + data.template + ' not found')
-      return data
-    }
-
-    if (res.statusCode !== 200) {
-      throw new Error('got status code ' + res.statusCode + ' from template ' + data.template)
-    }
-
-    var body = getTemplateBody(res.body)
-    var mime = extractTemplateMime(body)
-
-    // add the template as a source
-    addSource(data, res.url)
-
-    if (mimeEql(mime, data.mime)) {
-      // use extracted mime
-      data.mime = mime
-
-      // use extracted charset
-      data.charset = extractTemplateCharset(body)
-
-      // use extracted usage
-      data.usage = extractIntendedUsage(body)
-
-      // use extracted extensions
-      if (data.usage === 'common' && opts.extensions &&
-        (opts.extensions === true || opts.extensions.test(data.mime))) {
-        data.extensions = extractTemplateExtensions(body)
-      }
-    }
-
-    return data
   }
 }
 
@@ -229,29 +212,30 @@ function extractTemplateExtensions (body) {
     : exts
 }
 
-function * get (type, options) {
-  var res = yield got('https://www.iana.org/assignments/media-types/' + encodeURIComponent(type) + '.csv')
+async function get (type, options) {
+  const res = await got('https://www.iana.org/assignments/media-types/' + encodeURIComponent(type) + '.csv')
 
   if (res.statusCode !== 200) {
     throw new Error('got status code ' + res.statusCode + ' from ' + type)
   }
 
-  var mimes = yield toArray(parser(res.body))
+  const mimes = await toArray(parser(res.body))
   var headers = mimes.shift().map(normalizeHeader)
   var reduceRows = generateRowMapper(headers)
+  const results = []
   var templates = Object.create(null)
 
-  return mimes.map(function (row) {
+  for (const row of mimes) {
     var data = row.reduce(reduceRows, { type: type })
 
     if (data.template) {
       if (data.template === type + '/example') {
-        return
+        continue
       }
 
       if (templates[data.template]) {
         // duplicate entry
-        return
+        continue
       }
 
       templates[data.template] = true
@@ -270,8 +254,12 @@ function * get (type, options) {
       addSource(data, url)
     })
 
-    return addTemplateData(data, options)
-  })
+    await addTemplateData(data, options)
+
+    results.push(data)
+  }
+
+  return results
 }
 
 function getTemplateBody (body) {
@@ -321,10 +309,6 @@ function appendToLine (line, str) {
     ? str.trimLeft()
     : ' ' + str.trimLeft()
   return trimmed + append
-}
-
-function concat (a, b) {
-  return a.concat(b.filter(Boolean))
 }
 
 function generateRowMapper (headers) {
