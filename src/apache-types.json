@@ -187,9 +187,7 @@
   "application/java-vm": {
     "extensions": ["class"]
   },
-  "application/javascript": {
-    "extensions": ["js"]
-  },
+  "application/javascript": {},
   "application/jose": {},
   "application/jose+json": {},
   "application/jrd+json": {},
@@ -3049,7 +3047,9 @@
   "text/html": {
     "extensions": ["html","htm"]
   },
-  "text/javascript": {},
+  "text/javascript": {
+    "extensions": ["js","mjs"]
+  },
   "text/jcr-cnd": {},
   "text/markdown": {},
   "text/mizar": {},

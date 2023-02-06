@@ -176,12 +176,6 @@
       "https://www.iana.org/assignments/media-types/application/sieve"
     ]
   },
-  "application/sql": {
-    "extensions": ["sql"],
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/sql"
-    ]
-  },
   "application/tar": {
     "compressible": true
   },
@@ -582,7 +576,6 @@
   },
   "image/apng": {
     "compressible": false,
-    "extensions": ["apng"],
     "sources": [
       "https://wiki.mozilla.org/APNG_Specification",
       "https://en.wikipedia.org/wiki/APNG"
