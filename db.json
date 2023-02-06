@@ -1045,7 +1045,7 @@
   },
   "application/mp4": {
     "source": "iana",
-    "extensions": ["mp4s","m4p"]
+    "extensions": ["mp4","mpg4","mp4s","m4p"]
   },
   "application/mpeg4-generic": {
     "source": "iana"

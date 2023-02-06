@@ -1436,6 +1436,7 @@
     ]
   },
   "application/mp4": {
+    "extensions": ["mp4","mpg4"],
     "sources": [
       "https://tools.ietf.org/rfc/rfc4337.txt",
       "https://tools.ietf.org/rfc/rfc6381.txt",

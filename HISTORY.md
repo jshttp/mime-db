@@ -4,6 +4,7 @@ unreleased
   * Add extension `.sql` to `application/sql`
   * Add extensions `.aac` and `.adts` to `audio/aac`
   * Add extensions `.js` and `.mjs` to `text/javascript`
+  * Add extensions for `application/mp4` from IANA
   * Add extensions from IANA for more MIME types
   * Add Microsoft app installer types and extensions
   * Add new upstream MIME types
