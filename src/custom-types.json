@@ -861,6 +861,14 @@
       "https://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
     ]
   },
+  "text/x-component": {
+    "compressible": true,
+    "sources": [
+      "https://learn.microsoft.com/en-us/previous-versions//ms531018(v=vs.85)",
+      "https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/bb742440(v=technet.10)",
+      "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/ServingCompressedFiles.html"
+    ]
+  },
   "text/x-gwt-rpc": {
     "compressible": true
   },
