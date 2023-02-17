@@ -2828,6 +2828,16 @@
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.s1ap"
     ]
   },
+  "application/vnd.3gpp.seal-info+xml": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-info+xml"
+    ]
+  },
+  "application/vnd.3gpp.seal-location-info+xml": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-location-info+xml"
+    ]
+  },
   "application/vnd.3gpp.sms": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.sms"
@@ -2856,6 +2866,11 @@
   "application/vnd.3gpp.ussd+xml": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.ussd+xml"
+    ]
+  },
+  "application/vnd.3gpp.vae-info+xml": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.3gpp.vae-info+xml"
     ]
   },
   "application/vnd.3gpp2.bcmcsinfo+xml": {
@@ -3899,6 +3914,11 @@
       "https://www.iana.org/assignments/media-types/application/vnd.efi.iso"
     ]
   },
+  "application/vnd.eln+zip": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.eln+zip"
+    ]
+  },
   "application/vnd.emclient.accessrequest+xml": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.emclient.accessrequest+xml"
@@ -4432,6 +4452,11 @@
       "https://www.iana.org/assignments/media-types/application/vnd.gov.sk.xmldatacontainer+xml"
     ]
   },
+  "application/vnd.gpxsee.map+xml": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.gpxsee.map+xml"
+    ]
+  },
   "application/vnd.grafeq": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.grafeq"
@@ -4552,6 +4577,11 @@
   "application/vnd.hp-pclxl": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.hp-PCLXL"
+    ]
+  },
+  "application/vnd.hsl": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.hsl"
     ]
   },
   "application/vnd.httphone": {
@@ -7041,6 +7071,11 @@
   "application/vnd.smart.teacher": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.smart.teacher"
+    ]
+  },
+  "application/vnd.smintio.portals.archive": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.smintio.portals.archive"
     ]
   },
   "application/vnd.snesdev-page-table": {

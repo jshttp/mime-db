@@ -2036,6 +2036,14 @@
   "application/vnd.3gpp.s1ap": {
     "source": "iana"
   },
+  "application/vnd.3gpp.seal-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.seal-location-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.3gpp.sms": {
     "source": "iana"
   },
@@ -2056,6 +2064,10 @@
     "compressible": true
   },
   "application/vnd.3gpp.ussd+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.vae-info+xml": {
     "source": "iana",
     "compressible": true
   },
@@ -2838,6 +2850,10 @@
   "application/vnd.efi.iso": {
     "source": "iana"
   },
+  "application/vnd.eln+zip": {
+    "source": "iana",
+    "compressible": false
+  },
   "application/vnd.emclient.accessrequest+xml": {
     "source": "iana",
     "compressible": true
@@ -3261,6 +3277,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.gpxsee.map+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.grafeq": {
     "source": "iana",
     "extensions": ["gqf","gqs"]
@@ -3355,6 +3375,9 @@
   "application/vnd.hp-pclxl": {
     "source": "iana",
     "extensions": ["pclxl"]
+  },
+  "application/vnd.hsl": {
+    "source": "iana"
   },
   "application/vnd.httphone": {
     "source": "iana"
@@ -5259,6 +5282,9 @@
   "application/vnd.smart.teacher": {
     "source": "iana",
     "extensions": ["teacher"]
+  },
+  "application/vnd.smintio.portals.archive": {
+    "source": "iana"
   },
   "application/vnd.snesdev-page-table": {
     "source": "iana"
