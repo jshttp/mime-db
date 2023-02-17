@@ -513,6 +513,13 @@
   "application/zip": {
     "compressible": false
   },
+  "application/dicom": {
+    "source": [
+        "https://en.wikipedia.org/wiki/DICOM#"
+      ],
+    "compressible": true,
+    "extensions": ["dcm"]
+  },
   "audio/3gpp": {
     "compressible": false,
     "extensions": ["3gpp"]

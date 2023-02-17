@@ -451,9 +451,7 @@
     "compressible": true
   },
   "application/dicom": {
-    "source": "iana",
-    "compressible": true,
-    "extensions": ["dcm"]
+    "source": "iana"
   },
   "application/dicom+json": {
     "source": "iana",
