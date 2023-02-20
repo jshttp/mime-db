@@ -515,9 +515,8 @@
   },
   "application/dicom": {
     "source": [
-        "https://en.wikipedia.org/wiki/DICOM#"
+        "https://en.wikipedia.org/wiki/DICOM"
       ],
-    "compressible": true,
     "extensions": ["dcm"]
   },
   "audio/3gpp": {
