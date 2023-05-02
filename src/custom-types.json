@@ -635,7 +635,7 @@
   },
   "image/jpeg": {
     "compressible": false,
-    "extensions": ["jpe", "jif", "jfif"],
+    "extensions": ["jif", "jfif"],
     "sources": [
       "https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types#jpeg_joint_photographic_experts_group_image"
     ]
