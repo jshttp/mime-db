@@ -723,6 +723,9 @@
   "model/mesh": {
     "compressible": false
   },
+  "model/step": {
+    "extensions": ["step", "stp", "stpnc", "p21", "210"]
+  },
   "model/vrml": {
     "compressible": false
   },
