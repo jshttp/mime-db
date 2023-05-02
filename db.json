@@ -7763,8 +7763,7 @@
     "extensions": ["prc"]
   },
   "model/step": {
-    "source": "iana",
-    "extensions": ["step", "stp", "stpnc", "p21", "210"]
+    "source": "iana"
   },
   "model/step+xml": {
     "source": "iana",
