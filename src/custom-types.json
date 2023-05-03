@@ -725,7 +725,7 @@
   },
   "model/step": {
     "extensions": ["step", "stp", "stpnc", "p21", "210"],
-    "3D model format. Used in CAD.",
+    "notes": "3D model format. Used in CAD.",
     "sources": [
       "https://www.iana.org/assignments/media-types/model/step"
     ]
