@@ -605,6 +605,7 @@
     ]
   },
   "application/dicom": {
+    "extensions": ["dcm"],
     "sources": [
       "https://tools.ietf.org/rfc/rfc3240.txt",
       "https://www.iana.org/assignments/media-types/application/dicom"
