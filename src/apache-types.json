@@ -527,6 +527,9 @@
   "application/tamp-status-response": {},
   "application/tamp-update": {},
   "application/tamp-update-confirm": {},
+  "application/tar+gzip": {
+    "extensions": ["tar.gz", "tgz"]
+  },
   "application/tei+xml": {
     "extensions": ["tei","teicorpus"]
   },
