@@ -51,7 +51,7 @@
     "index.mjs"
   ],
   "engines": {
-    "node": "18 || 20"
+    "node": ">= 0.6"
   },
   "scripts": {
     "build": "node scripts/build",
