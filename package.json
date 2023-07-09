@@ -4,6 +4,13 @@
   "version": "1.52.0",
   "main": "index.js",
   "module": "index.mjs",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.mjs"
+    }
+  },
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
