@@ -1,0 +1,18 @@
+name: esm ci
+
+on:
+  - pull_request
+  - push
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        version: [16.14, 18, 20]
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.version }}
+      - run: node test/esm.mjs
