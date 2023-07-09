@@ -56,8 +56,7 @@ test("should have guessed application/mathml+xml", () => {
 })
 
 test("should not have an empty .extensions", () => {
-  assert(Object.keys(db).every((name) => {
-    var mime = db[name]
+  assert(Object.entries(db).every((mime) => {
     if (!mime.extensions) return true
     return mime.extensions.length
   }))
