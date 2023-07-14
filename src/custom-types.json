@@ -684,7 +684,7 @@
   },
   "image/x-icon": {
     "compressible": true,
-    "notes": "Usually a wrapper for .bmp formated images.",
+    "notes": "Usually a wrapper for .bmp formatted images.",
     "sources": [
       "http://en.wikipedia.org/wiki/ICO_(file_format)"
     ]
