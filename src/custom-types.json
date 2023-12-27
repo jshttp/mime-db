@@ -210,7 +210,7 @@
     "compressible": false,
     "extensions": ["gdoc"],
     "sources": [
-      "https://developers.google.com/drive/v2/web/mime-types",
+      "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
@@ -218,7 +218,7 @@
     "compressible": false,
     "extensions": ["gslides"],
     "sources": [
-      "https://developers.google.com/drive/v2/web/mime-types",
+      "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
@@ -226,7 +226,7 @@
     "compressible": false,
     "extensions": ["gsheet"],
     "sources": [
-      "https://developers.google.com/drive/v2/web/mime-types",
+      "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
