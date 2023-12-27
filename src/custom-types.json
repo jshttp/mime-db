@@ -207,7 +207,6 @@
     "compressible": true
   },
   "application/vnd.google-apps.audio": {
-    "compressible": false,
     "sources": [
       "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
@@ -237,7 +236,6 @@
     ]
   },
   "application/vnd.google-apps.file": {
-    "compressible": false,
     "sources": [
       "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
@@ -259,7 +257,6 @@
     ]
   },
   "application/vnd.google-apps.fusiontable": {
-    "compressible": false,
     "sources": [
       "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
@@ -274,7 +271,6 @@
     ]
   },
   "application/vnd.google-apps.mail-layout": {
-    "compressible": false,
     "sources": [
       "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
@@ -289,7 +285,6 @@
     ]
   },
   "application/vnd.google-apps.photo": {
-    "compressible": false,
     "sources": [
       "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
@@ -312,7 +307,6 @@
     ]
   },
   "application/vnd.google-apps.shortcut": {
-    "compressible": false,
     "sources": [
       "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
@@ -335,14 +329,12 @@
     ]
   },
   "application/vnd.google-apps.unknown": {
-    "compressible": false,
     "sources": [
       "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
   "application/vnd.google-apps.video": {
-    "compressible": false,
     "sources": [
       "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
