@@ -99,6 +99,14 @@
     "source": "iana",
     "compressible": true
   },
+  "application/alto-tips+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/alto-tipsparams+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/alto-updatestreamcontrol+json": {
     "source": "iana",
     "compressible": true
@@ -220,6 +228,9 @@
     "charset": "UTF-8",
     "compressible": true
   },
+  "application/c2pa": {
+    "source": "iana"
+  },
   "application/calendar+json": {
     "source": "iana",
     "compressible": true
@@ -302,6 +313,9 @@
     "compressible": true
   },
   "application/cfw": {
+    "source": "iana"
+  },
+  "application/cid-edhoc+cbor-seq": {
     "source": "iana"
   },
   "application/city+json": {
@@ -462,6 +476,9 @@
   "application/dots+cbor": {
     "source": "iana"
   },
+  "application/dpop+jwt": {
+    "source": "iana"
+  },
   "application/dskpp+xml": {
     "source": "iana",
     "compressible": true
@@ -482,6 +499,9 @@
     "source": "apache",
     "compressible": true,
     "extensions": ["ecma"]
+  },
+  "application/edhoc+cbor-seq": {
+    "source": "iana"
   },
   "application/edi-consent": {
     "source": "iana"
@@ -643,6 +663,10 @@
   "application/geopackage+sqlite3": {
     "source": "iana"
   },
+  "application/geoxacml+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/geoxacml+xml": {
     "source": "iana",
     "compressible": true
@@ -749,7 +773,7 @@
     "extensions": ["its"]
   },
   "application/java-archive": {
-    "source": "apache",
+    "source": "iana",
     "compressible": false,
     "extensions": ["jar","war","ear"]
   },
@@ -788,6 +812,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/jscontact+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/json": {
     "source": "iana",
     "charset": "UTF-8",
@@ -808,6 +836,9 @@
     "source": "apache",
     "compressible": true,
     "extensions": ["jsonml"]
+  },
+  "application/jsonpath": {
+    "source": "iana"
   },
   "application/jwk+json": {
     "source": "iana",
@@ -1169,6 +1200,9 @@
     "compressible": false,
     "extensions": ["ogx"]
   },
+  "application/ohttp-keys": {
+    "source": "iana"
+  },
   "application/omdoc+xml": {
     "source": "apache",
     "compressible": true,
@@ -1311,6 +1345,15 @@
     "source": "iana",
     "compressible": true
   },
+  "application/private-token-issuer-directory": {
+    "source": "iana"
+  },
+  "application/private-token-request": {
+    "source": "iana"
+  },
+  "application/private-token-response": {
+    "source": "iana"
+  },
   "application/problem+json": {
     "source": "iana",
     "compressible": true
@@ -1339,6 +1382,26 @@
     "source": "iana",
     "compressible": false
   },
+  "application/prs.implied-document+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/prs.implied-executable": {
+    "source": "iana"
+  },
+  "application/prs.implied-object+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/prs.implied-object+json-seq": {
+    "source": "iana"
+  },
+  "application/prs.implied-object+yaml": {
+    "source": "iana"
+  },
+  "application/prs.implied-structure": {
+    "source": "iana"
+  },
   "application/prs.nprend": {
     "source": "iana"
   },
@@ -1346,6 +1409,9 @@
     "source": "iana"
   },
   "application/prs.rdf-xml-crypt": {
+    "source": "iana"
+  },
+  "application/prs.vcfbzip2": {
     "source": "iana"
   },
   "application/prs.xsf+xml": {
@@ -1855,6 +1921,9 @@
     "compressible": true,
     "extensions": ["1km"]
   },
+  "application/vnd.1ob": {
+    "source": "iana"
+  },
   "application/vnd.3gpp-prose+xml": {
     "source": "iana",
     "compressible": true
@@ -1886,6 +1955,14 @@
     "compressible": true
   },
   "application/vnd.3gpp.bsf+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.crs+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.current-location-discovery+xml": {
     "source": "iana",
     "compressible": true
   },
@@ -1959,6 +2036,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.3gpp.mcptt-regroup+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.3gpp.mcptt-service-config+xml": {
     "source": "iana",
     "compressible": true
@@ -1992,6 +2073,10 @@
     "compressible": true
   },
   "application/vnd.3gpp.mcvideo-mbms-usage-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.mcvideo-regroup+xml": {
     "source": "iana",
     "compressible": true
   },
@@ -2036,11 +2121,35 @@
   "application/vnd.3gpp.s1ap": {
     "source": "iana"
   },
+  "application/vnd.3gpp.seal-group-doc+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.3gpp.seal-info+xml": {
     "source": "iana",
     "compressible": true
   },
   "application/vnd.3gpp.seal-location-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.seal-mbms-usage-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.seal-network-qos-management-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.seal-ue-config-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.seal-unicast-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.seal-user-profile-info+xml": {
     "source": "iana",
     "compressible": true
   },
@@ -2066,6 +2175,9 @@
   "application/vnd.3gpp.ussd+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.3gpp.v2x": {
+    "source": "iana"
   },
   "application/vnd.3gpp.vae-info+xml": {
     "source": "iana",
@@ -2096,6 +2208,14 @@
   "application/vnd.accpac.simply.imp": {
     "source": "iana",
     "extensions": ["imp"]
+  },
+  "application/vnd.acm.addressxfer+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.acm.chatbot+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.acucobol": {
     "source": "iana",
@@ -2399,6 +2519,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.bzip3": {
+    "source": "iana"
+  },
   "application/vnd.cab-jscript": {
     "source": "iana"
   },
@@ -2470,6 +2593,10 @@
   },
   "application/vnd.cncf.helm.chart.provenance.v1.prov": {
     "source": "iana"
+  },
+  "application/vnd.cncf.helm.config.v1+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.coffeescript": {
     "source": "iana"
@@ -2892,6 +3019,9 @@
   "application/vnd.ericsson.quickcall": {
     "source": "iana"
   },
+  "application/vnd.erofs": {
+    "source": "iana"
+  },
   "application/vnd.espass-espass+zip": {
     "source": "iana",
     "compressible": false
@@ -3070,6 +3200,9 @@
     "source": "iana",
     "extensions": ["fm","frame","maker","book"]
   },
+  "application/vnd.freelog.comic": {
+    "source": "iana"
+  },
   "application/vnd.frogans.fnc": {
     "source": "apache",
     "extensions": ["fnc"]
@@ -3200,7 +3333,8 @@
     "extensions": ["ggb"]
   },
   "application/vnd.geogebra.slides": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["ggs"]
   },
   "application/vnd.geogebra.tool": {
     "source": "iana",
@@ -3266,7 +3400,7 @@
     "extensions": ["kmz"]
   },
   "application/vnd.gov.sk.e-form+xml": {
-    "source": "iana",
+    "source": "apache",
     "compressible": true
   },
   "application/vnd.gov.sk.e-form+zip": {
@@ -3275,7 +3409,8 @@
   },
   "application/vnd.gov.sk.xmldatacontainer+xml": {
     "source": "iana",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["xdcf"]
   },
   "application/vnd.gpxsee.map+xml": {
     "source": "iana",
@@ -3526,6 +3661,9 @@
     "source": "iana",
     "extensions": ["qfx"]
   },
+  "application/vnd.ipfs.ipns-record": {
+    "source": "iana"
+  },
   "application/vnd.ipld.car": {
     "source": "iana"
   },
@@ -3701,6 +3839,9 @@
   "application/vnd.laszip": {
     "source": "iana"
   },
+  "application/vnd.ldev.productlicensing": {
+    "source": "iana"
+  },
   "application/vnd.leap+json": {
     "source": "iana",
     "compressible": true
@@ -3791,6 +3932,12 @@
     "source": "iana",
     "extensions": ["mcd"]
   },
+  "application/vnd.mdl": {
+    "source": "iana"
+  },
+  "application/vnd.mdl-mbsdf": {
+    "source": "iana"
+  },
   "application/vnd.medcalcdata": {
     "source": "iana",
     "extensions": ["mc1"]
@@ -3803,6 +3950,9 @@
     "source": "iana"
   },
   "application/vnd.meridian-slingshot": {
+    "source": "iana"
+  },
+  "application/vnd.mermaid": {
     "source": "iana"
   },
   "application/vnd.mfer": {
@@ -3872,6 +4022,9 @@
   "application/vnd.mobius.txf": {
     "source": "iana",
     "extensions": ["txf"]
+  },
+  "application/vnd.modl": {
+    "source": "iana"
   },
   "application/vnd.mophun.application": {
     "source": "iana",
@@ -4120,6 +4273,22 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.nato.bindingdataobject+cbor": {
+    "source": "iana"
+  },
+  "application/vnd.nato.bindingdataobject+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.nato.bindingdataobject+xml": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["bdo"]
+  },
+  "application/vnd.nato.openxmlformats-package.iepd+zip": {
+    "source": "iana",
+    "compressible": false
+  },
   "application/vnd.ncd.control": {
     "source": "iana"
   },
@@ -4254,6 +4423,16 @@
   "application/vnd.ntt-local.sip-ta_tcp_stream": {
     "source": "iana"
   },
+  "application/vnd.oai.workflows": {
+    "source": "iana"
+  },
+  "application/vnd.oai.workflows+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.oai.workflows+yaml": {
+    "source": "iana"
+  },
   "application/vnd.oasis.opendocument.base": {
     "source": "iana"
   },
@@ -4320,6 +4499,9 @@
   "application/vnd.oasis.opendocument.text-master": {
     "source": "iana",
     "extensions": ["odm"]
+  },
+  "application/vnd.oasis.opendocument.text-master-template": {
+    "source": "iana"
   },
   "application/vnd.oasis.opendocument.text-template": {
     "source": "iana",
@@ -5007,6 +5189,9 @@
   "application/vnd.psfs": {
     "source": "iana"
   },
+  "application/vnd.pt.mundusmundi": {
+    "source": "iana"
+  },
   "application/vnd.publishare-delta-tree": {
     "source": "iana",
     "extensions": ["qps"]
@@ -5118,6 +5303,9 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["musicxml"]
+  },
+  "application/vnd.relpipe": {
+    "source": "iana"
   },
   "application/vnd.renlearn.rlprint": {
     "source": "iana"
@@ -5717,6 +5905,9 @@
   "application/vnd.xara": {
     "source": "iana",
     "extensions": ["xar"]
+  },
+  "application/vnd.xecrets-encrypted": {
+    "source": "iana"
   },
   "application/vnd.xfdl": {
     "source": "iana",
@@ -6543,6 +6734,9 @@
     "compressible": true,
     "extensions": ["mxml","xhvml","xvml","xvm"]
   },
+  "application/yaml": {
+    "source": "iana"
+  },
   "application/yang": {
     "source": "iana",
     "extensions": ["yang"]
@@ -6563,6 +6757,10 @@
     "compressible": true
   },
   "application/yang-patch+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/yang-sid+json": {
     "source": "iana",
     "compressible": true
   },
@@ -6801,6 +6999,9 @@
     "source": "iana"
   },
   "audio/lpc": {
+    "source": "iana"
+  },
+  "audio/matroska": {
     "source": "iana"
   },
   "audio/melp": {
@@ -7321,6 +7522,9 @@
     "source": "iana",
     "extensions": ["ief"]
   },
+  "image/j2c": {
+    "source": "iana"
+  },
   "image/jls": {
     "source": "iana",
     "extensions": ["jls"]
@@ -7688,8 +7892,17 @@
     "source": "iana",
     "compressible": true
   },
+  "message/mls": {
+    "source": "iana"
+  },
   "message/news": {
     "source": "apache"
+  },
+  "message/ohttp-req": {
+    "source": "iana"
+  },
+  "message/ohttp-res": {
+    "source": "iana"
   },
   "message/partial": {
     "source": "iana",
@@ -7787,6 +8000,10 @@
   "model/u3d": {
     "source": "iana",
     "extensions": ["u3d"]
+  },
+  "model/vnd.bary": {
+    "source": "iana",
+    "extensions": ["bary"]
   },
   "model/vnd.cld": {
     "source": "iana",
@@ -8095,6 +8312,9 @@
     "extensions": ["dsc"]
   },
   "text/prs.prop.logic": {
+    "source": "iana"
+  },
+  "text/prs.texi": {
     "source": "iana"
   },
   "text/raptorfec": {
@@ -8451,6 +8671,9 @@
   "video/encaprtp": {
     "source": "iana"
   },
+  "video/evc": {
+    "source": "iana"
+  },
   "video/ffv1": {
     "source": "iana"
   },
@@ -8505,6 +8728,12 @@
   "video/jxsv": {
     "source": "iana"
   },
+  "video/matroska": {
+    "source": "iana"
+  },
+  "video/matroska-3d": {
+    "source": "iana"
+  },
   "video/mj2": {
     "source": "iana",
     "extensions": ["mj2","mjp2"]
@@ -8517,7 +8746,7 @@
   },
   "video/mp2t": {
     "source": "iana",
-    "extensions": ["ts"]
+    "extensions": ["ts","m2t","m2ts","mts"]
   },
   "video/mp4": {
     "source": "iana",
