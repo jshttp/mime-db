@@ -10,3 +10,7 @@
  */
 
 module.exports = require('./db.json')
+
+Object.defineProperty(module.exports, 'extension', {
+  value: require('./db-ext.json')
+})
