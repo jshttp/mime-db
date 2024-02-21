@@ -2,9 +2,6 @@
   "application/atom+xml": {
     "extensions": ["atom"]
   },
-  "application/font-woff": {
-    "extensions": ["woff"]
-  },
   "application/java-archive": {
     "extensions": ["jar","war","ear"]
   },
@@ -53,6 +50,18 @@
   "application/vnd.ms-powerpoint": {
     "extensions": ["ppt"]
   },
+  "application/vnd.oasis.opendocument.graphics": {
+    "extensions": ["odg"]
+  },
+  "application/vnd.oasis.opendocument.presentation": {
+    "extensions": ["odp"]
+  },
+  "application/vnd.oasis.opendocument.spreadsheet": {
+    "extensions": ["ods"]
+  },
+  "application/vnd.oasis.opendocument.text": {
+    "extensions": ["odt"]
+  },
   "application/vnd.openxmlformats-officedocument.presentationml.presentation": {
     "extensions": ["pptx"]
   },
@@ -64,6 +73,9 @@
   },
   "application/vnd.wap.wmlc": {
     "extensions": ["wmlc"]
+  },
+  "application/wasm": {
+    "extensions": ["wasm"]
   },
   "application/x-7z-compressed": {
     "extensions": ["7z"]
@@ -133,6 +145,15 @@
   },
   "audio/x-realaudio": {
     "extensions": ["ra"]
+  },
+  "font/woff": {
+    "extensions": ["woff"]
+  },
+  "font/woff2": {
+    "extensions": ["woff2"]
+  },
+  "image/avif": {
+    "extensions": ["avif"]
   },
   "image/gif": {
     "extensions": ["gif"]

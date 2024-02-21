@@ -2,5 +2,13 @@
   "+json": {
     "compressible": true,
     "notes": "+json means it is JSON, which is compressible."
+  },
+  "+xml": {
+    "compressible": true,
+    "notes": "+xml means it is XML, which is compressible."
+  },
+  "+zip": {
+    "compressible": false,
+    "notes": "+zip means it is a ZIP archive, which is not compressible."
   }
 }

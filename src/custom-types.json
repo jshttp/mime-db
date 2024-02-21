@@ -1,8 +1,23 @@
 {
-  "application/atom+xml": {
-    "compressible": true,
+  "application/appinstaller": {
+    "compressible": false,
+    "extensions": ["appinstaller"],
     "sources": [
-      "http://en.wikipedia.org/wiki/Atom_(standard)"
+      "https://learn.microsoft.com/en-us/windows/msix/app-installer/installing-windows10-apps-web"
+    ]
+  },
+  "application/appx": {
+    "compressible": false,
+    "extensions": ["appx"],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/msix/app-installer/installing-windows10-apps-web"
+    ]
+  },
+  "application/appxbundle": {
+    "compressible": false,
+    "extensions": ["appxbundle"],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/msix/app-installer/installing-windows10-apps-web"
     ]
   },
   "application/bdoc": {
@@ -17,14 +32,12 @@
   "application/dart": {
     "compressible": true
   },
-  "application/dash+xml": {
-    "extensions": ["mpd"],
-    "sources": [
-      "https://www.iana.org/assignments/media-types/application/dash+xml"
-    ]
-  },
   "application/ecmascript": {
-    "compressible": true
+    "compressible": true,
+    "sources": [
+      "https://tools.ietf.org/rfc/rfc4329.txt",
+      "https://www.iana.org/assignments/media-types/application/ecmascript"
+    ]
   },
   "application/edi-x12": {
     "compressible": false
@@ -32,23 +45,33 @@
   "application/edifact": {
     "compressible": false
   },
+  "application/fido.trusted-apps+json": {
+    "sources": [
+      "https://fidoalliance.org/specs/fido-u2f-v1.0-ps-20141009/fido-appid-and-facets-ps-20141009.html"
+    ]
+  },
   "application/font-woff": {
     "compressible": false,
+    "notes": "File type is already a binary compressed format.",
     "sources": [
       "https://github.com/h5bp/server-configs-apache/issues/42"
-    ],
-    "notes": "File type is already a binary compressed format."
+    ]
   },
-  "application/font-woff2": {
-    "compressible": false,
-    "extensions": ["woff2"],
+  "application/geo+json": {
+    "extensions": ["geojson"],
     "sources": [
-      "http://dev.w3.org/webfonts/WOFF2/spec/#IMT"
-    ],
-    "notes": "File type is already a binary compressed format."
+      "https://tools.ietf.org/rfc/rfc7946.txt",
+      "https://www.iana.org/assignments/media-types/application/geo+json"
+    ]
   },
   "application/gzip": {
     "compressible": false
+  },
+  "application/hjson": {
+    "extensions": ["hjson"],
+    "sources": [
+      "https://hjson.org/rfc.html#rfc.section.1.3"
+    ]
   },
   "application/java-archive": {
     "compressible": false
@@ -71,13 +94,8 @@
   "application/json5": {
     "extensions": ["json5"]
   },
-  "application/ld+json": {
-    "extensions": ["jsonld"]
-  },
   "application/manifest+json": {
     "charset": "UTF-8",
-    "compressible": true,
-    "extensions": ["webmanifest"],
     "sources": [
       "http://w3c.github.io/manifest/#h-media-type-registration"
     ]
@@ -85,8 +103,28 @@
   "application/mp4": {
     "extensions": ["m4p"]
   },
+  "application/msix": {
+    "compressible": false,
+    "extensions": ["msix"],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/msix/app-installer/installing-windows10-apps-web"
+    ]
+  },
+  "application/msixbundle": {
+    "compressible": false,
+    "extensions": ["msixbundle"],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/msix/app-installer/installing-windows10-apps-web"
+    ]
+  },
   "application/msword": {
     "compressible": false
+  },
+  "application/node": {
+    "extensions": ["cjs"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/node"
+    ]
   },
   "application/octet-stream": {
     "compressible": false,
@@ -104,29 +142,56 @@
   "application/pgp-encrypted": {
     "compressible": false
   },
+  "application/pgp-keys": {
+    "extensions": ["asc"],
+    "sources": [
+      "http://www.iana.org/assignments/media-types/application/pgp-keys"
+    ]
+  },
   "application/postscript": {
     "compressible": true
   },
-  "application/rdf+xml": {
+  "application/raml+yaml": {
     "compressible": true,
+    "extensions": ["raml"],
     "sources": [
-      "http://en.wikipedia.org/wiki/RDF/XML"
+      "http://raml.org/spec.html"
     ]
   },
-  "application/rss+xml": {
-    "compressible": true
+  "application/rdf+xml": {
+    "compressible": true,
+    "extensions": ["owl"],
+    "notes": "OWL 1 recommends using '.rdf' or '.owl' as extensions under the 'application/rdf+xml' mime type",
+    "sources": [
+      "https://www.w3.org/TR/owl-ref/#MIMEType"
+    ]
   },
   "application/rtf": {
     "compressible": true
   },
-  "application/soap+xml": {
-    "compressible": true,
+  "application/sieve": {
+    "extensions": ["siv","sieve"],
     "sources": [
-      "http://en.wikipedia.org/wiki/SOAP"
+      "https://tools.ietf.org/rfc/rfc5228.txt",
+      "https://www.iana.org/assignments/media-types/application/sieve"
     ]
   },
   "application/tar": {
     "compressible": true
+  },
+  "application/toml": {
+    "extensions": ["toml"],
+    "sources" : [
+      "https://github.com/toml-lang/toml"
+    ],
+    "compressible": true
+  },
+  "application/ubjson": {
+    "extensions": ["ubj"],
+    "sources" : [
+      "http://ubjson.org/"
+    ],
+    "compressible": false
   },
   "application/vnd.android.package-archive": {
     "compressible": false
@@ -135,7 +200,7 @@
     "compressible": false,
     "extensions": ["pkpass"],
     "sources": [
-      "https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/PassKit_PG/Chapters/Creating.html"
+      "https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/PassKit_PG/DistributingPasses.html"
     ]
   },
   "application/vnd.dart": {
@@ -148,15 +213,6 @@
       "https://developers.google.com/drive/v2/web/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
-  },
-  "application/vnd.google-earth.kml+xml": {
-    "compressible": true,
-    "sources": [
-      "https://developers.google.com/kml/documentation/kml_tut"
-    ]
-  },
-  "application/vnd.google-earth.kmz": {
-    "compressible": false
   },
   "application/vnd.google-apps.presentation": {
     "compressible": false,
@@ -174,11 +230,8 @@
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
-  "application/vnd.mozilla.xul+xml": {
-    "compressible": true,
-    "sources": [
-      "http://en.wikipedia.org/wiki/XUL"
-    ]
+  "application/vnd.google-earth.kmz": {
+    "compressible": false
   },
   "application/vnd.ms-excel": {
     "compressible": false
@@ -194,6 +247,10 @@
     "sources": [
       "http://www.phpied.com/gzip-your-font-face-files/"
     ]
+  },
+  "application/vnd.ms-outlook": {
+    "compressible": false,
+    "extensions": ["msg"]
   },
   "application/vnd.ms-powerpoint": {
     "compressible": false
@@ -225,8 +282,22 @@
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {
     "compressible": false
   },
+  "application/wasm": {
+    "compressible": true,
+    "sources": [
+      "https://webassembly.github.io/spec/core/binary/conventions.html"
+    ]
+  },
   "application/x-7z-compressed": {
     "compressible": false
+  },
+  "application/x-arj": {
+    "compressible": false,
+    "extensions": ["arj"],
+    "notes": "No registered type, so using type from Linux file(1)",
+    "sources": [
+      "https://github.com/file/file/blob/daaf6d44768677aca17af780bba0a451fbb69ac8/magic/Magdir/archive"
+    ]
   },
   "application/x-bdoc": {
     "compressible": false,
@@ -252,18 +323,6 @@
   "application/x-dvi": {
     "compressible": false
   },
-  "application/x-font-otf": {
-    "compressible": true,
-    "sources": [
-      "http://www.phpied.com/gzip-your-font-face-files/"
-    ]
-  },
-  "application/x-font-ttf": {
-    "compressible": true,
-    "sources": [
-      "http://www.phpied.com/gzip-your-font-face-files/"
-    ]
-  },
   "application/x-httpd-php": {
     "compressible": true,
     "extensions": ["php"],
@@ -271,11 +330,38 @@
       "http://php.net/manual/en/faq.installation.php"
     ]
   },
+  "application/x-iwork-keynote-sffkey": {
+    "extensions": ["key"],
+    "notes": "Deprecated alias for iWorks Keynote file",
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.apple.keynote"
+    ]
+  },
+  "application/x-iwork-numbers-sffnumbers": {
+    "extensions": ["numbers"],
+    "notes": "Deprecated alias for iWorks Numbers file",
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.apple.numbers"
+    ]
+  },
+  "application/x-iwork-pages-sffpages": {
+    "extensions": ["pages"],
+    "notes": "Deprecated alias for iWorks Pages file",
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.apple.pages"
+    ]
+  },
   "application/x-java-jnlp-file": {
     "compressible": false
   },
   "application/x-javascript": {
     "compressible": true
+  },
+  "application/x-keepass2": {
+    "extensions": ["kdbx"],
+    "sources": [
+      "https://github.com/keepassx/keepassx/blob/master/share/linux/keepassx.xml"
+    ]
   },
   "application/x-latex": {
     "compressible": false
@@ -318,6 +404,78 @@
   "application/x-tar": {
     "compressible": true
   },
+  "application/x-virtualbox-hdd": {
+    "compressible": true,
+    "extensions": ["hdd"],
+    "notes": "Parallels Hard Disk Image",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-ova": {
+    "compressible": true,
+    "extensions": ["ova"],
+    "notes": "Open Virtualization Format (OVF) Archive",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-ovf": {
+    "compressible": true,
+    "extensions": ["ovf"],
+    "notes": "Open Virtualization Format (OVF) Image",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-vbox": {
+    "compressible": true,
+    "extensions": ["vbox"],
+    "notes": "VirtualBox Settings File",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-vbox-extpack": {
+    "compressible": false,
+    "extensions": ["vbox-extpack"],
+    "notes": "VirtualBox Extension Pack",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-vdi": {
+    "compressible": true,
+    "extensions": ["vdi"],
+    "notes": "VirtualBox Disk Image",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-vhd": {
+    "compressible": true,
+    "extensions": ["vhd"],
+    "notes": "Microsoft Virtual Hard Disk",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
+  "application/x-virtualbox-vmdk": {
+    "compressible": true,
+    "extensions": ["vmdk"],
+    "notes": "VMWare Virtual Machine Disk",
+    "sources": [
+      "https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/solaris/virtualbox.keys",
+      "https://github.com/VirtualMonitor/VirtualMonitor/blob/master/src/VBox/Installer/common/virtualbox.xml"
+    ]
+  },
   "application/x-web-app-manifest+json": {
     "extensions": ["webapp"]
   },
@@ -327,12 +485,9 @@
   "application/x-xpinstall": {
     "compressible": false
   },
-  "application/xhtml+xml": {
-    "compressible": true
-  },
   "application/xml": {
     "compressible": true,
-    "extensions": ["xsd", "rng"],
+    "extensions": ["xsd","rng"],
     "sources": [
       "http://en.wikipedia.org/wiki/RELAX_NG"
     ]
@@ -343,20 +498,23 @@
       "http://en.wikipedia.org/wiki/Document_type_definition"
     ]
   },
-  "application/xop+xml": {
-    "compressible": true
-  },
   "application/zip": {
-    "compressible": false
-  },
-  "audio/l24": {
     "compressible": false
   },
   "audio/3gpp": {
     "compressible": false,
     "extensions": ["3gpp"]
   },
+  "audio/amr": {
+    "extensions": ["amr"],
+    "sources": [
+      "https://tools.ietf.org/html/rfc4867"
+    ]
+  },
   "audio/basic": {
+    "compressible": false
+  },
+  "audio/l24": {
     "compressible": false
   },
   "audio/mp3": {
@@ -376,14 +534,6 @@
   "audio/ogg": {
     "compressible": false
   },
-  "audio/wav": {
-    "compressible": false,
-    "extensions": ["wav"]
-  },
-  "audio/wave": {
-    "compressible": false,
-    "extensions": ["wav"]
-  },
   "audio/vnd.rn-realaudio": {
     "compressible": false
   },
@@ -392,6 +542,14 @@
   },
   "audio/vorbis": {
     "compressible": false
+  },
+  "audio/wav": {
+    "compressible": false,
+    "extensions": ["wav"]
+  },
+  "audio/wave": {
+    "compressible": false,
+    "extensions": ["wav"]
   },
   "audio/webm": {
     "compressible": false
@@ -402,12 +560,34 @@
   "audio/x-caf": {
     "compressible": false
   },
-  "font/opentype": {
+  "font/otf": {
     "compressible": true,
-    "extensions": ["otf"],
     "sources": [
+      "https://www.iana.org/assignments/media-types/font/otf",
       "http://www.phpied.com/gzip-your-font-face-files/"
     ]
+  },
+  "font/ttf": {
+    "compressible": true,
+    "sources": [
+      "https://www.iana.org/assignments/media-types/font/ttf",
+      "http://www.phpied.com/gzip-your-font-face-files/"
+    ]
+  },
+  "image/apng": {
+    "compressible": false,
+    "sources": [
+      "https://wiki.mozilla.org/APNG_Specification",
+      "https://en.wikipedia.org/wiki/APNG"
+    ]
+  },
+  "image/avif": {
+    "compressible": false,
+    "extensions": ["avif"],
+    "sources": [
+      "https://aomediacodec.github.io/av1-avif/"
+    ],
+    "notes": "The AV1 Image File Format (AVIF) is a specification for storing images or image sequences compressed with AV1 in the HEIF file format"
   },
   "image/bmp": {
     "compressible": true,
@@ -418,8 +598,58 @@
   "image/gif": {
     "compressible": false
   },
+  "image/heic": {
+    "extensions": ["heic"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/heic",
+      "http://nokiatech.github.io/heif/technical.html"
+    ]
+  },
+  "image/heic-sequence": {
+    "extensions": ["heics"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/heic-sequence",
+      "http://nokiatech.github.io/heif/technical.html"
+    ]
+  },
+  "image/heif": {
+    "extensions": ["heif"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/heif",
+      "http://nokiatech.github.io/heif/technical.html"
+    ]
+  },
+  "image/heif-sequence": {
+    "extensions": ["heifs"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/heif-sequence",
+      "http://nokiatech.github.io/heif/technical.html"
+    ]
+  },
+  "image/jp2": {
+    "compressible": false,
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/jp2",
+      "https://tools.ietf.org/html/rfc3745"
+    ]
+  },
   "image/jpeg": {
     "compressible": false
+  },
+  "image/jpm": {
+    "compressible": false,
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/jpm",
+      "https://tools.ietf.org/html/rfc3745"
+    ]
+  },
+  "image/jpx": {
+    "compressible": false,
+    "extensions": ["jpx","jpf"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/image/jpx",
+      "https://tools.ietf.org/html/rfc3745"
+    ]
   },
   "image/pjpeg": {
     "compressible": false
@@ -427,25 +657,37 @@
   "image/png": {
     "compressible": false
   },
-  "image/svg+xml": {
-    "compressible": true
-  },
   "image/tiff": {
     "compressible": false,
+    "notes": "Gains insignificant in testing.",
     "sources": [
       "http://stackoverflow.com/a/12770116"
-    ],
-    "notes": "Gains insignificant in testing."
+    ]
   },
   "image/vnd.adobe.photoshop": {
     "compressible": true
   },
-  "image/x-icon": {
+  "image/vnd.microsoft.icon": {
+    "notes": "Alias for image/x-icon which is compressible",
     "compressible": true,
     "sources": [
+      "https://www.iana.org/assignments/media-types/image/vnd.microsoft.icon"
+    ]
+  },
+  "image/vnd.ms-dds" : {
+    "compressible": true,
+    "extensions": ["dds"],
+    "notes": "Microsoft format for storing graphical textures and cubemaps. Used in 3d engines, such as Babylon.js.",
+    "sources": [
+      "https://docs.microsoft.com/en-us/windows/win32/wic/dds-format-overview"
+    ]
+  },
+  "image/x-icon": {
+    "compressible": true,
+    "notes": "Usually a wrapper for .bmp formated images.",
+    "sources": [
       "http://en.wikipedia.org/wiki/ICO_(file_format)"
-    ],
-    "notes": "Usually a wrapper for .bmp formated images."
+    ]
   },
   "image/x-ms-bmp": {
     "compressible": true,
@@ -458,15 +700,9 @@
   },
   "message/http": {
     "compressible": false,
+    "notes": "It is safest to leave these uncompressed.",
     "sources": [
       "http://stackoverflow.com/a/1450163"
-    ],
-    "notes": "It is safest to leave these uncompressed."
-  },
-  "message/imdn+xml": {
-    "compressible": true,
-    "sources": [
-      "http://tools.ietf.org/html/rfc5438"
     ]
   },
   "message/partial": {
@@ -477,6 +713,9 @@
     "sources": [
       "http://en.wikipedia.org/wiki/MIME#Multipart_subtypes"
     ]
+  },
+  "model/gltf-binary": {
+    "compressible": true
   },
   "model/iges": {
     "compressible": false
@@ -493,12 +732,6 @@
   "model/x3d+vrml": {
     "compressible": false
   },
-  "model/x3d+xml": {
-    "compressible": true,
-    "sources": [
-      "http://edutechwiki.unige.ch/en/X3D_file_structure"
-    ]
-  },
   "multipart/alternative": {
     "compressible": false
   },
@@ -506,9 +739,6 @@
     "compressible": false
   },
   "multipart/form-data": {
-    "compressible": false
-  },
-  "multipart/mixed": {
     "compressible": false
   },
   "multipart/related": {
@@ -520,32 +750,33 @@
   "text/cache-manifest": {
     "compressible": true,
     "extensions": ["manifest"],
+    "notes": "I think so.",
     "sources": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=715191#c2"
-    ],
-    "notes": "I think so."
+    ]
   },
   "text/calender": {
     "compressible": true,
+    "notes": "Probably needs to be uncompressed before sent to iCalender.",
     "sources": [
       "http://en.wikipedia.org/wiki/ICalendar"
-    ],
-    "notes": "Probably needs to be uncompressed before sent to iCalender."
+    ]
   },
   "text/cmd": {
     "compressible": true
   },
   "text/coffeescript": {
-    "extensions": ["coffee", "litcoffee"]
+    "extensions": ["coffee","litcoffee"]
   },
   "text/css": {
-    "compressible": true
+    "charset": "UTF-8",
+    "compressible": true,
+    "sources": [
+      "https://www.w3.org/TR/CSS22/syndata.html#charset"
+    ]
   },
   "text/csv": {
     "compressible": true
-  },
-  "text/hjson": {
-    "extensions": ["hjson"]
   },
   "text/html": {
     "compressible": true
@@ -554,7 +785,11 @@
     "extensions": ["jade"]
   },
   "text/javascript": {
-    "compressible": true
+    "charset": "UTF-8",
+    "compressible": true,
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc9239"
+    ]
   },
   "text/jsx": {
     "compressible": true,
@@ -564,7 +799,19 @@
     ]
   },
   "text/less": {
+    "compressible": true,
     "extensions": ["less"]
+  },
+  "text/markdown": {
+    "compressible": true
+  },
+  "text/mdx": {
+    "compressible": true,
+    "extensions": ["mdx"],
+    "notes": "JSX in Markdown",
+    "sources": [
+      "https://github.com/mdx-js/specification"
+    ]
   },
   "text/n3": {
     "compressible": true,
@@ -583,10 +830,16 @@
     "compressible": true,
     "extensions": ["rtf"]
   },
+  "text/shex": {
+    "extensions": ["shex"],
+    "sources": [
+      "http://shex.io/shex-semantics/"
+    ]
+  },
   "text/slim": {
     "extensions": ["slim","slm"],
     "sources": [
-       "http://slim-lang.com/"
+      "http://slim-lang.com/"
     ]
   },
   "text/stylus": {
@@ -604,9 +857,8 @@
   "text/vtt": {
     "charset": "UTF-8",
     "compressible": true,
-    "extensions": ["vtt"],
     "sources": [
-       "http://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
+      "https://tools.ietf.org/html/draft-pantos-http-live-streaming-13"
     ]
   },
   "text/x-gwt-rpc": {
@@ -623,7 +875,15 @@
   },
   "text/x-markdown": {
     "compressible": true,
-    "extensions": ["markdown","md","mkd"]
+    "extensions": ["mkd"]
+  },
+  "text/x-org": {
+    "compressible": true,
+    "extensions": ["org"],
+    "sources": [
+      "https://lists.gnu.org/archive/html/emacs-orgmode/2011-01/msg00971.html",
+      "http://orgmode.org"
+    ]
   },
   "text/x-processing": {
     "compressible": true,
@@ -650,10 +910,8 @@
     "compressible": true
   },
   "text/yaml": {
+    "compressible": true,
     "extensions": ["yaml","yml"]
-  },
-  "video/mp2t": {
-    "extensions": ["ts"]
   },
   "video/mp4": {
     "compressible": false

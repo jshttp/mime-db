@@ -1,7 +1,7 @@
 {
   "name": "mime-db",
   "description": "Media Type Database",
-  "version": "1.25.0",
+  "version": "1.52.0",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
@@ -19,18 +19,18 @@
   ],
   "repository": "jshttp/mime-db",
   "devDependencies": {
-    "bluebird": "3.4.6",
-    "co": "4.6.0",
-    "cogent": "1.0.1",
-    "csv-parse": "1.1.7",
-    "eslint": "3.9.1",
-    "eslint-config-standard": "6.2.1",
-    "eslint-plugin-promise": "3.3.0",
-    "eslint-plugin-standard": "2.0.1",
-    "gnode": "0.1.2",
-    "istanbul": "0.4.5",
-    "mocha": "1.21.5",
-    "raw-body": "2.1.7",
+    "csv-parse": "4.16.3",
+    "eslint": "8.32.0",
+    "eslint-config-standard": "15.0.1",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-markdown": "3.0.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-standard": "4.1.0",
+    "got": "11.8.6",
+    "media-typer": "1.1.0",
+    "mocha": "10.2.0",
+    "nyc": "15.1.0",
     "stream-to-array": "2.3.0"
   },
   "files": [
@@ -45,11 +45,12 @@
   },
   "scripts": {
     "build": "node scripts/build",
-    "fetch": "gnode scripts/fetch-apache && gnode scripts/fetch-iana && gnode scripts/fetch-nginx",
+    "fetch": "node scripts/fetch-apache && node scripts/fetch-iana && node scripts/fetch-nginx",
     "lint": "eslint .",
     "test": "mocha --reporter spec --bail --check-leaks test/",
-    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
-    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
-    "update": "npm run fetch && npm run build"
+    "test-ci": "nyc --reporter=lcovonly --reporter=text npm test",
+    "test-cov": "nyc --reporter=html --reporter=text npm test",
+    "update": "npm run fetch && npm run build",
+    "version": "node scripts/version-history.js && git add HISTORY.md"
   }
 }

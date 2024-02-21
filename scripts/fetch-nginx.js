@@ -1,12 +1,17 @@
+/*!
+ * mime-db
+ * Copyright(c) 2014 Jonathan Ong
+ * Copyright(c) 2015-2023 Douglas Christopher Wilson
+ * MIT Licensed
+ */
+
+'use strict'
 
 /**
  * Convert these text files to JSON for browser usage.
  */
 
-global.Promise = global.Promise || loadBluebird()
-
-var co = require('co')
-var cogent = require('cogent')
+var got = require('got')
 var writedb = require('./lib/write-db')
 
 /**
@@ -14,24 +19,25 @@ var writedb = require('./lib/write-db')
  *
  *   <type> <ext> <ext> <ext>;
  */
-var typeLineRegExp = /^\s*([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*);\s*$/gm
+var TYPE_LINE_REGEXP = /^\s*([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*);\s*$/gm
 
-co(function* () {
-  var url = 'http://hg.nginx.org/nginx/raw-file/default/conf/mime.types'
-  var res = yield * cogent(url, {
-    string: true
-  })
+/**
+ * URL for the mime.types file in the NGINX project source.
+ *
+ * This uses the Github.com mirror of the Mercurial repository
+ * as the Mercurial web interface requires cookies.
+ */
+var URL = 'https://raw.githubusercontent.com/nginx/nginx/master/conf/mime.types'
 
-  if (res.statusCode !== 200) {
-    throw new Error('got status code ' + res.statusCode + ' from ' + url)
-  }
+;(async function () {
+  const res = await got(URL)
 
   var json = {}
   var match = null
 
-  typeLineRegExp.index = 0
+  TYPE_LINE_REGEXP.index = 0
 
-  while ((match = typeLineRegExp.exec(res.text))) {
+  while ((match = TYPE_LINE_REGEXP.exec(res.body))) {
     var mime = match[1]
 
     // parse the extensions
@@ -45,7 +51,7 @@ co(function* () {
   }
 
   writedb('src/nginx-types.json', json)
-}).then()
+}())
 
 /**
  * Append an extension to an object.
@@ -74,18 +80,4 @@ function appendExtensions (obj, extensions) {
     // add extension to the type entry
     appendExtension(obj, extension)
   }
-}
-
-/**
- * Load the Bluebird promise.
- */
-function loadBluebird () {
-  var Promise = require('bluebird')
-
-  // Silence all warnings
-  Promise.config({
-    warnings: false
-  })
-
-  return Promise
 }
