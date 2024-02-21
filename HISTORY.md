@@ -1,5 +1,5 @@
-unreleased
-==========
+1.52.1 / 2024-02-21
+===================
 
   * Add extension `.sql` to `application/sql`
   * Add extensions `.aac` and `.adts` to `audio/aac`

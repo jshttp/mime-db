@@ -47,6 +47,7 @@
     "LICENSE",
     "README.md",
     "db.json",
+    "db-ext.json",
     "index.js",
     "index.mjs"
   ],

@@ -4,7 +4,7 @@ var fs = require('fs')
 var path = require('path')
 
 var HISTORY_FILE_PATH = path.join(__dirname, '..', 'HISTORY.md')
-var MD_HEADER_REGEXP = /^====*$/
+var MD_HEADER_REGEXP = /^===================*$/
 var VERSION = process.env.npm_package_version
 var VERSION_PLACEHOLDER_REGEXP = /^(?:unreleased|(\d+\.)+x)$/
 
