@@ -980,6 +980,9 @@
   "application/vnd.geogebra.file": {
     "extensions": ["ggb"]
   },
+  "application/vnd.geogebra.slides": {
+    "extensions": ["ggs"]
+  },
   "application/vnd.geogebra.tool": {
     "extensions": ["ggt"]
   },
@@ -2127,6 +2130,9 @@
     "extensions": ["vxml"]
   },
   "application/vq-rtcpxr": {},
+  "application/wasm": {
+    "extensions": ["wasm"]
+  },
   "application/watcherinfo+xml": {},
   "application/whoispp-query": {},
   "application/whoispp-response": {},
@@ -2984,9 +2990,7 @@
     "extensions": ["gtw"]
   },
   "model/vnd.moml+xml": {},
-  "model/vnd.mts": {
-    "extensions": ["mts"]
-  },
+  "model/vnd.mts": {},
   "model/vnd.opengex": {},
   "model/vnd.parasolid.transmit.binary": {},
   "model/vnd.parasolid.transmit.text": {},
@@ -3230,7 +3234,9 @@
   },
   "video/mp1s": {},
   "video/mp2p": {},
-  "video/mp2t": {},
+  "video/mp2t": {
+    "extensions": ["ts","m2t","m2ts","mts"]
+  },
   "video/mp4": {
     "extensions": ["mp4","mp4v","mpg4"]
   },
