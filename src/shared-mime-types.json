@@ -1,0 +1,2454 @@
+{
+  "application/andrew-inset": {
+    "extensions": ["ez"]
+  },
+  "application/annodex": {
+    "extensions": ["anx"]
+  },
+  "application/appinstaller": {
+    "extensions": ["appinstaller"]
+  },
+  "application/appx": {
+    "extensions": ["appx"]
+  },
+  "application/appxbundle": {
+    "extensions": ["appxbundle"]
+  },
+  "application/atom+xml": {
+    "extensions": ["atom"]
+  },
+  "application/cbor": {
+    "extensions": ["cbor"]
+  },
+  "application/dicom": {
+    "extensions": ["dcm"]
+  },
+  "application/ecmascript": {
+    "extensions": ["es"]
+  },
+  "application/epub+zip": {
+    "extensions": ["epub"]
+  },
+  "application/fits": {
+    "extensions": ["fits","fit","fts"]
+  },
+  "application/font-tdpfr": {
+    "extensions": ["pfr"]
+  },
+  "application/geo+json": {
+    "extensions": ["geojson"]
+  },
+  "application/gml+xml": {
+    "extensions": ["gml"]
+  },
+  "application/gnunet-directory": {
+    "extensions": ["gnd"]
+  },
+  "application/gpx+xml": {
+    "extensions": ["gpx"]
+  },
+  "application/gzip": {
+    "extensions": ["gz"]
+  },
+  "application/hta": {
+    "extensions": ["hta"]
+  },
+  "application/illustrator": {
+    "extensions": ["ai"]
+  },
+  "application/its+xml": {
+    "extensions": ["its"]
+  },
+  "application/java-archive": {
+    "extensions": ["jar"]
+  },
+  "application/jrd+json": {
+    "extensions": ["jrd"]
+  },
+  "application/json": {
+    "extensions": ["json"]
+  },
+  "application/json-patch+json": {},
+  "application/json5": {
+    "extensions": ["json5"]
+  },
+  "application/ld+json": {
+    "extensions": ["jsonld"]
+  },
+  "application/mac-binhex40": {
+    "extensions": ["hqx"]
+  },
+  "application/mathematica": {
+    "extensions": ["nb"]
+  },
+  "application/mathml+xml": {
+    "extensions": ["mml"]
+  },
+  "application/mbox": {
+    "extensions": ["mbox"]
+  },
+  "application/metalink+xml": {
+    "extensions": ["metalink"]
+  },
+  "application/metalink4+xml": {
+    "extensions": ["meta4"]
+  },
+  "application/msix": {
+    "extensions": ["msix"]
+  },
+  "application/msixbundle": {
+    "extensions": ["msixbundle"]
+  },
+  "application/msword": {
+    "extensions": ["doc"]
+  },
+  "application/msword-template": {
+    "extensions": ["dot"]
+  },
+  "application/mxf": {
+    "extensions": ["mxf"]
+  },
+  "application/octet-stream": {},
+  "application/oda": {
+    "extensions": ["oda"]
+  },
+  "application/ogg": {
+    "extensions": ["ogx"]
+  },
+  "application/ovf": {
+    "extensions": ["ova"]
+  },
+  "application/owl+xml": {
+    "extensions": ["owx"]
+  },
+  "application/oxps": {
+    "extensions": ["oxps"]
+  },
+  "application/pdf": {
+    "extensions": ["pdf"]
+  },
+  "application/pgp-encrypted": {
+    "extensions": ["pgp","gpg","asc"]
+  },
+  "application/pgp-keys": {
+    "extensions": ["skr","pkr","asc","pgp","gpg","key"]
+  },
+  "application/pgp-signature": {
+    "extensions": ["asc","sig","pgp","gpg"]
+  },
+  "application/pkcs10": {
+    "extensions": ["p10"]
+  },
+  "application/pkcs12": {
+    "extensions": ["p12","pfx"]
+  },
+  "application/pkcs7-mime": {
+    "extensions": ["p7c","p7m"]
+  },
+  "application/pkcs7-signature": {
+    "extensions": ["p7s"]
+  },
+  "application/pkcs8": {
+    "extensions": ["p8"]
+  },
+  "application/pkcs8-encrypted": {
+    "extensions": ["p8e"]
+  },
+  "application/pkix-cert": {
+    "extensions": ["cer"]
+  },
+  "application/pkix-crl": {
+    "extensions": ["crl"]
+  },
+  "application/pkix-pkipath": {
+    "extensions": ["pkipath"]
+  },
+  "application/postscript": {
+    "extensions": ["ps"]
+  },
+  "application/prs.plucker": {},
+  "application/ram": {
+    "extensions": ["ram"]
+  },
+  "application/raml+yaml": {
+    "extensions": ["raml"]
+  },
+  "application/rdf+xml": {
+    "extensions": ["rdf","rdfs","owl"]
+  },
+  "application/relax-ng-compact-syntax": {
+    "extensions": ["rnc"]
+  },
+  "application/rss+xml": {
+    "extensions": ["rss"]
+  },
+  "application/rtf": {
+    "extensions": ["rtf"]
+  },
+  "application/schema+json": {
+    "extensions": ["json"]
+  },
+  "application/sdp": {
+    "extensions": ["sdp"]
+  },
+  "application/sieve": {
+    "extensions": ["siv","sieve"]
+  },
+  "application/smil+xml": {
+    "extensions": ["smil","smi","sml","kino"]
+  },
+  "application/sparql-query": {
+    "extensions": ["qs"]
+  },
+  "application/sparql-results+xml": {
+    "extensions": ["srx"]
+  },
+  "application/sql": {
+    "extensions": ["sql"]
+  },
+  "application/toml": {
+    "extensions": ["toml"]
+  },
+  "application/trig": {
+    "extensions": ["trig"]
+  },
+  "application/vnd.adobe.flash.movie": {
+    "extensions": ["swf","spl"]
+  },
+  "application/vnd.amazon.mobi8-ebook": {
+    "extensions": ["azw3","kfx"]
+  },
+  "application/vnd.android.package-archive": {
+    "extensions": ["apk"]
+  },
+  "application/vnd.appimage": {
+    "extensions": ["appimage"]
+  },
+  "application/vnd.apple.keynote": {
+    "extensions": ["key"]
+  },
+  "application/vnd.apple.mpegurl": {
+    "extensions": ["m3u","m3u8"]
+  },
+  "application/vnd.apple.numbers": {
+    "extensions": ["numbers"]
+  },
+  "application/vnd.apple.pages": {
+    "extensions": ["pages"]
+  },
+  "application/vnd.apple.pkpass": {
+    "extensions": ["pkpass"]
+  },
+  "application/vnd.chess-pgn": {
+    "extensions": ["pgn"]
+  },
+  "application/vnd.coffeescript": {
+    "extensions": ["coffee"]
+  },
+  "application/vnd.comicbook+zip": {
+    "extensions": ["cbz"]
+  },
+  "application/vnd.comicbook-rar": {
+    "extensions": ["cbr"]
+  },
+  "application/vnd.corel-draw": {
+    "extensions": ["cdr"]
+  },
+  "application/vnd.cups-ppd": {
+    "extensions": ["ppd"]
+  },
+  "application/vnd.dart": {
+    "extensions": ["dart"]
+  },
+  "application/vnd.dbf": {
+    "extensions": ["dbf"]
+  },
+  "application/vnd.debian.binary-package": {
+    "extensions": ["deb","udeb"]
+  },
+  "application/vnd.efi.img": {
+    "extensions": ["img"]
+  },
+  "application/vnd.efi.iso": {
+    "extensions": ["iso","iso9660"]
+  },
+  "application/vnd.emusic-emusic_package": {
+    "extensions": ["emp"]
+  },
+  "application/vnd.flatpak": {
+    "extensions": ["flatpak","xdgapp"]
+  },
+  "application/vnd.flatpak.ref": {
+    "extensions": ["flatpakref"]
+  },
+  "application/vnd.flatpak.repo": {
+    "extensions": ["flatpakrepo"]
+  },
+  "application/vnd.framemaker": {
+    "extensions": ["fm"]
+  },
+  "application/vnd.gerber": {
+    "extensions": ["gbr"]
+  },
+  "application/vnd.google-earth.kml+xml": {
+    "extensions": ["kml"]
+  },
+  "application/vnd.google-earth.kmz": {
+    "extensions": ["kmz"]
+  },
+  "application/vnd.hp-hpgl": {
+    "extensions": ["hpgl"]
+  },
+  "application/vnd.hp-pcl": {
+    "extensions": ["pcl"]
+  },
+  "application/vnd.iccprofile": {
+    "extensions": ["icc","icm"]
+  },
+  "application/vnd.lotus-1-2-3": {
+    "extensions": ["123","wk1","wk3","wk4","wks"]
+  },
+  "application/vnd.lotus-wordpro": {
+    "extensions": ["lwp"]
+  },
+  "application/vnd.microsoft.portable-executable": {
+    "extensions": ["exe","dll","cpl","drv","scr","efi","ocx","sys","lib"]
+  },
+  "application/vnd.microsoft.windows.thumbnail-cache": {},
+  "application/vnd.mozilla.xul+xml": {
+    "extensions": ["xul"]
+  },
+  "application/vnd.ms-access": {
+    "extensions": ["mdb"]
+  },
+  "application/vnd.ms-asf": {
+    "extensions": ["asf"]
+  },
+  "application/vnd.ms-cab-compressed": {
+    "extensions": ["cab"]
+  },
+  "application/vnd.ms-excel": {
+    "extensions": ["xls","xlc","xll","xlm","xlw","xla","xlt","xld"]
+  },
+  "application/vnd.ms-excel.addin.macroEnabled.12": {
+    "extensions": ["xlam"]
+  },
+  "application/vnd.ms-excel.sheet.binary.macroEnabled.12": {
+    "extensions": ["xlsb"]
+  },
+  "application/vnd.ms-excel.sheet.macroEnabled.12": {
+    "extensions": ["xlsm"]
+  },
+  "application/vnd.ms-excel.template.macroEnabled.12": {
+    "extensions": ["xltm"]
+  },
+  "application/vnd.ms-htmlhelp": {
+    "extensions": ["chm"]
+  },
+  "application/vnd.ms-officetheme": {
+    "extensions": ["thmx"]
+  },
+  "application/vnd.ms-powerpoint": {
+    "extensions": ["ppz","ppt","pps","pot"]
+  },
+  "application/vnd.ms-powerpoint.addin.macroEnabled.12": {
+    "extensions": ["ppam"]
+  },
+  "application/vnd.ms-powerpoint.presentation.macroEnabled.12": {
+    "extensions": ["pptm"]
+  },
+  "application/vnd.ms-powerpoint.slide.macroEnabled.12": {
+    "extensions": ["sldm"]
+  },
+  "application/vnd.ms-powerpoint.slideshow.macroEnabled.12": {
+    "extensions": ["ppsm"]
+  },
+  "application/vnd.ms-powerpoint.template.macroEnabled.12": {
+    "extensions": ["potm"]
+  },
+  "application/vnd.ms-publisher": {
+    "extensions": ["pub"]
+  },
+  "application/vnd.ms-tnef": {
+    "extensions": ["tnef","tnf"]
+  },
+  "application/vnd.ms-visio.drawing.macroEnabled.main+xml": {
+    "extensions": ["vsdm"]
+  },
+  "application/vnd.ms-visio.drawing.main+xml": {
+    "extensions": ["vsdx"]
+  },
+  "application/vnd.ms-visio.stencil.macroEnabled.main+xml": {
+    "extensions": ["vssm"]
+  },
+  "application/vnd.ms-visio.stencil.main+xml": {
+    "extensions": ["vssx"]
+  },
+  "application/vnd.ms-visio.template.macroEnabled.main+xml": {
+    "extensions": ["vstm"]
+  },
+  "application/vnd.ms-visio.template.main+xml": {
+    "extensions": ["vstx"]
+  },
+  "application/vnd.ms-word.document.macroEnabled.12": {
+    "extensions": ["docm"]
+  },
+  "application/vnd.ms-word.template.macroEnabled.12": {
+    "extensions": ["dotm"]
+  },
+  "application/vnd.ms-works": {
+    "extensions": ["wcm","wdb","wks","wps","xlr"]
+  },
+  "application/vnd.ms-wpl": {
+    "extensions": ["wpl"]
+  },
+  "application/vnd.ms-xpsdocument": {
+    "extensions": ["xps"]
+  },
+  "application/vnd.nintendo.snes.rom": {
+    "extensions": ["sfc","smc"]
+  },
+  "application/vnd.oasis.opendocument.chart": {
+    "extensions": ["odc"]
+  },
+  "application/vnd.oasis.opendocument.chart-template": {
+    "extensions": ["otc"]
+  },
+  "application/vnd.oasis.opendocument.database": {
+    "extensions": ["odb"]
+  },
+  "application/vnd.oasis.opendocument.formula": {
+    "extensions": ["odf"]
+  },
+  "application/vnd.oasis.opendocument.formula-template": {
+    "extensions": ["otf"]
+  },
+  "application/vnd.oasis.opendocument.graphics": {
+    "extensions": ["odg"]
+  },
+  "application/vnd.oasis.opendocument.graphics-flat-xml": {
+    "extensions": ["fodg"]
+  },
+  "application/vnd.oasis.opendocument.graphics-template": {
+    "extensions": ["otg"]
+  },
+  "application/vnd.oasis.opendocument.image": {
+    "extensions": ["odi"]
+  },
+  "application/vnd.oasis.opendocument.presentation": {
+    "extensions": ["odp"]
+  },
+  "application/vnd.oasis.opendocument.presentation-flat-xml": {
+    "extensions": ["fodp"]
+  },
+  "application/vnd.oasis.opendocument.presentation-template": {
+    "extensions": ["otp"]
+  },
+  "application/vnd.oasis.opendocument.spreadsheet": {
+    "extensions": ["ods"]
+  },
+  "application/vnd.oasis.opendocument.spreadsheet-flat-xml": {
+    "extensions": ["fods"]
+  },
+  "application/vnd.oasis.opendocument.spreadsheet-template": {
+    "extensions": ["ots"]
+  },
+  "application/vnd.oasis.opendocument.text": {
+    "extensions": ["odt"]
+  },
+  "application/vnd.oasis.opendocument.text-flat-xml": {
+    "extensions": ["fodt"]
+  },
+  "application/vnd.oasis.opendocument.text-master": {
+    "extensions": ["odm"]
+  },
+  "application/vnd.oasis.opendocument.text-template": {
+    "extensions": ["ott"]
+  },
+  "application/vnd.oasis.opendocument.text-web": {
+    "extensions": ["oth"]
+  },
+  "application/vnd.openofficeorg.extension": {
+    "extensions": ["oxt"]
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.presentation": {
+    "extensions": ["pptx"]
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slide": {
+    "extensions": ["sldx"]
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slideshow": {
+    "extensions": ["ppsx"]
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.template": {
+    "extensions": ["potx"]
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
+    "extensions": ["xlsx"]
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.template": {
+    "extensions": ["xltx"]
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {
+    "extensions": ["docx"]
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.template": {
+    "extensions": ["dotx"]
+  },
+  "application/vnd.palm": {
+    "extensions": ["prc","pdb","pqa","oprc"]
+  },
+  "application/vnd.rar": {
+    "extensions": ["rar"]
+  },
+  "application/vnd.rn-realmedia": {
+    "extensions": ["rm","rmj","rmm","rms","rmx","rmvb"]
+  },
+  "application/vnd.smaf": {
+    "extensions": ["mmf","smaf"]
+  },
+  "application/vnd.snap": {
+    "extensions": ["snap"]
+  },
+  "application/vnd.sqlite3": {
+    "extensions": ["sqlite3"]
+  },
+  "application/vnd.squashfs": {
+    "extensions": ["sqsh"]
+  },
+  "application/vnd.stardivision.calc": {
+    "extensions": ["sdc"]
+  },
+  "application/vnd.stardivision.chart": {
+    "extensions": ["sds"]
+  },
+  "application/vnd.stardivision.draw": {
+    "extensions": ["sda"]
+  },
+  "application/vnd.stardivision.impress": {
+    "extensions": ["sdd","sdp"]
+  },
+  "application/vnd.stardivision.mail": {
+    "extensions": ["smd"]
+  },
+  "application/vnd.stardivision.math": {
+    "extensions": ["smf"]
+  },
+  "application/vnd.stardivision.writer": {
+    "extensions": ["sdw","vor","sgl"]
+  },
+  "application/vnd.sun.xml.calc": {
+    "extensions": ["sxc"]
+  },
+  "application/vnd.sun.xml.calc.template": {
+    "extensions": ["stc"]
+  },
+  "application/vnd.sun.xml.draw": {
+    "extensions": ["sxd"]
+  },
+  "application/vnd.sun.xml.draw.template": {
+    "extensions": ["std"]
+  },
+  "application/vnd.sun.xml.impress": {
+    "extensions": ["sxi"]
+  },
+  "application/vnd.sun.xml.impress.template": {
+    "extensions": ["sti"]
+  },
+  "application/vnd.sun.xml.math": {
+    "extensions": ["sxm"]
+  },
+  "application/vnd.sun.xml.writer": {
+    "extensions": ["sxw"]
+  },
+  "application/vnd.sun.xml.writer.global": {
+    "extensions": ["sxg"]
+  },
+  "application/vnd.sun.xml.writer.template": {
+    "extensions": ["stw"]
+  },
+  "application/vnd.symbian.install": {
+    "extensions": ["sis"]
+  },
+  "application/vnd.tcpdump.pcap": {
+    "extensions": ["pcap","cap","dmp"]
+  },
+  "application/vnd.visio": {
+    "extensions": ["vsd","vst","vsw","vss"]
+  },
+  "application/vnd.wordperfect": {
+    "extensions": ["wp","wp4","wp5","wp6","wpd","wpp"]
+  },
+  "application/wasm": {
+    "extensions": ["wasm"]
+  },
+  "application/winhlp": {
+    "extensions": ["hlp"]
+  },
+  "application/x-7z-compressed": {
+    "extensions": ["7z"]
+  },
+  "application/x-abiword": {
+    "extensions": ["abw","zabw"]
+  },
+  "application/x-ace": {
+    "extensions": ["ace"]
+  },
+  "application/x-alz": {
+    "extensions": ["alz"]
+  },
+  "application/x-amiga-disk-format": {
+    "extensions": ["adf"]
+  },
+  "application/x-amipro": {
+    "extensions": ["sam"]
+  },
+  "application/x-aportisdoc": {
+    "extensions": ["pdb","pdc"]
+  },
+  "application/x-apple-diskimage": {
+    "extensions": ["dmg"]
+  },
+  "application/x-apple-systemprofiler+xml": {
+    "extensions": ["spx"]
+  },
+  "application/x-appleworks-document": {
+    "extensions": ["cwk"]
+  },
+  "application/x-applix-spreadsheet": {
+    "extensions": ["as"]
+  },
+  "application/x-applix-word": {
+    "extensions": ["aw"]
+  },
+  "application/x-arc": {},
+  "application/x-archive": {
+    "extensions": ["a","ar"]
+  },
+  "application/x-arj": {
+    "extensions": ["arj"]
+  },
+  "application/x-asar": {
+    "extensions": ["asar"]
+  },
+  "application/x-asp": {
+    "extensions": ["asp"]
+  },
+  "application/x-atari-2600-rom": {
+    "extensions": ["a26"]
+  },
+  "application/x-atari-7800-rom": {
+    "extensions": ["a78"]
+  },
+  "application/x-atari-lynx-rom": {
+    "extensions": ["lnx"]
+  },
+  "application/x-awk": {
+    "extensions": ["awk"]
+  },
+  "application/x-bat": {
+    "extensions": ["bat"]
+  },
+  "application/x-bcpio": {
+    "extensions": ["bcpio"]
+  },
+  "application/x-bittorrent": {
+    "extensions": ["torrent"]
+  },
+  "application/x-blender": {
+    "extensions": ["blend","BLEND","blender"]
+  },
+  "application/x-bps-patch": {
+    "extensions": ["bps"]
+  },
+  "application/x-bsdiff": {
+    "extensions": ["bsdiff"]
+  },
+  "application/x-bzdvi": {},
+  "application/x-bzip1": {
+    "extensions": ["bz"]
+  },
+  "application/x-bzip1-compressed-tar": {
+    "extensions": ["tbz"]
+  },
+  "application/x-bzip2": {
+    "extensions": ["bz2"]
+  },
+  "application/x-bzip2-compressed-tar": {
+    "extensions": ["tbz2","tb2"]
+  },
+  "application/x-bzip3": {
+    "extensions": ["bz3"]
+  },
+  "application/x-bzip3-compressed-tar": {
+    "extensions": ["tbz3"]
+  },
+  "application/x-bzpdf": {},
+  "application/x-bzpostscript": {},
+  "application/x-cb7": {
+    "extensions": ["cb7"]
+  },
+  "application/x-cbt": {
+    "extensions": ["cbt"]
+  },
+  "application/x-ccmx": {
+    "extensions": ["ccmx"]
+  },
+  "application/x-cdrdao-toc": {
+    "extensions": ["toc"]
+  },
+  "application/x-cisco-vpn-settings": {
+    "extensions": ["pcf"]
+  },
+  "application/x-class-file": {},
+  "application/x-compress": {
+    "extensions": ["Z"]
+  },
+  "application/x-compressed-iso": {
+    "extensions": ["cso"]
+  },
+  "application/x-compressed-tar": {
+    "extensions": ["tgz"]
+  },
+  "application/x-core": {},
+  "application/x-cpio": {
+    "extensions": ["cpio"]
+  },
+  "application/x-cpio-compressed": {},
+  "application/x-csh": {
+    "extensions": ["csh"]
+  },
+  "application/x-cue": {
+    "extensions": ["cue"]
+  },
+  "application/x-dar": {
+    "extensions": ["dar"]
+  },
+  "application/x-designer": {
+    "extensions": ["ui"]
+  },
+  "application/x-desktop": {
+    "extensions": ["desktop","kdelnk"]
+  },
+  "application/x-dia-diagram": {
+    "extensions": ["dia"]
+  },
+  "application/x-dia-shape": {
+    "extensions": ["shape"]
+  },
+  "application/x-discjuggler-cd-image": {
+    "extensions": ["cdi"]
+  },
+  "application/x-docbook+xml": {
+    "extensions": ["dbk","docbook"]
+  },
+  "application/x-doom-wad": {
+    "extensions": ["wad"]
+  },
+  "application/x-dosexec": {
+    "extensions": ["exe"]
+  },
+  "application/x-dreamcast-rom": {
+    "extensions": ["iso"]
+  },
+  "application/x-dvi": {
+    "extensions": ["dvi"]
+  },
+  "application/x-e-theme": {
+    "extensions": ["etheme"]
+  },
+  "application/x-egon": {
+    "extensions": ["egon"]
+  },
+  "application/x-eris-link+cbor": {
+    "extensions": ["eris"]
+  },
+  "application/x-excellon": {
+    "extensions": ["drl"]
+  },
+  "application/x-executable": {},
+  "application/x-fds-disk": {
+    "extensions": ["fds"]
+  },
+  "application/x-fictionbook+xml": {
+    "extensions": ["fb2"]
+  },
+  "application/x-fishscript": {
+    "extensions": ["fish"]
+  },
+  "application/x-fluid": {
+    "extensions": ["fl"]
+  },
+  "application/x-font-afm": {
+    "extensions": ["afm"]
+  },
+  "application/x-font-bdf": {
+    "extensions": ["bdf"]
+  },
+  "application/x-font-dos": {},
+  "application/x-font-framemaker": {},
+  "application/x-font-libgrx": {},
+  "application/x-font-linux-psf": {
+    "extensions": ["psf"]
+  },
+  "application/x-font-pcf": {
+    "extensions": ["pcf"]
+  },
+  "application/x-font-speedo": {
+    "extensions": ["spd"]
+  },
+  "application/x-font-sunos-news": {},
+  "application/x-font-tex": {},
+  "application/x-font-tex-tfm": {},
+  "application/x-font-ttx": {
+    "extensions": ["ttx"]
+  },
+  "application/x-font-type1": {
+    "extensions": ["pfa","pfb","gsf"]
+  },
+  "application/x-font-vfont": {},
+  "application/x-gameboy-color-rom": {
+    "extensions": ["gbc","cgb"]
+  },
+  "application/x-gameboy-rom": {
+    "extensions": ["gb","sgb"]
+  },
+  "application/x-gamecube-rom": {
+    "extensions": ["iso"]
+  },
+  "application/x-gamegear-rom": {
+    "extensions": ["gg"]
+  },
+  "application/x-gba-rom": {
+    "extensions": ["gba","agb"]
+  },
+  "application/x-gd-rom-cue": {
+    "extensions": ["gdi"]
+  },
+  "application/x-gdbm": {},
+  "application/x-gdscript": {
+    "extensions": ["gd"]
+  },
+  "application/x-genesis-32x-rom": {
+    "extensions": ["32x","mdx"]
+  },
+  "application/x-genesis-rom": {
+    "extensions": ["gen","smd","sgd"]
+  },
+  "application/x-gerber-job": {
+    "extensions": ["gbrjob"]
+  },
+  "application/x-gettext-translation": {
+    "extensions": ["gmo","mo"]
+  },
+  "application/x-glade": {
+    "extensions": ["glade"]
+  },
+  "application/x-gnucash": {
+    "extensions": ["gnucash","gnc","xac"]
+  },
+  "application/x-gnumeric": {
+    "extensions": ["gnumeric"]
+  },
+  "application/x-gnuplot": {
+    "extensions": ["gp","gplt","gnuplot"]
+  },
+  "application/x-go-sgf": {
+    "extensions": ["sgf"]
+  },
+  "application/x-godot-project": {},
+  "application/x-godot-resource": {
+    "extensions": ["res","tres"]
+  },
+  "application/x-godot-scene": {
+    "extensions": ["scn","tscn","escn"]
+  },
+  "application/x-godot-shader": {
+    "extensions": ["gdshader"]
+  },
+  "application/x-graphite": {
+    "extensions": ["gra"]
+  },
+  "application/x-gtk-builder": {
+    "extensions": ["ui"]
+  },
+  "application/x-gtktalog": {},
+  "application/x-gz-font-linux-psf": {},
+  "application/x-gzdvi": {},
+  "application/x-gzpdf": {},
+  "application/x-gzpostscript": {},
+  "application/x-hdf": {
+    "extensions": ["hdf","hdf4","h4","hdf5","h5"]
+  },
+  "application/x-hfe-floppy-image": {
+    "extensions": ["hfe"]
+  },
+  "application/x-hwp": {
+    "extensions": ["hwp"]
+  },
+  "application/x-hwt": {
+    "extensions": ["hwt"]
+  },
+  "application/x-ica": {
+    "extensions": ["ica"]
+  },
+  "application/x-iff": {},
+  "application/x-ipod-firmware": {},
+  "application/x-ips-patch": {
+    "extensions": ["ips"]
+  },
+  "application/x-ipynb+json": {
+    "extensions": ["ipynb"]
+  },
+  "application/x-iso9660-appimage": {
+    "extensions": ["appimage"]
+  },
+  "application/x-it87": {
+    "extensions": ["it87"]
+  },
+  "application/x-java": {
+    "extensions": ["class"]
+  },
+  "application/x-java-jce-keystore": {
+    "extensions": ["jceks"]
+  },
+  "application/x-java-jnlp-file": {
+    "extensions": ["jnlp"]
+  },
+  "application/x-java-keystore": {
+    "extensions": ["jks","ks"]
+  },
+  "application/x-java-pack200": {
+    "extensions": ["pack"]
+  },
+  "application/x-jbuilder-project": {
+    "extensions": ["jpr","jpx"]
+  },
+  "application/x-karbon": {
+    "extensions": ["karbon"]
+  },
+  "application/x-kchart": {
+    "extensions": ["chrt"]
+  },
+  "application/x-kexi-connectiondata": {
+    "extensions": ["kexic"]
+  },
+  "application/x-kexiproject-shortcut": {
+    "extensions": ["kexis"]
+  },
+  "application/x-kexiproject-sqlite2": {
+    "extensions": ["kexi"]
+  },
+  "application/x-kexiproject-sqlite3": {
+    "extensions": ["kexi"]
+  },
+  "application/x-kformula": {
+    "extensions": ["kfo"]
+  },
+  "application/x-killustrator": {
+    "extensions": ["kil"]
+  },
+  "application/x-kivio": {
+    "extensions": ["flw"]
+  },
+  "application/x-kontour": {
+    "extensions": ["kon"]
+  },
+  "application/x-kpovmodeler": {
+    "extensions": ["kpm"]
+  },
+  "application/x-kpresenter": {
+    "extensions": ["kpr","kpt"]
+  },
+  "application/x-krita": {
+    "extensions": ["kra","krz"]
+  },
+  "application/x-kspread": {
+    "extensions": ["ksp"]
+  },
+  "application/x-kspread-crypt": {},
+  "application/x-ksysv-package": {},
+  "application/x-kugar": {
+    "extensions": ["kud"]
+  },
+  "application/x-kword": {
+    "extensions": ["kwd","kwt"]
+  },
+  "application/x-kword-crypt": {},
+  "application/x-lha": {
+    "extensions": ["lha","lzh"]
+  },
+  "application/x-lhz": {
+    "extensions": ["lhz"]
+  },
+  "application/x-lmdb": {
+    "extensions": ["mdb","lmdb"]
+  },
+  "application/x-lrzip": {
+    "extensions": ["lrz"]
+  },
+  "application/x-lrzip-compressed-tar": {
+    "extensions": ["tlrz"]
+  },
+  "application/x-lyx": {
+    "extensions": ["lyx"]
+  },
+  "application/x-lz4": {
+    "extensions": ["lz4"]
+  },
+  "application/x-lz4-compressed-tar": {},
+  "application/x-lzip": {
+    "extensions": ["lz"]
+  },
+  "application/x-lzip-compressed-tar": {},
+  "application/x-lzma": {
+    "extensions": ["lzma"]
+  },
+  "application/x-lzma-compressed-tar": {
+    "extensions": ["tlz"]
+  },
+  "application/x-lzop": {
+    "extensions": ["lzo"]
+  },
+  "application/x-lzpdf": {},
+  "application/x-m4": {
+    "extensions": ["m4"]
+  },
+  "application/x-macbinary": {},
+  "application/x-magicpoint": {
+    "extensions": ["mgp"]
+  },
+  "application/x-mame-chd": {
+    "extensions": ["chd"]
+  },
+  "application/x-markaby": {
+    "extensions": ["mab"]
+  },
+  "application/x-matroska": {},
+  "application/x-mif": {
+    "extensions": ["mif"]
+  },
+  "application/x-mimearchive": {
+    "extensions": ["mhtml","mht"]
+  },
+  "application/x-mobipocket-ebook": {
+    "extensions": ["mobi","prc"]
+  },
+  "application/x-modrinth-modpack+zip": {
+    "extensions": ["mrpack"]
+  },
+  "application/x-mozilla-bookmarks": {},
+  "application/x-ms-ne-executable": {
+    "extensions": ["exe","dll","cpl","drv","scr"]
+  },
+  "application/x-ms-pdb": {
+    "extensions": ["pdb"]
+  },
+  "application/x-ms-shortcut": {
+    "extensions": ["lnk"]
+  },
+  "application/x-ms-wim": {
+    "extensions": ["wim","swm"]
+  },
+  "application/x-msdownload": {
+    "extensions": ["exe","dll","cpl","drv","scr"]
+  },
+  "application/x-msi": {
+    "extensions": ["msi"]
+  },
+  "application/x-mswinurl": {
+    "extensions": ["url"]
+  },
+  "application/x-mswrite": {
+    "extensions": ["wri"]
+  },
+  "application/x-msx-rom": {
+    "extensions": ["msx"]
+  },
+  "application/x-n64-rom": {
+    "extensions": ["n64","z64","v64"]
+  },
+  "application/x-nautilus-link": {},
+  "application/x-navi-animation": {
+    "extensions": ["ani"]
+  },
+  "application/x-neo-geo-pocket-color-rom": {
+    "extensions": ["ngc"]
+  },
+  "application/x-neo-geo-pocket-rom": {
+    "extensions": ["ngp"]
+  },
+  "application/x-nes-rom": {
+    "extensions": ["nes","nez","unf","unif"]
+  },
+  "application/x-netcdf": {
+    "extensions": ["cdf","nc"]
+  },
+  "application/x-netshow-channel": {
+    "extensions": ["nsc"]
+  },
+  "application/x-nintendo-3ds-executable": {
+    "extensions": ["3dsx"]
+  },
+  "application/x-nintendo-3ds-rom": {
+    "extensions": ["3ds","cci"]
+  },
+  "application/x-nintendo-ds-rom": {
+    "extensions": ["nds"]
+  },
+  "application/x-nuscript": {
+    "extensions": ["nu"]
+  },
+  "application/x-nzb": {
+    "extensions": ["nzb"]
+  },
+  "application/x-object": {
+    "extensions": ["o","mod"]
+  },
+  "application/x-ole-storage": {},
+  "application/x-oleo": {
+    "extensions": ["oleo"]
+  },
+  "application/x-openvpn-profile": {
+    "extensions": ["openvpn","ovpn"]
+  },
+  "application/x-openzim": {
+    "extensions": ["zim"]
+  },
+  "application/x-pagemaker": {
+    "extensions": ["p65","pm","pm6","pmd"]
+  },
+  "application/x-pak": {
+    "extensions": ["pak"]
+  },
+  "application/x-par2": {
+    "extensions": ["PAR2","par2"]
+  },
+  "application/x-partial-download": {
+    "extensions": ["wkdownload","crdownload","part"]
+  },
+  "application/x-pc-engine-rom": {
+    "extensions": ["pce"]
+  },
+  "application/x-pef-executable": {},
+  "application/x-perf-data": {},
+  "application/x-perl": {
+    "extensions": ["pl","PL","pm","al","perl","pod","t"]
+  },
+  "application/x-php": {
+    "extensions": ["php","php3","php4","php5","phps"]
+  },
+  "application/x-pkcs7-certificates": {
+    "extensions": ["p7b","spc"]
+  },
+  "application/x-planperfect": {
+    "extensions": ["pln"]
+  },
+  "application/x-pocket-word": {
+    "extensions": ["psw"]
+  },
+  "application/x-powershell": {
+    "extensions": ["ps1"]
+  },
+  "application/x-profile": {},
+  "application/x-pw": {
+    "extensions": ["pw"]
+  },
+  "application/x-pyspread-bz-spreadsheet": {
+    "extensions": ["pys"]
+  },
+  "application/x-pyspread-spreadsheet": {
+    "extensions": ["pysu"]
+  },
+  "application/x-python-bytecode": {
+    "extensions": ["pyc","pyo"]
+  },
+  "application/x-qed-disk": {
+    "extensions": ["qed"]
+  },
+  "application/x-qemu-disk": {
+    "extensions": ["qcow2","qcow"]
+  },
+  "application/x-qpress": {
+    "extensions": ["qp"]
+  },
+  "application/x-qtiplot": {
+    "extensions": ["qti"]
+  },
+  "application/x-quattropro": {
+    "extensions": ["wb1","wb2","wb3"]
+  },
+  "application/x-quicktime-media-link": {
+    "extensions": ["qtl"]
+  },
+  "application/x-qw": {
+    "extensions": ["qif"]
+  },
+  "application/x-raw-disk-image-xz-compressed": {},
+  "application/x-raw-floppy-disk-image": {
+    "extensions": ["fd","qd"]
+  },
+  "application/x-riff": {},
+  "application/x-rpm": {
+    "extensions": ["rpm"]
+  },
+  "application/x-ruby": {
+    "extensions": ["rb"]
+  },
+  "application/x-sami": {
+    "extensions": ["smi","sami"]
+  },
+  "application/x-saturn-rom": {
+    "extensions": ["iso"]
+  },
+  "application/x-sc": {},
+  "application/x-sega-cd-rom": {
+    "extensions": ["iso"]
+  },
+  "application/x-sega-pico-rom": {
+    "extensions": ["iso"]
+  },
+  "application/x-sg1000-rom": {
+    "extensions": ["sg"]
+  },
+  "application/x-shar": {
+    "extensions": ["shar"]
+  },
+  "application/x-shared-library-la": {
+    "extensions": ["la"]
+  },
+  "application/x-sharedlib": {
+    "extensions": ["so"]
+  },
+  "application/x-shellscript": {
+    "extensions": ["sh"]
+  },
+  "application/x-shorten": {
+    "extensions": ["shn"]
+  },
+  "application/x-siag": {
+    "extensions": ["siag"]
+  },
+  "application/x-slp": {},
+  "application/x-sms-rom": {
+    "extensions": ["sms"]
+  },
+  "application/x-source-rpm": {
+    "extensions": ["spm"]
+  },
+  "application/x-spss-por": {
+    "extensions": ["por"]
+  },
+  "application/x-spss-sav": {
+    "extensions": ["sav","zsav"]
+  },
+  "application/x-sqlite2": {
+    "extensions": ["sqlite2"]
+  },
+  "application/x-stuffit": {
+    "extensions": ["sit"]
+  },
+  "application/x-stuffitx": {
+    "extensions": ["sitx"]
+  },
+  "application/x-subrip": {
+    "extensions": ["srt"]
+  },
+  "application/x-sv4cpio": {
+    "extensions": ["sv4cpio"]
+  },
+  "application/x-sv4crc": {
+    "extensions": ["sv4crc"]
+  },
+  "application/x-t602": {
+    "extensions": ["602"]
+  },
+  "application/x-tar": {
+    "extensions": ["tar","gtar","gem"]
+  },
+  "application/x-tarz": {
+    "extensions": ["taz"]
+  },
+  "application/x-tex-gf": {
+    "extensions": ["gf"]
+  },
+  "application/x-tex-pk": {
+    "extensions": ["pk"]
+  },
+  "application/x-tgif": {
+    "extensions": ["obj"]
+  },
+  "application/x-theme": {
+    "extensions": ["theme"]
+  },
+  "application/x-thomson-cartridge-memo7": {
+    "extensions": ["m7"]
+  },
+  "application/x-thomson-cassette": {
+    "extensions": ["k7"]
+  },
+  "application/x-thomson-sap-image": {
+    "extensions": ["sap"]
+  },
+  "application/x-tiled-tmx": {
+    "extensions": ["tmx"]
+  },
+  "application/x-tiled-tsx": {
+    "extensions": ["tsx"]
+  },
+  "application/x-toutdoux": {},
+  "application/x-trash": {
+    "extensions": ["bak","old","sik"]
+  },
+  "application/x-troff-man": {
+    "extensions": ["man"]
+  },
+  "application/x-troff-man-compressed": {},
+  "application/x-tzo": {
+    "extensions": ["tzo"]
+  },
+  "application/x-ufraw": {
+    "extensions": ["ufraw"]
+  },
+  "application/x-ustar": {
+    "extensions": ["ustar"]
+  },
+  "application/x-vdi-disk": {
+    "extensions": ["vdi"]
+  },
+  "application/x-vhd-disk": {
+    "extensions": ["vhd","vpc"]
+  },
+  "application/x-vhdx-disk": {
+    "extensions": ["vhdx"]
+  },
+  "application/x-virtual-boy-rom": {
+    "extensions": ["vb"]
+  },
+  "application/x-vmdk-disk": {
+    "extensions": ["vmdk"]
+  },
+  "application/x-wais-source": {
+    "extensions": ["src"]
+  },
+  "application/x-wii-rom": {
+    "extensions": ["iso"]
+  },
+  "application/x-wii-wad": {
+    "extensions": ["wad"]
+  },
+  "application/x-windows-themepack": {
+    "extensions": ["themepack"]
+  },
+  "application/x-wonderswan-color-rom": {
+    "extensions": ["wsc"]
+  },
+  "application/x-wonderswan-rom": {
+    "extensions": ["ws"]
+  },
+  "application/x-wpg": {
+    "extensions": ["wpg"]
+  },
+  "application/x-wwf": {
+    "extensions": ["wwf"]
+  },
+  "application/x-x509-ca-cert": {
+    "extensions": ["der","crt","cert","pem"]
+  },
+  "application/x-xar": {
+    "extensions": ["xar","pkg"]
+  },
+  "application/x-xbel": {
+    "extensions": ["xbel"]
+  },
+  "application/x-xpinstall": {
+    "extensions": ["xpi"]
+  },
+  "application/x-xz": {
+    "extensions": ["xz"]
+  },
+  "application/x-xz-compressed-tar": {
+    "extensions": ["txz"]
+  },
+  "application/x-xzpdf": {},
+  "application/x-zerosize": {},
+  "application/x-zip-compressed-fb2": {},
+  "application/x-zoo": {
+    "extensions": ["zoo"]
+  },
+  "application/x-zpaq": {
+    "extensions": ["zpaq"]
+  },
+  "application/x-zstd-compressed-tar": {
+    "extensions": ["tzst"]
+  },
+  "application/xhtml+xml": {
+    "extensions": ["xhtml","xht","html","htm"]
+  },
+  "application/xliff+xml": {
+    "extensions": ["xlf","xliff"]
+  },
+  "application/xml": {
+    "extensions": ["xml","xbl","xsd","rng"]
+  },
+  "application/xml-dtd": {
+    "extensions": ["dtd"]
+  },
+  "application/xml-external-parsed-entity": {
+    "extensions": ["ent"]
+  },
+  "application/xslt+xml": {
+    "extensions": ["xsl","xslt"]
+  },
+  "application/xspf+xml": {
+    "extensions": ["xspf"]
+  },
+  "application/yaml": {
+    "extensions": ["yaml","yml"]
+  },
+  "application/zip": {
+    "extensions": ["zip","zipx"]
+  },
+  "application/zlib": {
+    "extensions": ["zz"]
+  },
+  "application/zstd": {
+    "extensions": ["zst"]
+  },
+  "audio/AMR": {
+    "extensions": ["amr"]
+  },
+  "audio/AMR-WB": {
+    "extensions": ["awb"]
+  },
+  "audio/aac": {
+    "extensions": ["aac","adts","ass"]
+  },
+  "audio/ac3": {
+    "extensions": ["ac3"]
+  },
+  "audio/annodex": {
+    "extensions": ["axa"]
+  },
+  "audio/basic": {
+    "extensions": ["au","snd"]
+  },
+  "audio/flac": {
+    "extensions": ["flac"]
+  },
+  "audio/midi": {
+    "extensions": ["mid","midi","kar"]
+  },
+  "audio/mobile-xmf": {
+    "extensions": ["mxmf"]
+  },
+  "audio/mp2": {
+    "extensions": ["mp2"]
+  },
+  "audio/mp4": {
+    "extensions": ["m4a","f4a"]
+  },
+  "audio/mpeg": {
+    "extensions": ["mp3","mpga"]
+  },
+  "audio/ogg": {
+    "extensions": ["oga","ogg","opus"]
+  },
+  "audio/prs.sid": {
+    "extensions": ["sid","psid"]
+  },
+  "audio/usac": {
+    "extensions": ["loas","xhe"]
+  },
+  "audio/vnd.audible.aax": {
+    "extensions": ["aax"]
+  },
+  "audio/vnd.audible.aaxc": {
+    "extensions": ["aaxc"]
+  },
+  "audio/vnd.dts": {
+    "extensions": ["dts"]
+  },
+  "audio/vnd.dts.hd": {
+    "extensions": ["dtshd"]
+  },
+  "audio/vnd.rn-realaudio": {
+    "extensions": ["ra","rax"]
+  },
+  "audio/vnd.wave": {
+    "extensions": ["wav"]
+  },
+  "audio/webm": {},
+  "audio/x-adpcm": {},
+  "audio/x-aifc": {
+    "extensions": ["aifc","aiffc"]
+  },
+  "audio/x-aiff": {
+    "extensions": ["aiff","aif"]
+  },
+  "audio/x-amzxml": {
+    "extensions": ["amz"]
+  },
+  "audio/x-ape": {
+    "extensions": ["ape"]
+  },
+  "audio/x-dff": {
+    "extensions": ["dff"]
+  },
+  "audio/x-dsf": {
+    "extensions": ["dsf"]
+  },
+  "audio/x-flac+ogg": {
+    "extensions": ["oga","ogg"]
+  },
+  "audio/x-gsm": {
+    "extensions": ["gsm"]
+  },
+  "audio/x-iriver-pla": {
+    "extensions": ["pla"]
+  },
+  "audio/x-it": {
+    "extensions": ["it"]
+  },
+  "audio/x-m4b": {
+    "extensions": ["m4b","f4b"]
+  },
+  "audio/x-m4r": {
+    "extensions": ["m4r"]
+  },
+  "audio/x-matroska": {
+    "extensions": ["mka"]
+  },
+  "audio/x-minipsf": {
+    "extensions": ["minipsf"]
+  },
+  "audio/x-mo3": {
+    "extensions": ["mo3"]
+  },
+  "audio/x-mod": {
+    "extensions": ["mod","ult","uni","m15","mtm","669","med"]
+  },
+  "audio/x-mpegurl": {
+    "extensions": ["m3u","m3u8","vlc"]
+  },
+  "audio/x-ms-asx": {
+    "extensions": ["asx","wax","wvx","wmx"]
+  },
+  "audio/x-ms-wma": {
+    "extensions": ["wma"]
+  },
+  "audio/x-musepack": {
+    "extensions": ["mpc","mpp"]
+  },
+  "audio/x-opus+ogg": {
+    "extensions": ["opus"]
+  },
+  "audio/x-pn-audibleaudio": {
+    "extensions": ["aa"]
+  },
+  "audio/x-psf": {
+    "extensions": ["psf"]
+  },
+  "audio/x-psflib": {
+    "extensions": ["psflib"]
+  },
+  "audio/x-riff": {},
+  "audio/x-s3m": {
+    "extensions": ["s3m"]
+  },
+  "audio/x-scpls": {
+    "extensions": ["pls"]
+  },
+  "audio/x-speex": {
+    "extensions": ["spx"]
+  },
+  "audio/x-speex+ogg": {
+    "extensions": ["oga","ogg","spx"]
+  },
+  "audio/x-stm": {
+    "extensions": ["stm"]
+  },
+  "audio/x-tak": {
+    "extensions": ["tak"]
+  },
+  "audio/x-tta": {
+    "extensions": ["tta"]
+  },
+  "audio/x-voc": {
+    "extensions": ["voc"]
+  },
+  "audio/x-vorbis+ogg": {
+    "extensions": ["oga","ogg"]
+  },
+  "audio/x-wavpack": {
+    "extensions": ["wv","wvp"]
+  },
+  "audio/x-wavpack-correction": {
+    "extensions": ["wvc"]
+  },
+  "audio/x-xi": {
+    "extensions": ["xi"]
+  },
+  "audio/x-xm": {
+    "extensions": ["xm"]
+  },
+  "audio/x-xmf": {
+    "extensions": ["xmf"]
+  },
+  "chemical/x-pdb": {
+    "extensions": ["pdb","brk"]
+  },
+  "font/collection": {
+    "extensions": ["ttc"]
+  },
+  "font/otf": {
+    "extensions": ["otf"]
+  },
+  "font/ttf": {
+    "extensions": ["ttf"]
+  },
+  "font/woff": {
+    "extensions": ["woff"]
+  },
+  "font/woff2": {
+    "extensions": ["woff2"]
+  },
+  "image/apng": {
+    "extensions": ["apng","png"]
+  },
+  "image/astc": {
+    "extensions": ["astc"]
+  },
+  "image/avif": {
+    "extensions": ["avif","avifs"]
+  },
+  "image/bmp": {
+    "extensions": ["bmp","dib"]
+  },
+  "image/cgm": {
+    "extensions": ["cgm"]
+  },
+  "image/dpx": {},
+  "image/emf": {
+    "extensions": ["emf"]
+  },
+  "image/g3fax": {
+    "extensions": ["g3"]
+  },
+  "image/gif": {
+    "extensions": ["gif"]
+  },
+  "image/heif": {
+    "extensions": ["heic","heif","hif"]
+  },
+  "image/ief": {
+    "extensions": ["ief"]
+  },
+  "image/jp2": {
+    "extensions": ["jp2","jpg2"]
+  },
+  "image/jpeg": {
+    "extensions": ["jpg","jpeg","jpe","jfif"]
+  },
+  "image/jpm": {
+    "extensions": ["jpm","jpgm"]
+  },
+  "image/jpx": {
+    "extensions": ["jpf","jpx"]
+  },
+  "image/jxl": {
+    "extensions": ["jxl"]
+  },
+  "image/jxr": {
+    "extensions": ["jxr","hdp","wdp"]
+  },
+  "image/ktx": {
+    "extensions": ["ktx"]
+  },
+  "image/ktx2": {
+    "extensions": ["ktx2"]
+  },
+  "image/openraster": {
+    "extensions": ["ora"]
+  },
+  "image/png": {
+    "extensions": ["png"]
+  },
+  "image/qoi": {
+    "extensions": ["qoi"]
+  },
+  "image/rle": {
+    "extensions": ["rle"]
+  },
+  "image/svg+xml": {
+    "extensions": ["svg"]
+  },
+  "image/svg+xml-compressed": {
+    "extensions": ["svgz"]
+  },
+  "image/tiff": {
+    "extensions": ["tif","tiff"]
+  },
+  "image/vnd.adobe.photoshop": {
+    "extensions": ["psd"]
+  },
+  "image/vnd.djvu": {
+    "extensions": ["djvu","djv"]
+  },
+  "image/vnd.djvu+multipage": {
+    "extensions": ["djvu","djv"]
+  },
+  "image/vnd.dwg": {
+    "extensions": ["dwg"]
+  },
+  "image/vnd.dxf": {
+    "extensions": ["dxf"]
+  },
+  "image/vnd.microsoft.icon": {
+    "extensions": ["ico"]
+  },
+  "image/vnd.ms-modi": {
+    "extensions": ["mdi"]
+  },
+  "image/vnd.rn-realpix": {
+    "extensions": ["rp"]
+  },
+  "image/vnd.wap.wbmp": {
+    "extensions": ["wbmp"]
+  },
+  "image/vnd.zbrush.pcx": {
+    "extensions": ["pcx"]
+  },
+  "image/webp": {
+    "extensions": ["webp"]
+  },
+  "image/wmf": {
+    "extensions": ["wmf"]
+  },
+  "image/x-3ds": {
+    "extensions": ["3ds"]
+  },
+  "image/x-adobe-dng": {
+    "extensions": ["dng"]
+  },
+  "image/x-applix-graphics": {
+    "extensions": ["ag"]
+  },
+  "image/x-bzeps": {},
+  "image/x-canon-cr2": {
+    "extensions": ["cr2"]
+  },
+  "image/x-canon-cr3": {
+    "extensions": ["cr3"]
+  },
+  "image/x-canon-crw": {
+    "extensions": ["crw"]
+  },
+  "image/x-cmu-raster": {
+    "extensions": ["ras"]
+  },
+  "image/x-compressed-xcf": {},
+  "image/x-dcraw": {},
+  "image/x-dds": {
+    "extensions": ["dds"]
+  },
+  "image/x-dib": {},
+  "image/x-eps": {
+    "extensions": ["eps","epsi","epsf"]
+  },
+  "image/x-exr": {
+    "extensions": ["exr"]
+  },
+  "image/x-fpx": {},
+  "image/x-fuji-raf": {
+    "extensions": ["raf"]
+  },
+  "image/x-gimp-gbr": {
+    "extensions": ["gbr"]
+  },
+  "image/x-gimp-gih": {
+    "extensions": ["gih"]
+  },
+  "image/x-gimp-pat": {
+    "extensions": ["pat"]
+  },
+  "image/x-gzeps": {},
+  "image/x-icns": {
+    "extensions": ["icns"]
+  },
+  "image/x-ilbm": {
+    "extensions": ["iff","ilbm","lbm"]
+  },
+  "image/x-jng": {
+    "extensions": ["jng"]
+  },
+  "image/x-jp2-codestream": {
+    "extensions": ["j2c","j2k","jpc"]
+  },
+  "image/x-kodak-dcr": {
+    "extensions": ["dcr"]
+  },
+  "image/x-kodak-k25": {
+    "extensions": ["k25"]
+  },
+  "image/x-kodak-kdc": {
+    "extensions": ["kdc"]
+  },
+  "image/x-lwo": {
+    "extensions": ["lwo","lwob"]
+  },
+  "image/x-lws": {
+    "extensions": ["lws"]
+  },
+  "image/x-macpaint": {
+    "extensions": ["pntg"]
+  },
+  "image/x-minolta-mrw": {
+    "extensions": ["mrw"]
+  },
+  "image/x-msod": {
+    "extensions": ["msod"]
+  },
+  "image/x-niff": {},
+  "image/x-nikon-nef": {
+    "extensions": ["nef"]
+  },
+  "image/x-nikon-nrw": {
+    "extensions": ["nrw"]
+  },
+  "image/x-olympus-orf": {
+    "extensions": ["orf"]
+  },
+  "image/x-panasonic-rw": {
+    "extensions": ["raw"]
+  },
+  "image/x-panasonic-rw2": {
+    "extensions": ["rw2"]
+  },
+  "image/x-pentax-pef": {
+    "extensions": ["pef"]
+  },
+  "image/x-photo-cd": {
+    "extensions": ["pcd"]
+  },
+  "image/x-pict": {
+    "extensions": ["pct","pict","pict1","pict2"]
+  },
+  "image/x-portable-anymap": {
+    "extensions": ["pnm"]
+  },
+  "image/x-portable-bitmap": {
+    "extensions": ["pbm"]
+  },
+  "image/x-portable-graymap": {
+    "extensions": ["pgm"]
+  },
+  "image/x-portable-pixmap": {
+    "extensions": ["ppm"]
+  },
+  "image/x-quicktime": {
+    "extensions": ["qtif","qif"]
+  },
+  "image/x-rgb": {
+    "extensions": ["rgb"]
+  },
+  "image/x-sgi": {
+    "extensions": ["sgi"]
+  },
+  "image/x-sigma-x3f": {
+    "extensions": ["x3f"]
+  },
+  "image/x-skencil": {
+    "extensions": ["sk","sk1"]
+  },
+  "image/x-sony-arw": {
+    "extensions": ["arw"]
+  },
+  "image/x-sony-sr2": {
+    "extensions": ["sr2"]
+  },
+  "image/x-sony-srf": {
+    "extensions": ["srf"]
+  },
+  "image/x-sun-raster": {
+    "extensions": ["sun"]
+  },
+  "image/x-tga": {
+    "extensions": ["tga","icb","tpic","vda","vst"]
+  },
+  "image/x-tiff-multipage": {},
+  "image/x-win-bitmap": {
+    "extensions": ["cur"]
+  },
+  "image/x-xbitmap": {
+    "extensions": ["xbm"]
+  },
+  "image/x-xcf": {
+    "extensions": ["xcf"]
+  },
+  "image/x-xcursor": {},
+  "image/x-xfig": {
+    "extensions": ["fig"]
+  },
+  "image/x-xpixmap": {
+    "extensions": ["xpm"]
+  },
+  "image/x-xwindowdump": {
+    "extensions": ["xwd"]
+  },
+  "message/delivery-status": {},
+  "message/disposition-notification": {},
+  "message/external-body": {},
+  "message/news": {},
+  "message/partial": {},
+  "message/rfc822": {
+    "extensions": ["eml"]
+  },
+  "message/x-gnu-rmail": {},
+  "model/3mf": {
+    "extensions": ["3mf"]
+  },
+  "model/gltf+json": {
+    "extensions": ["gltf"]
+  },
+  "model/gltf-binary": {
+    "extensions": ["glb"]
+  },
+  "model/iges": {
+    "extensions": ["igs","iges"]
+  },
+  "model/mtl": {
+    "extensions": ["mtl"]
+  },
+  "model/obj": {
+    "extensions": ["obj"]
+  },
+  "model/stl": {
+    "extensions": ["stl"]
+  },
+  "model/vrml": {
+    "extensions": ["vrm","vrml","wrl"]
+  },
+  "multipart/alternative": {},
+  "multipart/appledouble": {},
+  "multipart/digest": {},
+  "multipart/encrypted": {},
+  "multipart/mixed": {},
+  "multipart/related": {},
+  "multipart/report": {},
+  "multipart/signed": {},
+  "multipart/x-mixed-replace": {},
+  "text/cache-manifest": {
+    "extensions": ["manifest"]
+  },
+  "text/calendar": {
+    "extensions": ["vcs","ics"]
+  },
+  "text/css": {
+    "extensions": ["css"]
+  },
+  "text/csv": {
+    "extensions": ["csv"]
+  },
+  "text/csv-schema": {
+    "extensions": ["csvs"]
+  },
+  "text/enriched": {},
+  "text/html": {
+    "extensions": ["html","htm"]
+  },
+  "text/htmlh": {},
+  "text/javascript": {
+    "extensions": ["js","jsm","mjs"]
+  },
+  "text/jscript.encode": {
+    "extensions": ["jse"]
+  },
+  "text/julia": {
+    "extensions": ["jl"]
+  },
+  "text/markdown": {
+    "extensions": ["md","mkd","markdown"]
+  },
+  "text/org": {
+    "extensions": ["org"]
+  },
+  "text/plain": {
+    "extensions": ["txt","asc"]
+  },
+  "text/rfc822-headers": {},
+  "text/richtext": {
+    "extensions": ["rtx"]
+  },
+  "text/rust": {
+    "extensions": ["rs"]
+  },
+  "text/sgml": {
+    "extensions": ["sgml","sgm"]
+  },
+  "text/spreadsheet": {
+    "extensions": ["sylk","slk"]
+  },
+  "text/tab-separated-values": {
+    "extensions": ["tsv"]
+  },
+  "text/tcl": {
+    "extensions": ["tcl","tk"]
+  },
+  "text/troff": {
+    "extensions": ["tr","roff","t"]
+  },
+  "text/turtle": {
+    "extensions": ["ttl"]
+  },
+  "text/vbscript": {
+    "extensions": ["vbs"]
+  },
+  "text/vbscript.encode": {
+    "extensions": ["vbe"]
+  },
+  "text/vcard": {
+    "extensions": ["vcard","vcf","vct","gcrd"]
+  },
+  "text/vnd.familysearch.gedcom": {
+    "extensions": ["ged","gedcom"]
+  },
+  "text/vnd.graphviz": {
+    "extensions": ["gv","dot"]
+  },
+  "text/vnd.rn-realtext": {
+    "extensions": ["rt"]
+  },
+  "text/vnd.senx.warpscript": {
+    "extensions": ["mc2"]
+  },
+  "text/vnd.sun.j2me.app-descriptor": {
+    "extensions": ["jad"]
+  },
+  "text/vnd.trolltech.linguist": {
+    "extensions": ["ts"]
+  },
+  "text/vnd.wap.wml": {
+    "extensions": ["wml"]
+  },
+  "text/vnd.wap.wmlscript": {
+    "extensions": ["wmls"]
+  },
+  "text/vtt": {
+    "extensions": ["vtt"]
+  },
+  "text/x-adasrc": {
+    "extensions": ["adb","ads"]
+  },
+  "text/x-authors": {},
+  "text/x-basic": {
+    "extensions": ["bas"]
+  },
+  "text/x-bibtex": {
+    "extensions": ["bib"]
+  },
+  "text/x-blueprint": {
+    "extensions": ["blp"]
+  },
+  "text/x-c++hdr": {
+    "extensions": ["hh","hp","hpp","hxx"]
+  },
+  "text/x-c++src": {
+    "extensions": ["cpp","cxx","cc","C"]
+  },
+  "text/x-changelog": {},
+  "text/x-chdr": {
+    "extensions": ["h"]
+  },
+  "text/x-cmake": {
+    "extensions": ["cmake"]
+  },
+  "text/x-cobol": {
+    "extensions": ["cbl","cob"]
+  },
+  "text/x-common-lisp": {
+    "extensions": ["asd","fasl","lisp","ros"]
+  },
+  "text/x-component": {
+    "extensions": ["htc"]
+  },
+  "text/x-copying": {},
+  "text/x-credits": {},
+  "text/x-crystal": {
+    "extensions": ["cr"]
+  },
+  "text/x-csharp": {
+    "extensions": ["cs"]
+  },
+  "text/x-csrc": {
+    "extensions": ["c"]
+  },
+  "text/x-dbus-service": {
+    "extensions": ["service"]
+  },
+  "text/x-dcl": {
+    "extensions": ["dcl"]
+  },
+  "text/x-devicetree-binary": {
+    "extensions": ["dtb"]
+  },
+  "text/x-devicetree-source": {
+    "extensions": ["dts","dtsi"]
+  },
+  "text/x-dsl": {
+    "extensions": ["dsl"]
+  },
+  "text/x-dsrc": {
+    "extensions": ["d","di"]
+  },
+  "text/x-eiffel": {
+    "extensions": ["e","eif"]
+  },
+  "text/x-elixir": {
+    "extensions": ["ex","exs"]
+  },
+  "text/x-emacs-lisp": {
+    "extensions": ["el"]
+  },
+  "text/x-erlang": {
+    "extensions": ["erl"]
+  },
+  "text/x-fortran": {
+    "extensions": ["f","f90","f95","for"]
+  },
+  "text/x-gcode-gx": {
+    "extensions": ["gx"]
+  },
+  "text/x-genie": {
+    "extensions": ["gs"]
+  },
+  "text/x-gettext-translation": {
+    "extensions": ["po"]
+  },
+  "text/x-gettext-translation-template": {
+    "extensions": ["pot"]
+  },
+  "text/x-gherkin": {
+    "extensions": ["feature"]
+  },
+  "text/x-go": {
+    "extensions": ["go"]
+  },
+  "text/x-google-video-pointer": {
+    "extensions": ["gvp"]
+  },
+  "text/x-gradle": {
+    "extensions": ["gradle"]
+  },
+  "text/x-groovy": {
+    "extensions": ["groovy","gvy","gy","gsh"]
+  },
+  "text/x-haskell": {
+    "extensions": ["hs"]
+  },
+  "text/x-iMelody": {
+    "extensions": ["imy","ime"]
+  },
+  "text/x-idl": {
+    "extensions": ["idl"]
+  },
+  "text/x-install": {},
+  "text/x-iptables": {
+    "extensions": ["iptables"]
+  },
+  "text/x-java": {
+    "extensions": ["java"]
+  },
+  "text/x-kaitai-struct": {
+    "extensions": ["ksy"]
+  },
+  "text/x-kotlin": {
+    "extensions": ["kt"]
+  },
+  "text/x-ldif": {
+    "extensions": ["ldif"]
+  },
+  "text/x-lilypond": {
+    "extensions": ["ly"]
+  },
+  "text/x-literate-haskell": {
+    "extensions": ["lhs"]
+  },
+  "text/x-log": {
+    "extensions": ["log"]
+  },
+  "text/x-lua": {
+    "extensions": ["lua"]
+  },
+  "text/x-makefile": {
+    "extensions": ["mk","mak"]
+  },
+  "text/x-matlab": {
+    "extensions": ["m"]
+  },
+  "text/x-maven+xml": {},
+  "text/x-meson": {},
+  "text/x-microdvd": {
+    "extensions": ["sub"]
+  },
+  "text/x-moc": {
+    "extensions": ["moc"]
+  },
+  "text/x-modelica": {
+    "extensions": ["mo"]
+  },
+  "text/x-mof": {
+    "extensions": ["mof"]
+  },
+  "text/x-mpl2": {
+    "extensions": ["mpl"]
+  },
+  "text/x-mpsub": {
+    "extensions": ["sub"]
+  },
+  "text/x-mrml": {
+    "extensions": ["mrml","mrl"]
+  },
+  "text/x-ms-regedit": {
+    "extensions": ["reg"]
+  },
+  "text/x-mup": {
+    "extensions": ["mup","not"]
+  },
+  "text/x-nfo": {
+    "extensions": ["nfo"]
+  },
+  "text/x-nim": {
+    "extensions": ["nim"]
+  },
+  "text/x-nimscript": {
+    "extensions": ["nims","nimble"]
+  },
+  "text/x-objc++src": {
+    "extensions": ["mm"]
+  },
+  "text/x-objcsrc": {
+    "extensions": ["m"]
+  },
+  "text/x-ocaml": {
+    "extensions": ["ml","mli"]
+  },
+  "text/x-ocl": {
+    "extensions": ["ocl"]
+  },
+  "text/x-ooc": {
+    "extensions": ["ooc"]
+  },
+  "text/x-opencl-src": {
+    "extensions": ["cl"]
+  },
+  "text/x-opml+xml": {
+    "extensions": ["opml"]
+  },
+  "text/x-pascal": {
+    "extensions": ["p","pas"]
+  },
+  "text/x-patch": {
+    "extensions": ["diff","patch"]
+  },
+  "text/x-python": {
+    "extensions": ["py","pyx","wsgi"]
+  },
+  "text/x-python3": {
+    "extensions": ["py","py3","py3x","pyi"]
+  },
+  "text/x-qml": {
+    "extensions": ["qml","qmltypes","qmlproject"]
+  },
+  "text/x-readme": {},
+  "text/x-reject": {
+    "extensions": ["rej"]
+  },
+  "text/x-rpm-spec": {
+    "extensions": ["spec"]
+  },
+  "text/x-rst": {
+    "extensions": ["rst"]
+  },
+  "text/x-sagemath": {
+    "extensions": ["sage"]
+  },
+  "text/x-sass": {
+    "extensions": ["sass"]
+  },
+  "text/x-scala": {
+    "extensions": ["scala","sc"]
+  },
+  "text/x-scheme": {
+    "extensions": ["scm","ss"]
+  },
+  "text/x-scons": {},
+  "text/x-scss": {
+    "extensions": ["scss"]
+  },
+  "text/x-setext": {
+    "extensions": ["etx"]
+  },
+  "text/x-ssa": {
+    "extensions": ["ssa","ass"]
+  },
+  "text/x-subviewer": {
+    "extensions": ["sub"]
+  },
+  "text/x-svhdr": {
+    "extensions": ["svh"]
+  },
+  "text/x-svsrc": {
+    "extensions": ["sv"]
+  },
+  "text/x-systemd-unit": {
+    "extensions": ["automount","device","mount","path","scope","service","slice","socket","swap","target","timer"]
+  },
+  "text/x-tex": {
+    "extensions": ["tex","ltx","sty","cls","dtx","ins","latex"]
+  },
+  "text/x-texinfo": {
+    "extensions": ["texi","texinfo"]
+  },
+  "text/x-todo-txt": {},
+  "text/x-troff-me": {
+    "extensions": ["me"]
+  },
+  "text/x-troff-mm": {
+    "extensions": ["mm"]
+  },
+  "text/x-troff-ms": {
+    "extensions": ["ms"]
+  },
+  "text/x-twig": {
+    "extensions": ["twig"]
+  },
+  "text/x-txt2tags": {
+    "extensions": ["t2t"]
+  },
+  "text/x-typst": {
+    "extensions": ["typ"]
+  },
+  "text/x-uil": {
+    "extensions": ["uil"]
+  },
+  "text/x-uri": {},
+  "text/x-uuencode": {
+    "extensions": ["uue"]
+  },
+  "text/x-vala": {
+    "extensions": ["vala","vapi"]
+  },
+  "text/x-vb": {
+    "extensions": ["vb"]
+  },
+  "text/x-verilog": {
+    "extensions": ["v"]
+  },
+  "text/x-vhdl": {
+    "extensions": ["vhd","vhdl"]
+  },
+  "text/x-xmi": {
+    "extensions": ["xmi"]
+  },
+  "text/x-xslfo": {
+    "extensions": ["fo","xslfo"]
+  },
+  "text/x.gcode": {
+    "extensions": ["gcode"]
+  },
+  "text/xmcd": {},
+  "video/3gpp": {
+    "extensions": ["3gp","3gpp","3ga"]
+  },
+  "video/3gpp2": {
+    "extensions": ["3g2","3gp2","3gpp2"]
+  },
+  "video/annodex": {
+    "extensions": ["axv"]
+  },
+  "video/dv": {
+    "extensions": ["dv"]
+  },
+  "video/isivideo": {},
+  "video/mj2": {
+    "extensions": ["mj2","mjp2"]
+  },
+  "video/mp2t": {
+    "extensions": ["m2t","m2ts","ts","mts","cpi","clpi","mpl","mpls","bdm","bdmv"]
+  },
+  "video/mp4": {
+    "extensions": ["mp4","m4v","f4v","lrv"]
+  },
+  "video/mpeg": {
+    "extensions": ["mpeg","mpg","mp2","mpe","vob"]
+  },
+  "video/ogg": {
+    "extensions": ["ogv","ogg"]
+  },
+  "video/quicktime": {
+    "extensions": ["qt","mov","moov","qtvr"]
+  },
+  "video/vnd.avi": {
+    "extensions": ["avi","avf","divx"]
+  },
+  "video/vnd.mpegurl": {
+    "extensions": ["m1u","m4u","mxu"]
+  },
+  "video/vnd.radgamettools.bink": {
+    "extensions": ["bik","bk2"]
+  },
+  "video/vnd.radgamettools.smacker": {
+    "extensions": ["smk"]
+  },
+  "video/vnd.rn-realvideo": {
+    "extensions": ["rv","rvx"]
+  },
+  "video/vnd.vivo": {
+    "extensions": ["viv","vivo"]
+  },
+  "video/vnd.youtube.yt": {
+    "extensions": ["yt"]
+  },
+  "video/wavelet": {},
+  "video/webm": {
+    "extensions": ["webm"]
+  },
+  "video/x-anim": {},
+  "video/x-flic": {
+    "extensions": ["fli","flc"]
+  },
+  "video/x-flv": {
+    "extensions": ["flv"]
+  },
+  "video/x-javafx": {
+    "extensions": ["fxm"]
+  },
+  "video/x-matroska": {
+    "extensions": ["mkv"]
+  },
+  "video/x-matroska-3d": {
+    "extensions": ["mk3d"]
+  },
+  "video/x-mjpeg": {
+    "extensions": ["mjpeg","mjpg"]
+  },
+  "video/x-mng": {
+    "extensions": ["mng"]
+  },
+  "video/x-ms-wmv": {
+    "extensions": ["wmv"]
+  },
+  "video/x-nsv": {
+    "extensions": ["nsv"]
+  },
+  "video/x-ogm+ogg": {
+    "extensions": ["ogm"]
+  },
+  "video/x-sgi-movie": {
+    "extensions": ["movie"]
+  },
+  "video/x-theora+ogg": {
+    "extensions": ["ogg"]
+  }
+}

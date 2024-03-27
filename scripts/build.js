@@ -16,6 +16,9 @@ addData(db, require('../src/apache-types.json'), 'apache')
 // add the mime extensions from nginx
 addData(db, require('../src/nginx-types.json'), 'nginx')
 
+// add the mime extensions from shared-mime-types
+addData(db, require('../src/shared-mime-types.json'), 'shared-mime-types')
+
 // now add all our custom data
 addData(db, require('../src/custom-types.json'))
 
