@@ -75,7 +75,7 @@ registered with the IANA are automatically pulled into this library.
 If that is not possible / feasible, they can be added directly here as a
 "custom" type. To do this, it is required to have a primary source that
 definitively lists the media type. If an extension is going to be listed as
-associateed with this media type, the source must definitively link the
+associated with this media type, the source must definitively link the
 media type and extension as well.
 
 To edit the database, only make PRs against `src/custom-types.json` or
