@@ -1,0 +1,26 @@
+name: update
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "latest"
+
+      - name: Install Node.js dependencies
+        run: npm install
+
+      - name: Update
+        run: npm run update
+
+      - name: commit and create a pull request
+        uses: shogo82148/actions-commit-and-create-pr@v1
