@@ -14,6 +14,7 @@ It aggregates data from the following sources:
 - https://www.iana.org/assignments/media-types/media-types.xhtml
 - https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
 - https://hg.nginx.org/nginx/raw-file/default/conf/mime.types
+- https://gitlab.freedesktop.org/xdg/shared-mime-info/-/blob/master/data/freedesktop.org.xml.in
 
 ## Installation
 
