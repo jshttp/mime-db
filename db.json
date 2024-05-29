@@ -5530,6 +5530,7 @@
   },
   "application/vnd.unity": {
     "source": "iana",
+    "compressible": true,
     "extensions": ["unityweb"]
   },
   "application/vnd.uoml+xml": {
