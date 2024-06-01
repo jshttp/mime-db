@@ -912,6 +912,7 @@
     ]
   },
   "application/geopackage+sqlite3": {
+    "extensions": ["gpkg"],
     "sources": [
       "https://www.iana.org/assignments/media-types/application/geopackage+sqlite3"
     ]
