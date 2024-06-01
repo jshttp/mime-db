@@ -641,7 +641,8 @@
     "source": "iana"
   },
   "application/geopackage+sqlite3": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["gpkg"]
   },
   "application/geoxacml+xml": {
     "source": "iana",

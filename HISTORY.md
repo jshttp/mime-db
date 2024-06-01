@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add extension `gpkg.` to `application/geopackage+sqlite3`
   * Add extension `.sql` to `application/sql`
   * Add extensions `.aac` and `.adts` to `audio/aac`
   * Add extensions `.js` and `.mjs` to `text/javascript`
