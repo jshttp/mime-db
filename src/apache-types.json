@@ -642,6 +642,9 @@
   "application/vnd.antix.game-component": {
     "extensions": ["atx"]
   },
+  "application/vnd.apache.parquet": {
+    "extensions": ["parquet"]
+  },
   "application/vnd.apache.thrift.binary": {},
   "application/vnd.apache.thrift.compact": {},
   "application/vnd.apache.thrift.json": {},
