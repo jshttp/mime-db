@@ -36,7 +36,7 @@ jobs:
               BRANCH_NAME="${BRANCH_NAME}-${TIMESTAMP}"
             fi
             git checkout -b $BRANCH_NAME
-            git add .
+            git add db.json src/
             git commit -m "Automated update"
             git push --set-upstream origin $BRANCH_NAME
             echo "::set-output name=changes_detected::true"
