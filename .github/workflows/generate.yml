@@ -5,6 +5,10 @@ on:
     - cron: '0 0 1 * *' # Runs on the first day of each month at midnight
   workflow_dispatch: # Allows the workflow to be triggered manually
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   update-and-pr:
     runs-on: ubuntu-latest
@@ -24,35 +28,12 @@ jobs:
       - name: Run update script 🔄
         run: npm run update
 
-      - name: Check for changes and create branch 📤
-        id: check_changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain)" ]; then
-            BRANCH_NAME="update-branch"
-            if git show-ref --verify --quiet "refs/heads/$BRANCH_NAME"; then
-              TIMESTAMP=$(date +%s)
-              BRANCH_NAME="${BRANCH_NAME}-${TIMESTAMP}"
-            fi
-            git checkout -b $BRANCH_NAME
-            git add db.json src/
-            git commit -m "Automated update"
-            git push --set-upstream origin $BRANCH_NAME
-            echo "::set-output name=changes_detected::true"
-            echo "::set-output name=branch::$BRANCH_NAME"
-          else
-            echo "No changes detected."
-            echo "::set-output name=changes_detected::false"
-            echo "::set-output name=branch::"
-      
-      - name: Create Pull Request 🚀
-        if: steps.check_changes.outputs.changes_detected == 'true'
-        uses: peter-evans/create-pull-request@v4
+      - name: Create Pull Request 🚀 (if there are changes)
+        uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ steps.check_changes.outputs.branch }}
+          branch: auto-update
           title: "🤖Automated update"
           body: "This PR contains automated updates from running `npm run update`"
-          labels: ["automated update"]
+          labels: "automated update"
 
