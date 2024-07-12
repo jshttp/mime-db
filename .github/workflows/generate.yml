@@ -5,6 +5,10 @@ on:
     - cron: '0 0 1 * *' # Runs on the first day of each month at midnight
   workflow_dispatch: # Allows the workflow to be triggered manually
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   update-and-pr:
     runs-on: ubuntu-latest
@@ -38,13 +42,14 @@ jobs:
             git checkout -b $BRANCH_NAME
             git add db.json src/
             git commit -m "Automated update"
-            git push --set-upstream origin $BRANCH_NAME
+            git push --force --set-upstream origin $BRANCH_NAME
             echo "::set-output name=changes_detected::true"
             echo "::set-output name=branch::$BRANCH_NAME"
           else
             echo "No changes detected."
             echo "::set-output name=changes_detected::false"
-            echo "::set-output name=branch::"
+            echo "::set-output name=branch::$BRANCH_NAME"
+          fi
       
       - name: Create Pull Request 🚀
         if: steps.check_changes.outputs.changes_detected == 'true'
@@ -52,7 +57,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ steps.check_changes.outputs.branch }}
+          base: master
           title: "🤖Automated update"
           body: "This PR contains automated updates from running `npm run update`"
-          labels: ["automated update"]
+          labels: "automated update"
 
