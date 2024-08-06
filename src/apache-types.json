@@ -2399,6 +2399,9 @@
   "application/x-sql": {
     "extensions": ["sql"]
   },
+  "application/x-step": {
+    "extensions": ["ifc"]
+  },
   "application/x-stuffit": {
     "extensions": ["sit"]
   },
@@ -2486,7 +2489,7 @@
   },
   "application/xhtml-voice+xml": {},
   "application/xml": {
-    "extensions": ["xml","xsl"]
+    "extensions": ["xml","xsl", "ifcxml"]
   },
   "application/xml-dtd": {
     "extensions": ["dtd"]
@@ -2516,7 +2519,7 @@
     "extensions": ["yin"]
   },
   "application/zip": {
-    "extensions": ["zip"]
+    "extensions": ["zip", "ifczip"]
   },
   "application/zlib": {},
   "audio/1d-interleaved-parityfec": {},
