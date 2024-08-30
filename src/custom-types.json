@@ -652,7 +652,12 @@
     ]
   },
   "image/pjpeg": {
-    "compressible": false
+    "compressible": false,
+    "extensions": ["jfif"],
+    "sources": [
+      "https://github.com/microsoft/referencesource/blob/master/System.Web/MimeMapping.cs#L212",
+      "https://mimetype.io/image/pjpeg"
+    ]
   },
   "image/png": {
     "compressible": false
@@ -710,7 +715,10 @@
   },
   "message/rfc822": {
     "compressible": true,
+    "extensions": ["mht", "mhtml"],
     "sources": [
+      "https://mimetype.io/message/rfc822",
+      "https://github.com/microsoft/referencesource/blob/master/System.Web/MimeMapping.cs#L235-L236",
       "http://en.wikipedia.org/wiki/MIME#Multipart_subtypes"
     ]
   },
@@ -948,6 +956,25 @@
     "compressible": true,
     "sources": [
       "https://developer.mozilla.org/en-US/docs/Web/WebGL/Adding_2D_content_to_a_WebGL_context"
+    ]
+  },
+  "application/onenote": {
+    "extensions": ["one", "onea"],
+    "sources": [
+      "https://github.com/microsoft/referencesource/blob/master/System.Web/MimeMapping.cs#L265-L266"
+    ]
+  },
+  "application/vnd.visio": {
+    "extensions": ["vsdx", "vtx"],
+    "sources": [
+      "https://mimetype.io/application/vnd.visio",
+      "https://learn.microsoft.com/en-us/office/client-developer/visio/introduction-to-the-visio-file-formatvsdx"
+    ]
+  },
+  "application/vnd.ms-visio.viewer": {
+    "extensions": ["vdx"],
+    "sources": [
+      "https://github.com/microsoft/referencesource/blob/master/System.Web/MimeMapping.cs#L379"
     ]
   }
 }
