@@ -655,7 +655,7 @@
     "compressible": false,
     "extensions": ["jfif"],
     "sources": [
-      "https://github.com/microsoft/referencesource/blob/master/System.Web/MimeMapping.cs#L212",
+      "https://github.com/microsoft/referencesource/blob/51cf7850defa8a17d815b4700b67116e3fa283c2/System.Web/MimeMapping.cs#L212",
       "https://mimetype.io/image/pjpeg"
     ]
   },
@@ -718,7 +718,7 @@
     "extensions": ["mht", "mhtml"],
     "sources": [
       "https://mimetype.io/message/rfc822",
-      "https://github.com/microsoft/referencesource/blob/master/System.Web/MimeMapping.cs#L235-L236",
+      "https://github.com/microsoft/referencesource/blob/51cf7850defa8a17d815b4700b67116e3fa283c2/System.Web/MimeMapping.cs#L235-L236",
       "http://en.wikipedia.org/wiki/MIME#Multipart_subtypes"
     ]
   },
@@ -961,7 +961,7 @@
   "application/onenote": {
     "extensions": ["one", "onea"],
     "sources": [
-      "https://github.com/microsoft/referencesource/blob/master/System.Web/MimeMapping.cs#L265-L266"
+      "https://github.com/microsoft/referencesource/blob/51cf7850defa8a17d815b4700b67116e3fa283c2/System.Web/MimeMapping.cs#L265-L266"
     ]
   },
   "application/vnd.visio": {
@@ -974,7 +974,7 @@
   "application/vnd.ms-visio.viewer": {
     "extensions": ["vdx"],
     "sources": [
-      "https://github.com/microsoft/referencesource/blob/master/System.Web/MimeMapping.cs#L379"
+      "https://github.com/microsoft/referencesource/blob/51cf7850defa8a17d815b4700b67116e3fa283c2/System.Web/MimeMapping.cs#L379"
     ]
   }
 }
