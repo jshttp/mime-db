@@ -258,6 +258,20 @@
   "application/vnd.ms-xpsdocument": {
     "compressible": false
   },
+  "application/vnd.procreate.brush": {
+    "extensions": ["brush"],
+    "sources": [
+      "https://help.procreate.com/procreate/handbook/brushes/brushes-share"
+    ],
+    "notes": "Procreate Brush"
+  },
+  "application/vnd.procrate.brushset": {
+    "extensions": ["brushset"],
+    "sources": [
+      "https://help.procreate.com/procreate/handbook/brushes/brushes-share"
+    ],
+    "notes": "Procreate Brush Set"
+  },
   "application/vnd.oasis.opendocument.graphics": {
     "compressible": false
   },
