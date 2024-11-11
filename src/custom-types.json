@@ -682,6 +682,13 @@
       "https://docs.microsoft.com/en-us/windows/win32/wic/dds-format-overview"
     ]
   },
+  "image/x-adobe-dng": {
+    "extensions": ["dng"],
+    "notes": "A non-proprietary file format for storing camera raw files",
+    "sources": [
+      "https://paulbourke.net/dataformats/dng/dng_spec_1_6_0_0.pdf"
+    ]
+  },
   "image/x-icon": {
     "compressible": true,
     "notes": "Usually a wrapper for .bmp formated images.",
