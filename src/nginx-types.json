@@ -83,6 +83,9 @@
   "application/x-cocoa": {
     "extensions": ["cco"]
   },
+  "application/x-compressed:":{
+    "extensions": ["rar"]
+  },
   "application/x-java-archive-diff": {
     "extensions": ["jardiff"]
   },
@@ -121,6 +124,9 @@
   },
   "application/x-xpinstall": {
     "extensions": ["xpi"]
+  },
+  "application/x-zip-compressed":{
+    "extensions":["zip"]
   },
   "application/xhtml+xml": {
     "extensions": ["xhtml"]
