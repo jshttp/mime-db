@@ -2501,6 +2501,11 @@
       "https://www.iana.org/assignments/media-types/application/sru+xml"
     ]
   },
+  "application/sslkeylogfile": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/sslkeylogfile"
+    ]
+  },
   "application/ssml+xml": {
     "sources": [
       "https://tools.ietf.org/rfc/rfc4267.txt",
@@ -9004,6 +9009,7 @@
   },
   "audio/scip": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9607.txt",
       "https://www.iana.org/assignments/media-types/audio/scip"
     ]
   },
@@ -11072,6 +11078,7 @@
   },
   "video/scip": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9607.txt",
       "https://www.iana.org/assignments/media-types/video/scip"
     ]
   },
