@@ -11,8 +11,8 @@
  * Convert these text files to JSON for browser usage.
  */
 
-var got = require('got')
 var writedb = require('./lib/write-db')
+var { request } = require('./utils')
 
 /**
  * Mime types and associated extensions are stored in the form:
@@ -32,14 +32,15 @@ var TYPE_LINE_REGEXP = /^(?:# )?([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*)$/gm
 var URL = 'https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types'
 
 ;(async function () {
-  const res = await got(URL)
+  const res = await request(URL)
 
   var json = {}
   var match = null
+  var body = await res.body.text()
 
   TYPE_LINE_REGEXP.index = 0
 
-  while ((match = TYPE_LINE_REGEXP.exec(res.body))) {
+  while ((match = TYPE_LINE_REGEXP.exec(body))) {
     var mime = match[1]
 
     if (mime.slice(-8) === '/example') {
