@@ -976,5 +976,11 @@
     "sources": [
       "https://github.com/microsoft/referencesource/blob/51cf7850defa8a17d815b4700b67116e3fa283c2/System.Web/MimeMapping.cs#L379"
     ]
+  },
+  "application/zip+dotlottie": {
+    "extensions": ["lottie"],
+    "sources": [
+      "https://dotlottie.io/structure/"
+    ]
   }
 }
