@@ -317,6 +317,18 @@
   "application/x-chrome-extension": {
     "extensions": ["crx"]
   },
+  "x-compressed": {
+    "extensions": ["rar"],
+    "notes": "Windows 11 use this mime-type for RAR files instead of application/x-rar-compressed or application/vnd.rar"
+  },
+  "x-zip-compressed": {
+    "extensions": ["zip"],
+    "sources": [
+      "https://bugs.python.org/issue41738",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types/Common_types"
+    ],
+    "notes": "Windows use this mime-type for Zip files instead of application/zip"
+  },
   "application/x-deb": {
     "compressible": false
   },
