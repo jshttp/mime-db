@@ -94,24 +94,28 @@ async function addTemplateData (data, options) {
     return
   }
 
-  let res = await got('https://www.iana.org/assignments/media-types/' + data.template)
+  let res
   var ref = data.type + '/' + data.name
   var rfc = getRfcReferences(data.reference)[0]
 
-  if (res.statusCode === 404 && data.template !== ref) {
-    console.log('template ' + data.template + ' not found, retry as ' + ref)
-    data.template = ref
-    res = await got('https://www.iana.org/assignments/media-types/' + ref)
+  try {
+    res = await got('https://www.iana.org/assignments/media-types/' + data.template)
+  } catch (error) {
+    if (error.response.statusCode === 404 && data.template !== ref) {
+      console.log('template ' + data.template + ' not found, retry as ' + ref)
+      data.template = ref
+      res = await got('https://www.iana.org/assignments/media-types/' + ref)
 
-    // replace the guessed mime
-    if (res.statusCode === 200) {
-      data.mime = data.template
+      // replace the guessed mime
+      if (res.statusCode === 200) {
+        data.mime = data.template
+      }
     }
-  }
 
-  if (res.statusCode === 404 && rfc !== undefined) {
-    console.log('template ' + data.template + ' not found, fetch ' + rfc)
-    res = await got('https://tools.ietf.org/rfc/' + rfc.toLowerCase() + '.txt')
+    if (error.response.statusCode === 404 && rfc !== undefined) {
+      console.log('template ' + data.template + ' not found, fetch ' + rfc)
+      res = await got('https://tools.ietf.org/rfc/' + rfc.toLowerCase() + '.txt')
+    }
   }
 
   if (res.statusCode === 404) {
