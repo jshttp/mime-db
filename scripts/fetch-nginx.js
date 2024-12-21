@@ -11,7 +11,7 @@
  * Convert these text files to JSON for browser usage.
  */
 
-var got = require('got')
+var { request } = require('./utils')
 var writedb = require('./lib/write-db')
 
 /**
@@ -30,14 +30,15 @@ var TYPE_LINE_REGEXP = /^\s*([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*);\s*$/gm
 var URL = 'https://raw.githubusercontent.com/nginx/nginx/master/conf/mime.types'
 
 ;(async function () {
-  const res = await got(URL)
+  const res = await request(URL)
 
   var json = {}
   var match = null
+  var body = await res.body.text()
 
   TYPE_LINE_REGEXP.index = 0
 
-  while ((match = TYPE_LINE_REGEXP.exec(res.body))) {
+  while ((match = TYPE_LINE_REGEXP.exec(body))) {
     var mime = match[1]
 
     // parse the extensions
