@@ -1778,6 +1778,9 @@
     "compressible": true,
     "extensions": ["ssdl"]
   },
+  "application/sslkeylogfile": {
+    "source": "iana"
+  },
   "application/ssml+xml": {
     "source": "iana",
     "compressible": true,
