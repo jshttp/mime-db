@@ -94,7 +94,7 @@ async function addTemplateData (data, options) {
     return
   }
 
-  let res = await got('https://www.iana.org/assignments/media-types/' + data.template)
+  let res = await got(`https://www.iana.org/assignments/media-types/${data.template}`, { throwHttpErrors: false })
   var ref = data.type + '/' + data.name
   var rfc = getRfcReferences(data.reference)[0]
 
