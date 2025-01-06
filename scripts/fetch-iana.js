@@ -221,7 +221,8 @@ async function get (type, options) {
     throw new Error('got status code ' + res.statusCode + ' from ' + type)
   }
 
-  const mimes = await toArray(parser(await res.body.text()))
+  const responseText = await res.body.text()
+  const mimes = await toArray(parser(responseText))
   var headers = mimes.shift().map(normalizeHeader)
   var reduceRows = generateRowMapper(headers)
   const results = []
