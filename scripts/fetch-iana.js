@@ -9,7 +9,7 @@
  * Convert the IANA definitions from CSV to local.
  */
 
-var { request } = require('./utils')
+var { request } = require('./lib/request')
 var parser = require('csv-parse')
 var toArray = require('stream-to-array')
 var typer = require('media-typer')

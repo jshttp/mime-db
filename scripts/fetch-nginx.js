@@ -11,7 +11,7 @@
  * Convert these text files to JSON for browser usage.
  */
 
-var { request } = require('./utils')
+var { request } = require('./lib/request')
 var writedb = require('./lib/write-db')
 
 /**

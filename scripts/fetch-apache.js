@@ -12,7 +12,7 @@
  */
 
 var writedb = require('./lib/write-db')
-var { request } = require('./utils')
+var { request } = require('./lib/request')
 
 /**
  * Mime types and associated extensions are stored in the form:
