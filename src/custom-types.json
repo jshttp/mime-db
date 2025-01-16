@@ -526,7 +526,7 @@
     ]
   },
   "audio/mp4": {
-    "compressible": false
+    "compressible": false,
     "extensions": ["m4b"],
     "notes": "m4b is used for bookmarkable mp4 files, especially audiobooks or podcasts",
     "sources": [
