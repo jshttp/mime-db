@@ -308,6 +308,14 @@
       "http://www.id.ee/public/bdoc-spec21.pdf"
     ]
   },
+  "application/x-blender": {
+    "extensions": ["blend", ".blend1", ".blend2"],
+    "notes": "Blender's main project file format",
+    "sources": [
+      "https://www.loc.gov/preservation/digital/formats//fdd/fdd000559.shtml",
+      "https://archive.blender.org/wiki/2015/index.php/Dev:Source/Architecture/File_Format/"
+    ]
+  },
   "application/x-bzip": {
     "compressible": false
   },

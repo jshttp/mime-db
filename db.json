@@ -6155,6 +6155,9 @@
     "source": "apache",
     "extensions": ["torrent"]
   },
+  "application/x-blender": {
+    "extensions": ["blend",".blend1",".blend2"]
+  },
   "application/x-blorb": {
     "source": "apache",
     "extensions": ["blb","blorb"]
