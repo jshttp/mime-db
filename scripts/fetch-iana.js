@@ -74,7 +74,7 @@ var MIME_TYPE_HAS_CHARSET_PARAMETER_REGEXP = /parameters\s*:[^.]*\bcharset\b/im
       sources: result.sources
     }
 
-    // keep unambigious extensions
+    // keep unambiguous extensions
     var extensions = (result.extensions || []).filter(function (ext) {
       return exts[ext] === 1 || typer.parse(mime).subtype === ext
     })

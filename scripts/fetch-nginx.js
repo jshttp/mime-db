@@ -24,7 +24,7 @@ var TYPE_LINE_REGEXP = /^\s*([\w-]+\/[\w+.-]+)((?:\s+[\w-]+)*);\s*$/gm
 /**
  * URL for the mime.types file in the NGINX project source.
  *
- * This uses the Github.com mirror of the Mercurial repository
+ * This uses the GitHub.com mirror of the Mercurial repository
  * as the Mercurial web interface requires cookies.
  */
 var URL = 'https://raw.githubusercontent.com/nginx/nginx/master/conf/mime.types'
