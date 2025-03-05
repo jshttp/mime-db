@@ -748,6 +748,13 @@
   "model/mesh": {
     "compressible": false
   },
+  "model/step": {
+    "extensions": ["step", "stp", "stpnc", "p21", "210"],
+    "notes": "3D model format. Used in CAD.",
+    "sources": [
+      "https://www.iana.org/assignments/media-types/model/step"
+    ]
+  },
   "model/vrml": {
     "compressible": false
   },
