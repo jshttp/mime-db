@@ -538,7 +538,12 @@
     ]
   },
   "audio/mp4": {
-    "compressible": false
+    "compressible": false,
+    "extensions": ["m4b"],
+    "notes": "m4b is used for bookmarkable mp4 files, especially audiobooks or podcasts",
+    "sources": [
+      "https://www.loc.gov/preservation/digital/formats/fdd/fdd000052.shtml#sign"
+    ]
   },
   "audio/mpeg": {
     "compressible": false
