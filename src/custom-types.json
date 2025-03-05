@@ -321,7 +321,7 @@
     "extensions": ["rar"],
     "notes": "Windows 11 use this mime-type for RAR files instead of application/x-rar-compressed or application/vnd.rar"
   },
-  "x-zip-compressed": {
+  "application/x-zip-compressed": {
     "extensions": ["zip"],
     "sources": [
       "https://bugs.python.org/issue41738",
