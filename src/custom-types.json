@@ -128,9 +128,10 @@
   },
   "application/octet-stream": {
     "compressible": false,
-    "extensions": ["buffer"],
+    "extensions": ["buffer", "ipa"],
     "sources": [
-      "https://github.com/broofa/node-mime/blob/v1.2.11/types/mime.types#L154"
+      "https://github.com/broofa/node-mime/blob/v1.2.11/types/mime.types#L154",
+      "https://support.apple.com/en-gb/guide/deployment/depce7cefc4d/1/web#dep30d16db76"
     ]
   },
   "application/ogg": {
@@ -499,9 +500,10 @@
   },
   "application/xml": {
     "compressible": true,
-    "extensions": ["xsd","rng"],
+    "extensions": ["xsd","rng","plist"],
     "sources": [
-      "http://en.wikipedia.org/wiki/RELAX_NG"
+      "http://en.wikipedia.org/wiki/RELAX_NG",
+      "https://support.apple.com/en-gb/guide/deployment/depce7cefc4d/1/web#dep30d16db76"
     ]
   },
   "application/xml-dtd": {
