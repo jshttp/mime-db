@@ -128,9 +128,10 @@
   },
   "application/octet-stream": {
     "compressible": false,
-    "extensions": ["buffer"],
+    "extensions": ["buffer", "ipa"],
     "sources": [
-      "https://github.com/broofa/node-mime/blob/v1.2.11/types/mime.types#L154"
+      "https://github.com/broofa/node-mime/blob/v1.2.11/types/mime.types#L154",
+      "https://support.apple.com/en-gb/guide/deployment/depce7cefc4d/1/web#dep30d16db76"
     ]
   },
   "application/ogg": {
@@ -939,7 +940,8 @@
     ]
   },
   "text/xml": {
-    "compressible": true
+    "compressible": true,
+    "extensions": ["plist"]
   },
   "text/yaml": {
     "compressible": true,
