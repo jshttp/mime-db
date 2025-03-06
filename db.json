@@ -7842,9 +7842,6 @@
     "source": "apache",
     "extensions": ["3ds"]
   },
-  "image/x-adobe-dng": {
-    "extensions": ["dng"]
-  },
   "image/x-cmu-raster": {
     "source": "apache",
     "extensions": ["ras"]
