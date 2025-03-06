@@ -5241,12 +5241,6 @@
     "source": "iana",
     "extensions": ["box"]
   },
-  "application/vnd.procrate.brushset": {
-    "extensions": ["brushset"]
-  },
-  "application/vnd.procreate.brush": {
-    "extensions": ["brush"]
-  },
   "application/vnd.proteus.magazine": {
     "source": "iana",
     "extensions": ["mgz"]
