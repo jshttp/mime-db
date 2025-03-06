@@ -2486,9 +2486,6 @@
     "source": "iana",
     "extensions": ["aep"]
   },
-  "application/vnd.autodesk.fbx": {
-    "extensions": ["fbx"]
-  },
   "application/vnd.autopackage": {
     "source": "iana"
   },
