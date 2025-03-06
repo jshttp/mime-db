@@ -5241,9 +5241,6 @@
     "source": "iana",
     "extensions": ["box"]
   },
-  "application/vnd.procreate.dream": {
-    "extensions": ["drm"]
-  },
   "application/vnd.proteus.magazine": {
     "source": "iana",
     "extensions": ["mgz"]
