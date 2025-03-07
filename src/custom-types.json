@@ -213,27 +213,153 @@
   "application/vnd.dart": {
     "compressible": true
   },
+  "application/vnd.google-apps.audio": {
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
   "application/vnd.google-apps.document": {
     "compressible": false,
     "extensions": ["gdoc"],
+    "notes": "Google Docs",
     "sources": [
-      "https://developers.google.com/drive/v2/web/mime-types",
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.drive-sdk": {
+    "compressible": false,
+    "notes": "Third-party shortcut",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.drawing": {
+    "compressible": false,
+    "extensions": ["gdraw"],
+    "notes": "Google Drawings",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.file": {
+    "notes": "Google Drive file",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.folder": {
+    "compressible": false,
+    "notes": "Google Drive folder",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.form": {
+    "compressible": false,
+    "extensions": ["gform"],
+    "notes": "Google Forms",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.fusiontable": {
+    "notes": "Google Fusion Tables",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.jam": {
+    "compressible": false,
+    "extensions": ["gjam"],
+    "notes": "Google Jamboard",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.mail-layout": {
+    "notes": "Email layout",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.map": {
+    "compressible": false,
+    "extensions": ["gmap"],
+    "notes": "Google My Maps",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.photo": {
+    "notes": "Google Photos",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
   "application/vnd.google-apps.presentation": {
     "compressible": false,
     "extensions": ["gslides"],
+    "notes": "Google Slides",
     "sources": [
-      "https://developers.google.com/drive/v2/web/mime-types",
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.script": {
+    "compressible": false,
+    "extensions": ["gscript"],
+    "notes": "Google Apps Script",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.shortcut": {
+    "notes": "Shortcut",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.site": {
+    "compressible": false,
+    "extensions": ["gsite"],
+    "notes": "Google Sites",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
   "application/vnd.google-apps.spreadsheet": {
     "compressible": false,
     "extensions": ["gsheet"],
+    "notes": "Google Sheets",
     "sources": [
-      "https://developers.google.com/drive/v2/web/mime-types",
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.unknown": {
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.video": {
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
