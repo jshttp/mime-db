@@ -309,7 +309,7 @@
     ]
   },
   "application/x-blender": {
-    "extensions": ["blend", ".blend1", ".blend2"],
+    "extensions": ["blend"],
     "notes": "Blender's main project file format",
     "sources": [
       "https://www.loc.gov/preservation/digital/formats//fdd/fdd000559.shtml",
