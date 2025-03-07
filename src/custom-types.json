@@ -258,6 +258,14 @@
   "application/vnd.ms-xpsdocument": {
     "compressible": false
   },
+  "application/vnd.procreate.dream": {
+    "extensions": ["drm"],
+    "notes": "A proprietary file type for Procreate Dreams",
+    "sources": [
+      "https://help.procreate.com/articles/dxjyml-exporting-movies",
+      "https://help.procreate.com/articles/deaqnd-export-formats#d43a8f399706"
+    ]
+  },
   "application/vnd.oasis.opendocument.graphics": {
     "compressible": false
   },
