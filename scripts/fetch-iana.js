@@ -9,7 +9,7 @@
  * Convert the IANA definitions from CSV to local.
  */
 
-var got = require('got')
+var { request } = require('./lib/request')
 var parser = require('csv-parse')
 var toArray = require('stream-to-array')
 var typer = require('media-typer')
@@ -74,7 +74,7 @@ var MIME_TYPE_HAS_CHARSET_PARAMETER_REGEXP = /parameters\s*:[^.]*\bcharset\b/im
       sources: result.sources
     }
 
-    // keep unambigious extensions
+    // keep unambiguous extensions
     var extensions = (result.extensions || []).filter(function (ext) {
       return exts[ext] === 1 || typer.parse(mime).subtype === ext
     })
@@ -93,15 +93,16 @@ async function addTemplateData (data, options) {
   if (!data.template) {
     return
   }
-
-  let res = await got('https://www.iana.org/assignments/media-types/' + data.template)
+  let url = 'https://www.iana.org/assignments/media-types/' + data.template
+  let res = await request(url)
   var ref = data.type + '/' + data.name
   var rfc = getRfcReferences(data.reference)[0]
 
   if (res.statusCode === 404 && data.template !== ref) {
     console.log('template ' + data.template + ' not found, retry as ' + ref)
     data.template = ref
-    res = await got('https://www.iana.org/assignments/media-types/' + ref)
+    url = 'https://www.iana.org/assignments/media-types/' + ref
+    res = await request(url)
 
     // replace the guessed mime
     if (res.statusCode === 200) {
@@ -111,7 +112,8 @@ async function addTemplateData (data, options) {
 
   if (res.statusCode === 404 && rfc !== undefined) {
     console.log('template ' + data.template + ' not found, fetch ' + rfc)
-    res = await got('https://tools.ietf.org/rfc/' + rfc.toLowerCase() + '.txt')
+    url = 'https://www.rfc-editor.org/rfc/' + rfc.toLowerCase() + '.txt'
+    res = await request(url)
   }
 
   if (res.statusCode === 404) {
@@ -123,11 +125,11 @@ async function addTemplateData (data, options) {
     throw new Error('got status code ' + res.statusCode + ' from template ' + data.template)
   }
 
-  var body = getTemplateBody(res.body)
+  var body = getTemplateBody(await res.body.text())
   var mime = extractTemplateMime(body)
 
   // add the template as a source
-  addSource(data, res.url)
+  addSource(data, url)
 
   if (mimeEql(mime, data.mime)) {
     // use extracted mime
@@ -213,13 +215,14 @@ function extractTemplateExtensions (body) {
 }
 
 async function get (type, options) {
-  const res = await got('https://www.iana.org/assignments/media-types/' + encodeURIComponent(type) + '.csv')
+  const res = await request('https://www.iana.org/assignments/media-types/' + encodeURIComponent(type) + '.csv')
 
   if (res.statusCode !== 200) {
     throw new Error('got status code ' + res.statusCode + ' from ' + type)
   }
 
-  const mimes = await toArray(parser(res.body))
+  const responseText = await res.body.text()
+  const mimes = await toArray(parser(responseText))
   var headers = mimes.shift().map(normalizeHeader)
   var reduceRows = generateRowMapper(headers)
   const results = []

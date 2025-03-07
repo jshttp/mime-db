@@ -70,7 +70,7 @@
   "application/hjson": {
     "extensions": ["hjson"],
     "sources": [
-      "https://hjson.org/rfc.html#rfc.section.1.3"
+      "https://hjson.github.io/rfc.html#rfc.section.1.3"
     ]
   },
   "application/java-archive": {
@@ -272,6 +272,14 @@
     ],
     "notes": "Procreate Brush Set"
   },
+  "application/vnd.procreate.dream": {
+    "extensions": ["drm"],
+    "notes": "A proprietary file type for Procreate Dreams",
+    "sources": [
+      "https://help.procreate.com/articles/dxjyml-exporting-movies",
+      "https://help.procreate.com/articles/deaqnd-export-formats#d43a8f399706"
+    ]
+  },
   "application/vnd.oasis.opendocument.graphics": {
     "compressible": false
   },
@@ -330,6 +338,18 @@
   },
   "application/x-chrome-extension": {
     "extensions": ["crx"]
+  },
+  "x-compressed": {
+    "extensions": ["rar"],
+    "notes": "Windows 11 use this mime-type for RAR files instead of application/x-rar-compressed or application/vnd.rar"
+  },
+  "x-zip-compressed": {
+    "extensions": ["zip"],
+    "sources": [
+      "https://bugs.python.org/issue41738",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types/Common_types"
+    ],
+    "notes": "Windows use this mime-type for Zip files instead of application/zip"
   },
   "application/x-deb": {
     "compressible": false
@@ -540,7 +560,12 @@
     ]
   },
   "audio/mp4": {
-    "compressible": false
+    "compressible": false,
+    "extensions": ["m4b"],
+    "notes": "m4b is used for bookmarkable mp4 files, especially audiobooks or podcasts",
+    "sources": [
+      "https://www.loc.gov/preservation/digital/formats/fdd/fdd000052.shtml#sign"
+    ]
   },
   "audio/mpeg": {
     "compressible": false
@@ -666,7 +691,12 @@
     ]
   },
   "image/pjpeg": {
-    "compressible": false
+    "compressible": false,
+    "extensions": ["jfif"],
+    "sources": [
+      "https://github.com/microsoft/referencesource/blob/51cf7850defa8a17d815b4700b67116e3fa283c2/System.Web/MimeMapping.cs#L212",
+      "https://mimetype.io/image/pjpeg"
+    ]
   },
   "image/png": {
     "compressible": false
@@ -724,7 +754,10 @@
   },
   "message/rfc822": {
     "compressible": true,
+    "extensions": ["mht", "mhtml"],
     "sources": [
+      "https://mimetype.io/message/rfc822",
+      "https://github.com/microsoft/referencesource/blob/51cf7850defa8a17d815b4700b67116e3fa283c2/System.Web/MimeMapping.cs#L235-L236",
       "http://en.wikipedia.org/wiki/MIME#Multipart_subtypes"
     ]
   },
@@ -736,6 +769,13 @@
   },
   "model/mesh": {
     "compressible": false
+  },
+  "model/step": {
+    "extensions": ["step", "stp", "stpnc", "p21", "210"],
+    "notes": "3D model format. Used in CAD.",
+    "sources": [
+      "https://www.iana.org/assignments/media-types/model/step"
+    ]
   },
   "model/vrml": {
     "compressible": false
@@ -962,6 +1002,31 @@
     "compressible": true,
     "sources": [
       "https://developer.mozilla.org/en-US/docs/Web/WebGL/Adding_2D_content_to_a_WebGL_context"
+    ]
+  },
+  "application/onenote": {
+    "extensions": ["one", "onea"],
+    "sources": [
+      "https://github.com/microsoft/referencesource/blob/51cf7850defa8a17d815b4700b67116e3fa283c2/System.Web/MimeMapping.cs#L265-L266"
+    ]
+  },
+  "application/vnd.visio": {
+    "extensions": ["vsdx", "vtx"],
+    "sources": [
+      "https://mimetype.io/application/vnd.visio",
+      "https://learn.microsoft.com/en-us/office/client-developer/visio/introduction-to-the-visio-file-formatvsdx"
+    ]
+  },
+  "application/vnd.ms-visio.viewer": {
+    "extensions": ["vdx"],
+    "sources": [
+      "https://github.com/microsoft/referencesource/blob/51cf7850defa8a17d815b4700b67116e3fa283c2/System.Web/MimeMapping.cs#L379"
+    ]
+  },
+  "application/zip+dotlottie": {
+    "extensions": ["lottie"],
+    "sources": [
+      "https://dotlottie.io/structure/"
     ]
   }
 }
