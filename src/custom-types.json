@@ -203,6 +203,13 @@
       "https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/PassKit_PG/DistributingPasses.html"
     ]
   },
+  "application/vnd.autodesk.fbx": {
+    "extensions": ["fbx"],
+    "sources": [
+      "https://code.blender.org/2013/08/fbx-binary-file-format-specification/"
+    ],
+    "notes": "one of the main 3D exchange formats as used by many 3D tools"
+  },
   "application/vnd.dart": {
     "compressible": true
   },
