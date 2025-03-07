@@ -505,6 +505,13 @@
       "http://php.net/manual/en/faq.installation.php"
     ]
   },
+  "application/x-ipynb+json": {
+    "compressible": true,
+    "extensions": ["ipynb"],
+    "sources": [
+      "https://github.com/jupyter/notebook/pull/1861#issuecomment-257352098"
+    ]
+  },
   "application/x-iwork-keynote-sffkey": {
     "extensions": ["key"],
     "notes": "Deprecated alias for iWorks Keynote file",
