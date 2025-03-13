@@ -1101,6 +1101,10 @@
       "http://orgmode.org"
     ]
   },
+  "text/x-php": {
+    "compressible": true,
+    "extensions": ["php"]
+  },
   "text/x-processing": {
     "compressible": true,
     "extensions": ["pde"],
