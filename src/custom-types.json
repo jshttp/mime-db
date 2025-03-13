@@ -683,6 +683,13 @@
   "application/zip": {
     "compressible": false
   },
+  "application/dicom": {
+    "source": [
+        "https://www.rfc-editor.org/rfc/rfc3240",
+        "https://www.dicomstandard.org/standards/view/media-formats-and-physical-media-for-media-interchange"
+      ],
+    "extensions": ["dcm"]
+  },
   "audio/3gpp": {
     "compressible": false,
     "extensions": ["3gpp"]
