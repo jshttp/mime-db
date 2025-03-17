@@ -1,4 +1,4 @@
-unreleased
+1.54.0 / 2025-03-17
 ===================
 
   * Update mime type for DCM format (#362)
