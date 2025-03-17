@@ -127,7 +127,7 @@
     ]
   },
   "application/octet-stream": {
-    "compressible": false,
+    "compressible": true,
     "extensions": ["buffer"],
     "sources": [
       "https://github.com/broofa/node-mime/blob/v1.2.11/types/mime.types#L154"
