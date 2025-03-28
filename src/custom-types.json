@@ -551,6 +551,14 @@
   "application/x-lua-bytecode": {
     "extensions": ["luac"]
   },
+  "application/x-mimearchive": {
+    "compressible": true,
+    "extensions": ["mht", "mhtml"],
+    "notes": "Web archive file format used to combine HTML code and its companion resources in a single computer file",
+    "sources": [
+      "https://en.wikipedia.org/wiki/MHTML"
+    ]
+  },
   "application/x-mpegurl": {
     "compressible": false
   },
