@@ -1103,7 +1103,10 @@
   },
   "text/x-php": {
     "compressible": true,
-    "extensions": ["php"]
+    "extensions": ["php"],
+    "sources":[
+      "https://cweiske.de/tagebuch/php-mimetype.htm#linux"
+    ]
   },
   "text/x-processing": {
     "compressible": true,
