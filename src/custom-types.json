@@ -127,7 +127,7 @@
     ]
   },
   "application/octet-stream": {
-    "compressible": false,
+    "compressible": true,
     "extensions": ["buffer"],
     "sources": [
       "https://github.com/broofa/node-mime/blob/v1.2.11/types/mime.types#L154"
@@ -203,30 +203,163 @@
       "https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/PassKit_PG/DistributingPasses.html"
     ]
   },
+  "application/vnd.autodesk.fbx": {
+    "extensions": ["fbx"],
+    "sources": [
+      "https://code.blender.org/2013/08/fbx-binary-file-format-specification/"
+    ],
+    "notes": "one of the main 3D exchange formats as used by many 3D tools"
+  },
   "application/vnd.dart": {
     "compressible": true
+  },
+  "application/vnd.google-apps.audio": {
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
   },
   "application/vnd.google-apps.document": {
     "compressible": false,
     "extensions": ["gdoc"],
+    "notes": "Google Docs",
     "sources": [
-      "https://developers.google.com/drive/v2/web/mime-types",
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.drive-sdk": {
+    "compressible": false,
+    "notes": "Third-party shortcut",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.drawing": {
+    "compressible": false,
+    "extensions": ["gdraw"],
+    "notes": "Google Drawings",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.file": {
+    "notes": "Google Drive file",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.folder": {
+    "compressible": false,
+    "notes": "Google Drive folder",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.form": {
+    "compressible": false,
+    "extensions": ["gform"],
+    "notes": "Google Forms",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.fusiontable": {
+    "notes": "Google Fusion Tables",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.jam": {
+    "compressible": false,
+    "extensions": ["gjam"],
+    "notes": "Google Jamboard",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.mail-layout": {
+    "notes": "Email layout",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.map": {
+    "compressible": false,
+    "extensions": ["gmap"],
+    "notes": "Google My Maps",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.photo": {
+    "notes": "Google Photos",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
   "application/vnd.google-apps.presentation": {
     "compressible": false,
     "extensions": ["gslides"],
+    "notes": "Google Slides",
     "sources": [
-      "https://developers.google.com/drive/v2/web/mime-types",
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.script": {
+    "compressible": false,
+    "extensions": ["gscript"],
+    "notes": "Google Apps Script",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.shortcut": {
+    "notes": "Shortcut",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.site": {
+    "compressible": false,
+    "extensions": ["gsite"],
+    "notes": "Google Sites",
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
   "application/vnd.google-apps.spreadsheet": {
     "compressible": false,
     "extensions": ["gsheet"],
+    "notes": "Google Sheets",
     "sources": [
-      "https://developers.google.com/drive/v2/web/mime-types",
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.unknown": {
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
+      "https://support.google.com/drive/answer/2374983?hl=en"
+    ]
+  },
+  "application/vnd.google-apps.video": {
+    "sources": [
+      "https://developers.google.com/drive/api/guides/mime-types",
       "https://support.google.com/drive/answer/2374983?hl=en"
     ]
   },
@@ -257,6 +390,28 @@
   },
   "application/vnd.ms-xpsdocument": {
     "compressible": false
+  },
+  "application/vnd.procreate.brush": {
+    "extensions": ["brush"],
+    "sources": [
+      "https://help.procreate.com/procreate/handbook/brushes/brushes-share"
+    ],
+    "notes": "Procreate Brush"
+  },
+  "application/vnd.procrate.brushset": {
+    "extensions": ["brushset"],
+    "sources": [
+      "https://help.procreate.com/procreate/handbook/brushes/brushes-share"
+    ],
+    "notes": "Procreate Brush Set"
+  },
+  "application/vnd.procreate.dream": {
+    "extensions": ["drm"],
+    "notes": "A proprietary file type for Procreate Dreams",
+    "sources": [
+      "https://help.procreate.com/articles/dxjyml-exporting-movies",
+      "https://help.procreate.com/articles/deaqnd-export-formats#d43a8f399706"
+    ]
   },
   "application/vnd.oasis.opendocument.graphics": {
     "compressible": false
@@ -308,6 +463,14 @@
       "http://www.id.ee/public/bdoc-spec21.pdf"
     ]
   },
+  "application/x-blender": {
+    "extensions": ["blend"],
+    "notes": "Blender's main project file format",
+    "sources": [
+      "https://www.loc.gov/preservation/digital/formats//fdd/fdd000559.shtml",
+      "https://archive.blender.org/wiki/2015/index.php/Dev:Source/Architecture/File_Format/"
+    ]
+  },
   "application/x-bzip": {
     "compressible": false
   },
@@ -317,11 +480,11 @@
   "application/x-chrome-extension": {
     "extensions": ["crx"]
   },
-  "x-compressed": {
+  "application/x-compressed": {
     "extensions": ["rar"],
     "notes": "Windows 11 use this mime-type for RAR files instead of application/x-rar-compressed or application/vnd.rar"
   },
-  "x-zip-compressed": {
+  "application/x-zip-compressed": {
     "extensions": ["zip"],
     "sources": [
       "https://bugs.python.org/issue41738",
@@ -340,6 +503,13 @@
     "extensions": ["php"],
     "sources": [
       "http://php.net/manual/en/faq.installation.php"
+    ]
+  },
+  "application/x-ipynb+json": {
+    "compressible": true,
+    "extensions": ["ipynb"],
+    "sources": [
+      "https://github.com/jupyter/notebook/pull/1861#issuecomment-257352098"
     ]
   },
   "application/x-iwork-keynote-sffkey": {
@@ -513,6 +683,13 @@
   "application/zip": {
     "compressible": false
   },
+  "application/dicom": {
+    "source": [
+        "https://www.rfc-editor.org/rfc/rfc3240",
+        "https://www.dicomstandard.org/standards/view/media-formats-and-physical-media-for-media-interchange"
+      ],
+    "extensions": ["dcm"]
+  },
   "audio/3gpp": {
     "compressible": false,
     "extensions": ["3gpp"]
@@ -538,7 +715,12 @@
     ]
   },
   "audio/mp4": {
-    "compressible": false
+    "compressible": false,
+    "extensions": ["m4b"],
+    "notes": "m4b is used for bookmarkable mp4 files, especially audiobooks or podcasts",
+    "sources": [
+      "https://www.loc.gov/preservation/digital/formats/fdd/fdd000052.shtml#sign"
+    ]
   },
   "audio/mpeg": {
     "compressible": false
@@ -699,6 +881,13 @@
       "https://docs.microsoft.com/en-us/windows/win32/wic/dds-format-overview"
     ]
   },
+  "image/x-adobe-dng": {
+    "extensions": ["dng"],
+    "notes": "A non-proprietary file format for storing camera raw files",
+    "sources": [
+      "https://paulbourke.net/dataformats/dng/dng_spec_1_6_0_0.pdf"
+    ]
+  },
   "image/x-icon": {
     "compressible": true,
     "notes": "Usually a wrapper for .bmp formated images.",
@@ -742,6 +931,13 @@
   },
   "model/mesh": {
     "compressible": false
+  },
+  "model/step": {
+    "extensions": ["step", "stp", "stpnc", "p21", "210"],
+    "notes": "3D model format. Used in CAD.",
+    "sources": [
+      "https://www.iana.org/assignments/media-types/model/step"
+    ]
   },
   "model/vrml": {
     "compressible": false

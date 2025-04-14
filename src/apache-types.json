@@ -2808,6 +2808,9 @@
   },
   "image/jpm": {},
   "image/jpx": {},
+  "image/jxl": {
+    "extensions": ["jxl"]
+  },
   "image/ktx": {
     "extensions": ["ktx"]
   },
