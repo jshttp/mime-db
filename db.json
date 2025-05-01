@@ -327,6 +327,9 @@
   "application/cfw": {
     "source": "iana"
   },
+  "application/cid": {
+    "source": "iana"
+  },
   "application/cid-edhoc+cbor-seq": {
     "source": "iana"
   },
@@ -473,6 +476,9 @@
   "application/dicom+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/did": {
+    "source": "iana"
   },
   "application/dii": {
     "source": "iana"
@@ -1673,6 +1679,10 @@
     "source": "iana",
     "extensions": ["spp"]
   },
+  "application/sdf+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/sdp": {
     "source": "iana",
     "extensions": ["sdp"]
@@ -1906,6 +1916,9 @@
     "extensions": ["tei","teicorpus"]
   },
   "application/tetra_isi": {
+    "source": "iana"
+  },
+  "application/texinfo": {
     "source": "iana"
   },
   "application/thraud+xml": {
@@ -2678,6 +2691,9 @@
   "application/vnd.capasystems-pg+json": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.cel": {
+    "source": "iana"
   },
   "application/vnd.cendio.thinlinc.clientconf": {
     "source": "iana"
@@ -5366,6 +5382,9 @@
     "source": "iana",
     "extensions": ["wg"]
   },
+  "application/vnd.pmtiles": {
+    "source": "iana"
+  },
   "application/vnd.poc.group-advertisement+xml": {
     "source": "iana",
     "compressible": true
@@ -5820,6 +5839,9 @@
     "source": "apache",
     "extensions": ["stw"]
   },
+  "application/vnd.superfile.super": {
+    "source": "iana"
+  },
   "application/vnd.sus-calendar": {
     "source": "iana",
     "extensions": ["sus","susp"]
@@ -6058,6 +6080,9 @@
   "application/vnd.vsf": {
     "source": "iana",
     "extensions": ["vsf"]
+  },
+  "application/vnd.wantverse": {
+    "source": "iana"
   },
   "application/vnd.wap.sic": {
     "source": "iana"
@@ -7937,6 +7962,10 @@
     "source": "iana",
     "extensions": ["azv"]
   },
+  "image/vnd.blockfact.facti": {
+    "source": "iana",
+    "extensions": ["facti"]
+  },
   "image/vnd.clip": {
     "source": "iana"
   },
@@ -8820,6 +8849,9 @@
   "text/vnd.trolltech.linguist": {
     "source": "iana",
     "charset": "UTF-8"
+  },
+  "text/vnd.typst": {
+    "source": "iana"
   },
   "text/vnd.vcf": {
     "source": "iana"
