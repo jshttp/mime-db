@@ -1086,6 +1086,9 @@
   "text/x-jquery-tmpl": {
     "compressible": true
   },
+  "text/x-log": {
+    "extensions": ["log"]
+  },
   "text/x-lua": {
     "extensions": ["lua"]
   },
