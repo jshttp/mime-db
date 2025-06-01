@@ -924,6 +924,9 @@
   "application/jwt": {
     "source": "iana"
   },
+  "application/kb+jwt": {
+    "source": "iana"
+  },
   "application/kpml-request+xml": {
     "source": "iana",
     "compressible": true
@@ -1610,6 +1613,10 @@
   "application/rpki-updown": {
     "source": "iana"
   },
+  "application/rs-metadata+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/rsd+xml": {
     "source": "apache",
     "compressible": true,
@@ -1678,6 +1685,13 @@
   "application/scvp-vp-response": {
     "source": "iana",
     "extensions": ["spp"]
+  },
+  "application/sd-jwt": {
+    "source": "iana"
+  },
+  "application/sd-jwt+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/sdf+json": {
     "source": "iana",
@@ -1856,6 +1870,9 @@
     "compressible": true
   },
   "application/stratum": {
+    "source": "iana"
+  },
+  "application/suit-envelope+cose": {
     "source": "iana"
   },
   "application/swid+cbor": {
@@ -2268,6 +2285,13 @@
   "application/vnd.3gpp.s1ap": {
     "source": "iana"
   },
+  "application/vnd.3gpp.seal-app-comm-requirements-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.seal-data-delivery-info+cbor": {
+    "source": "iana"
+  },
   "application/vnd.3gpp.seal-group-doc+xml": {
     "source": "iana",
     "compressible": true
@@ -2275,6 +2299,9 @@
   "application/vnd.3gpp.seal-info+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.3gpp.seal-location-info+cbor": {
+    "source": "iana"
   },
   "application/vnd.3gpp.seal-location-info+xml": {
     "source": "iana",
@@ -2284,9 +2311,16 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.3gpp.seal-mbs-usage-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.3gpp.seal-network-qos-management-info+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.3gpp.seal-network-resource-info+cbor": {
+    "source": "iana"
   },
   "application/vnd.3gpp.seal-ue-config-info+xml": {
     "source": "iana",
@@ -7484,6 +7518,9 @@
   "audio/vnd.audiokoz": {
     "source": "iana"
   },
+  "audio/vnd.blockfact.facta": {
+    "source": "iana"
+  },
   "audio/vnd.celp": {
     "source": "iana"
   },
@@ -9163,6 +9200,9 @@
     "source": "iana"
   },
   "video/vc2": {
+    "source": "iana"
+  },
+  "video/vnd.blockfact.factv": {
     "source": "iana"
   },
   "video/vnd.cctv": {

@@ -758,31 +758,37 @@
   },
   "application/eat+cwt": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9782.txt",
       "https://www.iana.org/assignments/media-types/application/eat+cwt"
     ]
   },
   "application/eat+jwt": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9782.txt",
       "https://www.iana.org/assignments/media-types/application/eat+jwt"
     ]
   },
   "application/eat-bun+cbor": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9782.txt",
       "https://www.iana.org/assignments/media-types/application/eat-bun+cbor"
     ]
   },
   "application/eat-bun+json": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9782.txt",
       "https://www.iana.org/assignments/media-types/application/eat-bun+json"
     ]
   },
   "application/eat-ucs+cbor": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9782.txt",
       "https://www.iana.org/assignments/media-types/application/eat-ucs+cbor"
     ]
   },
   "application/eat-ucs+json": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9782.txt",
       "https://www.iana.org/assignments/media-types/application/eat-ucs+json"
     ]
   },
@@ -1306,6 +1312,11 @@
     "sources": [
       "https://tools.ietf.org/rfc/rfc7519.txt",
       "https://www.iana.org/assignments/media-types/application/jwt"
+    ]
+  },
+  "application/kb+jwt": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/kb+jwt"
     ]
   },
   "application/kpml-request+xml": {
@@ -2283,6 +2294,12 @@
       "https://www.iana.org/assignments/media-types/application/rpki-updown"
     ]
   },
+  "application/rs-metadata+xml": {
+    "sources": [
+      "https://tools.ietf.org/rfc/rfc7865.txt",
+      "https://www.iana.org/assignments/media-types/application/rs-metadata+xml"
+    ]
+  },
   "application/rtf": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/rtf"
@@ -2364,6 +2381,16 @@
     "sources": [
       "https://tools.ietf.org/rfc/rfc5055.txt",
       "https://www.iana.org/assignments/media-types/application/scvp-vp-response"
+    ]
+  },
+  "application/sd-jwt": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/sd-jwt"
+    ]
+  },
+  "application/sd-jwt+json": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/sd-jwt+json"
     ]
   },
   "application/sdf+json": {
@@ -2629,6 +2656,11 @@
       "https://www.iana.org/assignments/media-types/application/stratum"
     ]
   },
+  "application/suit-envelope+cose": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/suit-envelope+cose"
+    ]
+  },
   "application/swid+cbor": {
     "sources": [
       "https://tools.ietf.org/rfc/rfc9393.txt",
@@ -2849,11 +2881,13 @@
   },
   "application/uccs+cbor": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9781.txt",
       "https://www.iana.org/assignments/media-types/application/uccs+cbor"
     ]
   },
   "application/ujcs+json": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9781.txt",
       "https://www.iana.org/assignments/media-types/application/ujcs+json"
     ]
   },
@@ -3214,6 +3248,16 @@
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.s1ap"
     ]
   },
+  "application/vnd.3gpp.seal-app-comm-requirements-info+xml": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-app-comm-requirements-info+xml"
+    ]
+  },
+  "application/vnd.3gpp.seal-data-delivery-info+cbor": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-data-delivery-info+cbor"
+    ]
+  },
   "application/vnd.3gpp.seal-group-doc+xml": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-group-doc+xml"
@@ -3222,6 +3266,11 @@
   "application/vnd.3gpp.seal-info+xml": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-info+xml"
+    ]
+  },
+  "application/vnd.3gpp.seal-location-info+cbor": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-location-info+cbor"
     ]
   },
   "application/vnd.3gpp.seal-location-info+xml": {
@@ -3234,9 +3283,19 @@
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-mbms-usage-info+xml"
     ]
   },
+  "application/vnd.3gpp.seal-mbs-usage-info+xml": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-mbs-usage-info+xml"
+    ]
+  },
   "application/vnd.3gpp.seal-network-qos-management-info+xml": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-network-QoS-management-info+xml"
+    ]
+  },
+  "application/vnd.3gpp.seal-network-resource-info+cbor": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-network-resource-info+cbor"
     ]
   },
   "application/vnd.3gpp.seal-ue-config-info+xml": {
@@ -9403,6 +9462,11 @@
       "https://www.iana.org/assignments/media-types/audio/vnd.audiokoz"
     ]
   },
+  "audio/vnd.blockfact.facta": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/audio/vnd.blockfact.facta"
+    ]
+  },
   "audio/vnd.celp": {
     "sources": [
       "https://www.iana.org/assignments/media-types/audio/vnd.CELP"
@@ -11442,6 +11506,11 @@
     "sources": [
       "https://tools.ietf.org/rfc/rfc8450.txt",
       "https://www.iana.org/assignments/media-types/video/vc2"
+    ]
+  },
+  "video/vnd.blockfact.factv": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/video/vnd.blockfact.factv"
     ]
   },
   "video/vnd.cctv": {
