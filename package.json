@@ -31,7 +31,7 @@
     "mocha": "10.2.0",
     "nyc": "15.1.0",
     "stream-to-array": "2.3.0",
-    "undici": "7.1.0"
+    "undici": "7.10.0"
   },
   "files": [
     "HISTORY.md",
