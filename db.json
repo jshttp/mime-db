@@ -327,6 +327,9 @@
   "application/cfw": {
     "source": "iana"
   },
+  "application/cid": {
+    "source": "iana"
+  },
   "application/cid-edhoc+cbor-seq": {
     "source": "iana"
   },
@@ -473,6 +476,9 @@
   "application/dicom+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/did": {
+    "source": "iana"
   },
   "application/dii": {
     "source": "iana"
@@ -916,6 +922,9 @@
     "source": "iana"
   },
   "application/jwt": {
+    "source": "iana"
+  },
+  "application/kb+jwt": {
     "source": "iana"
   },
   "application/kpml-request+xml": {
@@ -1604,6 +1613,10 @@
   "application/rpki-updown": {
     "source": "iana"
   },
+  "application/rs-metadata+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/rsd+xml": {
     "source": "apache",
     "compressible": true,
@@ -1672,6 +1685,17 @@
   "application/scvp-vp-response": {
     "source": "iana",
     "extensions": ["spp"]
+  },
+  "application/sd-jwt": {
+    "source": "iana"
+  },
+  "application/sd-jwt+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/sdf+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/sdp": {
     "source": "iana",
@@ -1848,6 +1872,9 @@
   "application/stratum": {
     "source": "iana"
   },
+  "application/suit-envelope+cose": {
+    "source": "iana"
+  },
   "application/swid+cbor": {
     "source": "iana"
   },
@@ -1906,6 +1933,9 @@
     "extensions": ["tei","teicorpus"]
   },
   "application/tetra_isi": {
+    "source": "iana"
+  },
+  "application/texinfo": {
     "source": "iana"
   },
   "application/thraud+xml": {
@@ -2255,6 +2285,13 @@
   "application/vnd.3gpp.s1ap": {
     "source": "iana"
   },
+  "application/vnd.3gpp.seal-app-comm-requirements-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.seal-data-delivery-info+cbor": {
+    "source": "iana"
+  },
   "application/vnd.3gpp.seal-group-doc+xml": {
     "source": "iana",
     "compressible": true
@@ -2262,6 +2299,9 @@
   "application/vnd.3gpp.seal-info+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.3gpp.seal-location-info+cbor": {
+    "source": "iana"
   },
   "application/vnd.3gpp.seal-location-info+xml": {
     "source": "iana",
@@ -2271,9 +2311,16 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.3gpp.seal-mbs-usage-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.3gpp.seal-network-qos-management-info+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.3gpp.seal-network-resource-info+cbor": {
+    "source": "iana"
   },
   "application/vnd.3gpp.seal-ue-config-info+xml": {
     "source": "iana",
@@ -2678,6 +2725,9 @@
   "application/vnd.capasystems-pg+json": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.cel": {
+    "source": "iana"
   },
   "application/vnd.cendio.thinlinc.clientconf": {
     "source": "iana"
@@ -5366,6 +5416,9 @@
     "source": "iana",
     "extensions": ["wg"]
   },
+  "application/vnd.pmtiles": {
+    "source": "iana"
+  },
   "application/vnd.poc.group-advertisement+xml": {
     "source": "iana",
     "compressible": true
@@ -5820,6 +5873,9 @@
     "source": "apache",
     "extensions": ["stw"]
   },
+  "application/vnd.superfile.super": {
+    "source": "iana"
+  },
   "application/vnd.sus-calendar": {
     "source": "iana",
     "extensions": ["sus","susp"]
@@ -6058,6 +6114,9 @@
   "application/vnd.vsf": {
     "source": "iana",
     "extensions": ["vsf"]
+  },
+  "application/vnd.wantverse": {
+    "source": "iana"
   },
   "application/vnd.wap.sic": {
     "source": "iana"
@@ -7459,6 +7518,9 @@
   "audio/vnd.audiokoz": {
     "source": "iana"
   },
+  "audio/vnd.blockfact.facta": {
+    "source": "iana"
+  },
   "audio/vnd.celp": {
     "source": "iana"
   },
@@ -7936,6 +7998,10 @@
   "image/vnd.airzip.accelerator.azv": {
     "source": "iana",
     "extensions": ["azv"]
+  },
+  "image/vnd.blockfact.facti": {
+    "source": "iana",
+    "extensions": ["facti"]
   },
   "image/vnd.clip": {
     "source": "iana"
@@ -8821,6 +8887,9 @@
     "source": "iana",
     "charset": "UTF-8"
   },
+  "text/vnd.typst": {
+    "source": "iana"
+  },
   "text/vnd.vcf": {
     "source": "iana"
   },
@@ -9131,6 +9200,9 @@
     "source": "iana"
   },
   "video/vc2": {
+    "source": "iana"
+  },
+  "video/vnd.blockfact.factv": {
     "source": "iana"
   },
   "video/vnd.cctv": {
