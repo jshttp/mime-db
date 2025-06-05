@@ -8930,6 +8930,7 @@
   },
   "text/x-component": {
     "source": "nginx",
+    "compressible": true,
     "extensions": ["htc"]
   },
   "text/x-fortran": {
