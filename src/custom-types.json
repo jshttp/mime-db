@@ -971,13 +971,6 @@
       "https://bugzilla.mozilla.org/show_bug.cgi?id=715191#c2"
     ]
   },
-  "text/calender": {
-    "compressible": true,
-    "notes": "Probably needs to be uncompressed before sent to iCalender.",
-    "sources": [
-      "http://en.wikipedia.org/wiki/ICalendar"
-    ]
-  },
   "text/cmd": {
     "compressible": true
   },
