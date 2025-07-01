@@ -51,6 +51,7 @@
   },
   "application/ace-trl+cbor": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9770.txt",
       "https://www.iana.org/assignments/media-types/application/ace-trl+cbor"
     ]
   },
@@ -3258,6 +3259,11 @@
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-data-delivery-info+cbor"
     ]
   },
+  "application/vnd.3gpp.seal-data-delivery-info+xml": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-data-delivery-info+xml"
+    ]
+  },
   "application/vnd.3gpp.seal-group-doc+xml": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.seal-group-doc+xml"
@@ -4695,6 +4701,11 @@
   "application/vnd.ffsns": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.ffsns"
+    ]
+  },
+  "application/vnd.fgb": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.fgb"
     ]
   },
   "application/vnd.ficlab.flb+zip": {
@@ -6721,6 +6732,11 @@
       "https://www.iana.org/assignments/media-types/application/vnd.omaloc-supl-init"
     ]
   },
+  "application/vnd.oms.cellular-cose-content+cbor": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.oms.cellular-cose-content+cbor"
+    ]
+  },
   "application/vnd.onepager": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.onepager"
@@ -7358,6 +7374,11 @@
     "extensions": ["xhtm"],
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.pwg-xhtml-print+xml"
+    ]
+  },
+  "application/vnd.pyon+json": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.pyon+json"
     ]
   },
   "application/vnd.qualcomm.brew-app-res": {
@@ -11331,6 +11352,11 @@
       "https://tools.ietf.org/rfc/rfc5371.txt",
       "https://tools.ietf.org/rfc/rfc5372.txt",
       "https://www.iana.org/assignments/media-types/video/jpeg2000"
+    ]
+  },
+  "video/jpeg2000-scl": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/video/jpeg2000-scl"
     ]
   },
   "video/jxsv": {
