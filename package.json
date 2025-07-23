@@ -18,6 +18,10 @@
     "charsets"
   ],
   "repository": "jshttp/mime-db",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/express"
+  },
   "devDependencies": {
     "csv-parse": "4.16.3",
     "eslint": "8.32.0",
