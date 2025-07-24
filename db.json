@@ -2292,6 +2292,10 @@
   "application/vnd.3gpp.seal-data-delivery-info+cbor": {
     "source": "iana"
   },
+  "application/vnd.3gpp.seal-data-delivery-info+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.3gpp.seal-group-doc+xml": {
     "source": "iana",
     "compressible": true
@@ -3374,6 +3378,9 @@
     "compressible": true
   },
   "application/vnd.ffsns": {
+    "source": "iana"
+  },
+  "application/vnd.fgb": {
     "source": "iana"
   },
   "application/vnd.ficlab.flb+zip": {
@@ -4992,6 +4999,9 @@
   "application/vnd.omaloc-supl-init": {
     "source": "iana"
   },
+  "application/vnd.oms.cellular-cose-content+cbor": {
+    "source": "iana"
+  },
   "application/vnd.onepager": {
     "source": "iana"
   },
@@ -5487,6 +5497,10 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["xhtm"]
+  },
+  "application/vnd.pyon+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.qualcomm.brew-app-res": {
     "source": "iana"
@@ -8546,9 +8560,6 @@
     "source": "iana",
     "extensions": ["ics","ifb"]
   },
-  "text/calender": {
-    "compressible": true
-  },
   "text/cmd": {
     "compressible": true
   },
@@ -9098,6 +9109,9 @@
     "extensions": ["jpgv"]
   },
   "video/jpeg2000": {
+    "source": "iana"
+  },
+  "video/jpeg2000-scl": {
     "source": "iana"
   },
   "video/jpm": {
