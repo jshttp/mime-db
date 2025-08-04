@@ -2706,7 +2706,7 @@
   "audio/vorbis": {},
   "audio/vorbis-config": {},
   "audio/webm": {
-    "extensions": ["weba"]
+    "extensions": ["webm"]
   },
   "audio/x-aac": {
     "extensions": ["aac"]
