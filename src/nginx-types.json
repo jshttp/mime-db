@@ -2,6 +2,18 @@
   "application/atom+xml": {
     "extensions": ["atom"]
   },
+  "text/x-python":{
+    "extensions": ["py"]
+  },
+  "text/x-ruby": {
+    "extensions": ["rb"]
+  }, 
+  "text/x-golang": {
+    "extensions": ["go"]
+  }, 
+  "text/x-kotlin": {
+    "extensions": ["kt"]
+  }, 
   "application/java-archive": {
     "extensions": ["jar","war","ear"]
   },
