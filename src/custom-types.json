@@ -398,7 +398,7 @@
     ],
     "notes": "Procreate Brush"
   },
-  "application/vnd.procrate.brushset": {
+  "application/vnd.procreate.brushset": {
     "extensions": ["brushset"],
     "sources": [
       "https://help.procreate.com/procreate/handbook/brushes/brushes-share"

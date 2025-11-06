@@ -5523,7 +5523,7 @@
     "source": "iana",
     "extensions": ["box"]
   },
-  "application/vnd.procrate.brushset": {
+  "application/vnd.procreate.brushset": {
     "extensions": ["brushset"]
   },
   "application/vnd.procreate.brush": {
