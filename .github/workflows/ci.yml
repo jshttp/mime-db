@@ -42,7 +42,6 @@ jobs:
       fail-fast: false
       matrix:
         name:
-        - Node.js 0.6
         - Node.js 0.8
         - Node.js 0.10
         - Node.js 0.12
@@ -71,11 +70,6 @@ jobs:
         - Node.js 23.x
 
         include:
-        - name: Node.js 0.6
-          node-version: "0.6"
-          npm-i: mocha@1.21.5
-          npm-rm: nyc
-
         - name: Node.js 0.8
           node-version: "0.8"
           npm-i: mocha@2.5.3
@@ -175,14 +169,6 @@ jobs:
     - name: Install Node.js ${{ matrix.node-version }}
       shell: bash -eo pipefail -l {0}
       run: |
-        if [[ "${{ matrix.node-version }}" == 0.6* ]]; then
-          sudo sh -c 'echo "deb http://us.archive.ubuntu.com/ubuntu/ bionic universe" >> /etc/apt/sources.list'
-          sudo sh -c 'echo "deb http://security.ubuntu.com/ubuntu bionic-security main" >> /etc/apt/sources.list'
-          sudo apt-get update
-          sudo apt-get install g++-4.8 gcc-4.8 libssl1.0-dev python2 python-is-python2
-          export CC=/usr/bin/gcc-4.8
-          export CXX=/usr/bin/g++-4.8
-        fi
         nvm install --default ${{ matrix.node-version }}
         if [[ "${{ matrix.node-version }}" == 0.* && "$(cut -d. -f2 <<< "${{ matrix.node-version }}")" -lt 10 ]]; then
           nvm install --alias=npm 0.10
