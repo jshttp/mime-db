@@ -437,6 +437,13 @@
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {
     "compressible": false
   },
+  "application/vnd.pmtiles": {
+    "compressible": false,
+    "extensions": ["pmtiles"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.pmtiles"
+    ]
+  },
   "application/wasm": {
     "compressible": true,
     "sources": [
