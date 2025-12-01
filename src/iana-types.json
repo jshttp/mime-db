@@ -26,6 +26,11 @@
       "https://www.iana.org/assignments/media-types/application/3gpp-mbs-user-service-descriptions+json"
     ]
   },
+  "application/3gpp-media-delivery-metrics-report+json": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/3gpp-media-delivery-metrics-report+json"
+    ]
+  },
   "application/3gpphal+json": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/3gppHal+json"
@@ -208,6 +213,16 @@
   "application/applefile": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/applefile"
+    ]
+  },
+  "application/asyncapi+json": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/asyncapi+json"
+    ]
+  },
+  "application/asyncapi+yaml": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/asyncapi+yaml"
     ]
   },
   "application/at+jwt": {
@@ -1339,6 +1354,7 @@
   },
   "application/kb+jwt": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9901.txt",
       "https://www.iana.org/assignments/media-types/application/kb+jwt"
     ]
   },
@@ -2072,6 +2088,16 @@
       "https://www.iana.org/assignments/media-types/application/problem+xml"
     ]
   },
+  "application/protobuf": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/protobuf"
+    ]
+  },
+  "application/protobuf+json": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/protobuf+json"
+    ]
+  },
   "application/provenance+xml": {
     "extensions": ["provx"],
     "sources": [
@@ -2426,11 +2452,13 @@
   },
   "application/sd-jwt": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9901.txt",
       "https://www.iana.org/assignments/media-types/application/sd-jwt"
     ]
   },
   "application/sd-jwt+json": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9901.txt",
       "https://www.iana.org/assignments/media-types/application/sd-jwt+json"
     ]
   },
@@ -2991,6 +3019,16 @@
     "extensions": ["vec"],
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vec+xml"
+    ]
+  },
+  "application/vec-package+gzip": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vec-package+gzip"
+    ]
+  },
+  "application/vec-package+zip": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vec-package+zip"
     ]
   },
   "application/vemmi": {
@@ -6872,6 +6910,11 @@
   "application/vnd.openeye.oeb": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.openeye.oeb"
+    ]
+  },
+  "application/vnd.openprinttag": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.openprinttag"
     ]
   },
   "application/vnd.openstreetmap.data+xml": {
