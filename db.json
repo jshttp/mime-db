@@ -19,6 +19,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/3gpp-media-delivery-metrics-report+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/3gpphal+json": {
     "source": "iana",
     "compressible": true
@@ -154,6 +158,13 @@
   "application/appxbundle": {
     "compressible": false,
     "extensions": ["appxbundle"]
+  },
+  "application/asyncapi+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/asyncapi+yaml": {
+    "source": "iana"
   },
   "application/at+jwt": {
     "source": "iana"
@@ -1458,6 +1469,13 @@
     "source": "iana",
     "compressible": true
   },
+  "application/protobuf": {
+    "source": "iana"
+  },
+  "application/protobuf+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/provenance+xml": {
     "source": "iana",
     "compressible": true,
@@ -2088,6 +2106,13 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["vec"]
+  },
+  "application/vec-package+gzip": {
+    "source": "iana"
+  },
+  "application/vec-package+zip": {
+    "source": "iana",
+    "compressible": false
   },
   "application/vemmi": {
     "source": "iana"
@@ -5093,6 +5118,9 @@
     "source": "apache",
     "extensions": ["oxt"]
   },
+  "application/vnd.openprinttag": {
+    "source": "iana"
+  },
   "application/vnd.openstreetmap.data+xml": {
     "source": "iana",
     "compressible": true,
@@ -5523,11 +5551,11 @@
     "source": "iana",
     "extensions": ["box"]
   },
-  "application/vnd.procreate.brushset": {
-    "extensions": ["brushset"]
-  },
   "application/vnd.procreate.brush": {
     "extensions": ["brush"]
+  },
+  "application/vnd.procreate.brushset": {
+    "extensions": ["brushset"]
   },
   "application/vnd.procreate.dream": {
     "extensions": ["drm"]
@@ -5866,7 +5894,8 @@
     "extensions": ["sfs"]
   },
   "application/vnd.sqlite3": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["sqlite","sqlite3"]
   },
   "application/vnd.sss-cod": {
     "source": "iana"
