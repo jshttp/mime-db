@@ -196,6 +196,13 @@
   "application/vnd.android.package-archive": {
     "compressible": false
   },
+  "application/vnd.apache.parquet": {
+    "compressible": false,
+    "extensions": ["parquet"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.apache.parquet"
+    ]
+  },
   "application/vnd.apple.pkpass": {
     "compressible": false,
     "extensions": ["pkpass"],
