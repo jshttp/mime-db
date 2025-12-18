@@ -7377,7 +7377,8 @@
     "source": "iana"
   },
   "audio/flac": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["flac"]
   },
   "audio/flexfec": {
     "source": "iana"
