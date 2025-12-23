@@ -9348,6 +9348,7 @@
     ]
   },
   "audio/matroska": {
+    "extensions": ["mka"],
     "sources": [
       "https://tools.ietf.org/rfc/rfc9559.txt",
       "https://www.iana.org/assignments/media-types/audio/matroska"
@@ -11542,12 +11543,14 @@
     ]
   },
   "video/matroska": {
+    "extensions": ["mkv"],
     "sources": [
       "https://tools.ietf.org/rfc/rfc9559.txt",
       "https://www.iana.org/assignments/media-types/video/matroska"
     ]
   },
   "video/matroska-3d": {
+    "extensions": ["mk3d"],
     "sources": [
       "https://tools.ietf.org/rfc/rfc9559.txt",
       "https://www.iana.org/assignments/media-types/video/matroska-3d"
