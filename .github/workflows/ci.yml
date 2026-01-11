@@ -36,6 +36,26 @@ jobs:
       - name: Run lint
         run: npm run lint
 
+  build:
+    name: Verify build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+
+      - name: Verify db.json is in sync
+        run: |
+          npm run build
+          if ! git diff --exit-code db.json; then
+            echo ""
+            echo "db.json is generated and should not be edited by hand."
+            echo "Manual changes should be made to src/custom-types.json or src/custom-suffix.json."
+            exit 1
+          fi
+
   test:
     runs-on: ubuntu-latest
     strategy:
