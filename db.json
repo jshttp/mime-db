@@ -7226,7 +7226,7 @@
   "application/zip": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["zip"]
+    "extensions": ["zip","riv"]
   },
   "application/zip+dotlottie": {
     "extensions": ["lottie"]
