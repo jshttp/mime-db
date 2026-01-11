@@ -680,6 +680,9 @@
       "http://en.wikipedia.org/wiki/Document_type_definition"
     ]
   },
+  "application/yaml": {
+    "compressible": true
+  },
   "application/zip": {
     "compressible": false
   },
