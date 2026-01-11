@@ -7189,7 +7189,8 @@
     "extensions": ["mxml","xhvml","xvml","xvm"]
   },
   "application/yaml": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/yang": {
     "source": "iana",
