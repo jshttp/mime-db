@@ -681,7 +681,8 @@
     ]
   },
   "application/zip": {
-    "compressible": false
+    "compressible": false,
+    "extensions": ["riv"]
   },
   "application/dicom": {
     "source": [
