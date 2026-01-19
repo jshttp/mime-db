@@ -1887,6 +1887,9 @@
   "application/vnd.spotfire.sfs": {
     "extensions": ["sfs"]
   },
+  "application/vnd.sqlite3": {
+    "extensions": ["sqlite","sqlite3"]
+  },
   "application/vnd.sss-cod": {},
   "application/vnd.sss-dtf": {},
   "application/vnd.sss-ntf": {},
@@ -2798,6 +2801,18 @@
   "image/gif": {
     "extensions": ["gif"]
   },
+  "image/heic": {
+    "extensions": ["heic"]
+  },
+  "image/heic-sequence": {
+    "extensions": ["heics"]
+  },
+  "image/heif": {
+    "extensions": ["heif"]
+  },
+  "image/heif-sequence": {
+    "extensions": ["heifs"]
+  },
   "image/ief": {
     "extensions": ["ief"]
   },
@@ -2808,6 +2823,9 @@
   },
   "image/jpm": {},
   "image/jpx": {},
+  "image/jxl": {
+    "extensions": ["jxl"]
+  },
   "image/ktx": {
     "extensions": ["ktx"]
   },

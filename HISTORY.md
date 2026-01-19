@@ -1,3 +1,23 @@
+1.54.0 / 2025-03-17
+===================
+
+  * Update mime type for DCM format (#362)
+  * mark application/octet-stream as compressible (#163)
+  * Fix typo in application/x-zip-compressed mimetype (#359)
+  * Add mime-type for Jupyter notebooks (#282)
+  * Add Google Drive MIME types (#311)
+  * Add .blend file type (#338)
+  * Add support for the FBX file extension (#342)
+  * Add Adobe DNG file (#340)
+  * Add Procreate Brush and Brush Set file Types (#339)
+  * Add support for Procreate Dreams  (#341)
+  * replace got with undici (#352)
+  * Added extensions list for model/step (#293)
+  * Add m4b as a type of audio/mp4 (#357)
+  * windows 11 application/x-zip-compressed (#346)
+  * add dotLottie mime type (#351)
+  * Add some MS-related extensions and types (#336)
+
 1.53.0 / 2024-07-12
 ===================
 
@@ -11,6 +31,7 @@
   * Fix extensions for `text/markdown` to match IANA
   * Remove extension `.mjs` from `application/javascript`
   * Remove obsolete MIME types from IANA data
+  * Mark `text/x-component` as compressible
 
 1.52.0 / 2022-02-21
 ===================
