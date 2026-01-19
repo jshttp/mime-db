@@ -1102,6 +1102,13 @@
       "http://orgmode.org"
     ]
   },
+  "text/x-php": {
+    "compressible": true,
+    "extensions": ["php"],
+    "sources":[
+      "https://cweiske.de/tagebuch/php-mimetype.htm#linux"
+    ]
+  },
   "text/x-processing": {
     "compressible": true,
     "extensions": ["pde"],
