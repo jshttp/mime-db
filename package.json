@@ -38,9 +38,6 @@
     "undici": "7.1.0"
   },
   "files": [
-    "HISTORY.md",
-    "LICENSE",
-    "README.md",
     "db.json",
     "index.js"
   ],
