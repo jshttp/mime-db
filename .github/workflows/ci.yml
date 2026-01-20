@@ -51,8 +51,9 @@ jobs:
           npm run build
           if ! git diff --exit-code db.json; then
             echo ""
-            echo "db.json is generated and should not be edited by hand."
-            echo "Manual changes should be made to src/custom-types.json or src/custom-suffix.json."
+            echo "db.json is out of sync with source files. db.json is generated and should not be edited by hand."
+            echo "Make manual changes in src/custom-types.json or src/custom-suffix.json"
+            echo "Then run 'npm run build' and commit the updated db.json."
             exit 1
           fi
 
