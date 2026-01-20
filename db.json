@@ -2608,7 +2608,9 @@
     "source": "iana"
   },
   "application/vnd.apache.parquet": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false,
+    "extensions": ["parquet"]
   },
   "application/vnd.apache.thrift.binary": {
     "source": "iana"
@@ -9053,6 +9055,7 @@
   },
   "text/x-component": {
     "source": "nginx",
+    "compressible": true,
     "extensions": ["htc"]
   },
   "text/x-fortran": {
@@ -9094,6 +9097,10 @@
   "text/x-pascal": {
     "source": "apache",
     "extensions": ["p","pas"]
+  },
+  "text/x-php": {
+    "compressible": true,
+    "extensions": ["php"]
   },
   "text/x-processing": {
     "compressible": true,
