@@ -15,6 +15,31 @@ var toArray = require('stream-to-array')
 var typer = require('media-typer')
 var writedb = require('./lib/write-db')
 
+var CONCURRENCY_LIMIT = 10
+
+function pLimit (concurrency) {
+  var active = 0
+  var queue = []
+
+  function next () {
+    if (active < concurrency && queue.length > 0) {
+      active++
+      var { fn, resolve, reject } = queue.shift()
+      fn().then(resolve, reject).finally(function () {
+        active--
+        next()
+      })
+    }
+  }
+
+  return function (fn) {
+    return new Promise(function (resolve, reject) {
+      queue.push({ fn: fn, resolve: resolve, reject: reject })
+      next()
+    })
+  }
+}
+
 var extensionsQuotedRegExp = /^\s*(?:\d\.\s+)?File extension(?:\(s\)|s|)\s?:(?:[^'"\r\n]+)(?:"\.?([0-9a-z_-]+)"|'\.?([0-9a-z_-]+)')/im
 var leadingSpacesRegExp = /^\s+/
 var listColonRegExp = /:(?:\s|$)/m
@@ -227,7 +252,9 @@ async function get (type, options) {
   var reduceRows = generateRowMapper(headers)
   const results = []
   var templates = Object.create(null)
+  var limit = pLimit(CONCURRENCY_LIMIT)
 
+  // Prepare all data objects first
   for (const row of mimes) {
     var data = row.reduce(reduceRows, { type: type })
 
@@ -257,10 +284,15 @@ async function get (type, options) {
       addSource(data, url)
     })
 
-    await addTemplateData(data, options)
-
     results.push(data)
   }
+
+  // Fetch template data in parallel with concurrency limit
+  await Promise.all(results.map(function (data) {
+    return limit(function () {
+      return addTemplateData(data, options)
+    })
+  }))
 
   return results
 }
