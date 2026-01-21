@@ -7465,7 +7465,8 @@
     "source": "iana"
   },
   "audio/matroska": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["mka"]
   },
   "audio/melp": {
     "source": "iana"
@@ -9245,10 +9246,12 @@
     "compressible": true
   },
   "video/matroska": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["mkv"]
   },
   "video/matroska-3d": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["mk3d"]
   },
   "video/mj2": {
     "source": "iana",
