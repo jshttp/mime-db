@@ -373,6 +373,19 @@
   "application/cms": {
     "source": "iana"
   },
+  "application/cmw+cbor": {
+    "source": "iana"
+  },
+  "application/cmw+cose": {
+    "source": "iana"
+  },
+  "application/cmw+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/cmw+jws": {
+    "source": "iana"
+  },
   "application/cnrp+xml": {
     "source": "iana",
     "compressible": true
@@ -1531,6 +1544,9 @@
   "application/prs.rdf-xml-crypt": {
     "source": "iana"
   },
+  "application/prs.sclt": {
+    "source": "iana"
+  },
   "application/prs.vcfbzip2": {
     "source": "iana"
   },
@@ -1919,6 +1935,9 @@
   "application/suit-envelope+cose": {
     "source": "iana"
   },
+  "application/suit-report+cose": {
+    "source": "iana"
+  },
   "application/swid+cbor": {
     "source": "iana"
   },
@@ -2092,6 +2111,9 @@
     "source": "iana"
   },
   "application/vc+jwt": {
+    "source": "iana"
+  },
+  "application/vc+sd-jwt": {
     "source": "iana"
   },
   "application/vcard+json": {
@@ -2546,6 +2568,9 @@
   "application/vnd.ahead.space": {
     "source": "iana",
     "extensions": ["ahead"]
+  },
+  "application/vnd.aia": {
+    "source": "iana"
   },
   "application/vnd.airzip.filesecure.azf": {
     "source": "iana",
@@ -6109,9 +6134,18 @@
     "source": "iana",
     "extensions": ["ufd","ufdl"]
   },
+  "application/vnd.uic.dosipas.v1": {
+    "source": "iana"
+  },
+  "application/vnd.uic.dosipas.v2": {
+    "source": "iana"
+  },
   "application/vnd.uic.osdm+json": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.uic.tlb-fcb": {
+    "source": "iana"
   },
   "application/vnd.uiq.theme": {
     "source": "iana",
@@ -6336,6 +6370,9 @@
   "application/vnd.xarin.cpj": {
     "source": "iana"
   },
+  "application/vnd.xcdn": {
+    "source": "iana"
+  },
   "application/vnd.xecrets-encrypted": {
     "source": "iana"
   },
@@ -6410,6 +6447,9 @@
     "source": "iana",
     "extensions": ["cmp"]
   },
+  "application/vnd.zoho-presentation.show": {
+    "source": "iana"
+  },
   "application/vnd.zul": {
     "source": "iana",
     "extensions": ["zir","zirz"]
@@ -6439,6 +6479,9 @@
     "source": "iana"
   },
   "application/vp+jwt": {
+    "source": "iana"
+  },
+  "application/vp+sd-jwt": {
     "source": "iana"
   },
   "application/vq-rtcpxr": {
