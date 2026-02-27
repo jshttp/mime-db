@@ -186,6 +186,11 @@
     ],
     "compressible": true
   },
+  "application/typescript": {
+    "charset": "UTF-8",
+    "compressible": true,
+    "extensions": ["ts", "tsx", "cts", "mts"]
+  },
   "application/ubjson": {
     "extensions": ["ubj"],
     "sources" : [
