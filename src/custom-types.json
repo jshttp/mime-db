@@ -998,7 +998,11 @@
     "compressible": true
   },
   "text/html": {
-    "compressible": true
+    "compressible": true,
+    "extensions": ["svelte"],
+    "sources": [
+      "https://svelte.dev/docs/svelte/svelte-files"
+    ]
   },
   "text/jade": {
     "extensions": ["jade"]
