@@ -998,7 +998,11 @@
     "compressible": true
   },
   "text/html": {
-    "compressible": true
+    "compressible": true,
+    "extensions": ["astro"],
+    "sources": [
+      "https://docs.astro.build/en/basics/astro-pages/#astro-pages"
+    ]
   },
   "text/jade": {
     "extensions": ["jade"]
