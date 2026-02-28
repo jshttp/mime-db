@@ -896,7 +896,7 @@
     "source": "apache",
     "charset": "UTF-8",
     "compressible": true,
-    "extensions": ["js"]
+    "extensions": ["js","vue"]
   },
   "application/jf2feed+json": {
     "source": "iana",
