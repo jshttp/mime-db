@@ -84,7 +84,11 @@
   },
   "application/javascript": {
     "charset": "UTF-8",
-    "compressible": true
+    "compressible": true,
+    "extensions": ["vue"],
+    "sources": [
+      "https://vuejs.org/guide/scaling-up/sfc.html"
+    ]
   },
   "application/json": {
     "charset": "UTF-8",
