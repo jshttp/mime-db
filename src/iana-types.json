@@ -46,6 +46,11 @@
       "https://www.iana.org/assignments/media-types/application/A2L"
     ]
   },
+  "application/aas+zip": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/aas+zip"
+    ]
+  },
   "application/ace+cbor": {
     "sources": [
       "https://tools.ietf.org/rfc/rfc9200.txt",
@@ -991,6 +996,11 @@
       "https://www.iana.org/assignments/media-types/application/expect-ct-report+json"
     ]
   },
+  "application/explicit-registration-response+jwt": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/explicit-registration-response+jwt"
+    ]
+  },
   "application/express": {
     "extensions": ["exp"],
     "sources": [
@@ -1578,6 +1588,16 @@
     "sources": [
       "https://tools.ietf.org/rfc/rfc4155.txt",
       "https://www.iana.org/assignments/media-types/application/mbox"
+    ]
+  },
+  "application/measured-component+cbor": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/measured-component+cbor"
+    ]
+  },
+  "application/measured-component+json": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/measured-component+json"
     ]
   },
   "application/media-policy-dataset+xml": {
@@ -2490,6 +2510,7 @@
   },
   "application/sdf+json": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9880.txt",
       "https://www.iana.org/assignments/media-types/application/sdf+json"
     ]
   },
@@ -2954,6 +2975,11 @@
   "application/trust-mark-delegation+jwt": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/trust-mark-delegation+jwt"
+    ]
+  },
+  "application/trust-mark-status-response+jwt": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/trust-mark-status-response+jwt"
     ]
   },
   "application/ttml+xml": {
@@ -9622,6 +9648,11 @@
   "audio/sofa": {
     "sources": [
       "https://www.iana.org/assignments/media-types/audio/sofa"
+    ]
+  },
+  "audio/soundfont": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/audio/soundfont"
     ]
   },
   "audio/sp-midi": {
