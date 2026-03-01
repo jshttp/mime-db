@@ -34,6 +34,10 @@
   "application/a2l": {
     "source": "iana"
   },
+  "application/aas+zip": {
+    "source": "iana",
+    "compressible": false
+  },
   "application/ace+cbor": {
     "source": "iana"
   },
@@ -682,6 +686,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/explicit-registration-response+jwt": {
+    "source": "iana"
+  },
   "application/express": {
     "source": "iana",
     "extensions": ["exp"]
@@ -1117,6 +1124,13 @@
   "application/mbox": {
     "source": "iana",
     "extensions": ["mbox"]
+  },
+  "application/measured-component+cbor": {
+    "source": "iana"
+  },
+  "application/measured-component+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/media-policy-dataset+xml": {
     "source": "iana",
@@ -2056,6 +2070,9 @@
     "source": "iana"
   },
   "application/trust-mark-delegation+jwt": {
+    "source": "iana"
+  },
+  "application/trust-mark-status-response+jwt": {
     "source": "iana"
   },
   "application/ttml+xml": {
@@ -7634,6 +7651,9 @@
     "source": "iana"
   },
   "audio/sofa": {
+    "source": "iana"
+  },
+  "audio/soundfont": {
     "source": "iana"
   },
   "audio/sp-midi": {
