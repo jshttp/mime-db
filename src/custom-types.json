@@ -203,6 +203,13 @@
       "https://www.iana.org/assignments/media-types/application/vnd.apache.parquet"
     ]
   },
+  "application/vnd.pmtiles": {
+    "compressible": false,
+    "extensions": ["pmtiles"],
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.pmtiles"
+    ]
+  },
   "application/vnd.apple.pkpass": {
     "compressible": false,
     "extensions": ["pkpass"],
