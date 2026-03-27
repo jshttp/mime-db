@@ -98,6 +98,12 @@ keys and the values being an object with the following keys:
 
 To update the build, run `npm run build`.
 
+## Media Type Database for other languages
+
+There are already a few ports of this tool to other languages:
+
+- **.NET** https://github.com/totpero/MimeDb.Net
+
 [ci-image]: https://badgen.net/github/checks/jshttp/mime-db/master?label=ci
 [ci-url]: https://github.com/jshttp/mime-db/actions/workflows/ci.yml
 [coveralls-image]: https://badgen.net/coveralls/c/github/jshttp/mime-db/master
