@@ -2,6 +2,39 @@
   "application/atom+xml": {
     "extensions": ["atom"]
   },
+  "text/x-python":{
+    "extensions": ["py"]
+  },
+  "text/x-ruby": {
+    "extensions": ["rb"]
+  }, 
+  "text/x-golang": {
+    "extensions": ["go"]
+  }, 
+  "text/x-kotlin": {
+    "extensions": ["kt"]
+  }, 
+  "text/x-perl": {
+    "extensions": ["pl"]
+  }, 
+  "text/x-swift": {
+    "extensions": ["swift"]
+  }, 
+  "text/x-haskell": {
+    "extensions": ["hs"]
+  }, 
+  "text/tsx": {
+    "extensions": ["tsx"]
+  }, 
+  "text/x-scala": {
+    "extensions": ["scala"]
+  }, 
+  "text/x-csharp": {
+    "extensions": ["cs"]
+  }, 
+  "text/x-rsrc": {
+    "extensions": ["r"]
+  }, 
   "application/java-archive": {
     "extensions": ["jar","war","ear"]
   },
