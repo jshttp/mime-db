@@ -2154,6 +2154,11 @@
       "https://www.iana.org/assignments/media-types/application/prs.alvestrand.titrax-sheet"
     ]
   },
+  "application/prs.bwtc32key": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/prs.bwtc32key"
+    ]
+  },
   "application/prs.cww": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/prs.cww"
@@ -2333,6 +2338,16 @@
     "sources": [
       "https://tools.ietf.org/rfc/rfc4826.txt",
       "https://www.iana.org/assignments/media-types/application/rls-services+xml"
+    ]
+  },
+  "application/roughtime-malfeasance+json": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/roughtime-malfeasance+json"
+    ]
+  },
+  "application/roughtime-server+json": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/roughtime-server+json"
     ]
   },
   "application/route-apd+xml": {
@@ -2870,6 +2885,11 @@
       "https://www.iana.org/assignments/media-types/application/td+json"
     ]
   },
+  "application/teep+cbor": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/teep+cbor"
+    ]
+  },
   "application/tei+xml": {
     "sources": [
       "https://tools.ietf.org/rfc/rfc6129.txt",
@@ -3043,6 +3063,11 @@
   "application/urc-uisocketdesc+xml": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/urc-uisocketdesc+xml"
+    ]
+  },
+  "application/v3c": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/v3c"
     ]
   },
   "application/vc": {
@@ -3308,6 +3333,11 @@
   "application/vnd.3gpp.mcptt-user-profile+xml": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.3gpp.mcptt-user-profile+xml"
+    ]
+  },
+  "application/vnd.3gpp.mcs-location-user-config+xml": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.3gpp.mcs-location-user-config+xml"
     ]
   },
   "application/vnd.3gpp.mcvideo-affiliation-command+xml": {
@@ -4372,6 +4402,11 @@
       "https://www.iana.org/assignments/media-types/application/vnd.desmume.movie"
     ]
   },
+  "application/vnd.deut+json": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.deut+json"
+    ]
+  },
   "application/vnd.dir-bi.plate-dl-nosuffix": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.dir-bi.plate-dl-nosuffix"
@@ -5267,6 +5302,16 @@
   "application/vnd.hcl-bireports": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.hcl-bireports"
+    ]
+  },
+  "application/vnd.hdfgroup.hdf4": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.hdfgroup.hdf4"
+    ]
+  },
+  "application/vnd.hdfgroup.hdf5": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.hdfgroup.hdf5"
     ]
   },
   "application/vnd.hdt": {
@@ -8667,9 +8712,19 @@
       "https://www.iana.org/assignments/media-types/application/vnd.yellowriver-custom-menu"
     ]
   },
+  "application/vnd.zoho-document.writer": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.zoho-document.writer"
+    ]
+  },
   "application/vnd.zoho-presentation.show": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.zoho-presentation.show"
+    ]
+  },
+  "application/vnd.zoho.spreadsheetml.sheet": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.zoho.spreadsheetml.sheet"
     ]
   },
   "application/vnd.zul": {
@@ -10567,6 +10622,16 @@
     "sources": [
       "https://tools.ietf.org/rfc/rfc9420.txt",
       "https://www.iana.org/assignments/media-types/message/mls"
+    ]
+  },
+  "message/ohttp-chunked-req": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/message/ohttp-chunked-req"
+    ]
+  },
+  "message/ohttp-chunked-res": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/message/ohttp-chunked-res"
     ]
   },
   "message/ohttp-req": {
