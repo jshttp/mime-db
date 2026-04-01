@@ -1514,6 +1514,9 @@
   "application/prs.alvestrand.titrax-sheet": {
     "source": "iana"
   },
+  "application/prs.bwtc32key": {
+    "source": "iana"
+  },
   "application/prs.cww": {
     "source": "iana",
     "extensions": ["cww"]
@@ -1641,6 +1644,14 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["rs"]
+  },
+  "application/roughtime-malfeasance+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/roughtime-server+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/route-apd+xml": {
     "source": "iana",
@@ -2004,6 +2015,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/teep+cbor": {
+    "source": "iana"
+  },
   "application/tei+xml": {
     "source": "iana",
     "compressible": true,
@@ -2120,6 +2134,9 @@
   "application/urc-uisocketdesc+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/v3c": {
+    "source": "iana"
   },
   "application/vc": {
     "source": "iana"
@@ -2312,6 +2329,10 @@
     "compressible": true
   },
   "application/vnd.3gpp.mcptt-user-profile+xml": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.3gpp.mcs-location-user-config+xml": {
     "source": "iana",
     "compressible": true
   },
@@ -3121,6 +3142,10 @@
   "application/vnd.desmume.movie": {
     "source": "iana"
   },
+  "application/vnd.deut+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.dir-bi.plate-dl-nosuffix": {
     "source": "iana"
   },
@@ -3847,6 +3872,12 @@
     "compressible": true
   },
   "application/vnd.hcl-bireports": {
+    "source": "iana"
+  },
+  "application/vnd.hdfgroup.hdf4": {
+    "source": "iana"
+  },
+  "application/vnd.hdfgroup.hdf5": {
     "source": "iana"
   },
   "application/vnd.hdt": {
@@ -6464,7 +6495,13 @@
     "source": "iana",
     "extensions": ["cmp"]
   },
+  "application/vnd.zoho-document.writer": {
+    "source": "iana"
+  },
   "application/vnd.zoho-presentation.show": {
+    "source": "iana"
+  },
+  "application/vnd.zoho.spreadsheetml.sheet": {
     "source": "iana"
   },
   "application/vnd.zul": {
@@ -8455,6 +8492,12 @@
   },
   "message/news": {
     "source": "apache"
+  },
+  "message/ohttp-chunked-req": {
+    "source": "iana"
+  },
+  "message/ohttp-chunked-res": {
+    "source": "iana"
   },
   "message/ohttp-req": {
     "source": "iana"
