@@ -6871,7 +6871,7 @@
   },
   "application/x-msaccess": {
     "source": "apache",
-    "extensions": ["mdb"]
+    "extensions": ["mdb","accdb"]
   },
   "application/x-msbinder": {
     "source": "apache",
