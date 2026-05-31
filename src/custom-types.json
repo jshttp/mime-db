@@ -105,9 +105,10 @@
   },
   "application/msaccess": {
     "extensions": ["accdb", "accde", "accdt"],
-    "notes": "Microsoft Access 2007+ database file formats",
+    "notes": "Microsoft Access 2007+ database file formats; mapping derives from the IIS default static MIME map used by .NET and ASP.NET Core",
     "sources": [
-      "https://learn.microsoft.com/en-us/archive/blogs/jaimer/mime-types"
+      "https://github.com/dotnet/runtime/blob/6963a5964693f9c439d100b4bba9ae01af697dc1/src/libraries/System.Net.Mail/src/System/Net/Mime/MediaTypeMap.cs#L29-L31",
+      "https://github.com/dotnet/aspnetcore/blob/4637df87bce65b1a7d870a329e5ed5ec73bdd541/src/Middleware/StaticFiles/src/FileExtensionContentTypeProvider.cs#L32-L34"
     ]
   },
   "application/msix": {
