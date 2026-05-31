@@ -14,6 +14,7 @@ It aggregates data from the following sources:
 - https://www.iana.org/assignments/media-types/media-types.xhtml
 - https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
 - https://hg.nginx.org/nginx/raw-file/default/conf/mime.types
+- https://github.com/dotnet/aspnetcore/blob/main/src/Servers/IIS/build/applicationhost.iis.config
 
 ## Installation
 
@@ -48,6 +49,7 @@ Each mime type has the following properties:
     - `apache` - [Apache common media types](https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types)
     - `iana` - [IANA-defined media types](https://www.iana.org/assignments/media-types/media-types.xhtml)
     - `nginx` - [nginx media types](https://hg.nginx.org/nginx/raw-file/default/conf/mime.types)
+    - `iis` - [IIS default static media types](https://github.com/dotnet/aspnetcore/blob/main/src/Servers/IIS/build/applicationhost.iis.config) (added only for extensions not already covered by another source)
 - `.extensions[]` - known extensions associated with this mime type.
 - `.compressible` - whether a file of this type can be gzipped.
 - `.charset` - the default charset associated with this type, if any.

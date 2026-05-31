@@ -46,7 +46,7 @@
   },
   "scripts": {
     "build": "node scripts/build",
-    "fetch": "node scripts/fetch-apache && node scripts/fetch-iana && node scripts/fetch-nginx",
+    "fetch": "node scripts/fetch-apache && node scripts/fetch-iana && node scripts/fetch-nginx && node scripts/fetch-iis",
     "lint": "eslint .",
     "test": "mocha --reporter spec --check-leaks test/",
     "test-ci": "nyc --reporter=lcovonly --reporter=text npm test",

@@ -519,6 +519,10 @@
   "application/dii": {
     "source": "iana"
   },
+  "application/directx": {
+    "source": "iis",
+    "extensions": ["x"]
+  },
   "application/dit": {
     "source": "iana"
   },
@@ -738,6 +742,10 @@
     "source": "iana",
     "compressible": false
   },
+  "application/fractals": {
+    "source": "iis",
+    "extensions": ["fif"]
+  },
   "application/framework-attributes+xml": {
     "source": "iana",
     "compressible": true
@@ -820,6 +828,10 @@
     "charset": "UTF-8",
     "compressible": true
   },
+  "application/hta": {
+    "source": "iis",
+    "extensions": ["hta"]
+  },
   "application/http": {
     "source": "iana"
   },
@@ -865,6 +877,10 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["ink","inkml"]
+  },
+  "application/internet-property-stream": {
+    "source": "iis",
+    "extensions": ["acx"]
   },
   "application/iotp": {
     "source": "iana"
@@ -1005,6 +1021,10 @@
   "application/linkset+json": {
     "source": "iana",
     "compressible": true
+  },
+  "application/liquidmotion": {
+    "source": "iis",
+    "extensions": ["jck","jcz"]
   },
   "application/load-control+xml": {
     "source": "iana",
@@ -1229,6 +1249,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/msaccess": {
+    "source": "iis",
+    "extensions": ["accdb","accde","accdt"]
+  },
   "application/msc-ivr+xml": {
     "source": "iana",
     "charset": "UTF-8",
@@ -1337,6 +1361,10 @@
   "application/ohttp-keys": {
     "source": "iana"
   },
+  "application/olescript": {
+    "source": "iis",
+    "extensions": ["axs"]
+  },
   "application/omdoc+xml": {
     "source": "apache",
     "compressible": true,
@@ -1349,6 +1377,11 @@
   "application/opc-nodeset+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/opensearchdescription+xml": {
+    "source": "iis",
+    "compressible": true,
+    "extensions": ["osdx"]
   },
   "application/oscore": {
     "source": "iana"
@@ -1945,6 +1978,10 @@
   },
   "application/stratum": {
     "source": "iana"
+  },
+  "application/streamingmedia": {
+    "source": "iis",
+    "extensions": ["ssm"]
   },
   "application/suit-envelope+cose": {
     "source": "iana"
@@ -4461,7 +4498,7 @@
   },
   "application/vnd.ms-cab-compressed": {
     "source": "iana",
-    "extensions": ["cab"]
+    "extensions": ["cab","esd"]
   },
   "application/vnd.ms-color.iccprofile": {
     "source": "apache"
@@ -4508,6 +4545,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.ms-office.calx": {
+    "source": "iis",
+    "extensions": ["calx"]
+  },
   "application/vnd.ms-officetheme": {
     "source": "iana",
     "extensions": ["thmx"]
@@ -4522,6 +4563,14 @@
   },
   "application/vnd.ms-package.obfuscated-opentype": {
     "source": "apache"
+  },
+  "application/vnd.ms-pki.certstore": {
+    "source": "iis",
+    "extensions": ["sst"]
+  },
+  "application/vnd.ms-pki.pko": {
+    "source": "iis",
+    "extensions": ["pko"]
   },
   "application/vnd.ms-pki.seccat": {
     "source": "apache",
@@ -6268,7 +6317,7 @@
   },
   "application/vnd.visio": {
     "source": "iana",
-    "extensions": ["vsd","vst","vss","vsw","vsdx","vtx"]
+    "extensions": ["vsd","vst","vss","vsw","vsdx","vtx","vsx"]
   },
   "application/vnd.visionary": {
     "source": "iana",
@@ -6641,10 +6690,11 @@
     "extensions": ["cco"]
   },
   "application/x-compress": {
-    "source": "apache"
+    "source": "apache",
+    "extensions": ["z"]
   },
   "application/x-compressed": {
-    "extensions": ["rar"]
+    "extensions": ["rar","tgz"]
   },
   "application/x-conference": {
     "source": "apache",
@@ -6790,6 +6840,14 @@
     "source": "apache",
     "extensions": ["install"]
   },
+  "application/x-internet-signup": {
+    "source": "iis",
+    "extensions": ["ins","isp"]
+  },
+  "application/x-iphone": {
+    "source": "iis",
+    "extensions": ["iii"]
+  },
   "application/x-ipynb+json": {
     "compressible": true,
     "extensions": ["ipynb"]
@@ -6842,6 +6900,10 @@
     "source": "apache",
     "extensions": ["mie"]
   },
+  "application/x-miva-compiled": {
+    "source": "iis",
+    "extensions": ["mvc"]
+  },
   "application/x-mobipocket-ebook": {
     "source": "apache",
     "extensions": ["prc","mobi"]
@@ -6853,9 +6915,17 @@
     "source": "apache",
     "extensions": ["application"]
   },
+  "application/x-ms-reader": {
+    "source": "iis",
+    "extensions": ["lit"]
+  },
   "application/x-ms-shortcut": {
     "source": "apache",
     "extensions": ["lnk"]
+  },
+  "application/x-ms-vsto": {
+    "source": "iis",
+    "extensions": ["vsto"]
   },
   "application/x-ms-wmd": {
     "source": "apache",
@@ -6932,6 +7002,14 @@
     "source": "apache",
     "extensions": ["nzb"]
   },
+  "application/x-oleobject": {
+    "source": "iis",
+    "extensions": ["hhc"]
+  },
+  "application/x-perfmon": {
+    "source": "iis",
+    "extensions": ["pma","pmc","pmr","pmw"]
+  },
   "application/x-perl": {
     "source": "nginx",
     "extensions": ["pl","pm"]
@@ -6955,6 +7033,10 @@
   },
   "application/x-pki-message": {
     "source": "iana"
+  },
+  "application/x-quicktimeplayer": {
+    "source": "iis",
+    "extensions": ["qtl"]
   },
   "application/x-rar-compressed": {
     "source": "apache",
@@ -7734,7 +7816,8 @@
     "extensions": ["eol"]
   },
   "audio/vnd.dlna.adts": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["adt"]
   },
   "audio/vnd.dolby.heaac.1": {
     "source": "iana"
@@ -7907,6 +7990,10 @@
   "audio/x-realaudio": {
     "source": "nginx",
     "extensions": ["ra"]
+  },
+  "audio/x-smd": {
+    "source": "iis",
+    "extensions": ["smd","smx","smz"]
   },
   "audio/x-tta": {
     "source": "apache"
@@ -8144,7 +8231,7 @@
   "image/png": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["png"]
+    "extensions": ["png","pnz"]
   },
   "image/prs.btif": {
     "source": "iana",
@@ -8275,6 +8362,10 @@
   "image/vnd.radiance": {
     "source": "iana"
   },
+  "image/vnd.rn-realflash": {
+    "source": "iis",
+    "extensions": ["rf"]
+  },
   "image/vnd.sealed.png": {
     "source": "iana"
   },
@@ -8341,6 +8432,10 @@
     "source": "apache",
     "compressible": true,
     "extensions": ["ico"]
+  },
+  "image/x-jg": {
+    "source": "iis",
+    "extensions": ["art"]
   },
   "image/x-jng": {
     "source": "nginx",
@@ -8469,7 +8564,7 @@
   "message/rfc822": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["eml","mime","mht","mhtml"]
+    "extensions": ["eml","mime","mht","mhtml","nws"]
   },
   "message/s-http": {
     "source": "apache"
@@ -8767,6 +8862,10 @@
   "text/directory": {
     "source": "iana"
   },
+  "text/dlm": {
+    "source": "iis",
+    "extensions": ["dlm"]
+  },
   "text/dns": {
     "source": "iana"
   },
@@ -8794,13 +8893,21 @@
   "text/grammar-ref-list": {
     "source": "iana"
   },
+  "text/h323": {
+    "source": "iis",
+    "extensions": ["323"]
+  },
   "text/hl7v2": {
     "source": "iana"
   },
   "text/html": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["html","htm","shtml"]
+    "extensions": ["html","htm","shtml","hxt"]
+  },
+  "text/iuls": {
+    "source": "iis",
+    "extensions": ["uls"]
   },
   "text/jade": {
     "extensions": ["jade"]
@@ -8857,7 +8964,7 @@
   "text/plain": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["txt","text","conf","def","list","log","in","ini"]
+    "extensions": ["txt","text","conf","def","list","log","in","ini","bas","cnf","xdr"]
   },
   "text/provenance-notation": {
     "source": "iana",
@@ -8903,6 +9010,10 @@
   },
   "text/rtx": {
     "source": "iana"
+  },
+  "text/scriptlet": {
+    "source": "iis",
+    "extensions": ["sct"]
   },
   "text/sgml": {
     "source": "iana",
@@ -8952,6 +9063,10 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["uri","uris","urls"]
+  },
+  "text/vbscript": {
+    "source": "iis",
+    "extensions": ["vbs"]
   },
   "text/vcard": {
     "source": "iana",
@@ -9105,6 +9220,10 @@
     "compressible": true,
     "extensions": ["vtt"]
   },
+  "text/webviewhtml": {
+    "source": "iis",
+    "extensions": ["htt"]
+  },
   "text/wgsl": {
     "source": "iana",
     "extensions": ["wgsl"]
@@ -9131,6 +9250,10 @@
   },
   "text/x-handlebars-template": {
     "extensions": ["hbs"]
+  },
+  "text/x-hdml": {
+    "source": "iis",
+    "extensions": ["hdml"]
   },
   "text/x-java-source": {
     "source": "apache",
@@ -9203,7 +9326,7 @@
   "text/xml": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["xml"]
+    "extensions": ["xml","disco","dll.config","exe.config","mno","vml"]
   },
   "text/xml-external-parsed-entity": {
     "source": "iana"
@@ -9224,7 +9347,7 @@
   },
   "video/3gpp2": {
     "source": "iana",
-    "extensions": ["3g2"]
+    "extensions": ["3g2","3gp2"]
   },
   "video/av1": {
     "source": "iana"
@@ -9341,7 +9464,7 @@
   "video/mpeg": {
     "source": "iana",
     "compressible": false,
-    "extensions": ["mpeg","mpg","mpe","m1v","m2v"]
+    "extensions": ["mpeg","mpg","mpe","m1v","m2v","mpa","mpv2"]
   },
   "video/mpeg4-generic": {
     "source": "iana"
@@ -9437,7 +9560,8 @@
     "source": "iana"
   },
   "video/vnd.dlna.mpeg-tts": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["tts"]
   },
   "video/vnd.dvb.file": {
     "source": "iana",
@@ -9550,6 +9674,14 @@
     "compressible": false,
     "extensions": ["flv"]
   },
+  "video/x-ivf": {
+    "source": "iis",
+    "extensions": ["ivf"]
+  },
+  "video/x-la-asf": {
+    "source": "iis",
+    "extensions": ["lsf","lsx"]
+  },
   "video/x-m4v": {
     "source": "apache",
     "extensions": ["m4v"]
@@ -9565,7 +9697,11 @@
   },
   "video/x-ms-asf": {
     "source": "apache",
-    "extensions": ["asf","asx"]
+    "extensions": ["asf","asx","asr"]
+  },
+  "video/x-ms-dvr": {
+    "source": "iis",
+    "extensions": ["dvr-ms"]
   },
   "video/x-ms-vob": {
     "source": "apache",
@@ -9575,6 +9711,10 @@
     "source": "apache",
     "extensions": ["wm"]
   },
+  "video/x-ms-wmp": {
+    "source": "iis",
+    "extensions": ["wmp"]
+  },
   "video/x-ms-wmv": {
     "source": "apache",
     "compressible": false,
@@ -9583,6 +9723,10 @@
   "video/x-ms-wmx": {
     "source": "apache",
     "extensions": ["wmx"]
+  },
+  "video/x-ms-wtv": {
+    "source": "iis",
+    "extensions": ["wtv"]
   },
   "video/x-ms-wvx": {
     "source": "apache",
@@ -9609,5 +9753,9 @@
   },
   "x-shader/x-vertex": {
     "compressible": true
+  },
+  "x-world/x-vrml": {
+    "source": "iis",
+    "extensions": ["flr","wrz","xaf","xof"]
   }
 }

@@ -1,0 +1,668 @@
+{
+  "application/atom+xml": {
+    "extensions": ["atom"]
+  },
+  "application/directx": {
+    "extensions": ["x"]
+  },
+  "application/envoy": {
+    "extensions": ["evy"]
+  },
+  "application/font-woff2": {
+    "extensions": ["woff2"]
+  },
+  "application/fractals": {
+    "extensions": ["fif"]
+  },
+  "application/futuresplash": {
+    "extensions": ["spl"]
+  },
+  "application/hta": {
+    "extensions": ["hta"]
+  },
+  "application/internet-property-stream": {
+    "extensions": ["acx"]
+  },
+  "application/java-archive": {
+    "extensions": ["jar"]
+  },
+  "application/javascript": {
+    "extensions": ["js"]
+  },
+  "application/json": {
+    "extensions": ["json"]
+  },
+  "application/ld+json": {
+    "extensions": ["jsonld"]
+  },
+  "application/liquidmotion": {
+    "extensions": ["jck","jcz"]
+  },
+  "application/mac-binhex40": {
+    "extensions": ["hqx"]
+  },
+  "application/msaccess": {
+    "extensions": ["accdb","accde","accdt"]
+  },
+  "application/msword": {
+    "extensions": ["doc","dot"]
+  },
+  "application/oda": {
+    "extensions": ["oda"]
+  },
+  "application/oleobject": {
+    "extensions": ["ods"]
+  },
+  "application/olescript": {
+    "extensions": ["axs"]
+  },
+  "application/onenote": {
+    "extensions": ["one","onea","onetoc","onetoc2","onetmp","onepkg"]
+  },
+  "application/opensearchdescription+xml": {
+    "extensions": ["osdx"]
+  },
+  "application/pdf": {
+    "extensions": ["pdf"]
+  },
+  "application/pics-rules": {
+    "extensions": ["prf"]
+  },
+  "application/pkcs10": {
+    "extensions": ["p10"]
+  },
+  "application/pkcs7-mime": {
+    "extensions": ["p7c","p7m"]
+  },
+  "application/pkcs7-signature": {
+    "extensions": ["p7s"]
+  },
+  "application/pkix-crl": {
+    "extensions": ["crl"]
+  },
+  "application/postscript": {
+    "extensions": ["ai","eps","ps"]
+  },
+  "application/rtf": {
+    "extensions": ["rtf"]
+  },
+  "application/set-payment-initiation": {
+    "extensions": ["setpay"]
+  },
+  "application/set-registration-initiation": {
+    "extensions": ["setreg"]
+  },
+  "application/streamingmedia": {
+    "extensions": ["ssm"]
+  },
+  "application/vnd.fdf": {
+    "extensions": ["fdf"]
+  },
+  "application/vnd.ms-cab-compressed": {
+    "extensions": ["cab","esd"]
+  },
+  "application/vnd.ms-excel": {
+    "extensions": ["xla","xlc","xlm","xls","xlt","xlw"]
+  },
+  "application/vnd.ms-excel.addin.macroenabled.12": {
+    "extensions": ["xlam"]
+  },
+  "application/vnd.ms-excel.sheet.binary.macroenabled.12": {
+    "extensions": ["xlsb"]
+  },
+  "application/vnd.ms-excel.sheet.macroenabled.12": {
+    "extensions": ["xlsm"]
+  },
+  "application/vnd.ms-excel.template.macroenabled.12": {
+    "extensions": ["xltm"]
+  },
+  "application/vnd.ms-fontobject": {
+    "extensions": ["eot"]
+  },
+  "application/vnd.ms-office.calx": {
+    "extensions": ["calx"]
+  },
+  "application/vnd.ms-officetheme": {
+    "extensions": ["thmx"]
+  },
+  "application/vnd.ms-pki.certstore": {
+    "extensions": ["sst"]
+  },
+  "application/vnd.ms-pki.pko": {
+    "extensions": ["pko"]
+  },
+  "application/vnd.ms-pki.seccat": {
+    "extensions": ["cat"]
+  },
+  "application/vnd.ms-pki.stl": {
+    "extensions": ["stl"]
+  },
+  "application/vnd.ms-powerpoint": {
+    "extensions": ["pot","pps","ppt"]
+  },
+  "application/vnd.ms-powerpoint.addin.macroenabled.12": {
+    "extensions": ["ppam"]
+  },
+  "application/vnd.ms-powerpoint.presentation.macroenabled.12": {
+    "extensions": ["pptm"]
+  },
+  "application/vnd.ms-powerpoint.slide.macroenabled.12": {
+    "extensions": ["sldm"]
+  },
+  "application/vnd.ms-powerpoint.slideshow.macroenabled.12": {
+    "extensions": ["ppsm"]
+  },
+  "application/vnd.ms-powerpoint.template.macroenabled.12": {
+    "extensions": ["potm"]
+  },
+  "application/vnd.ms-project": {
+    "extensions": ["mpp"]
+  },
+  "application/vnd.ms-visio.viewer": {
+    "extensions": ["vdx"]
+  },
+  "application/vnd.ms-word.document.macroenabled.12": {
+    "extensions": ["docm"]
+  },
+  "application/vnd.ms-word.template.macroenabled.12": {
+    "extensions": ["dotm"]
+  },
+  "application/vnd.ms-works": {
+    "extensions": ["wcm","wdb","wks","wps"]
+  },
+  "application/vnd.ms-xpsdocument": {
+    "extensions": ["xps"]
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.presentation": {
+    "extensions": ["pptx"]
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slide": {
+    "extensions": ["sldx"]
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slideshow": {
+    "extensions": ["ppsx"]
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.template": {
+    "extensions": ["potx"]
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
+    "extensions": ["xlsx"]
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.template": {
+    "extensions": ["xltx"]
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {
+    "extensions": ["docx"]
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.template": {
+    "extensions": ["dotx"]
+  },
+  "application/vnd.rn-realmedia": {
+    "extensions": ["rm"]
+  },
+  "application/vnd.visio": {
+    "extensions": ["vsd","vss","vst","vsw","vsx","vtx"]
+  },
+  "application/vnd.wap.wmlc": {
+    "extensions": ["wmlc"]
+  },
+  "application/vnd.wap.wmlscriptc": {
+    "extensions": ["wmlsc"]
+  },
+  "application/winhlp": {
+    "extensions": ["hlp"]
+  },
+  "application/x-bcpio": {
+    "extensions": ["bcpio"]
+  },
+  "application/x-cdf": {
+    "extensions": ["cdf"]
+  },
+  "application/x-compress": {
+    "extensions": ["z"]
+  },
+  "application/x-compressed": {
+    "extensions": ["tgz"]
+  },
+  "application/x-cpio": {
+    "extensions": ["cpio"]
+  },
+  "application/x-csh": {
+    "extensions": ["csh"]
+  },
+  "application/x-director": {
+    "extensions": ["dcr","dir","dxr"]
+  },
+  "application/x-dvi": {
+    "extensions": ["dvi"]
+  },
+  "application/x-gtar": {
+    "extensions": ["gtar"]
+  },
+  "application/x-gzip": {
+    "extensions": ["gz"]
+  },
+  "application/x-hdf": {
+    "extensions": ["hdf"]
+  },
+  "application/x-internet-signup": {
+    "extensions": ["ins","isp"]
+  },
+  "application/x-iphone": {
+    "extensions": ["iii"]
+  },
+  "application/x-java-applet": {
+    "extensions": ["class"]
+  },
+  "application/x-latex": {
+    "extensions": ["latex"]
+  },
+  "application/x-miva-compiled": {
+    "extensions": ["mvc"]
+  },
+  "application/x-ms-application": {
+    "extensions": ["application"]
+  },
+  "application/x-ms-manifest": {
+    "extensions": ["manifest"]
+  },
+  "application/x-ms-reader": {
+    "extensions": ["lit"]
+  },
+  "application/x-ms-vsto": {
+    "extensions": ["vsto"]
+  },
+  "application/x-ms-wmd": {
+    "extensions": ["wmd"]
+  },
+  "application/x-ms-wmz": {
+    "extensions": ["wmz"]
+  },
+  "application/x-ms-xbap": {
+    "extensions": ["xbap"]
+  },
+  "application/x-msaccess": {
+    "extensions": ["mdb"]
+  },
+  "application/x-mscardfile": {
+    "extensions": ["crd"]
+  },
+  "application/x-msclip": {
+    "extensions": ["clp"]
+  },
+  "application/x-msdownload": {
+    "extensions": ["dll"]
+  },
+  "application/x-msmediaview": {
+    "extensions": ["m13","m14","mvb"]
+  },
+  "application/x-msmetafile": {
+    "extensions": ["wmf"]
+  },
+  "application/x-msmoney": {
+    "extensions": ["mny"]
+  },
+  "application/x-mspublisher": {
+    "extensions": ["pub"]
+  },
+  "application/x-msschedule": {
+    "extensions": ["scd"]
+  },
+  "application/x-msterminal": {
+    "extensions": ["trm"]
+  },
+  "application/x-mswrite": {
+    "extensions": ["wri"]
+  },
+  "application/x-netcdf": {
+    "extensions": ["nc"]
+  },
+  "application/x-oleobject": {
+    "extensions": ["hhc"]
+  },
+  "application/x-perfmon": {
+    "extensions": ["pma","pmc","pml","pmr","pmw"]
+  },
+  "application/x-pkcs12": {
+    "extensions": ["p12","pfx"]
+  },
+  "application/x-pkcs7-certificates": {
+    "extensions": ["p7b","spc"]
+  },
+  "application/x-pkcs7-certreqresp": {
+    "extensions": ["p7r"]
+  },
+  "application/x-quicktimeplayer": {
+    "extensions": ["qtl"]
+  },
+  "application/x-sh": {
+    "extensions": ["sh"]
+  },
+  "application/x-shar": {
+    "extensions": ["shar"]
+  },
+  "application/x-shockwave-flash": {
+    "extensions": ["swf"]
+  },
+  "application/x-silverlight-app": {
+    "extensions": ["xap"]
+  },
+  "application/x-smaf": {
+    "extensions": ["mmf"]
+  },
+  "application/x-stuffit": {
+    "extensions": ["sit"]
+  },
+  "application/x-sv4cpio": {
+    "extensions": ["sv4cpio"]
+  },
+  "application/x-sv4crc": {
+    "extensions": ["sv4crc"]
+  },
+  "application/x-tar": {
+    "extensions": ["tar"]
+  },
+  "application/x-tcl": {
+    "extensions": ["tcl"]
+  },
+  "application/x-tex": {
+    "extensions": ["tex"]
+  },
+  "application/x-texinfo": {
+    "extensions": ["texi","texinfo"]
+  },
+  "application/x-troff": {
+    "extensions": ["roff","t","tr"]
+  },
+  "application/x-troff-man": {
+    "extensions": ["man"]
+  },
+  "application/x-troff-me": {
+    "extensions": ["me"]
+  },
+  "application/x-troff-ms": {
+    "extensions": ["ms"]
+  },
+  "application/x-ustar": {
+    "extensions": ["ustar"]
+  },
+  "application/x-wais-source": {
+    "extensions": ["src"]
+  },
+  "application/x-x509-ca-cert": {
+    "extensions": ["crt","der"]
+  },
+  "application/x-zip-compressed": {
+    "extensions": ["zip"]
+  },
+  "application/xaml+xml": {
+    "extensions": ["xaml"]
+  },
+  "application/xhtml+xml": {
+    "extensions": ["xht","xhtml"]
+  },
+  "audio/aac": {
+    "extensions": ["aac"]
+  },
+  "audio/aiff": {
+    "extensions": ["aifc","aiff"]
+  },
+  "audio/basic": {
+    "extensions": ["au","snd"]
+  },
+  "audio/mid": {
+    "extensions": ["mid","midi","rmi"]
+  },
+  "audio/mp4": {
+    "extensions": ["m4a"]
+  },
+  "audio/mpeg": {
+    "extensions": ["mp3"]
+  },
+  "audio/ogg": {
+    "extensions": ["oga","spx"]
+  },
+  "audio/vnd.dlna.adts": {
+    "extensions": ["adt","adts"]
+  },
+  "audio/wav": {
+    "extensions": ["wav"]
+  },
+  "audio/x-aiff": {
+    "extensions": ["aif"]
+  },
+  "audio/x-mpegurl": {
+    "extensions": ["m3u"]
+  },
+  "audio/x-ms-wax": {
+    "extensions": ["wax"]
+  },
+  "audio/x-ms-wma": {
+    "extensions": ["wma"]
+  },
+  "audio/x-pn-realaudio": {
+    "extensions": ["ra","ram"]
+  },
+  "audio/x-pn-realaudio-plugin": {
+    "extensions": ["rpm"]
+  },
+  "audio/x-smd": {
+    "extensions": ["smd","smx","smz"]
+  },
+  "drawing/x-dwf": {
+    "extensions": ["dwf"]
+  },
+  "font/otf": {
+    "extensions": ["otf"]
+  },
+  "font/x-woff": {
+    "extensions": ["woff"]
+  },
+  "image/bmp": {
+    "extensions": ["bmp","dib"]
+  },
+  "image/cis-cod": {
+    "extensions": ["cod"]
+  },
+  "image/gif": {
+    "extensions": ["gif"]
+  },
+  "image/ief": {
+    "extensions": ["ief"]
+  },
+  "image/jpeg": {
+    "extensions": ["jpe","jpeg","jpg"]
+  },
+  "image/pjpeg": {
+    "extensions": ["jfif"]
+  },
+  "image/png": {
+    "extensions": ["png","pnz"]
+  },
+  "image/svg+xml": {
+    "extensions": ["svg","svgz"]
+  },
+  "image/tiff": {
+    "extensions": ["tif","tiff"]
+  },
+  "image/vnd.rn-realflash": {
+    "extensions": ["rf"]
+  },
+  "image/vnd.wap.wbmp": {
+    "extensions": ["wbmp"]
+  },
+  "image/x-cmu-raster": {
+    "extensions": ["ras"]
+  },
+  "image/x-cmx": {
+    "extensions": ["cmx"]
+  },
+  "image/x-icon": {
+    "extensions": ["ico"]
+  },
+  "image/x-jg": {
+    "extensions": ["art"]
+  },
+  "image/x-portable-anymap": {
+    "extensions": ["pnm"]
+  },
+  "image/x-portable-bitmap": {
+    "extensions": ["pbm"]
+  },
+  "image/x-portable-graymap": {
+    "extensions": ["pgm"]
+  },
+  "image/x-portable-pixmap": {
+    "extensions": ["ppm"]
+  },
+  "image/x-rgb": {
+    "extensions": ["rgb"]
+  },
+  "image/x-xbitmap": {
+    "extensions": ["xbm"]
+  },
+  "image/x-xpixmap": {
+    "extensions": ["xpm"]
+  },
+  "image/x-xwindowdump": {
+    "extensions": ["xwd"]
+  },
+  "message/rfc822": {
+    "extensions": ["eml","mht","mhtml","nws"]
+  },
+  "text/cache-manifest": {
+    "extensions": ["appcache"]
+  },
+  "text/calendar": {
+    "extensions": ["ics"]
+  },
+  "text/css": {
+    "extensions": ["css","less"]
+  },
+  "text/dlm": {
+    "extensions": ["dlm"]
+  },
+  "text/h323": {
+    "extensions": ["323"]
+  },
+  "text/html": {
+    "extensions": ["htm","html","hxt"]
+  },
+  "text/iuls": {
+    "extensions": ["uls"]
+  },
+  "text/jscript": {
+    "extensions": ["jsx"]
+  },
+  "text/plain": {
+    "extensions": ["asm","bas","c","cnf","cpp","h","map","txt","vcs","xdr"]
+  },
+  "text/richtext": {
+    "extensions": ["rtx"]
+  },
+  "text/scriptlet": {
+    "extensions": ["sct"]
+  },
+  "text/sgml": {
+    "extensions": ["sgml"]
+  },
+  "text/tab-separated-values": {
+    "extensions": ["tsv"]
+  },
+  "text/vbscript": {
+    "extensions": ["vbs"]
+  },
+  "text/vnd.wap.wml": {
+    "extensions": ["wml"]
+  },
+  "text/vnd.wap.wmlscript": {
+    "extensions": ["wmls"]
+  },
+  "text/webviewhtml": {
+    "extensions": ["htt"]
+  },
+  "text/x-component": {
+    "extensions": ["htc"]
+  },
+  "text/x-hdml": {
+    "extensions": ["hdml"]
+  },
+  "text/x-ms-odc": {
+    "extensions": ["odc"]
+  },
+  "text/x-setext": {
+    "extensions": ["etx"]
+  },
+  "text/x-vcard": {
+    "extensions": ["vcf"]
+  },
+  "text/xml": {
+    "extensions": ["disco","dll.config","dtd","exe.config","mno","vml","wsdl","xml","xsd","xsf","xsl","xslt"]
+  },
+  "video/3gpp": {
+    "extensions": ["3gp","3gpp"]
+  },
+  "video/3gpp2": {
+    "extensions": ["3g2","3gp2"]
+  },
+  "video/avi": {
+    "extensions": ["avi"]
+  },
+  "video/mp4": {
+    "extensions": ["m4v","mp4","mp4v"]
+  },
+  "video/mpeg": {
+    "extensions": ["m1v","mp2","mpa","mpe","mpeg","mpg","mpv2"]
+  },
+  "video/ogg": {
+    "extensions": ["ogg","ogv"]
+  },
+  "video/quicktime": {
+    "extensions": ["mov","qt"]
+  },
+  "video/vnd.dlna.mpeg-tts": {
+    "extensions": ["m2ts","ts","tts"]
+  },
+  "video/webm": {
+    "extensions": ["webm"]
+  },
+  "video/x-flv": {
+    "extensions": ["flv"]
+  },
+  "video/x-ivf": {
+    "extensions": ["ivf"]
+  },
+  "video/x-la-asf": {
+    "extensions": ["lsf","lsx"]
+  },
+  "video/x-ms-asf": {
+    "extensions": ["asf","asr","asx","nsc"]
+  },
+  "video/x-ms-dvr": {
+    "extensions": ["dvr-ms"]
+  },
+  "video/x-ms-wm": {
+    "extensions": ["wm"]
+  },
+  "video/x-ms-wmp": {
+    "extensions": ["wmp"]
+  },
+  "video/x-ms-wmv": {
+    "extensions": ["wmv"]
+  },
+  "video/x-ms-wmx": {
+    "extensions": ["wmx"]
+  },
+  "video/x-ms-wtv": {
+    "extensions": ["wtv"]
+  },
+  "video/x-ms-wvx": {
+    "extensions": ["wvx"]
+  },
+  "video/x-sgi-movie": {
+    "extensions": ["movie"]
+  },
+  "x-world/x-vrml": {
+    "extensions": ["flr","wrl","wrz","xaf","xof"]
+  }
+}

@@ -19,6 +19,11 @@ addData(db, require('../src/nginx-types.json'), 'nginx')
 // now add all our custom data
 addData(db, require('../src/custom-types.json'))
 
+// finally, add IIS data — additive only: contribute an extension solely when no
+// higher-precedence source (iana/apache/nginx/custom) already claims it, so IIS
+// never overrides an existing mapping (e.g. it won't add .zip as x-zip-compressed).
+addIisData(db, require('../src/iis-types.json'))
+
 // finally, all custom suffix defaults
 var mime = require('../src/custom-suffix.json')
 Object.keys(mime).forEach(function (suffix) {
@@ -36,6 +41,42 @@ Object.keys(mime).forEach(function (suffix) {
 
 // write db
 require('./lib/write-db')('db.json', db)
+
+/**
+ * Add IIS mime data to the db as the lowest-precedence source.
+ *
+ * Unlike addData(), this only contributes an extension when no existing type
+ * already claims it, so IIS can introduce net-new types/extensions but never
+ * overrides or competes with iana/apache/nginx/custom mappings.
+ */
+function addIisData (db, mime) {
+  var claimed = {}
+  Object.keys(db).forEach(function (type) {
+    var extensions = db[type].extensions || []
+    for (var i = 0; i < extensions.length; i++) {
+      claimed[extensions[i]] = true
+    }
+  })
+
+  Object.keys(mime).forEach(function (key) {
+    var type = key.toLowerCase()
+    var extensions = (mime[key].extensions || []).filter(function (extension) {
+      return !claimed[extension]
+    })
+
+    // skip types that contribute no net-new extension (also avoids empty .extensions)
+    if (extensions.length === 0) {
+      return
+    }
+
+    var obj = db[type] = db[type] || createTypeEntry('iis')
+    appendExtensions(obj, extensions)
+
+    for (var i = 0; i < extensions.length; i++) {
+      claimed[extensions[i]] = true
+    }
+  })
+}
 
 /**
  * Add mime data to the db, marked as a given source.
