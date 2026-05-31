@@ -103,6 +103,13 @@
   "application/mp4": {
     "extensions": ["m4p"]
   },
+  "application/msaccess": {
+    "extensions": ["accdb", "accde", "accdt"],
+    "notes": "Microsoft Access 2007+ database file formats",
+    "sources": [
+      "https://learn.microsoft.com/en-us/archive/blogs/jaimer/mime-types"
+    ]
+  },
   "application/msix": {
     "compressible": false,
     "extensions": ["msix"],
@@ -560,13 +567,6 @@
   },
   "application/x-mpegurl": {
     "compressible": false
-  },
-  "application/x-msaccess": {
-    "extensions": ["accdb"],
-    "notes": "Microsoft Access 2007+ database file format (.accdb), successor to .mdb",
-    "sources": [
-      "https://support.microsoft.com/en-us/office/which-access-file-format-should-i-use-012d9ab3-d14c-479e-b617-be66f9070b41"
-    ]
   },
   "application/x-msdos-program": {
     "extensions": ["exe"],

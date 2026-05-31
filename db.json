@@ -1229,6 +1229,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/msaccess": {
+    "extensions": ["accdb","accde","accdt"]
+  },
   "application/msc-ivr+xml": {
     "source": "iana",
     "charset": "UTF-8",
@@ -6871,7 +6874,7 @@
   },
   "application/x-msaccess": {
     "source": "apache",
-    "extensions": ["mdb","accdb"]
+    "extensions": ["mdb"]
   },
   "application/x-msbinder": {
     "source": "apache",
