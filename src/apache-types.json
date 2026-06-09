@@ -3274,7 +3274,7 @@
   "video/parityfec": {},
   "video/pointer": {},
   "video/quicktime": {
-    "extensions": ["qt","mov"]
+    "extensions": ["mov","qt"]
   },
   "video/raptorfec": {},
   "video/raw": {},
