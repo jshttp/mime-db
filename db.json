@@ -808,6 +808,9 @@
   "application/h224": {
     "source": "iana"
   },
+  "application/hal+json": {
+    "compressible": true
+  },
   "application/held+xml": {
     "source": "iana",
     "compressible": true

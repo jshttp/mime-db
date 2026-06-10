@@ -67,6 +67,11 @@
   "application/gzip": {
     "compressible": false
   },
+  "application/hal+json": {
+    "sources": [
+      "https://datatracker.ietf.org/doc/html/draft-kelly-json-hal-11#section-3"
+    ]
+  },
   "application/hjson": {
     "extensions": ["hjson"],
     "sources": [

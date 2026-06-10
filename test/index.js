@@ -43,6 +43,10 @@ describe('mime-db', function () {
     assert.strictEqual('flac', db['audio/x-flac'].extensions[0])
   })
 
+  it('should include HAL JSON media type', function () {
+    assert.strictEqual(db['application/hal+json'].compressible, true)
+  })
+
   it('should have guessed application/mathml+xml', function () {
     // because it doesn't have a "template"
     assert(db['application/mathml+xml'])
