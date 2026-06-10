@@ -2943,10 +2943,12 @@
   },
   "application/vnd.comicbook+zip": {
     "source": "iana",
-    "compressible": false
+    "compressible": false,
+    "extensions": ["cbz"]
   },
   "application/vnd.comicbook-rar": {
-    "source": "iana"
+    "source": "iana",
+    "extensions": ["cbr"]
   },
   "application/vnd.commerce-battelle": {
     "source": "iana"

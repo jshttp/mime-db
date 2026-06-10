@@ -43,6 +43,11 @@ describe('mime-db', function () {
     assert.strictEqual('flac', db['audio/x-flac'].extensions[0])
   })
 
+  it('should set ComicBook archive extensions from IANA', function () {
+    assert.strictEqual('cbz', db['application/vnd.comicbook+zip'].extensions[0])
+    assert.strictEqual('cbr', db['application/vnd.comicbook-rar'].extensions[0])
+  })
+
   it('should have guessed application/mathml+xml', function () {
     // because it doesn't have a "template"
     assert(db['application/mathml+xml'])

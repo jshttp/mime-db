@@ -60,7 +60,7 @@ var MIME_TYPE_HAS_CHARSET_PARAMETER_REGEXP = /parameters\s*:[^.]*\bcharset\b/im
 
 ;(async function () {
   const results = Array.prototype.concat.apply([], [
-    await get('application', { extensions: /(?:\/(?:automationml-amlx?\+.+|cwl|ecmascript|express|fdf|gzip|(?:ld|manifest)\+json|mp4|n-quads|n-triples|pgp-.+|sql|trig|vnd\.(?:age|apple\..+|dbf|mapbox-vector-tile|rar))|xfdf|\+xml)$/ }),
+    await get('application', { extensions: /(?:\/(?:automationml-amlx?\+.+|cwl|ecmascript|express|fdf|gzip|(?:ld|manifest)\+json|mp4|n-quads|n-triples|pgp-.+|sql|trig|vnd\.(?:age|apple\..+|comicbook(?:\+zip|-rar)|dbf|mapbox-vector-tile|rar))|xfdf|\+xml)$/ }),
     await get('audio', { extensions: /\/(?:aac|matroska|mobile-xmf)$/ }),
     await get('font', { extensions: true }),
     await get('image', { extensions: true }),

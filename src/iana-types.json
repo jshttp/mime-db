@@ -4140,11 +4140,13 @@
     ]
   },
   "application/vnd.comicbook+zip": {
+    "extensions": ["cbz"],
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.comicbook+zip"
     ]
   },
   "application/vnd.comicbook-rar": {
+    "extensions": ["cbr"],
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.comicbook-rar"
     ]
