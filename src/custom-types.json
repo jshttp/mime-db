@@ -1162,6 +1162,10 @@
   "video/webm": {
     "compressible": false
   },
+  "video/x-flc": {
+    "compressible": false,
+    "extensions": ["flc"]
+  },
   "video/x-flv": {
     "compressible": false
   },
