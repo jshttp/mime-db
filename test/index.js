@@ -65,7 +65,9 @@ describe('mime-db', function () {
   })
 
   it('should have the default .extension as the first', function () {
+    assert.strictEqual(db['audio/aac'].extensions[0], 'aac')
     assert.strictEqual(db['text/plain'].extensions[0], 'txt')
+    assert.strictEqual(db['video/quicktime'].extensions[0], 'mov')
     assert.strictEqual(db['video/x-matroska'].extensions[0], 'mkv')
   })
 })
