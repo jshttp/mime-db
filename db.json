@@ -8956,7 +8956,7 @@
   "text/vcard": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["vcard"]
+    "extensions": ["vcf","vcard"]
   },
   "text/vnd.a": {
     "source": "iana"

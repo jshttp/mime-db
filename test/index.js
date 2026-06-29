@@ -43,6 +43,10 @@ describe('mime-db', function () {
     assert.strictEqual('flac', db['audio/x-flac'].extensions[0])
   })
 
+  it('should set text/vcard with IANA vCard extensions', function () {
+    assert.deepStrictEqual(['vcf', 'vcard'], db['text/vcard'].extensions)
+  })
+
   it('should have guessed application/mathml+xml', function () {
     // because it doesn't have a "template"
     assert(db['application/mathml+xml'])
