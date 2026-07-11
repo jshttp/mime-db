@@ -694,7 +694,7 @@
     "compressible": false
   },
   "application/dicom": {
-    "source": [
+    "sources": [
         "https://www.rfc-editor.org/rfc/rfc3240",
         "https://www.dicomstandard.org/standards/view/media-formats-and-physical-media-for-media-interchange"
       ],
