@@ -1042,6 +1042,15 @@
     "compressible": true,
     "extensions": ["ini"]
   },
+  "text/qml": {
+  	"compressible": true,
+  	"extensions": ["qml"],
+  	"notes": "QML (Qt Modeling Language) is a declarative UI language for the Qt framework",
+  	"sources": [
+		"https://doc.qt.io/qt-6/qtqml-index.html",
+		"https://www.iana.org/assignments/media-types/text/qml"
+  	]
+  },
   "text/richtext": {
     "compressible": true
   },
