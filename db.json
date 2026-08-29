@@ -168,7 +168,8 @@
     "compressible": true
   },
   "application/asyncapi+yaml": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/at+jwt": {
     "source": "iana"
@@ -361,7 +362,8 @@
     "compressible": true
   },
   "application/city+json-seq": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/clr": {
     "source": "iana"
@@ -459,7 +461,8 @@
     "compressible": true
   },
   "application/cwl+yaml": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/cwt": {
     "source": "iana"
@@ -748,10 +751,12 @@
     "extensions": ["geojson"]
   },
   "application/geo+json-seq": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/geofeed+csv": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/geopackage+sqlite3": {
     "source": "iana"
@@ -1538,10 +1543,12 @@
     "compressible": true
   },
   "application/prs.implied-object+json-seq": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/prs.implied-object+yaml": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/prs.implied-structure": {
     "source": "iana"
@@ -2031,7 +2038,8 @@
     "extensions": ["tsd"]
   },
   "application/tlsrpt+gzip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/tlsrpt+json": {
     "source": "iana",
@@ -2147,7 +2155,8 @@
     "extensions": ["vec"]
   },
   "application/vec-package+gzip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/vec-package+zip": {
     "source": "iana",
@@ -2899,7 +2908,8 @@
     "extensions": ["c11amz"]
   },
   "application/vnd.cncf.helm.chart.content.v1.tar+gzip": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.cncf.helm.chart.provenance.v1.prov": {
     "source": "iana"
@@ -3466,7 +3476,8 @@
     "source": "iana"
   },
   "application/vnd.faf+yaml": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.familysearch.gedcom+zip": {
     "source": "iana",
@@ -4826,7 +4837,8 @@
     "compressible": true
   },
   "application/vnd.oai.workflows+yaml": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.oasis.opendocument.base": {
     "source": "iana"
