@@ -1,11 +1,27 @@
 {
+  "+csv": {
+    "compressible": true,
+    "notes": "+csv means it is CSV, which is compressible."
+  },
+  "+gzip": {
+    "compressible": false,
+    "notes": "+gzip means it is a GZIP archive, which is not compressible."
+  },
   "+json": {
     "compressible": true,
     "notes": "+json means it is JSON, which is compressible."
   },
+  "+json-seq": {
+    "compressible": true,
+    "notes": "+json-seq means it is a JSON text sequence, which is compressible."
+  },
   "+xml": {
     "compressible": true,
     "notes": "+xml means it is XML, which is compressible."
+  },
+  "+yaml": {
+    "compressible": true,
+    "notes": "+yaml means it is YAML, which is compressible."
   },
   "+zip": {
     "compressible": false,
