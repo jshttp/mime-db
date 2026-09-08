@@ -23,7 +23,7 @@
     "url": "https://opencollective.com/express"
   },
   "devDependencies": {
-    "csv-parse": "4.16.3",
+    "csv-parse": "7.0.2",
     "eslint": "8.32.0",
     "eslint-config-standard": "15.0.1",
     "eslint-plugin-import": "2.27.5",
@@ -35,7 +35,7 @@
     "mocha": "10.2.0",
     "nyc": "15.1.0",
     "stream-to-array": "2.3.0",
-    "undici": "7.28.0"
+    "undici": "7.29.0"
   },
   "files": [
     "db.json",
