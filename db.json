@@ -333,6 +333,9 @@
   "application/cdni": {
     "source": "iana"
   },
+  "application/cdr": {
+    "extensions": ["cdr"]
+  },
   "application/ce+cbor": {
     "source": "iana"
   },
@@ -413,6 +416,9 @@
   "application/conference-info+xml": {
     "source": "iana",
     "compressible": true
+  },
+  "application/coreldraw": {
+    "extensions": ["cdr"]
   },
   "application/cose": {
     "source": "iana"
@@ -6621,6 +6627,9 @@
     "source": "apache",
     "extensions": ["vcd"]
   },
+  "application/x-cdr": {
+    "extensions": ["cdr"]
+  },
   "application/x-cfs-compressed": {
     "source": "apache",
     "extensions": ["cfs"]
@@ -6649,6 +6658,9 @@
   "application/x-conference": {
     "source": "apache",
     "extensions": ["nsc"]
+  },
+  "application/x-coreldraw": {
+    "extensions": ["cdr"]
   },
   "application/x-cpio": {
     "source": "apache",

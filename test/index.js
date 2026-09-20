@@ -39,6 +39,13 @@ describe('mime-db', function () {
     assert.strictEqual('UTF-8', db['application/javascript'].charset)
   })
 
+  it('should map CorelDRAW .cdr to application/x-coreldraw and aliases', function () {
+    assert.strictEqual(db['application/x-coreldraw'].extensions[0], 'cdr')
+    assert.strictEqual(db['application/x-cdr'].extensions[0], 'cdr')
+    assert.strictEqual(db['application/cdr'].extensions[0], 'cdr')
+    assert.strictEqual(db['application/coreldraw'].extensions[0], 'cdr')
+  })
+
   it('should set audio/x-flac with extension=flac', function () {
     assert.strictEqual('flac', db['audio/x-flac'].extensions[0])
   })
