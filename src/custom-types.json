@@ -29,6 +29,21 @@
       "http://www.id.ee/public/bdoc-spec21.pdf"
     ]
   },
+  "application/cdr": {
+    "extensions": ["cdr"],
+    "notes": "CorelDRAW drawing (legacy type still seen in the wild)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/CorelDRAW",
+      "https://www.freeformatter.com/mime-types-list.html"
+    ]
+  },
+  "application/coreldraw": {
+    "extensions": ["cdr"],
+    "notes": "CorelDRAW drawing (legacy type still seen in the wild)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/CorelDRAW"
+    ]
+  },
   "application/dart": {
     "compressible": true
   },
@@ -483,6 +498,22 @@
   },
   "application/x-bzip2": {
     "compressible": false
+  },
+  "application/x-cdr": {
+    "extensions": ["cdr"],
+    "notes": "CorelDRAW drawing",
+    "sources": [
+      "https://en.wikipedia.org/wiki/CorelDRAW",
+      "https://www.freeformatter.com/mime-types-list.html"
+    ]
+  },
+  "application/x-coreldraw": {
+    "extensions": ["cdr"],
+    "notes": "CorelDRAW drawing",
+    "sources": [
+      "https://en.wikipedia.org/wiki/CorelDRAW",
+      "https://www.loc.gov/preservation/digital/formats/fdd/fdd000395.shtml"
+    ]
   },
   "application/x-chrome-extension": {
     "extensions": ["crx"]
